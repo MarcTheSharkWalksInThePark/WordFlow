@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WordFlow Reader</title>
+    <link rel="icon" href="assets/wordflow-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar" aria-label="WordFlow Reader">
+        <div class="brand">
+          <img class="brand-mark" src="assets/wordflow-mark.svg" alt="" aria-hidden="true">
+          <div>
+            <h1>WordFlow Reader</h1>
+            <p id="reader-status" class="status-line" aria-live="polite">Ready</p>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <button id="focus-mode-button" class="icon-text-button subtle" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
+              <path d="M16 3h3a2 2 0 0 1 2 2v3"></path>
+              <path d="M8 21H5a2 2 0 0 1-2-2v-3"></path>
+              <path d="M16 21h3a2 2 0 0 0 2-2v-3"></path>
+            </svg>
+            <span id="focus-mode-label">Focus</span>
+          </button>
+          <div class="quick-stats" aria-label="Reading stats">
+            <div>
+              <span id="word-count">0</span>
+              <small>words</small>
+            </div>
+            <div>
+              <span id="time-left">0:00</span>
+              <small>left</small>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="workspace" aria-label="Reader workspace">
+        <aside class="source-panel panel" aria-label="Source text">
+          <div class="panel-heading">
+            <h2>Source</h2>
+            <div class="source-actions">
+              <button id="resume-button" class="icon-text-button subtle" type="button" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7z"></path>
+                  <path d="M3 5v14"></path>
+                </svg>
+                Resume
+              </button>
+              <button id="sample-button" class="icon-text-button subtle" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"></path>
+                </svg>
+                Sample
+              </button>
+            </div>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Text source">
+            <button id="tab-paste" class="tab active" type="button" role="tab" aria-selected="true" aria-controls="paste-pane" data-tab="paste">Text</button>
+            <button id="tab-file" class="tab" type="button" role="tab" aria-selected="false" aria-controls="file-pane" data-tab="file">File</button>
+            <button id="tab-url" class="tab" type="button" role="tab" aria-selected="false" aria-controls="url-pane" data-tab="url">Website</button>
+          </div>
+
+          <div id="paste-pane" class="tab-pane active" role="tabpanel" aria-labelledby="tab-paste">
+            <label class="field-label" for="text-input">Text</label>
+            <textarea id="text-input" spellcheck="false" placeholder="Paste or type text here"></textarea>
+            <div class="button-row">
+              <button id="load-text-button" class="icon-text-button primary" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+                Review text
+              </button>
+              <button id="clear-button" class="icon-button" type="button" title="Clear text" aria-label="Clear text">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 6h18"></path>
+                  <path d="M8 6V4h8v2"></path>
+                  <path d="M19 6l-1 14H6L5 6"></path>
+                  <path d="M10 11v5"></path>
+                  <path d="M14 11v5"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div id="file-pane" class="tab-pane" role="tabpanel" aria-labelledby="tab-file" hidden>
+            <label class="file-drop" for="file-input">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <path d="M14 2v6h6"></path>
+                <path d="M12 18v-6"></path>
+                <path d="m9 15 3 3 3-3"></path>
+              </svg>
+              <span id="file-name">Choose text, PDF, or DOCX</span>
+            </label>
+            <input id="file-input" type="file" accept=".txt,.md,.markdown,.html,.htm,.csv,.json,.rtf,.pdf,.docx,text/*,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+          </div>
+
+          <div id="url-pane" class="tab-pane" role="tabpanel" aria-labelledby="tab-url" hidden>
+            <label class="field-label" for="url-input">Website URL</label>
+            <div class="url-row">
+              <input id="url-input" type="url" inputmode="url" placeholder="https://example.com/article">
+              <button id="load-url-button" class="icon-text-button primary" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                </svg>
+                Load
+              </button>
+            </div>
+          </div>
+
+          <div id="source-review" class="source-review" hidden>
+            <div class="review-heading">
+              <div class="review-title-block">
+                <span class="field-label">Review source</span>
+                <strong id="source-title">Untitled source</strong>
+              </div>
+              <button id="review-back-button" class="icon-button" type="button" title="Back to source" aria-label="Back to source">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m15 18-6-6 6-6"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="source-metrics" aria-label="Source metrics">
+              <span><strong id="review-word-count">0</strong> words</span>
+              <span><strong id="review-char-count">0</strong> chars</span>
+            </div>
+
+            <p id="source-warning" class="source-warning" hidden></p>
+
+            <fieldset class="cleanup-box">
+              <legend>Cleanup</legend>
+              <label class="mini-toggle">
+                <input id="cleanup-linebreaks" type="checkbox" checked>
+                <span>Fix wrapped lines</span>
+              </label>
+              <label class="mini-toggle">
+                <input id="cleanup-hyphens" type="checkbox" checked>
+                <span>Repair hyphen breaks</span>
+              </label>
+              <label class="mini-toggle">
+                <input id="cleanup-boilerplate" type="checkbox" checked>
+                <span>Remove obvious clutter</span>
+              </label>
+              <label class="mini-toggle">
+                <input id="cleanup-page-noise" type="checkbox" checked>
+                <span>Remove page headers</span>
+              </label>
+            </fieldset>
+
+            <label class="field-label" for="review-text">Preview</label>
+            <textarea id="review-text" class="review-text" spellcheck="false"></textarea>
+
+            <div class="button-row">
+              <button id="apply-source-button" class="icon-text-button primary" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+                Use source
+              </button>
+              <button id="raw-source-button" class="icon-text-button" type="button">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 7h16"></path>
+                  <path d="M4 12h16"></path>
+                  <path d="M4 17h10"></path>
+                </svg>
+                Raw
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="reader-panel panel" aria-label="One word reader">
+          <div class="reader-frame">
+            <div class="focus-rail top"></div>
+            <div id="previous-context" class="context-word previous" aria-hidden="true"></div>
+            <div id="word-display" class="word-display" aria-live="off">
+              <span class="empty-word">Load text</span>
+            </div>
+            <div id="next-context" class="context-word next" aria-hidden="true"></div>
+            <div id="finish-summary" class="finish-summary" hidden>
+              <div>
+                <span class="field-label">Finished</span>
+                <strong id="finish-title">Reading complete</strong>
+              </div>
+              <div class="finish-metrics">
+                <span><strong id="finish-words">0</strong> words</span>
+                <span><strong id="finish-time">0:00</strong> spent</span>
+                <span><strong id="finish-wpm">0</strong> avg WPM</span>
+              </div>
+              <div class="finish-actions">
+                <button id="finish-restart-button" class="icon-text-button primary" type="button">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3 2v6h6"></path>
+                    <path d="M3.51 15a9 9 0 1 0 2.13-9.36L3 8"></path>
+                  </svg>
+                  Restart
+                </button>
+                <button id="finish-new-source-button" class="icon-text-button" type="button">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 5v14"></path>
+                    <path d="M5 12h14"></path>
+                  </svg>
+                  Source
+                </button>
+              </div>
+            </div>
+            <div class="focus-rail bottom"></div>
+          </div>
+
+          <div class="progress-area">
+            <div class="progress-meta">
+              <span id="position-label">0 / 0</span>
+              <span id="percent-label">0%</span>
+            </div>
+            <input id="progress-slider" class="progress-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Reading position">
+          </div>
+
+          <div class="transport" aria-label="Playback controls">
+            <button id="restart-button" class="icon-button" type="button" title="Restart" aria-label="Restart">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 2v6h6"></path>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L3 8"></path>
+              </svg>
+            </button>
+            <button id="prev-button" class="icon-button" type="button" title="Previous word" aria-label="Previous word">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m11 17-5-5 5-5"></path>
+                <path d="m18 17-5-5 5-5"></path>
+              </svg>
+            </button>
+            <button id="sentence-back-button" class="icon-button" type="button" title="Back to sentence" aria-label="Back to sentence">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M11 6 5 12l6 6"></path>
+                <path d="M19 6v12"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+            </button>
+            <button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">
+              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m8 5 11 7-11 7z"></path>
+              </svg>
+            </button>
+            <button id="next-button" class="icon-button" type="button" title="Next word" aria-label="Next word">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m13 17 5-5-5-5"></path>
+                <path d="m6 17 5-5-5-5"></path>
+              </svg>
+            </button>
+            <button id="copy-word-button" class="icon-button" type="button" title="Copy current word" aria-label="Copy current word">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <aside class="settings-panel panel" aria-label="Settings">
+          <div class="panel-heading">
+            <h2>Settings</h2>
+            <output id="wpm-output" for="wpm-slider">300 WPM</output>
+          </div>
+
+          <label class="range-block" for="wpm-slider">
+            <span>Words per minute</span>
+            <input id="wpm-slider" type="range" min="100" max="900" value="300" step="10">
+          </label>
+
+          <div class="stepper-row" aria-label="WPM stepper">
+            <button id="slower-button" class="icon-text-button" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 12H5"></path>
+              </svg>
+              Slower
+            </button>
+            <button id="faster-button" class="icon-text-button" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 5v14"></path>
+                <path d="M5 12h14"></path>
+              </svg>
+              Faster
+            </button>
+          </div>
+
+          <fieldset class="option-group">
+            <legend>Sections</legend>
+            <label class="field-label" for="section-select">Jump to</label>
+            <select id="section-select" class="section-select" disabled>
+              <option>No sections</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="option-group">
+            <legend>Pacing</legend>
+            <label class="toggle-row">
+              <span>Sentence pauses</span>
+              <input id="sentence-pause-toggle" type="checkbox" checked>
+            </label>
+            <label class="toggle-row">
+              <span>Comma pauses</span>
+              <input id="comma-pause-toggle" type="checkbox" checked>
+            </label>
+            <label class="toggle-row">
+              <span>Paragraph pauses</span>
+              <input id="paragraph-pause-toggle" type="checkbox" checked>
+            </label>
+            <label class="toggle-row">
+              <span>Smart long-word pacing</span>
+              <input id="smart-pacing-toggle" type="checkbox" checked>
+            </label>
+            <label class="toggle-row">
+              <span>Focus letter</span>
+              <input id="focus-toggle" type="checkbox" checked>
+            </label>
+          </fieldset>
+
+          <fieldset class="option-group">
+            <legend>View</legend>
+            <label class="toggle-row">
+              <span>Context words</span>
+              <input id="context-toggle" type="checkbox" checked>
+            </label>
+            <div class="segmented" role="group" aria-label="Word size">
+              <button class="segment active" type="button" data-size="comfortable">Comfort</button>
+              <button class="segment" type="button" data-size="large">Large</button>
+              <button class="segment" type="button" data-size="compact">Compact</button>
+            </div>
+          </fieldset>
+        </aside>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
