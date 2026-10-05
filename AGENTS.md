@@ -139,6 +139,8 @@ bash tools/push.sh                                          # the only way to pu
 
 ## Open items
 
+- **[Needs Human Input] RULING W3:** local history rewritten and verified; Marcus must delete/recreate WordFlow on GitHub empty and private, enable email privacy/push blocking, then reply `done`. Push waits for confirmation; no force push. SHA mapping: `docs/verification/2026-10-05_codex_history_email_rewrite.md`.
+
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 

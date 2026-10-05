@@ -33,3 +33,14 @@ Source: MarcDeck `docs/verification/2026-10-01_cc_recon_wordflow_split.md`, sect
 ## Other open decisions
 
 **Licence — Marcus:** LICENSE says exactly “TO BE DECIDED BY MARCUS”. Public hosting and deployment need their own ruling and verification. RULING W1 does not authorize any edits or removals in MarcDeck. W1 canonicality takes effect from the replayed first commit; this file is recorded in the follow-up implementation commit, as required by M2's provenance step.
+
+## RULING W3 — history email privacy
+
+Marcus's rulings, 2026-10-05, relayed by the claude.ai orchestrator:
+
+- **W3.1** Every commit's author and committer email becomes `292589207+MarcTheSharkWalksInThePark@users.noreply.github.com`. Everything else stays unchanged: names, dates, timezones, messages and parent order.
+- **W3.2** Every occurrence of the old personal email inside committed FILE CONTENT, in every commit, becomes the text "<email redacted>". This includes other agents' reports. This is a one-time exception to "never edit another agent's report". Redaction is the only permitted change to those files.
+- **W3.3** The GitHub remote is NOT force-pushed. After local verification, Marcus deletes the GitHub repository and recreates it empty, private, with the same name. Then the rewritten master is pushed through `tools/push.sh` as normal. No `--no-verify`, no hand-written marker, no force push.
+- **W3.4** This repository's local `git config user.email` becomes the no-reply address, so future commits never carry the personal email.
+
+Implementation: all eight existing commits and both local branches rewritten and verified; one report file redacted by exact byte replacement. Earlier WordFlow SHA citations are pre-rewrite; the old-to-new mapping is in `docs/verification/2026-10-05_codex_history_email_rewrite.md`. The additional final commit records this ruling and report. No push attempted; Marcus's empty-private-repository recreation and `done` confirmation are required first.
