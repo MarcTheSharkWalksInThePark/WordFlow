@@ -139,8 +139,6 @@ bash tools/push.sh                                          # the only way to pu
 
 ## Open items
 
-- **[Needs Human Input] RULING W3:** local history rewritten and verified; Marcus must delete/recreate WordFlow on GitHub empty and private, enable email privacy/push blocking, then reply `done`. Push waits for confirmation; no force push. SHA mapping: `docs/verification/2026-10-05_codex_history_email_rewrite.md`.
-
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
@@ -172,6 +170,7 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   - **L7:** smoke uses Codex's bundled Playwright.
   - **L8:** commit identity is Marcus, with the agent in the trailer.
 - **Resolved on 2026-10-05:**
+  - RULING W3: no-reply history and literal report redaction verified; Marcus confirmed the GitHub recreation/email settings; normal gated push and fresh GitHub clone privacy checks passed. Earlier WordFlow SHAs are pre-rewrite; mapping is in `docs/verification/2026-10-05_codex_history_email_rewrite.md`.
   - the GitHub repository (name `WordFlow`, private, backup on GitHub);
   - the independent reviewer (CC: CLEAR);
   - the WordFlow push gate (`tools/push.sh` and `.githooks/pre-push`).

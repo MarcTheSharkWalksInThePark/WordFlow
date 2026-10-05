@@ -85,3 +85,13 @@ No push attempted. Marcus must:
 Then Codex runs only bash tools/push.sh. If its gate refuses the empty remote, stop and report without a workaround. On success, verify remote master equals local master and repeat the identity/content/reachable-object privacy check in a fresh GitHub clone.
 
 After go-live Marcus deletes the local safety mirror, empties the MarcDeck ZIP quarantine himself, and decides whether to rotate the key unless those ZIPs never left his PC. Today's dated daily note is missing and was not created.
+
+## Push completion — 2026-10-05 22:51 +02:00
+
+Marcus replied `done`, confirming the manual repository recreation and email-setting steps. The unmodified `bash tools/push.sh` gate accepted the remote, ran npm test without skips, pushed master as a new GitHub branch (no force push) and verified remote master equals local master at `b4de13cd5ce3b84334712c003a376c2d27fd9be6`.
+
+A fresh network clone from GitHub, not the local repository, passed step 4a: all 9 commits have only the specified no-reply author/committer emails; git grep -F across all commits found zero old-email matches; the 85 reachable objects enumerated through cat-file --batch-all-objects metadata and read with --batch contained zero old-email matches; fsck passed. No .env content read.
+
+The earlier no-push/manual-handoff sections record the pre-confirmation checkpoint and are superseded by this completion entry. A follow-up documentation commit closes the W3 open item and records this evidence; it changes no product source or rewritten historical commit. The original 8-commit mapping remains unchanged. This documentation commit is also pushed only through tools/push.sh and its fresh GitHub clone is checked before the final response.
+
+Remaining human cleanup: delete the safety mirror after go-live, empty the ZIP quarantine yourself, and decide key rotation unless those ZIPs never left the PC.
