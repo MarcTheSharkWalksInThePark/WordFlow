@@ -1,0 +1,360 @@
+{
+  "mode": "parity",
+  "bodyNormalization": "none; statuses and bodies byte-for-byte; transport headers (Date, Connection, framing) not compared",
+  "cases": [
+    {
+      "label": "static /",
+      "method": "GET",
+      "target": "/",
+      "status": 200,
+      "bytes": 16099,
+      "sha256": "a3c9b0c6930fa6f7023c1e682442ad52c06f58f391aef5a123ae587060006d68",
+      "parity": "identical"
+    },
+    {
+      "label": "static /index.html",
+      "method": "GET",
+      "target": "/index.html",
+      "status": 200,
+      "bytes": 16099,
+      "sha256": "a3c9b0c6930fa6f7023c1e682442ad52c06f58f391aef5a123ae587060006d68",
+      "parity": "identical"
+    },
+    {
+      "label": "static /app.js",
+      "method": "GET",
+      "target": "/app.js",
+      "status": 200,
+      "bytes": 39905,
+      "sha256": "1ff585fd5eb99c0a4caa2ac591a740057fcb3a47c789369eb3237454cb06a714",
+      "parity": "identical"
+    },
+    {
+      "label": "static /styles.css",
+      "method": "GET",
+      "target": "/styles.css",
+      "status": 200,
+      "bytes": 16514,
+      "sha256": "3440c81203bb32365040a544ef5f84a14f517c90dc866a0f7881cc07b31b8d1a",
+      "parity": "identical"
+    },
+    {
+      "label": "static /assets/wordflow-mark.svg",
+      "method": "GET",
+      "target": "/assets/wordflow-mark.svg",
+      "status": 200,
+      "bytes": 542,
+      "sha256": "505676ee47e22d3f9558a64cca0466c917f0c526c46e18907b00f6a2e566abb4",
+      "parity": "identical"
+    },
+    {
+      "label": "HEAD homepage",
+      "method": "HEAD",
+      "target": "/",
+      "status": 200,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "parity": "identical"
+    },
+    {
+      "label": "homepage query",
+      "method": "GET",
+      "target": "/?fixture=1",
+      "status": 200,
+      "bytes": 16099,
+      "sha256": "a3c9b0c6930fa6f7023c1e682442ad52c06f58f391aef5a123ae587060006d68",
+      "parity": "identical"
+    },
+    {
+      "label": "encoded static",
+      "method": "GET",
+      "target": "/assets%5Cwordflow-mark.svg",
+      "status": 200,
+      "bytes": 542,
+      "sha256": "505676ee47e22d3f9558a64cca0466c917f0c526c46e18907b00f6a2e566abb4",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /unknown",
+      "method": "GET",
+      "target": "/unknown",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /server.js",
+      "method": "GET",
+      "target": "/server.js",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /package.json",
+      "method": "GET",
+      "target": "/package.json",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /extract_text.py",
+      "method": "GET",
+      "target": "/extract_text.py",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /.env.local",
+      "method": "GET",
+      "target": "/.env.local",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "refused /%2Eenv.local",
+      "method": "GET",
+      "target": "/%2Eenv.local",
+      "status": 404,
+      "bytes": 9,
+      "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+      "parity": "identical"
+    },
+    {
+      "label": "extract GET",
+      "method": "GET",
+      "target": "/api/extract-file",
+      "status": 405,
+      "bytes": 25,
+      "sha256": "914f2c3b1181336ec91eed58ed147d4ef7046e66a133028baf7dd31cf7f7c7b6",
+      "parity": "identical"
+    },
+    {
+      "label": "extract missing boundary",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 500,
+      "bytes": 38,
+      "sha256": "33372944f2a6f6b8bdd45f93d75d7f8d32c393132e6afc7ec344a8e3f17dfb91",
+      "parity": "identical"
+    },
+    {
+      "label": "extract multipart without file",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 400,
+      "bytes": 28,
+      "sha256": "d70cb8776bf620e256a257f327ee9643e1a9c90b26e1ff810c66256a2f286ba8",
+      "parity": "identical"
+    },
+    {
+      "label": "TXT UTF-8 extraction",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 160,
+      "sha256": "f2c7143edc090d6b5e104961aabf2f5072c80006e01a7278b3ba4128a5dae740",
+      "parity": "identical"
+    },
+    {
+      "label": "TXT Latin-1 fallback",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 77,
+      "sha256": "07eb52c7d21b0dbc1a09085912406ff5b8ea574b5be479495e2f575c7ff6b336",
+      "parity": "identical"
+    },
+    {
+      "label": "empty TXT",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 72,
+      "sha256": "efca8565bf95425e7fe576522ed6ba53c178ca6f1ab47e2040c82c0febbac674",
+      "parity": "identical"
+    },
+    {
+      "label": "text MIME extension fallback",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 86,
+      "sha256": "9f03808d0af254f1380241dd44438b9b010de856df0cc770a4f117fdab707837",
+      "parity": "identical"
+    },
+    {
+      "label": "unsupported file",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 415,
+      "bytes": 54,
+      "sha256": "7da1ada2da1fa1ef9aa09852fb31f49b508564204f53ae3cd6af3606eeb06d32",
+      "parity": "identical"
+    },
+    {
+      "label": "PDF extraction",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 114,
+      "sha256": "a6c7e70da437dbef4435a149a0418b7f0fc7d1dc6237f31ea6e4964d02078a9f",
+      "parity": "identical"
+    },
+    {
+      "label": "DOCX extraction",
+      "method": "POST",
+      "target": "/api/extract-file",
+      "status": 200,
+      "bytes": 210,
+      "sha256": "dbdc7be53fb81b046a3204f0aa694247fe96f0ff49525b7cd449eee4e7d9821b",
+      "parity": "identical"
+    },
+    {
+      "label": "read missing URL",
+      "method": "GET",
+      "target": "/api/read",
+      "status": 400,
+      "bytes": 23,
+      "sha256": "670387e5dba580abfe81c39447de76d49bb64c1764c25fbaeb6291c97895f447",
+      "parity": "identical"
+    },
+    {
+      "label": "read invalid URL",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F%5B",
+      "status": 400,
+      "bytes": 23,
+      "sha256": "670387e5dba580abfe81c39447de76d49bb64c1764c25fbaeb6291c97895f447",
+      "parity": "identical"
+    },
+    {
+      "label": "read local /html",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Fhtml",
+      "status": 200,
+      "bytes": 156,
+      "sha256": "57b2f0d2ad0dc734919c9ab27795afc7af2b26c2e68281be1a3adbf560b9d1c7",
+      "parity": "identical"
+    },
+    {
+      "label": "read local /redirect",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Fredirect",
+      "status": 200,
+      "bytes": 156,
+      "sha256": "57b2f0d2ad0dc734919c9ab27795afc7af2b26c2e68281be1a3adbf560b9d1c7",
+      "parity": "identical"
+    },
+    {
+      "label": "read local /plain",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Fplain",
+      "status": 200,
+      "bytes": 116,
+      "sha256": "c7b63b9fa0246ded66b551678dbedf2eebd044be7ce035a290bc60d099e3fd5c",
+      "parity": "identical"
+    },
+    {
+      "label": "read local /missing",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Fmissing",
+      "status": 404,
+      "bytes": 94,
+      "sha256": "12b4f01aef8f821dac7d5ea1cde904723f15746f4cc6fa605425dadac9ee000c",
+      "parity": "identical"
+    },
+    {
+      "label": "read oversized local response",
+      "method": "GET",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Flarge",
+      "status": 500,
+      "bytes": 30,
+      "sha256": "373ae113e01fa88d724faa7d00850182a2d22c70ad5f5c4cdfeb0d4c9c581e31",
+      "parity": "identical"
+    },
+    {
+      "label": "read accepts POST as before",
+      "method": "POST",
+      "target": "/api/read?url=http%3A%2F%2F127.0.0.1%3A59113%2Fplain",
+      "status": 200,
+      "bytes": 116,
+      "sha256": "c7b63b9fa0246ded66b551678dbedf2eebd044be7ce035a290bc60d099e3fd5c",
+      "parity": "identical"
+    }
+  ],
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 16099,
+      "sha256": "a3c9b0c6930fa6f7023c1e682442ad52c06f58f391aef5a123ae587060006d68",
+      "parity": "identical"
+    },
+    {
+      "file": "app.js",
+      "bytes": 39905,
+      "sha256": "1ff585fd5eb99c0a4caa2ac591a740057fcb3a47c789369eb3237454cb06a714",
+      "parity": "identical"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 16514,
+      "sha256": "3440c81203bb32365040a544ef5f84a14f517c90dc866a0f7881cc07b31b8d1a",
+      "parity": "identical"
+    },
+    {
+      "file": "assets/wordflow-mark.svg",
+      "bytes": 542,
+      "sha256": "505676ee47e22d3f9558a64cca0466c917f0c526c46e18907b00f6a2e566abb4",
+      "parity": "identical"
+    },
+    {
+      "file": "extract_text.py",
+      "bytes": 5278,
+      "sha256": "8aa98da99d180ef61e2634079ce343a5d7d49f1179726acca4710a904031e0c6",
+      "parity": "identical"
+    }
+  ],
+  "skips": [],
+  "network": {
+    "events": 8,
+    "nonLoopbackBinds": 0,
+    "outboundConnections": 0,
+    "guard": "active in all server processes"
+  },
+  "python": {
+    "interpreter": "C:\\Users\\Marcu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "version": "3.12.14",
+    "files": [
+      "fixture.pdf",
+      "fixture.docx"
+    ],
+    "skips": []
+  },
+  "fixtureHits": [
+    "/html",
+    "/html",
+    "/redirect",
+    "/html",
+    "/redirect",
+    "/html",
+    "/plain",
+    "/plain",
+    "/missing",
+    "/missing",
+    "/large",
+    "/large",
+    "/plain",
+    "/plain"
+  ],
+  "passed": 32,
+  "differences": []
+}

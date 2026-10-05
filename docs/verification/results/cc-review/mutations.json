@@ -1,0 +1,148 @@
+{
+  "runner": "CC independent (scratchpad wfmut.js)",
+  "suite": "tests/server_exposure.test.js via WORDFLOW_TEST_REPO",
+  "repoServerSha256": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+  "baseline": {
+    "exit": 0,
+    "signal": null,
+    "summary": "32 checks passed.",
+    "failing": []
+  },
+  "rows": [
+    {
+      "id": "M2-allowlist-bypassed",
+      "transform": {
+        "kind": "replace",
+        "find": "return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "return relativePath;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "c5f06db35705c6adb53ec519c93ab461b62c0d1da9a9666b225b3277c4e817c6",
+      "run": {
+        "exit": 1,
+        "signal": null,
+        "summary": "30 checks passed.",
+        "failing": [
+          "FAIL  part 2: ordinary files that are not on the list return 404",
+          "FAIL  part 2: matching is exact and case-sensitive"
+        ]
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "KILLED",
+      "byteExactRestore": true
+    },
+    {
+      "id": "M3-dotfile-guard-removed",
+      "transform": {
+        "kind": "replace",
+        "find": "if (isRefusedStaticPath(decoded)) return null;",
+        "replace": "/* guard removed */"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "258deaafbb2bb46183d5a40b1ddec7a378d7f39c5551a76fede1b10610f31446",
+      "run": {
+        "exit": 1,
+        "signal": null,
+        "summary": "30 checks passed.",
+        "failing": [
+          "FAIL  part 3 (F5): the guard runs before normalisation, so an encoded '..' to a listed file returns 404",
+          "FAIL  part 3: dotfiles and .env* are refused even when listed (the list holds them by mistake here)"
+        ]
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "KILLED",
+      "byteExactRestore": true
+    },
+    {
+      "id": "M9-guard-dot-prefix-only",
+      "transform": {
+        "kind": "replace",
+        "find": "segment.startsWith(\".\") || /^\\.env/i.test(segment)",
+        "replace": "segment.startsWith(\".\")"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "25936fe044e6efc9698a59071e975fb1aabfe2a2d3940cf983a95f8ee222b543",
+      "run": {
+        "exit": 0,
+        "signal": null,
+        "summary": "32 checks passed.",
+        "failing": []
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "SURVIVED",
+      "byteExactRestore": true
+    },
+    {
+      "id": "N4-b2-after-url-parsing",
+      "transform": {
+        "kind": "replace",
+        "find": "  // B2: only an origin-form target is routed. \"//x\" and \"/\\x\" would parse as a network-path\r\n  // reference whose host swallows the first segment; an absolute-form target does not start \"/\".\r\n  if (!req.url.startsWith(\"/\") || req.url[1] === \"/\" || req.url[1] === \"\\\\\") {\r\n    sendText(res, 404, \"Not found\");\r\n    return;\r\n  }\r\n\r\n  try {\r\n    const requestUrl = new URL(req.url, \"http://localhost\");",
+        "replace": "  try {\r\n    const requestUrl = new URL(req.url, \"http://localhost\");\r\n  // B2: only an origin-form target is routed. \"//x\" and \"/\\x\" would parse as a network-path\r\n  // reference whose host swallows the first segment; an absolute-form target does not start \"/\".\r\n  if (!req.url.startsWith(\"/\") || req.url[1] === \"/\" || req.url[1] === \"\\\\\") {\r\n    sendText(res, 404, \"Not found\");\r\n    return;\r\n  }"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "16a078179b25d100406cff04fc8628440ef8e3321ee494a2dc86be0747e45ba4",
+      "run": {
+        "exit": 1,
+        "signal": null,
+        "summary": "31 checks passed.",
+        "failing": [
+          "FAIL  F7 (N4): targets that make URL parsing throw are refused by B2 first, with 404"
+        ]
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "KILLED",
+      "byteExactRestore": true
+    },
+    {
+      "id": "N6-node-host-requirement-always-off",
+      "transform": {
+        "kind": "replace",
+        "find": "requireHostHeader: !checkHostHeader",
+        "replace": "requireHostHeader: false"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "1151d2d5c95c1fa71d73c3fc1837bbac9d709c474c5b3daee6875ab7a84f8404",
+      "run": {
+        "exit": 1,
+        "signal": null,
+        "summary": "30 checks passed.",
+        "failing": [
+          "FAIL  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+          "FAIL  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400"
+        ]
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "KILLED",
+      "byteExactRestore": true
+    },
+    {
+      "id": "D1-duplicate-host-check-removed",
+      "transform": {
+        "kind": "replace",
+        "find": "if (req.rawHeaders.filter((value, index) => index % 2 === 0 && value.toLowerCase() === \"host\").length > 1) {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.spec.json",
+      "shaBefore": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "shaMutated": "a7d7ab890142b7dafc4c61f7cce614ab196f5c24781b57e40c6976ec037296df",
+      "run": {
+        "exit": 1,
+        "signal": null,
+        "summary": "30 checks passed.",
+        "failing": [
+          "FAIL  B3: two Host field lines are refused with 400 on a static and an API route, for GET, HEAD and POST",
+          "FAIL  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400"
+        ]
+      },
+      "shaRestored": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+      "verdict": "KILLED",
+      "byteExactRestore": true
+    }
+  ],
+  "repoServerUnchanged": true
+}
