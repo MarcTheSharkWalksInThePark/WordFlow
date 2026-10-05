@@ -156,8 +156,7 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   and deployment approval (`HOSTING.md`).
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
-- **[Needs Human Input]** The eight local ZIP copies of MarcDeck in `Documents/`: not opened, not
-  scanned.
+- **Marcus's instruction, relayed by the orchestrator:** checked against MarcDeck history 2026-10-05; possibly unique entries found; nothing moved; report in the vault.
 - **Unverified:** Windows 8.3 short names; Node versions below 24.16.0.
 - **Review findings, not blocking:**
   - **L1:** Python silently depends on Codex's runtime; a non-path `PYTHON` is ignored; HOSTING.md

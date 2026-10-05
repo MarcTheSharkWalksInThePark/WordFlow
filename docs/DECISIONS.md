@@ -28,7 +28,7 @@ Source: MarcDeck `docs/verification/2026-10-01_cc_recon_wordflow_split.md`, sect
 | 16 | WordFlow hooks / push gate | **Open — Marcus.** No custom hooks or inherited MarcDeck push gate installed. Verification is available via npm test/mutations. |
 | 17 | MarcDeck upload producer | **Open — Marcus and MarcDeck engineer.** No new cross-repo dependency introduced; removal phase must settle its extractor. |
 | 18 | Timing in MarcDeck build order | **Settled for WordFlow extraction:** execute this task now. MarcDeck removal timing remains **Marcus/orchestration**. |
-| 19 | Eight local ZIP copies | **Open — Marcus.** Not opened, copied, scanned or deleted; secret-sprawl claim remains unverified. |
+| 19 | Eight local ZIP copies | **Marcus's instruction, relayed by the orchestrator:** checked against MarcDeck history 2026-10-05; possibly unique entries found; nothing moved; report in the vault. |
 
 ## Other open decisions
 
