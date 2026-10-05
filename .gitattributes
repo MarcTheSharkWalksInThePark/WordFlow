@@ -9,3 +9,7 @@ server.js text eol=crlf
 *.json text eol=lf
 *.md text eol=lf
 requirements.txt text eol=lf
+# Push gate (tools/push.sh) and its hook must keep LF endings, or bash cannot run them.
+*.sh text eol=lf
+.githooks/* text eol=lf
+tools/push.log text eol=lf

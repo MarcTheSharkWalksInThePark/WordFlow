@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Rejects any push that tools/push.sh did not start.
+#
+# tools/push.sh writes the single-use marker $GIT_DIR/WORDFLOW_PUSH_OK, holding HEAD's sha, just
+# before its own `git push origin master`. This hook refuses unless the marker exists, and every
+# ref being pushed is refs/heads/master at exactly the marker's sha. The marker is deleted on every
+# outcome, so it can never be reused.
+# Active only with: git config core.hooksPath .githooks (tools/push.sh refuses without it).
+# `git push --no-verify` skips every hook; never use it in this repository.
+set -euo pipefail
+
+MARKER=$(git rev-parse --git-path WORDFLOW_PUSH_OK)
+trap 'rm -f "$MARKER"' EXIT
+
+fail() {
+  echo "REJECTED: pushes to this repository must go through tools/push.sh ($*)." >&2
+  echo "  Run: bash tools/push.sh" >&2
+  exit 1
+}
+
+[ -f "$MARKER" ] || fail "no push marker"
+MARKER_SHA=$(tr -d '[:space:]' < "$MARKER")
+[ -n "$MARKER_SHA" ] || fail "empty push marker"
+
+ZERO="0000000000000000000000000000000000000000"
+REFS=0
+while read -r LOCAL_REF LOCAL_SHA REMOTE_REF REMOTE_SHA; do
+  [ -n "${LOCAL_REF:-}" ] || continue
+  REFS=$((REFS + 1))
+  [ "$REMOTE_REF" = "refs/heads/master" ] || fail "only master may be pushed, not $REMOTE_REF"
+  [ "$LOCAL_SHA" != "$ZERO" ] || fail "deleting master is not allowed"
+  [ "$LOCAL_SHA" = "$MARKER_SHA" ] || fail "pushed sha does not match the marker"
+done
+[ "$REFS" -gt 0 ] || fail "no refs to push"
+exit 0
