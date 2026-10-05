@@ -1,0 +1,754 @@
+{
+  "about": "Registered M/X/Y/Z/N1-N6/D1 carried from source master, including required N4/N6. Y11/Y12 retain their registered historical re-anchoring. Every transform unchanged against standalone CRLF server.js.",
+  "mutations": [
+    {
+      "id": "M1-bind-default-all-interfaces",
+      "origin": "cc",
+      "source": "RULING 59 part 1: bind default changed to 0.0.0.0",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const listenHost = String(process.env.HOST || \"\").trim() || \"127.0.0.1\";",
+        "replace": "const listenHost = String(process.env.HOST || \"\").trim() || \"0.0.0.0\";"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M2-allowlist-bypassed",
+      "origin": "cc",
+      "source": "RULING 59 part 2: the allowlist check bypassed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "return relativePath;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M3-dotfile-guard-removed",
+      "origin": "cc",
+      "source": "RULING 59 part 3: the dotfile/.env guard removed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (isRefusedStaticPath(decoded)) return null;",
+        "replace": "/* guard removed */"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M4-decode-skipped",
+      "origin": "cc",
+      "source": "RULING 59 part 2: percent-decoding skipped before the check",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "decoded = decodeURIComponent(pathname);",
+        "replace": "decoded = pathname;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M5-normalise-skipped",
+      "origin": "cc",
+      "source": "RULING 59 part 2: normalisation skipped before the check",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const normalized = path.posix.normalize(\"/\" + decoded.replace(/\\\\/g, \"/\")).replace(/^\\/+/, \"\");",
+        "replace": "const normalized = decoded.replace(/^\\/+/, \"\");"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M6-case-insensitive-match",
+      "origin": "cc",
+      "source": "RULING 59 part 2: the allowlist matched case-insensitively",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "return [...STATIC_FILES].find((entry) => entry.toLowerCase() === relativePath.toLowerCase()) || null;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M7-guard-ignores-backslash",
+      "origin": "cc",
+      "source": "RULING 59 part 3: the guard splits segments on '/' only",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "decodedPath.split(/[\\\\/]/)",
+        "replace": "decodedPath.split(\"/\")"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M8-guard-env-regex-only",
+      "origin": "cc",
+      "source": "RULING 59 part 3: the guard keeps only the .env regex (dotfiles admitted)",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "segment.startsWith(\".\") || /^\\.env/i.test(segment)",
+        "replace": "/^\\.env/i.test(segment)"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M9-guard-dot-prefix-only",
+      "origin": "cc",
+      "source": "RULING 59 part 3: the guard keeps only the dot-prefix test",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "segment.startsWith(\".\") || /^\\.env/i.test(segment)",
+        "replace": "segment.startsWith(\".\")"
+      },
+      "expect": "survived",
+      "note": "EQUIVALENT. /^\\.env/i begins with a literal '.', which case-insensitivity does not change, so any segment it matches also satisfies segment.startsWith('.'). Removing the regex disjunct cannot change the guard's result for any string. Kept in the spec as the recorded equivalence for part 3's explicit .env test.",
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M10-double-decode",
+      "origin": "cc",
+      "source": "RULING 59 part 2: the pathname percent-decoded twice",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "decoded = decodeURIComponent(pathname);",
+        "replace": "decoded = decodeURIComponent(decodeURIComponent(pathname));"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M11-warning-removed",
+      "origin": "cc",
+      "source": "RULING 59 part 1: the non-loopback warning removed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!isLoopbackHost(listenHost)) {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "M12-host-ignored",
+      "origin": "cc",
+      "source": "RULING 59 part 1: the HOST opt-in ignored",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const listenHost = String(process.env.HOST || \"\").trim() || \"127.0.0.1\";",
+        "replace": "const listenHost = String(\"\").trim() || \"127.0.0.1\";"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-01.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X1-double-decode",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "decoded = decodeURIComponent(pathname);",
+        "replace": "decoded = decodeURIComponent(decodeURIComponent(pathname));"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X2-first-segment-only",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "decodedPath.split(/[\\\\/]/).some",
+        "replace": "decodedPath.split(/[\\\\/]/).filter(Boolean).slice(0, 1).some"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X3-regex-unanchored",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "/^\\.env/i.test(segment)",
+        "replace": "/\\.env/i.test(segment)"
+      },
+      "note": "Non-equivalent guard: report.env.local is newly refused; no shipped allowlist entry exercises it.",
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X4-regex-wrong-anchor",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "/^\\.env/i.test(segment)",
+        "replace": "/^env/i.test(segment)"
+      },
+      "note": "Non-equivalent guard: envelope.txt is newly refused.",
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X5-allowlist-startsWith",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "return [...STATIC_FILES].find((entry) => relativePath.startsWith(entry)) || null;"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X6-allowlist-includes",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "return [...STATIC_FILES].find((entry) => relativePath.includes(entry)) || null;"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X7-normalize-after-allowlist",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const normalized = path.posix.normalize(\"/\" + decoded.replace(/\\\\/g, \"/\")).replace(/^\\/+/, \"\");\r\n  const relativePath = normalized === \"\" ? \"index.html\" : normalized;\r\n  return STATIC_FILES.has(relativePath) ? relativePath : null;",
+        "replace": "const relativePath = decoded === \"/\" ? \"index.html\" : decoded.replace(/^\\/+/, \"\");\r\n  return STATIC_FILES.has(relativePath) ? path.posix.normalize(relativePath.replace(/\\\\/g, \"/\")) : null;"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X8-dotguard-after-normalization",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (isRefusedStaticPath(decoded)) return null;\r\n\r\n  const normalized = path.posix.normalize(\"/\" + decoded.replace(/\\\\/g, \"/\")).replace(/^\\/+/, \"\");",
+        "replace": "const normalized = path.posix.normalize(\"/\" + decoded.replace(/\\\\/g, \"/\")).replace(/^\\/+/, \"\");\r\n  if (isRefusedStaticPath(normalized)) return null;"
+      },
+      "note": "Non-equivalent: /assets%5C..%5Capp.js is newly served.",
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X9-warning-removed",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!isLoopbackHost(listenHost)) {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "X10-other-env-wildcard-default",
+      "origin": "codex",
+      "source": "Independent R59 adversarial audit 2026-10-02",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const listenHost = String(process.env.HOST || \"\").trim() || \"127.0.0.1\";",
+        "replace": "const listenHost = String(process.env.HOST || process.env.BIND_ADDRESS || \"0.0.0.0\").trim();"
+      },
+      "sourceSpec": "tools/verification/r59_2026-10-02/results/own.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y1-b2-check-removed",
+      "origin": "cc",
+      "source": "B2: the network-path target check removed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!req.url.startsWith(\"/\") || req.url[1] === \"/\" || req.url[1] === \"\\\\\") {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y2-b2-slash-slash-only",
+      "origin": "cc",
+      "source": "B2: the check refuses \"//\" but not \"/\\\"",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": " || req.url[1] === \"\\\\\") {",
+        "replace": ") {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y3-host-check-removed",
+      "origin": "cc",
+      "source": "part 6: the Host check removed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (checkHostHeader) {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y4-host-check-ignores-port",
+      "origin": "cc",
+      "source": "part 6: the Host check ignores the port (any port, or none, is rewritten to the bound one)",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const host = String(req.headers.host || \"\").toLowerCase();",
+        "replace": "const host = String(req.headers.host || \"\").toLowerCase().replace(/:\\d*$/, \"\") + `:${port}`;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y5-host-check-any-localhost-suffix",
+      "origin": "cc",
+      "source": "part 6: the Host check accepts any hostname ending in \"localhost\"",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "host !== `localhost:${port}`",
+        "replace": "!host.endsWith(`localhost:${port}`)"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y6-host-check-configured-port",
+      "origin": "cc",
+      "source": "part 6: the Host check compares against the configured port instead of the bound port",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const port = bound && bound.port;",
+        "replace": "const port = startPort;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y7-host-check-skips-api",
+      "origin": "cc",
+      "source": "part 6: the Host check skipped for API routes",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (checkHostHeader) {",
+        "replace": "if (checkHostHeader && !req.url.startsWith(\"/api/\")) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y8-missing-host-accepted",
+      "origin": "cc",
+      "source": "part 6: a request with no Host header is accepted",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (checkHostHeader) {",
+        "replace": "if (checkHostHeader && req.headers.host !== undefined) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y9-loopback-drops-ipv4-mapped",
+      "origin": "cc",
+      "source": "F1: isLoopbackHost drops the ::ffff: (IPv4-mapped) form",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const ipv4 = value.startsWith(\"::ffff:\") ? value.slice(\"::ffff:\".length) : value;",
+        "replace": "const ipv4 = value;"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y10-banner-stale-callback-guard-removed",
+      "origin": "cc",
+      "source": "listen: a failed attempt's start-up callback is no longer suppressed after a port retry",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (server.address().port !== port) return;",
+        "replace": "/* stale-callback guard removed */"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y11-node-host-requirement-kept",
+      "origin": "cc",
+      "source": "part 6: Node's own requireHostHeader left on, so an HTTP/1.1 request without Host gets 400, not 403",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "http.createServer(serverOptions(checkHostHeader), async",
+        "replace": "http.createServer({}, async"
+      },
+      "note": "RE-ANCHORED for the F8 code. The original anchor (http.createServer({ requireHostHeader: !checkHostHeader }, async) no longer exists: F8 moved the options into serverOptions(). Same mutation: the server is created without the options, so Node's own requireHostHeader stays on.",
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y12-host-check-ignores-host-opt-in",
+      "origin": "cc",
+      "source": "part 6: the Host check stays on when HOST is set",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const checkHostHeader = isLoopbackHost(listenHost);",
+        "replace": "const checkHostHeader = true;"
+      },
+      "note": "RE-ANCHORED for the 6a code. The original anchor (const checkHostHeader = !String(process.env.HOST || \"\").trim();) no longer exists: part 6a rewrote that line. Same mutation: the Host check stays on for every HOST, non-loopback included.",
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y13-host-check-case-sensitive",
+      "origin": "cc",
+      "source": "part 6: the Host comparison made case-sensitive",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const host = String(req.headers.host || \"\").toLowerCase();",
+        "replace": "const host = String(req.headers.host || \"\");"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Y14-loopback-case-sensitive",
+      "origin": "cc",
+      "source": "F1: isLoopbackHost made case-sensitive",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const value = String(host).toLowerCase();",
+        "replace": "const value = String(host);"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.y-replay.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Z1-host-check-off-for-any-host",
+      "origin": "cc",
+      "source": "part 6a: the Host check is off whenever HOST is set (the pre-6a rule)",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const checkHostHeader = isLoopbackHost(listenHost);",
+        "replace": "const checkHostHeader = !String(process.env.HOST || \"\").trim();"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05b.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Z2-portless-accepted-on-every-port",
+      "origin": "cc",
+      "source": "part 6b: the portless forms are accepted on every port, not only on port 80",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return port === 80 && (",
+        "replace": "return ("
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05b.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "Z3-port-80-rule-uses-configured-port",
+      "origin": "cc",
+      "source": "part 6b: the port-80 rule tests the configured port (startPort) instead of the bound one",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "return port === 80 && (",
+        "replace": "return startPort === 80 && ("
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05b.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N1-host-substring",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "function isAllowedHostHeader(host, port) {",
+        "replace": "function isAllowedHostHeader(host, port) {\r\n  if ([`localhost:${port}`, `127.0.0.1:${port}`, `[::1]:${port}`].some(value => host.includes(value))) return true;"
+      },
+      "note": "Host accepted as substring rather than exact name plus bound port.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N2-host-case-sensitive",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const host = String(req.headers.host || \"\").toLowerCase();",
+        "replace": "const host = String(req.headers.host || \"\");"
+      },
+      "note": "Host comparison becomes case-sensitive.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N3-port-parseInt",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "function isAllowedHostHeader(host, port) {",
+        "replace": "function isAllowedHostHeader(host, port) {\r\n  host = host.replace(/:(\\d+)$/, (_, digits) => \":\" + parseInt(digits, 10));"
+      },
+      "note": "Leading-zero port string is converted to the bound integer, e.g. localhost:080 accepted at bound 80.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N4-b2-after-url-parsing",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "  // B2: only an origin-form target is routed. \"//x\" and \"/\\x\" would parse as a network-path\r\n  // reference whose host swallows the first segment; an absolute-form target does not start \"/\".\r\n  if (!req.url.startsWith(\"/\") || req.url[1] === \"/\" || req.url[1] === \"\\\\\") {\r\n    sendText(res, 404, \"Not found\");\r\n    return;\r\n  }\r\n\r\n  try {\r\n    const requestUrl = new URL(req.url, \"http://localhost\");",
+        "replace": "  try {\r\n    const requestUrl = new URL(req.url, \"http://localhost\");\r\n  // B2: only an origin-form target is routed. \"//x\" and \"/\\x\" would parse as a network-path\r\n  // reference whose host swallows the first segment; an absolute-form target does not start \"/\".\r\n  if (!req.url.startsWith(\"/\") || req.url[1] === \"/\" || req.url[1] === \"\\\\\") {\r\n    sendText(res, 404, \"Not found\");\r\n    return;\r\n  }"
+      },
+      "note": "Moves the unchanged raw-target gate after URL parsing; malformed network-path targets can throw before refusal.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N5-all-ipv4-mapped-loopback",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "const ipv4 = value.startsWith(\"::ffff:\") ? value.slice(\"::ffff:\".length) : value;",
+        "replace": "if (value.startsWith(\"::ffff:\")) return true;\r\n  const ipv4 = value;"
+      },
+      "note": "Every ::ffff: address is classified loopback, including ::ffff:10.0.0.1.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "N6-node-host-requirement-always-off",
+      "origin": "codex",
+      "source": "Independent R59 targeted re-verification 2026-10-05",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "requireHostHeader: !checkHostHeader",
+        "replace": "requireHostHeader: false"
+      },
+      "note": "Node requirement disabled even with the app check off. Safe witness uses non-loopback HOST with mocked listen.",
+      "sourceSpec": "tools/verification/r59_2026-10-05/results/own-new.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "D1-duplicate-host-check-removed",
+      "origin": "cc",
+      "source": "B3: the duplicate-Host refusal removed",
+      "file": "server.js",
+      "suite": "server_exposure",
+      "transform": {
+        "kind": "replace",
+        "find": "if (req.rawHeaders.filter((value, index) => index % 2 === 0 && value.toLowerCase() === \"host\").length > 1) {",
+        "replace": "if (false) {"
+      },
+      "sourceSpec": "tools/mutations/r59_2026-10-05c.spec.json",
+      "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+      "targetCommand": "node tests/server_exposure.test.js",
+      "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Preserve Windows front-end parity and CRLF mutation anchors across clones.
+index.html text eol=crlf
+app.js text eol=crlf
+styles.css text eol=crlf
+assets/wordflow-mark.svg text eol=crlf
+extract_text.py text eol=crlf
+server.js text eol=crlf
+*.cjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+requirements.txt text eol=lf

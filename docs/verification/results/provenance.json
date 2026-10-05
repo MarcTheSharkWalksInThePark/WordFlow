@@ -1,0 +1,319 @@
+{
+  "method": "M2 exact plumbing replay, no installs, scratch clone only",
+  "source": "C:/Users/Marcu/Documents/Nettside for lesing",
+  "sourceHead": "11092e186e8805ac0555e8dc1baf43fb8036b074",
+  "ruling59Merge": "11d266a",
+  "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+  "replayCommit": "8920acb55b9987cc4835ebc86cca0ec899fadebc",
+  "replayTree": "8748f66b6a59c22867121c2266cf55609dcff616",
+  "originalMetadataAndMessageExact": true,
+  "history": [
+    {
+      "file": "index.html",
+      "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+      "blob": "f78834f477c31c8b42403e93f7950da8063c8929",
+      "followLog": "6927f18e36528915257b503f47c4bbc776472984\n\nA\tindex.html"
+    },
+    {
+      "file": "app.js",
+      "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+      "blob": "f0a49286e6bc81f40b534d36e4e59d0430e08544",
+      "followLog": "6927f18e36528915257b503f47c4bbc776472984\n\nA\tapp.js"
+    },
+    {
+      "file": "styles.css",
+      "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+      "blob": "75c799cce213a74e8af6acbac30722ddcb4f182a",
+      "followLog": "6927f18e36528915257b503f47c4bbc776472984\n\nA\tstyles.css"
+    },
+    {
+      "file": "assets/wordflow-mark.svg",
+      "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+      "blob": "cb445d98c90c8c183f75ab45f330c79cb9e7719d",
+      "followLog": "6927f18e36528915257b503f47c4bbc776472984\n\nA\tassets/wordflow-mark.svg"
+    },
+    {
+      "file": "extract_text.py",
+      "originalCommit": "6927f18e36528915257b503f47c4bbc776472984",
+      "blob": "ebb51b45244b4364f8f757c4ba82dad53e14c43d",
+      "followLog": "6927f18e36528915257b503f47c4bbc776472984\n\nA\textract_text.py"
+    }
+  ],
+  "helpers": [
+    {
+      "name": "listen",
+      "sourceLine": 197,
+      "newLine": 87,
+      "sourceSha256": "cdfbcb31d5d091a953ba49b43a81fbdd1d849aca3b80f2d4710818737c13a36f",
+      "newSha256": "0baa8b0a2ecd0c750689daf067f4a74ff9f95e90cfb7440b428045d2aadc4899",
+      "identical": false,
+      "change": "Startup label removes MarcDeck branding; bind, retry, port banner fields and warning logic unchanged."
+    },
+    {
+      "name": "startupWarning",
+      "sourceLine": 219,
+      "newLine": 107,
+      "sourceSha256": "4d46a8971746583f6c9cedab45994437f933e1c8325b388e318fa5ea1287eeeb",
+      "newSha256": "4d46a8971746583f6c9cedab45994437f933e1c8325b388e318fa5ea1287eeeb",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "serverOptions",
+      "sourceLine": 229,
+      "newLine": 114,
+      "sourceSha256": "45961f58671c3d628dc6c46abb7256d1df0bec98786ca01455e1331c53ccc62e",
+      "newSha256": "45961f58671c3d628dc6c46abb7256d1df0bec98786ca01455e1331c53ccc62e",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "isAllowedHostHeader",
+      "sourceLine": 235,
+      "newLine": 118,
+      "sourceSha256": "564762c200fccca5433675df1573da19a25ff223c7868726e989393fec3a4b0e",
+      "newSha256": "564762c200fccca5433675df1573da19a25ff223c7868726e989393fec3a4b0e",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "isLoopbackHost",
+      "sourceLine": 243,
+      "newLine": 125,
+      "sourceSha256": "9639d8b69f58d68ad7884873c5e388365688ce85107070250770956f34c60b0a",
+      "newSha256": "9639d8b69f58d68ad7884873c5e388365688ce85107070250770956f34c60b0a",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "loadLocalEnv",
+      "sourceLine": 249,
+      "newLine": 131,
+      "sourceSha256": "06e167be765107b9f1e1311c6df0a11ba877370c78cdd338b742e363ed2e1962",
+      "newSha256": "06e167be765107b9f1e1311c6df0a11ba877370c78cdd338b742e363ed2e1962",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "readRemoteUrl",
+      "sourceLine": 268,
+      "newLine": 150,
+      "sourceSha256": "4af7395092fc742706410cea89f4935b3bc044d8a2f42d07137e32e7a025c631",
+      "newSha256": "4af7395092fc742706410cea89f4935b3bc044d8a2f42d07137e32e7a025c631",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "extractUploadedFile",
+      "sourceLine": 300,
+      "newLine": 182,
+      "sourceSha256": "ab9734affc5e74f1f27228d1e0b2eb502ec72f3e4633655eba2f468fe4dd5062",
+      "newSha256": "ab9734affc5e74f1f27228d1e0b2eb502ec72f3e4633655eba2f468fe4dd5062",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "normalizeRemoteUrl",
+      "sourceLine": 1899,
+      "newLine": 223,
+      "sourceSha256": "204e414200df201db286975ddf88e13fd946fe9745e1c4b68c6778e05f5f10f7",
+      "newSha256": "204e414200df201db286975ddf88e13fd946fe9745e1c4b68c6778e05f5f10f7",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "readLimitedText",
+      "sourceLine": 1911,
+      "newLine": 235,
+      "sourceSha256": "379c017b22d5811eaaf3211eee321a7024a7410f6930c1a9e389c0b10905e81b",
+      "newSha256": "379c017b22d5811eaaf3211eee321a7024a7410f6930c1a9e389c0b10905e81b",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "readLimitedBuffer",
+      "sourceLine": 1931,
+      "newLine": 255,
+      "sourceSha256": "c22864bfa28197811e6ecacc159c7826c338cbdf7df7d7ccae8da14fe8d0e8e7",
+      "newSha256": "c22864bfa28197811e6ecacc159c7826c338cbdf7df7d7ccae8da14fe8d0e8e7",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "readMultipartFile",
+      "sourceLine": 1968,
+      "newLine": 283,
+      "sourceSha256": "82292619139578dd3c1d9b4b1fd8917062b4a3ed9648e947a1a66ab2ec77a387",
+      "newSha256": "82292619139578dd3c1d9b4b1fd8917062b4a3ed9648e947a1a66ab2ec77a387",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "parseMultipart",
+      "sourceLine": 1979,
+      "newLine": 294,
+      "sourceSha256": "71c2a7c6d1da3a5d225403fc3180563eba527908ccf3884ca36f9c3f65ab6be4",
+      "newSha256": "71c2a7c6d1da3a5d225403fc3180563eba527908ccf3884ca36f9c3f65ab6be4",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "parsePartHeaders",
+      "sourceLine": 2009,
+      "newLine": 324,
+      "sourceSha256": "b27d72473de7bfe1ee56eb8a9904f01e90feee4efe4f31f916782de22bbb45b9",
+      "newSha256": "b27d72473de7bfe1ee56eb8a9904f01e90feee4efe4f31f916782de22bbb45b9",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "extractDispositionValue",
+      "sourceLine": 2021,
+      "newLine": 336,
+      "sourceSha256": "ac1b38c9351ac23a71a1bcec15040ac72cb5d84ba66b75d3af81864de2083194",
+      "newSha256": "ac1b38c9351ac23a71a1bcec15040ac72cb5d84ba66b75d3af81864de2083194",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "decodeUploadedText",
+      "sourceLine": 2029,
+      "newLine": 344,
+      "sourceSha256": "dbd18a79610a75a9e2007c041190f9b2938ea1a68ac230dc50a9fe9b04abdbe8",
+      "newSha256": "dbd18a79610a75a9e2007c041190f9b2938ea1a68ac230dc50a9fe9b04abdbe8",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "sanitizeFilename",
+      "sourceLine": 2035,
+      "newLine": 350,
+      "sourceSha256": "abf0129b95366805b8785ce06e08df17c247986d9c5c70519d2db3961a3f4417",
+      "newSha256": "abf0129b95366805b8785ce06e08df17c247986d9c5c70519d2db3961a3f4417",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "runExtractor",
+      "sourceLine": 2039,
+      "newLine": 354,
+      "sourceSha256": "f9d82ba7cb720dd09bc545def05f031090712b6c5ce2fe6b426262a5ddcb059a",
+      "newSha256": "f9d82ba7cb720dd09bc545def05f031090712b6c5ce2fe6b426262a5ddcb059a",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "resolvePythonPath",
+      "sourceLine": 2076,
+      "newLine": 391,
+      "sourceSha256": "358bc580e4801fa11a33011c726e5283d229a9d09a3083d7d546b794a303f7cd",
+      "newSha256": "358bc580e4801fa11a33011c726e5283d229a9d09a3083d7d546b794a303f7cd",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "serveStaticFile",
+      "sourceLine": 2109,
+      "newLine": 410,
+      "sourceSha256": "d929e92ecb2ea49f6bfc06e65ec437da91770dd853062a7aaa589f8259c833ab",
+      "newSha256": "d929e92ecb2ea49f6bfc06e65ec437da91770dd853062a7aaa589f8259c833ab",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "resolveStaticPath",
+      "sourceLine": 2140,
+      "newLine": 439,
+      "sourceSha256": "1e510fd4ccafc94aaadfd534640c468fba81e5e1da7e8c7280d898bcf04a85c6",
+      "newSha256": "1e510fd4ccafc94aaadfd534640c468fba81e5e1da7e8c7280d898bcf04a85c6",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "isRefusedStaticPath",
+      "sourceLine": 2157,
+      "newLine": 454,
+      "sourceSha256": "50cd7a261884b7ae09cc27e3ff13762332f081fb0f6061c2ebcbd1a6bbb3ad4c",
+      "newSha256": "50cd7a261884b7ae09cc27e3ff13762332f081fb0f6061c2ebcbd1a6bbb3ad4c",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "sendJson",
+      "sourceLine": 2161,
+      "newLine": 458,
+      "sourceSha256": "c9d06479774bc16dcc27170aef99b3a90748c1d6b0342146b09c68ecaa221659",
+      "newSha256": "c9d06479774bc16dcc27170aef99b3a90748c1d6b0342146b09c68ecaa221659",
+      "identical": true,
+      "change": null
+    },
+    {
+      "name": "sendText",
+      "sourceLine": 2180,
+      "newLine": 466,
+      "sourceSha256": "755a6f976d276083f2851c9109abd1c0f4d63046c7bf566c241ba41a0b90bc00",
+      "newSha256": "755a6f976d276083f2851c9109abd1c0f4d63046c7bf566c241ba41a0b90bc00",
+      "identical": true,
+      "change": null
+    }
+  ],
+  "declarationChanges": [
+    "Remove all MarcDeck imports, constants, routes and functions",
+    "Static allowlist reduced to the four exact WordFlow front-end paths; / remains the index.html alias",
+    "MIME table reduced to those four reachable types; MIME values unchanged",
+    "Keep loadLocalEnv and resolvePythonPath unchanged for parity; no environment file copied"
+  ],
+  "regressionBeforeSplit": "32 passed, 0 skipped",
+  "sourceServerSha256": "3fc09a9f6502ea4c15ad097223cd3a92b5a8395f9296f3aaa39b81794b10f2dd",
+  "standaloneServerSha256": "6cd5be2218f9e7a3f84d679bf3039bd3f3e22a88c141561ec56639edd66b0fff",
+  "originalStableHelpers": {
+    "readRemoteUrl": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "extractUploadedFile": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "normalizeRemoteUrl": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "readLimitedText": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "readLimitedBuffer": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "readMultipartFile": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "parseMultipart": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "parsePartHeaders": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "extractDispositionValue": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "decodeUploadedText": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "sanitizeFilename": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "runExtractor": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "resolvePythonPath": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "loadLocalEnv": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "sendJson": {
+      "baselineIdenticalAfterEolNormalization": true
+    },
+    "sendText": {
+      "baselineIdenticalAfterEolNormalization": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "automation": "already-installed Playwright; Browser plugin not available; CUA inventory had only IAB/MCP Apps, no Chrome",
+  "viewport": {
+    "width": 1400,
+    "height": 950
+  },
+  "flow": "homepage -> File -> upload synthetic TXT -> review text -> Use source -> text and first word in reader",
+  "blockedPageRequests": [],
+  "browserProxyConnections": 13,
+  "errors": [],
+  "responses": [
+    {
+      "pathname": "/",
+      "status": 200
+    },
+    {
+      "pathname": "/styles.css",
+      "status": 200
+    },
+    {
+      "pathname": "/assets/wordflow-mark.svg",
+      "status": 200
+    },
+    {
+      "pathname": "/app.js",
+      "status": 200
+    },
+    {
+      "pathname": "/assets/wordflow-mark.svg",
+      "status": 200
+    }
+  ],
+  "chromeVersion": "154.0.8037.95",
+  "url": "http://127.0.0.1:53626/",
+  "title": "WordFlow Reader",
+  "reviewText": "WordFlow smoke fixture. The uploaded text appears in the reader. Æøå — UTF-8.",
+  "appliedText": "WordFlow smoke fixture. The uploaded text appears in the reader. Æøå — UTF-8.",
+  "visibleText": "WordFlow Reader\n\nFile loaded\n\nFocus\n13\nWORDS\n0:03\nLEFT\nSOURCE\nResume\nSample\nText\nFile\nWebsite\nREVIEW SOURCE\nfixture.txt\n13\nWORDS\n77\nCHARS\nCLEANUP\nFix wrapped lines\nRepair hyphen breaks\nRemove obvious clutter\nRemove page headers\nPREVIEW\nUse source\nRaw\nWo\nr\ndFlow\nsmoke\n1 / 13\n8%\nSETTINGS\n300 WPM\nWORDS PER MINUTE\nSlower\nFaster\nSECTIONS\nJUMP TO\nStart\nPACING\nSentence pauses\nComma pauses\nParagraph pauses\nSmart long-word pacing\nFocus letter\nVIEW\nContext words\nComfort\nLarge\nCompact",
+  "firstWord": "WordFlow",
+  "screenshot": {
+    "filename": "smoke.png",
+    "sha256": "a311302c68b225f6356386c0d77765832192d8ab89f96a9084ceb875d9a7c7d8"
+  },
+  "passed": true,
+  "outboundConnections": 0,
+  "networkIsolation": "Fresh browser profile; every non-loopback browser request uses a loopback deny-proxy that never forwards; host resolver maps all names to loopback; page route guard permits only the server origin. Server process uses network_guard.cjs."
+}
