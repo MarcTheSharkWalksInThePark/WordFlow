@@ -722,8 +722,8 @@ async function fetchViaLocalReader(url) {
   try { payload = JSON.parse(raw); } catch {}
   // Cloudflare documents Error 1027, an HTML error page; HTTP status/body wording
   // are not a stable contract. Pages fail-open may instead serve our static fallback.
-  const errorText = raw.replace(/<[^>]*>/g, " ");
-  if ((!payload && /\berror\s+(?:code\s*:\s*)?1027\b/i.test(errorText)) ||
+  const errorText = raw.replace(/<[^>]*>/g, " ").replace(/&nbsp;|&#0*160;|&#x0*a0;/gi, " ");
+  if ((!payload && /\berror[\W_]+(?:code[\W_]*)?1027\b/i.test(errorText)) ||
       payload?.error === "WORDFLOW_FREE_LIMIT") {
     const error = new Error("URL loading has reached today's free limit. It resets at 00:00 UTC. Paste the text instead.");
     error.code = "FREE_LIMIT";

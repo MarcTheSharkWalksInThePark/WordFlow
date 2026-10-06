@@ -48,11 +48,16 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
 
   `tests/server_exposure.test.js` (32 checks) and the 46 registered mutations in
   `tools/r59.spec.json` (45 killed, M9 the proven equivalent) guard them. W2 adds six killed
-  proxy mutations (52 total, 51 killed, one equivalent). A change that touches
+  proxy mutations; W4 adds six and W5 adds 19 (77 total, 76 killed, one equivalent). A change that touches
   them needs the mutations re-run, per RULING 55 part 3: exact transform, target suite, and SHA-256
   before, mutated and restored.
 
 ## Never
+
+- **RULING W5** (2026-10-06): frontend files remain stamped; no CI. The gate verifies committed
+  blobs at the pushed sha and refuses hidden-index flags on stamped paths. Review and the written
+  never-edit rule protect the stamp. Derive the Pages project suffix automatically from the request
+  host and refuse that project plus all subdomains; custom domains use SITE_HOSTNAMES.
 
 - W4.1 accepts existing user-profile paths in tracked files and history; do not scrub or rewrite
   them. NEW or EDITED committed content must not add real user-profile paths: use `<home>` or
@@ -111,7 +116,8 @@ bash tools/push.sh                                          # the only way to pu
   - no `.env*` is tracked;
   - `master` is not behind `origin/master` (a failed fetch refuses);
   - `npm test` passes with no skip.
-  - current parity inputs exactly match the generated stamp.
+  - committed parity inputs at the pushed sha exactly match the generated stamp;
+  - stamped paths carry neither skip-worktree nor assume-unchanged flags.
 
   It then pushes through a single-use marker, verifies the remote sha and appends to
   `tools/push.log`. Commit that log with your next change.
@@ -155,8 +161,9 @@ bash tools/push.sh                                          # the only way to pu
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
-- **[Needs Review] W4 fixes:** post-review fixes and parity before merge/gated push;
-  Marcus's public visibility change, free Cloudflare Git connection and live verification.
+- **Launch pending:** W4 fixes independently reviewed by CC; W5 delta fixes verified before the
+  authorized fast-forward merge/gated push. Marcus's public visibility change, free Cloudflare Git
+  connection, assigned-address recording and live verification remain human steps.
 - **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
   quota; actual edge CPU, quota status/body/fail-open routing and dashboard logging are unverified.
 - **W4.5 deferred until a separate reader task after launch:** an artificial 135-character token can exceed the frame at the

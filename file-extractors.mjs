@@ -47,12 +47,13 @@ async function unzip(bytes) {
     const name=new TextDecoder().decode(bytes.subarray(offset+46,offset+46+nameLen));
     const local=view.getUint32(offset+42,true);
     offset+=46+nameLen+extra+comment;
-    if (entries.has(name)) throw new Error("Could not extract file");
-    entries.set(name,{flags,method,size,expected,local});
+    // Duplicate unused parts are harmless; refuse ambiguous parts only when selected.
+    entries.set(name,entries.has(name) ? null : {flags,method,size,expected,local});
   }
   const decodedEntries=new Map();
   return async name => {
     if (!entries.has(name)) return null;
+    if (!entries.get(name)) throw new Error("Could not extract file");
     if (decodedEntries.has(name)) return decodedEntries.get(name);
     const {flags,method,size,expected,local}=entries.get(name);
     if (flags & 1 || ![0,8].includes(method) || expected > 64*1024*1024) throw new Error("Could not extract file");

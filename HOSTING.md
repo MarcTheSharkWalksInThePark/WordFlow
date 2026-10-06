@@ -63,10 +63,13 @@ and fail-open responses are exercised at desktop and phone widths.
 
 - GET only. HTTP/HTTPS only. Ports 80/443 only. No credentials.
 - W4.3 confirms these behaviour changes, the all-file 24 MiB cap and five revalidated redirects.
-- Refuse the request's own hostname and every configured public alias on every hop.
-  `SITE_HOSTNAMES` in `lib/read-proxy.mjs` currently contains `wordflow.pages.dev`; before launch,
-  record the actual assigned pages.dev address and any production/custom hostnames there.
-  The request-host guard already covers preview/request aliases without relying on this list.
+- Refuse the request's own hostname and every configured custom domain on every hop.
+  Under W5.3, a request host ending in `.pages.dev` automatically supplies its last three labels
+  as the project name. That name and every subdomain (deployment hash and branch aliases included)
+  are refused before DoH and fetch, independently of `SITE_HOSTNAMES`. All trailing dots are stripped.
+  `SITE_HOSTNAMES` starts empty; add custom domains there before using them. The automatic suffix
+  derives from Pages-host requests. For requests arriving on custom domains, also list the assigned
+  Pages address and deployed aliases explicitly to cover those exact cross-domain targets.
 - Refuse localhost, subdomains of localhost, .local, .internal and .arpa, including trailing-dot
   spelling. WHATWG URL parsing canonicalizes alternate IPv4 spellings before classification.
 - Refuse non-public IPv4 ranges: unspecified, loopback, private, link-local, CGNAT, benchmarking,
@@ -160,7 +163,7 @@ links in any logging session.
 
    | Setting | Value |
    |---|---|
-   | Project name | wordflow (choose an available name if occupied) |
+   | Project name | Marcus chooses an available name |
    | Repository | WordFlow |
    | Production branch | master |
    | Framework preset | None |
@@ -185,8 +188,10 @@ links in any logging session.
    [branch controls](https://developers.cloudflare.com/pages/configuration/branch-build-controls/),
    [build image](https://developers.cloudflare.com/pages/configuration/build-image/)
    (2026-10-06).
-5. Record actual site aliases in `SITE_HOSTNAMES` before launch, including a production hostname
-   if one is configured. Live check the generated HTTPS pages.dev URL: desktop and 390 px
+5. Record the assigned `https://<project>.pages.dev` address in this document and the vault project
+   note after creation. Pages-host requests need no code change for the project name (W5.3).
+   Configure any custom domains in `SITE_HOSTNAMES` before using them.
+6. Live check the generated HTTPS pages.dev URL: desktop and 390 px
    reader/upload/resume flows; **load one real public URL through /api/read**; rejected private
    and self-host URL; security response headers; downloaded
    notices; a simulated quota page and static api/read marker; static requests do not increase

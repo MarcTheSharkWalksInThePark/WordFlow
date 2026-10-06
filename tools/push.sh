@@ -8,7 +8,7 @@
 #   4. git ls-files tracks no .env* file, at any depth;
 #   5. master is not behind origin/master (a failed fetch is a refusal, not a pass);
 #   6. the Node test suites (npm test) exit 0 AND report no skipped test;
-#   7. the generated browser parity stamp matches current inputs.
+#   7. the generated browser parity stamp matches committed inputs at the pushed sha.
 # Then it writes a single-use marker holding HEAD's sha, pushes master, checks that the remote
 # master equals HEAD, and appends timestamped lines to tools/push.log.
 #
@@ -39,12 +39,15 @@ echo "PASS: pre-push hook active (.githooks)"
 BRANCH=$(git symbolic-ref --quiet --short HEAD || true)
 [ "$BRANCH" = "master" ] || fail "current branch is '${BRANCH:-detached HEAD}', not master"
 echo "PASS: on branch master"
+HEAD_SHA=$(git rev-parse HEAD)
 
 # 3. Clean tree.
 DIRTY=$(git status --porcelain)
 [ -z "$DIRTY" ] || fail "working tree is not clean:
 $DIRTY"
 echo "PASS: working tree is clean"
+node -e 'require("./tools/parity-stamp.cjs").refuseFlags(process.cwd())' \
+  || fail "stamped paths have skip-worktree or assume-unchanged flags"
 
 # 4. No tracked .env* file (names only are printed).
 ENV_TRACKED=$(git ls-files -- '.env*' ':(glob)**/.env*')
@@ -69,20 +72,22 @@ if ! npm test >"$TEST_OUT" 2>&1; then
   rm -f "$TEST_OUT"
   fail "npm test failed"
 fi
-if grep -qiE '"skipped"[[:space:]]*:[[:space:]]*[1-9]|(^|[[:space:]])skipped([[:space:]:]|$)|[1-9][0-9]*[[:space:]]+(skips|skipped)' "$TEST_OUT"; then
-  grep -iE '"skipped"[[:space:]]*:[[:space:]]*[1-9]|(^|[[:space:]])skipped([[:space:]:]|$)|[1-9][0-9]*[[:space:]]+(skips|skipped)' "$TEST_OUT" >&2
+# BEGIN SKIP CHECK
+if ! node tools/test-output.cjs "$TEST_OUT"; then
   rm -f "$TEST_OUT"
   fail "npm test skipped tests; all Node suites must run without skips"
 fi
+# END SKIP CHECK
 rm -f "$TEST_OUT"
 echo "PASS: npm test (no skips)"
 
 # BEGIN PARITY STAMP CHECK
+export WORDFLOW_PUSH_SHA="$HEAD_SHA"
 node tools/parity-stamp.cjs || fail "browser parity stamp is stale; run npm run parity"
 # END PARITY STAMP CHECK
 
 # Push, through the hook's marker.
-HEAD_SHA=$(git rev-parse HEAD)
+[ "$(git rev-parse HEAD)" = "$HEAD_SHA" ] || fail "HEAD changed during the gate"
 echo "$(now) gates=PASS pushing=$HEAD_SHA" >> "$LOG"
 echo "$HEAD_SHA" > "$MARKER"
 if ! git push origin master; then

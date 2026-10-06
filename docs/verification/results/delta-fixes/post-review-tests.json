@@ -1,0 +1,303 @@
+{
+  "suite": "post-review",
+  "passed": 74,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "quota: HTML Error 1027 at 429",
+      "passed": true
+    },
+    {
+      "name": "quota: split HTML Error 1027 at 200",
+      "passed": true
+    },
+    {
+      "name": "quota: plain-text error code regardless of type",
+      "passed": true
+    },
+    {
+      "name": "quota: plain-text error code with JSON type",
+      "passed": true
+    },
+    {
+      "name": "quota: HTML nonbreaking space",
+      "passed": true
+    },
+    {
+      "name": "quota: plain-text error code without colon",
+      "passed": true
+    },
+    {
+      "name": "quota: colon after Error",
+      "passed": true
+    },
+    {
+      "name": "quota: underscore error code",
+      "passed": true
+    },
+    {
+      "name": "quota: numeric HTML entity",
+      "passed": true
+    },
+    {
+      "name": "quota: hex HTML entity",
+      "passed": true
+    },
+    {
+      "name": "quota: JSON-shaped Cloudflare error (unconfirmed)",
+      "passed": true
+    },
+    {
+      "name": "quota: bare number (unconfirmed)",
+      "passed": true
+    },
+    {
+      "name": "quota: IPv6 group in 1102 page",
+      "passed": true
+    },
+    {
+      "name": "quota: Ray ID containing 1027",
+      "passed": true
+    },
+    {
+      "name": "quota: standalone Ray ID 1027",
+      "passed": true
+    },
+    {
+      "name": "quota: CSS width",
+      "passed": true
+    },
+    {
+      "name": "quota: link fragment",
+      "passed": true
+    },
+    {
+      "name": "quota: JSON article containing quota words",
+      "passed": true
+    },
+    {
+      "name": "quota: static marker at 200 octet-stream",
+      "passed": true
+    },
+    {
+      "name": "quota: Function absent plus marker (indistinguishable)",
+      "passed": true
+    },
+    {
+      "name": "quota: Function JSON refusal",
+      "passed": true
+    },
+    {
+      "name": "quota: Function missing without marker",
+      "passed": true
+    },
+    {
+      "name": "Node gate has no browser suite",
+      "passed": true
+    },
+    {
+      "name": "push stamp block accepts matching hashes",
+      "passed": true
+    },
+    {
+      "name": "push stamp block refuses changed fixture",
+      "passed": true
+    },
+    {
+      "name": "stamp detects additions and deletions",
+      "passed": true
+    },
+    {
+      "name": "committed stamp detects changed file-extractors.mjs",
+      "passed": true
+    },
+    {
+      "name": "committed stamp detects changed app.js",
+      "passed": true
+    },
+    {
+      "name": "committed stamp detects changed index.html",
+      "passed": true
+    },
+    {
+      "name": "committed stamp detects changed styles.css",
+      "passed": true
+    },
+    {
+      "name": "hash pushed sha rather than restored working bytes",
+      "passed": true
+    },
+    {
+      "name": "refuse hidden index flag skip-worktree",
+      "passed": true
+    },
+    {
+      "name": "refuse hidden index flag assume-unchanged",
+      "passed": true
+    },
+    {
+      "name": "CRLF and LF working bytes give committed normalized hashes",
+      "passed": true
+    },
+    {
+      "name": "ignored scratch files do not change recording or verification",
+      "passed": true
+    },
+    {
+      "name": "stamp refuses invalid schema",
+      "passed": true
+    },
+    {
+      "name": "stamp refuses invalid Chrome version",
+      "passed": true
+    },
+    {
+      "name": "stamp refuses invalid Playwright version",
+      "passed": true
+    },
+    {
+      "name": "committed symlink mode refused even with identical checkout bytes",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skipped\":0}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skipped\":1}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skipped\": 12}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skipped\":\"1\"}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skips\":1}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: {\"suite\":\"proxy\",\"passed\":97,\"skippedCount\":1}",
+      "passed": true
+    },
+    {
+      "name": "skip wording: 32 checks passed, 1 skipped.",
+      "passed": true
+    },
+    {
+      "name": "skip wording: 32 checks passed, 2 skips.",
+      "passed": true
+    },
+    {
+      "name": "skip wording: 1 skip",
+      "passed": true
+    },
+    {
+      "name": "skip wording: SKIPPED: browser parity",
+      "passed": true
+    },
+    {
+      "name": "skip wording: SKIP: browser parity",
+      "passed": true
+    },
+    {
+      "name": "skip wording: [SKIPPED] browser parity",
+      "passed": true
+    },
+    {
+      "name": "skip wording: test (skipped)",
+      "passed": true
+    },
+    {
+      "name": "skip wording: skipped=1",
+      "passed": true
+    },
+    {
+      "name": "skip wording: skipped, Chrome missing",
+      "passed": true
+    },
+    {
+      "name": "skip wording: Skipping browser parity",
+      "passed": true
+    },
+    {
+      "name": "skip wording: ℹ skipped 0",
+      "passed": true
+    },
+    {
+      "name": "skip wording: # skip 1",
+      "passed": true
+    },
+    {
+      "name": "skip wording: ok 3 - thing # SKIP no chrome",
+      "passed": true
+    },
+    {
+      "name": "skip wording: 1 test skipped",
+      "passed": true
+    },
+    {
+      "name": "skip wording: skipped: 0",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when first suite fails",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when second suite fails",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when spawn error",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when input changed",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when Chrome versions differ",
+      "passed": true
+    },
+    {
+      "name": "parity does not stamp when runtime unavailable",
+      "passed": true
+    },
+    {
+      "name": "parity successful stub generates stamp after both suites",
+      "passed": true
+    },
+    {
+      "name": "ZIP entry count boundary 4096 allowed, 4097 refused",
+      "passed": true
+    },
+    {
+      "name": "ZIP selected part 65 MiB claim refused, unused part untouched",
+      "passed": true
+    },
+    {
+      "name": "ZIP inflated output exceeding claim refused",
+      "passed": true
+    },
+    {
+      "name": "ZIP cumulative 64 MiB cap and decoded cache",
+      "passed": true
+    },
+    {
+      "name": "ZIP duplicates refused only when the ambiguous part is read",
+      "passed": true
+    },
+    {
+      "name": "DOCX relationship External and foreign origin refused",
+      "passed": true
+    },
+    {
+      "name": "DOCX relationship root, relative and core paths resolved",
+      "passed": true
+    }
+  ]
+}

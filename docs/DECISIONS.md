@@ -1,5 +1,27 @@
 # WordFlow decisions
 
+## RULING W5 — delta-review fixes, merge and gated push
+
+MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
+
+W5.1 (D-a) Keep stamping app.js, index.html and styles.css in addition to the W4.2c files.
+     Frontend pushes therefore need a fresh `npm run parity`; proxy-only fixes stay pushable.
+W5.2 (D-b) No CI. Protection against deliberate stamp tampering is the written rule plus review.
+     Fix N2.
+W5.3 (D-c) The self-host guard refuses the whole project pages.dev name and every subdomain of it.
+     Derive the name AUTOMATICALLY from the request host: when the request host ends in
+     ".pages.dev", the project name is its last three labels, and that name plus all its
+     subdomains are refused. This is in addition to the request host itself and SITE_HOSTNAMES
+     (kept for custom domains). The guard must not depend on the configured name being right.
+W5.4 (D-d) "wordflow.pages.dev" belongs to someone else. Remove it as a default from
+     SITE_HOSTNAMES and the docs. Marcus chooses the Pages project name when creating it. HOSTING.md
+     tells him to record the assigned *.pages.dev address afterwards. No code change is needed for
+     the name, because of W5.3.
+
+Marcus authorizes this task's verified fast-forward merge to master and push only through
+tools/push.sh; stop if the merge is not a fast-forward or the gate refuses. Repository visibility
+and Cloudflare remain Marcus's launch steps.
+
 ## RULING W4 — post-review fixes
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before code changes.

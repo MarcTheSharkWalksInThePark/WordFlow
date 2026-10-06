@@ -1,0 +1,654 @@
+{
+  "passed": 162,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "deny IP 0.0.0.0",
+      "passed": true
+    },
+    {
+      "name": "deny IP 0.4.5.6",
+      "passed": true
+    },
+    {
+      "name": "deny IP 10.1.2.3",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100.64.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100.127.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 127.2.3.4",
+      "passed": true
+    },
+    {
+      "name": "deny IP 169.254.1.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 172.16.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 172.31.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.0.0.8",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.0.2.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.88.99.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.168.1.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.18.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.19.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.51.100.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 203.0.113.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 224.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 239.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 240.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 255.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fe80::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fc00::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fdff::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ff02::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:db8::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 3fff::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::ffff:127.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::ffff:7f00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::127.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 64:ff9b::a00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 64:ff9b:1::a00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2002:0a00:0001::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:0000:4136:e378:8000:63bf:3fff:fdd2",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:20::1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 1.1.1.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 8.8.8.8",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 93.184.216.34",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 100.63.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 100.128.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 172.15.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 172.32.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 198.20.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 223.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 2606:4700:4700::1111",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 2001:4860:4860::8888",
+      "passed": true
+    },
+    {
+      "name": "deny hostname localhost",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.localhost",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.local",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.internal",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.arpa",
+      "passed": true
+    },
+    {
+      "name": "deny hostname LOCALHOST.",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 127.1",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 2130706433",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 0x7f000001",
+      "passed": true
+    },
+    {
+      "name": "deny syntax file:///etc/passwd",
+      "passed": true
+    },
+    {
+      "name": "deny syntax ftp://public.example/x",
+      "passed": true
+    },
+    {
+      "name": "deny syntax https://user:password@public.example",
+      "passed": true
+    },
+    {
+      "name": "deny syntax https://public.example:8080",
+      "passed": true
+    },
+    {
+      "name": "deny syntax http://public.example:22",
+      "passed": true
+    },
+    {
+      "name": "redirect protocol refused by validateTarget file:",
+      "passed": true
+    },
+    {
+      "name": "redirect protocol refused by validateTarget data:",
+      "passed": true
+    },
+    {
+      "name": "redirect protocol refused by validateTarget javascript:",
+      "passed": true
+    },
+    {
+      "name": "redirect protocol refused by validateTarget ftp:",
+      "passed": true
+    },
+    {
+      "name": "redirect protocol refused by validateTarget ws:",
+      "passed": true
+    },
+    {
+      "name": "GET only",
+      "passed": true
+    },
+    {
+      "name": "Origin guard",
+      "passed": true
+    },
+    {
+      "name": "same Origin and no client header forwarding",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"10.0.0.1\"},{\"type\":28,\"data\":\"2606:4700:4700::1111\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"93.184.216.34\"},{\"type\":28,\"data\":\"::ffff:192.168.1.1\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"93.184.216.34\"},{\"type\":1,\"data\":\"127.0.0.1\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":3,\"Answer\":[]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":28,\"data\":\"invalid\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DoH transport failures are generic",
+      "passed": true
+    },
+    {
+      "name": "DoH redirects refused before following",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: HTTP 500 with otherwise valid answers",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: SERVFAIL with otherwise valid answers",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: NXDOMAIN with otherwise valid answers",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: invalid JSON",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: non-array Answer",
+      "passed": true
+    },
+    {
+      "name": "DoH fails closed: over 64 KiB",
+      "passed": true
+    },
+    {
+      "name": "DoH AAAA failure refuses a successful A",
+      "passed": true
+    },
+    {
+      "name": "self and configured hostname refusal wordflow.example",
+      "passed": true
+    },
+    {
+      "name": "self and configured hostname refusal reader.production.example",
+      "passed": true
+    },
+    {
+      "name": "redirect rechecks private IP",
+      "passed": true
+    },
+    {
+      "name": "redirect rechecks DNS hostname",
+      "passed": true
+    },
+    {
+      "name": "five redirects accepted; sixth refused",
+      "passed": true
+    },
+    {
+      "name": "streamed 3 MiB boundary and overflow",
+      "passed": true
+    },
+    {
+      "name": "missing and malformed URL contract",
+      "passed": true
+    },
+    {
+      "name": "scheme-less target and remote status contract",
+      "passed": true
+    },
+    {
+      "name": "12 second deadline includes streamed body",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://abc123.reader-demo.pages.dev/api/read redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://abc123.reader-demo.pages.dev/api/read redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://master.reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://master.reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash.reader-demo.pages.dev.../ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash.reader-demo.pages.dev.../ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash.reader-demo.pages.dev:443/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash.reader-demo.pages.dev:443/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> http://hash.reader-demo.pages.dev:80/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> http://hash.reader-demo.pages.dev:80/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> master.reader-demo.pages.dev redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix reader-demo.pages.dev -> master.reader-demo.pages.dev redirect=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated Pages site allowed from reader-demo.pages.dev",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://abc123.reader-demo.pages.dev/api/read redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://abc123.reader-demo.pages.dev/api/read redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://master.reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://master.reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash.reader-demo.pages.dev.../ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash.reader-demo.pages.dev.../ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash.reader-demo.pages.dev:443/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash.reader-demo.pages.dev:443/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> http://hash.reader-demo.pages.dev:80/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> http://hash.reader-demo.pages.dev:80/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> master.reader-demo.pages.dev redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix abc123.reader-demo.pages.dev -> master.reader-demo.pages.dev redirect=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated Pages site allowed from abc123.reader-demo.pages.dev",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://abc123.reader-demo.pages.dev/api/read redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://abc123.reader-demo.pages.dev/api/read redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://master.reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://master.reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://reader-demo.pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://reader-demo.pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://HASH.READER-DEMO.PAGES.DEV/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash.reader-demo.pages.dev.../ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash.reader-demo.pages.dev.../ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash.reader-demo.pages.dev:443/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash.reader-demo.pages.dev:443/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> http://hash.reader-demo.pages.dev:80/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> http://hash.reader-demo.pages.dev:80/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://hash%2Ereader-demo%2Epages%2Edev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> https://ｈａｓｈ.reader-demo。pages.dev/ redirect=true",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> master.reader-demo.pages.dev redirect=false",
+      "passed": true
+    },
+    {
+      "name": "Pages project suffix MASTER.READER-DEMO.PAGES.DEV...:80 -> master.reader-demo.pages.dev redirect=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated Pages site allowed from MASTER.READER-DEMO.PAGES.DEV...:80",
+      "passed": true
+    },
+    {
+      "name": "IDNA/punycode Pages project derived on deployment alias",
+      "passed": true
+    },
+    {
+      "name": "third party former default is allowed",
+      "passed": true
+    },
+    {
+      "name": "Pages suffix boundary does not block similar domains",
+      "passed": true
+    },
+    {
+      "name": "reserved unallocated IPv6 denied",
+      "passed": true
+    }
+  ]
+}

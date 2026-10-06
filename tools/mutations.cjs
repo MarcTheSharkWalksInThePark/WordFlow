@@ -19,7 +19,7 @@ function suite(root, target = "server_exposure.test.js") {
   });
 }
 (async () => {
-  const result = { suite: "Node exposure, proxy and post-review suites", sourceSpecs: [...new Set(specification.mutations.map(m => m.sourceSpec))], originalSha256: before, rows: [], reanchoring: "none; all 52 earlier transforms unchanged; W4 adds six transforms", equivalence: "M9: every string matched by /^\\.env/i starts with a literal dot and therefore satisfies startsWith('.'). The regex disjunct is a subset of the dot-prefix disjunct for every string. isRefusedStaticPath is byte-identical to source master, so the original proof still applies." };
+  const result = { suite: "Node exposure, proxy and post-review suites", sourceSpecs: [...new Set(specification.mutations.map(m => m.sourceSpec))], originalSha256: before, rows: [], reanchoring: "none; all 58 earlier transforms unchanged; W5 adds 19 transforms", equivalence: "M9: every string matched by /^\\.env/i starts with a literal dot and therefore satisfies startsWith('.'). The regex disjunct is a subset of the dot-prefix disjunct for every string. isRefusedStaticPath is byte-identical to source master, so the original proof still applies." };
   const baseline = await suite(repo);
   assert.equal(baseline.code, 0, "mutation baseline must pass");
   assert(!baseline.timedOut && !baseline.error);
@@ -29,7 +29,7 @@ function suite(root, target = "server_exposure.test.js") {
   assert.equal(result.proxyBaseline.code, 0, "proxy baseline");
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "wordflow-mutations-"));
   try {
-    for (const file of [...OWNED,"tools/parity-stamp.cjs","tools/push.sh"]) { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.copyFileSync(path.join(repo, file), path.join(root, file)); }
+    for (const file of [...OWNED,"tools/parity-stamp.cjs","tools/parity.cjs","tools/test-output.cjs","tools/push.sh"]) { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.copyFileSync(path.join(repo, file), path.join(root, file)); }
     for (const m of specification.mutations) {
       assert.equal(sha(fs.readFileSync(path.join(repo, "server.js"))), before, "real server changed");
       const originalFile = fs.readFileSync(path.join(repo, m.file));

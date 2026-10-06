@@ -48,6 +48,10 @@ there are no skips. The push gate runs these suites and checks `tests/parity-sta
 success. It is REQUIRED before merge for changes to `file-extractors.mjs`, `vendor/**`,
 `tests/fixtures/**`, `app.js`, `index.html` or `styles.css`. Commit the generated stamp; never
 hand-write or edit it. A missing/stale stamp refuses a push and directs you to `npm run parity`.
+W5 keeps the frontend files stamped. The gate hashes the committed blobs at the sha being pushed,
+and refuses skip-worktree or assume-unchanged flags on stamped paths. Recording uses only tracked
+inputs, normalizes text as Git does and ignores scratch files; binary fixtures/vendor retain their
+bytes. No CI is added: written rules and review protect against deliberate stamp forgery (W5.2).
 
 Parity requires already-installed Chrome and Playwright and fails nonzero if either is missing.
 Set WORDFLOW_CHROME and WORDFLOW_PLAYWRIGHT_DIR if needed. The Playwright fallback is Codex's
@@ -63,6 +67,17 @@ and the existing python-docx 1.2.0 runtime. Python is used only for this recorde
 All seven PDFs are asserted: five byte-identical and two precisely pinned differences. See the
 [static-hosting report](docs/verification/2026-10-06_codex_static_hosting.md) and evidence in
 docs/verification/results/. The original split reports remain historical.
+
+Known DOCX divergences from python-docx (CC's synthetic corpus): browser extraction accepts
+backslash main/styles targets, external styles relationships (ignored), duplicate main/styles
+relationships (first selected), styles pointing at the document, case-differing Styles.xml,
+percent-encoded targets, a .dotx content type and dangling unrelated image relationships where
+python-docx errors. Without core properties, the browser title uses the filename rather than
+python-docx's `Word Document`. Duplicate unrelated ZIP parts are accepted; a duplicate selected
+part is refused. These malformed-package leniencies do not escape the in-memory ZIP or its limits.
+Quota matching handles Error 1027, nonbreaking spaces, Error: 1027 and error code 1027.
+Unconfirmed bare-number or JSON-shaped 1027 responses are generic errors; the live check remains
+required to validate Cloudflare's actual page and fail-open routing.
 
 Copyright (c) 2026 Marcus, all rights reserved. [LICENSE](LICENSE).
 [Third-party notices](THIRD_PARTY_NOTICES.md) ship with the site.

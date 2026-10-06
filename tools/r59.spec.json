@@ -929,6 +929,291 @@
       "sourceSpec": "W4 2026-10-06",
       "targetCommand": "node tests/proxy.test.mjs",
       "expect": "killed"
+    },
+    {
+      "id": "W5-Pages-suffix-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (pagesProject && (host === pagesProject || host.endsWith(\".\" + pagesProject))) deny();",
+        "replace": "/* suffix guard removed */"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-on-disk-hashing",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "const inputs=committedHashes(root,commit);",
+        "replace": "const inputs=hashes(root);"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-index-flags-allowed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if(isInput(row.slice(2)) && (row[0]===\"S\" || /[a-z]/.test(row[0])))",
+        "replace": "if(false)"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-skip-check-disabled",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/push.sh",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if ! node tools/test-output.cjs \"$TEST_OUT\"; then",
+        "replace": "if false; then"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-named-input-1-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "\"file-extractors.mjs\",",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-named-input-2-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "\"app.js\",",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-named-input-3-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "\"index.html\",",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-named-input-4-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "\"styles.css\"",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-parity-failure-ignored",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "run.error || run.status!==0",
+        "replace": "run.error || false"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-parity-input-changes-ignored",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if(JSON.stringify(before)!==JSON.stringify(inputHashes(root)))",
+        "replace": "if(false)"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-schema-check-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "stamp.schema!==1 || ",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-Chrome-version-check-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "typeof stamp.chrome!==\"string\" || !stamp.chrome ||",
+        "replace": "false ||"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-symlink-mode-allowed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "tools/parity-stamp.cjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if(list.some(e=>![\"100644\",\"100755\"].includes(e.mode)))",
+        "replace": "if(false)"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-entry-cap-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if (count > 4096)",
+        "replace": "if (false)"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-claim-cap-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": " || expected > 64*1024*1024",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-cumulative-cap-removed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": " || expanded>64*1024*1024",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-selected-duplicate-allowed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!entries.get(name)) throw new Error(\"Could not extract file\");",
+        "replace": "if (!entries.get(name)) return \"\";"
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-External-followed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": " || relation.getAttribute(\"TargetMode\")===\"External\"",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W5-DOCX-foreign-origin-allowed",
+      "origin": "codex",
+      "source": "CC delta review / Marcus W5",
+      "file": "file-extractors.mjs",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "target.origin!==base.origin || ",
+        "replace": ""
+      },
+      "sourceSpec": "W5 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
     }
   ]
 }

@@ -138,6 +138,42 @@ await check("12 second deadline includes streamed body",async()=>{
   const r=await pending;assert.equal(r.status,500);assert.deepEqual(await r.json(),{error:"Website request timed out"});
  }finally{globalThis.setTimeout=set;globalThis.clearTimeout=clear;}
 });
+for(const requestHost of ["reader-demo.pages.dev","abc123.reader-demo.pages.dev","MASTER.READER-DEMO.PAGES.DEV...:80"]) {
+ const request=target=>new Request("https://"+requestHost+"/api/read?url="+encodeURIComponent(target));
+ for(const target of ["https://abc123.reader-demo.pages.dev/api/read","https://master.reader-demo.pages.dev/",
+  "https://reader-demo.pages.dev/","https://HASH.READER-DEMO.PAGES.DEV/","https://hash.reader-demo.pages.dev.../",
+  "https://hash.reader-demo.pages.dev:443/","http://hash.reader-demo.pages.dev:80/",
+  "https://hash%2Ereader-demo%2Epages%2Edev/","https://ｈａｓｈ.reader-demo。pages.dev/",
+  "master.reader-demo.pages.dev"]) {
+  for(const redirect of [false,true]) await check("Pages project suffix "+requestHost+" -> "+target+" redirect="+redirect,async()=>{
+   const f=fake(()=>new Response(null,{status:302,headers:{location:new URL(target.startsWith("http")?target:"https://"+target).href}}));
+   const response=await handleRead(request(redirect?"https://public.example/":target),f.fetchImpl,["wrong.pages.dev"]);
+   assert.equal(response.status,403);
+   // Only the initial public hop may perform DNS/fetch; the refused hop performs neither.
+   assert.equal(f.calls.length,redirect?3:0);
+   assert(f.calls.every(c=>["public.example","cloudflare-dns.com"].includes(new URL(c.url).hostname)));
+  });
+ }
+ await check("unrelated Pages site allowed from "+requestHost,async()=>{
+  const f=fake();assert.equal((await handleRead(request("https://unrelated.pages.dev/"),f.fetchImpl)).status,200);
+  assert.equal(f.calls.length,3);
+ });
+}
+await check("IDNA/punycode Pages project derived on deployment alias",async()=>{
+ for(const target of ["https://bücher.pages.dev/","https://next.xn--bcher-kva.pages.dev/","https://next.b%C3%BCcher.pages.dev/"]) {
+  const f=fake();const request=new Request("https://hash.bücher.pages.dev/api/read?url="+encodeURIComponent(target));
+  assert.equal((await handleRead(request,f.fetchImpl)).status,403);assert.equal(f.calls.length,0);
+ }
+});
+await check("third party former default is allowed",async()=>{
+ const f=fake();assert.equal((await handleRead(make("https://wordflow.pages.dev/"),f.fetchImpl)).status,200);
+ assert.deepEqual(SITE_HOSTNAMES,[]);
+});
+await check("Pages suffix boundary does not block similar domains",async()=>{
+ for(const target of ["https://not-reader-demo.pages.dev/","https://reader-demo.pages.dev.public.example/"]) {
+  const f=fake();assert.equal((await handleRead(new Request("https://reader-demo.pages.dev/api/read?url="+encodeURIComponent(target)),f.fetchImpl)).status,200);
+ }
+});
 await check("reserved unallocated IPv6 denied",async()=>{for(const ip of ["3000::1","3ffe::1","2d00::1","2001:1000::1","2001:f000::1"])assert.equal(isPublicIP(ip),false);});
 const output={passed,skipped:0,cases};
 const i=process.argv.indexOf("--out");if(i>=0)fs.writeFileSync(process.argv[i+1],JSON.stringify(output,null,2)+"\n");

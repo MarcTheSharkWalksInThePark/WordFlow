@@ -111,7 +111,7 @@
         },
         {
           "file": "static-quota-1400.png",
-          "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88"
+          "sha256": "4af591ebf3142e9b72fd292cfc6c47b1a502f93fb6f169b649c991ae6be4f981"
         }
       ]
     },
@@ -221,11 +221,11 @@
       "screenshots": [
         {
           "file": "static-reader-390.png",
-          "sha256": "228cb1dc1164a262fb5e0d207cc6597362ce6641f83b2fae109032e64cb1bfff"
+          "sha256": "faaffcc634fc24fbed0c4947a1b9b782ac08e4ac702cdb6c7ba26887bbcff3e0"
         },
         {
           "file": "static-quota-390.png",
-          "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b"
+          "sha256": "5d6312d26d3d67b6f75bde90c144e40f4ccd2472872a5b9a86b2a18e01e2857a"
         }
       ]
     }

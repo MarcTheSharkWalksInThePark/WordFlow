@@ -289,7 +289,7 @@ check("part 1: listener inventory has no non-loopback bind (no LAN connection at
   const s = servers.default;
   assert.strictEqual(s.bound, "127.0.0.1");
   if (process.platform === "win32") {
-    const rows = execFileSync("netstat.exe", ["-ano", "-p", "tcp"], { encoding: "utf8", windowsHide: true }).split(/\r?\n/).map(line => line.trim().split(/\s+/));
+    const rows = execFileSync("netstat.exe", ["-ano", "-p", "tcp"], { encoding: "utf8", windowsHide: true, maxBuffer: 16 * 1024 * 1024 }).split(/\r?\n/).map(line => line.trim().split(/\s+/));
     const owned = rows.filter(row => row[0] === "TCP" && row.at(-1) === String(s.child.pid) && row[1].endsWith(":" + s.port));
     assert(owned.length > 0, "netstat must identify the server listener");
     assert(owned.every(row => row[1] === "127.0.0.1:" + s.port), "non-loopback listener found");
