@@ -21,3 +21,9 @@ It returns step statuses and error names/messages, never incoming data or fetche
 the fix. Diagnostic deployment/test/live evidence and final results are appended below.
 
 Diagnostic validation: npm test passes 491 checks (223 static + 162 proxy + 32 exposure + 74 post-review), 0 skips. A direct diagnostic scope/error check rejects POST and queries with no subrequests, restricts all DNS names to the fixed list, preserves exact production options and captures the synthetic runtime error. No stamped file changed; parity is unchanged. A sandbox child-process EPERM required running the test suites with approved escalation.
+
+Root-cause lead: Cloudflare's [primary workerd implementation](https://github.com/cloudflare/workerd/blob/ebd90312bff06ae5c7689a23a3589c898f4b7618/src/workerd/api/http.c%2B%2B) rejects error redirect mode at Request construction; tryParseRedirect accepts only follow/manual. This contradicts the Request documentation. The fixed-target live diagnostic will confirm the deployed runtime error.
+
+Marcus's approval, relayed by the orchestrator during this task: update only E9's exact DoH anchor from the removed error-mode expression to the fixed manual-mode expression, preserving automatic-follow mutation semantics and the required KILLED verdict. All other 76 earlier mutation definitions must remain identical. Marcus additionally requires a 3xx DoH response with a Location header to fail closed with no target fetch.
+
+Separate reviewer (Codex subagent): temporary diagnostic CLEAR; fresh --no-local clone 491 Node checks / 0 skips, plus 39 diagnostic checks / 0 skips. Review report: docs/verification/2026-10-06_ccodex_review_live_url_diag.md. No diagnostic mutation/parity/live run was claimed by the reviewer.
