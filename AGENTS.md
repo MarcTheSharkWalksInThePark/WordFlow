@@ -4,7 +4,7 @@ Shared rules for every agent that works in this repository: Claude Code, Codex, 
 claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to this file.
 
 - Local path: `C:\Users\Marcu\Documents\WordFlow`
-- Remote: `https://github.com/MarcTheSharkWalksInThePark/WordFlow` (private until Marcus changes it).
+- Remote: `https://github.com/MarcTheSharkWalksInThePark/WordFlow` (public; Marcus launched 2026-10-06).
   After review and connection, Cloudflare's Git integration deploys master.
 - Default branch: `master`.
 
@@ -48,7 +48,8 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
 
   `tests/server_exposure.test.js` (32 checks) and the 46 registered mutations in
   `tools/r59.spec.json` (45 killed, M9 the proven equivalent) guard them. W2 adds six killed
-  proxy mutations; W4 adds six and W5 adds 19 (77 total, 76 killed, one equivalent). A change that touches
+  proxy mutations; W4 adds six, W5 adds 19 and the live URL fix adds one (78 total, 77 killed,
+  one equivalent; Marcus approved the E9 DoH anchor update). A change that touches
   them needs the mutations re-run, per RULING 55 part 3: exact transform, target suite, and SHA-256
   before, mutated and restored.
 
@@ -161,9 +162,11 @@ bash tools/push.sh                                          # the only way to pu
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
-- **Launch pending:** W4 fixes independently reviewed by CC; W5 delta fixes verified before the
-  authorized fast-forward merge/gated push. Marcus's public visibility change, free Cloudflare Git
-  connection, assigned-address recording and live verification remain human steps.
+- **Live:** public repository and free Cloudflare Git site at https://wordflow-reader.pages.dev/.
+  The 2026-10-06 URL fix is independently reviewed and deployed: all five originally failing
+  public sites return 200 HTML; private/self/alias refusals and POST 405 remain intact.
+  The temporary diagnostic is removed. See `docs/verification/2026-10-06_codex_live_url_fix.md`.
+  Remaining quota/CPU/fail-open/dashboard logging checks stay unverified below.
 - **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
   quota; actual edge CPU, quota status/body/fail-open routing and dashboard logging are unverified.
 - **W4.5 deferred until a separate reader task after launch:** an artificial 135-character token can exceed the frame at the
@@ -197,3 +200,11 @@ from the Codex build report and the CC review.
 Marcus's W2 task replaces the local-only deployment rule and authorizes exact static additions,
 env/Python removal, browser extraction and free Pages Git hosting. Rules above reflect that
 ruling; no merge, push, deployment or repository settings change occurred in the build.
+
+### 2026-10-06 — Codex — live URL fix
+
+Workers rejects DoH redirect error mode at Request construction. The reviewed fix uses manual
+mode with the unchanged non-2xx refusal. Both agents reproduce 498 Node checks / 0 skips and
+78 mutations (77 killed + equivalent M9). All earlier verdicts remain; only E9's anchor changes
+with Marcus's approval. Live smoke and diagnostic removal pass. No stamped file changed or
+package was installed. Run `npm run smoke:live` after deployments.

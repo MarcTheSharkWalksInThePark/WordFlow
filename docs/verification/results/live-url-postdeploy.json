@@ -1,0 +1,124 @@
+{
+  "site": "https://wordflow-reader.pages.dev/",
+  "master": "f52e8914887632466c6953347f16f2526fd2b6dd",
+  "at": "2026-10-06T19:32:55.293Z",
+  "passed": 10,
+  "checks": [
+    {
+      "name": "example.com",
+      "target": "https://example.com/",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "elapsedMs": 120,
+      "contentType": "text/html; charset=utf-8",
+      "characters": 577,
+      "html": true,
+      "error": null,
+      "upstreamResponse": true
+    },
+    {
+      "name": "Wikipedia",
+      "target": "https://en.wikipedia.org/",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "elapsedMs": 458,
+      "contentType": "text/html; charset=UTF-8",
+      "characters": 246623,
+      "html": true,
+      "error": null,
+      "upstreamResponse": true
+    },
+    {
+      "name": "Gutenberg",
+      "target": "https://gutenberg.org/",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "elapsedMs": 2496,
+      "contentType": "text/html",
+      "characters": 30214,
+      "html": true,
+      "error": null,
+      "upstreamResponse": true
+    },
+    {
+      "name": "httpbin HTML",
+      "target": "https://httpbin.org/html",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "elapsedMs": 677,
+      "contentType": "text/html; charset=utf-8",
+      "characters": 3739,
+      "html": true,
+      "error": null,
+      "upstreamResponse": true
+    },
+    {
+      "name": "NRK",
+      "target": "https://nrk.no/",
+      "status": 200,
+      "expected": 200,
+      "passed": true,
+      "elapsedMs": 634,
+      "contentType": "text/html",
+      "characters": 507609,
+      "html": true,
+      "error": null,
+      "upstreamResponse": true
+    },
+    {
+      "name": "localhost",
+      "target": "http://localhost/",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "elapsedMs": 35,
+      "contentType": null,
+      "characters": 0,
+      "html": false,
+      "error": "URL not allowed",
+      "upstreamResponse": false
+    },
+    {
+      "name": "metadata link-local",
+      "target": "http://169.254.169.254/",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "elapsedMs": 65,
+      "contentType": null,
+      "characters": 0,
+      "html": false,
+      "error": "URL not allowed",
+      "upstreamResponse": false
+    },
+    {
+      "name": "Pages project alias",
+      "target": "https://abc123.wordflow-reader.pages.dev/",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "elapsedMs": 78,
+      "contentType": null,
+      "characters": 0,
+      "html": false,
+      "error": "URL not allowed",
+      "upstreamResponse": false
+    },
+    {
+      "name": "POST refusal",
+      "status": 405,
+      "expected": 405,
+      "passed": true
+    },
+    {
+      "name": "diagnostic removed",
+      "status": 404,
+      "expected": 404,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "site": "https://wordflow-reader.pages.dev/",
+  "at": "2026-10-06T19:32:20.775Z",
+  "passed": 3,
+  "checks": [
+    {
+      "name": "public HTML",
+      "target": "https://example.com/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "name": "private refusal",
+      "target": "http://192.168.1.1/",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "name": "self refusal",
+      "target": "https://wordflow-reader.pages.dev/",
+      "status": 403,
+      "passed": true
+    }
+  ]
+}

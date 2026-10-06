@@ -45,3 +45,36 @@ All stamped files are unchanged from launch 134e5db; npm run parity is not requi
 Full builder mutation run: 78 rows, 77 KILLED, equivalent M9 only, 0 unexpected verdicts, 0 errors. All 77 earlier verdicts match launch evidence, all 78 before/mutated/restored SHA-256 triples pass restoration checks, and all 76 unapproved earlier definitions are unchanged. E9 and U1 are assertion-killed. Evidence: results/live-url-mutations.json and results/live-url-mutation-definitions.json. A direct Workers-mode regression on the committed launch proxy returns 500 and the fixed proxy returns 200 with HTML under identical inputs; see results/live-url-runtime-regression.json. Existing committed parity stamp validation passes.
 
 Independent final review: CLEAR for c6372aaddbadea4f933ff68ea1a2a3d885bf2371. A fresh --no-local clone reproduces 498 Node checks/0 skips and 78 mutations (77 KILLED + equivalent M9, 0 unexpected/errors); all 77 earlier verdicts and all 78 restoration hash triples match. The reviewer independently verifies 76 unchanged row definitions/E9 approval/U1, unchanged stamped inputs with valid committed stamp, complete diagnostic removal and pinned runtime source/API support. Reviewer report: 2026-10-06_ccodex_review_live_url_fix.md; evidence: results/reviewer-live-url-mutations.json. Builder claims were independently checked; neither report claims pre-push live fix success.
+
+## Final live result — 21:32 Europe/Oslo
+
+The reviewed fix and evidence were pushed only through tools/push.sh as master
+f52e8914887632466c6953347f16f2526fd2b6dd; the gate passed Node/no-skips, committed parity hashes,
+hidden-index checks and remote-SHA verification. Cloudflare's existing Git integration redeployed.
+An initial check still saw the old diagnostic build; after the build switched, the live smoke
+passed at 21:32:20 and expanded verification passed at 21:32:55 (2026-10-06):
+
+| Live target/check | Result |
+| --- | --- |
+| example.com | 200, HTML, known Example Domain content |
+| en.wikipedia.org | 200, HTML |
+| gutenberg.org | 200, HTML |
+| httpbin.org/html | 200, HTML |
+| nrk.no | 200, HTML |
+| 192.168.1.1 | 403, URL not allowed |
+| site itself | 403, URL not allowed |
+| localhost / 169.254.169.254 / abc123.wordflow-reader.pages.dev | all 403 |
+| POST /api/read | 405 |
+| /api/diag | 404, no diagnostic marker |
+
+Evidence: results/live-url-smoke.json (3/3) and results/live-url-postdeploy.json (10/10).
+These are direct live HTTPS calls from Codex, exercising real DNS and Workers fetch/stream APIs;
+no fetched page bodies or caller data are saved in the evidence. URL reading is restored.
+The diagnostic was removed in the fix commit, not merely switched off.
+
+The orchestrator's 21:15 entry is logged by Codex in the Claude worklog as authorized. Codex
+updated the project/public address, worklog, hot-cache, current-state, wiki index/log and final
+state in the vault. Today's daily note is absent and was not created. No Marcus action is
+needed for this fix; retain the documented separate residual platform checks and deferred F1.
+tools/push.log is committed with the next change as prescribed; a successful final push will
+leave its new gate entry modified. The final documentation/evidence commit changes no code.
