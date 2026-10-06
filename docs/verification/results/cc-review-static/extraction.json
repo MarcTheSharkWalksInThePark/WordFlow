@@ -1,0 +1,54 @@
+{
+ "goldens": "see reproduction.json R3_goldenProvenance and R3R4_browserParity",
+ "docxDifferential": {
+  "method": "nine synthetic DOCX edge cases generated with python-docx 1.2.0 (scratch only, not committed); historical extractor bytes vs browser extractDocx bytes (same payload reconstruction as tests/browser-parity.cjs)",
+  "rows": [
+   {
+    "file": "charstyle-as-pstyle.docx",
+    "identical": false,
+    "python": "Mislinked style paragraph\n\nOrdinary body sentence.",
+    "browser": "## Mislinked style paragraph\n\nOrdinary body sentence."
+   },
+   {
+    "file": "document2.docx",
+    "identical": false,
+    "python": "Renamed main part body.",
+    "browser": "ERROR Could not extract file"
+   },
+   {
+    "file": "inline-elements.docx",
+    "identical": true
+   },
+   {
+    "file": "merged-table.docx",
+    "identical": true
+   },
+   {
+    "file": "nobreakhyphen.docx",
+    "identical": false,
+    "python": "e-mail works.",
+    "browser": "e\u2011mail works."
+   },
+   {
+    "file": "nostyles.docx",
+    "identical": true
+   },
+   {
+    "file": "title-and-long-heading.docx",
+    "identical": true
+   },
+   {
+    "file": "tracked-and-fields.docx",
+    "identical": true
+   },
+   {
+    "file": "unicode-bold.docx",
+    "identical": true
+   }
+  ]
+ },
+ "pythonDocxSource": {
+  "noBreakHyphen": "docx/oxml/text/run.py CT_NoBreakHyphen.__str__ returns '-' (U+002D); file-extractors.mjs returns U+2011",
+  "missingStylesPart": "docx/parts/document.py _styles_part creates the default StylesPart when none is related"
+ }
+}

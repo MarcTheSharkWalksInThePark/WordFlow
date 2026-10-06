@@ -1,0 +1,477 @@
+{
+ "dist": {
+  "built": "node tools/build.cjs",
+  "files": 199,
+  "allowlist": 197,
+  "configuration": [
+   "_headers",
+   "_routes.json"
+  ],
+  "exactMatch": true,
+  "byteIdenticalToSource": "199/199",
+  "forbiddenPaths": [],
+  "routes": "{\"version\":1,\"include\":[\"/api/read\"],\"exclude\":[]}",
+  "largestBytes": 2229713
+ },
+ "vendoring": {
+  "package": "pdfjs-dist@6.4.299",
+  "registryIntegrity": "sha512-AVl138zALtfaAPvADulE0PZThbYzCBS79nL4pOSL/6Sm/4AH5A21BD9VHt97OlCuzJuCpmeZtAtkinisF4Vb1g==",
+  "manifestIntegrityMatches": true,
+  "tarballSha256": "86269b40170eb41740ea05ad2102d71d33de4f122b34eb2f478be0ea7779c415",
+  "manifestTarballSha256Matches": true,
+  "manifestHashesMatchDisk": "188/188",
+  "vendoredFilesByteIdenticalToTarball": "188/188",
+  "tarballEntries": 554,
+  "upstreamNoticeFile": "none in the tarball"
+ },
+ "licence": {
+  "licenseEqualsW24RecordedText": true,
+  "crInBlob": 0,
+  "shipsInDist": [
+   "LICENSE",
+   "THIRD_PARTY_NOTICES.md",
+   "vendor/pdfjs/LICENSE",
+   "vendor/pdfjs/cmaps/LICENSE",
+   "vendor/pdfjs/standard_fonts/LICENSE_FOXIT",
+   "vendor/pdfjs/standard_fonts/LICENSE_LIBERATION"
+  ]
+ },
+ "headers": {
+  "localServerVsHeadersFile": {
+   "content-security-policy": "identical",
+   "x-content-type-options": "identical",
+   "referrer-policy": "identical",
+   "permissions-policy": "identical"
+  }
+ },
+ "browser": {
+  "pageLoadRequests": [
+   "GET <origin>/",
+   "GET <origin>/styles.css",
+   "GET <origin>/assets/wordflow-mark.svg",
+   "GET <origin>/app.js",
+   "GET <origin>/assets/wordflow-mark.svg"
+  ],
+  "nonOriginRequests": [],
+  "extractionRequests": [
+   "GET <origin>/file-extractors.mjs",
+   "GET <origin>/vendor/pdfjs/pdf.mjs",
+   "GET <origin>/vendor/pdfjs/pdf.worker.mjs"
+  ],
+  "cspFromPlaywrightEvaluateWorld": {
+   "inlineScriptRan": false,
+   "evalAllowed": true,
+   "functionCtorAllowed": true,
+   "inlineHandlerRan": false,
+   "inlineStyleApplied": false,
+   "styleAttributeApplied": false,
+   "cssomStyleApplied": true
+  },
+  "cspViolations": [
+   "script-src-elem inline",
+   "script-src-attr inline",
+   "style-src-elem inline",
+   "style-src-attr inline",
+   "frame-src "
+  ],
+  "cspFromRealPageScript": {
+   "eval": "blocked:EvalError",
+   "functionConstructor": "blocked:EvalError",
+   "stringSetTimeout": "blocked",
+   "inlineScript": "blocked"
+  },
+  "frameAncestors": "cross-origin embed rendered chrome-error://chromewebdata/ (refused)"
+ },
+ "hygiene": {
+  "scope": "two commits origin/master..cdb5b97, final tree, and every distinct blob reachable from all local branches; samples omitted",
+  "identityEmails": [
+   "292589207+MarcTheSharkWalksInThePark@users.noreply.github.com"
+  ],
+  "commits": {
+   "3921959": {
+    "anyEmail": [
+     {
+      "where": "docs/DECISIONS.md",
+      "count": 1
+     }
+    ]
+   },
+   "cdb5b97": {
+    "windowsUserProfilePath": [
+     {
+      "where": "AGENTS.md",
+      "count": 3
+     }
+    ],
+    "vault": [
+     {
+      "where": "AGENTS.md",
+      "count": 8
+     },
+     {
+      "where": "docs/verification/2026-10-06_codex_static_hosting.md",
+      "count": 1
+     }
+    ],
+    "anyEmail": [
+     {
+      "where": "docs/DECISIONS.md",
+      "count": 1
+     },
+     {
+      "where": "docs/verification/results/proxy.json",
+      "count": 1
+     },
+     {
+      "where": "tests/proxy.test.mjs",
+      "count": 1
+     },
+     {
+      "where": "vendor/pdfjs/pdf.worker.mjs",
+      "count": 1
+     }
+    ],
+    "appDataTemp": [
+     {
+      "where": "tests/browser-helper.cjs",
+      "count": 1
+     }
+    ],
+    "secretAssign": [
+     {
+      "where": "tests/server_exposure.test.js",
+      "count": 1
+     }
+    ]
+   }
+  },
+  "finalTree": {
+   "windowsUserProfilePath": [
+    {
+     "where": "AGENTS.md",
+     "count": 3
+    },
+    {
+     "where": "CLAUDE.md",
+     "count": 2
+    },
+    {
+     "where": "docs/verification/2026-10-05_cc_review_wordflow_standalone.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_history_email_rewrite.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md",
+     "count": 2
+    },
+    {
+     "where": "docs/verification/results/cc-review/parity.json",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/mutations.json",
+     "count": 10
+    },
+    {
+     "where": "docs/verification/results/parity.json",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/pre-split-baseline.json",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/provenance.json",
+     "count": 1
+    }
+   ],
+   "vault": [
+    {
+     "where": "AGENTS.md",
+     "count": 8
+    },
+    {
+     "where": "CLAUDE.md",
+     "count": 5
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-06_codex_static_hosting.md",
+     "count": 1
+    }
+   ],
+   "anyEmail": [
+    {
+     "where": "docs/DECISIONS.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/proxy.json",
+     "count": 1
+    },
+    {
+     "where": "tests/proxy.test.mjs",
+     "count": 1
+    },
+    {
+     "where": "vendor/pdfjs/pdf.worker.mjs",
+     "count": 1
+    }
+   ],
+   "appDataTemp": [
+    {
+     "where": "docs/verification/2026-10-05_cc_review_wordflow_standalone.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/cc-review/parity.json",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/mutations.json",
+     "count": 4
+    },
+    {
+     "where": "docs/verification/results/parity.json",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/pre-split-baseline.json",
+     "count": 1
+    },
+    {
+     "where": "tests/browser-helper.cjs",
+     "count": 1
+    }
+   ],
+   "secretAssign": [
+    {
+     "where": "tests/server_exposure.test.js",
+     "count": 1
+    }
+   ]
+  },
+  "allHistory": {
+   "windowsUserProfilePath": [
+    {
+     "where": "AGENTS.md @cdb5b97",
+     "count": 3
+    },
+    {
+     "where": "CLAUDE.md @cdb5b97",
+     "count": 2
+    },
+    {
+     "where": "docs/verification/2026-10-05_cc_review_wordflow_standalone.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_history_email_rewrite.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md @cdb5b97",
+     "count": 2
+    },
+    {
+     "where": "docs/verification/results/cc-review/parity.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/mutations.json @cdb5b97",
+     "count": 10
+    },
+    {
+     "where": "docs/verification/results/parity.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/pre-split-baseline.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/provenance.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @3921959",
+     "count": 3
+    },
+    {
+     "where": "README.md @3921959",
+     "count": 3
+    },
+    {
+     "where": "AGENTS.md @b4de13c",
+     "count": 3
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_history_email_rewrite.md @b4de13c",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @7fe8581",
+     "count": 3
+    },
+    {
+     "where": "AGENTS.md @78c4574",
+     "count": 3
+    },
+    {
+     "where": "AGENTS.md @fcc61cf",
+     "count": 3
+    }
+   ],
+   "vault": [
+    {
+     "where": "AGENTS.md @cdb5b97",
+     "count": 8
+    },
+    {
+     "where": "CLAUDE.md @cdb5b97",
+     "count": 5
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-06_codex_static_hosting.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @3921959",
+     "count": 8
+    },
+    {
+     "where": "AGENTS.md @b4de13c",
+     "count": 8
+    },
+    {
+     "where": "AGENTS.md @7fe8581",
+     "count": 8
+    },
+    {
+     "where": "AGENTS.md @78c4574",
+     "count": 8
+    },
+    {
+     "where": "AGENTS.md @fcc61cf",
+     "count": 8
+    }
+   ],
+   "anyEmail": [
+    {
+     "where": "docs/DECISIONS.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/proxy.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "tests/proxy.test.mjs @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "vendor/pdfjs/pdf.worker.mjs @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/DECISIONS.md @3921959",
+     "count": 1
+    },
+    {
+     "where": "docs/DECISIONS.md @57ca645",
+     "count": 1
+    },
+    {
+     "where": "docs/DECISIONS.md @b4de13c",
+     "count": 1
+    }
+   ],
+   "appDataTemp": [
+    {
+     "where": "docs/verification/2026-10-05_cc_review_wordflow_standalone.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/2026-10-05_codex_wordflow_standalone.md @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/cc-review/parity.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/mutations.json @cdb5b97",
+     "count": 4
+    },
+    {
+     "where": "docs/verification/results/parity.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "docs/verification/results/pre-split-baseline.json @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "tests/browser-helper.cjs @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @3921959",
+     "count": 1
+    },
+    {
+     "where": "README.md @3921959",
+     "count": 1
+    },
+    {
+     "where": "server.js @3921959",
+     "count": 1
+    },
+    {
+     "where": "tools/chrome_smoke.cjs @3921959",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @b4de13c",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @7fe8581",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @78c4574",
+     "count": 1
+    },
+    {
+     "where": "AGENTS.md @fcc61cf",
+     "count": 1
+    }
+   ],
+   "secretAssign": [
+    {
+     "where": "tests/server_exposure.test.js @cdb5b97",
+     "count": 1
+    },
+    {
+     "where": "tests/server_exposure.test.js @3921959",
+     "count": 1
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,2369 @@
+{
+ "method": "lib/read-proxy.mjs from the clone, injected DoH and fetch (no real network); independent net.BlockList oracle over IANA special-purpose ranges; BYPASS = any outbound fetch to a private/special target or non-http(s) scheme",
+ "summary": {
+  "blocked": 132,
+  "allowed-by-design": 58
+ },
+ "note": "allowed-by-design rows reached only public hosts; for redirect rows the first hop is public and every private redirect target was refused (403) with no fetch",
+ "attempts": [
+  {
+   "category": "ipv4-forms",
+   "label": "http://2130706433/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://017700000001/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0177.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0x7f.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0x7f000001/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://10.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0xA9FEA9FE/latest/meta-data/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://169.254.169.254/latest/meta-data/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://100.100.100.200/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://192.0.0.192/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.000.000.001/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0x7f.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.0.0.1./",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://2130706433./",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://\uff11\uff12\uff17.\uff10.\uff10.\uff11/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127\u30020\u30020\u30021/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://12\t7.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.0.0.1",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "HTTP://127.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://127.0.0.1:80/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "https://127.0.0.1:443/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://255.255.255.255/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://224.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://198.18.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://[::ffff:169.254.169.254]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "127.0.0.1",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "10.0.0.1/admin",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "0x7f000001",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv4-forms",
+   "label": "http://0.0.0.0:443/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[0:0:0:0:0:0:0:1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::ffff:127.0.0.1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::FFFF:7F00:1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::127.0.0.1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[64:ff9b::127.0.0.1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[64:ff9b::a9fe:a9fe]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[64:ff9b:1::a00:1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2002:7f00:1::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2002:a9fe:a9fe::]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2001:0:4136:e378:8000:63bf:80ff:fffe]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2001::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[fe80::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[fe80::1%25eth0]/",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[fe80::1%eth0]/",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[fc00::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[fd12:3456::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[ff02::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::ffff:0:a00:1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[0::ffff:10.0.0.1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[100::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2001:db8::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[3fff::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[5f00::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[::ffff:7f00:1]:80/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "[::1]",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2606:4700:4700::1111]/ (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "http://[2606:4700:4700::1111]/"
+   ],
+   "dohQueries": 0,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2001:4860:4860::8888]/ (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "http://[2001:4860:4860::8888]/"
+   ],
+   "dohQueries": 0,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "ipv6-forms",
+   "label": "http://[2a00:1450:4001:80b::200e]/ (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "http://[2a00:1450:4001:80b::200e]/"
+   ],
+   "dohQueries": 0,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "names",
+   "label": "http://LOCALHOST/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://localhost./",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://localhost../",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://Foo.LocalHost/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://\u24db\u24de\u24d2\u24d0\u24db\u24d7\u24de\u24e2\u24e3/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://loca\u00adlhost/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://xn--lcalhost-x9a/",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://foo.local./",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://printer.home.arpa/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://1.0.0.127.in-addr.arpa/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://localhost.localdomain/",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://rebind.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://REBIND.EXAMPLE./",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://meta.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://lan.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://127.0.0.1.nip.io/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://router.lan/",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://nas.corp/",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://intranet/",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://Public.Example./ (public or NX)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "http://public.example./"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "names",
+   "label": "http://xn--bcher-kva.example/ (public or NX)",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "names",
+   "label": "http://b\u00fccher.example/ (public or NX)",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://user@127.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example@127.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://127.0.0.1#@public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://127.0.0.1\\@public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://user:pass@public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://:@public.example/",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:8080/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:0/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:22/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:65536/",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "http:\\\\127.0.0.1\\x",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "http:/127.0.0.1/",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https:127.0.0.1",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "//127.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "\\\\127.0.0.1\\",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "file:///etc/passwd",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "FILE:///c:/windows/win.ini",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "ftp://public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "gopher://public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "data:text/html,hi",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "javascript:alert(1)",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "ws://public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "blob:https://public.example/x",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://127.0.0.1%2f.public.example/",
+   "status": 400,
+   "error": "Missing URL",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "localhost:8080",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "public.example:443/page",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example\\@127.0.0.1/ (fetches public host)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/@127.0.0.1/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:443/ (fetches public host)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "syntax",
+   "label": "http://public.example:443/ (fetches public host)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "http://public.example:443/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:0443/ (fetches public host)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "syntax",
+   "label": "https://public.example:80/ (fetches public host)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example:80/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://127.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://[::1]/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://2130706433/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://0x7f.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> file:///etc/passwd",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> javascript:alert(1)",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> data:text/plain,hi",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> ftp://public.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> //127.0.0.1/x",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> //rebind.example/x",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> \\\\127.0.0.1\\x",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http:127.0.0.1",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> https://user:pass@public2.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> https://public2.example:8443/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://localhost/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://lan.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://[",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> https://mixed.example/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> http://169.254.169.254/latest/meta-data/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> /relative/path (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public.example/relative/path"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> relative-no-slash (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public.example/relative-no-slash"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> //public2.example/x (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public2.example/x"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "302 -> https://public2.example/ (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public2.example/"
+   ],
+   "dohQueries": 4,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "301 -> http://10.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "303 -> http://10.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "307 -> http://10.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "308 -> http://10.0.0.1/",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "300 with Location to 10.0.0.1 is not followed",
+   "status": 300,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "304 with Location to 10.0.0.1 is not followed",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "305 with Location to 10.0.0.1 is not followed",
+   "status": 305,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "306 with Location to 10.0.0.1 is not followed",
+   "status": 306,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "301 without Location",
+   "status": 301,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "chain of 5 redirects",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public.example/hop1",
+    "https://public.example/hop2",
+    "https://public.example/hop3",
+    "https://public.example/hop4",
+    "https://public.example/hop5"
+   ],
+   "dohQueries": 12,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "chain of 6 redirects",
+   "status": 500,
+   "error": "Too many redirects",
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public.example/hop1",
+    "https://public.example/hop2",
+    "https://public.example/hop3",
+    "https://public.example/hop4",
+    "https://public.example/hop5"
+   ],
+   "dohQueries": 12,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "redirect loop to self",
+   "status": 500,
+   "error": "Too many redirects",
+   "outboundFetches": [
+    "https://public.example/loop",
+    "https://public.example/loop",
+    "https://public.example/loop",
+    "https://public.example/loop",
+    "https://public.example/loop",
+    "https://public.example/loop"
+   ],
+   "dohQueries": 12,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "redirects",
+   "label": "hop 5 lands on private",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [
+    "https://public.example/start",
+    "https://public.example/hop1",
+    "https://public.example/hop2",
+    "https://public.example/hop3",
+    "https://public.example/hop4"
+   ],
+   "dohQueries": 10,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "dns",
+   "label": "mixed.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "mixed6.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "v6local.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "cname-private.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "cname-dangling.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "empty.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "nxdomain.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "servfail.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "doh500.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "dohjunk.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "dohhuge.example",
+   "status": 500,
+   "error": "Response too large",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "dohthrow.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "dohtype.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "aaaa-fail.example",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "meta.example",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 2,
+   "verdict": "blocked"
+  },
+  {
+   "category": "dns",
+   "label": "cname-public.example (public)",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://cname-public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "origin",
+   "label": "Origin null",
+   "status": 403,
+   "error": "Forbidden",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "origin",
+   "label": "mismatched Origin",
+   "status": 403,
+   "error": "Forbidden",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "origin",
+   "label": "Origin with explicit :443",
+   "status": 403,
+   "error": "Forbidden",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "origin",
+   "label": "uppercase Origin",
+   "status": 403,
+   "error": "Forbidden",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "origin",
+   "label": "Origin http scheme",
+   "status": 403,
+   "error": "Forbidden",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "origin",
+   "label": "same Origin",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "origin",
+   "label": "missing Origin",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "method",
+   "label": "POST",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "method",
+   "label": "PUT",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "method",
+   "label": "DELETE",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "method",
+   "label": "PATCH",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "method",
+   "label": "OPTIONS",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "method",
+   "label": "HEAD",
+   "status": 405,
+   "error": "GET required",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "headers",
+   "label": "client cookie/auth/xff/cf-connecting-ip/referer/ua not forwarded",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design",
+   "inspect": {
+    "outboundHeaders": [
+     {
+      "user-agent": "WordFlow Reader/1.0"
+     }
+    ],
+    "dohHeaders": [
+     "{\"accept\":\"application/dns-json\"}"
+    ],
+    "redirectModes": [
+     "doh:error",
+     "fetch:manual"
+    ]
+   }
+  },
+  {
+   "category": "request",
+   "label": "two url params, second private",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "request",
+   "label": "two url params, first private",
+   "status": 403,
+   "error": "URL not allowed",
+   "outboundFetches": [],
+   "dohQueries": 0,
+   "verdict": "blocked"
+  },
+  {
+   "category": "request",
+   "label": "fragment kept in returned url",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/a#frag"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design",
+   "inspect": {
+    "returnedUrl": "https://public.example/a#frag"
+   }
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 204",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 205",
+   "status": 200,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 304",
+   "status": 500,
+   "error": "Could not load website",
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 404",
+   "status": 404,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 500",
+   "status": 500,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  },
+  {
+   "category": "upstream-status",
+   "label": "upstream 599",
+   "status": 599,
+   "error": null,
+   "outboundFetches": [
+    "https://public.example/"
+   ],
+   "dohQueries": 2,
+   "verdict": "allowed-by-design"
+  }
+ ],
+ "isPublicIPOnDohStrings": {
+  "010.0.0.1": false,
+  "0177.0.0.1": false,
+  "127.0.0.1 ": false,
+  " 8.8.8.8": false,
+  "1.2.3.4.5": false,
+  "::ffff:127.0.0.1": false,
+  "2606:4700:4700::1111": true,
+  "2606:4700:4700:0:0:0:0:1111": true,
+  "[2606:4700::1]": true,
+  "2606:4700::1%eth0": false
+ },
+ "realSockets": {
+  "note": "loopback fixture server; public surrogate name mapped inside fetchImpl; Node undici performs decompression",
+  "bombSizes": {
+   "gzipBytes": 65251,
+   "brBytes": 102,
+   "deflateBytes": 65239,
+   "gzipGzipBytes": 267,
+   "decompressedMiB": 64
+  },
+  "bombs": [
+   {
+    "path": "/gzip-bomb",
+    "status": 500,
+    "error": "Response too large",
+    "responseBytes": 30,
+    "ms": 22,
+    "cpuMs": 15,
+    "rssDeltaMiB": 9.6
+   },
+   {
+    "path": "/br-bomb",
+    "status": 500,
+    "error": "Response too large",
+    "responseBytes": 30,
+    "ms": 13,
+    "cpuMs": 16,
+    "rssDeltaMiB": 12.6
+   },
+   {
+    "path": "/deflate-bomb",
+    "status": 500,
+    "error": "Response too large",
+    "responseBytes": 30,
+    "ms": 8,
+    "cpuMs": 63,
+    "rssDeltaMiB": -0.3
+   },
+   {
+    "path": "/gzip-gzip-bomb",
+    "status": 500,
+    "error": "Response too large",
+    "responseBytes": 30,
+    "ms": 10,
+    "cpuMs": 0,
+    "rssDeltaMiB": 2.3
+   }
+  ],
+  "compressedCap": [
+   {
+    "path": "/gzip-under",
+    "status": 200,
+    "error": null,
+    "responseBytes": 3145816,
+    "ms": 23,
+    "cpuMs": 31,
+    "rssDeltaMiB": 16.4,
+    "bodyLength": 3145728
+   },
+   {
+    "path": "/gzip-over",
+    "status": 500,
+    "error": "Response too large",
+    "responseBytes": 30,
+    "ms": 13,
+    "cpuMs": 16,
+    "rssDeltaMiB": -7.7,
+    "bodyLength": null
+   }
+  ],
+  "slow": [
+   {
+    "path": "/drip",
+    "status": 500,
+    "error": "Website request timed out",
+    "responseBytes": 37,
+    "ms": 12004,
+    "cpuMs": 109,
+    "rssDeltaMiB": -29.5
+   },
+   {
+    "path": "/slow-headers",
+    "status": 500,
+    "error": "Website request timed out",
+    "responseBytes": 37,
+    "ms": 12004,
+    "cpuMs": 109,
+    "rssDeltaMiB": -29.5
+   }
+  ],
+  "oldVersusNewContract": [
+   {
+    "path": "/html",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/html; charset=utf-8",
+    "oldContentType": "text/html; charset=utf-8"
+   },
+   {
+    "path": "/html-gzip",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/html; charset=utf-8",
+    "oldContentType": "text/html; charset=utf-8"
+   },
+   {
+    "path": "/plain",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/plain; charset=utf-8",
+    "oldContentType": "text/plain; charset=utf-8"
+   },
+   {
+    "path": "/latin1",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/plain; charset=iso-8859-1",
+    "oldContentType": "text/plain; charset=iso-8859-1"
+   },
+   {
+    "path": "/json",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "application/json",
+    "oldContentType": "application/json"
+   },
+   {
+    "path": "/pdf",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "application/pdf",
+    "oldContentType": "application/pdf"
+   },
+   {
+    "path": "/png",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "image/png",
+    "oldContentType": "image/png"
+   },
+   {
+    "path": "/octet",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "application/octet-stream",
+    "oldContentType": "application/octet-stream"
+   },
+   {
+    "path": "/no-type",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/plain; charset=utf-8",
+    "oldContentType": "text/plain; charset=utf-8"
+   },
+   {
+    "path": "/missing",
+    "newStatus": 404,
+    "oldStatus": 404,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/plain",
+    "oldContentType": "text/plain"
+   },
+   {
+    "path": "/error",
+    "newStatus": 500,
+    "oldStatus": 500,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/html",
+    "oldContentType": "text/html"
+   },
+   {
+    "path": "/redirect",
+    "newStatus": 200,
+    "oldStatus": 200,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": null,
+    "oldError": null,
+    "newContentType": "text/html; charset=utf-8",
+    "oldContentType": "text/html; charset=utf-8"
+   },
+   {
+    "path": "/gzip-over",
+    "newStatus": 500,
+    "oldStatus": 500,
+    "same": {
+     "status": true,
+     "contentType": true,
+     "body": true,
+     "urlPath": true,
+     "error": true
+    },
+    "newError": "Response too large",
+    "oldError": "Response too large"
+   }
+  ]
+ },
+ "cpuEstimateNodeInMemory": {
+  "note": "Node 24.16.0 on this PC, 30 runs each, handleRead on an in-memory stream (no sockets); indicative only, not Workers CPU accounting",
+  "medianMs": {
+   "3MiB_html_heavy_escaping": 9.92,
+   "3MiB_prose": 7.27,
+   "1MiB_html": 3.51,
+   "300KiB_html": 1.08
+  },
+  "p90Ms": {
+   "3MiB_html_heavy_escaping": 13.37,
+   "3MiB_prose": 10.25,
+   "1MiB_html": 5.98,
+   "300KiB_html": 1.16
+  }
+ },
+ "extraMutants": [
+  {
+   "id": "E1 target fetch follows redirects",
+   "verdict": "KILLED",
+   "by": "FAIL same Origin and no client header forwarding",
+   "assertion": true
+  },
+  {
+   "id": "E2 mixed DNS answers accepted (some -> every)",
+   "verdict": "KILLED",
+   "by": "FAIL DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"10.0.0.1\"},{\"type\":28,\"data\":\"2606:4700:4700::1111\"}]}",
+   "assertion": true
+  },
+  {
+   "id": "E3 scheme check in validateTarget removed (redirect-only path)",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E4 userinfo check removed",
+   "verdict": "KILLED",
+   "by": "FAIL deny syntax https://user:password@public.example",
+   "assertion": true
+  },
+  {
+   "id": "E5 port check removed",
+   "verdict": "KILLED",
+   "by": "FAIL deny syntax https://public.example:8080",
+   "assertion": true
+  },
+  {
+   "id": "E6 local-suffix regex removed",
+   "verdict": "KILLED",
+   "by": "FAIL deny hostname localhost",
+   "assertion": true
+  },
+  {
+   "id": "E7 hop limit removed",
+   "verdict": "KILLED",
+   "by": "FAIL five redirects accepted; sixth refused",
+   "assertion": false
+  },
+  {
+   "id": "E8 timeout never armed",
+   "verdict": "KILLED",
+   "by": "FAIL 12 second deadline includes streamed body",
+   "assertion": false
+  },
+  {
+   "id": "E9 DoH redirect mode follow",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E10 DoH HTTP status ignored",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E11 DoH Status field ignored",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E12 empty DNS answer accepted",
+   "verdict": "KILLED",
+   "by": "FAIL DNS fail closed {\"Status\":0,\"Answer\":[]}",
+   "assertion": true
+  },
+  {
+   "id": "E13 trailing-dot strip removed",
+   "verdict": "KILLED",
+   "by": "FAIL deny hostname LOCALHOST.",
+   "assertion": true
+  },
+  {
+   "id": "E14 initial explicit-scheme refusal removed",
+   "verdict": "KILLED",
+   "by": "FAIL deny syntax file:///etc/passwd",
+   "assertion": true
+  },
+  {
+   "id": "E15 IPv4 CGNAT range dropped",
+   "verdict": "KILLED",
+   "by": "FAIL deny IP 100.64.0.1",
+   "assertion": true
+  },
+  {
+   "id": "E16 IPv6 documentation exclusion dropped",
+   "verdict": "KILLED",
+   "by": "FAIL deny IP 2001:db8::1",
+   "assertion": true
+  },
+  {
+   "id": "E17 Teredo/2001::/23 exclusion dropped",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E18 6to4 exclusion dropped",
+   "verdict": "SURVIVED",
+   "by": null,
+   "assertion": false
+  },
+  {
+   "id": "E19 error detail leaked",
+   "verdict": "KILLED",
+   "by": "FAIL DoH transport failures are generic",
+   "assertion": true
+  },
+  {
+   "id": "E20 3 MiB cap raised to 30 MiB",
+   "verdict": "KILLED",
+   "by": "FAIL streamed 3 MiB boundary and overflow",
+   "assertion": true
+  }
+ ],
+ "appQuotaDetection": [
+  {
+   "case": "CF 1027 page (HTML, 429)",
+   "outcome": "FREE_LIMIT message"
+  },
+  {
+   "case": "CF 1027 page served as text/plain",
+   "outcome": "error: Reader returned 503"
+  },
+  {
+   "case": "CF 1102 CPU page, IPv6 visitor with group 1027",
+   "outcome": "FREE_LIMIT message"
+  },
+  {
+   "case": "CF 1102 CPU page, Ray ID containing 1027",
+   "outcome": "error: Reader returned 503"
+  },
+  {
+   "case": "CF 1101 page, CSS width 1027px",
+   "outcome": "error: Reader returned 500"
+  },
+  {
+   "case": "CF 5xx page with link fragment #1027",
+   "outcome": "FREE_LIMIT message"
+  },
+  {
+   "case": "Static fail-open marker at 200 (octet-stream)",
+   "outcome": "FREE_LIMIT message"
+  },
+  {
+   "case": "Function JSON article mentioning 1027 and the marker",
+   "outcome": "SOURCE {\"title\":\"https://x.example/\",\"text\":\"Error 1027 and WORDFLOW_FREE_LIM"
+  },
+  {
+   "case": "Function JSON URL not allowed (403)",
+   "outcome": "error: Reader returned 403"
+  },
+  {
+   "case": "Pages 404.html (Function missing, no static marker)",
+   "outcome": "error: Reader returned 404"
+  },
+  {
+   "case": "Function JSON upstream 200 HTML",
+   "outcome": "SOURCE {\"title\":\"https://x.example/\",\"text\":\"parsed:28\",\"label\":\"Website\",\"wa"
+  }
+ ]
+}
