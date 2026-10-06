@@ -18,7 +18,7 @@ function runText(run) {
     if (n.localName === "tab" || n.localName === "ptab") return "\t";
     if (n.localName === "br") return !n.hasAttributeNS(W,"type") || attrType(n) === "textWrapping" ? "\n" : "";
     if (n.localName === "cr") return "\n";
-    if (n.localName === "noBreakHyphen") return "\u2011";
+    if (n.localName === "noBreakHyphen") return "-";
     return "";
   }).join("");
 }
@@ -47,8 +47,15 @@ async function unzip(bytes) {
     const name=new TextDecoder().decode(bytes.subarray(offset+46,offset+46+nameLen));
     const local=view.getUint32(offset+42,true);
     offset+=46+nameLen+extra+comment;
-    if (!["word/document.xml","word/styles.xml","docProps/core.xml"].includes(name)) continue;
-    if (entries.has(name) || flags & 1 || ![0,8].includes(method) || expected > 64*1024*1024) throw new Error("Could not extract file");
+    if (entries.has(name)) throw new Error("Could not extract file");
+    entries.set(name,{flags,method,size,expected,local});
+  }
+  const decodedEntries=new Map();
+  return async name => {
+    if (!entries.has(name)) return null;
+    if (decodedEntries.has(name)) return decodedEntries.get(name);
+    const {flags,method,size,expected,local}=entries.get(name);
+    if (flags & 1 || ![0,8].includes(method) || expected > 64*1024*1024) throw new Error("Could not extract file");
     if (view.getUint32(local,true)!==0x04034b50) throw new Error("Could not extract file");
     const start=local+30+view.getUint16(local+26,true)+view.getUint16(local+28,true);
     if (start+size > bytes.length) throw new Error("Could not extract file");
@@ -66,27 +73,50 @@ async function unzip(bytes) {
     if(total!==expected) throw new Error("Could not extract file");
     const decoded=new Uint8Array(total); let at=0;
     for(const c of chunks) {decoded.set(c,at);at+=c.byteLength;}
-    entries.set(name,new TextDecoder().decode(decoded));
-  }
-  return entries;
+    const text=new TextDecoder().decode(decoded);
+    decodedEntries.set(name,text);
+    return text;
+  };
+}
+const REL = "http://schemas.openxmlformats.org/package/2006/relationships";
+const OFFICE_REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships/";
+function relatedPart(text,type,source="") {
+  if (!text) return null;
+  const relation=[...xml(text).getElementsByTagNameNS(REL,"Relationship")].find(r=>r.getAttribute("Type")===type);
+  if (!relation || relation.getAttribute("TargetMode")==="External") return null;
+  // OPC targets are URI references relative to the source part, including root-relative targets.
+  const base=new URL(source || "/","https://package.invalid/");
+  const target=new URL(relation.getAttribute("Target"),base);
+  if(target.origin!==base.origin || target.search || target.hash) throw new Error("Could not extract file");
+  return decodeURIComponent(target.pathname.slice(1));
 }
 export async function extractDocx(bytes,filename) {
-  const entries=await unzip(bytes);
-  if(!entries.has("word/document.xml")) throw new Error("Could not extract file");
-  const doc=xml(entries.get("word/document.xml"));
-  const styles=entries.has("word/styles.xml") ? xml(entries.get("word/styles.xml")) : null;
+  const read=await unzip(bytes);
+  const relationships=await read("_rels/.rels");
+  const main=relatedPart(relationships,OFFICE_REL+"officeDocument");
+  const mainText=main && await read(main);
+  if(!mainText) throw new Error("Could not extract file");
+  const doc=xml(mainText);
+  const slash=main.lastIndexOf("/");
+  const mainRels=await read(main.slice(0,slash+1)+"_rels/"+main.slice(slash+1)+".rels");
+  const stylePart=relatedPart(mainRels,OFFICE_REL+"styles",main);
+  const styleText=stylePart && await read(stylePart);
+  const styles=styleText ? xml(styleText) : null;
   const styleMap=new Map(); let defaultParagraph="",defaultCharacter="";
   for(const s of styles?.getElementsByTagNameNS(W,"style") || []) {
     styleMap.set(s.getAttributeNS(W,"styleId"),s);
     if(s.getAttributeNS(W,"type")==="paragraph" && onDefault(s)) defaultParagraph=s.getAttributeNS(W,"styleId");
     if(s.getAttributeNS(W,"type")==="character" && onDefault(s)) defaultCharacter=s.getAttributeNS(W,"styleId");
   }
-  const core=entries.has("docProps/core.xml") ? xml(entries.get("docProps/core.xml")) : null;
+  const corePart=relatedPart(relationships,"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties");
+  const coreText=corePart && await read(corePart);
+  const core=coreText ? xml(coreText) : null;
   const title=core?.getElementsByTagNameNS("http://purl.org/dc/elements/1.1/","title")[0]?.textContent.trim() || filename;
   const blocks=[],body=doc.getElementsByTagNameNS(W,"body")[0];
   for(const p of direct(body,"p")) {
     const text=paragraphText(p).trim(); if(!text) continue;
-    const style=styleMap.get(attr(child(child(p,"pPr"),"pStyle"))) || styleMap.get(defaultParagraph);
+    const requestedStyle=styleMap.get(attr(child(child(p,"pPr"),"pStyle")));
+    const style=requestedStyle?.getAttributeNS(W,"type")==="paragraph" ? requestedStyle : styleMap.get(defaultParagraph);
     const name=(attr(child(style,"name")) || "").trim().toLowerCase();
     const visible=direct(p,"r").filter(r=>runText(r).trim());
     const bold=visible.length>0 && visible.every(r=>{

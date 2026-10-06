@@ -7,7 +7,8 @@
 #   3. the working tree is clean (tracked and untracked; ignored files do not count);
 #   4. git ls-files tracks no .env* file, at any depth;
 #   5. master is not behind origin/master (a failed fetch is a refusal, not a pass);
-#   6. the full test suite (npm test) exits 0 AND reports no SKIPPED test.
+#   6. the Node test suites (npm test) exit 0 AND report no skipped test;
+#   7. the generated browser parity stamp matches current inputs.
 # Then it writes a single-use marker holding HEAD's sha, pushes master, checks that the remote
 # master equals HEAD, and appends timestamped lines to tools/push.log.
 #
@@ -68,13 +69,17 @@ if ! npm test >"$TEST_OUT" 2>&1; then
   rm -f "$TEST_OUT"
   fail "npm test failed"
 fi
-if grep -q "SKIPPED" "$TEST_OUT"; then
-  grep "SKIPPED" "$TEST_OUT" >&2
+if grep -qiE '"skipped"[[:space:]]*:[[:space:]]*[1-9]|(^|[[:space:]])skipped([[:space:]:]|$)|[1-9][0-9]*[[:space:]]+(skips|skipped)' "$TEST_OUT"; then
+  grep -iE '"skipped"[[:space:]]*:[[:space:]]*[1-9]|(^|[[:space:]])skipped([[:space:]:]|$)|[1-9][0-9]*[[:space:]]+(skips|skipped)' "$TEST_OUT" >&2
   rm -f "$TEST_OUT"
-  fail "npm test skipped tests (install requirements.txt into the selected Python; see README)"
+  fail "npm test skipped tests; all Node suites must run without skips"
 fi
 rm -f "$TEST_OUT"
 echo "PASS: npm test (no skips)"
+
+# BEGIN PARITY STAMP CHECK
+node tools/parity-stamp.cjs || fail "browser parity stamp is stale; run npm run parity"
+# END PARITY STAMP CHECK
 
 # Push, through the hook's marker.
 HEAD_SHA=$(git rev-parse HEAD)

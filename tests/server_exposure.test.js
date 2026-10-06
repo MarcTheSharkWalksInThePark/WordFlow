@@ -27,7 +27,6 @@ const ORDINARY_LISTED = ["report.env.local", "envelope.txt"];
 const BS = "\\";
 
 let passed = 0;
-let skipped = 0;
 const checks = [];
 function check(label, fn) {
   checks.push({ label, fn });
@@ -619,5 +618,5 @@ function occupyPort() {
     await new Promise((resolve) => setTimeout(resolve, 300));
     for (const dir of roots) fs.rmSync(dir, { recursive: true, force: true });
   }
-  console.log(`\n${passed} checks passed${skipped ? `, ${skipped} skipped` : ""}.`);
+  console.log(`\n${passed} checks passed.`);
 })();

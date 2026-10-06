@@ -1,5 +1,59 @@
 # WordFlow decisions
 
+## RULING W4 — post-review fixes
+
+MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before code changes.
+
+W4.1 (D1) The repository may go public with the existing Windows user-profile paths in tracked
+     files and history. No scrub or history rewrite.
+     From now on, NEW or EDITED committed content must not add real user-profile paths; use
+     placeholders such as <home> or <vault>. Add this as a rule in AGENTS.md. Existing operational
+     paths in AGENTS.md and CLAUDE.md may stay.
+
+W4.2 (D2) Gate design = CC option C, with a stamp check.
+     a. `npm test`, and therefore tools/push.sh, runs only the Node suites. No Playwright and no
+        Chrome. It must still exit nonzero on any failure and never skip.
+     b. A new `npm run parity` runs the browser extraction parity and the Chrome smoke. It is a
+        REQUIRED pre-merge step for any change to the files in (c), and for any change to app.js,
+        index.html or styles.css. Document this in AGENTS.md and README.
+     c. `npm run parity`, on success only, writes a committed stamp file. The stamp holds the
+        SHA-256 of every file in lib/file-extractors.mjs (or wherever extraction lives), vendor/**
+        and tests/fixtures/**, plus the Chrome and Playwright versions used.
+     d. tools/push.sh refuses to push when any of those files' current hashes differ from the
+        stamp. The message tells the user to run `npm run parity`.
+     e. Never hand-write or edit the stamp. Add that rule next to the existing marker rule.
+     f. Add tests:
+        - push.sh/stamp logic refuses on a changed fixture and passes when the hashes match;
+        - npm test passes with Playwright absent.
+     g. Register a mutation that disables the stamp check. It must be KILLED.
+
+W4.3 (D3) Marcus confirms all behaviour changes listed in CC S4 as rulings:
+     - the 24 MiB cap on all files, including text;
+     - /api/read is GET-only;
+     - private, special, localhost and LAN destinations are refused, on the local server too;
+     - ports 80/443 only; URLs with credentials refused; explicit non-http(s) schemes refused,
+       including host:port input;
+     - at most 5 redirects, each revalidated.
+     Correct your earlier report's attribution: these are now W4.3, not W2 text. Do this with a
+     dated "Correction" note appended to your own report; do not rewrite the old text.
+
+W4.4 (D4) W3 fully settles the email-history step. Remove it from HOSTING.md's manual sequence.
+
+W4.5 (D5) F1 (the 135-character token overflow) is deferred to a separate reader task after launch.
+     Record it as an open item.
+
+W4.6 The privacy note text becomes exactly:
+     "Files are read in your browser and never uploaded. Links you load are fetched through
+     WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request,
+     including your IP address. If the proxy fails, your browser contacts the website directly.
+     Nothing is stored except your own resume session in this browser."
+     Mirror it in HOSTING.md's privacy section, together with CC's points:
+     - CF-Connecting-IP / X-Real-IP;
+     - the CF-Worker header;
+     - DoH hostnames.
+     If the current note's first and last sentences differ from the text above, keep the meaning
+     but use this text.
+
 ## RULING W2 — static hosting
 
 MARCUS'S RULINGS (2026-10-05, relayed by the claude.ai orchestrator). Recorded verbatim on 2026-10-06.
@@ -109,4 +163,5 @@ These are engineering choices, not additional Marcus rulings. HOSTING.md contain
 doc links, project settings, privacy/logging limits and the honest DNS rebinding gap.
 
 CC findings L1–L4 are closed in this build (see HOSTING.md), subject to the new independent review.
-W3’s completed history work remains recorded; the separate public-email decision stays Marcus’s.
+W3's completed history work fully settles the email-history step under W4.4. W4.1 accepts
+inherited profile paths; Marcus still controls the visibility change after review.

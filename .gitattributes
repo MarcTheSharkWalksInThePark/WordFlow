@@ -1,4 +1,6 @@
 # Preserve inherited front-end bytes and registered CRLF mutation anchors.
+.gitattributes text eol=lf
+*.js text eol=lf
 index.html text eol=crlf
 app.js text eol=crlf
 styles.css text eol=crlf
@@ -8,9 +10,15 @@ server.js text eol=crlf
 *.json text eol=lf
 *.md text eol=lf
 *.mjs text eol=lf
+*.py text eol=lf
 *.sh text eol=lf
 .githooks/* text eol=lf
 tools/push.log text eol=lf
+_headers text eol=lf
+api/read text eol=lf
+404.html text eol=lf
+LICENSE text eol=lf
+functions/api/read.js text eol=lf
 *.pdf -text
 *.docx -text
 *.png -text

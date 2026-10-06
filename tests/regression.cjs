@@ -36,12 +36,18 @@ const root=path.join(__dirname,"..");
     if(suffix==="/missing")assert.equal(p.body,"Fixture not found");
    });
   }
-  await check("POST now forbidden by W2","POST","/api/read?url="+encodeURIComponent(origin+"/plain"),405,r=>assert.deepEqual(json(r),{error:"GET required"}));
-  await check("loopback now forbidden by W2","GET","/api/read?url=http://127.0.0.1",403,r=>assert.deepEqual(json(r),{error:"URL not allowed"}));
+  await check("POST forbidden by W4.3","POST","/api/read?url="+encodeURIComponent(origin+"/plain"),405,r=>assert.deepEqual(json(r),{error:"GET required"}));
+  await check("loopback forbidden by W4.3","GET","/api/read?url=http://127.0.0.1",403,r=>assert.deepEqual(json(r),{error:"URL not allowed"}));
   await check("Origin forbidden","GET","/api/read?url="+encodeURIComponent(origin),403,r=>assert.deepEqual(json(r),{error:"Forbidden"}),{origin:"https://foreign.example"});
   const headers=(await request(server.port,"GET","/")).headers;
   assert.equal(headers["x-content-type-options"],"nosniff");assert.equal(headers["referrer-policy"],"no-referrer");
   assert(headers["content-security-policy"].includes("style-src 'self'"));assert(!headers["content-security-policy"].includes("unsafe-inline"));
+  assert.equal(headers["access-control-allow-origin"],undefined);
+  const headerLines=fs.readFileSync(path.join(root,"_headers"),"utf8").split(/\r?\n/);
+  assert(headerLines.includes("  ! Access-Control-Allow-Origin"));
+  for(const line of headerLines.filter(l=>/^  [\w-]+: /.test(l))) {
+   const colon=line.indexOf(": ");assert.equal(headers[line.slice(2,colon).toLowerCase()],line.slice(colon+2));
+  }
   const manifest=JSON.parse(fs.readFileSync(path.join(root,"vendor/manifest.json"),"utf8"));
   for(const entry of manifest.files)assert.equal(sha(fs.readFileSync(path.join(root,entry.file))),entry.sha256,entry.file);
   const capture=JSON.parse(fs.readFileSync(path.join(root,"tests/fixtures/capture.json"),"utf8"));

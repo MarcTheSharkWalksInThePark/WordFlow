@@ -839,6 +839,96 @@
       "sourceSpec": "W2 2026-10-06",
       "targetCommand": "node tests/proxy.test.mjs",
       "expect": "killed"
+    },
+    {
+      "id": "E3-redirect-scheme-guard-removed",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "![\"http:\", \"https:\"].includes(url.protocol) || ",
+        "replace": ""
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "E9-DoH-redirect-follow",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "redirect: \"error\"",
+        "replace": "redirect: \"follow\""
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "E10-DoH-status-ignored",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!res.ok) throw new Error(\"Could not load website\");",
+        "replace": "/* HTTP failure ignored */"
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "E11-DoH-Status-field-ignored",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "data.Status !== 0 || ",
+        "replace": ""
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "W4-stamp-check-disabled",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "tools/push.sh",
+      "suite": "post-review",
+      "transform": {
+        "kind": "replace",
+        "find": "node tools/parity-stamp.cjs || fail \"browser parity stamp is stale; run npm run parity\"",
+        "replace": ": # stamp check disabled"
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "S14-self-host-guard-removed",
+      "origin": "codex",
+      "source": "CC post-review fix / Marcus W4",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if ([own.hostname, ...siteHostnames].some(name => canonicalHost(name) === host)) deny();",
+        "replace": "/* self-host guard removed */"
+      },
+      "sourceSpec": "W4 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
     }
   ]
 }

@@ -25,12 +25,15 @@ Files parse locally in a modern browser, with a 24 MiB limit. PDF.js is pinned a
 DOCX uses native DecompressionStream("deflate-raw"). Chrome is verified; other browsers and
 older versions need their own validation. URL reading uses a same-origin proxy, then the
 existing direct-fetch fallback. See [HOSTING.md](HOSTING.md) for policy and residual risks.
+The local server sends URL hostnames to `cloudflare-dns.com` for DNS-over-HTTPS, including
+redirect destinations. LAN-only and hosts-file names fail; private destinations are refused.
 
 ## Build and verify
 
 ```powershell
 npm run build
 npm test
+npm run parity
 npm run mutations -- --out docs/verification/results/static-mutations.json
 npm run smoke
 ```
@@ -39,15 +42,25 @@ Build copies only named site assets to ignored dist/. Cloudflare publishes that 
 its Git pipeline compiles functions/api/read.js from the root. No Wrangler is needed locally.
 Exact project settings and Marcus's review-to-live sequence are in [HOSTING.md](HOSTING.md).
 
-Tests require already-installed Chrome and Playwright for browser extraction parity and fail
-nonzero if either is missing: there are no skips. Set WORDFLOW_CHROME and
-WORDFLOW_PLAYWRIGHT_DIR if needed. The existing bundled automation runtime is the default;
-nothing is installed by these commands. Node unit tests inject fake fetch; the local proxy smoke
+`npm test` runs only Node suites, without Chrome or Playwright, and fails nonzero on any failure;
+there are no skips. The push gate runs these suites and checks `tests/parity-stamp.json`.
+`npm run parity` runs extraction parity and the Chrome smoke, then generates the stamp only on
+success. It is REQUIRED before merge for changes to `file-extractors.mjs`, `vendor/**`,
+`tests/fixtures/**`, `app.js`, `index.html` or `styles.css`. Commit the generated stamp; never
+hand-write or edit it. A missing/stale stamp refuses a push and directs you to `npm run parity`.
+
+Parity requires already-installed Chrome and Playwright and fails nonzero if either is missing.
+Set WORDFLOW_CHROME and WORDFLOW_PLAYWRIGHT_DIR if needed. The Playwright fallback is Codex's
+runtime cache at `<home>/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright`.
+Nothing is installed by these commands. Node unit tests inject fake fetch; the local proxy smoke
 uses a test-only preload and synthetic inputs. Real Cloudflare deploy/CPU/quota behavior awaits
 Marcus's connection and live check.
 
-DOCX fixtures and exact Python goldens were captured and committed before Python removal.
-PDF comparisons record unaltered differences. See the
+Ten successful goldens were committed in 3921959 before Python removal. The `labels.docx` and
+`defaults.docx` goldens came with the browser build and CC verified both Python-identical.
+Three S5 fixtures/goldens were added after review using the historical extractor from 3921959
+and the existing python-docx 1.2.0 runtime. Python is used only for this recorded fixture capture.
+All seven PDFs are asserted: five byte-identical and two precisely pinned differences. See the
 [static-hosting report](docs/verification/2026-10-06_codex_static_hosting.md) and evidence in
 docs/verification/results/. The original split reports remain historical.
 

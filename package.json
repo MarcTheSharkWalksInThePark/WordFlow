@@ -5,8 +5,8 @@
   "description": "WordFlow static reader with a same-origin Pages Function",
   "scripts": {
     "start": "node server.js",
-    "test": "node tests/regression.cjs && node tests/proxy.test.mjs && node tests/server_exposure.test.js && node tests/browser-parity.cjs",
-    "parity": "node tests/browser-parity.cjs",
+    "test": "node tests/regression.cjs && node tests/proxy.test.mjs && node tests/server_exposure.test.js && node tests/post-review.test.cjs",
+    "parity": "node tools/parity.cjs",
     "mutations": "node tools/mutations.cjs",
     "smoke": "node tools/static_smoke.cjs",
     "build": "node tools/build.cjs"

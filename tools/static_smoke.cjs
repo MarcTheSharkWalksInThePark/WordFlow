@@ -2,7 +2,7 @@
 // Full feature smoke, installed Chrome, offline deterministic proxy fixture.
 const fs=require("node:fs"),path=require("node:path");
 const {start,stop,assert,sha}=require("../tests/helpers.cjs"),{launch}=require("../tests/browser-helper.cjs");
-const root=path.join(__dirname,".."),out=path.join(root,"docs/verification/results");
+const root=path.join(__dirname,".."),outIndex=process.argv.indexOf("--out-dir"),out=outIndex>=0?path.resolve(process.argv[outIndex+1]):path.join(root,"docs/verification/results");
 const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC. Paste the text instead.";
 (async()=>{
  let browser,server;const result={browserPlugin:"not available; existing Playwright drives installed Chrome",viewports:[],errors:[],blocked:[],uploads:0};

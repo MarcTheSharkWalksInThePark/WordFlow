@@ -173,3 +173,13 @@ Nothing in this report authorizes bypassing the push gate or changing the frozen
 Brain context was retrieved before meaningful work. Final Brain writeback updates the project,
 hot-cache/current-state and one HH:MM Codex worklog entry. The dated daily note was absent when
 checked; none was created.
+
+## Correction — 2026-10-06 (W4.3 / CC S4)
+
+The earlier attribution to "W2's explicit GET-only/SSRF/removal requirements" was inaccurate:
+W2's recorded text did not rule GET-only, private/special/localhost/LAN refusals, ports 80/443,
+credentials and explicit non-http(s) scheme refusal (including host:port input), five redirects
+with each revalidated, or the 24 MiB cap on text files. Marcus now explicitly confirms those
+behaviour changes as **W4.3**. W2 still authorizes removing the upload endpoint and Python.
+The historical text above is preserved. W4.2 supersedes its combined browser/npm-test gate;
+W4.4 closes its redundant email-history handoff step. See the post-review fixes report.

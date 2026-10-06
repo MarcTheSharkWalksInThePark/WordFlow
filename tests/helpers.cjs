@@ -13,7 +13,7 @@ const OWNED = [...FRONT, "file-extractors.mjs", "lib/read-proxy.mjs", "404.html"
 const sha = (data) => crypto.createHash("sha256").update(data).digest("hex");
 function cleanEnv(extra = {}) {
   const env = {};
-  for (const key of ["PATH", "Path", "SystemRoot", "WINDIR", "USERPROFILE", "TEMP", "TMP", "APPDATA", "LOCALAPPDATA", "ComSpec", "PATHEXT"]) {
+  for (const key of ["PATH", "Path", "SystemRoot", "WINDIR", "USERPROFILE", "TEMP", "TMP", "APPDATA", "LOCALAPPDATA", "ComSpec", "PATHEXT", "NODE_OPTIONS"]) {
     if (process.env[key] !== undefined) env[key] = process.env[key];
   }
   return { ...env, ...extra };

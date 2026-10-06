@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {pathToFileURL} from "node:url";
 const root=process.env.WORDFLOW_TEST_REPO || path.resolve(import.meta.dirname,"..");
-const {handleRead,isPublicIP}=await import(pathToFileURL(path.join(root,"lib/read-proxy.mjs")));
+const {handleRead,isPublicIP,validateTarget,SITE_HOSTNAMES}=await import(pathToFileURL(path.join(root,"lib/read-proxy.mjs")));
 let passed=0; const cases=[];
 async function check(name,fn) { try {await fn();cases.push({name,passed:true});passed++;} catch(e) {console.error("FAIL "+name);throw e;} }
 const make=(url="https://public.example/article",init={})=>new Request("https://wordflow.example/api/read?url="+encodeURIComponent(url),init);
@@ -33,6 +33,16 @@ for(const host of ["localhost","foo.localhost","foo.local","foo.internal","foo.a
 for(const url of ["file:///etc/passwd","ftp://public.example/x","https://user:password@public.example","https://public.example:8080","http://public.example:22"]) {
  await check("deny syntax "+url,async()=>{const f=fake();assert.equal((await handleRead(make(url),f.fetchImpl)).status,403);assert.equal(f.calls.length,0);});
 }
+for(const scheme of ["file:","data:","javascript:","ftp:","ws:"]) {
+ await check("redirect protocol refused by validateTarget "+scheme,async()=>{
+  // Public host isolates the protocol guard from the empty/private hostname guards.
+  const destination=new URL(scheme+"//public.example/path");
+  assert.throws(()=>validateTarget(destination),/URL not allowed/);
+  const f=fake(()=>new Response(null,{status:302,headers:{location:destination.href}}));
+  assert.equal((await handleRead(make(),f.fetchImpl)).status,403);
+  assert.equal(f.calls.filter(c=>new URL(c.url).hostname!=="cloudflare-dns.com").length,1);
+ });
+}
 await check("GET only",async()=>{for(const method of ["POST","PUT","DELETE","OPTIONS","HEAD"]) {const f=fake();assert.equal((await handleRead(make(undefined,{method}),f.fetchImpl)).status,405);assert.equal(f.calls.length,0);}});
 await check("Origin guard",async()=>{for(const origin of ["null","https://foreign.example","https://wordflow.example:443/"]) {const f=fake();assert.equal((await handleRead(make(undefined,{headers:{origin}}),f.fetchImpl)).status,403);assert.equal(f.calls.length,0);}});
 await check("same Origin and no client header forwarding",async()=>{
@@ -47,6 +57,49 @@ for(const answer of [dns("10.0.0.1"),dns("93.184.216.34","::ffff:192.168.1.1"),{
  await check("DNS fail closed "+JSON.stringify(answer),async()=>{const f=fake(undefined,answer);const r=await handleRead(make(),f.fetchImpl);assert([403,500].includes(r.status));assert(f.calls.every(c=>new URL(c.url).hostname==="cloudflare-dns.com"));assert.equal(f.calls.length,2);});
 }
 await check("DoH transport failures are generic",async()=>{const r=await handleRead(make(),async()=>{throw new Error("secret internal path");});assert.equal(r.status,500);assert.deepEqual(await r.json(),{error:"Could not load website"});});
+await check("DoH redirects refused before following",async()=>{
+ let destinations=0;const options=[];
+ const r=await handleRead(make(),async(u,o)=>{
+  if(new URL(u).hostname!=="cloudflare-dns.com") {destinations++;return new Response("unsafe");}
+  options.push(o);
+  throw new TypeError("redirect refused");
+ });
+ assert.equal(r.status,500);assert.equal(destinations,0);
+ assert.equal(options.length,2);
+ for(const o of options) {assert.equal(o.redirect,"error");assert.deepEqual(o.headers,{accept:"application/dns-json"});}
+});
+for(const [name,response] of [
+ ["HTTP 500 with otherwise valid answers",()=>Response.json(dns(),{status:500})],
+ ["SERVFAIL with otherwise valid answers",()=>Response.json({...dns(),Status:2})],
+ ["NXDOMAIN with otherwise valid answers",()=>Response.json({...dns(),Status:3})],
+ ["invalid JSON",()=>new Response("not JSON")],
+ ["non-array Answer",()=>Response.json({Status:0,Answer:{}})],
+ ["over 64 KiB",()=>new Response(JSON.stringify({...dns(),padding:"x".repeat(65536)}))]
+]) await check("DoH fails closed: "+name,async()=>{
+ let destinations=0;
+ const r=await handleRead(make(),async u=>new URL(u).hostname==="cloudflare-dns.com"?response():(destinations++,new Response("unsafe")));
+ assert.equal(r.status,500);assert.equal(destinations,0);assert.deepEqual(await r.json(),{error:name==="over 64 KiB"?"Response too large":"Could not load website"});
+});
+await check("DoH AAAA failure refuses a successful A",async()=>{
+ let destinations=0;
+ const r=await handleRead(make(),async u=>{
+  const url=new URL(u);
+  if(url.hostname!=="cloudflare-dns.com"){destinations++;return new Response("unsafe");}
+  return url.searchParams.get("type")==="A"?Response.json(dns()):Response.json(dns(),{status:500});
+ });
+ assert.equal(r.status,500);assert.equal(destinations,0);
+});
+for(const host of ["wordflow.example",...SITE_HOSTNAMES,"reader.production.example"]) {
+ await check("self and configured hostname refusal "+host,async()=>{
+  const configured=[...SITE_HOSTNAMES,"reader.production.example"];
+  for(const target of ["https://"+host+"/api/read","http://"+host.toUpperCase()+".:80/article"]) {
+   const f=fake();assert.equal((await handleRead(make(target),f.fetchImpl,configured)).status,403);assert.equal(f.calls.length,0);
+   const redirect=fake(()=>new Response(null,{status:302,headers:{location:target}}));
+   assert.equal((await handleRead(make(),redirect.fetchImpl,configured)).status,403);
+   assert.equal(redirect.calls.filter(c=>new URL(c.url).hostname!=="cloudflare-dns.com").length,1);
+  }
+ });
+}
 await check("redirect rechecks private IP",async()=>{
  const f=fake(()=>new Response(null,{status:302,headers:{location:"http://10.0.0.1/"}}));const r=await handleRead(make(),f.fetchImpl);
  assert.equal(r.status,403);assert.equal(f.calls.filter(c=>new URL(c.url).hostname!=="cloudflare-dns.com").length,1);

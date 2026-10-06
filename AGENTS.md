@@ -18,6 +18,9 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
   browser PDF/DOCX; licence settled; remove env loader and Python; pinned vendoring approved.
   W2 authorizes only exact named additions to the R59 static allowlist. Build work stays on
   `feat/static-hosting`, unmerged and unpushed, pending CC review. Marcus controls visibility.
+- **RULING W4** (Marcus, 2026-10-06; `docs/DECISIONS.md`): accepts inherited profile paths,
+  requires Node-only tests plus stamped pre-merge browser parity, confirms the proxy/file policy,
+  settles email history via W3, defers F1 until after launch and approves the exact privacy text.
 - **On the MarcDeck side**, MarcDeck records the same thing as its "WORDFLOW CANONICAL REPOSITORY"
   ruling (MarcDeck `docs/DECISIONS.md`). WordFlow's files and routes inside MarcDeck are frozen
   until a MarcDeck removal ruling. Never "fix" WordFlow in MarcDeck.
@@ -51,11 +54,15 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
 
 ## Never
 
+- W4.1 accepts existing user-profile paths in tracked files and history; do not scrub or rewrite
+  them. NEW or EDITED committed content must not add real user-profile paths: use `<home>` or
+  `<vault>`. Existing operational paths in AGENTS.md and CLAUDE.md may stay.
 - **Never open, print, copy or commit any `.env` file.** WordFlow needs no secret. Tests use
   synthetic dummy values in temporary directories only. `.env*` is ignored by Git, and
   `tools/push.sh` refuses if one is ever tracked.
 - Never push except through `tools/push.sh`. Never use `git push --no-verify`. Never write the push
-  marker (`$GIT_DIR/WORDFLOW_PUSH_OK`) by hand.
+  marker (`$GIT_DIR/WORDFLOW_PUSH_OK`) by hand. Never hand-write or edit `tests/parity-stamp.json`;
+  only a successful `npm run parity` generates the production stamp.
 - Deployment happens only by **Cloudflare's Git integration from master, after review**.
   Never deploy from a feature branch or expose the local Node server publicly. Exact project
   settings and the remaining human/live checks are in `HOSTING.md`.
@@ -84,13 +91,19 @@ Any vendoring update needs official npm SRI, per-file SHA-256 and third-party li
 ## Test and push
 
 ```powershell
-npm test                                                    # static + proxy + 32 R59 + browser parity; no skips
+npm test                                                    # Node suites only; no skips
+npm run parity                                              # browser extraction + Chrome smoke + stamp
 npm run mutations -- --out docs/verification/results/static-mutations.json
 bash tools/push.sh                                          # the only way to push
 ```
 
-- `npm test` fails closed if installed Chrome/Playwright is unavailable; no skip path.
-  `tools/push.sh` continues to treat any skip as a refusal.
+- W4.2: `npm test` and the push gate use only Node suites, without Chrome or Playwright, and
+  fail nonzero on any failure. No skips. `npm run parity` is REQUIRED before merge for changes
+  to `file-extractors.mjs`, `vendor/**`, `tests/fixtures/**`, `app.js`, `index.html` or `styles.css`.
+  It requires installed Chrome/Playwright and fails closed. Success records their versions and
+  all those files' SHA-256 values in `tests/parity-stamp.json`; commit the generated stamp.
+  The push gate compares the exact file set and hashes and refuses stale/missing stamps with
+  an instruction to run `npm run parity`. Never install packages without Marcus's approval.
 - **Push gate.** `tools/push.sh` is fail-closed. It refuses unless:
   - the hook is active;
   - the branch is `master`;
@@ -98,6 +111,7 @@ bash tools/push.sh                                          # the only way to pu
   - no `.env*` is tracked;
   - `master` is not behind `origin/master` (a failed fetch refuses);
   - `npm test` passes with no skip.
+  - current parity inputs exactly match the generated stamp.
 
   It then pushes through a single-use marker, verifies the remote sha and appends to
   `tools/push.log`. Commit that log with your next change.
@@ -141,11 +155,11 @@ bash tools/push.sh                                          # the only way to pu
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
-- **[Needs Review] W2 build:** CC review, merge/gated push, separate email-history confirmation,
+- **[Needs Review] W4 fixes:** post-review fixes and parity before merge/gated push;
   Marcus's public visibility change, free Cloudflare Git connection and live verification.
 - **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
   quota; actual edge CPU, quota status/body/fail-open routing and dashboard logging are unverified.
-- **Inherited reader finding:** an artificial 135-character token can exceed the frame at the
+- **W4.5 deferred until a separate reader task after launch:** an artificial 135-character token can exceed the frame at the
   existing 10 px fitting floor. A real 45-character word fits at desktop and phone widths.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.

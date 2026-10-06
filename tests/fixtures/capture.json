@@ -67,6 +67,21 @@
       "file": "defaults.docx",
       "sha256": "08ec128514a366d3981c12b625c44b4c2875ccd367dd0921fc9151e5f7317692",
       "goldenSha256": "a8ccff10eb6cc6bd0cebf3aaba12cdf7b6beeeffc5c6613c04c3dac7978ece6b"
+    },
+    {
+      "file": "nobreakhyphen.docx",
+      "sha256": "4804fbf9b41879ec158e1cb25de840e5795cd3e9367196892c6d64edaa938d87",
+      "goldenSha256": "9f6b752e7a757590742bd2effcdc4fdb465b7e28b324739ac487e4cbf1a7005d"
+    },
+    {
+      "file": "document2.docx",
+      "sha256": "e40009fe76bb5db622332d5242b083e5a80e3c107c1be34fad25c880ebb4dd3c",
+      "goldenSha256": "cea278103f6e9206de24dcd340d4c6e10031569afa686e080cf5c5050ca186aa"
+    },
+    {
+      "file": "charstyle-as-pstyle.docx",
+      "sha256": "7ca02c745d10ad328b5a54b386a00ae5916e792e2a59fd4ef5cb40b842958a36",
+      "goldenSha256": "65f71d6d3b5dc575b60e07bec28451fe99971840cb93d40a26e961b2fd0b3f0f"
     }
   ]
 }

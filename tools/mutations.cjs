@@ -19,7 +19,7 @@ function suite(root, target = "server_exposure.test.js") {
   });
 }
 (async () => {
-  const result = { suite: "node tests/server_exposure.test.js and node tests/proxy.test.mjs", sourceSpecs: [...new Set(specification.mutations.map(m => m.sourceSpec))], originalSha256: before, rows: [], reanchoring: "none; all 46 R59 transforms unchanged; original Y11/Y12 historical re-anchoring retained; six new W2 proxy transforms", equivalence: "M9: every string matched by /^\\.env/i starts with a literal dot and therefore satisfies startsWith('.'). The regex disjunct is a subset of the dot-prefix disjunct for every string. isRefusedStaticPath is byte-identical to source master, so the original proof still applies." };
+  const result = { suite: "Node exposure, proxy and post-review suites", sourceSpecs: [...new Set(specification.mutations.map(m => m.sourceSpec))], originalSha256: before, rows: [], reanchoring: "none; all 52 earlier transforms unchanged; W4 adds six transforms", equivalence: "M9: every string matched by /^\\.env/i starts with a literal dot and therefore satisfies startsWith('.'). The regex disjunct is a subset of the dot-prefix disjunct for every string. isRefusedStaticPath is byte-identical to source master, so the original proof still applies." };
   const baseline = await suite(repo);
   assert.equal(baseline.code, 0, "mutation baseline must pass");
   assert(!baseline.timedOut && !baseline.error);
@@ -29,7 +29,7 @@ function suite(root, target = "server_exposure.test.js") {
   assert.equal(result.proxyBaseline.code, 0, "proxy baseline");
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "wordflow-mutations-"));
   try {
-    for (const file of OWNED) { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.copyFileSync(path.join(repo, file), path.join(root, file)); }
+    for (const file of [...OWNED,"tools/parity-stamp.cjs","tools/push.sh"]) { fs.mkdirSync(path.dirname(path.join(root, file)), { recursive: true }); fs.copyFileSync(path.join(repo, file), path.join(root, file)); }
     for (const m of specification.mutations) {
       assert.equal(sha(fs.readFileSync(path.join(repo, "server.js"))), before, "real server changed");
       const originalFile = fs.readFileSync(path.join(repo, m.file));
@@ -41,7 +41,7 @@ function suite(root, target = "server_exposure.test.js") {
       fs.writeFileSync(file, originalFile);
       const row = { ...m, beforeSha256: sha(fs.readFileSync(file)), mutatedSha256: sha(mutated) };
       let run;
-      try { fs.writeFileSync(file, mutated); run = await suite(root, m.suite === "proxy" ? "proxy.test.mjs" : "server_exposure.test.js"); }
+      try { fs.writeFileSync(file, mutated); run = await suite(root, m.suite === "proxy" ? "proxy.test.mjs" : m.suite === "post-review" ? "post-review.test.cjs" : "server_exposure.test.js"); }
       finally { fs.writeFileSync(file, originalFile); row.restoredSha256 = sha(fs.readFileSync(file)); assert.equal(row.restoredSha256, sourceSha); }
       // Evidence is public: retain diagnostics but replace machine-specific path prefixes.
       for (const field of ["stdout","stderr"]) if (run[field]) run[field] = run[field]

@@ -62,6 +62,11 @@ and fail-open responses are exercised at desktop and phone widths.
 ## Proxy policy and residual risks
 
 - GET only. HTTP/HTTPS only. Ports 80/443 only. No credentials.
+- W4.3 confirms these behaviour changes, the all-file 24 MiB cap and five revalidated redirects.
+- Refuse the request's own hostname and every configured public alias on every hop.
+  `SITE_HOSTNAMES` in `lib/read-proxy.mjs` currently contains `wordflow.pages.dev`; before launch,
+  record the actual assigned pages.dev address and any production/custom hostnames there.
+  The request-host guard already covers preview/request aliases without relying on this list.
 - Refuse localhost, subdomains of localhost, .local, .internal and .arpa, including trailing-dot
   spelling. WHATWG URL parsing canonicalizes alternate IPv4 spellings before classification.
 - Refuse non-public IPv4 ranges: unspecified, loopback, private, link-local, CGNAT, benchmarking,
@@ -101,12 +106,23 @@ documents may be refused. PDF.js is pinned, local, and configured with eval and 
 for text extraction. Its CMaps/fonts and licences ship locally.
 See THIRD_PARTY_NOTICES.md and vendor/manifest.json for npm SRI and every file's SHA-256.
 
-The privacy note is visible. No app analytics, cookies or telemetry is enabled. The app persists
+The visible privacy note (W4.6) reads exactly:
+
+> Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.
+
+Cloudflare Worker subrequests expose visitor IP through `CF-Connecting-IP` / `X-Real-IP` and
+identify the Worker zone through `CF-Worker`. The handler's own fixed-header policy does not
+prevent Cloudflare adding these headers. Cloudflare DoH also receives URL hostnames, including
+redirect hosts. Direct fallback contacts the destination from the browser.
+
+No app analytics, cookies or telemetry is enabled. The app persists
 only the compatible `wordflow-reader-session-v1` resume record in localStorage.
 Proxy URLs are sent to Cloudflare and destination hosts; DNS names are sent to Cloudflare DoH.
 Cloudflare's infrastructure processing is outside the app's storage guarantee.
 
 `_headers` applies CSP, nosniff, no-referrer and a restrictive Permissions-Policy to static files.
+It removes Pages' default `Access-Control-Allow-Origin` permission; the local server likewise
+sends no such header. Browser extraction, workers and fonts are all same-origin.
 The Function sets its own response headers, since Pages' _headers does not apply to Functions.
 The local server applies the same static headers for Chrome verification.
 There are **no inline styles or scripts in index.html**. CSP therefore uses style-src 'self'
@@ -134,13 +150,12 @@ links in any logging session.
 
 1. Have CC review the committed feature branch in a fresh clone, reproducing tests, mutations,
    extraction comparisons and smoke. This build report is not independent CC approval.
-2. After review, merge `feat/static-hosting` into master; run tests and push **only**
+2. Before merge, run `npm run parity` for all W4.2-covered changes and commit its generated stamp.
+   After review, merge `feat/static-hosting` into master; run tests and push **only**
    through `bash tools/push.sh`. Never bypass the gate. Once connected, master is production.
-3. Complete the separate email-history decision. W3 already records a verified no-reply rewrite
-   and private GitHub backup; confirm its sufficiency for public visibility, without silently
-   repeating the rewrite or repository recreation.
-4. Marcus makes the GitHub repository public himself.
-5. Create a **Free** Cloudflare account (no card/add-ons). Create **Pages > Connect to Git**;
+3. Marcus makes the GitHub repository public himself. W3 fully settles email history (W4.4),
+   and W4.1 accepts inherited profile paths; no scrub or history rewrite.
+4. Create a **Free** Cloudflare account (no card/add-ons). Create **Pages > Connect to Git**;
    authorize only the WordFlow repository. Use these project settings:
 
    | Setting | Value |
@@ -163,21 +178,30 @@ links in any logging session.
    | Web Analytics / logging / integrations | off |
 
    Cloudflare compiles functions from the root; nothing is installed on Marcus's PC.
+   For the compatibility date/flags, dashboard documentation gives both **Settings > Functions >
+   Compatibility Flags** and **Settings > Runtime**; use the section exposed by this dashboard.
    Do not select Workers & Assets or Direct Upload for this documented flow.
    [Git integration](https://developers.cloudflare.com/pages/configuration/git-integration/),
    [branch controls](https://developers.cloudflare.com/pages/configuration/branch-build-controls/),
    [build image](https://developers.cloudflare.com/pages/configuration/build-image/)
    (2026-10-06).
-6. Live check the generated HTTPS pages.dev URL: desktop and 390 px reader/upload/resume flows;
-   a public URL through /api/read; rejected private URL; security response headers; downloaded
+5. Record actual site aliases in `SITE_HOSTNAMES` before launch, including a production hostname
+   if one is configured. Live check the generated HTTPS pages.dev URL: desktop and 390 px
+   reader/upload/resume flows; **load one real public URL through /api/read**; rejected private
+   and self-host URL; security response headers; downloaded
    notices; a simulated quota page and static api/read marker; static requests do not increase
    Function invocations; logging/analytics off. Check maximum-body CPU against the 10 ms limit.
    Never deliberately exhaust 100,000 requests to test the quota.
+   A missing/unmatched Function also serves the static `api/read` marker. Its response is
+   indistinguishable from quota fail-open in app code, so the real public URL check is required
+   to prove the Function works. Real quota/fail-open mapping and maximum-body edge CPU (S6)
+   remain launch checks.
 
 ## Prior review findings
 
 L1 closed: Python, interpreter resolver and cache fallback are removed from the product and tests.
 L2 closed: extractor endpoint/process removed; shared proxy and server errors are generic.
-L3 closed: npm test has no skip paths; missing Chrome/automation fails nonzero, and push still
-refuses skips. L4 closed: HOSTING.md is rewritten without stale code-line anchors.
+L3 closed under W4.2: npm test has only Node suites, no skip paths; parity separately fails
+nonzero on missing Chrome/automation. Push checks the successful parity stamp and refuses skips.
+L4 closed: HOSTING.md is rewritten without stale code-line anchors.
 L5–L8 remain historical disclosed limitations where applicable; this does not overrule CC.

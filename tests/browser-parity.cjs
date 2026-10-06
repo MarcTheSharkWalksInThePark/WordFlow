@@ -25,12 +25,24 @@ const root=path.join(__dirname,".."),fixtures=path.join(__dirname,"fixtures");
    const entry={file:name,actual,golden,identical:same,actualPayloadSha256:sha(pyBytes),
     differences:golden?Object.keys(actual).filter(k=>JSON.stringify(actual[k])!==JSON.stringify(golden[k])).map(field=>({field,pypdf:golden[field],pdfjs:actual[field]})):[{field:"baseline",pypdf:"FileNotDecryptedError: File has not been decrypted",pdfjs:actual}]};
    if(name.endsWith(".docx")) {result.docx.push(entry);assert(same,"DOCX byte parity "+name+"\n"+JSON.stringify(entry));}
-   else {result.pdf.push(entry);if(name==="fixture.pdf")assert.deepEqual(actual,golden);if(name==="encrypted.pdf")assert.deepEqual(actual.warnings,["This PDF is encrypted and could not be read."]);}
+   else {
+    result.pdf.push(entry);
+    if(name==="encrypted.pdf") {
+     assert.equal(golden,null);
+     assert.deepEqual(actual,{title:"encrypted.pdf",contentType:"application/pdf",body:"",warnings:["This PDF is encrypted and could not be read."]});
+     const capture=JSON.parse(fs.readFileSync(path.join(fixtures,"capture.json"),"utf8"));
+     assert.equal(capture.records.find(r=>r.file===name).baselineError,"FileNotDecryptedError: File has not been decrypted");
+    } else if(name==="hyphenation.pdf") {
+     assert.deepEqual(golden,{title:"Hyphenated article",contentType:"application/pdf",body:"A word is hyphen-\nated across lines.\nWide    spacing remains.",warnings:[]});
+     assert.deepEqual(actual,{...golden,body:"A word is hyphen-\nated across lines.\nWide spacing remains."});
+    } else assert(same,"PDF byte parity "+name+"\n"+JSON.stringify(entry));
+   }
   }
   assert.equal(result.errors.length,0);
   result.docxPassed=result.docx.filter(r=>r.identical).length;
   result.docxMismatches=result.docx.filter(r=>!r.identical).length;
   result.pdfCompared=result.pdf.length;result.pdfDifferences=result.pdf.filter(r=>r.differences.length).length;
+  assert.equal(result.pdfCompared,7);assert.equal(result.pdfDifferences,2);
   result.passed=true;
  }finally{if(browser)await browser.close();await stop(server);}
  const i=process.argv.indexOf("--out");if(i>=0)fs.writeFileSync(process.argv[i+1],JSON.stringify(result,null,2)+"\n");

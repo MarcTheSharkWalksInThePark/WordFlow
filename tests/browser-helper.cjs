@@ -3,8 +3,9 @@ const fs=require("node:fs"),path=require("node:path"),os=require("node:os");
 function runtime() {
  const candidates=[process.env.WORDFLOW_CHROME,path.join(process.env.ProgramFiles || "C:/Program Files","Google/Chrome/Application/chrome.exe"),"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"].filter(Boolean);
  const executable=candidates.find(f=>fs.existsSync(f));if(!executable)throw new Error("Chrome is required; tests fail closed, no skips");
- let playwright;try{playwright=require("playwright");}catch{playwright=require(process.env.WORDFLOW_PLAYWRIGHT_DIR || path.join(os.homedir(),".cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright"));}
- return {playwright,executable};
+ let location;try{location=require.resolve("playwright");}catch{location=require.resolve(process.env.WORDFLOW_PLAYWRIGHT_DIR || path.join(os.homedir(),".cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright"));}
+ const playwright=require(location),playwrightVersion=JSON.parse(fs.readFileSync(path.join(path.dirname(location),"package.json"),"utf8")).version;
+ return {playwright,executable,playwrightVersion};
 }
 async function launch() {
  const {playwright,executable}=runtime();
