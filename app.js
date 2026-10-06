@@ -700,23 +700,36 @@ async function fetchWebsiteSource(rawUrl) {
   loaders.push(() => fetchDirectly(url));
 
   let lastError;
+  let quotaError;
   for (const load of loaders) {
     try {
       return await load();
     } catch (error) {
       lastError = error;
+      if (error.code === "FREE_LIMIT") quotaError = error;
     }
   }
 
-  throw lastError || new Error("Website blocked");
+  throw quotaError || lastError || new Error("Website blocked");
 }
 
 async function fetchViaLocalReader(url) {
   const endpoint = new URL("/api/read", location.href);
   endpoint.searchParams.set("url", url);
   const response = await fetch(endpoint);
+  const raw = await response.text();
+  let payload;
+  try { payload = JSON.parse(raw); } catch {}
+  // Cloudflare documents Error 1027, an HTML error page; HTTP status/body wording
+  // are not a stable contract. Pages fail-open may instead serve our static fallback.
+  if (((response.headers.get("content-type") || "").includes("text/html") && /\b1027\b/.test(raw)) ||
+      payload?.error === "WORDFLOW_FREE_LIMIT") {
+    const error = new Error("URL loading has reached today's free limit. It resets at 00:00 UTC. Paste the text instead.");
+    error.code = "FREE_LIMIT";
+    throw error;
+  }
   if (!response.ok) throw new Error(`Reader returned ${response.status}`);
-  const payload = await response.json();
+  if (!payload) throw new Error("Could not load website");
 
   if (payload.contentType.includes("text/html")) {
     const source = sourceFromHtml(payload.body, payload.url || "Website source");
@@ -759,7 +772,7 @@ async function loadFromUrl() {
     const source = await fetchWebsiteSource(url);
     showSourceReview(source);
   } catch (error) {
-    setStatus("Website blocked; paste copied text");
+    setStatus(error.code === "FREE_LIMIT" ? error.message : "Website blocked; paste copied text");
   } finally {
     els.loadUrlButton.disabled = false;
   }
@@ -772,8 +785,9 @@ async function readFile(file) {
   els.fileInput.disabled = true;
 
   try {
-    if (requiresServerExtraction(file)) {
-      const source = await extractFileOnServer(file);
+    if (file.size > 24 * 1024 * 1024) throw new Error("Upload is too large");
+    if (requiresDocumentExtraction(file)) {
+      const source = await extractFileInBrowser(file);
       showSourceReview(source);
       return;
     }
@@ -791,33 +805,13 @@ async function readFile(file) {
   }
 }
 
-function requiresServerExtraction(file) {
+function requiresDocumentExtraction(file) {
   return /\.(pdf|docx)$/i.test(file.name);
 }
 
-async function extractFileOnServer(file) {
-  if (location.protocol !== "http:" && location.protocol !== "https:") {
-    throw new Error("PDF and DOCX need the local server");
-  }
-
-  const endpoint = new URL("/api/extract-file", location.href);
-  const form = new FormData();
-  form.append("file", file, file.name);
-  const response = await fetch(endpoint, {
-    method: "POST",
-    body: form
-  });
-
-  let payload = {};
-  try {
-    payload = await response.json();
-  } catch (error) {
-    payload = {};
-  }
-
-  if (!response.ok) {
-    throw new Error(payload.error || "Could not extract file");
-  }
+async function extractFileInBrowser(file) {
+  const { extractFile } = await import("./file-extractors.mjs");
+  const payload = await extractFile(file);
 
   return {
     title: payload.title || file.name,

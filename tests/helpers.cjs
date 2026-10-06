@@ -9,7 +9,7 @@ const { spawn, execFileSync } = require("node:child_process");
 const assert = require("node:assert/strict");
 const crypto = require("node:crypto");
 const FRONT = ["index.html", "app.js", "styles.css", "assets/wordflow-mark.svg"];
-const OWNED = [...FRONT, "extract_text.py"];
+const OWNED = [...FRONT, "file-extractors.mjs", "lib/read-proxy.mjs", "404.html", "LICENSE", "THIRD_PARTY_NOTICES.md", "api/read"];
 const sha = (data) => crypto.createHash("sha256").update(data).digest("hex");
 function cleanEnv(extra = {}) {
   const env = {};
@@ -23,12 +23,6 @@ function functionText(source, name) {
   assert(match, "missing function " + name);
   return match[0];
 }
-function pythonPath(repo) {
-  const source = fs.readFileSync(path.join(repo, "server.js"), "utf8");
-  // The same resolver and environment as the test server. PYTHON may be supplied explicitly.
-  const env = cleanEnv(process.env.PYTHON ? { PYTHON: process.env.PYTHON } : {});
-  return vm.runInNewContext(functionText(source, "resolvePythonPath") + "\nresolvePythonPath();", { process: { env }, path, fsSync: fs });
-}
 function freePort() {
   return new Promise((resolve, reject) => {
     const s = net.createServer(); s.once("error", reject);
@@ -40,8 +34,10 @@ async function start(repo, options = {}) {
   const guard = path.join(__dirname, "network_guard.cjs");
   const extra = { PORT: String(port), WORDFLOW_NETWORK_LOG: options.networkLog || path.join(os.tmpdir(), "wordflow-test-network.jsonl") };
   if (options.host !== undefined) extra.HOST = options.host;
-  if (options.python) extra.PYTHON = options.python;
-  const child = spawn(process.execPath, ["-r", guard, path.join(repo, "server.js")], { cwd: repo, env: cleanEnv(extra), stdio: ["ignore", "pipe", "pipe"], windowsHide: true });
+  const args = ["-r", guard];
+  if (options.preload) args.push("-r", options.preload);
+  args.push(path.join(repo, "server.js"));
+  const child = spawn(process.execPath, args, { cwd: repo, env: cleanEnv(extra), stdio: ["ignore", "pipe", "pipe"], windowsHide: true });
   const s = { child, stdout: "", stderr: "", repo, port };
   child.stdout.on("data", c => { s.stdout += c; }); child.stderr.on("data", c => { s.stderr += c; });
   await new Promise((resolve, reject) => {
@@ -70,4 +66,4 @@ function multipart(filename, contentType, content) {
   const boundary = "----WordFlowSyntheticBoundary20261005";
   return { headers: { "content-type": "multipart/form-data; boundary=" + boundary }, body: Buffer.concat([Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="file"; filename="${filename}"\r\nContent-Type: ${contentType}\r\n\r\n`), Buffer.from(content), Buffer.from(`\r\n--${boundary}--\r\n`)]) };
 }
-module.exports = { FRONT, OWNED, sha, cleanEnv, functionText, pythonPath, freePort, start, stop, request, multipart, execFileSync, assert };
+module.exports = { FRONT, OWNED, sha, cleanEnv, functionText, freePort, start, stop, request, multipart, execFileSync, assert };

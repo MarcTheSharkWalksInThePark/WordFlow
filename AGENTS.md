@@ -4,8 +4,8 @@ Shared rules for every agent that works in this repository: Claude Code, Codex, 
 claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to this file.
 
 - Local path: `C:\Users\Marcu\Documents\WordFlow`
-- Remote: `https://github.com/MarcTheSharkWalksInThePark/WordFlow` (private). It is the backup;
-  nothing is deployed from it.
+- Remote: `https://github.com/MarcTheSharkWalksInThePark/WordFlow` (private until Marcus changes it).
+  After review and connection, Cloudflare's Git integration deploys master.
 - Default branch: `master`.
 
 ## Rulings in force
@@ -13,6 +13,11 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
 - **RULING W1** (Marcus, 2026-10-05; `docs/DECISIONS.md`): this standalone repository is canonical
   for WordFlow from its first commit. The WordFlow copy inside MarcDeck is frozen and will be
   removed under a MarcDeck ruling. WordFlow fixes go to this repository only.
+- **RULING W2** (Marcus, 2026-10-05, relayed; recorded verbatim 2026-10-06 in
+  `docs/DECISIONS.md`): free public STATIC hosting on Cloudflare; same-origin URL Function;
+  browser PDF/DOCX; licence settled; remove env loader and Python; pinned vendoring approved.
+  W2 authorizes only exact named additions to the R59 static allowlist. Build work stays on
+  `feat/static-hosting`, unmerged and unpushed, pending CC review. Marcus controls visibility.
 - **On the MarcDeck side**, MarcDeck records the same thing as its "WORDFLOW CANONICAL REPOSITORY"
   ruling (MarcDeck `docs/DECISIONS.md`). WordFlow's files and routes inside MarcDeck are frozen
   until a MarcDeck removal ruling. Never "fix" WordFlow in MarcDeck.
@@ -20,9 +25,10 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
   **not be weakened, removed or reordered without a new ruling**:
   - **Bind.** `127.0.0.1` by default. Any other interface only by an explicit shell `HOST`, which
     prints a warning (`server.js` `listenHost`, `startupWarning`).
-  - **Static allowlist.** Exactly `index.html`, `styles.css`, `app.js` and
-    `assets/wordflow-mark.svg`; `/` aliases `index.html`. No wildcard, no directory entry
-    (`STATIC_FILES`).
+  - **Static allowlist.** W2 expands the original four names to the 197 exact site and vendored
+    filenames enumerated in `STATIC_FILES`; `/` aliases `index.html`. No wildcard or directory.
+    Never add repository sources, fixtures or environment files. The production build copies
+    this same list, plus only Cloudflare's `_headers` and `_routes.json` configuration.
   - **Dot guard.** Dotfiles and `.env*` are refused even if listed. The guard runs on the
     once-decoded path before normalisation (`isRefusedStaticPath`, `resolveStaticPath`).
   - **B2.** A request target that does not start `/`, or that starts `//` or `/\`, gets 404 before
@@ -34,11 +40,12 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
     the warning says so (`checkHostHeader`, `isAllowedHostHeader`).
   - **F8.** Node's `requireHostHeader` is on exactly when the app's Host check is off
     (`serverOptions`).
-  - `listenHost` and `checkHostHeader` are decided before `loadLocalEnv()`, so an env file cannot
-    change the bind or the check.
+  - `listenHost` and `checkHostHeader` are decided from the shell before routing. W2 removes
+    `loadLocalEnv()` entirely; no environment file can change the bind or the check.
 
   `tests/server_exposure.test.js` (32 checks) and the 46 registered mutations in
-  `tools/r59.spec.json` (45 killed, M9 the proven equivalent) guard them. A change that touches
+  `tools/r59.spec.json` (45 killed, M9 the proven equivalent) guard them. W2 adds six killed
+  proxy mutations (52 total, 51 killed, one equivalent). A change that touches
   them needs the mutations re-run, per RULING 55 part 3: exact transform, target suite, and SHA-256
   before, mutated and restored.
 
@@ -49,9 +56,9 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
   `tools/push.sh` refuses if one is ever tracked.
 - Never push except through `tools/push.sh`. Never use `git push --no-verify`. Never write the push
   marker (`$GIT_DIR/WORDFLOW_PUSH_OK`) by hand.
-- Never deploy or expose WordFlow beyond localhost. **Hosting needs its own Marcus ruling and its
-  own verification first**; `HOSTING.md` lists what that work must cover. It is a list of
-  requirements, not an implementation.
+- Deployment happens only by **Cloudflare's Git integration from master, after review**.
+  Never deploy from a feature branch or expose the local Node server publicly. Exact project
+  settings and the remaining human/live checks are in `HOSTING.md`.
 - Never install packages into a machine's Python or Node without the user's approval.
 
 ## Run
@@ -67,32 +74,23 @@ Open the URL printed at start-up, normally `http://localhost:8080/`. If 8080 is 
 20 ports are tried; the start-up line names the bound port. Stop with Ctrl+C. `PORT` and `HOST`
 are read from the shell only.
 
-### Python
+### Browser extraction
 
-- Text uploads need no Python. PDF and DOCX need Python with the exact pins in
-  `requirements.txt`: `pypdf==6.10.0` and `python-docx==1.2.0`.
-- `resolvePythonPath` (`server.js`) tries `$PYTHON`, then Codex's bundled runtime
-  (`%USERPROFILE%\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe`),
-  then `python`. **A `PYTHON` that is not an existing full path is silently skipped.**
-- On Marcus's PC today, only the Codex runtime has both libraries; system `py` (3.14.5) has
-  neither. That works, but it is fragile (review finding L1). The durable local setup, with the
-  user's approval:
-
-  ```powershell
-  py -m pip install -r requirements.txt
-  $env:PYTHON = (py -c "import sys; print(sys.executable)")
-  ```
+PDF uses pinned vendored PDF.js; DOCX uses native DecompressionStream("deflate-raw").
+All files are parsed in the browser with a 24 MiB cap. Python, its resolver and the upload
+endpoint are removed under W2. Preserve committed fixtures and Python goldens.
+Any vendoring update needs official npm SRI, per-file SHA-256 and third-party licence notices.
 
 ## Test and push
 
 ```powershell
-npm test                                                    # 32 regression cases + 32 exposure checks = 64
-npm run mutations -- --out docs/verification/results/mutations.json
+npm test                                                    # static + proxy + 32 R59 + browser parity; no skips
+npm run mutations -- --out docs/verification/results/static-mutations.json
 bash tools/push.sh                                          # the only way to push
 ```
 
-- `npm test` prints `SKIPPED` and still exits 0 when the selected Python lacks the libraries.
-  `tools/push.sh` treats any skip as a refusal.
+- `npm test` fails closed if installed Chrome/Playwright is unavailable; no skip path.
+  `tools/push.sh` continues to treat any skip as a refusal.
 - **Push gate.** `tools/push.sh` is fail-closed. It refuses unless:
   - the hook is active;
   - the branch is `master`;
@@ -106,8 +104,9 @@ bash tools/push.sh                                          # the only way to pu
 - **The hook travels with the repo, but git must be told to use it, once per clone:**
   `git config core.hooksPath .githooks`. `.githooks/pre-push` refuses any push that lacks the
   marker, pushes a ref other than `master`, or pushes a sha other than the marker's.
-- **Parity against the frozen MarcDeck copy** (only when server behaviour is in question) uses a
-  scratch clone of MarcDeck, never its real checkout. See README.
+- Historical split parity is retained in the old reports. W2 intentionally removes upload routes
+  and refuses private proxy destinations/POST. Extraction parity now uses committed Python
+  goldens in `tests/browser-parity.cjs`; never edit MarcDeck's frozen copy for W2.
 
 ## Verification discipline
 
@@ -142,29 +141,19 @@ bash tools/push.sh                                          # the only way to pu
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
-- **[Needs Human Input] Marcus to confirm** the seven dispositions the review flagged in
-  `docs/DECISIONS.md`:
-  - #3: is the never-committed pre-split regression run enough?
-  - #4: server strategy;
-  - #5: history method;
-  - #6: paths, with screenshots and `.pyc` dropped;
-  - #7: keep `loadLocalEnv`;
-  - #11: exact pins, and keep the Codex-runtime path;
-  - #12: Node floor 24.16.0.
-- **[Needs Human Input] Licence.** `LICENSE` reads "TO BE DECIDED BY MARCUS".
-- **[Needs Human Input] Hosting.** Policy, allowed hosts, `/api/read` SSRF rules, limits, logging
-  and deployment approval (`HOSTING.md`).
+- **[Needs Review] W2 build:** CC review, merge/gated push, separate email-history confirmation,
+  Marcus's public visibility change, free Cloudflare Git connection and live verification.
+- **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
+  quota; actual edge CPU, quota status/body/fail-open routing and dashboard logging are unverified.
+- **Inherited reader finding:** an artificial 135-character token can exceed the frame at the
+  existing 10 px fitting floor. A real 45-character word fits at desktop and phone widths.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.
 - **Unverified:** Windows 8.3 short names; Node versions below 24.16.0.
 - **Review findings, not blocking:**
-  - **L1:** Python silently depends on Codex's runtime; a non-path `PYTHON` is ignored; HOSTING.md
-    omits the interpreter.
-  - **L2:** extractor and fetch errors, including Python tracebacks with server paths, are returned
-    to the client.
-  - **L3:** `npm test` exits 0 with skips (the push gate now refuses skips).
-  - **L4:** two HOSTING.md anchors are 1-3 lines early.
+  - **L1–L4 closed by W2:** Python removed; generic errors; no npm-test skips; HOSTING rewritten
+    without stale line anchors. CC independently verifies this build next.
   - **L5:** the listener-inventory check is Windows-only.
   - **L6:** M1 and X10 are killed by a setup abort.
   - **L7:** smoke uses Codex's bundled Playwright.
@@ -181,3 +170,9 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 
 Created with the push gate, the GitHub remote and the vault project note. Open items are carried
 from the Codex build report and the CC review.
+
+### 2026-10-06 — Codex
+
+Marcus's W2 task replaces the local-only deployment rule and authorizes exact static additions,
+env/Python removal, browser extraction and free Pages Git hosting. Rules above reflect that
+ruling; no merge, push, deployment or repository settings change occurred in the build.

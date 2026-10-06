@@ -1,15 +1,20 @@
-# Preserve Windows front-end parity and CRLF mutation anchors across clones.
+# Preserve inherited front-end bytes and registered CRLF mutation anchors.
 index.html text eol=crlf
 app.js text eol=crlf
 styles.css text eol=crlf
 assets/wordflow-mark.svg text eol=crlf
-extract_text.py text eol=crlf
 server.js text eol=crlf
 *.cjs text eol=lf
 *.json text eol=lf
 *.md text eol=lf
-requirements.txt text eol=lf
-# Push gate (tools/push.sh) and its hook must keep LF endings, or bash cannot run them.
+*.mjs text eol=lf
 *.sh text eol=lf
 .githooks/* text eol=lf
 tools/push.log text eol=lf
+*.pdf -text
+*.docx -text
+*.png -text
+*.bcmap -text
+*.pfb -text
+*.ttf -text
+vendor/pdfjs/** -text

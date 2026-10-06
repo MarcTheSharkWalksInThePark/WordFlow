@@ -1,5 +1,5 @@
 {
-  "about": "Registered M/X/Y/Z/N1-N6/D1 carried from source master, including required N4/N6. Y11/Y12 retain their registered historical re-anchoring. Every transform unchanged against standalone CRLF server.js.",
+  "about": "46 registered R59 transforms unchanged, no re-anchoring; six new W2 proxy transforms.",
   "mutations": [
     {
       "id": "M1-bind-default-all-interfaces",
@@ -749,6 +749,96 @@
       "sourceCommit": "11092e186e8805ac0555e8dc1baf43fb8036b074",
       "targetCommand": "node tests/server_exposure.test.js",
       "adaptation": "Suite repository selection only; executable transform unchanged from registered spec; no new re-anchoring."
+    },
+    {
+      "id": "P1-private-IP-guard-removed",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (literal && !isPublicIP(host)) deny();",
+        "replace": "/* private-IP guard removed */"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "P2-DoH-check-removed",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (!literal) await checkDNS(host, fetchImpl, controller.signal);",
+        "replace": "/* DoH removed */"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "P3-redirect-recheck-removed",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "const { host, literal } = validateTarget(target);",
+        "replace": "const { host, literal } = hop === 0 ? validateTarget(target) : { host: target.hostname, literal: true };"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "P4-size-cap-removed",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (total > limit)",
+        "replace": "if (false)"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "P5-Origin-check-removed",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "if (origin !== null && origin !== own.origin)",
+        "replace": "if (false)"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
+    },
+    {
+      "id": "P6-client-header-forwarding-added",
+      "origin": "codex",
+      "source": "Marcus W2 proxy safety witness",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "headers: { \"user-agent\": \"WordFlow Reader/1.0\" }",
+        "replace": "headers: { ...Object.fromEntries(request.headers), \"user-agent\": \"WordFlow Reader/1.0\" }"
+      },
+      "sourceSpec": "W2 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
+      "expect": "killed"
     }
   ]
 }

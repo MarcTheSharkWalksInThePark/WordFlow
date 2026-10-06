@@ -1,0 +1,330 @@
+{
+  "passed": 81,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "deny IP 0.0.0.0",
+      "passed": true
+    },
+    {
+      "name": "deny IP 0.4.5.6",
+      "passed": true
+    },
+    {
+      "name": "deny IP 10.1.2.3",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100.64.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100.127.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 127.2.3.4",
+      "passed": true
+    },
+    {
+      "name": "deny IP 169.254.1.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 172.16.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 172.31.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.0.0.8",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.0.2.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.88.99.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 192.168.1.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.18.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.19.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 198.51.100.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 203.0.113.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 224.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 239.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP 240.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 255.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fe80::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fc00::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP fdff::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ff02::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:db8::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 3fff::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::ffff:127.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::ffff:7f00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP ::127.0.0.1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 64:ff9b::a00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 64:ff9b:1::a00:1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2002:0a00:0001::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:0000:4136:e378:8000:63bf:3fff:fdd2",
+      "passed": true
+    },
+    {
+      "name": "deny IP 100::1",
+      "passed": true
+    },
+    {
+      "name": "deny IP 2001:20::1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 1.1.1.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 8.8.8.8",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 93.184.216.34",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 100.63.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 100.128.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 172.15.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 172.32.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 198.20.0.1",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 223.255.255.255",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 2606:4700:4700::1111",
+      "passed": true
+    },
+    {
+      "name": "allow public IP 2001:4860:4860::8888",
+      "passed": true
+    },
+    {
+      "name": "deny hostname localhost",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.localhost",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.local",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.internal",
+      "passed": true
+    },
+    {
+      "name": "deny hostname foo.arpa",
+      "passed": true
+    },
+    {
+      "name": "deny hostname LOCALHOST.",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 127.1",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 2130706433",
+      "passed": true
+    },
+    {
+      "name": "deny hostname 0x7f000001",
+      "passed": true
+    },
+    {
+      "name": "deny syntax file:///etc/passwd",
+      "passed": true
+    },
+    {
+      "name": "deny syntax ftp://public.example/x",
+      "passed": true
+    },
+    {
+      "name": "deny syntax https://user:password@public.example",
+      "passed": true
+    },
+    {
+      "name": "deny syntax https://public.example:8080",
+      "passed": true
+    },
+    {
+      "name": "deny syntax http://public.example:22",
+      "passed": true
+    },
+    {
+      "name": "GET only",
+      "passed": true
+    },
+    {
+      "name": "Origin guard",
+      "passed": true
+    },
+    {
+      "name": "same Origin and no client header forwarding",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"10.0.0.1\"},{\"type\":28,\"data\":\"2606:4700:4700::1111\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"93.184.216.34\"},{\"type\":28,\"data\":\"::ffff:192.168.1.1\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":1,\"data\":\"93.184.216.34\"},{\"type\":1,\"data\":\"127.0.0.1\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":3,\"Answer\":[]}",
+      "passed": true
+    },
+    {
+      "name": "DNS fail closed {\"Status\":0,\"Answer\":[{\"type\":28,\"data\":\"invalid\"}]}",
+      "passed": true
+    },
+    {
+      "name": "DoH transport failures are generic",
+      "passed": true
+    },
+    {
+      "name": "redirect rechecks private IP",
+      "passed": true
+    },
+    {
+      "name": "redirect rechecks DNS hostname",
+      "passed": true
+    },
+    {
+      "name": "five redirects accepted; sixth refused",
+      "passed": true
+    },
+    {
+      "name": "streamed 3 MiB boundary and overflow",
+      "passed": true
+    },
+    {
+      "name": "missing and malformed URL contract",
+      "passed": true
+    },
+    {
+      "name": "scheme-less target and remote status contract",
+      "passed": true
+    },
+    {
+      "name": "12 second deadline includes streamed body",
+      "passed": true
+    },
+    {
+      "name": "reserved unallocated IPv6 denied",
+      "passed": true
+    }
+  ]
+}

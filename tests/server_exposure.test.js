@@ -56,7 +56,9 @@ function frontEndFiles() {
 function makeFixtureRoot(serverText) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "server-exposure-"));
   fs.writeFileSync(path.join(dir, "server.js"), serverText);
-  assert(!/require\("\.{1,2}\//.test(serverText), "standalone server must have no relative runtime imports");
+  // W2 adds one shared platform-neutral proxy import; copy it into synthetic roots.
+  fs.mkdirSync(path.join(dir, "lib"));
+  fs.copyFileSync(path.join(REPO, "lib/read-proxy.mjs"), path.join(dir, "lib/read-proxy.mjs"));
   for (const file of frontEndFiles()) {
     fs.mkdirSync(path.dirname(path.join(dir, file)), { recursive: true });
     fs.copyFileSync(path.join(REPO, file), path.join(dir, file));
@@ -544,15 +546,15 @@ check(`check off (HOST=${TEST_NET_HOST}, listen redirected to 127.0.0.1): warnin
   }
 });
 
-check("API routes are unaffected: /api/read and /api/extract-file still route", async () => {
+check("W2 routes: /api/read still routes and removed upload endpoint is refused", async () => {
   const missing = await request(servers.default.port, "GET", "/api/read");
   assert.strictEqual(missing.status, 400);
   assert.deepStrictEqual(JSON.parse(missing.body), { error: "Missing URL" });
   const boundary = "----serverexposure";
   const form = `--${boundary}\r\nContent-Disposition: form-data; name="file"; filename="probe.txt"\r\nContent-Type: text/plain\r\n\r\nHello.\r\n--${boundary}--\r\n`;
   const extracted = await request(servers.default.port, "POST", "/api/extract-file", form, { "content-type": `multipart/form-data; boundary=${boundary}` });
-  assert.strictEqual(extracted.status, 200, extracted.body);
-  assert.strictEqual(JSON.parse(extracted.body).body, "Hello.");
+  assert.strictEqual(extracted.status, 404, extracted.body);
+  assert.strictEqual(extracted.body, "Not found");
 });
 
 // A loopback listener on the configured port, so the server under test retries on the next one.

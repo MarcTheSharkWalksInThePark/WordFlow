@@ -1,0 +1,272 @@
+{
+  "docx": [
+    {
+      "file": "defaults.docx",
+      "actual": {
+        "title": "defaults.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Default character bold heading\n\n## Invalid style uses default",
+        "warnings": []
+      },
+      "golden": {
+        "title": "defaults.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Default character bold heading\n\n## Invalid style uses default",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "a8ccff10eb6cc6bd0cebf3aaba12cdf7b6beeeffc5c6613c04c3dac7978ece6b",
+      "differences": []
+    },
+    {
+      "file": "empty.docx",
+      "actual": {
+        "title": "empty.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "",
+        "warnings": [
+          "No readable text found in this DOCX."
+        ]
+      },
+      "golden": {
+        "title": "empty.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "",
+        "warnings": [
+          "No readable text found in this DOCX."
+        ]
+      },
+      "identical": true,
+      "actualPayloadSha256": "886fcc65b6355e772b6062f66464e36ea66da538400de081e455cf3bc33f8d67",
+      "differences": []
+    },
+    {
+      "file": "fixture.docx",
+      "actual": {
+        "title": "WordFlow DOCX fixture",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Fixture heading\n\nWordFlow DOCX fixture text.\n\nLeft | Right",
+        "warnings": []
+      },
+      "golden": {
+        "title": "WordFlow DOCX fixture",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Fixture heading\n\nWordFlow DOCX fixture text.\n\nLeft | Right",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "4264c4a796891003f7f6ff9a38c82a269a001e1e7b6e56f5b8abb77372c58631",
+      "differences": []
+    },
+    {
+      "file": "labels.docx",
+      "actual": {
+        "title": "Every section label",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## påstand ends.\n\n## innføring ends.\n\n## innledning ends.\n\n## argumenter ends.\n\n## vurdering ends.\n\n## kilder ends.\n\n## konklusjon ends.\n\n## metode ends.\n\n## resultat ends.\n\n## resultater ends.\n\n## drøfting ends.\n\n## teori ends.\n\n## claim ends.\n\n## section ends.\n\n## chapter ends.\n\nNonbold sentence.\n\n## Astral character 🚀\n\nVertical | Top\n\nVertical | Bottom",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Every section label",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## påstand ends.\n\n## innføring ends.\n\n## innledning ends.\n\n## argumenter ends.\n\n## vurdering ends.\n\n## kilder ends.\n\n## konklusjon ends.\n\n## metode ends.\n\n## resultat ends.\n\n## resultater ends.\n\n## drøfting ends.\n\n## teori ends.\n\n## claim ends.\n\n## section ends.\n\n## chapter ends.\n\nNonbold sentence.\n\n## Astral character 🚀\n\nVertical | Top\n\nVertical | Bottom",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "8af050dc0de493c004bd8d004a838f7b9559f43615e3e39a3ee013d905327b6d",
+      "differences": []
+    },
+    {
+      "file": "no-title.docx",
+      "actual": {
+        "title": "no-title.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "No core title.",
+        "warnings": []
+      },
+      "golden": {
+        "title": "no-title.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "No core title.",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "7750b034d6f0f3bbb761df71b5c33560c1377cdfdbfcf1d596fb83f5cbf52678",
+      "differences": []
+    },
+    {
+      "file": "semantics.docx",
+      "actual": {
+        "title": "Core title present",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Title example.\n\n## Subtitle example.\n\n## Heading 1 example.\n\n## Heading 2 example.\n\n## Custom heading\n\nlong long long long long long long long long long long long long long long long long long long long long long long\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\n## Bold heading\n\nBold sentence.\n\nBold sentence.\")\n\n## Chapter ends.\n\n## Påstand ends!\n\nConclusion?\n\n## A title»\n\nA question?]\n\n## Character style heading\n\n## False direct bold but character bold\n\nMixed not heading\n\n## Visible heading\n\nBefore linked words after.\n\nHyperlink only\n\nBody paragraph after a table.\n\nLeft | Right\n\nFirst\nSecond | Merged | Merged",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Core title present",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "body": "## Title example.\n\n## Subtitle example.\n\n## Heading 1 example.\n\n## Heading 2 example.\n\n## Custom heading\n\nlong long long long long long long long long long long long long long long long long long long long long long long\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\n## Bold heading\n\nBold sentence.\n\nBold sentence.\")\n\n## Chapter ends.\n\n## Påstand ends!\n\nConclusion?\n\n## A title»\n\nA question?]\n\n## Character style heading\n\n## False direct bold but character bold\n\nMixed not heading\n\n## Visible heading\n\nBefore linked words after.\n\nHyperlink only\n\nBody paragraph after a table.\n\nLeft | Right\n\nFirst\nSecond | Merged | Merged",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "d97b7bfe531fcf76cae7a2b03676a8767621d4f2abba0247e7e3d65c644ca0d5",
+      "differences": []
+    }
+  ],
+  "pdf": [
+    {
+      "file": "columns.pdf",
+      "actual": {
+        "title": "Two-column article",
+        "contentType": "application/pdf",
+        "body": "Left column first. Right column first.\nLeft column second. Right column second.",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Two-column article",
+        "contentType": "application/pdf",
+        "body": "Left column first. Right column first.\nLeft column second. Right column second.",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "18bb0ae7c61bb2c23ec81d24e3464dbe7be5af247e097a5e09baeba133ece77b",
+      "differences": []
+    },
+    {
+      "file": "empty-password.pdf",
+      "actual": {
+        "title": "Empty password",
+        "contentType": "application/pdf",
+        "body": "Empty password readable.",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Empty password",
+        "contentType": "application/pdf",
+        "body": "Empty password readable.",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "4d18cbaf002318c3087195418c6adb80e03d8ca90da0ad949d96d57af756e7e1",
+      "differences": []
+    },
+    {
+      "file": "empty.pdf",
+      "actual": {
+        "title": "empty.pdf",
+        "contentType": "application/pdf",
+        "body": "",
+        "warnings": [
+          "No selectable text found. Scanned PDFs need OCR before they can be read here."
+        ]
+      },
+      "golden": {
+        "title": "empty.pdf",
+        "contentType": "application/pdf",
+        "body": "",
+        "warnings": [
+          "No selectable text found. Scanned PDFs need OCR before they can be read here."
+        ]
+      },
+      "identical": true,
+      "actualPayloadSha256": "cecdb95535677fcf887785aed6241f0474a662b0e99174664b219cf616570376",
+      "differences": []
+    },
+    {
+      "file": "encrypted.pdf",
+      "actual": {
+        "title": "encrypted.pdf",
+        "contentType": "application/pdf",
+        "body": "",
+        "warnings": [
+          "This PDF is encrypted and could not be read."
+        ]
+      },
+      "golden": null,
+      "identical": null,
+      "actualPayloadSha256": "8dc75fbc5a3e8ed56c76c2042b9e7cec84589a7be998744486724bd401c3af29",
+      "differences": [
+        {
+          "field": "baseline",
+          "pypdf": "FileNotDecryptedError: File has not been decrypted",
+          "pdfjs": {
+            "title": "encrypted.pdf",
+            "contentType": "application/pdf",
+            "body": "",
+            "warnings": [
+              "This PDF is encrypted and could not be read."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "fixture.pdf",
+      "actual": {
+        "title": "WordFlow PDF fixture",
+        "contentType": "application/pdf",
+        "body": "WordFlow PDF fixture text.",
+        "warnings": []
+      },
+      "golden": {
+        "title": "WordFlow PDF fixture",
+        "contentType": "application/pdf",
+        "body": "WordFlow PDF fixture text.",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "1976ea2e4e3cde19a97e176c0013f245339b4fc01e7824d025897f2bba810d55",
+      "differences": []
+    },
+    {
+      "file": "headers-footers.pdf",
+      "actual": {
+        "title": "Journal article",
+        "contentType": "application/pdf",
+        "body": "Journal header\nFirst page paragraph.\nPage 1\n\nJournal header\nSecond page paragraph.\nPage 2",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Journal article",
+        "contentType": "application/pdf",
+        "body": "Journal header\nFirst page paragraph.\nPage 1\n\nJournal header\nSecond page paragraph.\nPage 2",
+        "warnings": []
+      },
+      "identical": true,
+      "actualPayloadSha256": "f25cad786d0cab0d4aae3870b31e5e1595e61f6c33a4577c78740107b3c4646e",
+      "differences": []
+    },
+    {
+      "file": "hyphenation.pdf",
+      "actual": {
+        "title": "Hyphenated article",
+        "contentType": "application/pdf",
+        "body": "A word is hyphen-\nated across lines.\nWide spacing remains.",
+        "warnings": []
+      },
+      "golden": {
+        "title": "Hyphenated article",
+        "contentType": "application/pdf",
+        "body": "A word is hyphen-\nated across lines.\nWide    spacing remains.",
+        "warnings": []
+      },
+      "identical": false,
+      "actualPayloadSha256": "547708ce2321040bbbf9be8dde7d6554d4e645c3d5e572747b042afab37ffaa7",
+      "differences": [
+        {
+          "field": "body",
+          "pypdf": "A word is hyphen-\nated across lines.\nWide    spacing remains.",
+          "pdfjs": "A word is hyphen-\nated across lines.\nWide spacing remains."
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "nativeDeflateRaw": true,
+  "chrome": "154.0.8037.95",
+  "docxPassed": 6,
+  "docxMismatches": 0,
+  "pdfCompared": 7,
+  "pdfDifferences": 2,
+  "passed": true
+}

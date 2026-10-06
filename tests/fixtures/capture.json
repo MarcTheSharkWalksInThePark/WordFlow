@@ -55,7 +55,18 @@
     },
     {
       "file": "encrypted.pdf",
-      "baselineError": "FileNotDecryptedError: File has not been decrypted"
+      "baselineError": "FileNotDecryptedError: File has not been decrypted",
+      "sha256": "d1a24232b28271d16de0efad00cbee18d612f5f31ccafea745a85e68ccf26e5d"
+    },
+    {
+      "file": "labels.docx",
+      "sha256": "4ddf22fd33960a18f3ba299cf61442e3ab5a657b8f04640d6657f0c444bbc415",
+      "goldenSha256": "8af050dc0de493c004bd8d004a838f7b9559f43615e3e39a3ee013d905327b6d"
+    },
+    {
+      "file": "defaults.docx",
+      "sha256": "08ec128514a366d3981c12b625c44b4c2875ccd367dd0921fc9151e5f7317692",
+      "goldenSha256": "a8ccff10eb6cc6bd0cebf3aaba12cdf7b6beeeffc5c6613c04c3dac7978ece6b"
     }
   ]
 }

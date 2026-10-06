@@ -2,13 +2,14 @@
   "name": "wordflow",
   "private": true,
   "version": "0.1.0",
-  "description": "Standalone WordFlow reader; local-only until a hosting ruling",
+  "description": "WordFlow static reader with a same-origin Pages Function",
   "scripts": {
     "start": "node server.js",
-    "test": "node tests/regression.cjs && node tests/server_exposure.test.js",
-    "parity": "node tests/regression.cjs",
+    "test": "node tests/regression.cjs && node tests/proxy.test.mjs && node tests/server_exposure.test.js && node tests/browser-parity.cjs",
+    "parity": "node tests/browser-parity.cjs",
     "mutations": "node tools/mutations.cjs",
-    "smoke": "node tools/chrome_smoke.cjs"
+    "smoke": "node tools/static_smoke.cjs",
+    "build": "node tools/build.cjs"
   },
   "engines": {
     "node": ">=24.16.0"

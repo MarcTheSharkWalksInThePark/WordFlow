@@ -66,29 +66,29 @@ Source: MarcDeck `docs/verification/2026-10-01_cc_recon_wordflow_split.md`, sect
 
 | # | Recon decision | Status and owner |
 |---|---|---|
-| 1 | Repository name | **Partly settled:** local path is WordFlow. GitHub name remains **Marcus**; no remote created. |
-| 2 | Visibility | **Open — Marcus.** No push or publication. |
-| 3 | Deferral and sufficient regression | **Settled for this extraction by the task:** proceed now; its requested route/extractor/local-fetch corpus ran green against old master **before** creating the new repo. MarcDeck is not edited. |
-| 4 | Server strategy | **Settled:** independent trimmed server with copied helper logic; no shared package. |
-| 5 | History method | **Settled:** M2 plumbing replay, no installs; five original blobs, exact author/committer/dates/message. |
-| 6 | Paths that travel | **Settled:** index.html, app.js, styles.css, assets/wordflow-mark.svg, extract_text.py. SETUP_GUIDE is verified MarcDeck-owned. Screenshots and tracked pyc omitted from history. One new synthetic smoke screenshot is verification evidence. |
-| 7 | Env handling | **Settled implementation for parity:** copy no env file or secret; preserve loadLocalEnv unchanged. WordFlow needs no secret. Dummy files are test-only. |
+| 1 | Repository name | **Resolved 2026-10-05:** WordFlow, private GitHub backup repository created. |
+| 2 | Visibility | **Resolved 2026-10-05:** private GitHub repository. W2.3 authorizes Marcus to make it public after review and the separate email-history decision; not performed in this build. |
+| 3 | Deferral and sufficient regression | **Confirmed by Marcus, W2.5:** the never-committed pre-split regression run is sufficient for the extraction. MarcDeck remains unedited. |
+| 4 | Server strategy | **Confirmed by Marcus, W2.5:** independent trimmed server. W2 now shares one platform-neutral proxy with the Pages Function. |
+| 5 | History method | **Confirmed by Marcus, W2.5:** M2 plumbing replay. W3 later changes only the authorized email metadata/content. |
+| 6 | Paths that travel | **Confirmed by Marcus, W2.5:** the original five paths, with screenshots and pyc dropped. W2 later removes Python and adds named static/vendor assets. |
+| 7 | Env handling | **Marcus W2.5:** REMOVE loadLocalEnv. WordFlow has no secrets; environment files are never read. |
 | 8 | Retire MarcDeck guard/fence, dispositions | **Open — Marcus's separate MarcDeck ruling and its designated implementer.** No guard, fence, hook or bug disposition changed. |
 | 9 | Delete protected files in MarcDeck | **Deferred — Marcus.** Explicitly prohibited in this task; frozen copy remains. |
-| 10 | Executor, verifier, pusher | **Settled for this task:** Codex (gpt-6.1-sol, high) builds and verifies locally; no pusher. Independent review and any later push remain **Marcus's assignment**. |
-| 11 | Python pins and resolver | **Settled:** exact observed pins pypdf 6.10.0/python-docx 1.2.0; keep existing resolver unchanged. **Later hosting owner** must choose a provisioned interpreter instead of relying on Codex's cache. |
-| 12 | Node floor | **Implementation choice:** engines >=24.16.0, the version actually tested with the inherited requireHostHeader behavior. Older Node support remains unverified; any lower floor needs verification by the **WordFlow maintainer**. |
+| 10 | Executor, verifier, pusher | **Resolved 2026-10-05:** Codex built; independent CC review CLEAR; normal gated push completed. W2 requires a new CC review before merge/push. |
+| 11 | Python pins and resolver | **SUPERSEDED by Marcus, W2.5:** Python leaves the product; pins, resolver and Codex-runtime fallback removed after committed goldens. |
+| 12 | Node floor | **Confirmed by Marcus, W2.5:** Node >=24.16.0. Lower versions remain unverified. |
 | 13 | S1/local server protections | **Settled on verified source master** by merged RULING 59; all protections carried and tested here. No new MarcDeck fix in this task. |
-| 14 | Public /api/read policy and backup | **Open — Marcus, later hosting engineer.** Preserve local behavior now; HOSTING.md records required SSRF/redirect policy. Backup destination remains **Marcus**; no mirror changed. |
+| 14 | Public /api/read policy and backup | **Marcus W2:** free public static Pages site, same-origin URL Function and explicit proxy policy; implementation choices and residual risks in HOSTING.md. GitHub backup remains unchanged. |
 | 15 | MarcDeck / after removal | **Open — Marcus and MarcDeck engineer** under its removal ruling. |
-| 16 | WordFlow hooks / push gate | **Open — Marcus.** No custom hooks or inherited MarcDeck push gate installed. Verification is available via npm test/mutations. |
+| 16 | WordFlow hooks / push gate | **Resolved 2026-10-05:** tools/push.sh and .githooks/pre-push built, independently reviewed, active. Only master may be pushed; gate stays mandatory. |
 | 17 | MarcDeck upload producer | **Open — Marcus and MarcDeck engineer.** No new cross-repo dependency introduced; removal phase must settle its extractor. |
 | 18 | Timing in MarcDeck build order | **Settled for WordFlow extraction:** execute this task now. MarcDeck removal timing remains **Marcus/orchestration**. |
 | 19 | Eight local ZIP copies | **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault. |
 
 ## Other open decisions
 
-**Licence — Marcus:** LICENSE says exactly “TO BE DECIDED BY MARCUS”. Public hosting and deployment need their own ruling and verification. RULING W1 does not authorize any edits or removals in MarcDeck. W1 canonicality takes effect from the replayed first commit; this file is recorded in the follow-up implementation commit, as required by M2's provenance step.
+**Licence resolved by Marcus, W2.4:** LICENSE now contains the exact all-rights-reserved text; bundled third-party licences remain and notices ship. W2 authorizes static hosting; CC review and Marcus’s connection/live steps remain. RULING W1 does not authorize any edits or removals in MarcDeck. W1 canonicality takes effect from the replayed first commit; this file is recorded in the follow-up implementation commit, as required by M2's provenance step.
 
 ## RULING W3 — history email privacy
 
@@ -100,3 +100,13 @@ Marcus's rulings, 2026-10-05, relayed by the claude.ai orchestrator:
 - **W3.4** This repository's local `git config user.email` becomes the no-reply address, so future commits never carry the personal email.
 
 Implementation: all eight existing commits and both local branches rewritten and verified; one report file redacted by exact byte replacement. Earlier WordFlow SHA citations are pre-rewrite; the old-to-new mapping is in `docs/verification/2026-10-05_codex_history_email_rewrite.md`. The additional final commit records this ruling and report. Marcus confirmed the empty-private-repository recreation and email settings with `done`; the normal `tools/push.sh` push passed, and a fresh GitHub clone passed the identity/content/reachable-object privacy checks. No force push or gate bypass was used.
+
+## W2 implementation choices — Codex, 2026-10-06
+
+Pages Functions with Git integration; exact dist asset build; /api/read-only invocation route;
+Pages fail-open with static quota marker; pinned pdfjs-dist 6.4.299; native deflate-raw for DOCX.
+These are engineering choices, not additional Marcus rulings. HOSTING.md contains dated official
+doc links, project settings, privacy/logging limits and the honest DNS rebinding gap.
+
+CC findings L1–L4 are closed in this build (see HOSTING.md), subject to the new independent review.
+W3’s completed history work remains recorded; the separate public-email decision stays Marcus’s.

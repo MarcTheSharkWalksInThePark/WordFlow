@@ -957,3 +957,12 @@ button:focus-visible {
     flex-basis: 40px;
   }
 }
+/* Static hosting privacy disclosure. */
+.privacy-note {
+  max-width: 75rem;
+  margin: 1rem auto;
+  padding: 0 1.25rem;
+  color: var(--muted, #686868);
+  font-size: .8rem;
+  line-height: 1.5;
+}

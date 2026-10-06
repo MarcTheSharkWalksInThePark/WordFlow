@@ -1,39 +1,227 @@
 const http = require("node:http");
 const fs = require("node:fs/promises");
-const fsSync = require("node:fs");
-const os = require("node:os");
 const path = require("node:path");
-const { spawn } = require("node:child_process");
 const { URL } = require("node:url");
 
+const { handleRead } = require("./lib/read-proxy.mjs");
 const root = __dirname;
 const startPort = Number(process.env.PORT) || 8080;
 // RULING 59 part 1: loopback unless HOST names another interface explicitly.
 const listenHost = String(process.env.HOST || "").trim() || "127.0.0.1";
 // RULING 59 part 6a: the Host header check is on whenever the listen host is loopback, including a
 // loopback HOST, and off only for a non-loopback HOST. Decided here, from listenHost and before
-// loadLocalEnv, so a HOST written only in an env file changes neither.
+// any routing; environment files are never read.
 const checkHostHeader = isLoopbackHost(listenHost);
-const maxRemoteBytes = 3 * 1024 * 1024;
-const maxUploadBytes = 24 * 1024 * 1024;
 
-loadLocalEnv();
 
 const mimeTypes = new Map([
   [".html", "text/html; charset=utf-8"],
   [".css", "text/css; charset=utf-8"],
   [".js", "text/javascript; charset=utf-8"],
+  [".mjs", "text/javascript; charset=utf-8"],
+  [".md", "text/plain; charset=utf-8"],
   [".svg", "image/svg+xml; charset=utf-8"]
 ]);
 
-const textExtensions = new Set([".txt", ".md", ".markdown", ".html", ".htm", ".csv", ".json", ".rtf"]);
-const extractableExtensions = new Set([".pdf", ".docx"]);
 
 const STATIC_FILES = new Set([
   "index.html",
   "styles.css",
   "app.js",
-  "assets/wordflow-mark.svg"
+  "assets/wordflow-mark.svg",
+  "file-extractors.mjs",
+  "404.html",
+  "api/read",
+  "LICENSE",
+  "THIRD_PARTY_NOTICES.md",
+  "vendor/pdfjs/LICENSE",
+  "vendor/pdfjs/cmaps/78-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/78-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/78-H.bcmap",
+  "vendor/pdfjs/cmaps/78-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/78-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/78-V.bcmap",
+  "vendor/pdfjs/cmaps/78ms-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/78ms-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/83pv-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/90ms-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/90ms-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/90msp-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/90msp-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/90pv-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/90pv-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/Add-H.bcmap",
+  "vendor/pdfjs/cmaps/Add-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/Add-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/Add-V.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-0.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-1.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-3.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-4.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-5.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-6.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-CNS1-UCS2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-0.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-1.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-3.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-4.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-5.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-GB1-UCS2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-0.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-1.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-3.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-4.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-5.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-6.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Japan1-UCS2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Korea1-0.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Korea1-1.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Korea1-2.bcmap",
+  "vendor/pdfjs/cmaps/Adobe-Korea1-UCS2.bcmap",
+  "vendor/pdfjs/cmaps/B5-H.bcmap",
+  "vendor/pdfjs/cmaps/B5-V.bcmap",
+  "vendor/pdfjs/cmaps/B5pc-H.bcmap",
+  "vendor/pdfjs/cmaps/B5pc-V.bcmap",
+  "vendor/pdfjs/cmaps/CNS-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/CNS-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/CNS1-H.bcmap",
+  "vendor/pdfjs/cmaps/CNS1-V.bcmap",
+  "vendor/pdfjs/cmaps/CNS2-H.bcmap",
+  "vendor/pdfjs/cmaps/CNS2-V.bcmap",
+  "vendor/pdfjs/cmaps/ETHK-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/ETHK-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/ETen-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/ETen-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/ETenms-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/ETenms-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/Ext-H.bcmap",
+  "vendor/pdfjs/cmaps/Ext-RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/Ext-RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/Ext-V.bcmap",
+  "vendor/pdfjs/cmaps/GB-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GB-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/GB-H.bcmap",
+  "vendor/pdfjs/cmaps/GB-V.bcmap",
+  "vendor/pdfjs/cmaps/GBK-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GBK-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/GBK2K-H.bcmap",
+  "vendor/pdfjs/cmaps/GBK2K-V.bcmap",
+  "vendor/pdfjs/cmaps/GBKp-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GBKp-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/GBT-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GBT-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/GBT-H.bcmap",
+  "vendor/pdfjs/cmaps/GBT-V.bcmap",
+  "vendor/pdfjs/cmaps/GBTpc-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GBTpc-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/GBpc-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/GBpc-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/H.bcmap",
+  "vendor/pdfjs/cmaps/HKdla-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKdla-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/HKdlb-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKdlb-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/HKgccs-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKgccs-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/HKm314-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKm314-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/HKm471-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKm471-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/HKscs-B5-H.bcmap",
+  "vendor/pdfjs/cmaps/HKscs-B5-V.bcmap",
+  "vendor/pdfjs/cmaps/Hankaku.bcmap",
+  "vendor/pdfjs/cmaps/Hiragana.bcmap",
+  "vendor/pdfjs/cmaps/KSC-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/KSC-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/KSC-H.bcmap",
+  "vendor/pdfjs/cmaps/KSC-Johab-H.bcmap",
+  "vendor/pdfjs/cmaps/KSC-Johab-V.bcmap",
+  "vendor/pdfjs/cmaps/KSC-V.bcmap",
+  "vendor/pdfjs/cmaps/KSCms-UHC-H.bcmap",
+  "vendor/pdfjs/cmaps/KSCms-UHC-HW-H.bcmap",
+  "vendor/pdfjs/cmaps/KSCms-UHC-HW-V.bcmap",
+  "vendor/pdfjs/cmaps/KSCms-UHC-V.bcmap",
+  "vendor/pdfjs/cmaps/KSCpc-EUC-H.bcmap",
+  "vendor/pdfjs/cmaps/KSCpc-EUC-V.bcmap",
+  "vendor/pdfjs/cmaps/Katakana.bcmap",
+  "vendor/pdfjs/cmaps/LICENSE",
+  "vendor/pdfjs/cmaps/NWP-H.bcmap",
+  "vendor/pdfjs/cmaps/NWP-V.bcmap",
+  "vendor/pdfjs/cmaps/RKSJ-H.bcmap",
+  "vendor/pdfjs/cmaps/RKSJ-V.bcmap",
+  "vendor/pdfjs/cmaps/Roman.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UCS2-H.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UCS2-V.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF16-H.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF16-V.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF8-H.bcmap",
+  "vendor/pdfjs/cmaps/UniCNS-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UCS2-H.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UCS2-V.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF16-H.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF16-V.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF8-H.bcmap",
+  "vendor/pdfjs/cmaps/UniGB-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UCS2-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UCS2-HW-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UCS2-HW-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UCS2-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF16-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF16-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF8-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF16-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF16-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF8-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJIS2004-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJISPro-UCS2-HW-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJISPro-UCS2-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJISPro-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJISX0213-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJISX0213-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniJISX02132004-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniJISX02132004-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UCS2-H.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UCS2-V.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF16-H.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF16-V.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF32-H.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF32-V.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF8-H.bcmap",
+  "vendor/pdfjs/cmaps/UniKS-UTF8-V.bcmap",
+  "vendor/pdfjs/cmaps/V.bcmap",
+  "vendor/pdfjs/cmaps/WP-Symbol.bcmap",
+  "vendor/pdfjs/pdf.mjs",
+  "vendor/pdfjs/pdf.worker.mjs",
+  "vendor/pdfjs/standard_fonts/FoxitDingbats.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitFixed.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitFixedBold.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitFixedBoldItalic.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitFixedItalic.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitSerif.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitSerifBold.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitSerifBoldItalic.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitSerifItalic.pfb",
+  "vendor/pdfjs/standard_fonts/FoxitSymbol.pfb",
+  "vendor/pdfjs/standard_fonts/LICENSE_FOXIT",
+  "vendor/pdfjs/standard_fonts/LICENSE_LIBERATION",
+  "vendor/pdfjs/standard_fonts/LiberationSans-Bold.ttf",
+  "vendor/pdfjs/standard_fonts/LiberationSans-BoldItalic.ttf",
+  "vendor/pdfjs/standard_fonts/LiberationSans-Italic.ttf",
+  "vendor/pdfjs/standard_fonts/LiberationSans-Regular.ttf"
 ]);
 
 const server = http.createServer(serverOptions(checkHostHeader), async (req, res) => {
@@ -66,19 +254,16 @@ const server = http.createServer(serverOptions(checkHostHeader), async (req, res
     const requestUrl = new URL(req.url, "http://localhost");
 
     if (requestUrl.pathname === "/api/read") {
-      await readRemoteUrl(requestUrl, res);
-      return;
-    }
-
-    if (requestUrl.pathname === "/api/extract-file") {
-      await extractUploadedFile(req, res);
+      const incoming = new Request(new URL(req.url, "http://" + req.headers.host), { method: req.method, headers: req.headers.origin === undefined ? {} : { origin: req.headers.origin } });
+      const response = await handleRead(incoming);
+      res.writeHead(response.status, Object.fromEntries(response.headers));
+      res.end(await response.text());
       return;
     }
 
     await serveStaticFile(requestUrl, res);
   } catch (error) {
-    console.error(error);
-    sendJson(res, 500, { error: error.message || "Server error" });
+    sendJson(res, 500, { error: "Server error" });
   }
 });
 
@@ -128,285 +313,6 @@ function isLoopbackHost(host) {
   return value === "localhost" || value === "::1" || /^127\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(ipv4);
 }
 
-function loadLocalEnv() {
-  [".env.local", ".env"].forEach((filename) => {
-    const envPath = path.join(root, filename);
-    if (!fsSync.existsSync(envPath)) return;
-    const lines = fsSync.readFileSync(envPath, "utf8").split(/\r?\n/);
-    lines.forEach((line) => {
-      const match = /^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/i.exec(line);
-      if (!match) return;
-      const key = match[1];
-      if (process.env[key]) return;
-      let value = match[2].trim();
-      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-        value = value.slice(1, -1);
-      }
-      process.env[key] = value;
-    });
-  });
-}
-
-async function readRemoteUrl(requestUrl, res) {
-  const target = normalizeRemoteUrl(requestUrl.searchParams.get("url"));
-  if (!target) {
-    sendJson(res, 400, { error: "Missing URL" });
-    return;
-  }
-
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 12000);
-
-  try {
-    const response = await fetch(target.href, {
-      redirect: "follow",
-      signal: controller.signal,
-      headers: {
-        "user-agent": "WordFlow Reader/1.0"
-      }
-    });
-
-    const contentType = response.headers.get("content-type") || "text/plain; charset=utf-8";
-    const body = await readLimitedText(response, maxRemoteBytes);
-
-    sendJson(res, response.ok ? 200 : response.status, {
-      url: response.url,
-      contentType,
-      body
-    });
-  } finally {
-    clearTimeout(timeoutId);
-  }
-}
-
-async function extractUploadedFile(req, res) {
-  if (req.method !== "POST") {
-    sendJson(res, 405, { error: "POST required" });
-    return;
-  }
-
-  const file = await readMultipartFile(req);
-  if (!file) {
-    sendJson(res, 400, { error: "No file uploaded" });
-    return;
-  }
-
-  const extension = path.extname(file.filename).toLowerCase();
-  if (textExtensions.has(extension) || file.contentType.startsWith("text/")) {
-    sendJson(res, 200, {
-      title: file.filename,
-      contentType: file.contentType || "text/plain",
-      body: decodeUploadedText(file.content),
-      warnings: []
-    });
-    return;
-  }
-
-  if (!extractableExtensions.has(extension)) {
-    sendJson(res, 415, { error: "Supported files: PDF, DOCX, and text files" });
-    return;
-  }
-
-  const uploadDir = await fs.mkdtemp(path.join(os.tmpdir(), "wordflow-"));
-  const safeFilename = sanitizeFilename(file.filename) || `source${extension}`;
-  const filePath = path.join(uploadDir, safeFilename);
-
-  try {
-    await fs.writeFile(filePath, file.content);
-    const extracted = await runExtractor(filePath, file.filename, file.contentType);
-    sendJson(res, 200, extracted);
-  } finally {
-    await fs.rm(uploadDir, { recursive: true, force: true });
-  }
-}
-
-function normalizeRemoteUrl(value) {
-  if (!value) return null;
-  const withProtocol = /^https?:\/\//i.test(value) ? value : `https://${value}`;
-
-  try {
-    const url = new URL(withProtocol);
-    return url.protocol === "http:" || url.protocol === "https:" ? url : null;
-  } catch (error) {
-    return null;
-  }
-}
-
-async function readLimitedText(response, byteLimit) {
-  const reader = response.body.getReader();
-  const chunks = [];
-  let total = 0;
-
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-
-    total += value.byteLength;
-    if (total > byteLimit) {
-      throw new Error("Response too large");
-    }
-
-    chunks.push(value);
-  }
-
-  return Buffer.concat(chunks).toString("utf8");
-}
-
-function readLimitedBuffer(req, byteLimit) {
-  return new Promise((resolve, reject) => {
-    const chunks = [];
-    let total = 0;
-    let rejected = false;
-
-    req.on("data", (chunk) => {
-      total += chunk.length;
-      if (total > byteLimit) {
-        rejected = true;
-        reject(new Error("Upload is too large"));
-        req.destroy();
-        return;
-      }
-
-      chunks.push(chunk);
-    });
-
-    req.on("end", () => {
-      if (!rejected) resolve(Buffer.concat(chunks));
-    });
-
-    req.on("error", (error) => {
-      if (!rejected) reject(error);
-    });
-  });
-}
-
-async function readMultipartFile(req) {
-  const contentType = req.headers["content-type"] || "";
-  const boundaryMatch = contentType.match(/boundary=(?:"([^"]+)"|([^;]+))/i);
-  const boundary = boundaryMatch?.[1] || boundaryMatch?.[2];
-  if (!boundary) throw new Error("Missing multipart boundary");
-
-  const body = await readLimitedBuffer(req, maxUploadBytes);
-  const parts = parseMultipart(body, boundary);
-  return parts.find((part) => part.filename);
-}
-
-function parseMultipart(body, boundary) {
-  const raw = body.toString("latin1");
-  const sections = raw.split(`--${boundary}`);
-
-  return sections
-    .map((section) => section.replace(/^\r\n/, ""))
-    .filter((section) => section && section !== "--\r\n" && section !== "--")
-    .map((section) => {
-      const headerEnd = section.indexOf("\r\n\r\n");
-      if (headerEnd === -1) return null;
-
-      const headerText = section.slice(0, headerEnd);
-      let content = section.slice(headerEnd + 4);
-      content = content.replace(/\r\n$/, "").replace(/--$/, "");
-
-      const headers = parsePartHeaders(headerText);
-      const disposition = headers["content-disposition"] || "";
-      const name = extractDispositionValue(disposition, "name");
-      const filename = extractDispositionValue(disposition, "filename");
-
-      return {
-        name,
-        filename,
-        contentType: headers["content-type"] || "application/octet-stream",
-        content: Buffer.from(content, "latin1")
-      };
-    })
-    .filter(Boolean);
-}
-
-function parsePartHeaders(headerText) {
-  const headers = {};
-  headerText.split("\r\n").forEach((line) => {
-    const separator = line.indexOf(":");
-    if (separator === -1) return;
-    const key = line.slice(0, separator).trim().toLowerCase();
-    const value = line.slice(separator + 1).trim();
-    headers[key] = value;
-  });
-  return headers;
-}
-
-function extractDispositionValue(disposition, key) {
-  const quoted = new RegExp(`${key}="([^"]*)"`, "i").exec(disposition);
-  if (quoted) return quoted[1];
-
-  const plain = new RegExp(`${key}=([^;]+)`, "i").exec(disposition);
-  return plain ? plain[1].trim() : "";
-}
-
-function decodeUploadedText(buffer) {
-  const utf8 = buffer.toString("utf8");
-  if (!utf8.includes("\uFFFD")) return utf8;
-  return buffer.toString("latin1");
-}
-
-function sanitizeFilename(filename) {
-  return path.basename(filename || "").replace(/[<>:"/\\|?*\x00-\x1F]/g, "_");
-}
-
-function runExtractor(filePath, filename, contentType) {
-  return new Promise((resolve, reject) => {
-    const python = resolvePythonPath();
-    const script = path.join(root, "extract_text.py");
-    const child = spawn(python, [script, filePath, filename, contentType || ""], {
-      env: {
-        ...process.env,
-        PYTHONIOENCODING: "utf-8",
-        PYTHONUTF8: "1"
-      },
-      windowsHide: true
-    });
-
-    let stdout = "";
-    let stderr = "";
-    child.stdout.on("data", (chunk) => {
-      stdout += chunk.toString("utf8");
-    });
-    child.stderr.on("data", (chunk) => {
-      stderr += chunk.toString("utf8");
-    });
-    child.on("error", reject);
-    child.on("close", (code) => {
-      if (code !== 0) {
-        reject(new Error(stderr.trim() || "Could not extract file text"));
-        return;
-      }
-
-      try {
-        resolve(JSON.parse(stdout));
-      } catch (error) {
-        reject(new Error("Extractor returned unreadable output"));
-      }
-    });
-  });
-}
-
-function resolvePythonPath() {
-  const candidates = [];
-  if (process.env.PYTHON) candidates.push(process.env.PYTHON);
-  if (process.env.USERPROFILE) {
-    candidates.push(path.join(
-      process.env.USERPROFILE,
-      ".cache",
-      "codex-runtimes",
-      "codex-primary-runtime",
-      "dependencies",
-      "python",
-      "python.exe"
-    ));
-  }
-  candidates.push("python");
-
-  return candidates.find((candidate) => candidate === "python" || fsSync.existsSync(candidate)) || "python";
-}
-
 async function serveStaticFile(requestUrl, res) {
   const relativePath = resolveStaticPath(requestUrl.pathname);
   if (!relativePath) {
@@ -430,6 +336,10 @@ async function serveStaticFile(requestUrl, res) {
 
   const contentType = mimeTypes.get(path.extname(filePath).toLowerCase()) || "application/octet-stream";
   res.writeHead(200, {
+    "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https:; worker-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": "accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
     "content-type": contentType,
     "cache-control": "no-store"
   });

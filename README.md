@@ -1,54 +1,55 @@
 # WordFlow
 
-Standalone WordFlow speed reader, canonical under [RULING W1](docs/DECISIONS.md). Front-end behavior and local security are preserved from MarcDeck master `11092e1`.
+WordFlow is a static speed reader: paste text, upload text/HTML/PDF/DOCX, or load a website.
+Source review includes four cleanup controls; the reader supports pacing, focus, sections,
+progress, keyboard controls and compatible browser-local resume.
 
-## Start locally
+This standalone repository is canonical under [W1](docs/DECISIONS.md). Marcus's
+[W2](docs/DECISIONS.md) authorizes the free Cloudflare static build. Development continues
+after launch. Deployment happens only by Cloudflare's Git integration from master, after review.
+The only push path is `bash tools/push.sh`; the gate and pre-push hook remain mandatory.
 
-Use Node **24.16.0 or later**; 24.16.0 is the verified version. No npm installation or npm dependencies are required.
+## Local use
+
+Node **24.16.0 or later**; no npm install, Python or secret is needed.
 
 ```powershell
-cd 'C:\Users\Marcu\Documents\WordFlow'
 npm start
 ```
 
-Open the URL printed at startup, normally **http://localhost:8080/**. WordFlow binds to `127.0.0.1`; if the port is occupied, it tries the next 20 ports. Stop with Ctrl+C.
+Open the printed URL, normally http://localhost:8080/. Bind remains 127.0.0.1; occupied
+ports retry the next 20. Stop with Ctrl+C. HOST and PORT come from the shell only;
+environment files are never read. Preserve all [R59 controls](AGENTS.md).
 
-Text uploads work without Python. PDF and DOCX require Python plus the exact packages in `requirements.txt`. On this machine the unchanged resolver selects:
+Files parse locally in a modern browser, with a 24 MiB limit. PDF.js is pinned and vendored;
+DOCX uses native DecompressionStream("deflate-raw"). Chrome is verified; other browsers and
+older versions need their own validation. URL reading uses a same-origin proxy, then the
+existing direct-fetch fallback. See [HOSTING.md](HOSTING.md) for policy and residual risks.
 
-```text
-C:\Users\Marcu\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
-Python 3.12.14; pypdf 6.10.0; python-docx 1.2.0
-```
-
-For another machine, select your Python interpreter explicitly and install the pinned requirements during your own setup:
-
-```powershell
-py -m pip install -r requirements.txt
-$env:PYTHON = (py -c "import sys; print(sys.executable)")
-npm start
-```
-
-No packages were installed during extraction or verification. The resolver tries shell `PYTHON`, then the existing Codex runtime, then `python`. A shell `PYTHON` override must have both pinned libraries. The Codex runtime is a local convenience, not a portable deployment dependency.
-
-Set `$env:PORT` in the shell for another port. No secrets or environment files are needed. The unchanged env loader can read user-created `.env.local` / `.env`; these files are ignored by Git. The original order is retained: HOST and PORT are decided **before** that loader, so set bind options in the shell.
-
-An explicit non-loopback `HOST` opts into exposure and prints a warning that the Host check is off. Public hosting is **not approved or implemented**. Read [HOSTING.md](HOSTING.md); deployment needs its own ruling and verification.
-
-## Verify
+## Build and verify
 
 ```powershell
+npm run build
 npm test
-npm run mutations -- --out docs/verification/results/mutations.json
+npm run mutations -- --out docs/verification/results/static-mutations.json
+npm run smoke
 ```
 
-The regression corpus uses synthetic TXT/PDF/DOCX and a local HTTP fixture. PDF/DOCX skip only when their libraries are absent from the selected interpreter, with explicit messages. The security suite retains all 32 applicable RULING 59 checks. Tests enforce loopback before binds and connections; unsafe bind mutations are refused before a socket exists. No npm dependencies are added.
+Build copies only named site assets to ignored dist/. Cloudflare publishes that directory;
+its Git pipeline compiles functions/api/read.js from the root. No Wrangler is needed locally.
+Exact project settings and Marcus's review-to-live sequence are in [HOSTING.md](HOSTING.md).
 
-Old/new parity requires a disposable master worktree created from a **scratch clone**, never this task's source checkout. Put only a synthetic dummy env file in that worktree. Then:
+Tests require already-installed Chrome and Playwright for browser extraction parity and fail
+nonzero if either is missing: there are no skips. Set WORDFLOW_CHROME and
+WORDFLOW_PLAYWRIGHT_DIR if needed. The existing bundled automation runtime is the default;
+nothing is installed by these commands. Node unit tests inject fake fetch; the local proxy smoke
+uses a test-only preload and synthetic inputs. Real Cloudflare deploy/CPU/quota behavior awaits
+Marcus's connection and live check.
 
-```powershell
-npm run parity -- --old 'C:\path\to\disposable-master-worktree' --new 'C:\Users\Marcu\Documents\WordFlow' --out docs/verification/results/parity.json
-```
+DOCX fixtures and exact Python goldens were captured and committed before Python removal.
+PDF comparisons record unaltered differences. See the
+[static-hosting report](docs/verification/2026-10-06_codex_static_hosting.md) and evidence in
+docs/verification/results/. The original split reports remain historical.
 
-The optional `npm run smoke` uses already-installed Chrome and Playwright; it installs nothing. Set `WORDFLOW_CHROME` or `WORDFLOW_PLAYWRIGHT_DIR` if needed. The recorded smoke used Codex's existing bundled Playwright, an isolated browser profile, and a loopback deny-proxy.
-
-Full provenance and results: [standalone verification report](docs/verification/2026-10-05_codex_wordflow_standalone.md). Repository hosting name, visibility, licence and backup remain Marcus's decisions. `LICENSE` is deliberately undecided.
+Copyright (c) 2026 Marcus, all rights reserved. [LICENSE](LICENSE).
+[Third-party notices](THIRD_PARTY_NOTICES.md) ship with the site.
