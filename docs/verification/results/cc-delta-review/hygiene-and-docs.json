@@ -1,0 +1,47 @@
+{
+ "w41": {
+  "range": "6060f66..5480567",
+  "addedLineHits": 0,
+  "rawBlobHits": {
+   "AGENTS.md": "3 inherited operational paths, unchanged text (lines moved)",
+   "README.md": "<home> placeholder only",
+   "tests/browser-helper.cjs": "os.homedir() code, unchanged from 6060f66"
+  },
+  "binaries": {
+   "4 PNG screenshots": "no metadata chunks",
+   "3 new DOCX fixtures": "dc:creator python-docx"
+  },
+  "envFiles": 0,
+  "secrets": 0,
+  "authorCommitter": "no-reply only"
+ },
+ "w46": {
+  "indexHtmlExact": true,
+  "hostingVerbatim": true,
+  "hostingMentions": [
+   "CF-Connecting-IP",
+   "X-Real-IP",
+   "CF-Worker",
+   "DoH"
+  ]
+ },
+ "w43": {
+  "appendOnly": true,
+  "originalTextExactPrefix": true,
+  "linesAdded": 10,
+  "linesRemoved": 0
+ },
+ "s9": "git ls-files --eol: .gitattributes, 404.html, LICENSE, _headers, api/read, functions/api/read.js all i/lf w/lf attr/text eol=lf",
+ "s12": {
+  "localResponsesWithACAO": 0,
+  "pathsChecked": [
+   "/",
+   "/app.js",
+   "/vendor/pdfjs/pdf.mjs",
+   "/api/read?url=https://127.0.0.1"
+  ],
+  "headersRule": "  ! Access-Control-Allow-Origin under /*",
+  "doc": "Pages headers doc (2026-08-25): '! ' prefix removes 'a default header'"
+ },
+ "ccEarlierReportUntouched": true
+}

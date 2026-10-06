@@ -1,0 +1,371 @@
+{
+ "method": "CC's own corpus regenerated in <scratch>: the 9 original S5 cases (gen_docx_corpus.py) + 22 relationship/path-trick cases (gen_delta_corpus.py); historical extractor bytes vs browser extractDocx bytes in Chrome, for 5480567 and 6060f66",
+ "rows": [
+  {
+   "file": "charstyle-as-pstyle.docx",
+   "identicalNew": true,
+   "identicalOld": false,
+   "python": "Mislinked style paragraph\n\nOrdinary body sentence.",
+   "pythonTitle": "charstyle-as-pstyle.docx",
+   "browserNew": "Mislinked style paragraph\n\nOrdinary body sentence.",
+   "browserNewTitle": "charstyle-as-pstyle.docx",
+   "browserOld": "## Mislinked style paragraph\n\nOrdinary body sentence."
+  },
+  {
+   "file": "document2.docx",
+   "identicalNew": true,
+   "identicalOld": false,
+   "python": "Renamed main part body.",
+   "pythonTitle": "document2.docx",
+   "browserNew": "Renamed main part body.",
+   "browserNewTitle": "document2.docx",
+   "browserOld": "ERROR Could not extract file"
+  },
+  {
+   "file": "inline-elements.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "A\n\tBC.",
+   "pythonTitle": "inline-elements.docx",
+   "browserNew": "A\n\tBC.",
+   "browserNewTitle": "inline-elements.docx",
+   "browserOld": "A\n\tBC."
+  },
+  {
+   "file": "merged-table.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "r0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r0c2\n\nr0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r1c2\n\nr2c0 | r2c1 | r2c2",
+   "pythonTitle": "merged-table.docx",
+   "browserNew": "r0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r0c2\n\nr0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r1c2\n\nr2c0 | r2c1 | r2c2",
+   "browserNewTitle": "merged-table.docx",
+   "browserOld": "r0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r0c2\n\nr0c0\nr0c1\nr1c0\nr1c1 | r0c0\nr0c1\nr1c0\nr1c1 | r1c2\n\nr2c0 | r2c1 | r2c2"
+  },
+  {
+   "file": "nobreakhyphen.docx",
+   "identicalNew": true,
+   "identicalOld": false,
+   "python": "e-mail works.",
+   "pythonTitle": "nobreakhyphen.docx",
+   "browserNew": "e-mail works.",
+   "browserNewTitle": "nobreakhyphen.docx",
+   "browserOld": "e\u2011mail works."
+  },
+  {
+   "file": "nostyles.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "Introduction to the topic\n\nBody text sentence.",
+   "pythonTitle": "nostyles.docx",
+   "browserNew": "Introduction to the topic\n\nBody text sentence.",
+   "browserNewTitle": "nostyles.docx",
+   "browserOld": "Introduction to the topic\n\nBody text sentence."
+  },
+  {
+   "file": "p01-styles-dotdot.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "p01-styles-dotdot.docx",
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p01-styles-dotdot.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p02-styles-absolute.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "p02-styles-absolute.docx",
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p02-styles-absolute.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p03-main-backslash.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word\\\\\\\\document.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p03-main-backslash.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p04-styles-backslash.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/..\\\\\\\\word\\\\\\\\styles.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p04-styles-backslash.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p05-styles-external.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR ValueError: target_part property on _Relationship is undefined when target mode is External",
+   "pythonTitle": null,
+   "browserNew": "Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p05-styles-external.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p06-main-external.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR ValueError: target_part property on _Relationship is undefined when target mode is External",
+   "pythonTitle": null,
+   "browserNew": "ERROR Could not extract file",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p07-styles-rel-missing.docx",
+   "identicalNew": true,
+   "identicalOld": false,
+   "python": "Heading text\n\nBody sentence one.",
+   "pythonTitle": "p07-styles-rel-missing.docx",
+   "browserNew": "Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p07-styles-rel-missing.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p08-main-rel-duplicate-same.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR ValueError: multiple relationships of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p08-main-rel-duplicate-same.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p09-styles-rel-duplicate.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR ValueError: multiple relationships of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles' in collection",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p09-styles-rel-duplicate.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p10-styles-points-at-document.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR RecursionError: maximum recursion depth exceeded",
+   "pythonTitle": null,
+   "browserNew": "Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p10-styles-points-at-document.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p11-rel-self-loop.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "p11-rel-self-loop.docx",
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p11-rel-self-loop.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p12-styles-case-differs.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/Styles.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p12-styles-case-differs.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p13-styles-percent-encoded.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/st%79les.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p13-styles-percent-encoded.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p14-styles-query.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/styles.xml?x=1' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "ERROR Could not extract file",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p15-styles-absolute-uri.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/https:/evil.example/word/styles.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "ERROR Could not extract file",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p16-no-package-rels.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"no relationship of type 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument' in collection\"",
+   "pythonTitle": null,
+   "browserNew": "ERROR Could not extract file",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p17-core-rel-missing.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "Word Document",
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p17-core-rel-missing.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p18-dotx-content-type.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR ValueError: file '<scratch>\\corpus\\p18-dotx-content-type.docx' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml'",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p18-dotx-content-type.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p19-duplicate-unrelated-entry.docx",
+   "identicalNew": false,
+   "identicalOld": true,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "p19-duplicate-unrelated-entry.docx",
+   "browserNew": "ERROR Could not extract file",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p20-dangling-unrelated-rel.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/media/missing.png' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p20-dangling-unrelated-rel.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p21-styles-percent-malformed.docx",
+   "identicalNew": false,
+   "identicalOld": false,
+   "python": "ERROR KeyError: \"There is no item named 'word/st%E0yles.xml' in the archive\"",
+   "pythonTitle": null,
+   "browserNew": "ERROR URI malformed",
+   "browserNewTitle": null,
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "p22-main-dotdot-escape.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "## Heading text\n\nBody sentence one.",
+   "pythonTitle": "p22-main-dotdot-escape.docx",
+   "browserNew": "## Heading text\n\nBody sentence one.",
+   "browserNewTitle": "p22-main-dotdot-escape.docx",
+   "browserOld": "## Heading text\n\nBody sentence one."
+  },
+  {
+   "file": "title-and-long-heading.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "## A Title Paragraph\n\nword word word word word word word word word word word word word word word word word word word word word word word\n\nEnds here.",
+   "pythonTitle": "title-and-long-heading.docx",
+   "browserNew": "## A Title Paragraph\n\nword word word word word word word word word word word word word word word word word word word word word word word\n\nEnds here.",
+   "browserNewTitle": "title-and-long-heading.docx",
+   "browserOld": "## A Title Paragraph\n\nword word word word word word word word word word word word word word word word word word word word word word word\n\nEnds here."
+  },
+  {
+   "file": "tracked-and-fields.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "Visible start",
+   "pythonTitle": "tracked-and-fields.docx",
+   "browserNew": "Visible start",
+   "browserNewTitle": "tracked-and-fields.docx",
+   "browserOld": "Visible start"
+  },
+  {
+   "file": "unicode-bold.docx",
+   "identicalNew": true,
+   "identicalOld": true,
+   "python": "P\u00e5stand 1: \u00c6rlig \u00f8l p\u00e5 \u00e5pen \u00e5 \u2014 \ud83d\ude00 \u05e9\u05dc\u05d5\u05dd \u0645\u0631\u062d\u0628\u0627\n\nBold heading?",
+   "pythonTitle": "unicode-bold.docx",
+   "browserNew": "P\u00e5stand 1: \u00c6rlig \u00f8l p\u00e5 \u00e5pen \u00e5 \u2014 \ud83d\ude00 \u05e9\u05dc\u05d5\u05dd \u0645\u0631\u062d\u0628\u0627\n\nBold heading?",
+   "browserNewTitle": "unicode-bold.docx",
+   "browserOld": "P\u00e5stand 1: \u00c6rlig \u00f8l p\u00e5 \u00e5pen \u00e5 \u2014 \ud83d\ude00 \u05e9\u05dc\u05d5\u05dd \u0645\u0631\u062d\u0628\u0627\n\nBold heading?"
+  }
+ ],
+ "limits": [
+  {
+   "case": "control: minimal valid",
+   "zipBytes": 1493,
+   "result": "OK \"Hello limits.\"",
+   "ms": 11
+  },
+  {
+   "case": "4096 entries total (limit)",
+   "zipBytes": 371463,
+   "result": "OK \"Hello limits.\"",
+   "ms": 37
+  },
+  {
+   "case": "4097 entries",
+   "zipBytes": 371554,
+   "result": "ERROR Could not extract file",
+   "ms": 26
+  },
+  {
+   "case": "styles part claims 65 MiB",
+   "zipBytes": 1493,
+   "result": "ERROR Could not extract file",
+   "ms": 3
+  },
+  {
+   "case": "styles part lies small (1 KiB) but inflates 8 MiB",
+   "zipBytes": 9661,
+   "result": "ERROR Could not extract file",
+   "ms": 8
+  },
+  {
+   "case": "core part lies small but inflates 8 MiB",
+   "zipBytes": 9678,
+   "result": "ERROR Could not extract file",
+   "ms": 7
+  },
+  {
+   "case": "main 40 MiB + styles 30 MiB (cumulative 70 MiB)",
+   "zipBytes": 72878,
+   "result": "ERROR Could not extract file",
+   "ms": 130
+  },
+  {
+   "case": "renamed main 70 MiB claims 1 KiB",
+   "zipBytes": 72855,
+   "result": "ERROR Could not extract file",
+   "ms": 28
+  },
+  {
+   "case": "unreferenced 70 MiB part (never inflated)",
+   "zipBytes": 72962,
+   "result": "OK \"Hello limits.\"",
+   "ms": 21
+  }
+ ]
+}

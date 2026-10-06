@@ -1,0 +1,1161 @@
+{
+ "s14": [
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev./",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev./",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev../",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev../",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "a1b2c3d4.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "a1b2c3d4.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "a1b2c3d4.wordflow.pages.dev."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "a1b2c3d4.wordflow.pages.dev."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://172.66.44.1/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://172.66.44.1/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://reader.example.com/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "reader.example.com"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "wordflow.pages.dev",
+   "target": "https://reader.example.com/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "reader.example.com"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev./",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev./",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev../",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://wordflow.pages.dev../",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://172.66.44.1/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://172.66.44.1/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://reader.example.com/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "reader.example.com"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "a1b2c3d4.wordflow.pages.dev",
+   "target": "https://reader.example.com/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "reader.example.com"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev/api/read?url=x",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://WORDFLOW.PAGES.DEV/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev./",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev./",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev:443/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "http://wordflow.pages.dev:80/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev%2E/",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://\uff57\uff4f\uff52\uff44\uff46\uff4c\uff4f\uff57.pages.dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow\u3002pages\u3002dev/",
+   "via": "redirect",
+   "status": 500,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev../",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://wordflow.pages.dev../",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "wordflow.pages.dev.."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "a1b2c3d4.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://a1b2c3d4.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "a1b2c3d4.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://master.wordflow.pages.dev/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "master.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://anything.wordflow.pages.dev/",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "anything.wordflow.pages.dev"
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "a1b2c3d4.wordflow.pages.dev."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://A1B2C3D4.WORDFLOW.PAGES.DEV./api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "a1b2c3d4.wordflow.pages.dev."
+   ],
+   "reachedProjectNameOrSubdomain": true
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://172.66.44.1/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://172.66.44.1/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "172.66.44.1"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "direct",
+   "status": 200,
+   "fetchedHosts": [
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://[2606:4700:3030::1]/api/read",
+   "via": "redirect",
+   "status": 200,
+   "fetchedHosts": [
+    "public.example",
+    "[2606:4700:3030::1]"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://reader.example.com/api/read",
+   "via": "direct",
+   "status": 403,
+   "fetchedHosts": [],
+   "reachedProjectNameOrSubdomain": false
+  },
+  {
+   "ownHost": "reader.example.com",
+   "target": "https://reader.example.com/api/read",
+   "via": "redirect",
+   "status": 403,
+   "fetchedHosts": [
+    "public.example"
+   ],
+   "reachedProjectNameOrSubdomain": false
+  }
+ ],
+ "dohDoubleDot": "cloudflare-dns.com answered {\"error\":\"Invalid query name `wordflow.pages.dev..`.\"}; Node fetch ENOTFOUND -> fails closed",
+ "wordflowPagesDevProbe": {
+  "https://wordflow.pages.dev/": "HTTP 200, <title>WordFlow \u2014 Pure Words, Pure Focus</title>, /api/read returns text/html 200: a third party's existing Pages project, not this repository (title here is 'WordFlow Reader')",
+  "https://zz9-cc-probe.wordflow.pages.dev/": "HTTP 404 (arbitrary subdomain not served)",
+  "accessed": "2026-10-06, one HEAD/GET each"
+ },
+ "quota": [
+  {
+   "label": "S5 table: CF 1027 HTML at 429",
+   "expected": "quota",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: static marker at 200",
+   "expected": "quota",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: JSON article with 1027 + marker words",
+   "expected": "source",
+   "old6060f66": "source",
+   "new5480567": "source",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: 1102 page, Ray ID with 1027",
+   "expected": "error",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: 1101 page, CSS 1027px",
+   "expected": "error",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: 1102 page, IPv6 group 1027",
+   "expected": "error",
+   "old6060f66": "quota",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: 5xx page with #1027 link",
+   "expected": "error",
+   "old6060f66": "quota",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: plain-text 'error code: 1027'",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "S5 table: Function missing + marker",
+   "expected": "quota (indistinguishable; live check)",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new: Pages 404.html (Function missing, no marker)",
+   "expected": "error",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new FP: non-quota CF page that mentions 'Error 1027' in help text",
+   "expected": "error",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FP: 1015 rate-limit page listing related codes",
+   "expected": "error",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new: JSON article whose body is 'error code: 1027'",
+   "expected": "source",
+   "old6060f66": "source",
+   "new5480567": "source",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new: JSON error from Function mentioning 1027",
+   "expected": "error",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new FN: 'Error&nbsp;1027' entity",
+   "expected": "quota",
+   "old6060f66": "quota",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FN: 'error code 1027' without colon",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FN: 'Error: 1027'",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FN: 'error_code: 1027'",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FN: JSON-shaped CF error {code:1027}",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new FN: body is the bare number 1027",
+   "expected": "quota",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": false
+  },
+  {
+   "label": "new: split tags 'Error</span> <span>1027'",
+   "expected": "quota",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new: 'ERROR 1027' upper case",
+   "expected": "quota",
+   "old6060f66": "quota",
+   "new5480567": "quota",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new: 'Error 10270' (different code)",
+   "expected": "error",
+   "old6060f66": "error",
+   "new5480567": "error",
+   "matchesExpectation": true
+  },
+  {
+   "label": "new: Function 200 HTML article",
+   "expected": "source",
+   "old6060f66": "source",
+   "new5480567": "source",
+   "matchesExpectation": true
+  }
+ ]
+}

@@ -1,0 +1,616 @@
+{
+ "harness": "scratch clone on master with a bare scratch clone as origin (no network, no git push of any kind); gate = tools/push.sh cut mechanically at '# Push, through the hook's marker.' plus an ACCEPTED echo; every scenario commits its change so step 3 passes; stampAlone = node tools/parity-stamp.cjs run separately",
+ "scenarios": [
+  {
+   "id": "A00",
+   "scenario": "baseline, no change -> accept",
+   "gateVerdict": "GATE-ACCEPTED (would push 5480567)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A01",
+   "scenario": "fixture bytes changed -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A02",
+   "scenario": "extractor changed -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A03",
+   "scenario": "vendor file changed -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A04",
+   "scenario": "file added in vendor/ -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A05",
+   "scenario": "file added in tests/fixtures/ -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A06",
+   "scenario": "file added in nested fixtures dir -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A07",
+   "scenario": "golden deleted -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A08",
+   "scenario": "vendor licence deleted -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A09",
+   "scenario": "stamp deleted -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A10",
+   "scenario": "stamp truncated -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A11",
+   "scenario": "stamp emptied -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A12",
+   "scenario": "stamp chrome emptied -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A13",
+   "scenario": "stamp schema changed -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A14",
+   "scenario": "stamp keys reordered, same hashes -> (refuse expected; harmless either way)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A15",
+   "scenario": "fixture changed + HAND-WRITTEN stamp with matching hashes -> should refuse (rule)",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A16",
+   "scenario": "stamp versions hand-edited, hashes untouched -> should refuse (rule)",
+   "gateVerdict": "GATE-ACCEPTED (would push 904e152)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A17",
+   "scenario": "fixture renamed -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A18",
+   "scenario": "fixture case-only rename -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A19",
+   "scenario": "vendor case-only rename -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A20",
+   "scenario": "app.js changed -> refuse (Codex extension)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A21",
+   "scenario": "index.html changed -> refuse (Codex extension)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A22",
+   "scenario": "styles.css changed -> refuse (Codex extension)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A23",
+   "scenario": "proxy-only fix -> accept (must stay pushable)",
+   "gateVerdict": "GATE-ACCEPTED (would push 77d2a06)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A24",
+   "scenario": "Function wrapper change -> accept",
+   "gateVerdict": "GATE-ACCEPTED (would push 9b07dd6)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A25",
+   "scenario": "committed fixture change, working copy restored + skip-worktree -> should refuse",
+   "gateVerdict": "GATE-ACCEPTED (would push bbc360f)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A26",
+   "scenario": "committed fixture change, working copy restored + assume-unchanged -> should refuse",
+   "gateVerdict": "GATE-ACCEPTED (would push 022e516)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A27",
+   "scenario": "committed extractor change, working copy restored + skip-worktree -> should refuse",
+   "gateVerdict": "GATE-ACCEPTED (would push 843ad81)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A28",
+   "scenario": "IGNORED file inside tests/fixtures, nothing committed -> accept expected (false refusal if not)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A29",
+   "scenario": "IGNORED node_modules inside vendor, nothing committed -> accept expected",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A30",
+   "scenario": "stamp recorded WITH an ignored file, then file absent (fresh clone) -> refuse (false refusal)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A31",
+   "scenario": "browser-parity test weakened/changed (not stamped) -> accept (by design)",
+   "gateVerdict": "GATE-ACCEPTED (would push 7ec7ae4)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A32",
+   "scenario": "parity-stamp.cjs broken -> refuse",
+   "gateVerdict": "REFUSED: npm test failed",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A33",
+   "scenario": "capture.json changed -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=REFUSED: parity stamp missing or stale; "
+  },
+  {
+   "id": "A15b",
+   "scenario": "extractor changed + HAND-WRITTEN stamp (real versions) -> should refuse (rule only)",
+   "gateVerdict": "GATE-ACCEPTED (would push 3b27bf6)",
+   "afterDirtyLines": "dirty=0",
+   "stampAlone": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "A34",
+   "scenario": "styles.css rewritten LF in working copy",
+   "gateVerdict": "REFUSED: working tree is not clean ( M styles.css)",
+   "afterDirtyLines": "dirty=1",
+   "stampAlone": "n/a"
+  }
+ ],
+ "symlinks": [
+  {
+   "id": "L1",
+   "scenario": "ignored junction inside vendor -> refuse (fail closed)",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "stamp-alone=REFUSED: parity stamp missing or stale; run npm ru"
+  },
+  {
+   "id": "L2",
+   "scenario": "tests/fixtures is a junction to identical bytes -> refuse (dirty) or accept (same content)",
+   "gateVerdict": "GATE-ACCEPTED (would push 5480567)",
+   "afterDirtyLines": "stamp-alone=PASS: browser parity stamp matches"
+  },
+  {
+   "id": "L3",
+   "scenario": "committed symlink blob in vendor -> refuse",
+   "gateVerdict": "REFUSED: browser parity stamp is stale; run npm run parity",
+   "afterDirtyLines": "stamp-alone=REFUSED: parity stamp missing or stale; run npm ru"
+  }
+ ],
+ "symlinkCapability": {
+  "fileSymlink": "EPERM (no privilege/Developer Mode)",
+  "dirSymlink": "EPERM",
+  "junction": "allowed"
+ },
+ "lfWorkingCopyOfCrlfFile": "styles.css rewritten LF: git status reports ' M styles.css', so step 3 refuses; not a silent stamp-only false refusal here",
+ "autocrlf": {
+  "falseClone": "gate ACCEPTED, stamp PASS",
+  "trueClone": "gate ACCEPTED, stamp PASS",
+  "dist": "199 files, sha256 lists identical under autocrlf true and false",
+  "trackedWorkingCopyDifferences": [
+   ".gitignore (no eol rule; not shipped, not stamped)"
+  ]
+ },
+ "skipGrep": [
+  "{\"suite\":\"proxy\",\"passed\":97,\"skipped\":0}",
+  "{\"suite\":\"proxy\",\"passed\":97,\"skipped\":1}",
+  "{\"suite\":\"proxy\",\"passed\":97,\"skipped\": 12}",
+  "{\"suite\":\"proxy\",\"passed\":97,\"skipped\":\"1\"}",
+  "{\"suite\":\"proxy\",\"passed\":97,\"skips\":1}",
+  "{\"suite\":\"proxy\",\"passed\":97,\"skippedCount\":1}",
+  "32 checks passed, 1 skipped.",
+  "32 checks passed, 2 skips.",
+  "1 skip",
+  "SKIPPED: browser parity",
+  "SKIP: browser parity",
+  "[SKIPPED] browser parity",
+  "test (skipped)",
+  "skipped=1",
+  "skipped, Chrome missing",
+  "Skipping browser parity",
+  "\u2139 skipped 0",
+  "# skip 1",
+  "ok 3 - thing # SKIP no chrome",
+  "1 test skipped",
+  "skipped: 0"
+ ],
+ "extraMutants": [
+  {
+   "id": "X1 stamp list drops file-extractors.mjs",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X2 stamp list drops app.js",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X3 stamp list drops index.html",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X4 stamp list drops styles.css",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X5 stamp skips tests/fixtures",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL push stamp block refuses changed fixture",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to: 0",
+   "restored": true
+  },
+  {
+   "id": "X6 stamp skips vendor",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL stamp detects additions and deletions",
+   "reason": "AssertionError [ERR_ASSERTION]: Missing expected exception.",
+   "restored": true
+  },
+  {
+   "id": "X7 symlink refusal removed",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X8 version fields not required",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X9 schema not checked",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X10 stamp check made non-fatal",
+   "file": "tools/push.sh",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL push stamp block refuses changed fixture",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to: 0",
+   "restored": true
+  },
+  {
+   "id": "X11 skip grep disabled",
+   "file": "tools/push.sh",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X12 CLI prints PASS without exit code on failure",
+   "file": "tools/parity-stamp.cjs",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL push stamp block refuses changed fixture",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to: 0",
+   "restored": true
+  },
+  {
+   "id": "X13 parity.cjs stamps even when a suite fails",
+   "file": "tools/parity.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X14 parity.cjs input-change check removed",
+   "file": "tools/parity.cjs",
+   "kind": "post",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X15 self guard: own hostname only",
+   "file": "lib/read-proxy.mjs",
+   "kind": "proxy",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL self and configured hostname refusal wordflow.pages.dev",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+   "restored": true
+  },
+  {
+   "id": "X16 self guard: configured names only",
+   "file": "lib/read-proxy.mjs",
+   "kind": "proxy",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL self and configured hostname refusal wordflow.example",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+   "restored": true
+  },
+  {
+   "id": "X17 self guard: canonicalHost not applied",
+   "file": "lib/read-proxy.mjs",
+   "kind": "proxy",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "X18 quota: JSON payload no longer exempt",
+   "file": "app.js",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL quota: JSON article containing quota words",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+   "restored": true
+  },
+  {
+   "id": "X19 quota: tags not stripped",
+   "file": "app.js",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL quota: split HTML Error 1027 at 200",
+   "reason": "Error 1027 at 200",
+   "restored": true
+  },
+  {
+   "id": "X20 quota: 'code:' form dropped",
+   "file": "app.js",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL quota: plain-text error code regardless of type",
+   "reason": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+   "restored": true
+  },
+  {
+   "id": "X21 quota: case-sensitive",
+   "file": "app.js",
+   "kind": "post",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "FAIL quota: HTML Error 1027 at 429",
+   "reason": "Error 1027 at 429",
+   "restored": true
+  },
+  {
+   "id": "B1 extractor: External rels followed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B2 extractor: cross-origin target allowed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B3 extractor: duplicate-name throw removed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B4 extractor: styles fixed to word/styles.xml",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "",
+   "reason": "AssertionError [ERR_ASSERTION]: DOCX byte parity document2.docx",
+   "restored": true
+  },
+  {
+   "id": "B5 extractor: core fixed to docProps/core.xml",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B6 extractor: per-part 64 MiB claim check removed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B7 extractor: cumulative cap removed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B8 extractor: entry-count cap removed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 0,
+   "verdict": "SURVIVED",
+   "failing": "",
+   "reason": "",
+   "restored": true
+  },
+  {
+   "id": "B9 extractor: main rels path fixed",
+   "file": "file-extractors.mjs",
+   "kind": "parity",
+   "exit": 1,
+   "verdict": "KILLED",
+   "failing": "",
+   "reason": "AssertionError [ERR_ASSERTION]: DOCX byte parity document2.docx",
+   "restored": true
+  }
+ ]
+}

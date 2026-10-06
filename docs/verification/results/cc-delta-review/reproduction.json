@@ -1,0 +1,387 @@
+{
+ "reviewer": "Claude Code (claude-opus-5-5)",
+ "tip": "5480567be6f38a14dcad68ed3c101cc26b22273f",
+ "node": "v24.16.0",
+ "cloneConfig": {
+  "method": "git clone --no-local into <scratch>/clone",
+  "coreHooksPath": ".githooks",
+  "coreAutocrlf": "true (Git for Windows system config)",
+  "coreSymlinks": "false"
+ },
+ "npmTest": {
+  "raw": [
+   "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+   "{\"suite\":\"proxy\",\"passed\":97,\"skipped\":0}",
+   "32 checks passed.",
+   "{\"suite\":\"post-review\",\"passed\":18,\"skipped\":0}"
+  ],
+  "total": 370,
+  "skips": 0,
+  "exit": 0
+ },
+ "npmTestBrowsersAbsent": {
+  "method": "CC's own: Node permission model. NODE_OPTIONS='--permission --allow-fs-read=<clone>,<tmp>,<node dir> --allow-fs-write=<clone>,<tmp> --allow-child-process', inherited by every Node child; USERPROFILE/HOME pointed at an empty <scratch>/fakehome; WORDFLOW_CHROME, WORDFLOW_PLAYWRIGHT_DIR, NODE_PATH unset. No module hooks; not Codex's no-browser-preload.cjs.",
+  "probeInsideSandbox": {
+   "chromeExe": "ERR_ACCESS_DENIED",
+   "codexPlaywright": "ERR_ACCESS_DENIED",
+   "barePlaywright": "MODULE_NOT_FOUND",
+   "browserHelperRuntime": "ERR_ACCESS_DENIED"
+  },
+  "probeOnHost": {
+   "chromeExe": "exists",
+   "codexPlaywrightDir": "exists"
+  },
+  "raw": [
+   "$ node tests/regression.cjs",
+   "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+   "exit=0",
+   "$ node tests/proxy.test.mjs",
+   "{\"suite\":\"proxy\",\"passed\":97,\"skipped\":0}",
+   "exit=0",
+   "$ node tests/server_exposure.test.js",
+   "32 checks passed.",
+   "exit=0",
+   "$ node tests/post-review.test.cjs",
+   "{\"suite\":\"post-review\",\"passed\":18,\"skipped\":0}",
+   "exit=0"
+  ],
+  "result": "identical: 223+97+32+18=370, 0 skips, every step exit 0"
+ },
+ "parity": {
+  "raw": [
+   "{\"suite\":\"browser-parity\",\"docx\":9,\"mismatches\":0,\"pdfCompared\":7,\"pdfDifferences\":2,\"skipped\":0}",
+   "{\"passed\":48,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}",
+   "PASS: generated tests/parity-stamp.json"
+  ],
+  "regeneratedStampByteIdenticalToCommitted": true,
+  "note": "npm run parity rewrote three tracked evidence files (post-review static-quota-1400.png, static-quota-390.png, static-smoke.json); reverted in the clone"
+ },
+ "mutations": {
+  "summary": "{\"total\":58,\"killed\":57,\"equivalent\":1,\"unexpected\":0,\"errors\":0}",
+  "first52VerdictsEqualCodexRun": true,
+  "first52DefinitionsUnchangedVs6060f66": 52,
+  "newRows": [
+   {
+    "id": "E3-redirect-scheme-guard-removed",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL redirect protocol refused by validateTarget file:"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Missing expected exception.\r",
+    "beforeSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca",
+    "mutatedSha256": "11b0f2fb298c4ded51578936b515f0ee411fe9be48bca8130cc5bfa25fb3e3d4",
+    "restoredSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca"
+   },
+   {
+    "id": "E9-DoH-redirect-follow",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL DoH redirects refused before following"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+    "beforeSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca",
+    "mutatedSha256": "e47f8200965c932fdef262b6ee2daa5d507fbcaf0a36030a0d796675216e991d",
+    "restoredSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca"
+   },
+   {
+    "id": "E10-DoH-status-ignored",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL DoH fails closed: HTTP 500 with otherwise valid answers"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+    "beforeSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca",
+    "mutatedSha256": "7f78259e93ded7799c81faee13317101e6175fd30ac1b64e8817d5e07b0e16e5",
+    "restoredSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca"
+   },
+   {
+    "id": "E11-DoH-Status-field-ignored",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL DoH fails closed: SERVFAIL with otherwise valid answers"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+    "beforeSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca",
+    "mutatedSha256": "9774c33a2c970de88b39309f68772cfdad7ae949f4418e13dfb73e06b525d39f",
+    "restoredSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca"
+   },
+   {
+    "id": "W4-stamp-check-disabled",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL push stamp block refuses changed fixture"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to: 0",
+    "beforeSha256": "b469cbd4c07dcafc36b0e888fc16d3993fe15405af8332c892da4fac820e0166",
+    "mutatedSha256": "b1f94d54ef7d6303f04f6b3e086b387bd26765cae716de8c1789520eb6621129",
+    "restoredSha256": "b469cbd4c07dcafc36b0e888fc16d3993fe15405af8332c892da4fac820e0166"
+   },
+   {
+    "id": "S14-self-host-guard-removed",
+    "verdict": "KILLED",
+    "exit": 1,
+    "timedOut": false,
+    "failing": [
+     "FAIL self and configured hostname refusal wordflow.example"
+    ],
+    "assertion": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\r",
+    "beforeSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca",
+    "mutatedSha256": "ef65b1601e440b6b578414fb782c05fcb4bd07682003041b4cab5bdcd0116892",
+    "restoredSha256": "10bf8d2f8e6cbdebb6d91d62da1a927a0f9757fd81aede60edb66ecdc7ee35ca"
+   }
+  ],
+  "allRows": [
+   {
+    "id": "M1-bind-default-all-interfaces",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M2-allowlist-bypassed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M3-dotfile-guard-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M4-decode-skipped",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M5-normalise-skipped",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M6-case-insensitive-match",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M7-guard-ignores-backslash",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M8-guard-env-regex-only",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M9-guard-dot-prefix-only",
+    "verdict": "SURVIVED"
+   },
+   {
+    "id": "M10-double-decode",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M11-warning-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "M12-host-ignored",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X1-double-decode",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X2-first-segment-only",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X3-regex-unanchored",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X4-regex-wrong-anchor",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X5-allowlist-startsWith",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X6-allowlist-includes",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X7-normalize-after-allowlist",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X8-dotguard-after-normalization",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X9-warning-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "X10-other-env-wildcard-default",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y1-b2-check-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y2-b2-slash-slash-only",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y3-host-check-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y4-host-check-ignores-port",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y5-host-check-any-localhost-suffix",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y6-host-check-configured-port",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y7-host-check-skips-api",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y8-missing-host-accepted",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y9-loopback-drops-ipv4-mapped",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y10-banner-stale-callback-guard-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y11-node-host-requirement-kept",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y12-host-check-ignores-host-opt-in",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y13-host-check-case-sensitive",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Y14-loopback-case-sensitive",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Z1-host-check-off-for-any-host",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Z2-portless-accepted-on-every-port",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "Z3-port-80-rule-uses-configured-port",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N1-host-substring",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N2-host-case-sensitive",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N3-port-parseInt",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N4-b2-after-url-parsing",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N5-all-ipv4-mapped-loopback",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "N6-node-host-requirement-always-off",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "D1-duplicate-host-check-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P1-private-IP-guard-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P2-DoH-check-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P3-redirect-recheck-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P4-size-cap-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P5-Origin-check-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "P6-client-header-forwarding-added",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "E3-redirect-scheme-guard-removed",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "E9-DoH-redirect-follow",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "E10-DoH-status-ignored",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "E11-DoH-Status-field-ignored",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "W4-stamp-check-disabled",
+    "verdict": "KILLED"
+   },
+   {
+    "id": "S14-self-host-guard-removed",
+    "verdict": "KILLED"
+   }
+  ]
+ },
+ "goldens": {
+  "extractor": "git show 3921959:extract_text.py (blob ebb51b45244b4364f8f757c4ba82dad53e14c43d)",
+  "python": "3.12.14, python-docx 1.2.0, pypdf 6.10.0 (existing Codex runtime; nothing installed; run with -I)",
+  "results": {
+   "charstyle-as-pstyle.docx": "BYTE-IDENTICAL",
+   "document2.docx": "BYTE-IDENTICAL",
+   "nobreakhyphen.docx": "BYTE-IDENTICAL"
+  }
+ }
+}
