@@ -62,8 +62,13 @@ Should-fix **before the Cloudflare connection** (not before merge):
   scratch-to-scratch: the harness origin is a `git clone --bare`.
 - **Disclosure about my earlier review.** My earlier report says its clone "is deleted at the
   end". **It was not.** The clone at `cdb5b97`, with that session's scratch, was still in the
-  earlier session's scratch directory. I copied my own corpus generator from it and delete that
-  directory with this review's scratch at the end.
+  earlier session's scratch directory. I copied my own corpus generator from it.
+- **Cleanup was declined.** Deleting that directory, and this review's clones and scratch, was
+  declined at the permission prompt and was not retried. **Both remain on disk**, under the Claude
+  Code temp scratch folder for this project (`<home>/AppData/Local/Temp/claude/...`): the earlier
+  `1cf8e1c2-...` session folder, and this session's `9da28215-...` folder. That covers the clone,
+  the `6060f66` worktree, two gate harnesses with bare origins, and the synthetic corpus. Nothing
+  in them is pushed or shared, but Marcus should delete both folders or approve the deletion.
 
 ## 1. Reproduced numbers versus Codex's claims
 
@@ -487,8 +492,9 @@ plus the pre-existing `Word Document` title difference.
   reverted.
 - `tests/post-review.test.cjs` hard-codes `C:/Program Files/Git/bin/bash.exe` on Windows.
 
-**N10.** CC's own earlier review clone was not deleted, contrary to its report. It is deleted now
-(section 0).
+**N10.** CC's own earlier review clone was not deleted, contrary to its report. This review's
+deletion of it, and of its own clones, was declined at the permission prompt. Both remain until
+Marcus deletes them or approves the deletion (section 0).
 
 ### What Marcus decides
 
@@ -541,5 +547,5 @@ must land before that step.
   the 24-row quota table (old vs new).
 - `hygiene-and-docs.json`: W4.1 scan, W4.6 comparison, W4.3 prefix check, S9 eol, S12 headers.
 
-Scratch scripts, the synthetic corpus and both clones are not committed. They are deleted at the
-end.
+Scratch scripts, the synthetic corpus and the clones are not committed. Their deletion was declined
+at the permission prompt; they remain in the scratch folders named in section 0.
