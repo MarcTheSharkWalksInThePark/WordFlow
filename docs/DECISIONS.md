@@ -1,5 +1,61 @@
 # WordFlow decisions
 
+## RULING W2 — static hosting
+
+MARCUS'S RULINGS (2026-10-05, relayed by the claude.ai orchestrator). Recorded verbatim on 2026-10-06.
+
+W2.1 Hosting.
+- WordFlow becomes a public, STATIC website on Cloudflare's FREE plan.
+- Condition: every current feature stays intact, and development continues after launch.
+- There is no paid tier, card or paid add-on.
+
+W2.2 URL reading.
+- A Cloudflare Worker / Function at the same origin serves /api/read.
+- Expected load is under 100,000 requests/day.
+- If the free daily limit is reached, the rest of the site must keep working. URL loading must fail
+  with a clear message, never a crash or a blank page.
+
+W2.3 Visibility.
+- The GitHub repository becomes public. Marcus flips this himself, after review and after a separate
+  email-history decision.
+- Do not change repository settings.
+
+W2.4 Licence. Replace LICENSE with exactly:
+  "Copyright (c) 2026 Marcus. All rights reserved.
+  No permission is granted to use, copy, modify, merge, publish, distribute, sublicense or sell this
+  software or any part of it without the prior written permission of the copyright holder.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
+  SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF
+  OR IN CONNECTION WITH THE SOFTWARE OR ITS USE."
+  Bundled third-party code keeps its own licence. Its notices go in THIRD_PARTY_NOTICES.md and ship
+  with the site.
+
+W2.5 Dispositions (CC review section 7).
+- #3, #4, #5, #6 and #12: CONFIRMED by Marcus.
+- #7: REMOVE loadLocalEnv. WordFlow has no secrets.
+- #11: SUPERSEDED. Python leaves the product, so the pins, the resolver and the Codex-runtime
+  fallback go away.
+
+W2.6 Record corrections.
+- Update DECISIONS rows #1, #2, #10 and #16 to match AGENTS.md's "Resolved on 2026-10-05": private
+  GitHub repo, CC review CLEAR, push gate built.
+- Record that the default branch was named `main` during the build and review and is `master` now.
+
+W2.7 Vendoring. Marcus approves adding pinned third-party browser libraries as files in the repo:
+- pdf.js (pdfjs-dist), taken from the official npm registry tarball;
+- optionally one small zip-inflate library, only if the browser's native DecompressionStream
+  ("deflate-raw") proves insufficient.
+For each, record the version, the npm integrity hash and the SHA-256 of every vendored file.
+Nothing is installed into the machine's Node or Python. No CDN at runtime.
+
+### W2 workflow and R59 exception (Marcus, task dated 2026-10-06)
+
+Work on local `feat/static-hosting`; do not merge or push. Deployment happens only by
+Cloudflare's Git integration from master, after review. W2 authorizes extending R59's
+STATIC_FILES by exact new site and vendored filenames only; all other R59 protections
+remain in force. Remove the env loader and Python product code after preserving goldens.
+The default branch was named `main` during the build and review; it is `master` now.
+
 RULING W1 (Marcus, 2026-10-05): The standalone WordFlow repository is canonical for
 WordFlow from its first commit. The WordFlow copy inside MarcDeck is frozen and will be
 removed under a MarcDeck ruling. WordFlow fixes go to the standalone repository only.

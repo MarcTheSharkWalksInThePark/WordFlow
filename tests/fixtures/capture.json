@@ -1,0 +1,61 @@
+{
+  "python": "3.12.14",
+  "pypdf": "6.10.0",
+  "python-docx": "1.2.0",
+  "records": [
+    {
+      "file": "fixture.docx",
+      "sha256": "73a95cccada35f7da8db3fe1b373356ddbcdce12dd5861e8f5e7a47d8f2b4128",
+      "goldenSha256": "4264c4a796891003f7f6ff9a38c82a269a001e1e7b6e56f5b8abb77372c58631"
+    },
+    {
+      "file": "semantics.docx",
+      "sha256": "4dbf6b451835505ecd7c223bac7109d668ded7eea1e6717b7ee83e5ca3dd5137",
+      "goldenSha256": "d97b7bfe531fcf76cae7a2b03676a8767621d4f2abba0247e7e3d65c644ca0d5"
+    },
+    {
+      "file": "no-title.docx",
+      "sha256": "fe591f8cf56e2eead9ca85b51bacdab290a1b09b928affd3bb0920e4d73b6725",
+      "goldenSha256": "7750b034d6f0f3bbb761df71b5c33560c1377cdfdbfcf1d596fb83f5cbf52678"
+    },
+    {
+      "file": "empty.docx",
+      "sha256": "8ee0c1cbad9ae63a035bf105a595480dab8aba6f0691087c978cc08a34c6faec",
+      "goldenSha256": "886fcc65b6355e772b6062f66464e36ea66da538400de081e455cf3bc33f8d67"
+    },
+    {
+      "file": "fixture.pdf",
+      "sha256": "185e919f4e71c44f24b126fc28b01c9f4fa83d958e5f998c713e55bdc4ffd692",
+      "goldenSha256": "1976ea2e4e3cde19a97e176c0013f245339b4fc01e7824d025897f2bba810d55"
+    },
+    {
+      "file": "columns.pdf",
+      "sha256": "a56968357789d3303ef6db3e17cb0eb6c3a82f1f513b9deff602b8383314f95e",
+      "goldenSha256": "18bb0ae7c61bb2c23ec81d24e3464dbe7be5af247e097a5e09baeba133ece77b"
+    },
+    {
+      "file": "hyphenation.pdf",
+      "sha256": "5fa850eb5a386f2cffec961683acc8b189a2072796f97d98e040d0e97ac54c46",
+      "goldenSha256": "c5d6f09b2b6017b5c02df56dd38e1c0ff127dd2ab3cd963391e4394afe30c828"
+    },
+    {
+      "file": "headers-footers.pdf",
+      "sha256": "7fe73cc2634b3835c9f245aae59d1124b97d48370bfd213f7f3f5123d537ca15",
+      "goldenSha256": "f25cad786d0cab0d4aae3870b31e5e1595e61f6c33a4577c78740107b3c4646e"
+    },
+    {
+      "file": "empty.pdf",
+      "sha256": "a8665772975713e86d838bbb2530bb5a588c9316e31515c32d074853fa9018a3",
+      "goldenSha256": "cecdb95535677fcf887785aed6241f0474a662b0e99174664b219cf616570376"
+    },
+    {
+      "file": "empty-password.pdf",
+      "sha256": "fdd3d4da2b06420175de0995335947b3edc3616872ee3aba06eb4157a99fe274",
+      "goldenSha256": "4d18cbaf002318c3087195418c6adb80e03d8ca90da0ad949d96d57af756e7e1"
+    },
+    {
+      "file": "encrypted.pdf",
+      "baselineError": "FileNotDecryptedError: File has not been decrypted"
+    }
+  ]
+}
