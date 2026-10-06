@@ -5,5 +5,7 @@
   "newRows": [
     "U1-DoH-Workers-unsupported-error-mode"
   ],
-  "passed": true
+  "passed": true,
+  "earlierVerdictsUnchanged": 77,
+  "shaTriplesValid": 78
 }

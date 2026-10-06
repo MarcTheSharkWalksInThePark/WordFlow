@@ -1,0 +1,12 @@
+{
+  "constraint": "workerd accepts only follow/manual",
+  "launch": "134e5db",
+  "launchStatus": 500,
+  "fix": "c6372aa",
+  "fixStatus": 200,
+  "rejectedLaunchModes": [
+    "error",
+    "error"
+  ],
+  "passed": true
+}
