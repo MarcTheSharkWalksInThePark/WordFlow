@@ -188,8 +188,9 @@ links in any logging session.
    [branch controls](https://developers.cloudflare.com/pages/configuration/branch-build-controls/),
    [build image](https://developers.cloudflare.com/pages/configuration/build-image/)
    (2026-10-06).
-5. Record the assigned `https://<project>.pages.dev` address in this document and the vault project
-   note after creation. Pages-host requests need no code change for the project name (W5.3).
+5. Assigned live address: https://wordflow-reader.pages.dev/ (2026-10-06); repository now public,
+   confirmed by Marcus's launch handoff. Record the address in the vault project note too.
+   Pages-host requests need no code change for the project name (W5.3).
    Configure any custom domains in `SITE_HOSTNAMES` before using them.
 6. Live check the generated HTTPS pages.dev URL: desktop and 390 px
    reader/upload/resume flows; **load one real public URL through /api/read**; rejected private
