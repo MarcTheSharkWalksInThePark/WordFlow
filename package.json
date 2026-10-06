@@ -9,6 +9,7 @@
     "parity": "node tools/parity.cjs",
     "mutations": "node tools/mutations.cjs",
     "smoke": "node tools/static_smoke.cjs",
+    "smoke:live": "node tools/live-smoke.mjs",
     "build": "node tools/build.cjs"
   },
   "engines": {

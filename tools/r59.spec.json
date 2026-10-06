@@ -863,8 +863,8 @@
       "suite": "proxy",
       "transform": {
         "kind": "replace",
-        "find": "redirect: \"error\"",
-        "replace": "redirect: \"follow\""
+        "find": "redirect: \"manual\", headers: { accept: \"application/dns-json\" }",
+        "replace": "redirect: \"follow\", headers: { accept: \"application/dns-json\" }"
       },
       "sourceSpec": "W4 2026-10-06",
       "targetCommand": "node tests/proxy.test.mjs",
@@ -1213,6 +1213,21 @@
       },
       "sourceSpec": "W5 2026-10-06",
       "targetCommand": "node tests/post-review.test.cjs",
+      "expect": "killed"
+    },
+    {
+      "id": "U1-DoH-Workers-unsupported-error-mode",
+      "origin": "codex",
+      "source": "Marcus live URL fix / confirmed Workers TypeError",
+      "file": "lib/read-proxy.mjs",
+      "suite": "proxy",
+      "transform": {
+        "kind": "replace",
+        "find": "redirect: \"manual\", headers: { accept: \"application/dns-json\" }",
+        "replace": "redirect: \"error\", headers: { accept: \"application/dns-json\" }"
+      },
+      "sourceSpec": "Live URL fix 2026-10-06",
+      "targetCommand": "node tests/proxy.test.mjs",
       "expect": "killed"
     }
   ]

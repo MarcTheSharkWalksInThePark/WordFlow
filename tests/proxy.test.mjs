@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import {pathToFileURL} from "node:url";
+import {liveSmoke} from "../tools/live-smoke.mjs";
 const root=process.env.WORDFLOW_TEST_REPO || path.resolve(import.meta.dirname,"..");
 const {handleRead,isPublicIP,validateTarget,SITE_HOSTNAMES}=await import(pathToFileURL(path.join(root,"lib/read-proxy.mjs")));
 let passed=0; const cases=[];
@@ -62,11 +63,69 @@ await check("DoH redirects refused before following",async()=>{
  const r=await handleRead(make(),async(u,o)=>{
   if(new URL(u).hostname!=="cloudflare-dns.com") {destinations++;return new Response("unsafe");}
   options.push(o);
-  throw new TypeError("redirect refused");
+  return new Response(null,{status:302,headers:{location:"https://unvalidated.example/dns-query"}});
  });
  assert.equal(r.status,500);assert.equal(destinations,0);
  assert.equal(options.length,2);
- for(const o of options) {assert.equal(o.redirect,"error");assert.deepEqual(o.headers,{accept:"application/dns-json"});}
+ for(const o of options) {assert.equal(o.redirect,"manual");assert.deepEqual(o.headers,{accept:"application/dns-json"});}
+});
+// Workerd Request::tryParseRedirect accepts only follow/manual, unlike Node fetch.
+// Pin: cloudflare/workerd ebd90312bff06ae5c7689a23a3589c898f4b7618, api/http.c++.
+await check("Workers fetch options and byte-stream APIs accept the real proxy path",async()=>{
+ const calls=[];let readers=0,reads=0,releases=0;
+ const body="<html><body>café 🙂</body></html>";
+ const byteResponse=(text,contentType)=>{
+  const bytes=new TextEncoder().encode(text);
+  const response=new Response(new ReadableStream({start(c){
+   // One byte per chunk also exercises split multibyte UTF-8 without string chunks.
+   for(const byte of bytes)c.enqueue(Uint8Array.of(byte));c.close();
+  }}),{headers:{"content-type":contentType}});
+  const stream=response.body, getReader=stream.getReader.bind(stream);
+  stream.getReader=()=>{
+   readers++;const reader=getReader();
+   return {
+    read:()=>{reads++;return reader.read();},
+    cancel:reason=>reader.cancel(reason),
+    releaseLock:()=>{releases++;reader.releaseLock();}
+   };
+  };
+  return response;
+ };
+ const workersFetch=async(value,options)=>{
+  // Source-backed runtime constraint; this intentionally rejects the old Node-valid mode.
+  if(!["follow","manual"].includes(options.redirect))throw new TypeError("Invalid redirect value");
+  const request=new Request(value,options);
+  assert.equal(request.redirect,"manual");
+  assert(options.signal instanceof AbortSignal);
+  assert.equal(typeof options.signal.throwIfAborted,"function");
+  assert.equal(options.signal.aborted,false);
+  calls.push({request,options});
+  if(new URL(value).hostname==="cloudflare-dns.com")
+   return byteResponse(JSON.stringify(dns()),"application/dns-json");
+  return byteResponse(body,"text/html; charset=utf-8");
+ };
+ const response=await handleRead(make(),workersFetch);
+ assert.equal(response.status,200);
+ assert.deepEqual(await response.json(),{url:"https://public.example/article",contentType:"text/html; charset=utf-8",body});
+ assert.equal(calls.length,3);
+ assert.equal(readers,3);assert.equal(releases,3);assert(reads>body.length);
+ assert(calls.every(c=>c.options.signal===calls[0].options.signal));
+ assert.deepEqual(calls.slice(0,2).map(c=>Object.fromEntries(c.request.headers)),[
+  {accept:"application/dns-json"},{accept:"application/dns-json"}
+ ]);
+ assert.deepEqual(Object.fromEntries(calls[2].request.headers),{"user-agent":"WordFlow Reader/1.0"});
+});
+for(const status of [301,302,303,307,308]) await check("DoH "+status+" with Location fails closed before any target fetch",async()=>{
+ const calls=[];
+ const response=await handleRead(make(),async(value,options)=>{
+  const url=new URL(value);calls.push({url,options});
+  assert.equal(url.hostname,"cloudflare-dns.com","no redirect destination or target fetch");
+  assert.equal(options.redirect,"manual");
+  // A valid DNS answer in the redirect body must not bypass the HTTP-status refusal.
+  return Response.json(dns(),{status,headers:{location:"http://127.0.0.1/dns-query"}});
+ });
+ assert.equal(response.status,500);assert.deepEqual(await response.json(),{error:"Could not load website"});
+ assert.equal(calls.length,2);
 });
 for(const [name,response] of [
  ["HTTP 500 with otherwise valid answers",()=>Response.json(dns(),{status:500})],
@@ -175,6 +234,20 @@ await check("Pages suffix boundary does not block similar domains",async()=>{
  }
 });
 await check("reserved unallocated IPv6 denied",async()=>{for(const ip of ["3000::1","3ffe::1","2d00::1","2001:1000::1","2001:f000::1"])assert.equal(isPublicIP(ip),false);});
+await check("post-deploy smoke rejects broken public loading and guard regressions",async()=>{
+ const healthy=async value=>{
+  const target=new URL(value).searchParams.get("url");
+  return target==="https://example.com/"?Response.json({contentType:"text/html",body:"<html>Example Domain</html>"}):
+   Response.json({error:"URL not allowed"},{status:403});
+ };
+ const result=await liveSmoke(undefined,healthy);assert.equal(result.passed,3);
+ for(const [name,override] of [
+  ["public 500",value=>new URL(value).searchParams.get("url")==="https://example.com/"?Response.json({error:"Could not load website"},{status:500}):healthy(value)],
+  ["quota marker at 200",()=>new Response("WORDFLOW_FREE_LIMIT")],
+  ["private accepted",()=>Response.json({contentType:"text/html",body:"<html>Example Domain</html>"})],
+  ["non-HTML success",value=>new URL(value).searchParams.get("url")==="https://example.com/"?Response.json({contentType:"text/plain",body:"Example Domain"}):healthy(value)]
+ ]) await assert.rejects(()=>liveSmoke(undefined,override),undefined,name);
+});
 const output={passed,skipped:0,cases};
 const i=process.argv.indexOf("--out");if(i>=0)fs.writeFileSync(process.argv[i+1],JSON.stringify(output,null,2)+"\n");
 console.log(JSON.stringify({suite:"proxy",passed,skipped:0}));

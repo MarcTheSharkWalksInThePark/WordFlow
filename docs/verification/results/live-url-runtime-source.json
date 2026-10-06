@@ -1,0 +1,11 @@
+{
+  "commit": "ebd90312bff06ae5c7689a23a3589c898f4b7618",
+  "url": "https://raw.githubusercontent.com/cloudflare/workerd/ebd90312bff06ae5c7689a23a3589c898f4b7618/src/workerd/api/http.c++",
+  "sha256": "81388e77d25248c1255c1e6b7d0d6a82bd7debd4e88762518987ae4249269560",
+  "rejectionLine": 484,
+  "acceptedRedirectModes": [
+    "follow",
+    "manual"
+  ],
+  "unsupportedRedirectMode": "error"
+}

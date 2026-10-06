@@ -1,0 +1,9 @@
+{
+  "baseline": "134e5db",
+  "unchanged": 76,
+  "approvedReanchor": "E9-DoH-redirect-follow",
+  "newRows": [
+    "U1-DoH-Workers-unsupported-error-mode"
+  ],
+  "passed": true
+}

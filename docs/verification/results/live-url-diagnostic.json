@@ -1,0 +1,61 @@
+{
+  "endpoint": "https://wordflow-reader.pages.dev/api/diag",
+  "at": "2026-10-06T19:21:34.618Z",
+  "deployment": "2abef4a4437ef8258e74b67d5d82244b5978d0b2",
+  "status": 200,
+  "result": {
+    "diagnostic": "live-url-2026-10-06",
+    "results": [
+      {
+        "target": "https://example.com/",
+        "steps": [
+          {
+            "step": "doh-fetch",
+            "type": "A",
+            "error": {
+              "name": "TypeError",
+              "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+            }
+          },
+          {
+            "step": "doh-fetch",
+            "type": "AAAA",
+            "error": {
+              "name": "TypeError",
+              "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+            }
+          }
+        ],
+        "error": {
+          "name": "TypeError",
+          "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+        }
+      },
+      {
+        "target": "https://en.wikipedia.org/",
+        "steps": [
+          {
+            "step": "doh-fetch",
+            "type": "A",
+            "error": {
+              "name": "TypeError",
+              "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+            }
+          },
+          {
+            "step": "doh-fetch",
+            "type": "AAAA",
+            "error": {
+              "name": "TypeError",
+              "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+            }
+          }
+        ],
+        "error": {
+          "name": "TypeError",
+          "message": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code)."
+        }
+      }
+    ]
+  }
+}

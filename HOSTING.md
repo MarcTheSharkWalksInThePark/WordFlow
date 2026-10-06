@@ -198,6 +198,9 @@ links in any logging session.
    notices; a simulated quota page and static api/read marker; static requests do not increase
    Function invocations; logging/analytics off. Check maximum-body CPU against the 10 ms limit.
    Never deliberately exhaust 100,000 requests to test the quota.
+   After every deployment run `npm run smoke:live` (or pass an HTTPS site origin after `--`).
+   It requires example.com HTML at 200 and private/self refusals at 403, failing nonzero otherwise.
+   To save evidence: `npm run smoke:live -- https://wordflow-reader.pages.dev/ --out result.json`.
    A missing/unmatched Function also serves the static `api/read` marker. Its response is
    indistinguishable from quota fail-open in app code, so the real public URL check is required
    to prove the Function works. Real quota/fail-open mapping and maximum-body edge CPU (S6)
