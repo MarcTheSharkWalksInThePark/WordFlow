@@ -22,6 +22,8 @@ W6.12 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; resolves the r
 
 W6.13 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; CC re-review decisions 1-3) Finished screen. The finished screen fits the last word exactly as during reading: master's shrink-to-fit plus W6.12 and W6.1. It never shows the long-text note and never auto-pauses. Every last word that is fully visible on master's finished screen renders exactly as on master. A last word in the W6.7 scroll state stays in its scroll area without the note. This is one narrow fix round, as an exception to W6.11, followed by a short CC check of this fix only. CC's O-2 (resize leftover class) and the landscape-note behaviour are accepted as they are.
 
+W6.14 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; resolves the R-1 STOP; amends W6.13's collision condition) On master, the Finished panel overlays the centre of the reader frame and every last word lies beneath its translucent background. That is master's existing design and is not a collision. On the finished screen a collision means only: any part of the last word lying outside the frame's inner bounds; the word painted above the Finished panel or any control; or any change to a last word that is fully visible on master's finished screen. A last word in the W6.7 scroll state keeps its geometry on the finished screen but becomes inert: not focusable, no region role, no accessible description, no note, no scrolling interaction. All other W6.13 text stands.
+
 ## RULING W5 — delta-review fixes, merge and gated push
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
