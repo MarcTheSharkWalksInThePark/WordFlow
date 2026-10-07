@@ -1,0 +1,15 @@
+branch-long 
+  after reading {"index":1,"playing":false,"finished":false,"countdown":false,"marker":"1","note":true,"summary":false,"shown":"WWWWWWWW"} 
+  Play#1 {"index":1,"playing":false,"finished":true,"countdown":false,"marker":"1","note":true,"summary":true,"shown":"WWWWWWWW"} 
+  Play#2 {"index":1,"playing":false,"finished":true,"countdown":false,"marker":"1","note":true,"summary":true,"shown":"WWWWWWWW"} 
+  +2.2s {"index":1,"playing":false,"finished":true,"countdown":false,"marker":"1","note":true,"summary":true,"shown":"WWWWWWWW"}
+branch-short 
+  after reading {"index":1,"playing":false,"finished":true,"countdown":false,"marker":null,"note":false,"summary":true,"shown":"Short"} 
+  Play#1 {"index":0,"playing":false,"finished":false,"countdown":true,"marker":null,"note":false,"summary":false,"shown":"3"} 
+  Play#2 {"index":0,"playing":false,"finished":false,"countdown":false,"marker":null,"note":false,"summary":false,"shown":"Lead"} 
+  +2.2s {"index":0,"playing":false,"finished":false,"countdown":false,"marker":null,"note":false,"summary":false,"shown":"Lead"}
+master-long 
+  after reading {"index":1,"playing":false,"finished":true,"countdown":false,"marker":null,"note":true,"summary":true,"shown":"WWWWWWWW"} 
+  Play#1 {"index":0,"playing":false,"finished":false,"countdown":true,"marker":null,"note":true,"summary":false,"shown":"3"} 
+  Play#2 {"index":0,"playing":false,"finished":false,"countdown":false,"marker":null,"note":true,"summary":false,"shown":"Lead"} 
+  +2.2s {"index":0,"playing":false,"finished":false,"countdown":false,"marker":null,"note":true,"summary":false,"shown":"Lead"}

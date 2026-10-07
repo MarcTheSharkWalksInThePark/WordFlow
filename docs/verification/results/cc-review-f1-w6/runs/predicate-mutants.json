@@ -1,0 +1,516 @@
+{
+ "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+ "rows": [
+  {
+   "id": "B1 floor <= -> <",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize < 10 && wordWidth > frameWidth;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "eca33674ecd36850da8e49de5f3cc878a5c3afe7ba6e637f384b4e6622d6f464",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: floor word wider than frame breaks",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 1,
+    "fails": [
+     "Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow",
+     "[cause]: AssertionError [ERR_ASSERTION]: frame must retain normal size and have no overflow"
+    ],
+    "tail": [
+     "    diff: 'simple'",
+     "  }",
+     "}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: floor word wider than frame breaks | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": "Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow | [cause]: AssertionError [ERR_ASSERTION]: frame must retain normal size and have no overflow",
+   "verdict": "KILLED"
+  },
+  {
+   "id": "B2 width > -> >=",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize <= 10 && wordWidth >= frameWidth;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "bba34dcd7712a59a87a80374d1d323ba02950fea0b35c8f3800ecb144e870059",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: floor word fitting frame does not break",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 0,
+    "fails": [],
+    "tail": [
+     "{\"passed\":72,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: floor word fitting frame does not break | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": null,
+   "verdict": "KILLED"
+  },
+  {
+   "id": "B3 remove floor condition",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return wordWidth > frameWidth;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "8376f20069b89122fa9a112952c0c9d3f8f83bd2f8b756a164a17fd1407be0e7",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: no break above the floor",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 0,
+    "fails": [],
+    "tail": [
+     "{\"passed\":72,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: no break above the floor | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": null,
+   "verdict": "KILLED"
+  },
+  {
+   "id": "B4 swap width operands",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize <= 10 && frameWidth > wordWidth;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "3ae41916c79777c7eedadd4bdc5f871f3102580718c46eba81bc5eb2321097ad",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: floor word wider than frame breaks",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 1,
+    "fails": [
+     "Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow",
+     "[cause]: AssertionError [ERR_ASSERTION]: frame must retain normal size and have no overflow"
+    ],
+    "tail": [
+     "    diff: 'simple'",
+     "  }",
+     "}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: floor word wider than frame breaks | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": "Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow | [cause]: AssertionError [ERR_ASSERTION]: frame must retain normal size and have no overflow",
+   "verdict": "KILLED"
+  },
+  {
+   "id": "B5 swap floor operands",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return 10 <= fontSize && wordWidth > frameWidth;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "61882bc2b3f2d99ebaea63cee2b2b35312fd2edca8776753e3b8d394ea767690",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: no break above the floor",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 0,
+    "fails": [],
+    "tail": [
+     "{\"passed\":72,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: no break above the floor | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": null,
+   "verdict": "KILLED"
+  },
+  {
+   "id": "S1 height > -> >=",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wrapped && wordHeight >= frameHeight;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "00dd056047126c9aab6274eb0890d293e894a89fbf51a8fef95973baadb42d1e",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: wrapped token at frame height does not scroll",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 0,
+    "fails": [],
+    "tail": [
+     "{\"passed\":72,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: wrapped token at frame height does not scroll | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": null,
+   "verdict": "KILLED"
+  },
+  {
+   "id": "S2 remove wrapped condition",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wordHeight > frameHeight;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "33fd135cc53d49e36f881623645797d22f9e513cee830314538de040e379f763",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: unwrapped token never enables vertical state",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 0,
+    "fails": [],
+    "tail": [
+     "{\"passed\":72,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: unwrapped token never enables vertical state | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": null,
+   "verdict": "KILLED"
+  },
+  {
+   "id": "S3 swap height operands",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wrapped && frameHeight > wordHeight;",
+   "before": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "mutated": "acd6fe1fcac4b8dce6449db5a4ac00fc5e8d0f22f1e5f4860717692a3565da7e",
+   "restored": "9ef186ab759df7c70e05baff5de7f3e43e572028657d8b74e9b5c3accd6ad4ee",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "fails": [],
+     "tail": [
+      "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "fails": [
+      "FAIL reader: strict excess height enables vertical state",
+      "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+     ],
+     "tail": [
+      "  operator: 'strictEqual',",
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "smoke": {
+    "label": "static_smoke",
+    "status": 1,
+    "fails": [
+     "Error: F1 W 135 geometry, playback and data: scroll state {\"word\":{\"x\":448.203125,\"y\":196,\"width\":543.59375,\"height\":477},\"content\":{\"x\":448.65625,\"y\":196,\"width\":542.671875,\"height\":35},\"font\":\"10px\",\"classes\":\"word-display large fitted-lo",
+     "[cause]: AssertionError [ERR_ASSERTION]: scroll state {\"word\":{\"x\":448.203125,\"y\":196,\"width\":543.59375,\"height\":477},\"content\":{\"x\":448.65625,\"y\":196,\"width\":542.671875,\"height\":35},\"font\":\"10px\",\"classes\":\"word-display large fitted-long-w"
+    ],
+    "tail": [
+     "    diff: 'simple'",
+     "  }",
+     "}"
+    ]
+   },
+   "nodeRed": [
+    "tests/post-review.test.cjs: FAIL reader: strict excess height enables vertical state | AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+   ],
+   "smokeRed": "Error: F1 W 135 geometry, playback and data: scroll state {\"word\":{\"x\":448.203125,\"y\":196,\"width\":543.59375,\"height\":477},\"content\":{\"x\":448.65625,\"y\":196,\"width\":542.671875,\"height\":35},\"font\":\"10px\",\"classes\":\"word-display large fitted-lo | [cause]: AssertionError [ERR_ASSERTION]: scroll state {\"word\":{\"x\":448.203125,\"y\":196,\"width\":543.59375,\"height\":477},\"content\":{\"x\":448.65625,\"y\":196,\"width\":542.671875,\"height\":35},\"font\":\"10px\",\"classes\":\"word-display large fitted-long-w",
+   "verdict": "KILLED"
+  }
+ ]
+}

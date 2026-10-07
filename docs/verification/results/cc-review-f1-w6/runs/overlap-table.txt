@@ -1,0 +1,65 @@
+chrome 155.0.8059.39
+| [object Object] | base | W135 | 10px | wrap | 448.2 / 440.75 / 543.59 / 31.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | base | W500 | 10px | wrap | 448.2 / 404 / 543.59 / 105 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-base-W500.png
+| [object Object] | base | W1000 | 10px | wrap | 448.2 / 356.75 / 543.59 / 199.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | base | W2000 | 10px | wrap | 448.2 / 257 / 543.59 / 399 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | prev {"w":58.34,"h":35} next {"w":42.44,"h":35} | ov-1400-base-W2000.png
+| [object Object] | base | real135 | 10px | wrap | 448.2 / 446 / 543.59 / 21 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | base | real500 | 10px | wrap | 448.2 / 430.25 / 543.59 / 52.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-base-real500.png
+| [object Object] | base | real1000 | 10px | wrap | 448.2 / 404 / 543.59 / 105 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | base | real2000 | 10px | wrap | 448.2 / 356.75 / 543.59 / 199.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-base-real2000.png
+| [object Object] | letterOff | W135 | 10px | wrap | 448.2 / 440.75 / 543.59 / 31.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | letterOff | W500 | 10px | wrap | 448.2 / 404 / 543.59 / 105 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-letterOff-W500.png
+| [object Object] | letterOff | W1000 | 10px | wrap | 448.2 / 356.75 / 543.59 / 199.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | letterOff | W2000 | 10px | wrap | 448.2 / 257 / 543.59 / 399 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | prev {"w":58.34,"h":35} next {"w":42.44,"h":35} | ov-1400-letterOff-W2000.png
+| [object Object] | letterOff | real135 | 10px | wrap | 448.2 / 446 / 543.59 / 21 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | letterOff | real500 | 10px | wrap | 448.2 / 430.25 / 543.59 / 52.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-letterOff-real500.png
+| [object Object] | letterOff | real1000 | 10px | wrap | 448.2 / 404 / 543.59 / 105 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | 
+| [object Object] | letterOff | real2000 | 10px | wrap | 448.2 / 356.75 / 543.59 / 199.5 | 690.83 / 278.5 / 58.34 / 35 | 698.78 / 599.45 / 42.44 / 35 | none | ov-1400-letterOff-real2000.png
+| [object Object] | focusMode | W135 | 140px | none | 9128.14 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode | W500 | 140px | none | 34802.89 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-W500.png
+| [object Object] | focusMode | W1000 | 140px | none | 69973.8 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode | W2000 | 140px | none | 140315.59 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-W2000.png
+| [object Object] | focusMode | real135 | 140px | none | 4404.48 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode | real500 | 140px | none | 17360.77 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-real500.png
+| [object Object] | focusMode | real1000 | 140px | none | 35050.02 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode | real2000 | 140px | none | 70393.33 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-real2000.png
+| [object Object] | focusMode-letterOff | W135 | 140px | none | 9128.14 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode-letterOff | W500 | 140px | none | 34802.89 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-letterOff-W500.png
+| [object Object] | focusMode-letterOff | W1000 | 140px | none | 69973.8 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode-letterOff | W2000 | 140px | none | 140315.59 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-letterOff-W2000.png
+| [object Object] | focusMode-letterOff | real135 | 140px | none | 4404.47 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode-letterOff | real500 | 140px | none | 17360.77 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-letterOff-real500.png
+| [object Object] | focusMode-letterOff | real1000 | 140px | none | 35050.02 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | 
+| [object Object] | focusMode-letterOff | real2000 | 140px | none | 70393.31 / 390.91 / 820 / 151.19 | 670.83 / 282.89 / 58.34 / 35 | 678.78 / 615.06 / 42.44 / 35 | none | ov-1400-focusMode-letterOff-real2000.png
+| [object Object] | base | W135 | 10px | wrap | 41.1 / 347.22 / 307.8 / 52.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | 
+| [object Object] | base | W500 | 10px | wrap | 41.1 / 284.22 / 307.8 / 178.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-base-W500.png
+| [object Object] | base | W1000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | 
+| [object Object] | base | W2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | ov-390-base-W2000.png
+| [object Object] | base | real135 | 10px | wrap | 41.1 / 357.72 / 307.8 / 31.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | 
+| [object Object] | base | real500 | 10px | wrap | 41.1 / 326.22 / 307.8 / 94.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | ov-390-base-real500.png
+| [object Object] | base | real1000 | 10px | wrap | 41.1 / 284.22 / 307.8 / 178.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-base-real1000.png
+| [object Object] | base | real2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | ov-390-base-real2000.png
+| [object Object] | letterOff | W135 | 10px | wrap | 41.1 / 347.22 / 307.8 / 52.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | 
+| [object Object] | letterOff | W500 | 10px | wrap | 41.1 / 284.22 / 307.8 / 178.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-letterOff-W500.png
+| [object Object] | letterOff | W1000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | 
+| [object Object] | letterOff | W2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | ov-390-letterOff-W2000.png
+| [object Object] | letterOff | real135 | 10px | wrap | 41.1 / 357.72 / 307.8 / 31.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | 
+| [object Object] | letterOff | real500 | 10px | wrap | 41.1 / 326.22 / 307.8 / 94.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | none | ov-390-letterOff-real500.png
+| [object Object] | letterOff | real1000 | 10px | wrap | 41.1 / 284.22 / 307.8 / 178.5 | 177.32 / 293.63 / 35.36 / 21 | 182.14 / 431.72 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-letterOff-real1000.png
+| [object Object] | letterOff | real2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 130 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 438.88 / 25.72 / 21 | none | ov-390-letterOff-real2000.png
+| [object Object] | focusMode | W135 | 10px | wrap | 41.1 / 494.17 / 307.8 / 52.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode | W500 | 10px | wrap | 41.1 / 431.17 / 307.8 / 178.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | ov-390-focusMode-W500.png
+| [object Object] | focusMode | W1000 | 10px | wrap | 41.1 / 341.92 / 307.8 / 357 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-focusMode-W1000.png
+| [object Object] | focusMode | W2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 423.91 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 732.78 / 25.72 / 21 | none | ov-390-focusMode-W2000.png
+| [object Object] | focusMode | real135 | 10px | wrap | 41.1 / 504.67 / 307.8 / 31.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode | real500 | 10px | wrap | 41.1 / 473.17 / 307.8 / 94.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | ov-390-focusMode-real500.png
+| [object Object] | focusMode | real1000 | 10px | wrap | 41.1 / 431.17 / 307.8 / 178.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode | real2000 | 10px | wrap | 41.1 / 341.92 / 307.8 / 357 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-focusMode-real2000.png
+| [object Object] | focusMode-letterOff | W135 | 10px | wrap | 41.1 / 494.17 / 307.8 / 52.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode-letterOff | W500 | 10px | wrap | 41.1 / 431.17 / 307.8 / 178.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | ov-390-focusMode-letterOff-W500.png
+| [object Object] | focusMode-letterOff | W1000 | 10px | wrap | 41.1 / 341.92 / 307.8 / 357 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-focusMode-letterOff-W1000.png
+| [object Object] | focusMode-letterOff | W2000 | 10px | scroll | 41.1 / 286.47 / 307.8 / 423.91 | 177.32 / 244.47 / 35.36 / 21 | 182.14 / 732.78 / 25.72 / 21 | none | ov-390-focusMode-letterOff-W2000.png
+| [object Object] | focusMode-letterOff | real135 | 10px | wrap | 41.1 / 504.67 / 307.8 / 31.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode-letterOff | real500 | 10px | wrap | 41.1 / 473.17 / 307.8 / 94.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | ov-390-focusMode-letterOff-real500.png
+| [object Object] | focusMode-letterOff | real1000 | 10px | wrap | 41.1 / 431.17 / 307.8 / 178.5 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | none | 
+| [object Object] | focusMode-letterOff | real2000 | 10px | wrap | 41.1 / 341.92 / 307.8 / 357 | 177.32 / 358.28 / 35.36 / 21 | 182.14 / 660.97 / 25.72 / 21 | prev {"w":35.36,"h":21} next {"w":25.72,"h":21} | ov-390-focusMode-letterOff-real2000.png

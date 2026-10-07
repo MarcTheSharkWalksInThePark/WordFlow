@@ -1,0 +1,30 @@
+1400 branch 5 140px word-display large rectW 348.17 contentW 348.2 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 1316
+1400 branch 45 140px word-display large rectW 820 contentW 3181.7 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 3182
+1400 branch 135 140px word-display large rectW 820 contentW 18992.3 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 18992
+1400 branch 2000 140px word-display large rectW 820 contentW 281367.2 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 281367
+1400 branch 10000 140px word-display large rectW 820 contentW 1406835.9 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 1406836
+1400 master 5 140px word-display large rectW 348.17 contentW 348.2 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 1316
+1400 master 45 140px word-display large rectW 820 contentW 3181.7 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 3182
+1400 master 135 140px word-display large rectW 820 contentW 18992.3 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 18992
+1400 master 2000 140px word-display large rectW 820 contentW 281367.2 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 281367
+1400 master 10000 140px word-display large rectW 820 contentW 1406835.9 frameW 1316 90% 1184.4 maxW min(820px, 94%) frame scrollW 1406836
+1024 branch 5 102.4px word-display large rectW 254.67 contentW 254.7 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 940
+1024 branch 45 102.4px word-display large rectW 820 contentW 2327.2 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 2327
+1024 branch 135 102.4px word-display large rectW 820 contentW 13891.5 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 13892
+1024 branch 2000 102.4px word-display large rectW 820 contentW 205800.0 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 205800
+1024 branch 10000 102.4px word-display large rectW 820 contentW 1028999.9 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 1029000
+1024 master 5 102.4px word-display large rectW 254.67 contentW 254.7 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 940
+1024 master 45 102.4px word-display large rectW 820 contentW 2327.2 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 2327
+1024 master 135 102.4px word-display large rectW 820 contentW 13891.5 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 13892
+1024 master 2000 102.4px word-display large rectW 820 contentW 205800.0 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 205800
+1024 master 10000 102.4px word-display large rectW 820 contentW 1028999.9 frameW 940 90% 846.0 maxW min(820px, 94%) frame scrollW 1029000
+390 branch 5 67.2px word-display large rectW 167.11 contentW 167.1 frameW 342 90% 307.8 maxW 94% frame scrollW 342
+390 branch 45 13px word-display large fitted-long-word rectW 295.47 contentW 295.5 frameW 342 90% 307.8 maxW 94% frame scrollW 342
+390 branch 135 10px word-display large fitted-long-word wrapped-long-word rectW 307.8 contentW 301.5 frameW 342 90% 307.8 maxW 90% frame scrollW 342
+390 branch 2000 10px word-display large fitted-long-word wrapped-long-word scrolling-long-word rectW 307.8 contentW 301.5 frameW 342 90% 307.8 maxW 90% frame scrollW 342
+390 branch 10000 10px word-display large fitted-long-word wrapped-long-word scrolling-long-word rectW 307.8 contentW 301.5 frameW 342 90% 307.8 maxW 90% frame scrollW 342
+390 master 5 67.2px word-display large rectW 167.11 contentW 167.1 frameW 342 90% 307.8 maxW 94% frame scrollW 342
+390 master 45 13px word-display large fitted-long-word rectW 295.47 contentW 295.5 frameW 342 90% 307.8 maxW 94% frame scrollW 342
+390 master 135 10px word-display large fitted-long-word rectW 1275.22 contentW 1356.6 frameW 342 90% 307.8 maxW 94% frame scrollW 1357
+390 master 2000 10px word-display large fitted-long-word rectW 18891.81 contentW 20097.7 frameW 342 90% 307.8 maxW 94% frame scrollW 20098
+390 master 10000 10px word-display large fitted-long-word rectW 94459 contentW 100488.3 frameW 342 90% 307.8 maxW 94% frame scrollW 100488

@@ -1,0 +1,37 @@
+DATA 1400 W135 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 21a34198d21c 21a34198d21c
+DATA 1400 W500 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 8c8b2ae7f9b2 8c8b2ae7f9b2
+DATA 1400 W1000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 00869c4e1082 00869c4e1082
+DATA 1400 W2000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 8f900f06c038 8f900f06c038
+DATA 1400 W10000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 55c5b222cffd 55c5b222cffd
+DATA 1400 real135 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session b97bc6ceff40 b97bc6ceff40
+DATA 1400 real500 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 1845a23607d0 1845a23607d0
+DATA 1400 real1000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 497b303b9f6a 497b303b9f6a
+DATA 1400 real2000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session b7574dd22373 b7574dd22373
+DATA 1400 real10000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 12069a6bc3cd 12069a6bc3cd
+DATA 1400 real45 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 1e0fe2ed0522 1e0fe2ed0522
+DATA 1400 Hello5 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session a7f9ccd995ad a7f9ccd995ad
+DATA 390 W135 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 21a34198d21c 21a34198d21c
+DATA 390 W500 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 8c8b2ae7f9b2 8c8b2ae7f9b2
+DATA 390 W1000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 00869c4e1082 00869c4e1082
+DATA 390 W2000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 8f900f06c038 8f900f06c038
+DATA 390 W10000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 55c5b222cffd 55c5b222cffd
+DATA 390 real135 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session b97bc6ceff40 b97bc6ceff40
+DATA 390 real500 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 1845a23607d0 1845a23607d0
+DATA 390 real1000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 497b303b9f6a 497b303b9f6a
+DATA 390 real2000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session b7574dd22373 b7574dd22373
+DATA 390 real10000 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 12069a6bc3cd 12069a6bc3cd
+DATA 390 real45 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session 1e0fe2ed0522 1e0fe2ed0522
+DATA 390 Hello5 MATCH idx 1 count 4 2 / 4 50% resume 1 keys 13 session a7f9ccd995ad a7f9ccd995ad
+ID 1400 large 5 fields [] 128px [560.84375,387.375,318.3125,138.234375] word-display large png== true px 0 [606,627]
+ID 1400 large 45 fields [] 23px [458.640625,444.078125,522.71875,24.828125] word-display large fitted-long-word png== true px 0 [606,627]
+ID 1400 comfortable 5 fields [] 108.8px [584.703125,397.75,270.59375,117.5] word-display png== true px 0 [606,627]
+ID 1400 comfortable 45 fields [] 23px [458.640625,444.078125,522.71875,24.828125] word-display fitted-long-word png== true px 0 [606,627]
+ID 1400 compact 5 fields [] 83.2px [616.53125,411.578125,206.921875,89.84375] word-display compact png== true px 0 [606,627]
+ID 1400 compact 45 fields [] 23px [458.640625,444.078125,522.71875,24.828125] word-display compact fitted-long-word png== true px 0 [606,627]
+ID 390 large 5 fields [] 64px [115.421875,338.90625,159.15625,69.109375] word-display large png== true px 0 [344,281]
+ID 390 large 45 fields [] 13px [47.265625,366.453125,295.46875,14.03125] word-display large fitted-long-word png== true px 0 [344,281]
+ID 390 comfortable 5 fields [] 51.2px [131.328125,345.828125,127.34375,55.28125] word-display png== true px 0 [344,281]
+ID 390 comfortable 45 fields [] 13px [47.265625,366.453125,295.46875,14.03125] word-display fitted-long-word png== true px 0 [344,281]
+ID 390 compact 5 fields [] 38.4px [147.234375,352.734375,95.515625,41.46875] word-display compact png== true px 0 [344,281]
+ID 390 compact 45 fields [] 13px [47.265625,366.453125,295.46875,14.03125] word-display compact fitted-long-word png== true px 0 [344,281]
+failures 0 sessionKeys title,text,index,wpm,sentencePause,commaPause,paragraphPause,smartPacing,focusLetter,contextWords,focusMode,wordSize,savedAt

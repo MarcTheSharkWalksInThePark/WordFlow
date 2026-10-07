@@ -1,0 +1,49 @@
+390x844 W2000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":578,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":6,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":2,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0} 
+   touch {"swipes":2,"swipeDistance":114,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0,"regionBoxH":130}
+390x844 W10000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":3381,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":30,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":9,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0} 
+   touch {"swipes":6,"swipeDistance":114,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0,"regionBoxH":130}
+390x844 real2000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":231,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":3,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":1,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0} 
+   touch {"swipes":1,"swipeDistance":114,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0,"pageScrolledBy":0,"regionBoxH":130}
+390x600 W2000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":578,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":6,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":2,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0} 
+   touch {"swipes":2,"swipeDistance":114,"scrollTop":578,"max":578,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0,"regionBoxH":130}
+390x600 W10000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":3381,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":30,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":9,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0} 
+   touch {"swipes":6,"swipeDistance":114,"scrollTop":3381,"max":3381,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0,"regionBoxH":130}
+390x600 real2000 scrolling true frame 233.47-513.47 region 286.47-416.47 clientH 130 lines 12.38 note 487.47-502.47 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"246.47-264.06","next":"440.88-458.47"} inVP frame/region/note true true true
+   top {"scrollTop":0,"max":231,"firstVisible":true,"lastVisible":false,"winY":0} 
+   End {"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0} 
+   PageDown {"presses":3,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":0} 
+   wheel {"wheels":1,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0} 
+   touch {"swipes":1,"swipeDistance":114,"scrollTop":231,"max":231,"firstVisible":false,"lastVisible":true,"winY":51,"pageScrolledBy":0,"regionBoxH":130}
+844x390 W2000 scrolling true frame 143-511 region 196-414 clientH 218 lines 20.76 note 485-500 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"156-176.41","next":"435.59-456"} inVP frame/region/note false false false
+   top {"scrollTop":0,"max":406,"firstVisible":true,"lastVisible":false,"winY":120} 
+   End {"scrollTop":406,"max":406,"firstVisible":false,"lastVisible":true,"winY":120} 
+   PageDown {"presses":3,"scrollTop":406,"max":406,"firstVisible":false,"lastVisible":true,"winY":120} 
+   wheel {"wheels":2,"scrollTop":406,"max":406,"firstVisible":false,"lastVisible":true,"winY":110,"pageScrolledBy":0} 
+   touch {"swipes":2,"swipeDistance":150,"scrollTop":406,"max":406,"firstVisible":false,"lastVisible":true,"winY":110,"pageScrolledBy":0,"regionBoxH":218}
+844x390 W10000 scrolling true frame 143-511 region 196-414 clientH 218 lines 20.76 note 485-500 lines 1 noteInFrame true trunc false noteOvRegion false ctx {"previous":"156-176.41","next":"435.59-456"} inVP frame/region/note false false false
+   top {"scrollTop":0,"max":2884,"firstVisible":true,"lastVisible":false,"winY":120} 
+   End {"scrollTop":2884,"max":2884,"firstVisible":false,"lastVisible":true,"winY":120} 
+   PageDown {"presses":16,"scrollTop":2884,"max":2884,"firstVisible":false,"lastVisible":true,"winY":120} 
+   wheel {"wheels":8,"scrollTop":2884,"max":2884,"firstVisible":false,"lastVisible":true,"winY":110,"pageScrolledBy":0} 
+   touch {"swipes":5,"swipeDistance":150,"scrollTop":2884,"max":2884,"firstVisible":false,"lastVisible":true,"winY":110,"pageScrolledBy":0,"regionBoxH":218}
+844x390 real2000 scrolling false frame 143-511 region 169.5-484.5 clientH 315 lines 30 note null noteInFrame null trunc null noteOvRegion null ctx {"previous":"224.52-244.92 OVR","next":"409.08-429.48 OVR"} inVP frame/region/note false false null

@@ -1,0 +1,97 @@
+[object Object] | base | W135 | font 10px | wrap | - | word y440.75-472.25 h31.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | W500 | font 10px | wrap | - | word y404-509 h105 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | W1000 | font 10px | wrap | - | word y356.75-556.25 h199.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | W2000 | font 10px | wrap | - | word y257-656 h399 | frame 143-770 | prev 278.5-313.5 INK{"w":58.34,"h":35} | next 599.45-634.45 INK{"w":42.44,"h":35} | rails 0
+[object Object] | base | real135 | font 10px | wrap | - | word y446-467 h21 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | real500 | font 10px | wrap | - | word y430.25-482.75 h52.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | real1000 | font 10px | wrap | - | word y404-509 h105 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | base | real2000 | font 10px | wrap | - | word y356.75-556.25 h199.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | W135 | font 10px | wrap | - | word y440.75-472.25 h31.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | W500 | font 10px | wrap | - | word y404-509 h105 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | W1000 | font 10px | wrap | - | word y356.75-556.25 h199.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | W2000 | font 10px | wrap | - | word y257-656 h399 | frame 143-770 | prev 278.5-313.5 INK{"w":58.34,"h":35} | next 599.45-634.45 INK{"w":42.44,"h":35} | rails 0
+[object Object] | letterOff | real135 | font 10px | wrap | - | word y446-467 h21 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | real500 | font 10px | wrap | - | word y430.25-482.75 h52.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | real1000 | font 10px | wrap | - | word y404-509 h105 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | letterOff | real2000 | font 10px | wrap | - | word y356.75-556.25 h199.5 | frame 143-770 | prev 278.5-313.5 | next 599.45-634.45 | rails 0
+[object Object] | focusMode | W135 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | W500 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | W1000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | W2000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | real135 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | real500 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | real1000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode | real2000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | W135 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | W500 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | W1000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | W2000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | real135 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | real500 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | real1000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | focusMode-letterOff | real2000 | font 140px | - | - | word y390.91-542.09 h151.19 | frame 143-790 | prev 282.89-317.89 | next 615.06-650.06 | rails 0
+[object Object] | base | W135 | font 10px | wrap | - | word y347.22-399.72 h52.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | base | W500 | font 10px | wrap | - | word y284.22-462.72 h178.5 | frame 233.47-513.47 | prev 293.63-314.63 INK{"w":35.36,"h":21} | next 431.72-452.72 INK{"w":25.72,"h":21} | rails 0
+[object Object] | base | W1000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | base | W2000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | base | real135 | font 10px | wrap | - | word y357.72-389.22 h31.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | base | real500 | font 10px | wrap | - | word y326.22-420.72 h94.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | base | real1000 | font 10px | wrap | - | word y284.22-462.72 h178.5 | frame 233.47-513.47 | prev 293.63-314.63 INK{"w":35.36,"h":21} | next 431.72-452.72 INK{"w":25.72,"h":21} | rails 0
+[object Object] | base | real2000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | letterOff | W135 | font 10px | wrap | - | word y347.22-399.72 h52.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | letterOff | W500 | font 10px | wrap | - | word y284.22-462.72 h178.5 | frame 233.47-513.47 | prev 293.63-314.63 INK{"w":35.36,"h":21} | next 431.72-452.72 INK{"w":25.72,"h":21} | rails 0
+[object Object] | letterOff | W1000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | letterOff | W2000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | letterOff | real135 | font 10px | wrap | - | word y357.72-389.22 h31.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | letterOff | real500 | font 10px | wrap | - | word y326.22-420.72 h94.5 | frame 233.47-513.47 | prev 293.63-314.63 | next 431.72-452.72 | rails 0
+[object Object] | letterOff | real1000 | font 10px | wrap | - | word y284.22-462.72 h178.5 | frame 233.47-513.47 | prev 293.63-314.63 INK{"w":35.36,"h":21} | next 431.72-452.72 INK{"w":25.72,"h":21} | rails 0
+[object Object] | letterOff | real2000 | font 10px | wrap | SCROLL | word y286.47-416.47 h130 | frame 233.47-513.47 | prev 244.47-265.47 | next 438.88-459.88 | rails 0
+[object Object] | focusMode | W135 | font 10px | wrap | - | word y494.17-546.67 h52.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode | W500 | font 10px | wrap | - | word y431.17-609.67 h178.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode | W1000 | font 10px | wrap | - | word y341.92-698.92 h357 | frame 233.47-807.38 | prev 358.28-379.28 INK{"w":35.36,"h":21} | next 660.97-681.97 INK{"w":25.72,"h":21} | rails 0
+[object Object] | focusMode | W2000 | font 10px | wrap | SCROLL | word y286.47-710.38 h423.91 | frame 233.47-807.38 | prev 244.47-265.47 | next 732.78-753.78 | rails 0
+[object Object] | focusMode | real135 | font 10px | wrap | - | word y504.67-536.17 h31.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode | real500 | font 10px | wrap | - | word y473.17-567.67 h94.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode | real1000 | font 10px | wrap | - | word y431.17-609.67 h178.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode | real2000 | font 10px | wrap | - | word y341.92-698.92 h357 | frame 233.47-807.38 | prev 358.28-379.28 INK{"w":35.36,"h":21} | next 660.97-681.97 INK{"w":25.72,"h":21} | rails 0
+[object Object] | focusMode-letterOff | W135 | font 10px | wrap | - | word y494.17-546.67 h52.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode-letterOff | W500 | font 10px | wrap | - | word y431.17-609.67 h178.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode-letterOff | W1000 | font 10px | wrap | - | word y341.92-698.92 h357 | frame 233.47-807.38 | prev 358.28-379.28 INK{"w":35.36,"h":21} | next 660.97-681.97 INK{"w":25.72,"h":21} | rails 0
+[object Object] | focusMode-letterOff | W2000 | font 10px | wrap | SCROLL | word y286.47-710.38 h423.91 | frame 233.47-807.38 | prev 244.47-265.47 | next 732.78-753.78 | rails 0
+[object Object] | focusMode-letterOff | real135 | font 10px | wrap | - | word y504.67-536.17 h31.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode-letterOff | real500 | font 10px | wrap | - | word y473.17-567.67 h94.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode-letterOff | real1000 | font 10px | wrap | - | word y431.17-609.67 h178.5 | frame 233.47-807.38 | prev 358.28-379.28 | next 660.97-681.97 | rails 0
+[object Object] | focusMode-letterOff | real2000 | font 10px | wrap | - | word y341.92-698.92 h357 | frame 233.47-807.38 | prev 358.28-379.28 INK{"w":35.36,"h":21} | next 660.97-681.97 INK{"w":25.72,"h":21} | rails 0
+THR 1400x950 base W {"frameClientH":625,"frameTop":143,"prevTextBottom":313.5,"nextTextTop":599.45,"prevBoxBottom":310.55,"nextBoxTop":602.45,"inkGap":285.95,"boxGap":291.9,"fit58":362.5,"railsGap":533} lastNon 3186 h 619.5 ink true | first 3187 ink false note null | firstInkOverlap 1459 h 294 lastClear h 283.5
+THR 1400x950 base real {"frameClientH":625,"frameTop":143,"prevTextBottom":313.5,"nextTextTop":599.45,"prevBoxBottom":310.55,"nextBoxTop":602.45,"inkGap":285.95,"boxGap":291.9,"fit58":362.5,"railsGap":533} lastNon 6319 h 619.5 ink true | first 6320 ink false note null | firstInkOverlap 2893 h 294 lastClear h 283.5
+THR 1400x950 letterOff W {"frameClientH":625,"frameTop":143,"prevTextBottom":313.5,"nextTextTop":599.45,"prevBoxBottom":310.55,"nextBoxTop":602.45,"inkGap":285.95,"boxGap":291.9,"fit58":362.5,"railsGap":533} lastNon 3186 h 619.5 ink true | first 3187 ink false note null | firstInkOverlap 1459 h 294 lastClear h 283.5
+THR 1400x950 letterOff real {"frameClientH":625,"frameTop":143,"prevTextBottom":313.5,"nextTextTop":599.45,"prevBoxBottom":310.55,"nextBoxTop":602.45,"inkGap":285.95,"boxGap":291.9,"fit58":362.5,"railsGap":533} lastNon 6319 h 619.5 ink true | first 6320 ink false note null | firstInkOverlap 2893 h 294 lastClear h 283.5
+THR 1400x950 focusMode W {"frameClientH":645,"frameTop":143,"prevTextBottom":317.89,"nextTextTop":615.06,"prevBoxBottom":314.94,"nextBoxTop":618.06,"inkGap":297.17,"boxGap":303.12,"fit58":374.1,"railsGap":553} lastNon 39999 h 151.19 ink false | first 40000 ink false note null | firstInkOverlap null h null lastClear h null
+THR 1400x950 focusMode real {"frameClientH":645,"frameTop":143,"prevTextBottom":317.89,"nextTextTop":615.06,"prevBoxBottom":314.94,"nextBoxTop":618.06,"inkGap":297.17,"boxGap":303.12,"fit58":374.1,"railsGap":553} lastNon 39999 h 151.19 ink false | first 40000 ink false note null | firstInkOverlap null h null lastClear h null
+THR 1400x950 focusMode-letterOff W {"frameClientH":645,"frameTop":143,"prevTextBottom":317.89,"nextTextTop":615.06,"prevBoxBottom":314.94,"nextBoxTop":618.06,"inkGap":297.17,"boxGap":303.12,"fit58":374.1,"railsGap":553} lastNon 39999 h 151.19 ink false | first 40000 ink false note null | firstInkOverlap null h null lastClear h null
+THR 1400x950 focusMode-letterOff real {"frameClientH":645,"frameTop":143,"prevTextBottom":317.89,"nextTextTop":615.06,"prevBoxBottom":314.94,"nextBoxTop":618.06,"inkGap":297.17,"boxGap":303.12,"fit58":374.1,"railsGap":553} lastNon 39999 h 151.19 ink false | first 40000 ink false note null | firstInkOverlap null h null lastClear h null
+THR 390x844 base W {"frameClientH":278,"frameTop":233.47,"prevTextBottom":314.63,"nextTextTop":431.72,"prevBoxBottom":313.22,"nextBoxTop":433.72,"inkGap":117.09,"boxGap":120.5,"fit58":161.24,"railsGap":186} lastNon 780 h 273 ink true | first 781 ink false note null | firstInkOverlap 331 h 126 lastClear h 115.5
+THR 390x844 base real {"frameClientH":278,"frameTop":233.47,"prevTextBottom":314.63,"nextTextTop":431.72,"prevBoxBottom":313.22,"nextBoxTop":433.72,"inkGap":117.09,"boxGap":120.5,"fit58":161.24,"railsGap":186} lastNon 1565 h 273 ink true | first 1566 ink false note null | firstInkOverlap 666 h 126 lastClear h 115.5
+THR 390x844 letterOff W {"frameClientH":278,"frameTop":233.47,"prevTextBottom":314.63,"nextTextTop":431.72,"prevBoxBottom":313.22,"nextBoxTop":433.72,"inkGap":117.09,"boxGap":120.5,"fit58":161.24,"railsGap":186} lastNon 780 h 273 ink true | first 781 ink false note null | firstInkOverlap 331 h 126 lastClear h 115.5
+THR 390x844 letterOff real {"frameClientH":278,"frameTop":233.47,"prevTextBottom":314.63,"nextTextTop":431.72,"prevBoxBottom":313.22,"nextBoxTop":433.72,"inkGap":117.09,"boxGap":120.5,"fit58":161.24,"railsGap":186} lastNon 1565 h 273 ink true | first 1566 ink false note null | firstInkOverlap 666 h 126 lastClear h 115.5
+THR 390x844 focusMode W {"frameClientH":572,"frameTop":233.47,"prevTextBottom":379.28,"nextTextTop":660.97,"prevBoxBottom":377.88,"nextBoxTop":662.97,"inkGap":281.69,"boxGap":285.09,"fit58":331.76,"railsGap":479.91} lastNon 1620 h 567 ink true | first 1621 ink false note null | firstInkOverlap 781 h 283.5 lastClear h 273
+THR 390x844 focusMode real {"frameClientH":572,"frameTop":233.47,"prevTextBottom":379.28,"nextTextTop":660.97,"prevBoxBottom":377.88,"nextBoxTop":662.97,"inkGap":281.69,"boxGap":285.09,"fit58":331.76,"railsGap":479.91} lastNon 3244 h 567 ink true | first 3245 ink false note null | firstInkOverlap 1566 h 283.5 lastClear h 273
+THR 390x844 focusMode-letterOff W {"frameClientH":572,"frameTop":233.47,"prevTextBottom":379.28,"nextTextTop":660.97,"prevBoxBottom":377.88,"nextBoxTop":662.97,"inkGap":281.69,"boxGap":285.09,"fit58":331.76,"railsGap":479.91} lastNon 1620 h 567 ink true | first 1621 ink false note null | firstInkOverlap 781 h 283.5 lastClear h 273
+THR 390x844 focusMode-letterOff real {"frameClientH":572,"frameTop":233.47,"prevTextBottom":379.28,"nextTextTop":660.97,"prevBoxBottom":377.88,"nextBoxTop":662.97,"inkGap":281.69,"boxGap":285.09,"fit58":331.76,"railsGap":479.91} lastNon 3244 h 567 ink true | first 3245 ink false note null | firstInkOverlap 1566 h 283.5 lastClear h 273
+MASTER 1400 W135 10px h10.8 ink false
+MASTER 1400 W500 10px h10.8 ink false
+MASTER 1400 W1000 10px h10.8 ink false
+MASTER 1400 W2000 10px h10.8 ink false
+MASTER 1400 real135 10px h10.8 ink false
+MASTER 1400 real500 10px h10.8 ink false
+MASTER 1400 real1000 10px h10.8 ink false
+MASTER 1400 real2000 10px h10.8 ink false
+MASTER 390 W135 10px h10.8 ink false
+MASTER 390 W500 10px h10.8 ink false
+MASTER 390 W1000 10px h10.8 ink false
+MASTER 390 W2000 10px h10.8 ink false
+MASTER 390 real135 10px h10.8 ink false
+MASTER 390 real500 10px h10.8 ink false
+MASTER 390 real1000 10px h10.8 ink false
+MASTER 390 real2000 10px h10.8 ink false
+errors []

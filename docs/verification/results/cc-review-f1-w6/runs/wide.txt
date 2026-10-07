@@ -1,0 +1,8 @@
+1920 branch normal 45 128px word-display large frameClientW 1124 frameScrollW 2909 scrolling false
+1920 branch normal 2000 128px word-display large frameClientW 1124 frameScrollW 257250 scrolling false
+1920 master normal 45 128px word-display large frameClientW 1124 frameScrollW 2909 scrolling false
+1920 master normal 2000 128px word-display large frameClientW 1124 frameScrollW 257250 scrolling false
+2560 branch normal 45 128px word-display large frameClientW 1764 frameScrollW 2909 scrolling false
+2560 branch normal 2000 128px word-display large frameClientW 1764 frameScrollW 257250 scrolling false
+2560 master normal 45 128px word-display large frameClientW 1764 frameScrollW 2909 scrolling false
+2560 master normal 2000 128px word-display large frameClientW 1764 frameScrollW 257250 scrolling false
