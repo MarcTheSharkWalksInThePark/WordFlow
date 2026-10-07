@@ -1,0 +1,414 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cfg": {
+    "final": true,
+    "size": "comfortable",
+    "context": true,
+    "letter": true
+  },
+  "token": "W x 2000",
+  "errors": [],
+  "uploads": 0,
+  "chrome": "155.0.8059.39",
+  "playwright": "1.62.1",
+  "master": {
+    "reading": {
+      "font": "10px",
+      "classes": "word-display fitted-long-word",
+      "frameClasses": "reader-frame",
+      "word": {
+        "left": 626.9375,
+        "right": 19518.75,
+        "top": 368.0625,
+        "bottom": 378.859375,
+        "width": 18891.8125,
+        "height": 10.796875
+      },
+      "text": {
+        "left": 24,
+        "right": 20121.6875,
+        "top": 366.0625,
+        "bottom": 380.0625,
+        "width": 20097.6875,
+        "height": 14
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "overlap": {
+        "width": 0,
+        "height": 0
+      },
+      "overlapArea": 0,
+      "panelHidden": true,
+      "panelZIndex": "3",
+      "hitInPanel": false,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 11,
+        "scrollHeight": 12,
+        "scrollTop": 0
+      },
+      "noteHidden": true,
+      "marker": null,
+      "finished": false,
+      "playing": false,
+      "index": 1,
+      "status": "Reader fixture",
+      "textLength": 2000
+    },
+    "finished": {
+      "font": "10px",
+      "classes": "word-display fitted-long-word",
+      "frameClasses": "reader-frame",
+      "word": {
+        "left": 626.9375,
+        "right": 19518.75,
+        "top": 368.0625,
+        "bottom": 378.859375,
+        "width": 18891.8125,
+        "height": 10.796875
+      },
+      "text": {
+        "left": 24,
+        "right": 20121.6875,
+        "top": 366.0625,
+        "bottom": 380.0625,
+        "width": 20097.6875,
+        "height": 14
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 38,
+        "right": 352,
+        "top": 285.5625,
+        "bottom": 461.375,
+        "width": 314,
+        "height": 175.8125
+      },
+      "overlap": {
+        "width": 0,
+        "height": 10.796875
+      },
+      "overlapArea": 0,
+      "panelHidden": false,
+      "panelZIndex": "3",
+      "hitInPanel": true,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 11,
+        "scrollHeight": 12,
+        "scrollTop": 0
+      },
+      "noteHidden": true,
+      "marker": null,
+      "finished": true,
+      "playing": false,
+      "index": 1,
+      "status": "Finished",
+      "textLength": 2000
+    },
+    "pngSha256": "e5792bf4d96f7e495a4e909c453561a4bf557a9d0eb5cd9f757bf79524b9c22e",
+    "title": "WordFlow Reader"
+  },
+  "before": {
+    "reading": {
+      "font": "10px",
+      "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+      "frameClasses": "reader-frame scrolling-long-text",
+      "word": {
+        "left": 41.1015625,
+        "right": 348.8984375,
+        "top": 286.46875,
+        "bottom": 416.46875,
+        "width": 307.796875,
+        "height": 130
+      },
+      "text": {
+        "left": 44.2421875,
+        "right": 345.7421875,
+        "top": 286.46875,
+        "bottom": 993.46875,
+        "width": 301.5,
+        "height": 707
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "overlap": {
+        "width": 0,
+        "height": 0
+      },
+      "overlapArea": 0,
+      "panelHidden": true,
+      "panelZIndex": "3",
+      "hitInPanel": false,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 130,
+        "scrollHeight": 708,
+        "scrollTop": 0
+      },
+      "noteHidden": false,
+      "marker": "1",
+      "finished": false,
+      "playing": false,
+      "index": 1,
+      "status": "Reader fixture",
+      "textLength": 2000
+    },
+    "finished": {
+      "font": "51.2px",
+      "classes": "word-display",
+      "frameClasses": "reader-frame",
+      "word": {
+        "left": 3111,
+        "right": 99837,
+        "top": 345.828125,
+        "bottom": 401.109375,
+        "width": 96726,
+        "height": 55.28125
+      },
+      "text": {
+        "left": 24,
+        "right": 102924.015625,
+        "top": 337.828125,
+        "bottom": 405.828125,
+        "width": 102900.015625,
+        "height": 68
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 38,
+        "right": 352,
+        "top": 285.5625,
+        "bottom": 461.375,
+        "width": 314,
+        "height": 175.8125
+      },
+      "overlap": {
+        "width": 0,
+        "height": 55.28125
+      },
+      "overlapArea": 0,
+      "panelHidden": false,
+      "panelZIndex": "3",
+      "hitInPanel": true,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 55,
+        "scrollHeight": 60,
+        "scrollTop": 0
+      },
+      "noteHidden": true,
+      "marker": null,
+      "finished": true,
+      "playing": false,
+      "index": 1,
+      "status": "Finished",
+      "textLength": 2000
+    },
+    "pngSha256": "d235f88b35b8cedb22be9307a55a8273af46fddb01bf00d139fdc601cbedb6fb",
+    "title": "WordFlow Reader"
+  },
+  "candidate": {
+    "reading": {
+      "font": "10px",
+      "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+      "frameClasses": "reader-frame scrolling-long-text",
+      "word": {
+        "left": 41.1015625,
+        "right": 348.8984375,
+        "top": 286.46875,
+        "bottom": 416.46875,
+        "width": 307.796875,
+        "height": 130
+      },
+      "text": {
+        "left": 44.2421875,
+        "right": 345.7421875,
+        "top": 286.46875,
+        "bottom": 993.46875,
+        "width": 301.5,
+        "height": 707
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0,
+        "width": 0,
+        "height": 0
+      },
+      "overlap": {
+        "width": 0,
+        "height": 0
+      },
+      "overlapArea": 0,
+      "panelHidden": true,
+      "panelZIndex": "3",
+      "hitInPanel": false,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 130,
+        "scrollHeight": 708,
+        "scrollTop": 0
+      },
+      "noteHidden": false,
+      "marker": "1",
+      "finished": false,
+      "playing": false,
+      "index": 1,
+      "status": "Reader fixture",
+      "textLength": 2000
+    },
+    "finished": {
+      "font": "10px",
+      "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+      "frameClasses": "reader-frame scrolling-long-text",
+      "word": {
+        "left": 41.1015625,
+        "right": 348.8984375,
+        "top": 286.46875,
+        "bottom": 416.46875,
+        "width": 307.796875,
+        "height": 130
+      },
+      "text": {
+        "left": 44.2421875,
+        "right": 345.7421875,
+        "top": 286.46875,
+        "bottom": 993.46875,
+        "width": 301.5,
+        "height": 707
+      },
+      "frame": {
+        "left": 23,
+        "right": 367,
+        "top": 233.46875,
+        "bottom": 513.46875,
+        "width": 344,
+        "height": 280
+      },
+      "summary": {
+        "left": 38,
+        "right": 352,
+        "top": 285.5625,
+        "bottom": 461.375,
+        "width": 314,
+        "height": 175.8125
+      },
+      "overlap": {
+        "width": 307.796875,
+        "height": 130
+      },
+      "overlapArea": 40013.59375,
+      "panelHidden": false,
+      "panelZIndex": "3",
+      "hitInPanel": true,
+      "hitInWord": false,
+      "frameInner": {
+        "left": 24,
+        "right": 366,
+        "top": 234.46875,
+        "bottom": 512.46875
+      },
+      "area": {
+        "clientHeight": 130,
+        "scrollHeight": 708,
+        "scrollTop": 0
+      },
+      "noteHidden": true,
+      "marker": null,
+      "finished": true,
+      "playing": false,
+      "index": 1,
+      "status": "Finished",
+      "textLength": 2000
+    },
+    "pngSha256": "9c1e01e37dd823f81df01863fc0ba031060245371493b978a078e67db83c6a53",
+    "title": "WordFlow Reader"
+  },
+  "stop": "STOP: scrolling last word overlaps the Finished panel, which intercepts pointer input in the overlap."
+}

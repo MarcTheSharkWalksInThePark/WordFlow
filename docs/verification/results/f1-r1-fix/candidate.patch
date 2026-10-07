@@ -1,0 +1,29 @@
+diff --git a/app.js b/app.js
+index a81ba86..343691b 100644
+--- a/app.js
++++ b/app.js
+@@ -366,7 +366,7 @@ function fitDisplayedWord(options = {}) {
+     const frame = display.closest(".reader-frame");
+     const scrollTop = options.scrollTop ?? display.scrollTop;
+     resetLongTokenLayout(false, true);
+-    if (!frame || state.finished || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
++    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
+       resetLongTokenLayout(true);
+       return;
+     }
+@@ -425,11 +425,11 @@ function fitDisplayedWord(options = {}) {
+       display.setAttribute("tabindex", "0");
+       display.setAttribute("role", "region");
+       display.setAttribute("aria-label", "Long text");
+-      display.setAttribute("aria-describedby", "long-text-note");
++      if (!state.finished) display.setAttribute("aria-describedby", "long-text-note");
+       display.scrollTop = scrollTop;
+-      els.longTextNote.hidden = false;
+-      display.dataset.longTextPaused = String(state.index);
+-      if (state.playing) {
++      els.longTextNote.hidden = state.finished;
++      if (!state.finished) display.dataset.longTextPaused = String(state.index);
++      if (state.playing && !state.finished) {
+         pause();
+         setStatus("Paused");
+       }

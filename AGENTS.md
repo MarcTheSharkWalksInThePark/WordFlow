@@ -173,17 +173,17 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
   (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
   whether the daily request count excludes static page views.
-- **F1:** F1 candidate (W6.1-W6.12) on fix/f1-long-token at 2215e81; CC re-review CLEAR WITH
-  FINDINGS (`docs/verification/2026-10-07_cc_rereview_f1.md`); not yet fixed (W6.11). Every
-  builder number reproduces (505 Node / 0 skips, also browser-denied; parity 9 DOCX / 7 PDF /
-  272 smoke, 0 errors/uploads, stamp byte-identical; 78 mutations unchanged; eight CC
-  hand-mutants red in Node and Chrome). W6.7, W6.9, W6.10, W6.12 and data/v1 parity are verified
-  independently; earlier F-1 to F-5 are closed. **R-1 (open):** the Finished screen skips
-  master's fitting, so a final word that master fits is shown unfitted and clipped (W6.1/W6.9).
-  Awaiting Marcus's decision on R-1 (CC lean: a narrow fix plus a scoped CC check) before any
-  merge/push; then post-deploy smoke:live. Master b9d3d9e untouched; no merge/push/deploy. The
-  old and new CC scratch session folders remain (deletion refused in session); Marcus may delete
-  them.
+- **F1:** F1 (W6.1-W6.13) on fix/f1-long-token; R-1 fix STOP on Finished-panel collision;
+  not yet merged or fixed. W6.13 committed verbatim before code as 16cb0ac. The narrow
+  candidate retains W2000's scroll area at 390x844, but the Finished panel covers the entire
+  130 px area and intercepts pointer input. Mandatory STOP; candidate patch/evidence preserved,
+  app.js restored byte-for-byte to starting caa0d65. Full Step 2 verification and the short CC
+  check have not run; the requested "R-1 fix pending CC check" state was not reached.
+  See `docs/verification/2026-10-07_codex_f1_r1_fix.md`. Earlier CC re-review remains CLEAR
+  WITH FINDINGS (72c2635); its 505/0, 9/7/272 parity, 78 mutations and 8 hand-mutants are
+  prior-build evidence. O-2 and landscape-note behavior accepted under W6.13. Marcus resolves
+  the scroll-area/Finished-panel requirement before further implementation and scoped CC check.
+  Master b9d3d9e untouched; no merge/push/deploy. CC scratch folders remain for Marcus to delete.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.
