@@ -1,0 +1,213 @@
+1708x950 Background                                     10 VISIBLE 128px 726 -> 128px 726   dom = px 0 inner 912
+1708x950 Throughput                                     10 VISIBLE 128px 721.625 -> 128px 721.625   dom = px 0 inner 912
+1708x950 Whatsoever                                     10 VISIBLE 128px 716.5 -> 128px 716.5   dom = px 0 inner 912
+1708x950 Workmanship                                    11 VISIBLE 128px 838.625 -> 128px 838.625   dom = px 0 inner 912
+1708x950 Extraordinary                                  13 VISIBLE 128px 824 -> 128px 824   dom = px 0 inner 912
+1708x950 Understanding                                  13 VISIBLE 128px 894.938 -> 128px 894.938   dom = px 0 inner 912
+1708x950 Neighbourhood                                  13 CLIPPED 128px 962.25 -> 109px 819.438   inside true maximal true inner 912
+1708x950 Wholeheartedly                                 14 CLIPPED 128px 962.438 -> 109px 819.609   inside true maximal true inner 912
+1708x950 Responsibility                                 14 VISIBLE 128px 840.875 -> 128px 840.875   dom = px 0 inner 912
+1708x950 Infrastructure                                 14 VISIBLE 128px 830.125 -> 128px 830.125   dom = px 0 inner 912
+1708x950 Accomplishment                                 14 CLIPPED 128px 1007.625 -> 104px 818.703   inside true maximal true inner 912
+1708x950 Characteristics                                15 VISIBLE 128px 873.688 -> 128px 873.688   dom = px 0 inner 912
+1708x950 Recommendations                                15 CLIPPED 128px 1116.813 -> 94px 820.172   inside true maximal true inner 912
+1708x950 Misunderstanding                               16 CLIPPED 128px 1095 -> 95px 812.719   inside true maximal true inner 912
+1708x950 Telecommunications                             18 CLIPPED 128px 1232.313 -> 85px 818.359   inside true maximal true inner 912
+1708x950 Internationalization                           20 CLIPPED 128px 1189.375 -> 88px 817.719   inside true maximal true inner 912
+1708x950 Bærekraftig                                    11 VISIBLE 128px 716.563 -> 128px 716.563   dom = px 0 inner 912
+1708x950 Arbeidsplass                                   12 VISIBLE 128px 758.75 -> 128px 758.75   dom = px 0 inner 912
+1708x950 Sannsynligvis                                  13 VISIBLE 128px 812.188 -> 128px 812.188   dom = px 0 inner 912
+1708x950 Fylkeskommune                                  13 CLIPPED 128px 975.563 -> 107px 815.531   inside true maximal true inner 912
+1708x950 Mikrobølgeovn                                  13 CLIPPED 128px 927.188 -> 113px 818.547   inside true maximal true inner 912
+1708x950 Utviklingsland                                 14 VISIBLE 128px 867.375 -> 128px 867.375   dom = px 0 inner 912
+1708x950 Barnehagelærer                                 14 CLIPPED 128px 956.375 -> 109px 814.438   inside true maximal true inner 912
+1708x950 Skolebibliotek                                 14 VISIBLE 128px 861.625 -> 128px 861.625   dom = px 0 inner 912
+1708x950 Sykehusavdeling                                15 CLIPPED 128px 1002.563 -> 104px 814.609   inside true maximal true inner 912
+1708x950 Kommunestyremøte                               16 CLIPPED 128px 1227.438 -> 85px 815.125   inside true maximal true inner 912
+1708x950 Arbeidsmiljøloven                              17 CLIPPED 128px 1095.563 -> 95px 813.141   inside true maximal true inner 912
+1708x950 Forsikringsselskap                             18 CLIPPED 128px 1099.625 -> 95px 816.141   inside true maximal true inner 912
+1708x950 Personvernerklæring                            19 CLIPPED 128px 1252.5 -> 83px 812.188   inside true maximal true inner 912
+1708x950 Høyesterettsadvokat                            19 CLIPPED 128px 1248.438 -> 84px 819.313   inside true maximal true inner 912
+1708x950 Kommunikasjonsmiddel                           20 CLIPPED 128px 1448.688 -> 72px 814.906   inside true maximal true inner 912
+1708x950 Menneskerettighetene                           20 CLIPPED 128px 1357.688 -> 77px 816.766   inside true maximal true inner 912
+1708x950 Pneumonoultramicroscopicsilicovolcanoconiosis  45 CLIPPED 128px 2908.938 -> 36px 818.156   inside true maximal true inner 912
+1708x950 Hello                                          5 VISIBLE 128px 318.313 -> 128px 318.313   dom = px 0 inner 912
+1708x950 Kommune                                        7 VISIBLE 128px 618.688 -> 128px 618.688   dom = px 0 inner 912
+1920x1080 Background                                     10 VISIBLE 128px 726 -> 128px 726   dom = px 0 inner 1124
+1920x1080 Throughput                                     10 VISIBLE 128px 721.625 -> 128px 721.625   dom = px 0 inner 1124
+1920x1080 Whatsoever                                     10 VISIBLE 128px 716.5 -> 128px 716.5   dom = px 0 inner 1124
+1920x1080 Workmanship                                    11 VISIBLE 128px 838.625 -> 128px 838.625   dom = px 0 inner 1124
+1920x1080 Extraordinary                                  13 VISIBLE 128px 824 -> 128px 824   dom = px 0 inner 1124
+1920x1080 Understanding                                  13 VISIBLE 128px 894.938 -> 128px 894.938   dom = px 0 inner 1124
+1920x1080 Neighbourhood                                  13 VISIBLE 128px 962.25 -> 128px 962.25   dom = px 0 inner 1124
+1920x1080 Wholeheartedly                                 14 VISIBLE 128px 962.438 -> 128px 962.438   dom = px 0 inner 1124
+1920x1080 Responsibility                                 14 VISIBLE 128px 840.875 -> 128px 840.875   dom = px 0 inner 1124
+1920x1080 Infrastructure                                 14 VISIBLE 128px 830.125 -> 128px 830.125   dom = px 0 inner 1124
+1920x1080 Accomplishment                                 14 VISIBLE 128px 1007.625 -> 128px 1007.625   dom = px 0 inner 1124
+1920x1080 Characteristics                                15 VISIBLE 128px 873.688 -> 128px 873.688   dom = px 0 inner 1124
+1920x1080 Recommendations                                15 VISIBLE 128px 1116.813 -> 128px 1116.813   dom = px 0 inner 1124
+1920x1080 Misunderstanding                               16 VISIBLE 128px 1095 -> 128px 1095   dom = px 0 inner 1124
+1920x1080 Telecommunications                             18 CLIPPED 128px 1232.313 -> 105px 1010.906   inside true maximal true inner 1124
+1920x1080 Internationalization                           20 CLIPPED 128px 1189.375 -> 108px 1003.563   inside true maximal true inner 1124
+1920x1080 Bærekraftig                                    11 VISIBLE 128px 716.563 -> 128px 716.563   dom = px 0 inner 1124
+1920x1080 Arbeidsplass                                   12 VISIBLE 128px 758.75 -> 128px 758.75   dom = px 0 inner 1124
+1920x1080 Sannsynligvis                                  13 VISIBLE 128px 812.188 -> 128px 812.188   dom = px 0 inner 1124
+1920x1080 Fylkeskommune                                  13 VISIBLE 128px 975.563 -> 128px 975.563   dom = px 0 inner 1124
+1920x1080 Mikrobølgeovn                                  13 VISIBLE 128px 927.188 -> 128px 927.188   dom = px 0 inner 1124
+1920x1080 Utviklingsland                                 14 VISIBLE 128px 867.375 -> 128px 867.375   dom = px 0 inner 1124
+1920x1080 Barnehagelærer                                 14 VISIBLE 128px 956.375 -> 128px 956.375   dom = px 0 inner 1124
+1920x1080 Skolebibliotek                                 14 VISIBLE 128px 861.625 -> 128px 861.625   dom = px 0 inner 1124
+1920x1080 Sykehusavdeling                                15 VISIBLE 128px 1002.563 -> 128px 1002.563   dom = px 0 inner 1124
+1920x1080 Kommunestyremøte                               16 CLIPPED 128px 1227.438 -> 105px 1006.906   inside true maximal true inner 1124
+1920x1080 Arbeidsmiljøloven                              17 VISIBLE 128px 1095.563 -> 128px 1095.563   dom = px 0 inner 1124
+1920x1080 Forsikringsselskap                             18 VISIBLE 128px 1099.625 -> 128px 1099.625   dom = px 0 inner 1124
+1920x1080 Personvernerklæring                            19 CLIPPED 128px 1252.5 -> 103px 1007.891   inside true maximal true inner 1124
+1920x1080 Høyesterettsadvokat                            19 CLIPPED 128px 1248.438 -> 103px 1004.641   inside true maximal true inner 1124
+1920x1080 Kommunikasjonsmiddel                           20 CLIPPED 128px 1448.688 -> 89px 1007.313   inside true maximal true inner 1124
+1920x1080 Menneskerettighetene                           20 CLIPPED 128px 1357.688 -> 95px 1007.688   inside true maximal true inner 1124
+1920x1080 Pneumonoultramicroscopicsilicovolcanoconiosis  45 CLIPPED 128px 2908.938 -> 44px 999.969   inside true maximal true inner 1124
+1920x1080 Hello                                          5 VISIBLE 128px 318.313 -> 128px 318.313   dom = px 0 inner 1124
+1920x1080 Kommune                                        7 VISIBLE 128px 618.688 -> 128px 618.688   dom = px 0 inner 1124
+996x950 focus Background                                     10 VISIBLE 99.6px 564.938 -> 99.6px 564.938   dom = px 0 inner 912
+996x950 focus Throughput                                     10 VISIBLE 99.6px 561.531 -> 99.6px 561.531   dom = px 0 inner 912
+996x950 focus Whatsoever                                     10 VISIBLE 99.6px 557.547 -> 99.6px 557.547   dom = px 0 inner 912
+996x950 focus Workmanship                                    11 VISIBLE 99.6px 652.563 -> 99.6px 652.563   dom = px 0 inner 912
+996x950 focus Extraordinary                                  13 VISIBLE 99.6px 641.188 -> 99.6px 641.188   dom = px 0 inner 912
+996x950 focus Understanding                                  13 VISIBLE 99.6px 696.391 -> 99.6px 696.391   dom = px 0 inner 912
+996x950 focus Neighbourhood                                  13 VISIBLE 99.6px 748.781 -> 99.6px 748.781   dom = px 0 inner 912
+996x950 focus Wholeheartedly                                 14 VISIBLE 99.6px 748.922 -> 99.6px 748.922   dom = px 0 inner 912
+996x950 focus Responsibility                                 14 VISIBLE 99.6px 654.328 -> 99.6px 654.328   dom = px 0 inner 912
+996x950 focus Infrastructure                                 14 VISIBLE 99.6px 645.953 -> 99.6px 645.953   dom = px 0 inner 912
+996x950 focus Accomplishment                                 14 VISIBLE 99.6px 784.094 -> 99.6px 784.094   dom = px 0 inner 912
+996x950 focus Characteristics                                15 VISIBLE 99.6px 679.859 -> 99.6px 679.859   dom = px 0 inner 912
+996x950 focus Recommendations                                15 VISIBLE 99.6px 869.047 -> 99.6px 869.047   dom = px 0 inner 912
+996x950 focus Misunderstanding                               16 VISIBLE 99.6px 852.063 -> 99.6px 852.063   dom = px 0 inner 912
+996x950 focus Telecommunications                             18 CLIPPED 99.6px 958.922 -> 85px 818.359   inside true maximal true inner 912
+996x950 focus Internationalization                           20 CLIPPED 99.6px 925.5 -> 88px 817.719   inside true maximal true inner 912
+996x950 focus Bærekraftig                                    11 VISIBLE 99.6px 557.594 -> 99.6px 557.594   dom = px 0 inner 912
+996x950 focus Arbeidsplass                                   12 VISIBLE 99.6px 590.422 -> 99.6px 590.422   dom = px 0 inner 912
+996x950 focus Sannsynligvis                                  13 VISIBLE 99.6px 632.016 -> 99.6px 632.016   dom = px 0 inner 912
+996x950 focus Fylkeskommune                                  13 VISIBLE 99.6px 759.125 -> 99.6px 759.125   dom = px 0 inner 912
+996x950 focus Mikrobølgeovn                                  13 VISIBLE 99.6px 721.484 -> 99.6px 721.484   dom = px 0 inner 912
+996x950 focus Utviklingsland                                 14 VISIBLE 99.6px 674.938 -> 99.6px 674.938   dom = px 0 inner 912
+996x950 focus Barnehagelærer                                 14 VISIBLE 99.6px 744.203 -> 99.6px 744.203   dom = px 0 inner 912
+996x950 focus Skolebibliotek                                 14 VISIBLE 99.6px 670.484 -> 99.6px 670.484   dom = px 0 inner 912
+996x950 focus Sykehusavdeling                                15 VISIBLE 99.6px 780.141 -> 99.6px 780.141   dom = px 0 inner 912
+996x950 focus Kommunestyremøte                               16 CLIPPED 99.6px 955.125 -> 85px 815.125   inside true maximal true inner 912
+996x950 focus Arbeidsmiljøloven                              17 VISIBLE 99.6px 852.516 -> 99.6px 852.516   dom = px 0 inner 912
+996x950 focus Forsikringsselskap                             18 VISIBLE 99.6px 855.672 -> 99.6px 855.672   dom = px 0 inner 912
+996x950 focus Personvernerklæring                            19 CLIPPED 99.6px 974.609 -> 83px 812.188   inside true maximal true inner 912
+996x950 focus Høyesterettsadvokat                            19 CLIPPED 99.6px 971.469 -> 84px 819.313   inside true maximal true inner 912
+996x950 focus Kommunikasjonsmiddel                           20 CLIPPED 99.6px 1127.297 -> 72px 814.906   inside true maximal true inner 912
+996x950 focus Menneskerettighetene                           20 CLIPPED 99.6px 1056.469 -> 77px 816.766   inside true maximal true inner 912
+996x950 focus Pneumonoultramicroscopicsilicovolcanoconiosis  45 CLIPPED 99.6px 2263.547 -> 36px 818.156   inside true maximal true inner 912
+996x950 focus Hello                                          5 VISIBLE 99.6px 247.703 -> 99.6px 247.703   dom = px 0 inner 912
+996x950 focus Kommune                                        7 VISIBLE 99.6px 481.453 -> 99.6px 481.453   dom = px 0 inner 912
+1400x950 focus Background                                     10 VISIBLE 140px 794.094 -> 140px 794.094   dom = px 0 inner 1316
+1400x950 focus Throughput                                     10 VISIBLE 140px 789.297 -> 140px 789.297   dom = px 0 inner 1316
+1400x950 focus Whatsoever                                     10 VISIBLE 140px 783.688 -> 140px 783.688   dom = px 0 inner 1316
+1400x950 focus Workmanship                                    11 VISIBLE 140px 917.281 -> 140px 917.281   dom = px 0 inner 1316
+1400x950 focus Extraordinary                                  13 VISIBLE 140px 901.266 -> 140px 901.266   dom = px 0 inner 1316
+1400x950 focus Understanding                                  13 VISIBLE 140px 978.859 -> 140px 978.859   dom = px 0 inner 1316
+1400x950 focus Neighbourhood                                  13 VISIBLE 140px 1052.484 -> 140px 1052.484   dom = px 0 inner 1316
+1400x950 focus Wholeheartedly                                 14 VISIBLE 140px 1052.688 -> 140px 1052.688   dom = px 0 inner 1316
+1400x950 focus Responsibility                                 14 VISIBLE 140px 919.719 -> 140px 919.719   dom = px 0 inner 1316
+1400x950 focus Infrastructure                                 14 VISIBLE 140px 907.969 -> 140px 907.969   dom = px 0 inner 1316
+1400x950 focus Accomplishment                                 14 VISIBLE 140px 1102.109 -> 140px 1102.109   dom = px 0 inner 1316
+1400x950 focus Characteristics                                15 VISIBLE 140px 955.625 -> 140px 955.625   dom = px 0 inner 1316
+1400x950 focus Recommendations                                15 VISIBLE 140px 1221.531 -> 140px 1221.531   dom = px 0 inner 1316
+1400x950 focus Misunderstanding                               16 VISIBLE 140px 1197.672 -> 140px 1197.672   dom = px 0 inner 1316
+1400x950 focus Telecommunications                             18 CLIPPED 140px 1347.859 -> 122px 1174.563   inside true maximal false inner 1316
+1400x950 focus Internationalization                           20 VISIBLE 140px 1300.906 -> 140px 1300.906   dom = px 0 inner 1316
+1400x950 focus Bærekraftig                                    11 VISIBLE 140px 783.75 -> 140px 783.75   dom = px 0 inner 1316
+1400x950 focus Arbeidsplass                                   12 VISIBLE 140px 829.906 -> 140px 829.906   dom = px 0 inner 1316
+1400x950 focus Sannsynligvis                                  13 VISIBLE 140px 888.359 -> 140px 888.359   dom = px 0 inner 1316
+1400x950 focus Fylkeskommune                                  13 VISIBLE 140px 1067.047 -> 140px 1067.047   dom = px 0 inner 1316
+1400x950 focus Mikrobølgeovn                                  13 VISIBLE 140px 1014.125 -> 140px 1014.125   dom = px 0 inner 1316
+1400x950 focus Utviklingsland                                 14 VISIBLE 140px 948.719 -> 140px 948.719   dom = px 0 inner 1316
+1400x950 focus Barnehagelærer                                 14 VISIBLE 140px 1046.063 -> 140px 1046.063   dom = px 0 inner 1316
+1400x950 focus Skolebibliotek                                 14 VISIBLE 140px 942.422 -> 140px 942.422   dom = px 0 inner 1316
+1400x950 focus Sykehusavdeling                                15 VISIBLE 140px 1096.578 -> 140px 1096.578   dom = px 0 inner 1316
+1400x950 focus Kommunestyremøte                               16 CLIPPED 140px 1342.531 -> 123px 1179.516   inside true maximal true inner 1316
+1400x950 focus Arbeidsmiljøloven                              17 VISIBLE 140px 1198.297 -> 140px 1198.297   dom = px 0 inner 1316
+1400x950 focus Forsikringsselskap                             18 VISIBLE 140px 1202.734 -> 140px 1202.734   dom = px 0 inner 1316
+1400x950 focus Personvernerklæring                            19 CLIPPED 140px 1369.953 -> 121px 1184.031   inside true maximal true inner 1316
+1400x950 focus Høyesterettsadvokat                            19 CLIPPED 140px 1365.5 -> 121px 1180.172   inside true maximal true inner 1316
+1400x950 focus Kommunikasjonsmiddel                           20 CLIPPED 140px 1584.531 -> 104px 1177.078   inside true maximal true inner 1316
+1400x950 focus Menneskerettighetene                           20 CLIPPED 140px 1484.984 -> 111px 1177.391   inside true maximal true inner 1316
+1400x950 focus Pneumonoultramicroscopicsilicovolcanoconiosis  45 CLIPPED 140px 3181.672 -> 52px 1181.781   inside true maximal true inner 1316
+1400x950 focus Hello                                          5 VISIBLE 140px 348.172 -> 140px 348.172   dom = px 0 inner 1316
+1400x950 focus Kommune                                        7 VISIBLE 140px 676.719 -> 140px 676.719   dom = px 0 inner 1316
+390x844 Background                                     10 VISIBLE 54px 306.313 -> 54px 306.313   dom = px 0 inner 342
+390x844 Throughput                                     10 VISIBLE 54px 304.453 -> 54px 304.453   dom = px 0 inner 342
+390x844 Whatsoever                                     10 VISIBLE 54px 302.297 -> 54px 302.297   dom = px 0 inner 342
+390x844 Workmanship                                    11 VISIBLE 46px 301.391 -> 46px 301.391   dom = px 0 inner 342
+390x844 Extraordinary                                  13 VISIBLE 47px 302.594 -> 47px 302.594   dom = px 0 inner 342
+390x844 Understanding                                  13 VISIBLE 44px 307.656 -> 44px 307.656   dom = px 0 inner 342
+390x844 Neighbourhood                                  13 VISIBLE 40px 300.703 -> 40px 300.703   dom = px 0 inner 342
+390x844 Wholeheartedly                                 14 VISIBLE 40px 300.781 -> 40px 300.781   dom = px 0 inner 342
+390x844 Responsibility                                 14 VISIBLE 46px 302.219 -> 46px 302.219   dom = px 0 inner 342
+390x844 Infrastructure                                 14 VISIBLE 47px 304.828 -> 47px 304.828   dom = px 0 inner 342
+390x844 Accomplishment                                 14 VISIBLE 39px 307.031 -> 39px 307.031   dom = px 0 inner 342
+390x844 Characteristics                                15 VISIBLE 45px 307.172 -> 45px 307.172   dom = px 0 inner 342
+390x844 Recommendations                                15 VISIBLE 35px 305.391 -> 35px 305.391   dom = px 0 inner 342
+390x844 Misunderstanding                               16 VISIBLE 35px 299.438 -> 35px 299.438   dom = px 0 inner 342
+390x844 Telecommunications                             18 VISIBLE 31px 298.469 -> 31px 298.469   dom = px 0 inner 342
+390x844 Internationalization                           20 VISIBLE 33px 306.656 -> 33px 306.656   dom = px 0 inner 342
+390x844 Bærekraftig                                    11 VISIBLE 54px 302.313 -> 54px 302.313   dom = px 0 inner 342
+390x844 Arbeidsplass                                   12 VISIBLE 51px 302.328 -> 51px 302.328   dom = px 0 inner 342
+390x844 Sannsynligvis                                  13 VISIBLE 48px 304.594 -> 48px 304.594   dom = px 0 inner 342
+390x844 Fylkeskommune                                  13 VISIBLE 40px 304.891 -> 40px 304.891   dom = px 0 inner 342
+390x844 Mikrobølgeovn                                  13 VISIBLE 42px 304.266 -> 42px 304.266   dom = px 0 inner 342
+390x844 Utviklingsland                                 14 VISIBLE 45px 304.953 -> 45px 304.953   dom = px 0 inner 342
+390x844 Barnehagelærer                                 14 VISIBLE 41px 306.359 -> 41px 306.359   dom = px 0 inner 342
+390x844 Skolebibliotek                                 14 VISIBLE 45px 302.938 -> 45px 302.938   dom = px 0 inner 342
+390x844 Sykehusavdeling                                15 VISIBLE 39px 305.484 -> 39px 305.484   dom = px 0 inner 342
+390x844 Kommunestyremøte                               16 VISIBLE 32px 306.859 -> 32px 306.859   dom = px 0 inner 342
+390x844 Arbeidsmiljøloven                              17 VISIBLE 35px 299.594 -> 35px 299.594   dom = px 0 inner 342
+390x844 Forsikringsselskap                             18 VISIBLE 35px 300.703 -> 35px 300.703   dom = px 0 inner 342
+390x844 Personvernerklæring                            19 VISIBLE 31px 303.344 -> 31px 303.344   dom = px 0 inner 342
+390x844 Høyesterettsadvokat                            19 VISIBLE 31px 302.375 -> 31px 302.375   dom = px 0 inner 342
+390x844 Kommunikasjonsmiddel                           20 VISIBLE 27px 305.609 -> 27px 305.609   dom = px 0 inner 342
+390x844 Menneskerettighetene                           20 VISIBLE 29px 307.641 -> 29px 307.641   dom = px 0 inner 342
+390x844 Pneumonoultramicroscopicsilicovolcanoconiosis  45 VISIBLE 13px 295.469 -> 13px 295.469   dom = px 0 inner 342
+390x844 Hello                                          5 VISIBLE 64px 159.156 -> 64px 159.156   dom = px 0 inner 342
+390x844 Kommune                                        7 VISIBLE 63px 304.531 -> 63px 304.531   dom = px 0 inner 342
+1400x950 Background                                     10 VISIBLE 95px 538.844 -> 95px 538.844   dom = px 0 inner 604
+1400x950 Throughput                                     10 VISIBLE 96px 541.219 -> 96px 541.219   dom = px 0 inner 604
+1400x950 Whatsoever                                     10 VISIBLE 97px 543 -> 97px 543   dom = px 0 inner 604
+1400x950 Workmanship                                    11 VISIBLE 82px 537.281 -> 82px 537.281   dom = px 0 inner 604
+1400x950 Extraordinary                                  13 VISIBLE 84px 540.781 -> 84px 540.781   dom = px 0 inner 604
+1400x950 Understanding                                  13 VISIBLE 77px 538.391 -> 77px 538.391   dom = px 0 inner 604
+1400x950 Neighbourhood                                  13 VISIBLE 72px 541.266 -> 72px 541.266   dom = px 0 inner 604
+1400x950 Wholeheartedly                                 14 VISIBLE 72px 541.391 -> 72px 541.391   dom = px 0 inner 604
+1400x950 Responsibility                                 14 VISIBLE 82px 538.703 -> 82px 538.703   dom = px 0 inner 604
+1400x950 Infrastructure                                 14 VISIBLE 83px 538.297 -> 83px 538.297   dom = px 0 inner 604
+1400x950 Accomplishment                                 14 VISIBLE 69px 543.203 -> 69px 543.203   dom = px 0 inner 604
+1400x950 Characteristics                                15 VISIBLE 79px 539.25 -> 79px 539.25   dom = px 0 inner 604
+1400x950 Recommendations                                15 VISIBLE 62px 540.969 -> 62px 540.969   dom = px 0 inner 604
+1400x950 Misunderstanding                               16 VISIBLE 63px 538.969 -> 63px 538.969   dom = px 0 inner 604
+1400x950 Telecommunications                             18 VISIBLE 56px 539.156 -> 56px 539.156   dom = px 0 inner 604
+1400x950 Internationalization                           20 VISIBLE 58px 538.969 -> 58px 538.969   dom = px 0 inner 604
+1400x950 Bærekraftig                                    11 VISIBLE 97px 543.047 -> 97px 543.047   dom = px 0 inner 604
+1400x950 Arbeidsplass                                   12 VISIBLE 91px 539.453 -> 91px 539.453   dom = px 0 inner 604
+1400x950 Sannsynligvis                                  13 VISIBLE 85px 539.375 -> 85px 539.375   dom = px 0 inner 604
+1400x950 Fylkeskommune                                  13 VISIBLE 71px 541.156 -> 71px 541.156   dom = px 0 inner 604
+1400x950 Mikrobølgeovn                                  13 VISIBLE 75px 543.297 -> 75px 543.297   dom = px 0 inner 604
+1400x950 Utviklingsland                                 14 VISIBLE 80px 542.125 -> 80px 542.125   dom = px 0 inner 604
+1400x950 Barnehagelærer                                 14 VISIBLE 72px 537.969 -> 72px 537.969   dom = px 0 inner 604
+1400x950 Skolebibliotek                                 14 VISIBLE 80px 538.516 -> 80px 538.516   dom = px 0 inner 604
+1400x950 Sykehusavdeling                                15 VISIBLE 69px 540.469 -> 69px 540.469   dom = px 0 inner 604
+1400x950 Kommunestyremøte                               16 VISIBLE 56px 537.031 -> 56px 537.031   dom = px 0 inner 604
+1400x950 Arbeidsmiljøloven                              17 VISIBLE 63px 539.25 -> 63px 539.25   dom = px 0 inner 604
+1400x950 Forsikringsselskap                             18 VISIBLE 63px 541.234 -> 63px 541.234   dom = px 0 inner 604
+1400x950 Personvernerklæring                            19 VISIBLE 55px 538.203 -> 55px 538.203   dom = px 0 inner 604
+1400x950 Høyesterettsadvokat                            19 VISIBLE 55px 536.453 -> 55px 536.453   dom = px 0 inner 604
+1400x950 Kommunikasjonsmiddel                           20 VISIBLE 48px 543.281 -> 48px 543.281   dom = px 0 inner 604
+1400x950 Menneskerettighetene                           20 VISIBLE 51px 540.969 -> 51px 540.969   dom = px 0 inner 604
+1400x950 Pneumonoultramicroscopicsilicovolcanoconiosis  45 VISIBLE 23px 522.719 -> 23px 522.719   dom = px 0 inner 604
+1400x950 Hello                                          5 VISIBLE 128px 318.313 -> 128px 318.313   dom = px 0 inner 604
+1400x950 Kommune                                        7 VISIBLE 112px 541.359 -> 112px 541.359   dom = px 0 inner 604
+RAW style-attribute-only differences (normalised): 344
+TOTAL 840 pairs: master-visible 672 (DOM-identical 672, PNG-identical 672, retried 1); master-clipped 168 (inside 168, wrapped 0, non-maximal fits 2)
+FAILS 0

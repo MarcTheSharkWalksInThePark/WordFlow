@@ -1,0 +1,137 @@
+[
+ {
+  "word": "Understanding",
+  "master": {
+   "at390": [
+    "44px",
+    "word-display large fitted-long-word"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large fitted-long-word",
+    "word": {
+     "left": 570,
+     "top": 452.375,
+     "right": 1390,
+     "bottom": 590.609,
+     "width": 820,
+     "height": 138.234
+    },
+    "text": "Understanding",
+    "visible": true
+   }
+  },
+  "branch": {
+   "at390": [
+    "44px",
+    "word-display large fitted-long-word"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+     "left": 570,
+     "top": 452.375,
+     "right": 1390,
+     "bottom": 590.609,
+     "width": 820,
+     "height": 138.234
+    },
+    "text": "Understanding",
+    "visible": true
+   }
+  },
+  "sameFontRect": true,
+  "sameClasses": false
+ },
+ {
+  "word": "Kommune",
+  "master": {
+   "at390": [
+    "63px",
+    "word-display large fitted-long-word"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large fitted-long-word",
+    "word": {
+     "left": 670.656,
+     "top": 452.375,
+     "right": 1289.344,
+     "bottom": 590.609,
+     "width": 618.688,
+     "height": 138.234
+    },
+    "text": "Kommune",
+    "visible": true
+   }
+  },
+  "branch": {
+   "at390": [
+    "63px",
+    "word-display large fitted-long-word"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+     "left": 670.656,
+     "top": 452.375,
+     "right": 1289.344,
+     "bottom": 590.609,
+     "width": 618.688,
+     "height": 138.234
+    },
+    "text": "Kommune",
+    "visible": true
+   }
+  },
+  "sameFontRect": true,
+  "sameClasses": false
+ },
+ {
+  "word": "Hello",
+  "master": {
+   "at390": [
+    "64px",
+    "word-display large"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+     "left": 820.844,
+     "top": 452.375,
+     "right": 1139.156,
+     "bottom": 590.609,
+     "width": 318.313,
+     "height": 138.234
+    },
+    "text": "Hello",
+    "visible": true
+   }
+  },
+  "branch": {
+   "at390": [
+    "64px",
+    "word-display large"
+   ],
+   "at1920": {
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+     "left": 820.844,
+     "top": 452.375,
+     "right": 1139.156,
+     "bottom": 590.609,
+     "width": 318.313,
+     "height": 138.234
+    },
+    "text": "Hello",
+    "visible": true
+   }
+  },
+  "sameFontRect": true,
+  "sameClasses": true
+ }
+]

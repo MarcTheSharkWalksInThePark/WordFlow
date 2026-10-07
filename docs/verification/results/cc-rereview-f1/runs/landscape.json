@@ -1,0 +1,89 @@
+{
+ "master Hello": {
+  "scrollY": 0,
+  "vh": 390,
+  "docH": 1249,
+  "frame": [
+   143,
+   511
+  ],
+  "word": [
+   281.42,
+   372.56
+  ],
+  "play": [
+   592,
+   650
+  ],
+  "note": null,
+  "playing": false,
+  "frameAndPlayFit": false,
+  "frameFits": true
+ },
+ "master WWWWW": {
+  "scrollY": 0,
+  "vh": 390,
+  "docH": 1249,
+  "frame": [
+   143,
+   511
+  ],
+  "word": [
+   321.59,
+   332.39
+  ],
+  "play": [
+   592,
+   650
+  ],
+  "note": null,
+  "playing": false,
+  "frameAndPlayFit": false,
+  "frameFits": true
+ },
+ "branch Hello": {
+  "scrollY": 0,
+  "vh": 390,
+  "docH": 1249,
+  "frame": [
+   143,
+   511
+  ],
+  "word": [
+   281.42,
+   372.56
+  ],
+  "play": [
+   592,
+   650
+  ],
+  "note": null,
+  "playing": false,
+  "frameAndPlayFit": false,
+  "frameFits": true
+ },
+ "branch WWWWW": {
+  "scrollY": 0,
+  "vh": 390,
+  "docH": 1249,
+  "frame": [
+   143,
+   511
+  ],
+  "word": [
+   196,
+   414
+  ],
+  "play": [
+   592,
+   650
+  ],
+  "note": [
+   485,
+   500
+  ],
+  "playing": false,
+  "frameAndPlayFit": false,
+  "frameFits": true
+ }
+}

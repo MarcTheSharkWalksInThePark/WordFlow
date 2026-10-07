@@ -1,0 +1,45 @@
+
+> wordflow@0.1.0 test
+> node tests/regression.cjs && node tests/proxy.test.mjs && node tests/server_exposure.test.js && node tests/post-review.test.cjs
+
+{"suite":"static-regression","passed":223,"skipped":0,"vendorHashes":188}
+{"suite":"proxy","passed":169,"skipped":0}
+  ok  front-end references are derived from the WordFlow document, and none is a directory or wildcard
+  ok  part 1: without HOST the start-up line names host 127.0.0.1 and the bound address is loopback
+  ok  part 1: listener inventory has no non-loopback bind (no LAN connection attempted)
+  ok  part 1 (F1): isLoopbackHost admits 127.0.0.0/8, ::1, IPv4-mapped 127.0.0.0/8 and localhost, and nothing else
+  ok  parts 1 and 6 (F2): the start-up warning names a non-loopback HOST and says the Host check is off; loopback gets none
+  ok  part 1: an explicit loopback HOST logs no warning
+  ok  part 1 (F1): HOST=::ffff:127.0.0.1 opts in, is named in the start-up line, binds mapped loopback, and logs no warning
+  ok  parts 2 and 4: every front-end file the documents load, and the WordFlow document, return 200 byte-identical
+  ok  part 4: /.env.local and every Windows quirk, encoding and traversal form return 404 without leaking
+  ok  part 2: ordinary files that are not on the list return 404
+  ok  part 2: matching is exact and case-sensitive
+  ok  part 2: the path is percent-decoded once before matching
+  ok  part 2: the path is normalised (backslashes) before matching
+  ok  part 3 (F5): the guard runs before normalisation, so an encoded '..' to a listed file returns 404
+  ok  part 3: dotfiles and .env* are refused even when listed (the list holds them by mistake here)
+  ok  part 3 (F3, F4): listed names that only contain 'env' are served: the guard refuses dot segments and .env*, nothing more
+  ok  B2: network-path targets (//x, /\x) return 404 for GET, HEAD and POST, on static and API routes
+  ok  B2: absolute-form targets keep returning 404
+  ok  B2: a target starting with a backslash never reaches routing (Node's parser refuses it with 400)
+  ok  part 6: each loopback name at the bound port is accepted, in any case
+  ok  part 6: a foreign Host is refused with 403 on a static route and on an API route
+  ok  part 6: a wrong port, or no port, is refused with 403
+  ok  part 6: a missing Host is refused with 403, over HTTP/1.1 and HTTP/1.0
+  ok  part 6: the check uses the port actually bound, not the configured PORT
+  ok  part 6a: a loopback HOST (127.0.0.1, ::ffff:127.0.0.1) keeps the Host check on, with no warning
+  ok  part 6a: the on/off decision, from server.js's own line, is on for loopback listen hosts and off only for non-loopback ones
+  ok  part 6b: portless loopback names are accepted only when the BOUND port is 80 (pure helper; nothing binds port 80)
+  ok  B3: two Host field lines are refused with 400 on a static and an API route, for GET, HEAD and POST
+  ok  F7 (N4): targets that make URL parsing throw are refused by B2 first, with 404
+  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on
+  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400
+  ok  W2 routes: /api/read still routes and removed upload endpoint is refused
+
+32 checks passed.
+{"suite":"post-review","passed":81,"skipped":0}
+
+real	0m9.971s
+user	0m0.075s
+sys	0m0.061s

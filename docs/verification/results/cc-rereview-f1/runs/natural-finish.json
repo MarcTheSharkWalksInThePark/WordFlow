@@ -1,0 +1,170 @@
+[
+ {
+  "viewport": "390x844",
+  "text": "Vi leser om kommunikasjon.",
+  "master": {
+   "size": "comfortable",
+   "font": "39px",
+   "classes": "word-display fitted-long-word",
+   "textWidth": 303.875,
+   "inner": 342,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "51.2px",
+   "classes": "word-display",
+   "textWidth": 398.922,
+   "inner": 342,
+   "inside": false
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    344,
+    281
+   ],
+   "differingPixels": 1517
+  }
+ },
+ {
+  "viewport": "390x844",
+  "text": "We read about understanding.",
+  "master": {
+   "size": "comfortable",
+   "font": "43px",
+   "classes": "word-display fitted-long-word",
+   "textWidth": 306.984,
+   "inner": 342,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "51.2px",
+   "classes": "word-display",
+   "textWidth": 365.516,
+   "inner": 342,
+   "inside": false
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    344,
+    281
+   ],
+   "differingPixels": 1257
+  }
+ },
+ {
+  "viewport": "390x844",
+  "text": "Short text ends here.",
+  "master": {
+   "size": "comfortable",
+   "font": "51.2px",
+   "classes": "word-display",
+   "textWidth": 120.281,
+   "inner": 342,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "51.2px",
+   "classes": "word-display",
+   "textWidth": 120.281,
+   "inner": 342,
+   "inside": true
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    344,
+    281
+   ],
+   "differingPixels": 0
+  }
+ },
+ {
+  "viewport": "1400x950",
+  "text": "Vi leser om kommunikasjon.",
+  "master": {
+   "size": "comfortable",
+   "font": "69px",
+   "classes": "word-display fitted-long-word",
+   "textWidth": 537.609,
+   "inner": 604,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "108.8px",
+   "classes": "word-display",
+   "textWidth": 847.672,
+   "inner": 604,
+   "inside": false
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    606,
+    627
+   ],
+   "differingPixels": 9723
+  }
+ },
+ {
+  "viewport": "1400x950",
+  "text": "We read about understanding.",
+  "master": {
+   "size": "comfortable",
+   "font": "76px",
+   "classes": "word-display fitted-long-word",
+   "textWidth": 542.563,
+   "inner": 604,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "108.8px",
+   "classes": "word-display",
+   "textWidth": 776.703,
+   "inner": 604,
+   "inside": false
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    606,
+    627
+   ],
+   "differingPixels": 10094
+  }
+ },
+ {
+  "viewport": "1400x950",
+  "text": "Short text ends here.",
+  "master": {
+   "size": "comfortable",
+   "font": "108.8px",
+   "classes": "word-display",
+   "textWidth": 255.609,
+   "inner": 604,
+   "inside": true
+  },
+  "branch": {
+   "size": "comfortable",
+   "font": "108.8px",
+   "classes": "word-display",
+   "textWidth": 255.609,
+   "inner": 604,
+   "inside": true
+  },
+  "px": {
+   "sameSize": true,
+   "size": [
+    606,
+    627
+   ],
+   "differingPixels": 0
+  }
+ }
+]

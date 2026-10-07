@@ -1,0 +1,9270 @@
+{
+ "rows": [
+  {
+   "layout": "390x844",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 318.969,
+     "right": 345.742,
+     "bottom": 427.469,
+     "width": 301.5,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 66,
+   "lastNonScroll": 603,
+   "firstScroll": 604,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 41.195,
+     "top": 318.969,
+     "right": 348.805,
+     "bottom": 427.469,
+     "width": 307.609,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 66,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 133,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 200,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 335,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 402,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 469,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 536,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 603,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 318.969,
+     "right": 345.742,
+     "bottom": 427.469,
+     "width": 301.5,
+     "height": 108.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 318.969,
+     "right": 345.727,
+     "bottom": 427.469,
+     "width": 301.469,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 318.969,
+     "right": 345.727,
+     "bottom": 427.469,
+     "width": 301.469,
+     "height": 108.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x600",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 318.969,
+     "right": 345.742,
+     "bottom": 427.469,
+     "width": 301.5,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x600",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 66,
+   "lastNonScroll": 603,
+   "firstScroll": 604,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 41.195,
+     "top": 318.969,
+     "right": 348.805,
+     "bottom": 427.469,
+     "width": 307.609,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 66,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 133,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 200,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 335,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 402,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 469,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 536,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 603,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x600",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 318.969,
+     "right": 345.742,
+     "bottom": 427.469,
+     "width": 301.5,
+     "height": 108.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x600",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 318.969,
+     "right": 345.727,
+     "bottom": 427.469,
+     "width": 301.469,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x600",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 318.969,
+     "right": 345.727,
+     "bottom": 427.469,
+     "width": 301.469,
+     "height": 108.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "844x390",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 159.5625,
+    "centred": 158.15625,
+    "frameH": 366
+   },
+   "firstWrap": 39,
+   "lastNonScroll": 476,
+   "firstScroll": 477,
+   "belowNat": 149,
+   "aboveNat": 159,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 439.156,
+     "top": 251.5,
+     "right": 780.844,
+     "bottom": 402,
+     "width": 341.688,
+     "height": 150.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 224.516,
+      "right": 630.508,
+      "bottom": 244.922,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 221.516,
+      "right": 630.508,
+      "bottom": 246.516,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 409.078,
+      "right": 624.922,
+      "bottom": 429.484,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 406.078,
+      "right": 624.922,
+      "bottom": 431.078,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 437.203,
+     "top": 196,
+     "right": 782.797,
+     "bottom": 414,
+     "width": 345.594,
+     "height": 218
+    },
+    "area": {
+     "clientH": 218,
+     "scrollH": 218,
+     "scrollTop": 0,
+     "clientW": 346,
+     "scrollW": 346
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 156,
+      "right": 630.508,
+      "bottom": 176.406,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 153,
+      "right": 630.508,
+      "bottom": 178,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 435.594,
+      "right": 624.922,
+      "bottom": 456,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 432.594,
+      "right": 624.922,
+      "bottom": 457.594,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 433.359,
+      "top": 485,
+      "right": 786.625,
+      "bottom": 500,
+      "width": 353.266,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": false
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 802,
+     "bottom": 510,
+     "width": 384,
+     "height": 366
+    }
+   },
+   "sweep": [
+    {
+     "n": 39,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 94,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 148,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 203,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 258,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 312,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 367,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 421,
+     "h": 140,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 476,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "844x390",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 159.5625,
+    "centred": 158.15625,
+    "frameH": 366
+   },
+   "firstWrap": 76,
+   "lastNonScroll": 949,
+   "firstScroll": 950,
+   "belowNat": 149,
+   "aboveNat": 159,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 437.219,
+     "top": 251.5,
+     "right": 782.781,
+     "bottom": 402,
+     "width": 345.563,
+     "height": 150.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 224.516,
+      "right": 630.508,
+      "bottom": 244.922,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 221.516,
+      "right": 630.508,
+      "bottom": 246.516,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 409.078,
+      "right": 624.922,
+      "bottom": 429.484,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 406.078,
+      "right": 624.922,
+      "bottom": 431.078,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 437.203,
+     "top": 196,
+     "right": 782.797,
+     "bottom": 414,
+     "width": 345.594,
+     "height": 218
+    },
+    "area": {
+     "clientH": 218,
+     "scrollH": 218,
+     "scrollTop": 0,
+     "clientW": 346,
+     "scrollW": 346
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 156,
+      "right": 630.508,
+      "bottom": 176.406,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 153,
+      "right": 630.508,
+      "bottom": 178,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 435.594,
+      "right": 624.922,
+      "bottom": 456,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 432.594,
+      "right": 624.922,
+      "bottom": 457.594,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 433.359,
+      "top": 485,
+      "right": 786.625,
+      "bottom": 500,
+      "width": 353.266,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": false
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 802,
+     "bottom": 510,
+     "width": 384,
+     "height": 366
+    }
+   },
+   "sweep": [
+    {
+     "n": 76,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 185,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 294,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 403,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 513,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 622,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 731,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 840,
+     "h": 140,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 949,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "844x390",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 159.5625,
+    "centred": 158.15625,
+    "frameH": 366
+   },
+   "firstWrap": 39,
+   "lastNonScroll": 476,
+   "firstScroll": 477,
+   "belowNat": 149,
+   "aboveNat": 159,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 439.156,
+     "top": 251.5,
+     "right": 780.844,
+     "bottom": 402,
+     "width": 341.688,
+     "height": 150.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 437.203,
+     "top": 196,
+     "right": 782.797,
+     "bottom": 414,
+     "width": 345.594,
+     "height": 218
+    },
+    "area": {
+     "clientH": 218,
+     "scrollH": 218,
+     "scrollTop": 0,
+     "clientW": 346,
+     "scrollW": 346
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 433.359,
+      "top": 485,
+      "right": 786.625,
+      "bottom": 500,
+      "width": 353.266,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": false
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 802,
+     "bottom": 510,
+     "width": 384,
+     "height": 366
+    }
+   },
+   "sweep": [
+    {
+     "n": 39,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 94,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 148,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 203,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 258,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 312,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 367,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 421,
+     "h": 140,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 476,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "844x390",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 159.5625,
+    "centred": 158.15625,
+    "frameH": 366
+   },
+   "firstWrap": 39,
+   "lastNonScroll": 476,
+   "firstScroll": 477,
+   "belowNat": 149,
+   "aboveNat": 159,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 439.156,
+     "top": 251.5,
+     "right": 780.828,
+     "bottom": 402,
+     "width": 341.672,
+     "height": 150.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 224.516,
+      "right": 630.508,
+      "bottom": 244.922,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 221.516,
+      "right": 630.508,
+      "bottom": 246.516,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 409.078,
+      "right": 624.922,
+      "bottom": 429.484,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 406.078,
+      "right": 624.922,
+      "bottom": 431.078,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 437.203,
+     "top": 196,
+     "right": 782.797,
+     "bottom": 414,
+     "width": 345.594,
+     "height": 218
+    },
+    "area": {
+     "clientH": 218,
+     "scrollH": 218,
+     "scrollTop": 0,
+     "clientW": 346,
+     "scrollW": 346
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 589.492,
+      "top": 156,
+      "right": 630.508,
+      "bottom": 176.406,
+      "width": 41.016,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 589.492,
+      "top": 153,
+      "right": 630.508,
+      "bottom": 178,
+      "width": 41.016,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 595.078,
+      "top": 435.594,
+      "right": 624.922,
+      "bottom": 456,
+      "width": 29.844,
+      "height": 20.406
+     },
+     "ink": {
+      "left": 595.078,
+      "top": 432.594,
+      "right": 624.922,
+      "bottom": 457.594,
+      "width": 29.844,
+      "height": 25
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 433.359,
+      "top": 485,
+      "right": 786.625,
+      "bottom": 500,
+      "width": 353.266,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": false
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 802,
+     "bottom": 510,
+     "width": 384,
+     "height": 366
+    }
+   },
+   "sweep": [
+    {
+     "n": 39,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 94,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 148,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 203,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 258,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 312,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 367,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 421,
+     "h": 140,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 476,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "844x390",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 159.5625,
+    "centred": 158.15625,
+    "frameH": 366
+   },
+   "firstWrap": 39,
+   "lastNonScroll": 476,
+   "firstScroll": 477,
+   "belowNat": 149,
+   "aboveNat": 159,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 439.156,
+     "top": 251.5,
+     "right": 780.828,
+     "bottom": 402,
+     "width": 341.672,
+     "height": 150.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 437.203,
+     "top": 196,
+     "right": 782.797,
+     "bottom": 414,
+     "width": 345.594,
+     "height": 218
+    },
+    "area": {
+     "clientH": 218,
+     "scrollH": 218,
+     "scrollTop": 0,
+     "clientW": 346,
+     "scrollW": 346
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 433.359,
+      "top": 485,
+      "right": 786.625,
+      "bottom": 500,
+      "width": 353.266,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": false
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 802,
+     "bottom": 510,
+     "width": 384,
+     "height": 366
+    }
+   },
+   "sweep": [
+    {
+     "n": 39,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 94,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 148,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 203,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 258,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 312,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 367,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 421,
+     "h": 140,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 476,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.656,
+     "top": 312.75,
+     "right": 991.328,
+     "bottom": 599.75,
+     "width": 542.672,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 281.5,
+      "right": 749.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 278.5,
+      "right": 749.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 602.453,
+      "right": 741.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 599.453,
+      "right": 741.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 156,
+      "right": 749.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 153,
+      "right": 749.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 685.953,
+      "right": 741.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 682.953,
+      "right": 741.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 120,
+   "lastNonScroll": 2892,
+   "firstScroll": 2893,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.344,
+     "top": 312.75,
+     "right": 991.656,
+     "bottom": 599.75,
+     "width": 543.313,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 281.5,
+      "right": 749.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 278.5,
+      "right": 749.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 602.453,
+      "right": 741.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 599.453,
+      "right": 741.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 156,
+      "right": 749.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 153,
+      "right": 749.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 685.953,
+      "right": 741.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 682.953,
+      "right": 741.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 120,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 467,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 813,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1160,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1506,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1853,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2199,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2546,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2892,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=2892 collision/outside {\"n\":2892,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.656,
+     "top": 312.75,
+     "right": 991.328,
+     "bottom": 599.75,
+     "width": 542.672,
+     "height": 287
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.672,
+     "top": 312.75,
+     "right": 991.313,
+     "bottom": 599.75,
+     "width": 542.641,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 281.5,
+      "right": 749.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 278.5,
+      "right": 749.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 602.453,
+      "right": 741.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 599.453,
+      "right": 741.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 156,
+      "right": 749.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 153,
+      "right": 749.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 685.953,
+      "right": 741.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 682.953,
+      "right": 741.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.672,
+     "top": 312.75,
+     "right": 991.313,
+     "bottom": 599.75,
+     "width": 542.641,
+     "height": 287
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1708x950",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2187,
+   "firstScroll": 2188,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 467.008,
+     "top": 312.75,
+     "right": 1280.992,
+     "bottom": 599.75,
+     "width": 813.984,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 281.5,
+      "right": 903.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 278.5,
+      "right": 903.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 602.453,
+      "right": 895.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 599.453,
+      "right": 895.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 463.602,
+     "top": 196,
+     "right": 1284.398,
+     "bottom": 673,
+     "width": 820.797,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 156,
+      "right": 903.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 153,
+      "right": 903.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 685.953,
+      "right": 895.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 682.953,
+      "right": 895.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 454.469,
+      "top": 744,
+      "right": 1293.5,
+      "bottom": 759,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1330,
+     "bottom": 769,
+     "width": 912,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 353,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 615,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 877,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1139,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1401,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1663,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1925,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2187,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=2187 collision/outside {\"n\":2187,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1708x950",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 181,
+   "lastNonScroll": 4372,
+   "firstScroll": 4373,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 463.789,
+     "top": 312.75,
+     "right": 1284.195,
+     "bottom": 599.75,
+     "width": 820.406,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 281.5,
+      "right": 903.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 278.5,
+      "right": 903.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 602.453,
+      "right": 895.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 599.453,
+      "right": 895.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 463.602,
+     "top": 196,
+     "right": 1284.398,
+     "bottom": 673,
+     "width": 820.797,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 156,
+      "right": 903.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 153,
+      "right": 903.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 685.953,
+      "right": 895.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 682.953,
+      "right": 895.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 454.469,
+      "top": 744,
+      "right": 1293.5,
+      "bottom": 759,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1330,
+     "bottom": 769,
+     "width": 912,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 181,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 705,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1229,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1753,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2277,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2800,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3324,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3848,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4372,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=4372 collision/outside {\"n\":4372,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1708x950",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2187,
+   "firstScroll": 2188,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 467.008,
+     "top": 312.75,
+     "right": 1280.992,
+     "bottom": 599.75,
+     "width": 813.984,
+     "height": 287
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 463.602,
+     "top": 196,
+     "right": 1284.398,
+     "bottom": 673,
+     "width": 820.797,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 454.469,
+      "top": 744,
+      "right": 1293.5,
+      "bottom": 759,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1330,
+     "bottom": 769,
+     "width": 912,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 353,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 615,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 877,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1139,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1401,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1663,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1925,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2187,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1708x950",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2187,
+   "firstScroll": 2188,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 467.008,
+     "top": 312.75,
+     "right": 1280.977,
+     "bottom": 599.75,
+     "width": 813.969,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 281.5,
+      "right": 903.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 278.5,
+      "right": 903.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 602.453,
+      "right": 895.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 599.453,
+      "right": 895.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 463.602,
+     "top": 196,
+     "right": 1284.398,
+     "bottom": 673,
+     "width": 820.797,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 844.828,
+      "top": 156,
+      "right": 903.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 844.828,
+      "top": 153,
+      "right": 903.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 852.781,
+      "top": 685.953,
+      "right": 895.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 852.781,
+      "top": 682.953,
+      "right": 895.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 454.469,
+      "top": 744,
+      "right": 1293.5,
+      "bottom": 759,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1330,
+     "bottom": 769,
+     "width": 912,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 353,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 615,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 877,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1139,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1401,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1663,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1925,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2187,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=2187 collision/outside {\"n\":2187,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1708x950",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2187,
+   "firstScroll": 2188,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 467.008,
+     "top": 312.75,
+     "right": 1280.977,
+     "bottom": 599.75,
+     "width": 813.969,
+     "height": 287
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 463.602,
+     "top": 196,
+     "right": 1284.398,
+     "bottom": 673,
+     "width": 820.797,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 454.469,
+      "top": 744,
+      "right": 1293.5,
+      "bottom": 759,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1330,
+     "bottom": 769,
+     "width": 912,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 353,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 615,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 877,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1139,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1401,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1663,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1925,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2187,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1920x1080",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 358.765625,
+    "centred": 358.71875,
+    "frameH": 755
+   },
+   "firstWrap": 112,
+   "lastNonScroll": 3300,
+   "firstScroll": 3301,
+   "belowNat": 348,
+   "aboveNat": 359,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 477.547,
+     "top": 346.25,
+     "right": 1482.453,
+     "bottom": 696.25,
+     "width": 1004.906,
+     "height": 350
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 310.094,
+      "right": 1009.172,
+      "bottom": 339.141,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 307.094,
+      "right": 1009.172,
+      "bottom": 342.094,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 703.859,
+      "right": 1001.219,
+      "bottom": 732.906,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 700.859,
+      "right": 1001.219,
+      "bottom": 735.859,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 474.203,
+     "top": 196,
+     "right": 1485.797,
+     "bottom": 803,
+     "width": 1011.594,
+     "height": 607
+    },
+    "area": {
+     "clientH": 607,
+     "scrollH": 607,
+     "scrollTop": 0,
+     "clientW": 1012,
+     "scrollW": 1012
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 156,
+      "right": 1009.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 153,
+      "right": 1009.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 815.953,
+      "right": 1001.219,
+      "bottom": 845,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 812.953,
+      "right": 1001.219,
+      "bottom": 847.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 462.953,
+      "top": 874,
+      "right": 1497.031,
+      "bottom": 889,
+      "width": 1034.078,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1542,
+     "bottom": 899,
+     "width": 1124,
+     "height": 755
+    }
+   },
+   "sweep": [
+    {
+     "n": 112,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 511,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 909,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1308,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1706,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2105,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2503,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2902,
+     "h": 318.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3300,
+     "h": 350,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1920x1080",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 358.765625,
+    "centred": 358.71875,
+    "frameH": 755
+   },
+   "firstWrap": 222,
+   "lastNonScroll": 6591,
+   "firstScroll": 6592,
+   "belowNat": 348,
+   "aboveNat": 359,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 474.375,
+     "top": 346.25,
+     "right": 1485.609,
+     "bottom": 696.25,
+     "width": 1011.234,
+     "height": 350
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 310.094,
+      "right": 1009.172,
+      "bottom": 339.141,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 307.094,
+      "right": 1009.172,
+      "bottom": 342.094,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 703.859,
+      "right": 1001.219,
+      "bottom": 732.906,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 700.859,
+      "right": 1001.219,
+      "bottom": 735.859,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 474.203,
+     "top": 196,
+     "right": 1485.797,
+     "bottom": 803,
+     "width": 1011.594,
+     "height": 607
+    },
+    "area": {
+     "clientH": 607,
+     "scrollH": 607,
+     "scrollTop": 0,
+     "clientW": 1012,
+     "scrollW": 1012
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 156,
+      "right": 1009.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 153,
+      "right": 1009.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 815.953,
+      "right": 1001.219,
+      "bottom": 845,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 812.953,
+      "right": 1001.219,
+      "bottom": 847.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 462.953,
+      "top": 874,
+      "right": 1497.031,
+      "bottom": 889,
+      "width": 1034.078,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1542,
+     "bottom": 899,
+     "width": 1124,
+     "height": 755
+    }
+   },
+   "sweep": [
+    {
+     "n": 222,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1018,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1814,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2610,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3407,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4203,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4999,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 5795,
+     "h": 318.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 6591,
+     "h": 350,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1920x1080",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 358.765625,
+    "centred": 358.71875,
+    "frameH": 755
+   },
+   "firstWrap": 112,
+   "lastNonScroll": 3300,
+   "firstScroll": 3301,
+   "belowNat": 348,
+   "aboveNat": 359,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 477.547,
+     "top": 346.25,
+     "right": 1482.453,
+     "bottom": 696.25,
+     "width": 1004.906,
+     "height": 350
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 474.203,
+     "top": 196,
+     "right": 1485.797,
+     "bottom": 803,
+     "width": 1011.594,
+     "height": 607
+    },
+    "area": {
+     "clientH": 607,
+     "scrollH": 607,
+     "scrollTop": 0,
+     "clientW": 1012,
+     "scrollW": 1012
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 462.953,
+      "top": 874,
+      "right": 1497.031,
+      "bottom": 889,
+      "width": 1034.078,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1542,
+     "bottom": 899,
+     "width": 1124,
+     "height": 755
+    }
+   },
+   "sweep": [
+    {
+     "n": 112,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 511,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 909,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1308,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1706,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2105,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2503,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2902,
+     "h": 318.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3300,
+     "h": 350,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1920x1080",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 358.765625,
+    "centred": 358.71875,
+    "frameH": 755
+   },
+   "firstWrap": 112,
+   "lastNonScroll": 3300,
+   "firstScroll": 3301,
+   "belowNat": 348,
+   "aboveNat": 359,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 477.547,
+     "top": 346.25,
+     "right": 1482.438,
+     "bottom": 696.25,
+     "width": 1004.891,
+     "height": 350
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 310.094,
+      "right": 1009.172,
+      "bottom": 339.141,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 307.094,
+      "right": 1009.172,
+      "bottom": 342.094,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 703.859,
+      "right": 1001.219,
+      "bottom": 732.906,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 700.859,
+      "right": 1001.219,
+      "bottom": 735.859,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 474.203,
+     "top": 196,
+     "right": 1485.797,
+     "bottom": 803,
+     "width": 1011.594,
+     "height": 607
+    },
+    "area": {
+     "clientH": 607,
+     "scrollH": 607,
+     "scrollTop": 0,
+     "clientW": 1012,
+     "scrollW": 1012
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 950.828,
+      "top": 156,
+      "right": 1009.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 950.828,
+      "top": 153,
+      "right": 1009.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 958.781,
+      "top": 815.953,
+      "right": 1001.219,
+      "bottom": 845,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 958.781,
+      "top": 812.953,
+      "right": 1001.219,
+      "bottom": 847.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 462.953,
+      "top": 874,
+      "right": 1497.031,
+      "bottom": 889,
+      "width": 1034.078,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1542,
+     "bottom": 899,
+     "width": 1124,
+     "height": 755
+    }
+   },
+   "sweep": [
+    {
+     "n": 112,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 511,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 909,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1308,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1706,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2105,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2503,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2902,
+     "h": 318.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3300,
+     "h": 350,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1920x1080",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 358.765625,
+    "centred": 358.71875,
+    "frameH": 755
+   },
+   "firstWrap": 112,
+   "lastNonScroll": 3300,
+   "firstScroll": 3301,
+   "belowNat": 348,
+   "aboveNat": 359,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 477.547,
+     "top": 346.25,
+     "right": 1482.438,
+     "bottom": 696.25,
+     "width": 1004.891,
+     "height": 350
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 474.203,
+     "top": 196,
+     "right": 1485.797,
+     "bottom": 803,
+     "width": 1011.594,
+     "height": 607
+    },
+    "area": {
+     "clientH": 607,
+     "scrollH": 607,
+     "scrollTop": 0,
+     "clientW": 1012,
+     "scrollW": 1012
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 462.953,
+      "top": 874,
+      "right": 1497.031,
+      "bottom": 889,
+      "width": 1034.078,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1542,
+     "bottom": 899,
+     "width": 1124,
+     "height": 755
+    }
+   },
+   "sweep": [
+    {
+     "n": 112,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 511,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 909,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1308,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1706,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2105,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2503,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2902,
+     "h": 318.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3300,
+     "h": 350,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.992,
+     "bottom": 620.25,
+     "width": 813.984,
+     "height": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 285.891,
+      "right": 522.211,
+      "bottom": 309.984,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 282.891,
+      "right": 522.211,
+      "bottom": 311.891,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 623.016,
+      "right": 515.609,
+      "bottom": 647.109,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 620.016,
+      "right": 515.609,
+      "bottom": 649.016,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": {
+      "w": 35.219,
+      "h": 0.234
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 156,
+      "right": 522.211,
+      "bottom": 180.094,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 153,
+      "right": 522.211,
+      "bottom": 182,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 710.906,
+      "right": 515.609,
+      "bottom": 735,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 707.906,
+      "right": 515.609,
+      "bottom": 736.906,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": {
+      "w": 35.219,
+      "h": 0.234
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+    "sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 181,
+   "lastNonScroll": 4697,
+   "firstScroll": 4698,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 87.789,
+     "top": 312.25,
+     "right": 908.195,
+     "bottom": 620.25,
+     "width": 820.406,
+     "height": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 285.891,
+      "right": 522.211,
+      "bottom": 309.984,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 282.891,
+      "right": 522.211,
+      "bottom": 311.891,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 623.016,
+      "right": 515.609,
+      "bottom": 647.109,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 620.016,
+      "right": 515.609,
+      "bottom": 649.016,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": {
+      "w": 35.219,
+      "h": 0.234
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 156,
+      "right": 522.211,
+      "bottom": 180.094,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 153,
+      "right": 522.211,
+      "bottom": 182,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 710.906,
+      "right": 515.609,
+      "bottom": 735,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 707.906,
+      "right": 515.609,
+      "bottom": 736.906,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 181,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 746,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1875,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2439,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3004,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3568,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4133,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4697,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": {
+      "w": 35.219,
+      "h": 0.234
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+    "sweep n=4697 collision/outside {\"n\":4697,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.992,
+     "bottom": 620.25,
+     "width": 813.984,
+     "height": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.977,
+     "bottom": 620.25,
+     "width": 813.969,
+     "height": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 285.891,
+      "right": 522.211,
+      "bottom": 309.984,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 282.891,
+      "right": 522.211,
+      "bottom": 311.891,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 623.016,
+      "right": 515.609,
+      "bottom": 647.109,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 620.016,
+      "right": 515.609,
+      "bottom": 649.016,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": {
+      "w": 35.219,
+      "h": 0.234
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 156,
+      "right": 522.211,
+      "bottom": 180.094,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 153,
+      "right": 522.211,
+      "bottom": 182,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 710.906,
+      "right": 515.609,
+      "bottom": 735,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 707.906,
+      "right": 515.609,
+      "bottom": 736.906,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": {
+      "w": 35.219,
+      "h": 0.234
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+    "sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.977,
+     "bottom": 620.25,
+     "width": 813.969,
+     "height": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1400x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 297.171875,
+    "centred": 297.125,
+    "frameH": 645
+   },
+   "firstWrap": 131,
+   "lastNonScroll": 3276,
+   "firstScroll": 3277,
+   "belowNat": 296,
+   "aboveNat": 306,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 112.133,
+     "top": 317.5,
+     "right": 1287.867,
+     "bottom": 615,
+     "width": 1175.734,
+     "height": 297.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 285.891,
+      "right": 729.172,
+      "bottom": 314.938,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 282.891,
+      "right": 729.172,
+      "bottom": 317.891,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.391
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 618.063,
+      "right": 721.219,
+      "bottom": 647.109,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 615.063,
+      "right": 721.219,
+      "bottom": 650.063,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 107.805,
+     "top": 196,
+     "right": 1292.195,
+     "bottom": 693,
+     "width": 1184.391,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 1184,
+     "scrollW": 1184
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 156,
+      "right": 729.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 153,
+      "right": 729.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 705.953,
+      "right": 721.219,
+      "bottom": 735,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 702.953,
+      "right": 721.219,
+      "bottom": 737.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 94.625,
+      "top": 764,
+      "right": 1305.344,
+      "bottom": 779,
+      "width": 1210.719,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 1358,
+     "bottom": 789,
+     "width": 1316,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 131,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 524,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 917,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1704,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2097,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2490,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2883,
+     "h": 266,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3276,
+     "h": 297.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.391
+     },
+     "next": null,
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+    "sweep n=3276 collision/outside {\"n\":3276,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 297.171875,
+    "centred": 297.125,
+    "frameH": 645
+   },
+   "firstWrap": 261,
+   "lastNonScroll": 6551,
+   "firstScroll": 6552,
+   "belowNat": 296,
+   "aboveNat": 306,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 108.289,
+     "top": 317.5,
+     "right": 1291.711,
+     "bottom": 615,
+     "width": 1183.422,
+     "height": 297.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 285.891,
+      "right": 729.172,
+      "bottom": 314.938,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 282.891,
+      "right": 729.172,
+      "bottom": 317.891,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.391
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 618.063,
+      "right": 721.219,
+      "bottom": 647.109,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 615.063,
+      "right": 721.219,
+      "bottom": 650.063,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 107.805,
+     "top": 196,
+     "right": 1292.195,
+     "bottom": 693,
+     "width": 1184.391,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 1184,
+     "scrollW": 1184
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 156,
+      "right": 729.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 153,
+      "right": 729.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 705.953,
+      "right": 721.219,
+      "bottom": 735,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 702.953,
+      "right": 721.219,
+      "bottom": 737.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 94.625,
+      "top": 764,
+      "right": 1305.344,
+      "bottom": 779,
+      "width": 1210.719,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 1358,
+     "bottom": 789,
+     "width": 1316,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 261,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1047,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1834,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2620,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3406,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4192,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4979,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 5765,
+     "h": 266,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 6551,
+     "h": 297.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.391
+     },
+     "next": null,
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+    "sweep n=6551 collision/outside {\"n\":6551,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950 focus",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 297.171875,
+    "centred": 297.125,
+    "frameH": 645
+   },
+   "firstWrap": 131,
+   "lastNonScroll": 3276,
+   "firstScroll": 3277,
+   "belowNat": 296,
+   "aboveNat": 306,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 112.133,
+     "top": 317.5,
+     "right": 1287.867,
+     "bottom": 615,
+     "width": 1175.734,
+     "height": 297.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 107.805,
+     "top": 196,
+     "right": 1292.195,
+     "bottom": 693,
+     "width": 1184.391,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 1184,
+     "scrollW": 1184
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 94.625,
+      "top": 764,
+      "right": 1305.344,
+      "bottom": 779,
+      "width": 1210.719,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 1358,
+     "bottom": 789,
+     "width": 1316,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 131,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 524,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 917,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1704,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2097,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2490,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2883,
+     "h": 266,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3276,
+     "h": 297.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1400x950 focus",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 297.171875,
+    "centred": 297.125,
+    "frameH": 645
+   },
+   "firstWrap": 131,
+   "lastNonScroll": 3276,
+   "firstScroll": 3277,
+   "belowNat": 296,
+   "aboveNat": 306,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 112.133,
+     "top": 317.5,
+     "right": 1287.852,
+     "bottom": 615,
+     "width": 1175.719,
+     "height": 297.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 285.891,
+      "right": 729.172,
+      "bottom": 314.938,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 282.891,
+      "right": 729.172,
+      "bottom": 317.891,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.391
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 618.063,
+      "right": 721.219,
+      "bottom": 647.109,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 615.063,
+      "right": 721.219,
+      "bottom": 650.063,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 107.805,
+     "top": 196,
+     "right": 1292.195,
+     "bottom": 693,
+     "width": 1184.391,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 1184,
+     "scrollW": 1184
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 670.828,
+      "top": 156,
+      "right": 729.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 670.828,
+      "top": 153,
+      "right": 729.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 678.781,
+      "top": 705.953,
+      "right": 721.219,
+      "bottom": 735,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 678.781,
+      "top": 702.953,
+      "right": 721.219,
+      "bottom": 737.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 94.625,
+      "top": 764,
+      "right": 1305.344,
+      "bottom": 779,
+      "width": 1210.719,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 1358,
+     "bottom": 789,
+     "width": 1316,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 131,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 524,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 917,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1704,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2097,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2490,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2883,
+     "h": 266,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3276,
+     "h": 297.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.391
+     },
+     "next": null,
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+    "sweep n=3276 collision/outside {\"n\":3276,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950 focus",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 297.171875,
+    "centred": 297.125,
+    "frameH": 645
+   },
+   "firstWrap": 131,
+   "lastNonScroll": 3276,
+   "firstScroll": 3277,
+   "belowNat": 296,
+   "aboveNat": 306,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 112.133,
+     "top": 317.5,
+     "right": 1287.852,
+     "bottom": 615,
+     "width": 1175.719,
+     "height": 297.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 107.805,
+     "top": 196,
+     "right": 1292.195,
+     "bottom": 693,
+     "width": 1184.391,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 1184,
+     "scrollW": 1184
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 94.625,
+      "top": 764,
+      "right": 1305.344,
+      "bottom": 779,
+      "width": 1210.719,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 1358,
+     "bottom": 789,
+     "width": 1316,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 131,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 524,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 917,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1704,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2097,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2490,
+     "h": 234.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2883,
+     "h": 266,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3276,
+     "h": 297.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844 focus",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 281.6875,
+    "centred": 281,
+    "frameH": 572
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 780,
+   "firstScroll": 781,
+   "belowNat": 275,
+   "aboveNat": 285,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 381.922,
+     "right": 345.742,
+     "bottom": 658.422,
+     "width": 301.5,
+     "height": 276.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 360.281,
+      "right": 212.68,
+      "bottom": 377.875,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 358.281,
+      "right": 212.68,
+      "bottom": 379.281,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 662.969,
+      "right": 207.859,
+      "bottom": 680.563,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 660.969,
+      "right": 207.859,
+      "bottom": 681.969,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 710.375,
+     "width": 307.797,
+     "height": 423.906
+    },
+    "area": {
+     "clientH": 424,
+     "scrollH": 424,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 734.781,
+      "right": 207.859,
+      "bottom": 752.375,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 732.781,
+      "right": 207.859,
+      "bottom": 753.781,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 781.375,
+      "right": 352.297,
+      "bottom": 796.375,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 806.469,
+     "width": 342,
+     "height": 572
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 128,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 221,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 314,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 408,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 501,
+     "h": 182,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 594,
+     "h": 213.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 687,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 780,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844 focus",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 281.6875,
+    "centred": 281,
+    "frameH": 572
+   },
+   "firstWrap": 66,
+   "lastNonScroll": 1565,
+   "firstScroll": 1566,
+   "belowNat": 275,
+   "aboveNat": 285,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 41.195,
+     "top": 381.922,
+     "right": 348.805,
+     "bottom": 658.422,
+     "width": 307.609,
+     "height": 276.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 360.281,
+      "right": 212.68,
+      "bottom": 377.875,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 358.281,
+      "right": 212.68,
+      "bottom": 379.281,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 662.969,
+      "right": 207.859,
+      "bottom": 680.563,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 660.969,
+      "right": 207.859,
+      "bottom": 681.969,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 710.375,
+     "width": 307.797,
+     "height": 423.906
+    },
+    "area": {
+     "clientH": 424,
+     "scrollH": 424,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 734.781,
+      "right": 207.859,
+      "bottom": 752.375,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 732.781,
+      "right": 207.859,
+      "bottom": 753.781,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 781.375,
+      "right": 352.297,
+      "bottom": 796.375,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 806.469,
+     "width": 342,
+     "height": 572
+    }
+   },
+   "sweep": [
+    {
+     "n": 66,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 253,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 441,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 628,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 816,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1003,
+     "h": 182,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1190,
+     "h": 213.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1378,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1565,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844 focus",
+   "context": false,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 281.6875,
+    "centred": 281,
+    "frameH": 572
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 780,
+   "firstScroll": 781,
+   "belowNat": 275,
+   "aboveNat": 285,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 381.922,
+     "right": 345.742,
+     "bottom": 658.422,
+     "width": 301.5,
+     "height": 276.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 710.375,
+     "width": 307.797,
+     "height": 423.906
+    },
+    "area": {
+     "clientH": 424,
+     "scrollH": 424,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 781.375,
+      "right": 352.297,
+      "bottom": 796.375,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 806.469,
+     "width": 342,
+     "height": 572
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 128,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 221,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 314,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 408,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 501,
+     "h": 182,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 594,
+     "h": 213.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 687,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 780,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844 focus",
+   "context": true,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 281.6875,
+    "centred": 281,
+    "frameH": 572
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 780,
+   "firstScroll": 781,
+   "belowNat": 275,
+   "aboveNat": 285,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 381.922,
+     "right": 345.727,
+     "bottom": 658.422,
+     "width": 301.469,
+     "height": 276.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 360.281,
+      "right": 212.68,
+      "bottom": 377.875,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 358.281,
+      "right": 212.68,
+      "bottom": 379.281,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 662.969,
+      "right": 207.859,
+      "bottom": 680.563,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 660.969,
+      "right": 207.859,
+      "bottom": 681.969,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 710.375,
+     "width": 307.797,
+     "height": 423.906
+    },
+    "area": {
+     "clientH": 424,
+     "scrollH": 424,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 734.781,
+      "right": 207.859,
+      "bottom": 752.375,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 732.781,
+      "right": 207.859,
+      "bottom": 753.781,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 781.375,
+      "right": 352.297,
+      "bottom": 796.375,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 806.469,
+     "width": 342,
+     "height": 572
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 128,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 221,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 314,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 408,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 501,
+     "h": 182,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 594,
+     "h": 213.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 687,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 780,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844 focus",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 281.6875,
+    "centred": 281,
+    "frameH": 572
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 780,
+   "firstScroll": 781,
+   "belowNat": 275,
+   "aboveNat": 285,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 381.922,
+     "right": 345.727,
+     "bottom": 658.422,
+     "width": 301.469,
+     "height": 276.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 710.375,
+     "width": 307.797,
+     "height": 423.906
+    },
+    "area": {
+     "clientH": 424,
+     "scrollH": 424,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 781.375,
+      "right": 352.297,
+      "bottom": 796.375,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 806.469,
+     "width": 342,
+     "height": 572
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 128,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 221,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 314,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 408,
+     "h": 150.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 501,
+     "h": 182,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 594,
+     "h": 213.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 687,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 780,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  }
+ ],
+ "fails": [
+  "1400x950 {\"context\":true,\"letter\":true} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1400x950 {\"context\":true,\"letter\":true} W: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1400x950 {\"context\":true,\"letter\":true} W: sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1400x950 {\"context\":true,\"letter\":true} real: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1400x950 {\"context\":true,\"letter\":true} real: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1400x950 {\"context\":true,\"letter\":true} real: sweep n=2892 collision/outside {\"n\":2892,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1400x950 {\"context\":true,\"letter\":false} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1400x950 {\"context\":true,\"letter\":false} W: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1400x950 {\"context\":true,\"letter\":false} W: sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1708x950 {\"context\":true,\"letter\":true} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1708x950 {\"context\":true,\"letter\":true} W: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1708x950 {\"context\":true,\"letter\":true} W: sweep n=2187 collision/outside {\"n\":2187,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1708x950 {\"context\":true,\"letter\":true} real: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1708x950 {\"context\":true,\"letter\":true} real: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1708x950 {\"context\":true,\"letter\":true} real: sweep n=4372 collision/outside {\"n\":4372,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1708x950 {\"context\":true,\"letter\":false} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1708x950 {\"context\":true,\"letter\":false} W: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1708x950 {\"context\":true,\"letter\":false} W: sweep n=2187 collision/outside {\"n\":2187,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "996x950 focus {\"context\":true,\"letter\":true} W: below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+  "996x950 focus {\"context\":true,\"letter\":true} W: sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}",
+  "996x950 focus {\"context\":true,\"letter\":true} real: below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+  "996x950 focus {\"context\":true,\"letter\":true} real: sweep n=4697 collision/outside {\"n\":4697,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}",
+  "996x950 focus {\"context\":true,\"letter\":false} W: below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+  "996x950 focus {\"context\":true,\"letter\":false} W: sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}",
+  "1400x950 focus {\"context\":true,\"letter\":true} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+  "1400x950 focus {\"context\":true,\"letter\":true} W: sweep n=3276 collision/outside {\"n\":3276,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}",
+  "1400x950 focus {\"context\":true,\"letter\":true} real: below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+  "1400x950 focus {\"context\":true,\"letter\":true} real: sweep n=6551 collision/outside {\"n\":6551,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}",
+  "1400x950 focus {\"context\":true,\"letter\":false} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.391}",
+  "1400x950 focus {\"context\":true,\"letter\":false} W: sweep n=3276 collision/outside {\"n\":3276,\"h\":297.5,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.391},\"next\":null,\"inside\":true}"
+ ]
+}

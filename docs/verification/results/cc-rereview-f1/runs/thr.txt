@@ -1,0 +1,94 @@
+390x844         ctx=1 letter=1 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x844         ctx=1 letter=1 real frameH 278 gap 117.09 centred 116.50 | last non-scroll 603 nat 107 | first scroll 604 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x844         ctx=0 letter=1 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x844         ctx=1 letter=0 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x844         ctx=0 letter=0 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x600         ctx=1 letter=1 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x600         ctx=1 letter=1 real frameH 278 gap 117.09 centred 116.50 | last non-scroll 603 nat 107 | first scroll 604 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x600         ctx=0 letter=1 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x600         ctx=1 letter=0 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+390x600         ctx=0 letter=0 W    frameH 278 gap 117.09 centred 116.50 | last non-scroll 300 nat 107 | first scroll 301 nat 117 | area 130 | note 487.469-502.469 inVP=true ok
+844x390         ctx=1 letter=1 W    frameH 366 gap 159.56 centred 158.16 | last non-scroll 476 nat 149 | first scroll 477 nat 159 | area 218 | note 485-500 inVP=false ok
+844x390         ctx=1 letter=1 real frameH 366 gap 159.56 centred 158.16 | last non-scroll 949 nat 149 | first scroll 950 nat 159 | area 218 | note 485-500 inVP=false ok
+844x390         ctx=0 letter=1 W    frameH 366 gap 159.56 centred 158.16 | last non-scroll 476 nat 149 | first scroll 477 nat 159 | area 218 | note 485-500 inVP=false ok
+844x390         ctx=1 letter=0 W    frameH 366 gap 159.56 centred 158.16 | last non-scroll 476 nat 149 | first scroll 477 nat 159 | area 218 | note 485-500 inVP=false ok
+844x390         ctx=0 letter=0 W    frameH 366 gap 159.56 centred 158.16 | last non-scroll 476 nat 149 | first scroll 477 nat 159 | area 218 | note 485-500 inVP=false ok
+1400x950        ctx=1 letter=1 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 1458 nat 285 | first scroll 1459 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1400x950        ctx=1 letter=1 real frameH 625 gap 285.95 centred 285.91 | last non-scroll 2892 nat 285 | first scroll 2893 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1400x950        ctx=0 letter=1 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 1458 nat 285 | first scroll 1459 nat 296 | area 477 | note 744-759 inVP=true ok
+1400x950        ctx=1 letter=0 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 1458 nat 285 | first scroll 1459 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1400x950        ctx=0 letter=0 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 1458 nat 285 | first scroll 1459 nat 296 | area 477 | note 744-759 inVP=true ok
+1708x950        ctx=1 letter=1 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 2187 nat 285 | first scroll 2188 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1708x950        ctx=1 letter=1 real frameH 625 gap 285.95 centred 285.91 | last non-scroll 4372 nat 285 | first scroll 4373 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1708x950        ctx=0 letter=1 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 2187 nat 285 | first scroll 2188 nat 296 | area 477 | note 744-759 inVP=true ok
+1708x950        ctx=1 letter=0 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 2187 nat 285 | first scroll 2188 nat 296 | area 477 | note 744-759 inVP=true FAIL
+1708x950        ctx=0 letter=0 W    frameH 625 gap 285.95 centred 285.91 | last non-scroll 2187 nat 285 | first scroll 2188 nat 296 | area 477 | note 744-759 inVP=true ok
+1920x1080       ctx=1 letter=1 W    frameH 755 gap 358.77 centred 358.72 | last non-scroll 3300 nat 348 | first scroll 3301 nat 359 | area 607 | note 874-889 inVP=true ok
+1920x1080       ctx=1 letter=1 real frameH 755 gap 358.77 centred 358.72 | last non-scroll 6591 nat 348 | first scroll 6592 nat 359 | area 607 | note 874-889 inVP=true ok
+1920x1080       ctx=0 letter=1 W    frameH 755 gap 358.77 centred 358.72 | last non-scroll 3300 nat 348 | first scroll 3301 nat 359 | area 607 | note 874-889 inVP=true ok
+1920x1080       ctx=1 letter=0 W    frameH 755 gap 358.77 centred 358.72 | last non-scroll 3300 nat 348 | first scroll 3301 nat 359 | area 607 | note 874-889 inVP=true ok
+1920x1080       ctx=0 letter=0 W    frameH 755 gap 358.77 centred 358.72 | last non-scroll 3300 nat 348 | first scroll 3301 nat 359 | area 607 | note 874-889 inVP=true ok
+996x950 focus   ctx=1 letter=1 W    frameH 645 gap 308.13 centred 307.03 | last non-scroll 2349 nat 306 | first scroll 2350 nat 317 | area 497 | note 764-779 inVP=true FAIL
+996x950 focus   ctx=1 letter=1 real frameH 645 gap 308.13 centred 307.03 | last non-scroll 4697 nat 306 | first scroll 4698 nat 317 | area 497 | note 764-779 inVP=true FAIL
+996x950 focus   ctx=0 letter=1 W    frameH 645 gap 308.13 centred 307.03 | last non-scroll 2349 nat 306 | first scroll 2350 nat 317 | area 497 | note 764-779 inVP=true ok
+996x950 focus   ctx=1 letter=0 W    frameH 645 gap 308.13 centred 307.03 | last non-scroll 2349 nat 306 | first scroll 2350 nat 317 | area 497 | note 764-779 inVP=true FAIL
+996x950 focus   ctx=0 letter=0 W    frameH 645 gap 308.13 centred 307.03 | last non-scroll 2349 nat 306 | first scroll 2350 nat 317 | area 497 | note 764-779 inVP=true ok
+1400x950 focus  ctx=1 letter=1 W    frameH 645 gap 297.17 centred 297.13 | last non-scroll 3276 nat 296 | first scroll 3277 nat 306 | area 497 | note 764-779 inVP=true FAIL
+1400x950 focus  ctx=1 letter=1 real frameH 645 gap 297.17 centred 297.13 | last non-scroll 6551 nat 296 | first scroll 6552 nat 306 | area 497 | note 764-779 inVP=true FAIL
+1400x950 focus  ctx=0 letter=1 W    frameH 645 gap 297.17 centred 297.13 | last non-scroll 3276 nat 296 | first scroll 3277 nat 306 | area 497 | note 764-779 inVP=true ok
+1400x950 focus  ctx=1 letter=0 W    frameH 645 gap 297.17 centred 297.13 | last non-scroll 3276 nat 296 | first scroll 3277 nat 306 | area 497 | note 764-779 inVP=true FAIL
+1400x950 focus  ctx=0 letter=0 W    frameH 645 gap 297.17 centred 297.13 | last non-scroll 3276 nat 296 | first scroll 3277 nat 306 | area 497 | note 764-779 inVP=true ok
+390x844 focus   ctx=1 letter=1 W    frameH 572 gap 281.69 centred 281.00 | last non-scroll 780 nat 275 | first scroll 781 nat 285 | area 424 | note 781.375-796.375 inVP=true ok
+390x844 focus   ctx=1 letter=1 real frameH 572 gap 281.69 centred 281.00 | last non-scroll 1565 nat 275 | first scroll 1566 nat 285 | area 424 | note 781.375-796.375 inVP=true ok
+390x844 focus   ctx=0 letter=1 W    frameH 572 gap 281.69 centred 281.00 | last non-scroll 780 nat 275 | first scroll 781 nat 285 | area 424 | note 781.375-796.375 inVP=true ok
+390x844 focus   ctx=1 letter=0 W    frameH 572 gap 281.69 centred 281.00 | last non-scroll 780 nat 275 | first scroll 781 nat 285 | area 424 | note 781.375-796.375 inVP=true ok
+390x844 focus   ctx=0 letter=0 W    frameH 572 gap 281.69 centred 281.00 | last non-scroll 780 nat 275 | first scroll 781 nat 285 | area 424 | note 781.375-796.375 inVP=true ok
+SAME-THRESHOLD 390x844 letter=1: on 301 off 301 equal
+SAME-THRESHOLD 390x844 letter=0: on 301 off 301 equal
+SAME-THRESHOLD 390x600 letter=1: on 301 off 301 equal
+SAME-THRESHOLD 390x600 letter=0: on 301 off 301 equal
+SAME-THRESHOLD 844x390 letter=1: on 477 off 477 equal
+SAME-THRESHOLD 844x390 letter=0: on 477 off 477 equal
+SAME-THRESHOLD 1400x950 letter=1: on 1459 off 1459 equal
+SAME-THRESHOLD 1400x950 letter=0: on 1459 off 1459 equal
+SAME-THRESHOLD 1708x950 letter=1: on 2188 off 2188 equal
+SAME-THRESHOLD 1708x950 letter=0: on 2188 off 2188 equal
+SAME-THRESHOLD 1920x1080 letter=1: on 3301 off 3301 equal
+SAME-THRESHOLD 1920x1080 letter=0: on 3301 off 3301 equal
+SAME-THRESHOLD 996x950 focus letter=1: on 2350 off 2350 equal
+SAME-THRESHOLD 996x950 focus letter=0: on 2350 off 2350 equal
+SAME-THRESHOLD 1400x950 focus letter=1: on 3277 off 3277 equal
+SAME-THRESHOLD 1400x950 focus letter=0: on 3277 off 3277 equal
+SAME-THRESHOLD 390x844 focus letter=1: on 781 off 781 equal
+SAME-THRESHOLD 390x844 focus letter=0: on 781 off 781 equal
+FAILS 30
+  1400x950 {"context":true,"letter":true} W: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1400x950 {"context":true,"letter":true} W: below: word overlaps context next {"w":42.438,"h":0.297}
+  1400x950 {"context":true,"letter":true} W: sweep n=1458 collision/outside {"n":1458,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  1400x950 {"context":true,"letter":true} real: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1400x950 {"context":true,"letter":true} real: below: word overlaps context next {"w":42.438,"h":0.297}
+  1400x950 {"context":true,"letter":true} real: sweep n=2892 collision/outside {"n":2892,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  1400x950 {"context":true,"letter":false} W: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1400x950 {"context":true,"letter":false} W: below: word overlaps context next {"w":42.438,"h":0.297}
+  1400x950 {"context":true,"letter":false} W: sweep n=1458 collision/outside {"n":1458,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  1708x950 {"context":true,"letter":true} W: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1708x950 {"context":true,"letter":true} W: below: word overlaps context next {"w":42.438,"h":0.297}
+  1708x950 {"context":true,"letter":true} W: sweep n=2187 collision/outside {"n":2187,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  1708x950 {"context":true,"letter":true} real: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1708x950 {"context":true,"letter":true} real: below: word overlaps context next {"w":42.438,"h":0.297}
+  1708x950 {"context":true,"letter":true} real: sweep n=4372 collision/outside {"n":4372,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  1708x950 {"context":true,"letter":false} W: below: word overlaps context previous {"w":58.344,"h":0.75}
+  1708x950 {"context":true,"letter":false} W: below: word overlaps context next {"w":42.438,"h":0.297}
+  1708x950 {"context":true,"letter":false} W: sweep n=2187 collision/outside {"n":2187,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}
+  996x950 focus {"context":true,"letter":true} W: below: word overlaps context next {"w":35.219,"h":0.234}
+  996x950 focus {"context":true,"letter":true} W: sweep n=2349 collision/outside {"n":2349,"h":308,"wrapped":true,"scrolling":false,"prev":null,"next":{"w":35.219,"h":0.234},"inside":true}
+  996x950 focus {"context":true,"letter":true} real: below: word overlaps context next {"w":35.219,"h":0.234}
+  996x950 focus {"context":true,"letter":true} real: sweep n=4697 collision/outside {"n":4697,"h":308,"wrapped":true,"scrolling":false,"prev":null,"next":{"w":35.219,"h":0.234},"inside":true}
+  996x950 focus {"context":true,"letter":false} W: below: word overlaps context next {"w":35.219,"h":0.234}
+  996x950 focus {"context":true,"letter":false} W: sweep n=2349 collision/outside {"n":2349,"h":308,"wrapped":true,"scrolling":false,"prev":null,"next":{"w":35.219,"h":0.234},"inside":true}
+  1400x950 focus {"context":true,"letter":true} W: below: word overlaps context previous {"w":58.344,"h":0.391}
+  1400x950 focus {"context":true,"letter":true} W: sweep n=3276 collision/outside {"n":3276,"h":297.5,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.391},"next":null,"inside":true}
+  1400x950 focus {"context":true,"letter":true} real: below: word overlaps context previous {"w":58.344,"h":0.391}
+  1400x950 focus {"context":true,"letter":true} real: sweep n=6551 collision/outside {"n":6551,"h":297.5,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.391},"next":null,"inside":true}
+  1400x950 focus {"context":true,"letter":false} W: below: word overlaps context previous {"w":58.344,"h":0.391}
+  1400x950 focus {"context":true,"letter":false} W: sweep n=3276 collision/outside {"n":3276,"h":297.5,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.391},"next":null,"inside":true}

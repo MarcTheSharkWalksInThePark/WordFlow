@@ -1,0 +1,502 @@
+{
+ "appBefore": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+ "smokeBefore": "11d221efeb9aba191bc3ea6c781b358f672bef63c11171e4d977d54a2915df2b",
+ "rows": [
+  {
+   "id": "B1",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize < 10 && wordWidth > frameWidth;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "d4b150161f02d7d877e1c91c8cb410670fd206048c74f074a57308be1b397305",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: floor word wider than frame breaks",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "d4b150161f02d7d877e1c91c8cb410670fd206048c74f074a57308be1b397305",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "d4b150161f02d7d877e1c91c8cb410670fd206048c74f074a57308be1b397305",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "B2",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize <= 10 && wordWidth >= frameWidth;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "ea4a52c2e8806d669566278f0145ac58924eb80b283e4cc018281171375369b0",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: floor word fitting frame does not break",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "ea4a52c2e8806d669566278f0145ac58924eb80b283e4cc018281171375369b0",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate B2: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "ea4a52c2e8806d669566278f0145ac58924eb80b283e4cc018281171375369b0",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "B3",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return wordWidth > frameWidth;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "1db9d8165f3f62086775c171451c39e77eb42fefa7cf0e975b8a82244ea4d226",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: no break above the floor",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "1db9d8165f3f62086775c171451c39e77eb42fefa7cf0e975b8a82244ea4d226",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "1db9d8165f3f62086775c171451c39e77eb42fefa7cf0e975b8a82244ea4d226",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "B4",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return fontSize <= 10 && frameWidth > wordWidth;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "9acf9bc4a43af7b88a61acef8fd89ca2d6e0ffb35fe9e03aefd692117a41daff",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: floor word wider than frame breaks",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "9acf9bc4a43af7b88a61acef8fd89ca2d6e0ffb35fe9e03aefd692117a41daff",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "9acf9bc4a43af7b88a61acef8fd89ca2d6e0ffb35fe9e03aefd692117a41daff",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "B5",
+   "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+   "replace": "return 10 <= fontSize && wordWidth > frameWidth;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "68d25bdf425a24416892c082df19e5b41aa76e775b266bd15a508eb9278419d6",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: no break above the floor",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "68d25bdf425a24416892c082df19e5b41aa76e775b266bd15a508eb9278419d6",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "68d25bdf425a24416892c082df19e5b41aa76e775b266bd15a508eb9278419d6",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "S1",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wrapped && wordHeight >= frameHeight;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "dcf8004874d8c6ab2d569129bc1afd60a8dfb080f816a69c6de4530e394f9525",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: wrapped token at frame height does not scroll",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "dcf8004874d8c6ab2d569129bc1afd60a8dfb080f816a69c6de4530e394f9525",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate S1: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "dcf8004874d8c6ab2d569129bc1afd60a8dfb080f816a69c6de4530e394f9525",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "S2",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wordHeight > frameHeight;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "caeac147eb7e092b00931e7b3051835a23e9b944bd893fe42a07a3fb17878e61",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: unwrapped token never enables vertical state",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "caeac147eb7e092b00931e7b3051835a23e9b944bd893fe42a07a3fb17878e61",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate S2: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "caeac147eb7e092b00931e7b3051835a23e9b944bd893fe42a07a3fb17878e61",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  },
+  {
+   "id": "S3",
+   "find": "return wrapped && wordHeight > frameHeight;",
+   "replace": "return wrapped && frameHeight > wordHeight;",
+   "before": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8",
+   "mutated": "c7f232638c25d1827ee3f34be8108e973c37f57ff815fe561f2b7a5a7ee1ab32",
+   "node": [
+    {
+     "label": "tests/regression.cjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}"
+     ]
+    },
+    {
+     "label": "tests/proxy.test.mjs",
+     "status": 0,
+     "secs": 0,
+     "firstFailure": null,
+     "tail": [
+      "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}"
+     ]
+    },
+    {
+     "label": "tests/server_exposure.test.js",
+     "status": 0,
+     "secs": 2,
+     "firstFailure": null,
+     "tail": [
+      "",
+      "32 checks passed."
+     ]
+    },
+    {
+     "label": "tests/post-review.test.cjs",
+     "status": 1,
+     "secs": 0,
+     "firstFailure": "FAIL reader: strict excess height enables vertical state",
+     "tail": [
+      "  diff: 'simple'",
+      "}"
+     ]
+    }
+   ],
+   "mutatedAfterNode": "c7f232638c25d1827ee3f34be8108e973c37f57ff815fe561f2b7a5a7ee1ab32",
+   "chrome": {
+    "label": "static_smoke",
+    "status": 1,
+    "secs": 1,
+    "firstFailure": "Error: W6 browser predicate S3: Expected values to be strictly equal:",
+    "tail": [
+     "  }",
+     "}"
+    ]
+   },
+   "mutatedAfterChrome": "c7f232638c25d1827ee3f34be8108e973c37f57ff815fe561f2b7a5a7ee1ab32",
+   "nodeVerdict": "KILLED",
+   "chromeVerdict": "KILLED",
+   "restored": "a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8"
+  }
+ ]
+}

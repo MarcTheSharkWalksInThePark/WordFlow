@@ -1,0 +1,19 @@
+B1 node KILLED (FAIL reader: floor word wider than frame breaks) chrome KILLED (Error: W6 browser predicate B1/B4: Expected values to be strictly equal:) mutated d4b150161f02d7d877e1c91c8cb410670fd206048c74f074a57308be1b397305 restored==before true
+B2 node KILLED (FAIL reader: floor word fitting frame does not break) chrome KILLED (Error: W6 browser predicate B2: Expected values to be strictly equal:) mutated ea4a52c2e8806d669566278f0145ac58924eb80b283e4cc018281171375369b0 restored==before true
+B3 node KILLED (FAIL reader: no break above the floor) chrome KILLED (Error: W6 browser predicate B3/B5: Expected values to be strictly equal:) mutated 1db9d8165f3f62086775c171451c39e77eb42fefa7cf0e975b8a82244ea4d226 restored==before true
+B4 node KILLED (FAIL reader: floor word wider than frame breaks) chrome KILLED (Error: W6 browser predicate B1/B4: Expected values to be strictly equal:) mutated 9acf9bc4a43af7b88a61acef8fd89ca2d6e0ffb35fe9e03aefd692117a41daff restored==before true
+B5 node KILLED (FAIL reader: no break above the floor) chrome KILLED (Error: W6 browser predicate B3/B5: Expected values to be strictly equal:) mutated 68d25bdf425a24416892c082df19e5b41aa76e775b266bd15a508eb9278419d6 restored==before true
+S1 node KILLED (FAIL reader: wrapped token at frame height does not scroll) chrome KILLED (Error: W6 browser predicate S1: Expected values to be strictly equal:) mutated dcf8004874d8c6ab2d569129bc1afd60a8dfb080f816a69c6de4530e394f9525 restored==before true
+S2 node KILLED (FAIL reader: unwrapped token never enables vertical state) chrome KILLED (Error: W6 browser predicate S2: Expected values to be strictly equal:) mutated caeac147eb7e092b00931e7b3051835a23e9b944bd893fe42a07a3fb17878e61 restored==before true
+S3 node KILLED (FAIL reader: strict excess height enables vertical state) chrome KILLED (Error: W6 browser predicate S3: Expected values to be strictly equal:) mutated c7f232638c25d1827ee3f34be8108e973c37f57ff815fe561f2b7a5a7ee1ab32 restored==before true
+final app.js a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8 == before true | smoke true
+B1 rendered-only KILLED (Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow) mutated d4b150161f02d7d877e1c91c8cb410670fd206048c74f074a57308be1b397305 restored==before true
+B2 rendered-only SURVIVED (null) mutated ea4a52c2e8806d669566278f0145ac58924eb80b283e4cc018281171375369b0 restored==before true
+B3 rendered-only SURVIVED (null) mutated 1db9d8165f3f62086775c171451c39e77eb42fefa7cf0e975b8a82244ea4d226 restored==before true
+B4 rendered-only KILLED (Error: F1 W 135 geometry, playback and data: frame must retain normal size and have no overflow) mutated 9acf9bc4a43af7b88a61acef8fd89ca2d6e0ffb35fe9e03aefd692117a41daff restored==before true
+B5 rendered-only SURVIVED (null) mutated 68d25bdf425a24416892c082df19e5b41aa76e775b266bd15a508eb9278419d6 restored==before true
+S1 rendered-only SURVIVED (null) mutated dcf8004874d8c6ab2d569129bc1afd60a8dfb080f816a69c6de4530e394f9525 restored==before true
+S2 rendered-only SURVIVED (null) mutated caeac147eb7e092b00931e7b3051835a23e9b944bd893fe42a07a3fb17878e61 restored==before true
+S3 rendered-only KILLED (Error: F1 W 135 geometry, playback and data: scroll state {"word":{"x":448.203125,"y":196,"width":543.59375,"height":477},"content":{"x":448.65625,"y":196,"width":542.671875,"height":35},"font":"10px") mutated c7f232638c25d1827ee3f34be8108e973c37f57ff815fe561f2b7a5a7ee1ab32 restored==before true
+final app.js a3ba064933477e672e6774f1a05fbc72604608b0f2c5bc651034fa9145c38ba8 == before true | smoke true
+done

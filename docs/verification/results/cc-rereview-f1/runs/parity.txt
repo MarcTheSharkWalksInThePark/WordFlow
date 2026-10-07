@@ -1,0 +1,11 @@
+
+> wordflow@0.1.0 parity
+> node tools/parity.cjs
+
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+{"passed":272,"viewports":2,"errors":0,"uploadRequests":0}
+PASS: generated tests/parity-stamp.json
+
+real	2m40.896s
+user	0m0.060s
+sys	0m0.091s

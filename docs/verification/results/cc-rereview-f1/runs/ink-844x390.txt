@@ -1,0 +1,6 @@
+844x390         letter 1 W    below n 476 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below 12 | element-box overlap prev false next false
+844x390         letter 1 W    above n 477 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below 85 | element-box overlap prev false next false
+844x390         letter 1 real below n 949 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below 10 | element-box overlap prev false next false
+844x390         letter 1 real above n 950 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below 85 | element-box overlap prev false next false
+844x390         letter 0 W    below n 476 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below 12 | element-box overlap prev false next false
+844x390         letter 0 W    above n 477 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below 85 | element-box overlap prev false next false

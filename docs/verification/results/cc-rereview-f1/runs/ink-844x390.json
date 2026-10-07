@@ -1,0 +1,374 @@
+[
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 476,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 130.5,
+   "right": 782.797,
+   "bottom": 277.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 128.5,
+   "right": 780.844,
+   "bottom": 279,
+   "width": 341.688,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 101.516,
+   "right": 630.508,
+   "bottom": 121.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 286.078,
+   "right": 624.922,
+   "bottom": 306.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29278,
+  "ctxPx": 624,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   255
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": [
+   268,
+   281
+  ],
+  "clearAbovePx": 14,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 477,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 73,
+   "right": 782.797,
+   "bottom": 291,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 73,
+   "right": 780.844,
+   "bottom": 234,
+   "width": 341.688,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 33,
+   "right": 630.508,
+   "bottom": 53.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 312.594,
+   "right": 624.922,
+   "bottom": 333,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29339,
+  "ctxPx": 624,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": [
+   295,
+   308
+  ],
+  "clearAbovePx": 27,
+  "clearBelowPx": 85
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 949,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 130.5,
+   "right": 782.797,
+   "bottom": 277.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 437.219,
+   "top": 128.5,
+   "right": 782.781,
+   "bottom": 279,
+   "width": 345.563,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 101.516,
+   "right": 630.508,
+   "bottom": 121.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 286.078,
+   "right": 624.922,
+   "bottom": 306.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 23033,
+  "ctxPx": 624,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   257
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": [
+   268,
+   281
+  ],
+  "clearAbovePx": 14,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 950,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 73,
+   "right": 782.797,
+   "bottom": 291,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 437.219,
+   "top": 73,
+   "right": 782.781,
+   "bottom": 234,
+   "width": 345.563,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 33,
+   "right": 630.508,
+   "bottom": 53.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 312.594,
+   "right": 624.922,
+   "bottom": 333,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 23075,
+  "ctxPx": 624,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": [
+   295,
+   308
+  ],
+  "clearAbovePx": 27,
+  "clearBelowPx": 85
+ },
+ {
+  "layout": "844x390",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 476,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 130.5,
+   "right": 782.797,
+   "bottom": 277.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 128.5,
+   "right": 780.828,
+   "bottom": 279,
+   "width": 341.672,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 101.516,
+   "right": 630.508,
+   "bottom": 121.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 286.078,
+   "right": 624.922,
+   "bottom": 306.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29274,
+  "ctxPx": 624,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   255
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": [
+   268,
+   281
+  ],
+  "clearAbovePx": 14,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "844x390",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 477,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 73,
+   "right": 782.797,
+   "bottom": 291,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 73,
+   "right": 780.828,
+   "bottom": 234,
+   "width": 341.672,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 33,
+   "right": 630.508,
+   "bottom": 53.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 312.594,
+   "right": 624.922,
+   "bottom": 333,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29339,
+  "ctxPx": 624,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": [
+   295,
+   308
+  ],
+  "clearAbovePx": 27,
+  "clearBelowPx": 85
+ }
+]

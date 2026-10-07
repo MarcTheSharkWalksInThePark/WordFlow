@@ -1,0 +1,54 @@
+390x844         letter 1 W    below n 300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 12 | element-box overlap prev false next false
+390x844         letter 1 W    above n 301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+390x844         letter 1 real below n 603 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 10 | element-box overlap prev false next false
+390x844         letter 1 real above n 604 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+390x844         letter 0 W    below n 300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 12 | element-box overlap prev false next false
+390x844         letter 0 W    above n 301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+390x600         letter 1 W    below n 300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 12 | element-box overlap prev false next false
+390x600         letter 1 W    above n 301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+390x600         letter 1 real below n 603 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 10 | element-box overlap prev false next false
+390x600         letter 1 real above n 604 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+390x600         letter 0 W    below n 300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 12 below 12 | element-box overlap prev false next false
+390x600         letter 0 W    above n 301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 42 | element-box overlap prev false next false
+844x390         letter 1 W    below n 476 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below  | element-box overlap prev false next false
+844x390         letter 1 W    above n 477 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below  | element-box overlap prev false next false
+844x390         letter 1 real below n 949 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below  | element-box overlap prev false next false
+844x390         letter 1 real above n 950 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below  | element-box overlap prev false next false
+844x390         letter 0 W    below n 476 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 14 below  | element-box overlap prev false next false
+844x390         letter 0 W    above n 477 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 27 below  | element-box overlap prev false next false
+1400x950        letter 1 W    below n 1458 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 11 | element-box overlap prev false next false
+1400x950        letter 1 W    above n 1459 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1400x950        letter 1 real below n 2892 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 9 | element-box overlap prev false next false
+1400x950        letter 1 real above n 2893 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1400x950        letter 0 W    below n 1458 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 11 | element-box overlap prev false next false
+1400x950        letter 0 W    above n 1459 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1708x950        letter 1 W    below n 2187 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 11 | element-box overlap prev false next false
+1708x950        letter 1 W    above n 2188 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1708x950        letter 1 real below n 4372 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 9 | element-box overlap prev false next false
+1708x950        letter 1 real above n 4373 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1708x950        letter 0 W    below n 2187 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 11 | element-box overlap prev false next false
+1708x950        letter 0 W    above n 2188 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 201 | element-box overlap prev false next false
+1920x1080       letter 1 W    below n 3300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 16 below 16 | element-box overlap prev false next false
+1920x1080       letter 1 W    above n 3301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 268 | element-box overlap prev false next false
+1920x1080       letter 1 real below n 6591 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 16 below 14 | element-box overlap prev false next false
+1920x1080       letter 1 real above n 6592 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 266 | element-box overlap prev false next false
+1920x1080       letter 0 W    below n 3300 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 16 below 16 | element-box overlap prev false next false
+1920x1080       letter 0 W    above n 3301 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 268 | element-box overlap prev false next false
+996x950 focus   letter 1 W    below n 2349 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 9 | element-box overlap prev false next false
+996x950 focus   letter 1 W    above n 2350 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 23 below 203 | element-box overlap prev false next false
+996x950 focus   letter 1 real below n 4697 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 7 | element-box overlap prev false next false
+996x950 focus   letter 1 real above n 4698 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 23 below 203 | element-box overlap prev false next false
+996x950 focus   letter 0 W    below n 2349 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 10 below 9 | element-box overlap prev false next false
+996x950 focus   letter 0 W    above n 2350 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 23 below 203 | element-box overlap prev false next false
+1400x950 focus  letter 1 W    below n 3276 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 12 | element-box overlap prev false next false
+1400x950 focus  letter 1 W    above n 3277 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 211 | element-box overlap prev false next false
+1400x950 focus  letter 1 real below n 6551 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 10 | element-box overlap prev false next false
+1400x950 focus  letter 1 real above n 6552 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 211 | element-box overlap prev false next false
+1400x950 focus  letter 0 W    below n 3276 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 12 | element-box overlap prev false next false
+1400x950 focus  letter 0 W    above n 3277 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 19 below 211 | element-box overlap prev false next false
+390x844 focus   letter 1 W    below n 780 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 10 | element-box overlap prev false next false
+390x844 focus   letter 1 W    above n 781 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 168 | element-box overlap prev false next false
+390x844 focus   letter 1 real below n 1565 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 8 | element-box overlap prev false next false
+390x844 focus   letter 1 real above n 1566 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 168 | element-box overlap prev false next false
+390x844 focus   letter 0 W    below n 780 wrap   | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 11 below 10 | element-box overlap prev false next false
+390x844 focus   letter 0 W    above n 781 scroll | shared word/ctx px 0 word/note 0 ctx/note 0 | clear above 29 below 168 | element-box overlap prev false next false

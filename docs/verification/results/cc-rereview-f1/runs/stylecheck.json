@@ -1,0 +1,28 @@
+[
+ {
+  "seq": "Responsibility",
+  "branch": {
+   "attr": null,
+   "font": "128px",
+   "cls": "word-display large"
+  },
+  "master": {
+   "attr": null,
+   "font": "128px",
+   "cls": "word-display large"
+  }
+ },
+ {
+  "seq": "Wholeheartedly -> Responsibility",
+  "branch": {
+   "attr": "",
+   "font": "128px",
+   "cls": "word-display large"
+  },
+  "master": {
+   "attr": null,
+   "font": "128px",
+   "cls": "word-display large"
+  }
+ }
+]

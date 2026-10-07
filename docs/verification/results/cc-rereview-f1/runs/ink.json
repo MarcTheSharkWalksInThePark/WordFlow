@@ -1,0 +1,3332 @@
+[
+ {
+  "layout": "390x844",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 318.969,
+   "right": 345.742,
+   "bottom": 427.469,
+   "width": 301.5,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18470,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   190
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "390x844",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 286.469,
+   "right": 345.742,
+   "bottom": 405.469,
+   "width": 301.5,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18455,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "390x844",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 603,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 318.969,
+   "right": 348.805,
+   "bottom": 427.469,
+   "width": 307.609,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 14651,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   192
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "390x844",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 604,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 286.469,
+   "right": 348.805,
+   "bottom": 405.469,
+   "width": 307.609,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 14697,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "390x844",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 318.969,
+   "right": 345.727,
+   "bottom": 427.469,
+   "width": 301.469,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18470,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   190
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "390x844",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 286.469,
+   "right": 345.727,
+   "bottom": 405.469,
+   "width": 301.469,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18455,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "390x600",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 318.969,
+   "right": 345.742,
+   "bottom": 427.469,
+   "width": 301.5,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18470,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   190
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "390x600",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 286.469,
+   "right": 345.742,
+   "bottom": 405.469,
+   "width": 301.5,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18455,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "390x600",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 603,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 318.969,
+   "right": 348.805,
+   "bottom": 427.469,
+   "width": 307.609,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 14651,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   192
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "390x600",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 604,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 286.469,
+   "right": 348.805,
+   "bottom": 405.469,
+   "width": 307.609,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 14697,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "390x600",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 320.969,
+   "right": 348.898,
+   "bottom": 425.969,
+   "width": 307.797,
+   "height": 105
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 318.969,
+   "right": 345.727,
+   "bottom": 427.469,
+   "width": 301.469,
+   "height": 108.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 295.625,
+   "right": 212.68,
+   "bottom": 313.219,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 433.719,
+   "right": 207.859,
+   "bottom": 451.313,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18470,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   89,
+   190
+  ],
+  "ctxAboveRows": [
+   65,
+   76
+  ],
+  "ctxBelowRows": [
+   203,
+   214
+  ],
+  "clearAbovePx": 12,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "390x600",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 416.469,
+   "width": 307.797,
+   "height": 130
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 286.469,
+   "right": 345.727,
+   "bottom": 405.469,
+   "width": 301.469,
+   "height": 119
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 440.875,
+   "right": 207.859,
+   "bottom": 458.469,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 18455,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   167
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   210,
+   221
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 42
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 476,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 253.5,
+   "right": 782.797,
+   "bottom": 400.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 251.5,
+   "right": 780.844,
+   "bottom": 402,
+   "width": 341.688,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 224.516,
+   "right": 630.508,
+   "bottom": 244.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 409.078,
+   "right": 624.922,
+   "bottom": 429.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 27187,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   244
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 14,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 477,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 196,
+   "right": 782.797,
+   "bottom": 414,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 196,
+   "right": 780.844,
+   "bottom": 357,
+   "width": 341.688,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 156,
+   "right": 630.508,
+   "bottom": 176.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 435.594,
+   "right": 624.922,
+   "bottom": 456,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29339,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 27,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 949,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 253.5,
+   "right": 782.797,
+   "bottom": 400.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 437.219,
+   "top": 251.5,
+   "right": 782.781,
+   "bottom": 402,
+   "width": 345.563,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 224.516,
+   "right": 630.508,
+   "bottom": 244.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 409.078,
+   "right": 624.922,
+   "bottom": 429.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 21395,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   245
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 14,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "844x390",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 950,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 196,
+   "right": 782.797,
+   "bottom": 414,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 437.219,
+   "top": 196,
+   "right": 782.781,
+   "bottom": 357,
+   "width": 345.563,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 156,
+   "right": 630.508,
+   "bottom": 176.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 435.594,
+   "right": 624.922,
+   "bottom": 456,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 23075,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 27,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "844x390",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 476,
+  "scrolling": false,
+  "wordBox": {
+   "left": 437.203,
+   "top": 253.5,
+   "right": 782.797,
+   "bottom": 400.5,
+   "width": 345.594,
+   "height": 147
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 251.5,
+   "right": 780.828,
+   "bottom": 402,
+   "width": 341.672,
+   "height": 150.5
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 224.516,
+   "right": 630.508,
+   "bottom": 244.922,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 409.078,
+   "right": 624.922,
+   "bottom": 429.484,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 27183,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   112,
+   244
+  ],
+  "ctxAboveRows": [
+   84,
+   97
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 14,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "844x390",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 477,
+  "scrolling": true,
+  "wordBox": {
+   "left": 437.203,
+   "top": 196,
+   "right": 782.797,
+   "bottom": 414,
+   "width": 345.594,
+   "height": 218
+  },
+  "textRect": {
+   "left": 439.156,
+   "top": 196,
+   "right": 780.828,
+   "bottom": 357,
+   "width": 341.672,
+   "height": 161
+  },
+  "prevBox": {
+   "left": 589.492,
+   "top": 156,
+   "right": 630.508,
+   "bottom": 176.406,
+   "width": 41.016,
+   "height": 20.406
+  },
+  "nextBox": {
+   "left": 595.078,
+   "top": 435.594,
+   "right": 624.922,
+   "bottom": 456,
+   "width": 29.844,
+   "height": 20.406
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 29339,
+  "ctxPx": 342,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   209
+  ],
+  "ctxAboveRows": [
+   15,
+   28
+  ],
+  "ctxBelowRows": null,
+  "clearAbovePx": 27,
+  "clearBelowPx": null
+ },
+ {
+  "layout": "1400x950",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 1458,
+  "scrolling": false,
+  "wordBox": {
+   "left": 448.203,
+   "top": 314.75,
+   "right": 991.797,
+   "bottom": 598.25,
+   "width": 543.594,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 448.656,
+   "top": 312.75,
+   "right": 991.328,
+   "bottom": 599.75,
+   "width": 542.672,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 281.5,
+   "right": 749.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 602.453,
+   "right": 741.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 90611,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   452
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 11
+ },
+ {
+  "layout": "1400x950",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 1459,
+  "scrolling": true,
+  "wordBox": {
+   "left": 448.203,
+   "top": 196,
+   "right": 991.797,
+   "bottom": 673,
+   "width": 543.594,
+   "height": 477
+  },
+  "textRect": {
+   "left": 448.656,
+   "top": 196,
+   "right": 991.328,
+   "bottom": 493.5,
+   "width": 542.672,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 156,
+   "right": 749.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 685.953,
+   "right": 741.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 90488,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1400x950",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 2892,
+  "scrolling": false,
+  "wordBox": {
+   "left": 448.203,
+   "top": 314.75,
+   "right": 991.797,
+   "bottom": 598.25,
+   "width": 543.594,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 448.344,
+   "top": 312.75,
+   "right": 991.656,
+   "bottom": 599.75,
+   "width": 543.313,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 281.5,
+   "right": 749.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 602.453,
+   "right": 741.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 69946,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   454
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 9
+ },
+ {
+  "layout": "1400x950",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 2893,
+  "scrolling": true,
+  "wordBox": {
+   "left": 448.203,
+   "top": 196,
+   "right": 991.797,
+   "bottom": 673,
+   "width": 543.594,
+   "height": 477
+  },
+  "textRect": {
+   "left": 448.344,
+   "top": 196,
+   "right": 991.656,
+   "bottom": 493.5,
+   "width": 543.313,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 156,
+   "right": 749.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 685.953,
+   "right": 741.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 69986,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1400x950",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 1458,
+  "scrolling": false,
+  "wordBox": {
+   "left": 448.203,
+   "top": 314.75,
+   "right": 991.797,
+   "bottom": 598.25,
+   "width": 543.594,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 448.672,
+   "top": 312.75,
+   "right": 991.313,
+   "bottom": 599.75,
+   "width": 542.641,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 281.5,
+   "right": 749.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 602.453,
+   "right": 741.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 90612,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   452
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 11
+ },
+ {
+  "layout": "1400x950",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 1459,
+  "scrolling": true,
+  "wordBox": {
+   "left": 448.203,
+   "top": 196,
+   "right": 991.797,
+   "bottom": 673,
+   "width": 543.594,
+   "height": 477
+  },
+  "textRect": {
+   "left": 448.672,
+   "top": 196,
+   "right": 991.313,
+   "bottom": 493.5,
+   "width": 542.641,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 690.828,
+   "top": 156,
+   "right": 749.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 698.781,
+   "top": 685.953,
+   "right": 741.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 90488,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1708x950",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 2187,
+  "scrolling": false,
+  "wordBox": {
+   "left": 463.602,
+   "top": 314.75,
+   "right": 1284.398,
+   "bottom": 598.25,
+   "width": 820.797,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 467.008,
+   "top": 312.75,
+   "right": 1280.992,
+   "bottom": 599.75,
+   "width": 813.984,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 281.5,
+   "right": 903.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 602.453,
+   "right": 895.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 135165,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   452
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 11
+ },
+ {
+  "layout": "1708x950",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 2188,
+  "scrolling": true,
+  "wordBox": {
+   "left": 463.602,
+   "top": 196,
+   "right": 1284.398,
+   "bottom": 673,
+   "width": 820.797,
+   "height": 477
+  },
+  "textRect": {
+   "left": 467.008,
+   "top": 196,
+   "right": 1280.992,
+   "bottom": 493.5,
+   "width": 813.984,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 156,
+   "right": 903.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 685.953,
+   "right": 895.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 135544,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1708x950",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 4372,
+  "scrolling": false,
+  "wordBox": {
+   "left": 463.602,
+   "top": 314.75,
+   "right": 1284.398,
+   "bottom": 598.25,
+   "width": 820.797,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 463.789,
+   "top": 312.75,
+   "right": 1284.195,
+   "bottom": 599.75,
+   "width": 820.406,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 281.5,
+   "right": 903.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 602.453,
+   "right": 895.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 105791,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   454
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 9
+ },
+ {
+  "layout": "1708x950",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 4373,
+  "scrolling": true,
+  "wordBox": {
+   "left": 463.602,
+   "top": 196,
+   "right": 1284.398,
+   "bottom": 673,
+   "width": 820.797,
+   "height": 477
+  },
+  "textRect": {
+   "left": 463.789,
+   "top": 196,
+   "right": 1284.195,
+   "bottom": 493.5,
+   "width": 820.406,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 156,
+   "right": 903.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 685.953,
+   "right": 895.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 105849,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1708x950",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 2187,
+  "scrolling": false,
+  "wordBox": {
+   "left": 463.602,
+   "top": 314.75,
+   "right": 1284.398,
+   "bottom": 598.25,
+   "width": 820.797,
+   "height": 283.5
+  },
+  "textRect": {
+   "left": 467.008,
+   "top": 312.75,
+   "right": 1280.977,
+   "bottom": 599.75,
+   "width": 813.969,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 281.5,
+   "right": 903.172,
+   "bottom": 310.547,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 602.453,
+   "right": 895.219,
+   "bottom": 631.5,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 135162,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   452
+  ],
+  "ctxAboveRows": [
+   144,
+   162
+  ],
+  "ctxBelowRows": [
+   464,
+   482
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 11
+ },
+ {
+  "layout": "1708x950",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 2188,
+  "scrolling": true,
+  "wordBox": {
+   "left": 463.602,
+   "top": 196,
+   "right": 1284.398,
+   "bottom": 673,
+   "width": 820.797,
+   "height": 477
+  },
+  "textRect": {
+   "left": 467.008,
+   "top": 196,
+   "right": 1280.977,
+   "bottom": 493.5,
+   "width": 813.969,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 844.828,
+   "top": 156,
+   "right": 903.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 852.781,
+   "top": 685.953,
+   "right": 895.219,
+   "bottom": 715,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 135548,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   346
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   548,
+   566
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 201
+ },
+ {
+  "layout": "1920x1080",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 3300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 474.203,
+   "top": 348.25,
+   "right": 1485.797,
+   "bottom": 694.75,
+   "width": 1011.594,
+   "height": 346.5
+  },
+  "textRect": {
+   "left": 477.547,
+   "top": 346.25,
+   "right": 1482.453,
+   "bottom": 696.25,
+   "width": 1004.906,
+   "height": 350
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 310.094,
+   "right": 1009.172,
+   "bottom": 339.141,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 703.859,
+   "right": 1001.219,
+   "bottom": 732.906,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 204171,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   207,
+   549
+  ],
+  "ctxAboveRows": [
+   172,
+   190
+  ],
+  "ctxBelowRows": [
+   566,
+   584
+  ],
+  "clearAbovePx": 16,
+  "clearBelowPx": 16
+ },
+ {
+  "layout": "1920x1080",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 3301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 474.203,
+   "top": 196,
+   "right": 1485.797,
+   "bottom": 803,
+   "width": 1011.594,
+   "height": 607
+  },
+  "textRect": {
+   "left": 477.547,
+   "top": 196,
+   "right": 1482.453,
+   "bottom": 556.5,
+   "width": 1004.906,
+   "height": 360.5
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 156,
+   "right": 1009.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 815.953,
+   "right": 1001.219,
+   "bottom": 845,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 204239,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   409
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   678,
+   696
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 268
+ },
+ {
+  "layout": "1920x1080",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 6591,
+  "scrolling": false,
+  "wordBox": {
+   "left": 474.203,
+   "top": 348.25,
+   "right": 1485.797,
+   "bottom": 694.75,
+   "width": 1011.594,
+   "height": 346.5
+  },
+  "textRect": {
+   "left": 474.375,
+   "top": 346.25,
+   "right": 1485.609,
+   "bottom": 696.25,
+   "width": 1011.234,
+   "height": 350
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 310.094,
+   "right": 1009.172,
+   "bottom": 339.141,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 703.859,
+   "right": 1001.219,
+   "bottom": 732.906,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 159433,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   207,
+   551
+  ],
+  "ctxAboveRows": [
+   172,
+   190
+  ],
+  "ctxBelowRows": [
+   566,
+   584
+  ],
+  "clearAbovePx": 16,
+  "clearBelowPx": 14
+ },
+ {
+  "layout": "1920x1080",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 6592,
+  "scrolling": true,
+  "wordBox": {
+   "left": 474.203,
+   "top": 196,
+   "right": 1485.797,
+   "bottom": 803,
+   "width": 1011.594,
+   "height": 607
+  },
+  "textRect": {
+   "left": 474.375,
+   "top": 196,
+   "right": 1485.609,
+   "bottom": 556.5,
+   "width": 1011.234,
+   "height": 360.5
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 156,
+   "right": 1009.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 815.953,
+   "right": 1001.219,
+   "bottom": 845,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 159401,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   411
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   678,
+   696
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 266
+ },
+ {
+  "layout": "1920x1080",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 3300,
+  "scrolling": false,
+  "wordBox": {
+   "left": 474.203,
+   "top": 348.25,
+   "right": 1485.797,
+   "bottom": 694.75,
+   "width": 1011.594,
+   "height": 346.5
+  },
+  "textRect": {
+   "left": 477.547,
+   "top": 346.25,
+   "right": 1482.438,
+   "bottom": 696.25,
+   "width": 1004.891,
+   "height": 350
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 310.094,
+   "right": 1009.172,
+   "bottom": 339.141,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 703.859,
+   "right": 1001.219,
+   "bottom": 732.906,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 204171,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   207,
+   549
+  ],
+  "ctxAboveRows": [
+   172,
+   190
+  ],
+  "ctxBelowRows": [
+   566,
+   584
+  ],
+  "clearAbovePx": 16,
+  "clearBelowPx": 16
+ },
+ {
+  "layout": "1920x1080",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 3301,
+  "scrolling": true,
+  "wordBox": {
+   "left": 474.203,
+   "top": 196,
+   "right": 1485.797,
+   "bottom": 803,
+   "width": 1011.594,
+   "height": 607
+  },
+  "textRect": {
+   "left": 477.547,
+   "top": 196,
+   "right": 1482.438,
+   "bottom": 556.5,
+   "width": 1004.891,
+   "height": 360.5
+  },
+  "prevBox": {
+   "left": 950.828,
+   "top": 156,
+   "right": 1009.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 958.781,
+   "top": 815.953,
+   "right": 1001.219,
+   "bottom": 845,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 204236,
+  "ctxPx": 1051,
+  "notePx": 1085,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   409
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   678,
+   696
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 268
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 2349,
+  "scrolling": false,
+  "wordBox": {
+   "left": 87.602,
+   "top": 314.25,
+   "right": 908.398,
+   "bottom": 618.75,
+   "width": 820.797,
+   "height": 304.5
+  },
+  "textRect": {
+   "left": 91.008,
+   "top": 312.25,
+   "right": 904.992,
+   "bottom": 620.25,
+   "width": 813.984,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 285.891,
+   "right": 522.211,
+   "bottom": 309.984,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 623.016,
+   "right": 515.609,
+   "bottom": 647.109,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 145177,
+  "ctxPx": 830,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   473
+  ],
+  "ctxAboveRows": [
+   146,
+   162
+  ],
+  "ctxBelowRows": [
+   483,
+   499
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 9
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 2350,
+  "scrolling": true,
+  "wordBox": {
+   "left": 87.602,
+   "top": 196,
+   "right": 908.398,
+   "bottom": 693,
+   "width": 820.797,
+   "height": 497
+  },
+  "textRect": {
+   "left": 91.008,
+   "top": 196,
+   "right": 904.992,
+   "bottom": 514.5,
+   "width": 813.984,
+   "height": 318.5
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 156,
+   "right": 522.211,
+   "bottom": 180.094,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 710.906,
+   "right": 515.609,
+   "bottom": 735,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 145580,
+  "ctxPx": 830,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   367
+  ],
+  "ctxAboveRows": [
+   16,
+   32
+  ],
+  "ctxBelowRows": [
+   571,
+   587
+  ],
+  "clearAbovePx": 23,
+  "clearBelowPx": 203
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 4697,
+  "scrolling": false,
+  "wordBox": {
+   "left": 87.602,
+   "top": 314.25,
+   "right": 908.398,
+   "bottom": 618.75,
+   "width": 820.797,
+   "height": 304.5
+  },
+  "textRect": {
+   "left": 87.789,
+   "top": 312.25,
+   "right": 908.195,
+   "bottom": 620.25,
+   "width": 820.406,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 285.891,
+   "right": 522.211,
+   "bottom": 309.984,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 623.016,
+   "right": 515.609,
+   "bottom": 647.109,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 113646,
+  "ctxPx": 830,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   475
+  ],
+  "ctxAboveRows": [
+   146,
+   162
+  ],
+  "ctxBelowRows": [
+   483,
+   499
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 7
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 4698,
+  "scrolling": true,
+  "wordBox": {
+   "left": 87.602,
+   "top": 196,
+   "right": 908.398,
+   "bottom": 693,
+   "width": 820.797,
+   "height": 497
+  },
+  "textRect": {
+   "left": 87.789,
+   "top": 196,
+   "right": 908.195,
+   "bottom": 514.5,
+   "width": 820.406,
+   "height": 318.5
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 156,
+   "right": 522.211,
+   "bottom": 180.094,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 710.906,
+   "right": 515.609,
+   "bottom": 735,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 113705,
+  "ctxPx": 830,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   367
+  ],
+  "ctxAboveRows": [
+   16,
+   32
+  ],
+  "ctxBelowRows": [
+   571,
+   587
+  ],
+  "clearAbovePx": 23,
+  "clearBelowPx": 203
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 2349,
+  "scrolling": false,
+  "wordBox": {
+   "left": 87.602,
+   "top": 314.25,
+   "right": 908.398,
+   "bottom": 618.75,
+   "width": 820.797,
+   "height": 304.5
+  },
+  "textRect": {
+   "left": 91.008,
+   "top": 312.25,
+   "right": 904.977,
+   "bottom": 620.25,
+   "width": 813.969,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 285.891,
+   "right": 522.211,
+   "bottom": 309.984,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 623.016,
+   "right": 515.609,
+   "bottom": 647.109,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 145174,
+  "ctxPx": 830,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   173,
+   473
+  ],
+  "ctxAboveRows": [
+   146,
+   162
+  ],
+  "ctxBelowRows": [
+   483,
+   499
+  ],
+  "clearAbovePx": 10,
+  "clearBelowPx": 9
+ },
+ {
+  "layout": "996x950 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 2350,
+  "scrolling": true,
+  "wordBox": {
+   "left": 87.602,
+   "top": 196,
+   "right": 908.398,
+   "bottom": 693,
+   "width": 820.797,
+   "height": 497
+  },
+  "textRect": {
+   "left": 91.008,
+   "top": 196,
+   "right": 904.977,
+   "bottom": 514.5,
+   "width": 813.969,
+   "height": 318.5
+  },
+  "prevBox": {
+   "left": 473.789,
+   "top": 156,
+   "right": 522.211,
+   "bottom": 180.094,
+   "width": 48.422,
+   "height": 24.094
+  },
+  "nextBox": {
+   "left": 480.391,
+   "top": 710.906,
+   "right": 515.609,
+   "bottom": 735,
+   "width": 35.219,
+   "height": 24.094
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 145584,
+  "ctxPx": 830,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   367
+  ],
+  "ctxAboveRows": [
+   16,
+   32
+  ],
+  "ctxBelowRows": [
+   571,
+   587
+  ],
+  "clearAbovePx": 23,
+  "clearBelowPx": 203
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 3276,
+  "scrolling": false,
+  "wordBox": {
+   "left": 107.805,
+   "top": 319.5,
+   "right": 1292.195,
+   "bottom": 613.5,
+   "width": 1184.391,
+   "height": 294
+  },
+  "textRect": {
+   "left": 112.133,
+   "top": 317.5,
+   "right": 1287.867,
+   "bottom": 615,
+   "width": 1175.734,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 285.891,
+   "right": 729.172,
+   "bottom": 314.938,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 618.063,
+   "right": 721.219,
+   "bottom": 647.109,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 202352,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   178,
+   467
+  ],
+  "ctxAboveRows": [
+   148,
+   166
+  ],
+  "ctxBelowRows": [
+   480,
+   498
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 3277,
+  "scrolling": true,
+  "wordBox": {
+   "left": 107.805,
+   "top": 196,
+   "right": 1292.195,
+   "bottom": 693,
+   "width": 1184.391,
+   "height": 497
+  },
+  "textRect": {
+   "left": 112.133,
+   "top": 196,
+   "right": 1287.867,
+   "bottom": 504,
+   "width": 1175.734,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 156,
+   "right": 729.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 705.953,
+   "right": 721.219,
+   "bottom": 735,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 202806,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   356
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   568,
+   586
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 211
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 6551,
+  "scrolling": false,
+  "wordBox": {
+   "left": 107.805,
+   "top": 319.5,
+   "right": 1292.195,
+   "bottom": 613.5,
+   "width": 1184.391,
+   "height": 294
+  },
+  "textRect": {
+   "left": 108.289,
+   "top": 317.5,
+   "right": 1291.711,
+   "bottom": 615,
+   "width": 1183.422,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 285.891,
+   "right": 729.172,
+   "bottom": 314.938,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 618.063,
+   "right": 721.219,
+   "bottom": 647.109,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 158503,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   178,
+   469
+  ],
+  "ctxAboveRows": [
+   148,
+   166
+  ],
+  "ctxBelowRows": [
+   480,
+   498
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 6552,
+  "scrolling": true,
+  "wordBox": {
+   "left": 107.805,
+   "top": 196,
+   "right": 1292.195,
+   "bottom": 693,
+   "width": 1184.391,
+   "height": 497
+  },
+  "textRect": {
+   "left": 108.289,
+   "top": 196,
+   "right": 1291.711,
+   "bottom": 504,
+   "width": 1183.422,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 156,
+   "right": 729.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 705.953,
+   "right": 721.219,
+   "bottom": 735,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 158404,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   356
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   568,
+   586
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 211
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 3276,
+  "scrolling": false,
+  "wordBox": {
+   "left": 107.805,
+   "top": 319.5,
+   "right": 1292.195,
+   "bottom": 613.5,
+   "width": 1184.391,
+   "height": 294
+  },
+  "textRect": {
+   "left": 112.133,
+   "top": 317.5,
+   "right": 1287.852,
+   "bottom": 615,
+   "width": 1175.719,
+   "height": 297.5
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 285.891,
+   "right": 729.172,
+   "bottom": 314.938,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 618.063,
+   "right": 721.219,
+   "bottom": 647.109,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 202356,
+  "ctxPx": 1051,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   178,
+   467
+  ],
+  "ctxAboveRows": [
+   148,
+   166
+  ],
+  "ctxBelowRows": [
+   480,
+   498
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 12
+ },
+ {
+  "layout": "1400x950 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 3277,
+  "scrolling": true,
+  "wordBox": {
+   "left": 107.805,
+   "top": 196,
+   "right": 1292.195,
+   "bottom": 693,
+   "width": 1184.391,
+   "height": 497
+  },
+  "textRect": {
+   "left": 112.133,
+   "top": 196,
+   "right": 1287.852,
+   "bottom": 504,
+   "width": 1175.719,
+   "height": 308
+  },
+  "prevBox": {
+   "left": 670.828,
+   "top": 156,
+   "right": 729.172,
+   "bottom": 185.047,
+   "width": 58.344,
+   "height": 29.047
+  },
+  "nextBox": {
+   "left": 678.781,
+   "top": 705.953,
+   "right": 721.219,
+   "bottom": 735,
+   "width": 42.438,
+   "height": 29.047
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 202810,
+  "ctxPx": 1051,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   356
+  ],
+  "ctxAboveRows": [
+   18,
+   36
+  ],
+  "ctxBelowRows": [
+   568,
+   586
+  ],
+  "clearAbovePx": 19,
+  "clearBelowPx": 211
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "below",
+  "n": 780,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 383.922,
+   "right": 348.898,
+   "bottom": 656.922,
+   "width": 307.797,
+   "height": 273
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 381.922,
+   "right": 345.742,
+   "bottom": 658.422,
+   "width": 301.5,
+   "height": 276.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 360.281,
+   "right": 212.68,
+   "bottom": 377.875,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 662.969,
+   "right": 207.859,
+   "bottom": 680.563,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 48022,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   152,
+   421
+  ],
+  "ctxAboveRows": [
+   129,
+   140
+  ],
+  "ctxBelowRows": [
+   432,
+   443
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": true,
+  "kind": "W",
+  "phase": "above",
+  "n": 781,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 710.375,
+   "width": 307.797,
+   "height": 423.906
+  },
+  "textRect": {
+   "left": 44.242,
+   "top": 286.469,
+   "right": 345.742,
+   "bottom": 573.469,
+   "width": 301.5,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 734.781,
+   "right": 207.859,
+   "bottom": 752.375,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 47879,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   335
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   504,
+   515
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 168
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "below",
+  "n": 1565,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 383.922,
+   "right": 348.898,
+   "bottom": 656.922,
+   "width": 307.797,
+   "height": 273
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 381.922,
+   "right": 348.805,
+   "bottom": 658.422,
+   "width": 307.609,
+   "height": 276.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 360.281,
+   "right": 212.68,
+   "bottom": 377.875,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 662.969,
+   "right": 207.859,
+   "bottom": 680.563,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 37994,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   152,
+   423
+  ],
+  "ctxAboveRows": [
+   129,
+   140
+  ],
+  "ctxBelowRows": [
+   432,
+   443
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 8
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": true,
+  "kind": "real",
+  "phase": "above",
+  "n": 1566,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 710.375,
+   "width": 307.797,
+   "height": 423.906
+  },
+  "textRect": {
+   "left": 41.195,
+   "top": 286.469,
+   "right": 348.805,
+   "bottom": 573.469,
+   "width": 307.609,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 734.781,
+   "right": 207.859,
+   "bottom": 752.375,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 38121,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   335
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   504,
+   515
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 168
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "below",
+  "n": 780,
+  "scrolling": false,
+  "wordBox": {
+   "left": 41.102,
+   "top": 383.922,
+   "right": 348.898,
+   "bottom": 656.922,
+   "width": 307.797,
+   "height": 273
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 381.922,
+   "right": 345.727,
+   "bottom": 658.422,
+   "width": 301.469,
+   "height": 276.5
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 360.281,
+   "right": 212.68,
+   "bottom": 377.875,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 662.969,
+   "right": 207.859,
+   "bottom": 680.563,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 48022,
+  "ctxPx": 457,
+  "notePx": 0,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   152,
+   421
+  ],
+  "ctxAboveRows": [
+   129,
+   140
+  ],
+  "ctxBelowRows": [
+   432,
+   443
+  ],
+  "clearAbovePx": 11,
+  "clearBelowPx": 10
+ },
+ {
+  "layout": "390x844 focus",
+  "letter": false,
+  "kind": "W",
+  "phase": "above",
+  "n": 781,
+  "scrolling": true,
+  "wordBox": {
+   "left": 41.102,
+   "top": 286.469,
+   "right": 348.898,
+   "bottom": 710.375,
+   "width": 307.797,
+   "height": 423.906
+  },
+  "textRect": {
+   "left": 44.258,
+   "top": 286.469,
+   "right": 345.727,
+   "bottom": 573.469,
+   "width": 301.469,
+   "height": 287
+  },
+  "prevBox": {
+   "left": 177.32,
+   "top": 246.469,
+   "right": 212.68,
+   "bottom": 264.063,
+   "width": 35.359,
+   "height": 17.594
+  },
+  "nextBox": {
+   "left": 182.141,
+   "top": 734.781,
+   "right": 207.859,
+   "bottom": 752.375,
+   "width": 25.719,
+   "height": 17.594
+  },
+  "boxOverlapPrev": false,
+  "boxOverlapNext": false,
+  "wordPx": 47879,
+  "ctxPx": 457,
+  "notePx": 1095,
+  "wordCtxSharedPx": 0,
+  "wordNoteSharedPx": 0,
+  "ctxNoteSharedPx": 0,
+  "wordInkRows": [
+   56,
+   335
+  ],
+  "ctxAboveRows": [
+   15,
+   26
+  ],
+  "ctxBelowRows": [
+   504,
+   515
+  ],
+  "clearAbovePx": 29,
+  "clearBelowPx": 168
+ }
+]
