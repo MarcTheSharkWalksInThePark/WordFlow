@@ -1,0 +1,6518 @@
+[
+  {
+    "before": {
+      "word": {
+        "x": 616.75,
+        "y": 387.375,
+        "width": 514.5,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 515,
+        "scrollWidth": 515,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 514.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 616.75,
+        "y": 387.375,
+        "width": 514.5,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 515,
+        "scrollWidth": 515,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 514.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 4,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 912,
+    "oldContent": 514.5,
+    "oldBox": 514.5,
+    "ink": {
+      "left": 616.75,
+      "right": 1131.25,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 552.4375,
+        "y": 387.375,
+        "width": 643.125,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 643,
+        "scrollWidth": 643,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 643.125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 552.4375,
+        "y": 387.375,
+        "width": 643.125,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 643,
+        "scrollWidth": 643,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 643.125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 5,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 912,
+    "oldContent": 643.125,
+    "oldBox": 643.125,
+    "ink": {
+      "left": 552.4375,
+      "right": 1195.5625,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 488.125,
+        "y": 387.375,
+        "width": 771.75,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 772,
+        "scrollWidth": 772,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 771.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 488.125,
+        "y": 387.375,
+        "width": 771.75,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 772,
+        "scrollWidth": 772,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 771.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 6,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 912,
+    "oldContent": 771.75,
+    "oldBox": 771.75,
+    "ink": {
+      "left": 488.125,
+      "right": 1259.875,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 464,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 860,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 7,
+      "contentWidth": 900.375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 466,
+        "y": 393.859375,
+        "width": 815.984375,
+        "height": 125.265625,
+        "top": 393.859375,
+        "bottom": 519.125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 816,
+        "scrollWidth": 816,
+        "clientHeight": 125,
+        "scrollHeight": 137,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 137,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "116px",
+      "classes": "word-display large fitted-long-word",
+      "length": 7,
+      "contentWidth": 815.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 116px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 7,
+    "oldFont": "128px",
+    "newFont": "116px",
+    "oldFrame": 912,
+    "oldContent": 900.375,
+    "oldBox": 820,
+    "ink": {
+      "left": 423.8125,
+      "right": 1324.1875,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 522.5,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 1029,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 925,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 8,
+      "contentWidth": 1029,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 464,
+        "y": 401.421875,
+        "width": 820,
+        "height": 110.15625,
+        "top": 401.421875,
+        "bottom": 511.578125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 110,
+        "scrollHeight": 121,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 121,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "102px",
+      "classes": "word-display large fitted-long-word",
+      "length": 8,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 102px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 8,
+    "oldFont": "128px",
+    "newFont": "102px",
+    "oldFrame": 912,
+    "oldContent": 1029,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1447,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 586.8125,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 1158,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 989,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 9,
+      "contentWidth": 1157.625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 467,
+        "y": 407.90625,
+        "width": 813.984375,
+        "height": 97.1875,
+        "top": 407.90625,
+        "bottom": 505.09375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 97,
+        "scrollHeight": 107,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 107,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "90px",
+      "classes": "word-display large fitted-long-word",
+      "length": 9,
+      "contentWidth": 813.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 90px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 9,
+    "oldFont": "128px",
+    "newFont": "90px",
+    "oldFrame": 912,
+    "oldContent": 1157.625,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1575.625,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 651.125,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 1286,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1053,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 10,
+      "contentWidth": 1286.25,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 467.015625,
+        "y": 412.765625,
+        "width": 813.96875,
+        "height": 87.46875,
+        "top": 412.765625,
+        "bottom": 500.234375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 87,
+        "scrollHeight": 96,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 96,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "81px",
+      "classes": "word-display large fitted-long-word",
+      "length": 10,
+      "contentWidth": 813.96875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 81px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 10,
+    "oldFont": "128px",
+    "newFont": "81px",
+    "oldFrame": 912,
+    "oldContent": 1286.25,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1704.25,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 715.4375,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 1415,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1117,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 11,
+      "contentWidth": 1414.875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 465,
+        "y": 416.546875,
+        "width": 818,
+        "height": 79.90625,
+        "top": 416.546875,
+        "bottom": 496.453125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 818,
+        "scrollWidth": 818,
+        "clientHeight": 80,
+        "scrollHeight": 88,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 88,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "74px",
+      "classes": "word-display large fitted-long-word",
+      "length": 11,
+      "contentWidth": 818,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 74px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 11,
+    "oldFont": "128px",
+    "newFont": "74px",
+    "oldFrame": 912,
+    "oldContent": 1414.875,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1832.875,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 779.75,
+        "y": 387.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 1544,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1182,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 12,
+      "contentWidth": 1543.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 464,
+        "y": 419.78125,
+        "width": 820,
+        "height": 73.4375,
+        "top": 419.78125,
+        "bottom": 493.21875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 914,
+        "height": 627,
+        "top": 143,
+        "bottom": 770,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 625,
+        "scrollHeight": 625
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 73,
+        "scrollHeight": 80,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 844.828125,
+            "y": 281.5,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 281.5,
+            "bottom": 310.546875
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 852.78125,
+            "y": 602.453125,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 602.453125,
+            "bottom": 631.5
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 278.5,
+          "bottom": 313.5
+        },
+        {
+          "top": 599.453125,
+          "bottom": 634.453125
+        }
+      ],
+      "threshold": 285.90625,
+      "naturalHeight": 80,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "68px",
+      "classes": "word-display large fitted-long-word",
+      "length": 12,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 68px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1708,
+    "h": 950,
+    "focus": false,
+    "n": 12,
+    "oldFont": "128px",
+    "newFont": "68px",
+    "oldFrame": 912,
+    "oldContent": 1543.5,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1961.5,
+      "frameLeft": 418,
+      "frameRight": 1330,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 722.75,
+        "y": 452.375,
+        "width": 514.5,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 515,
+        "scrollWidth": 515,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 514.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 722.75,
+        "y": 452.375,
+        "width": 514.5,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 515,
+        "scrollWidth": 515,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 514.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 4,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 1124,
+    "oldContent": 514.5,
+    "oldBox": 514.5,
+    "ink": {
+      "left": 722.75,
+      "right": 1237.25,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 658.4375,
+        "y": 452.375,
+        "width": 643.125,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 643,
+        "scrollWidth": 643,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 643.125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 658.4375,
+        "y": 452.375,
+        "width": 643.125,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 643,
+        "scrollWidth": 643,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 643.125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 5,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 1124,
+    "oldContent": 643.125,
+    "oldBox": 643.125,
+    "ink": {
+      "left": 658.4375,
+      "right": 1301.5625,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 594.125,
+        "y": 452.375,
+        "width": 771.75,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 772,
+        "scrollWidth": 772,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 771.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 594.125,
+        "y": 452.375,
+        "width": 771.75,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 772,
+        "scrollWidth": 772,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 771.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 6,
+    "oldFont": "128px",
+    "newFont": "128px",
+    "oldFrame": 1124,
+    "oldContent": 771.75,
+    "oldBox": 771.75,
+    "ink": {
+      "left": 594.125,
+      "right": 1365.875,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 570,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 860,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 7,
+      "contentWidth": 900.375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 572,
+        "y": 458.859375,
+        "width": 815.984375,
+        "height": 125.265625,
+        "top": 458.859375,
+        "bottom": 584.125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 816,
+        "scrollWidth": 816,
+        "clientHeight": 125,
+        "scrollHeight": 137,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 137,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "116px",
+      "classes": "word-display large fitted-long-word",
+      "length": 7,
+      "contentWidth": 815.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 116px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 7,
+    "oldFont": "128px",
+    "newFont": "116px",
+    "oldFrame": 1124,
+    "oldContent": 900.375,
+    "oldBox": 820,
+    "ink": {
+      "left": 529.8125,
+      "right": 1430.1875,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 570,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 925,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 8,
+      "contentWidth": 1029,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 570,
+        "y": 466.421875,
+        "width": 820,
+        "height": 110.15625,
+        "top": 466.421875,
+        "bottom": 576.578125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 110,
+        "scrollHeight": 121,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 121,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "102px",
+      "classes": "word-display large fitted-long-word",
+      "length": 8,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 102px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 8,
+    "oldFont": "128px",
+    "newFont": "102px",
+    "oldFrame": 1124,
+    "oldContent": 1029,
+    "oldBox": 820,
+    "ink": {
+      "left": 465.5,
+      "right": 1494.5,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 586.8125,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1158,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 989,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 9,
+      "contentWidth": 1157.625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 573,
+        "y": 472.90625,
+        "width": 813.984375,
+        "height": 97.1875,
+        "top": 472.90625,
+        "bottom": 570.09375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 97,
+        "scrollHeight": 107,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 107,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "90px",
+      "classes": "word-display large fitted-long-word",
+      "length": 9,
+      "contentWidth": 813.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 90px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 9,
+    "oldFont": "128px",
+    "newFont": "90px",
+    "oldFrame": 1124,
+    "oldContent": 1157.625,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1575.625,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 651.125,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1286,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1053,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 10,
+      "contentWidth": 1286.25,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 573.015625,
+        "y": 477.765625,
+        "width": 813.96875,
+        "height": 87.46875,
+        "top": 477.765625,
+        "bottom": 565.234375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 87,
+        "scrollHeight": 96,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 96,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "81px",
+      "classes": "word-display large fitted-long-word",
+      "length": 10,
+      "contentWidth": 813.96875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 81px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 10,
+    "oldFont": "128px",
+    "newFont": "81px",
+    "oldFrame": 1124,
+    "oldContent": 1286.25,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1704.25,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 715.4375,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1415,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1117,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 11,
+      "contentWidth": 1414.875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 571,
+        "y": 481.546875,
+        "width": 818,
+        "height": 79.90625,
+        "top": 481.546875,
+        "bottom": 561.453125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 818,
+        "scrollWidth": 818,
+        "clientHeight": 80,
+        "scrollHeight": 88,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 88,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "74px",
+      "classes": "word-display large fitted-long-word",
+      "length": 11,
+      "contentWidth": 818,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 74px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 11,
+    "oldFont": "128px",
+    "newFont": "74px",
+    "oldFrame": 1124,
+    "oldContent": 1414.875,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1832.875,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 779.75,
+        "y": 452.375,
+        "width": 820,
+        "height": 138.234375,
+        "top": 452.375,
+        "bottom": 590.609375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1544,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1182,
+        "clientHeight": 138,
+        "scrollHeight": 152,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 152,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "128px",
+      "classes": "word-display large",
+      "length": 12,
+      "contentWidth": 1543.5,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 570,
+        "y": 484.78125,
+        "width": 820,
+        "height": 73.4375,
+        "top": 484.78125,
+        "bottom": 558.21875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 1126,
+        "height": 757,
+        "top": 143,
+        "bottom": 900,
+        "clientWidth": 1124,
+        "scrollWidth": 1124,
+        "clientHeight": 755,
+        "scrollHeight": 755
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 73,
+        "scrollHeight": 80,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 950.828125,
+            "y": 310.09375,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 310.09375,
+            "bottom": 339.140625
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 958.78125,
+            "y": 703.859375,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 703.859375,
+            "bottom": 732.90625
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 307.09375,
+          "bottom": 342.09375
+        },
+        {
+          "top": 700.859375,
+          "bottom": 735.859375
+        }
+      ],
+      "threshold": 358.71875,
+      "naturalHeight": 80,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "68px",
+      "classes": "word-display large fitted-long-word",
+      "length": 12,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 68px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1920,
+    "h": 1080,
+    "focus": false,
+    "n": 12,
+    "oldFont": "128px",
+    "newFont": "68px",
+    "oldFrame": 1124,
+    "oldContent": 1543.5,
+    "oldBox": 820,
+    "ink": {
+      "left": 418,
+      "right": 1961.5,
+      "frameLeft": 418,
+      "frameRight": 1542,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 297.8125,
+        "y": 412.71875,
+        "width": 400.375,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 400,
+        "scrollWidth": 400,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 400.375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 297.8125,
+        "y": 412.71875,
+        "width": 400.375,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 400,
+        "scrollWidth": 400,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 400.375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 4,
+    "oldFont": "99.6px",
+    "newFont": "99.6px",
+    "oldFrame": 912,
+    "oldContent": 400.375,
+    "oldBox": 400.375,
+    "ink": {
+      "left": 297.8125,
+      "right": 698.1875,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 247.765625,
+        "y": 412.71875,
+        "width": 500.453125,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 500,
+        "scrollWidth": 500,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 500.453125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 247.765625,
+        "y": 412.71875,
+        "width": 500.453125,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 500,
+        "scrollWidth": 500,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 500.453125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 5,
+    "oldFont": "99.6px",
+    "newFont": "99.6px",
+    "oldFrame": 912,
+    "oldContent": 500.453125,
+    "oldBox": 500.453125,
+    "ink": {
+      "left": 247.765625,
+      "right": 748.21875,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 197.71875,
+        "y": 412.71875,
+        "width": 600.546875,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 601,
+        "scrollWidth": 601,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 600.546875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 197.71875,
+        "y": 412.71875,
+        "width": 600.546875,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 601,
+        "scrollWidth": 601,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 600.546875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 6,
+    "oldFont": "99.6px",
+    "newFont": "99.6px",
+    "oldFrame": 912,
+    "oldContent": 600.546875,
+    "oldBox": 600.546875,
+    "ink": {
+      "left": 197.71875,
+      "right": 798.265625,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 147.671875,
+        "y": 412.71875,
+        "width": 700.640625,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 701,
+        "scrollWidth": 701,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 7,
+      "contentWidth": 700.640625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 147.671875,
+        "y": 412.71875,
+        "width": 700.640625,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 701,
+        "scrollWidth": 701,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 7,
+      "contentWidth": 700.640625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 7,
+    "oldFont": "99.6px",
+    "newFont": "99.6px",
+    "oldFrame": 912,
+    "oldContent": 700.640625,
+    "oldBox": 700.640625,
+    "ink": {
+      "left": 147.671875,
+      "right": 848.3125,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 97.640625,
+        "y": 412.71875,
+        "width": 800.71875,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 801,
+        "scrollWidth": 801,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 8,
+      "contentWidth": 800.71875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 97.640625,
+        "y": 412.71875,
+        "width": 800.71875,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 801,
+        "scrollWidth": 801,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 8,
+      "contentWidth": 800.71875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 8,
+    "oldFont": "99.6px",
+    "newFont": "99.6px",
+    "oldFrame": 912,
+    "oldContent": 800.71875,
+    "oldBox": 800.71875,
+    "ink": {
+      "left": 97.640625,
+      "right": 898.359375,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 88,
+        "y": 412.71875,
+        "width": 820,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 860,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 9,
+      "contentWidth": 900.8125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 91,
+        "y": 417.90625,
+        "width": 813.984375,
+        "height": 97.1875,
+        "top": 417.90625,
+        "bottom": 515.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 97,
+        "scrollHeight": 107,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 107,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "90px",
+      "classes": "word-display large fitted-long-word",
+      "length": 9,
+      "contentWidth": 813.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 90px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 9,
+    "oldFont": "99.6px",
+    "newFont": "90px",
+    "oldFrame": 912,
+    "oldContent": 900.8125,
+    "oldBox": 820,
+    "ink": {
+      "left": 47.59375,
+      "right": 948.40625,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 132.4375,
+        "y": 412.71875,
+        "width": 820,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 1001,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 910,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 10,
+      "contentWidth": 1000.890625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 91.015625,
+        "y": 422.765625,
+        "width": 813.96875,
+        "height": 87.46875,
+        "top": 422.765625,
+        "bottom": 510.234375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 87,
+        "scrollHeight": 96,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 96,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "81px",
+      "classes": "word-display large fitted-long-word",
+      "length": 10,
+      "contentWidth": 813.96875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 81px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 10,
+    "oldFont": "99.6px",
+    "newFont": "81px",
+    "oldFrame": 912,
+    "oldContent": 1000.890625,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1042.890625,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 182.484375,
+        "y": 412.71875,
+        "width": 820,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 1101,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 960,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 11,
+      "contentWidth": 1100.96875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 89,
+        "y": 426.546875,
+        "width": 818,
+        "height": 79.90625,
+        "top": 426.546875,
+        "bottom": 506.453125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 818,
+        "scrollWidth": 818,
+        "clientHeight": 80,
+        "scrollHeight": 88,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 88,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "74px",
+      "classes": "word-display large fitted-long-word",
+      "length": 11,
+      "contentWidth": 818,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 74px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 11,
+    "oldFont": "99.6px",
+    "newFont": "74px",
+    "oldFrame": 912,
+    "oldContent": 1100.96875,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1142.96875,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 232.53125,
+        "y": 412.71875,
+        "width": 820,
+        "height": 107.5625,
+        "top": 412.71875,
+        "bottom": 520.28125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 1201,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1011,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 118,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "99.6px",
+      "classes": "word-display large",
+      "length": 12,
+      "contentWidth": 1201.0625,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 88,
+        "y": 429.78125,
+        "width": 820,
+        "height": 73.4375,
+        "top": 429.78125,
+        "bottom": 503.21875
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 914,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 912,
+        "scrollWidth": 912,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 73,
+        "scrollHeight": 80,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 473.7890625,
+            "y": 285.890625,
+            "width": 48.421875,
+            "height": 24.09375,
+            "top": 285.890625,
+            "bottom": 309.984375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 480.390625,
+            "y": 623.015625,
+            "width": 35.21875,
+            "height": 24.09375,
+            "top": 623.015625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 311.890625
+        },
+        {
+          "top": 620.015625,
+          "bottom": 649.015625
+        }
+      ],
+      "threshold": 307.03125,
+      "naturalHeight": 80,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "68px",
+      "classes": "word-display large fitted-long-word",
+      "length": 12,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 68px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 996,
+    "h": 950,
+    "focus": true,
+    "n": 12,
+    "oldFont": "99.6px",
+    "newFont": "68px",
+    "oldFrame": 912,
+    "oldContent": 1201.0625,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1243.0625,
+      "frameLeft": 42,
+      "frameRight": 954,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 418.625,
+        "y": 390.90625,
+        "width": 562.75,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 563,
+        "scrollWidth": 563,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 562.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 418.625,
+        "y": 390.90625,
+        "width": 562.75,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 563,
+        "scrollWidth": 563,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 4,
+      "contentWidth": 562.75,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 4,
+    "oldFont": "140px",
+    "newFont": "140px",
+    "oldFrame": 1316,
+    "oldContent": 562.75,
+    "oldBox": 562.75,
+    "ink": {
+      "left": 418.625,
+      "right": 981.375,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 348.28125,
+        "y": 390.90625,
+        "width": 703.4375,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 703,
+        "scrollWidth": 703,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 703.4375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 348.28125,
+        "y": 390.90625,
+        "width": 703.4375,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 703,
+        "scrollWidth": 703,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 5,
+      "contentWidth": 703.4375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">W</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 5,
+    "oldFont": "140px",
+    "newFont": "140px",
+    "oldFrame": 1316,
+    "oldContent": 703.4375,
+    "oldBox": 703.4375,
+    "ink": {
+      "left": 348.28125,
+      "right": 1051.71875,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 290,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 832,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 6,
+      "contentWidth": 844.125,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 290,
+        "y": 393.0625,
+        "width": 820,
+        "height": 146.875,
+        "top": 393.0625,
+        "bottom": 539.9375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 147,
+        "scrollHeight": 161,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 161,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "136px",
+      "classes": "word-display large fitted-long-word",
+      "length": 6,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 136px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 6,
+    "oldFont": "140px",
+    "newFont": "136px",
+    "oldFrame": 1316,
+    "oldContent": 844.125,
+    "oldBox": 820,
+    "ink": {
+      "left": 277.9375,
+      "right": 1122.0625,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 290,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 902,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 7,
+      "contentWidth": 984.796875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 292,
+        "y": 403.859375,
+        "width": 815.984375,
+        "height": 125.265625,
+        "top": 403.859375,
+        "bottom": 529.125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 816,
+        "scrollWidth": 816,
+        "clientHeight": 125,
+        "scrollHeight": 137,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 137,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "116px",
+      "classes": "word-display large fitted-long-word",
+      "length": 7,
+      "contentWidth": 815.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 116px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 7,
+    "oldFont": "140px",
+    "newFont": "116px",
+    "oldFrame": 1316,
+    "oldContent": 984.796875,
+    "oldBox": 820,
+    "ink": {
+      "left": 207.609375,
+      "right": 1192.40625,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 290,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 973,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 8,
+      "contentWidth": 1125.484375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 290,
+        "y": 411.421875,
+        "width": 820,
+        "height": 110.15625,
+        "top": 411.421875,
+        "bottom": 521.578125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 110,
+        "scrollHeight": 121,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 121,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "102px",
+      "classes": "word-display large fitted-long-word",
+      "length": 8,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 102px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 8,
+    "oldFont": "140px",
+    "newFont": "102px",
+    "oldFrame": 1316,
+    "oldContent": 1125.484375,
+    "oldBox": 820,
+    "ink": {
+      "left": 137.265625,
+      "right": 1262.75,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 290,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1043,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 9,
+      "contentWidth": 1266.171875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 293,
+        "y": 417.90625,
+        "width": 813.984375,
+        "height": 97.1875,
+        "top": 417.90625,
+        "bottom": 515.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 97,
+        "scrollHeight": 107,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 107,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "90px",
+      "classes": "word-display large fitted-long-word",
+      "length": 9,
+      "contentWidth": 813.984375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 90px;\"><span class=\"word-left\">WW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 9,
+    "oldFont": "140px",
+    "newFont": "90px",
+    "oldFrame": 1316,
+    "oldContent": 1266.171875,
+    "oldBox": 820,
+    "ink": {
+      "left": 66.921875,
+      "right": 1333.09375,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": true
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 335.421875,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1407,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1113,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 10,
+      "contentWidth": 1406.859375,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 293.015625,
+        "y": 422.765625,
+        "width": 813.96875,
+        "height": 87.46875,
+        "top": 422.765625,
+        "bottom": 510.234375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 814,
+        "scrollWidth": 814,
+        "clientHeight": 87,
+        "scrollHeight": 96,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 96,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "81px",
+      "classes": "word-display large fitted-long-word",
+      "length": 10,
+      "contentWidth": 813.96875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 81px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 10,
+    "oldFont": "140px",
+    "newFont": "81px",
+    "oldFrame": 1316,
+    "oldContent": 1406.859375,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1448.859375,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 405.765625,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1548,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1184,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 11,
+      "contentWidth": 1547.546875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 291,
+        "y": 426.546875,
+        "width": 818,
+        "height": 79.90625,
+        "top": 426.546875,
+        "bottom": 506.453125
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 818,
+        "scrollWidth": 818,
+        "clientHeight": 80,
+        "scrollHeight": 88,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 88,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "74px",
+      "classes": "word-display large fitted-long-word",
+      "length": 11,
+      "contentWidth": 818,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 74px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 11,
+    "oldFont": "140px",
+    "newFont": "74px",
+    "oldFrame": 1316,
+    "oldContent": 1547.546875,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1589.546875,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": false
+    }
+  },
+  {
+    "before": {
+      "word": {
+        "x": 476.109375,
+        "y": 390.90625,
+        "width": 820,
+        "height": 151.1875,
+        "top": 390.90625,
+        "bottom": 542.09375
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1688,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1254,
+        "clientHeight": 151,
+        "scrollHeight": 166,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": null
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 166,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "140px",
+      "classes": "word-display large",
+      "length": 12,
+      "contentWidth": 1688.21875,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 290,
+        "y": 429.78125,
+        "width": 820,
+        "height": 73.4375,
+        "top": 429.78125,
+        "bottom": 503.21875
+      },
+      "frame": {
+        "x": 41,
+        "y": 143,
+        "width": 1318,
+        "height": 647,
+        "top": 143,
+        "bottom": 790,
+        "clientWidth": 1316,
+        "scrollWidth": 1316,
+        "clientHeight": 645,
+        "scrollHeight": 645
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 820,
+        "clientHeight": 73,
+        "scrollHeight": 80,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 670.828125,
+            "y": 285.890625,
+            "width": 58.34375,
+            "height": 29.046875,
+            "top": 285.890625,
+            "bottom": 314.9375
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 678.78125,
+            "y": 618.0625,
+            "width": 42.4375,
+            "height": 29.046875,
+            "top": 618.0625,
+            "bottom": 647.109375
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 282.890625,
+          "bottom": 317.890625
+        },
+        {
+          "top": 615.0625,
+          "bottom": 650.0625
+        }
+      ],
+      "threshold": 297.125,
+      "naturalHeight": 80,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "68px",
+      "classes": "word-display large fitted-long-word",
+      "length": 12,
+      "contentWidth": 820,
+      "outerHTML": "<div id=\"word-display\" class=\"word-display large fitted-long-word\" aria-live=\"off\" style=\"font-size: 68px;\"><span class=\"word-left\">WWW</span><span class=\"word-focus\">W</span><span class=\"word-right\">WWWWWWWW</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "w": 1400,
+    "h": 950,
+    "focus": true,
+    "n": 12,
+    "oldFont": "140px",
+    "newFont": "68px",
+    "oldFrame": 1316,
+    "oldContent": 1688.21875,
+    "oldBox": 820,
+    "ink": {
+      "left": 42,
+      "right": 1730.21875,
+      "frameLeft": 42,
+      "frameRight": 1358,
+      "fullyVisible": false
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "rows": 78,
+  "fields": [
+    "id",
+    "origin",
+    "source",
+    "file",
+    "suite",
+    "transform",
+    "sourceSpec",
+    "sourceCommit",
+    "targetCommand",
+    "adaptation",
+    "verdict",
+    "expected"
+  ],
+  "differences": [],
+  "hashRestorations": true
+}

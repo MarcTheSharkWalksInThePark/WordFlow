@@ -1,0 +1,247 @@
+diff --git a/app.js b/app.js
+index 57be087..323f00a 100644
+--- a/app.js
++++ b/app.js
+@@ -288,7 +288,8 @@ function focusIndexFor(word) {
+ function renderWord(word) {
+   const samePausedToken = els.wordDisplay.dataset.longTextPaused === String(state.index)
+     && els.wordDisplay.textContent === word;
+-  resetLongTokenLayout(!samePausedToken);
++  const scrollTop = samePausedToken ? els.wordDisplay.scrollTop : 0;
++  resetLongTokenLayout(!samePausedToken, samePausedToken);
+   els.wordDisplay.classList.toggle("compact", state.wordSize === "compact");
+   els.wordDisplay.classList.toggle("large", state.wordSize === "large");
+   els.wordDisplay.style.fontSize = "";
+@@ -296,13 +297,13 @@ function renderWord(word) {
+ 
+   if (!word) {
+     els.wordDisplay.innerHTML = `<span class="empty-word">Load text</span>`;
+-    fitDisplayedWord();
++    fitDisplayedWord({ scrollTop });
+     return;
+   }
+ 
+   if (!state.focusLetter) {
+     els.wordDisplay.textContent = word;
+-    fitDisplayedWord();
++    fitDisplayedWord({ scrollTop });
+     return;
+   }
+ 
+@@ -316,7 +317,7 @@ function renderWord(word) {
+     `<span class="word-focus">${escapeHtml(focus)}</span>`,
+     `<span class="word-right">${escapeHtml(right)}</span>`
+   ].join("");
+-  fitDisplayedWord();
++  fitDisplayedWord({ scrollTop });
+ }
+ 
+ function shouldBreakWord(fontSize, wordWidth, frameWidth) {
+@@ -327,11 +328,11 @@ function shouldScrollWord(wrapped, wordHeight, frameHeight) {
+   return wrapped && wordHeight > frameHeight;
+ }
+ 
+-function resetLongTokenLayout(clearPause = false) {
++function resetLongTokenLayout(clearPause = false, keepTabStop = false) {
+   const display = els.wordDisplay;
+   display.classList.remove("wrapped-long-word", "scrolling-long-word");
+   display.closest(".reader-frame").classList.remove("scrolling-long-text");
+-  display.removeAttribute("tabindex");
++  if (!keepTabStop) display.removeAttribute("tabindex");
+   display.removeAttribute("role");
+   display.removeAttribute("aria-label");
+   display.removeAttribute("aria-describedby");
+@@ -340,13 +341,35 @@ function resetLongTokenLayout(clearPause = false) {
+   if (clearPause) delete display.dataset.longTextPaused;
+ }
+ 
+-function fitDisplayedWord() {
++function contextFreeHeight(frame) {
++  const center = frame.getBoundingClientRect().top + frame.clientTop + frame.clientHeight / 2;
++  const bounds = [els.previousContext, els.nextContext].map((el, i) => {
++    const hidden = el.hidden;
++    const text = el.textContent;
++    el.textContent = state.words[state.index + (i ? 1 : -1)] || "\u00a0";
++    el.hidden = false;
++    const box = el.getBoundingClientRect();
++    const range = document.createRange();
++    range.selectNodeContents(el);
++    const ink = range.getBoundingClientRect();
++    const result = { top: Math.min(box.top, ink.top), bottom: Math.max(box.bottom, ink.bottom) };
++    el.textContent = text;
++    el.hidden = hidden;
++    return result;
++  });
++  return 2 * Math.min(center - bounds[0].bottom, bounds[1].top - center);
++}
++
++function fitDisplayedWord(options = {}) {
+   window.requestAnimationFrame(() => {
+     const display = els.wordDisplay;
+     const frame = display.closest(".reader-frame");
+-    const scrollTop = display.scrollTop;
+-    resetLongTokenLayout();
+-    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) return;
++    const scrollTop = options.scrollTop ?? display.scrollTop;
++    resetLongTokenLayout(false, true);
++    if (!frame || state.finished || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
++      resetLongTokenLayout(true);
++      return;
++    }
+ 
+     display.style.fontSize = "";
+     const baseSize = Number.parseFloat(window.getComputedStyle(display).fontSize);
+@@ -355,11 +378,15 @@ function fitDisplayedWord() {
+ 
+     const fits = () => {
+       const rect = display.getBoundingClientRect();
+-      return rect.width <= maxWidth && rect.height <= maxHeight;
++      const range = document.createRange();
++      range.selectNodeContents(display);
++      return Math.max(rect.width, range.getBoundingClientRect().width) <= maxWidth
++        && display.scrollWidth <= display.clientWidth && rect.height <= maxHeight;
+     };
+ 
+     if (fits()) {
+-      delete display.dataset.longTextPaused;
++      resetLongTokenLayout(true);
++      display.classList.remove("fitted-long-word");
+       return;
+     }
+ 
+@@ -378,13 +405,16 @@ function fitDisplayedWord() {
+ 
+     display.style.fontSize = `${Math.max(10, Math.floor(low))}px`;
+     display.classList.add("fitted-long-word");
++    const range = document.createRange();
++    range.selectNodeContents(display);
++    const rect = display.getBoundingClientRect();
+     display.classList.toggle("wrapped-long-word", shouldBreakWord(
+       Number.parseFloat(display.style.fontSize),
+-      Math.max(display.scrollWidth, display.getBoundingClientRect().width),
+-      frame.clientWidth
++      Math.max(range.getBoundingClientRect().width, rect.width),
++      Math.min(frame.clientWidth, rect.width)
+     ));
+     if (shouldScrollWord(display.classList.contains("wrapped-long-word"),
+-      Math.max(display.scrollHeight, display.getBoundingClientRect().height), frame.clientHeight)) {
++      Math.max(display.scrollHeight, display.getBoundingClientRect().height), contextFreeHeight(frame))) {
+       display.classList.add("scrolling-long-word");
+       frame.classList.add("scrolling-long-text");
+       display.setAttribute("tabindex", "0");
+@@ -393,13 +423,14 @@ function fitDisplayedWord() {
+       display.setAttribute("aria-describedby", "long-text-note");
+       display.scrollTop = scrollTop;
+       els.longTextNote.hidden = false;
++      display.dataset.longTextPaused = String(state.index);
+       if (state.playing) {
+         pause();
+-        display.dataset.longTextPaused = String(state.index);
+         setStatus("Paused");
+       }
+     } else {
+       delete display.dataset.longTextPaused;
++      display.removeAttribute("tabindex");
+     }
+   });
+ }
+@@ -598,7 +629,7 @@ function scheduleNext() {
+ 
+ function play() {
+   if (!state.words.length || state.countdownActive) return;
+-  if (els.wordDisplay.dataset.longTextPaused === String(state.index)) {
++  if (!state.finished && els.wordDisplay.classList.contains("scrolling-long-word")) {
+     if (state.index >= state.words.length - 1) {
+       completeReading();
+       return;
+@@ -638,6 +669,7 @@ function pause() {
+ }
+ 
+ function completeReading() {
++  resetLongTokenLayout(true);
+   if (state.playing && state.readingStartedAt) {
+     state.elapsedBeforeCurrentRun += Date.now() - state.readingStartedAt;
+   }
+diff --git a/tests/reader-smoke.cjs b/tests/reader-smoke.cjs
+index 3f4e64d..6180e5b 100644
+--- a/tests/reader-smoke.cjs
++++ b/tests/reader-smoke.cjs
+@@ -114,7 +114,11 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+     await prepare(page,"Hello");const normal=(await snapshot(page)).frame;
+     await prepare(page,token,{index:0});await page.evaluate(()=>startReading());
+     await page.waitForFunction(()=>state.index===1);await settle(page);
+-    const after=await snapshot(page),vertical=after.wrapped&&after.naturalHeight>normal.clientHeight;
++    const after=await snapshot(page),vertical=after.wrapped&&after.naturalHeight>await page.evaluate(()=>{
++     const frame=els.wordDisplay.closest(".reader-frame"),scrolling=frame.classList.contains("scrolling-long-text");
++     frame.classList.remove("scrolling-long-text");const free=contextFreeHeight(frame);
++     frame.classList.toggle("scrolling-long-text",scrolling);return free;
++    });
+     assert.deepEqual(after.frame,normal,"frame must retain normal size and have no overflow");
+     assert(after.frame.scrollWidth<=after.frame.clientWidth);
+     assert.equal(after.scrolling,vertical,"scroll state "+JSON.stringify(publicMeasurement(after)));
+@@ -125,9 +129,11 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+     await master.evaluate(()=>copyCurrentWord());assert.equal(await master.evaluate(()=>navigator.clipboard.readText()),token);
+     const record={kind,length,before:publicMeasurement(before),after:publicMeasurement(after)};
+     if(vertical) {
+-     assert.equal(after.note,NOTE);assert(after.area.scrollHeight>after.area.clientHeight);
++     assert.equal(after.note,NOTE);assert(after.area.clientHeight>=31.5);
+      assert.equal(after.area.scrollWidth,after.area.clientWidth,"no horizontal scrolling");
+-     await noCollisions(page);record.scrolling=await scrollInputs(page,context);
++     await noCollisions(page);
++     if(after.area.scrollHeight>after.area.clientHeight)record.scrolling=await scrollInputs(page,context);
++     else record.scrolling={allTextVisibleWithoutScrolling:true};
+      await page.locator("#play-button").click();
+      assert.equal(await page.evaluate(()=>state.index),2);await cleared(page);
+      await page.waitForFunction(()=>state.playing&&state.index===2);await page.evaluate(()=>pause());await cleared(page);
+@@ -147,20 +153,17 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+    assert.deepEqual(await page.evaluate(()=>{const record=JSON.parse(localStorage.getItem(STORAGE_KEY));delete record.savedAt;return record;}),saved);
+    evidence.interactionChecks.push("manual next/previous; existing v1 resume exact fields and whole token");
+   });
+-  await verify("F1 first-word countdown then pause and Play continuation",async()=>{
++  await verify("F1 first-word manual arrival and one Play continuation",async()=>{
+    await prepare(page,"W".repeat(10000),{index:0,first:true});await page.locator("#play-button").click();
+    for(const value of [3,2,1]) {
+     await page.waitForFunction(value=>state.countdownValue===value,value);
+     assert.equal(await page.locator(".countdown-word").textContent(),String(value));assert(await page.locator("#long-text-note").isHidden());
+    }
+-   await page.waitForFunction(()=>!state.countdownActive&&!state.playing&&els.wordDisplay.dataset.longTextPaused==="0");
+-   assert.equal(await page.evaluate(()=>state.index),0);
+-   await page.locator("#play-button").click();assert.equal(await page.evaluate(()=>state.index),1);await cleared(page);
+-   await page.waitForFunction(()=>state.playing&&state.index===1);await page.evaluate(()=>pause());
+-   evidence.interactionChecks.push("first token: 3-2-1, auto-pause at index 0, Play to next single word");
++   await page.waitForFunction(()=>state.playing&&state.index===1);await page.evaluate(()=>pause());await cleared(page);
++   evidence.interactionChecks.push("first scroll token: one Play advances to index 1 with 3-2-1 countdown");
+   });
+   await verify("F1 resize re-evaluates and focus/context modes stay separate",async()=>{
+-   await page.setViewportSize({width:1400,height:950});await prepare(page,"W".repeat(2000));
++   await page.setViewportSize({width:1400,height:950});await prepare(page,"W".repeat(500));
+    assert.equal((await snapshot(page)).scrolling,false);
+    await page.setViewportSize({width:390,height:844});await settle(page);assert.equal((await snapshot(page)).scrolling,true);await noCollisions(page);
+    await page.setViewportSize({width:1400,height:950});await settle(page);assert.equal((await snapshot(page)).scrolling,false);assert(await page.locator("#long-text-note").isHidden());
+@@ -178,4 +181,4 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+   fs.writeFileSync(path.join(out,"reader-"+viewport.width+".json"),JSON.stringify(evidence,null,2)+"\n");
+  }finally{await master.close();}
+ }
+-module.exports={readerChecks};
++module.exports={readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};
+diff --git a/tools/static_smoke.cjs b/tools/static_smoke.cjs
+index 7ebb3a8..c9b36da 100644
+--- a/tools/static_smoke.cjs
++++ b/tools/static_smoke.cjs
+@@ -36,6 +36,7 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
+    const inputRange=async(id,n)=>page.locator("#"+id).evaluate((el,n)=>{el.value=n;el.dispatchEvent(new Event("input",{bubbles:true}));},String(n));
+    const use=async()=>{await page.locator("#apply-source-button").click();assert((await stateValue("words")).length>0);await page.locator("#review-back-button").click();};
+    await page.goto(origin,{waitUntil:"networkidle"});
++   await require("../tests/reader-round2.cjs").browserPredicateChecks(page,verify);
+    await verify("identity, meaningful UI, no overlay, privacy",async()=>{assert.equal(await page.title(),"WordFlow Reader");assert((await page.locator("body").innerText()).includes("Files are read in your browser"));assert(await page.locator("#sample-button").isVisible());});
+    await verify("sample and clear",async()=>{await page.locator("#sample-button").click();assert((await value("review-text")).includes("A focused reading rhythm"));await use();await page.locator("#clear-button").click();assert.equal(await stateValue("words").then(x=>x.length),0);});
+    const raw="Menu\nJournal header\n## Introduction\nA hyphen-\nated word.\nNext line.\nPage 1\nJournal header\n\n## Chapter 2\nLast paragraph, with a sentence.";
+@@ -130,6 +131,8 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
+    await page.locator("#sample-button").click();await use();
+    await verify("responsive page has no horizontal overflow",async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)));
+    await require("../tests/reader-smoke.cjs").readerChecks({page,context,viewport,origin,verify,out,root});
++   if(viewport.width===1400)await require("../tests/reader-round2.cjs").round2Checks({page,context,origin,root,out,verify});
++   await page.setViewportSize(viewport);
+    await page.locator("#sample-button").click();await use();
+    const screenshot="static-reader-"+viewport.width+".png";await page.screenshot({path:path.join(out,screenshot),fullPage:true});
+    result.viewports.push({viewport,checks,screenshots:[screenshot,quotaShot].map(file=>({file,sha256:sha(fs.readFileSync(path.join(out,file)))}))});

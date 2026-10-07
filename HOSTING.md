@@ -232,7 +232,10 @@ L5–L8 remain historical disclosed limitations where applicable; this does not 
 
 ### F1 continuation — 2026-10-07
 
-W6.5 authorizes pause-and-scroll within the normal-height reader frame. F1 is implemented
-locally on `fix/f1-long-token` under W6.1/W6.5, pending independent CC review. This supersedes
-the earlier F1 STOP status only; dashboard confirmations and unverified platform checks stay
-as recorded. No merge, push or deployment. See `docs/verification/2026-10-07_codex_f1_w6_5.md`.
+W6.5 authorizes pause-and-scroll within the normal-height reader frame. CC reviewed that
+local build CLEAR WITH FINDINGS (fc98d1e). The W6.7-W6.11 round reached the mandatory W6.8
+STOP: enforcing the display cap changes tokens that are fully visible on master. The candidate
+is withdrawn and the starting W6.5 reader restored; F1 is not fixed or accepted. Marcus must
+resolve the fit invariant before further implementation and one CC re-review. Dashboard
+confirmations and unverified platform checks remain as recorded. No merge, push or deployment.
+See `docs/verification/2026-10-07_codex_f1_round2.md`; the W6.5 report remains historical evidence.

@@ -1,0 +1,173 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "cfg": {
+    "focus": false,
+    "context": false,
+    "letter": true
+  },
+  "token": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+  "before": {
+    "word": {
+      "x": 47.265625,
+      "y": 366.453125,
+      "width": 295.46875,
+      "height": 14.03125,
+      "top": 366.453125,
+      "bottom": 380.484375
+    },
+    "frame": {
+      "x": 23,
+      "y": 233.46875,
+      "width": 344,
+      "height": 280,
+      "top": 233.46875,
+      "bottom": 513.46875,
+      "clientWidth": 342,
+      "scrollWidth": 342,
+      "clientHeight": 278,
+      "scrollHeight": 278
+    },
+    "area": {
+      "clientWidth": 295,
+      "scrollWidth": 295,
+      "clientHeight": 14,
+      "scrollHeight": 15,
+      "scrollTop": 0
+    },
+    "context": [
+      {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    ],
+    "note": {
+      "hidden": true,
+      "rect": null
+    },
+    "bounds": [
+      {
+        "top": 293.625,
+        "bottom": 314.625
+      },
+      {
+        "top": 431.71875,
+        "bottom": 452.71875
+      }
+    ],
+    "threshold": 116.5,
+    "naturalHeight": 15,
+    "scrolling": false,
+    "wrapped": false,
+    "font": "13px",
+    "classes": "word-display large fitted-long-word",
+    "length": 45,
+    "contentWidth": 295.46875,
+    "playing": false,
+    "index": 1
+  },
+  "after": {
+    "word": {
+      "x": 47.265625,
+      "y": 366.453125,
+      "width": 295.46875,
+      "height": 14.03125,
+      "top": 366.453125,
+      "bottom": 380.484375
+    },
+    "frame": {
+      "x": 23,
+      "y": 233.46875,
+      "width": 344,
+      "height": 280,
+      "top": 233.46875,
+      "bottom": 513.46875,
+      "clientWidth": 342,
+      "scrollWidth": 342,
+      "clientHeight": 278,
+      "scrollHeight": 278
+    },
+    "area": {
+      "clientWidth": 295,
+      "scrollWidth": 295,
+      "clientHeight": 14,
+      "scrollHeight": 15,
+      "scrollTop": 0
+    },
+    "context": [
+      {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    ],
+    "note": {
+      "hidden": true,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    "bounds": [
+      {
+        "top": 293.625,
+        "bottom": 314.625
+      },
+      {
+        "top": 431.71875,
+        "bottom": 452.71875
+      }
+    ],
+    "threshold": 116.5,
+    "naturalHeight": 15,
+    "scrolling": false,
+    "wrapped": false,
+    "font": "13px",
+    "classes": "word-display large fitted-long-word",
+    "length": 45,
+    "contentWidth": 295.46875,
+    "playing": false,
+    "index": 1
+  }
+}

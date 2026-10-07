@@ -1,0 +1,122 @@
+PASS W6 browser predicate B2
+PASS W6 browser predicate B3/B5
+PASS W6 browser predicate B1/B4
+PASS W6 browser predicate S1
+PASS W6 browser predicate S2
+PASS W6 browser predicate S3
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":390,"height":600,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":600,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":600,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":600,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":600,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":600,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":390,"height":600,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":600,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":600,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":600,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":600,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":600,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":844,"height":390,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":844,"height":390,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":844,"height":390,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":844,"height":390,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":844,"height":390,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":844,"height":390,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":844,"height":390,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":844,"height":390,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":844,"height":390,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":844,"height":390,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":844,"height":390,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":844,"height":390,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1708,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":1708,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":1708,"height":950,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1708,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":1708,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":1708,"height":950,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1708,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":1708,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":1708,"height":950,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1708,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":1708,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":1708,"height":950,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1920,"height":1080,"focus":false,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":1920,"height":1080,"focus":false,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":1920,"height":1080,"focus":false,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1920,"height":1080,"focus":false,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":1920,"height":1080,"focus":false,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":1920,"height":1080,"focus":false,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1920,"height":1080,"focus":false,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":1920,"height":1080,"focus":false,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":1920,"height":1080,"focus":false,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1920,"height":1080,"focus":false,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":1920,"height":1080,"focus":false,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":1920,"height":1080,"focus":false,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":996,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":996,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":996,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":996,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":996,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":996,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":996,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":996,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":996,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":996,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":996,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":996,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":true,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":true,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":true,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":1400,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":1400,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":1400,"height":950,"focus":true,"context":false,"letter":false}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":true,"context":true,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":true,"context":true,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":true,"context":true,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":true,"context":true,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":true,"context":true,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":true,"context":true,"letter":false}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":true,"context":false,"letter":true}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":true,"context":false,"letter":true}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":true,"context":false,"letter":true}
+PASS W6.7 boundary and no collisions {"width":390,"height":844,"focus":true,"context":false,"letter":false}
+PASS W6.8 fitting and master identity {"width":390,"height":844,"focus":true,"context":false,"letter":false}
+PASS W6 whole word data and resume {"width":390,"height":844,"focus":true,"context":false,"letter":false}
+PASS W6.9 one Play from auto
+PASS W6.9 one Play from next
+PASS W6.9 one Play from previous
+PASS W6.9 one Play from seek
+PASS W6.9 one Play from resume
+PASS W6.9 final finish and restart equals master
+PASS W6.10 native Space scroll and external toggle; no auto-focus
+PASS W6 focus and scroll preservation on persistent region

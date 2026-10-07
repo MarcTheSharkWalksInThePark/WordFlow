@@ -1,0 +1,377 @@
+{
+  "matrixRows": 36,
+  "thresholdCases": 72,
+  "geometrySamples": 144,
+  "controlComparisons": 180,
+  "pixelIdenticalControls": 56,
+  "dataComparisons": 72,
+  "play": [
+    {
+      "arrival": "auto",
+      "onePress": true,
+      "countdown": [
+        3,
+        2,
+        1
+      ],
+      "index": 2
+    },
+    {
+      "arrival": "next",
+      "onePress": true,
+      "countdown": [
+        3,
+        2,
+        1
+      ],
+      "index": 2
+    },
+    {
+      "arrival": "previous",
+      "onePress": true,
+      "countdown": [
+        3,
+        2,
+        1
+      ],
+      "index": 2
+    },
+    {
+      "arrival": "seek",
+      "onePress": true,
+      "countdown": [
+        3,
+        2,
+        1
+      ],
+      "index": 2
+    },
+    {
+      "arrival": "resume",
+      "onePress": true,
+      "countdown": [
+        3,
+        2,
+        1
+      ],
+      "index": 2
+    },
+    {
+      "arrival": "final",
+      "finishEqualsMaster": true,
+      "restartCountdown": true
+    }
+  ],
+  "preservation": [
+    {
+      "action": "resize 1400",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "resize 390",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "same index seek",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "copy",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "focus letter off",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "context off",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "focus mode",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "word size",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    },
+    {
+      "action": "pacing",
+      "offset": 300,
+      "after": 300,
+      "focused": true
+    }
+  ],
+  "wideCounterexamples": [
+    {
+      "w": 1708,
+      "h": 950,
+      "focus": false,
+      "n": 7,
+      "oldFont": "128px",
+      "newFont": "116px",
+      "oldFrame": 912,
+      "oldContent": 900.375,
+      "oldBox": 820,
+      "ink": {
+        "left": 423.8125,
+        "right": 1324.1875,
+        "frameLeft": 418,
+        "frameRight": 1330,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1920,
+      "h": 1080,
+      "focus": false,
+      "n": 7,
+      "oldFont": "128px",
+      "newFont": "116px",
+      "oldFrame": 1124,
+      "oldContent": 900.375,
+      "oldBox": 820,
+      "ink": {
+        "left": 529.8125,
+        "right": 1430.1875,
+        "frameLeft": 418,
+        "frameRight": 1542,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1920,
+      "h": 1080,
+      "focus": false,
+      "n": 8,
+      "oldFont": "128px",
+      "newFont": "102px",
+      "oldFrame": 1124,
+      "oldContent": 1029,
+      "oldBox": 820,
+      "ink": {
+        "left": 465.5,
+        "right": 1494.5,
+        "frameLeft": 418,
+        "frameRight": 1542,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 996,
+      "h": 950,
+      "focus": true,
+      "n": 9,
+      "oldFont": "99.6px",
+      "newFont": "90px",
+      "oldFrame": 912,
+      "oldContent": 900.8125,
+      "oldBox": 820,
+      "ink": {
+        "left": 47.59375,
+        "right": 948.40625,
+        "frameLeft": 42,
+        "frameRight": 954,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1400,
+      "h": 950,
+      "focus": true,
+      "n": 6,
+      "oldFont": "140px",
+      "newFont": "136px",
+      "oldFrame": 1316,
+      "oldContent": 844.125,
+      "oldBox": 820,
+      "ink": {
+        "left": 277.9375,
+        "right": 1122.0625,
+        "frameLeft": 42,
+        "frameRight": 1358,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1400,
+      "h": 950,
+      "focus": true,
+      "n": 7,
+      "oldFont": "140px",
+      "newFont": "116px",
+      "oldFrame": 1316,
+      "oldContent": 984.796875,
+      "oldBox": 820,
+      "ink": {
+        "left": 207.609375,
+        "right": 1192.40625,
+        "frameLeft": 42,
+        "frameRight": 1358,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1400,
+      "h": 950,
+      "focus": true,
+      "n": 8,
+      "oldFont": "140px",
+      "newFont": "102px",
+      "oldFrame": 1316,
+      "oldContent": 1125.484375,
+      "oldBox": 820,
+      "ink": {
+        "left": 137.265625,
+        "right": 1262.75,
+        "frameLeft": 42,
+        "frameRight": 1358,
+        "fullyVisible": true
+      }
+    },
+    {
+      "w": 1400,
+      "h": 950,
+      "focus": true,
+      "n": 9,
+      "oldFont": "140px",
+      "newFont": "90px",
+      "oldFrame": 1316,
+      "oldContent": 1266.171875,
+      "oldBox": 820,
+      "ink": {
+        "left": 66.921875,
+        "right": 1333.09375,
+        "frameLeft": 42,
+        "frameRight": 1358,
+        "fullyVisible": true
+      }
+    }
+  ],
+  "hand": [
+    {
+      "id": "B1",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: floor word wider than frame breaks"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "B2",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: floor word fitting frame does not break"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate B2: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "B3",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: no break above the floor"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "B4",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: floor word wider than frame breaks"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "B5",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: no break above the floor"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "S1",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: wrapped token at frame height does not scroll"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate S1: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "S2",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: unwrapped token never enables vertical state"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate S2: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    },
+    {
+      "id": "S3",
+      "node": "KILLED",
+      "browser": "KILLED",
+      "redNode": [
+        "FAIL reader: strict excess height enables vertical state"
+      ],
+      "redBrowser": [
+        "Error: W6 browser predicate S3: Expected values to be strictly equal:"
+      ],
+      "stable": true
+    }
+  ],
+  "stamp": {
+    "sha256": "27092cd5cba725494010282afb6719d4218da555063f71fba179a3c6691caf9c",
+    "inputs": 225,
+    "changed": [],
+    "chrome": "155.0.8059.39",
+    "playwright": "1.62.1",
+    "frontend": {
+      "app.js": "b4933e1f7738763670088593517e73a4f3e7b80f5d84a509868c6b2bdba9423a",
+      "index.html": "44cf402e3cf9ec0585e181904f21f45366d2589a085133b55f0de092303f7800",
+      "styles.css": "5bbccd16bd8d06a151d66a92b7d835a1d775b95eb5cd7ac1c4d9c5f3c64b57af"
+    }
+  }
+}

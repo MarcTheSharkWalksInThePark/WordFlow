@@ -1,0 +1,213 @@
+{
+  "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+  "rows": [
+    {
+      "id": "B1",
+      "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+      "replace": "return fontSize < 10 && wordWidth > frameWidth;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "841cfec7c5e18be93ceba2657faa13934f47a74ebef3664afb7ec331152e5a1e",
+      "afterNode": "841cfec7c5e18be93ceba2657faa13934f47a74ebef3664afb7ec331152e5a1e",
+      "afterBrowser": "841cfec7c5e18be93ceba2657faa13934f47a74ebef3664afb7ec331152e5a1e",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: floor word wider than frame breaks"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "B2",
+      "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+      "replace": "return fontSize <= 10 && wordWidth >= frameWidth;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "7e0fa8c4f9f98826c03c5466674f9da347274d6073af7c1590ab88944002935d",
+      "afterNode": "7e0fa8c4f9f98826c03c5466674f9da347274d6073af7c1590ab88944002935d",
+      "afterBrowser": "7e0fa8c4f9f98826c03c5466674f9da347274d6073af7c1590ab88944002935d",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: floor word fitting frame does not break"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate B2: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "B3",
+      "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+      "replace": "return wordWidth > frameWidth;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "30aff8e354626a2e5a4be46b9fef8f165c0e92d3b5b17d98edceec7455d9c74d",
+      "afterNode": "30aff8e354626a2e5a4be46b9fef8f165c0e92d3b5b17d98edceec7455d9c74d",
+      "afterBrowser": "30aff8e354626a2e5a4be46b9fef8f165c0e92d3b5b17d98edceec7455d9c74d",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: no break above the floor"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "B4",
+      "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+      "replace": "return fontSize <= 10 && frameWidth > wordWidth;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "8c4ca333fe25e00f1904e6860c6d83c530b3004cab5bbefef4b92216c4bd3e39",
+      "afterNode": "8c4ca333fe25e00f1904e6860c6d83c530b3004cab5bbefef4b92216c4bd3e39",
+      "afterBrowser": "8c4ca333fe25e00f1904e6860c6d83c530b3004cab5bbefef4b92216c4bd3e39",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: floor word wider than frame breaks"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate B1/B4: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "B5",
+      "find": "return fontSize <= 10 && wordWidth > frameWidth;",
+      "replace": "return 10 <= fontSize && wordWidth > frameWidth;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "ce5dbaee308a240da5a454418a36b16be6415fa069e144d2d13d7ccdd60b0abf",
+      "afterNode": "ce5dbaee308a240da5a454418a36b16be6415fa069e144d2d13d7ccdd60b0abf",
+      "afterBrowser": "ce5dbaee308a240da5a454418a36b16be6415fa069e144d2d13d7ccdd60b0abf",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: no break above the floor"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate B3/B5: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "S1",
+      "find": "return wrapped && wordHeight > frameHeight;",
+      "replace": "return wrapped && wordHeight >= frameHeight;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "208f88e569fa62eacff32b9e23baf8170f08c97ec4979315c4a45786b630ab2a",
+      "afterNode": "208f88e569fa62eacff32b9e23baf8170f08c97ec4979315c4a45786b630ab2a",
+      "afterBrowser": "208f88e569fa62eacff32b9e23baf8170f08c97ec4979315c4a45786b630ab2a",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: wrapped token at frame height does not scroll"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate S1: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "S2",
+      "find": "return wrapped && wordHeight > frameHeight;",
+      "replace": "return wordHeight > frameHeight;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "633243e318f340bc221a1613ece0c94f31db05d5c19a28a01296f481658446c4",
+      "afterNode": "633243e318f340bc221a1613ece0c94f31db05d5c19a28a01296f481658446c4",
+      "afterBrowser": "633243e318f340bc221a1613ece0c94f31db05d5c19a28a01296f481658446c4",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: unwrapped token never enables vertical state"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate S2: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    },
+    {
+      "id": "S3",
+      "find": "return wrapped && wordHeight > frameHeight;",
+      "replace": "return wrapped && frameHeight > wordHeight;",
+      "before": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "mutated": "86fc987c53c01c7659d20af2f6bbea4c0603b6a5f2950e1fff841fe84ef55a99",
+      "afterNode": "86fc987c53c01c7659d20af2f6bbea4c0603b6a5f2950e1fff841fe84ef55a99",
+      "afterBrowser": "86fc987c53c01c7659d20af2f6bbea4c0603b6a5f2950e1fff841fe84ef55a99",
+      "restored": "0784b566f23a8194319814ed65b315123a8e6f3720b2a74f17d94b196d641677",
+      "node": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "FAIL reader: strict excess height enables vertical state"
+        ]
+      },
+      "browser": {
+        "status": 1,
+        "error": null,
+        "redChecks": [
+          "Error: W6 browser predicate S3: Expected values to be strictly equal:"
+        ]
+      },
+      "nodeVerdict": "KILLED",
+      "browserVerdict": "KILLED"
+    }
+  ]
+}

@@ -173,12 +173,14 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
   (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
   whether the daily request count excludes static page views.
-- **F1 — implemented on fix/f1-long-token under W6.1/W6.5, pending independent review:**
-  only tokens wider than the frame at the unchanged 10 px floor wrap. Vertically overflowing
-  tokens scroll inside the normal-height frame and pause through the existing pause path;
-  Play continues to the next word. Short/real-word geometry and word/copy/progress/resume
-  data match master. Builder: 505 Node checks / 0 skips; 9 DOCX / 7 PDF / 72 smoke; 78
-  mutations = 77 killed + equivalent M9. See `docs/verification/2026-10-07_codex_f1_w6_5.md`.
+- **F1 — round 2 STOP under W6.8; not fixed or accepted:** the cap-based candidate changes
+  tokens that are fully visible on master (1708 px: W x 7, 128 px to 116 px). Candidate
+  evidence is retained; reader and tests are restored to fc98d1e's W6.5 build, which CC
+  reviewed CLEAR WITH FINDINGS. W6.7-W6.11 are recorded. Marcus must resolve the cap/fit
+  invariant before further implementation; then one CC re-review and Marcus's merge/push
+  decision. No merge/push/deployment; master b9d3d9e. See
+  `docs/verification/2026-10-07_codex_f1_round2.md`. The planned "W6.1-W6.10 implemented on
+  fix/f1-long-token, pending CC re-review" status is withheld because of the mandatory STOP.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.

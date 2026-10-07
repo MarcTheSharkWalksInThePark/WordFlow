@@ -1,0 +1,49 @@
+[
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\wf-master",
+    "status": "deleted",
+    "reason": "temporary path, outside canonical repository, verified WordFlow origin",
+    "origin": "<home>/Documents/WordFlow"
+  },
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\wf-review",
+    "status": "deleted",
+    "reason": "temporary path, outside canonical repository, verified WordFlow origin",
+    "origin": "<home>/Documents/WordFlow"
+  },
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\ev",
+    "status": "skipped",
+    "reason": "not a git clone/worktree; no .git entry"
+  },
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\tmp",
+    "status": "skipped",
+    "reason": "not a git clone/worktree; no .git entry"
+  },
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\emptyhome",
+    "status": "skipped",
+    "reason": "not a git clone/worktree; no .git entry"
+  },
+  {
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad\\ptest",
+    "status": "skipped",
+    "reason": "not a git clone/worktree; no .git entry"
+  },
+  {
+    "reason": "no session directory matches the earlier report prefix",
+    "path": "<home>/AppData/Local/Temp/claude/<project>/1cf8e1c2-.../",
+    "status": "already absent"
+  },
+  {
+    "reason": "no session directory matches the earlier report prefix",
+    "path": "<home>/AppData/Local/Temp/claude/<project>/9da28215-.../",
+    "status": "already absent"
+  },
+  {
+    "reason": "loose scripts are not verified clone directories",
+    "path": "<home>\\AppData\\Local\\Temp\\claude\\C--Users-Marcu-Documents-WordFlow\\b5e64aff-57bf-4527-a98a-7b6d342bad63\\scratchpad/probe scripts",
+    "status": "skipped"
+  }
+]

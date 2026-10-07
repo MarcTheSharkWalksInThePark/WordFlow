@@ -1,0 +1,335 @@
+{
+  "browserPlugin": "not available; existing Playwright drives installed Chrome",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "checks": [
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "F1 short and real word exactly match master",
+          "passed": true
+        },
+        {
+          "name": "F1 W 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 manual stepping and resume preserve the whole token",
+          "passed": true
+        },
+        {
+          "name": "F1 first-word countdown then pause and Play continuation",
+          "passed": true
+        },
+        {
+          "name": "F1 resize re-evaluates and focus/context modes stay separate",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-1400.png",
+          "sha256": "540480d6ec3b069d998bb636e870897b1ec4d28c9f2748a661519a42d0770d61"
+        },
+        {
+          "file": "static-quota-1400.png",
+          "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "F1 short and real word exactly match master",
+          "passed": true
+        },
+        {
+          "name": "F1 W 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 manual stepping and resume preserve the whole token",
+          "passed": true
+        },
+        {
+          "name": "F1 first-word countdown then pause and Play continuation",
+          "passed": true
+        },
+        {
+          "name": "F1 resize re-evaluates and focus/context modes stay separate",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-390.png",
+          "sha256": "4f9babeb15c1965696afc8ad23a291ec9900b128cca4f8751d244f6d2e794681"
+        },
+        {
+          "file": "static-quota-390.png",
+          "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "uploads": 0,
+  "chrome": "155.0.8059.39",
+  "passed": 72,
+  "skipped": 0
+}
