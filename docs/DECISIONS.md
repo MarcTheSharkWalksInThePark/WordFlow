@@ -18,6 +18,8 @@ W6.9 (CC D3) One Play press. When the reader is paused on a scroll-state token, 
 W6.10 (CC D4) Space key. On the focused scroll area, Space scrolls it. Everywhere else Space keeps its existing play/pause role. Focus never moves into the scroll area automatically.
 W6.11 (CC D5-D6) One Codex fix round, then one CC re-review. Local branch only; no merge or push. F1 is not described as implemented or fixed in any record until the re-review is CLEAR.
 
+W6.12 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; resolves the round-2 STOP; replaces W6.8's measurement sentence, and W6.8's guarantee is restated here) Wide frames. A token is fitted (with the existing 12-step search, base sizes, flooring and 10 px floor unchanged) when master's existing check would fit it, OR when its rendered text extends beyond the reader frame's inner edge, measured from the rendered text and not from the capped display box. A token fitted only because of the second condition is fitted by the existing search to master's existing 90%-of-frame target, measured on its rendered text width. At the 10 px floor, W6.1 breaking applies when the rendered text still exceeds the frame's inner width. Every token whose rendered text lies fully inside the frame on master renders exactly as on master (font size, rectangle, classes, text), including tokens wider than the 820 px display box.
+
 ## RULING W5 — delta-review fixes, merge and gated push
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
