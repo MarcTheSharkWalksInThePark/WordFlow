@@ -1,5 +1,14 @@
 # WordFlow decisions
 
+## RULING W6 — F1 long-token overflow
+
+MARCUS'S RULINGS (2026-10-07, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
+
+W6.1 F1 (W4.5): a single token that still exceeds the reader frame's width at the existing 10 px fitting floor is broken across lines inside the frame. The break applies ONLY below the floor. Every token that fits at or above the floor renders exactly as before; the floor itself does not change.
+W6.2 The token's text is not altered: no characters added, removed or replaced in the underlying word, copy, progress or resume data. Whether a visual hyphen is shown at break points is an implementation choice; label it as such.
+W6.3 Work on local branch fix/f1-long-token. Do not merge or push. An independent review follows.
+W6.4 Docs-only record corrections in this task are authorized as listed in the task (repository AGENTS.md/HOSTING.md and the vault).
+
 ## RULING W5 — delta-review fixes, merge and gated push
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
