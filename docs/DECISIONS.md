@@ -9,6 +9,9 @@ W6.2 The token's text is not altered: no characters added, removed or replaced i
 W6.3 Work on local branch fix/f1-long-token. Do not merge or push. An independent review follows.
 W6.4 Docs-only record corrections in this task are authorized as listed in the task (repository AGENTS.md/HOSTING.md and the vault).
 
+W6.5 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator) Vertical bound. The reader frame keeps its normal height for every token; no content-driven frame growth. A token that, after W6.1 breaking at the 10 px floor, still exceeds the frame's normal height is shown in a display area that scrolls vertically within the frame. If playback is running when such a token is shown, playback pauses on it through the existing pause path; the reader resumes with the existing play control. The token stays one word: its text, word count, progress, navigation step and the wordflow-reader-session-v1 resume record are unchanged. A short visible note is shown only for that token: "Long text paused — scroll to read, then press play." Every token that does not overflow vertically behaves exactly as under W6.1.
+W6.6 W6.3 continues: local branch only; no merge or push; an independent review follows.
+
 ## RULING W5 — delta-review fixes, merge and gated push
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
