@@ -173,15 +173,17 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
   (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
   whether the daily request count excludes static page views.
-- **F1:** F1 candidate (W6.1-W6.12) committed on fix/f1-long-token, pending CC re-review;
-  not yet fixed (W6.11). W6.12 resolves the historical round-2 STOP: all 21 fully visible
-  cap probes, including eight counterexamples, retain master's DOM and controlled-backdrop
-  pixels; the 15 clipped probes fit the frame. Builder verification: 505 Node / 0 skips,
-  full parity 9 DOCX / 7 PDF / 272 smoke, 0 errors/uploads; 78 mutations unchanged;
-  eight CC hand-mutants KILLED in Node and Chrome. One CC re-review, then Marcus's
-  merge/push decision; post-deploy smoke:live. Master b9d3d9e untouched; no merge/push/deploy.
-  Scratch inventory: 243 files; six cited/unclear unmatched files require retaining the
-  entire scratchpad for Marcus. See `docs/verification/2026-10-07_codex_f1_round3.md`.
+- **F1:** F1 candidate (W6.1-W6.12) on fix/f1-long-token at 2215e81; CC re-review CLEAR WITH
+  FINDINGS (`docs/verification/2026-10-07_cc_rereview_f1.md`); not yet fixed (W6.11). Every
+  builder number reproduces (505 Node / 0 skips, also browser-denied; parity 9 DOCX / 7 PDF /
+  272 smoke, 0 errors/uploads, stamp byte-identical; 78 mutations unchanged; eight CC
+  hand-mutants red in Node and Chrome). W6.7, W6.9, W6.10, W6.12 and data/v1 parity are verified
+  independently; earlier F-1 to F-5 are closed. **R-1 (open):** the Finished screen skips
+  master's fitting, so a final word that master fits is shown unfitted and clipped (W6.1/W6.9).
+  Awaiting Marcus's decision on R-1 (CC lean: a narrow fix plus a scoped CC check) before any
+  merge/push; then post-deploy smoke:live. Master b9d3d9e untouched; no merge/push/deploy. The
+  old and new CC scratch session folders remain (deletion refused in session); Marcus may delete
+  them.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.
