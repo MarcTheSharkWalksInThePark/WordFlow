@@ -1,0 +1,15 @@
+FAIL reader: floor word wider than frame breaks
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+false !== true
+
+    at <repo>\tests\post-review.test.cjs:15:70
+    at check (<repo>\tests\post-review.test.cjs:7:42)
+    at <repo>\tests\post-review.test.cjs:15:8 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

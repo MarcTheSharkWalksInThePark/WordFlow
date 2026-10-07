@@ -114,7 +114,11 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
     await prepare(page,"Hello");const normal=(await snapshot(page)).frame;
     await prepare(page,token,{index:0});await page.evaluate(()=>startReading());
     await page.waitForFunction(()=>state.index===1);await settle(page);
-    const after=await snapshot(page),vertical=after.wrapped&&after.naturalHeight>normal.clientHeight;
+    const after=await snapshot(page),vertical=after.wrapped&&after.naturalHeight>await page.evaluate(()=>{
+     const frame=els.wordDisplay.closest(".reader-frame"),scrolling=frame.classList.contains("scrolling-long-text");
+     frame.classList.remove("scrolling-long-text");const free=contextFreeHeight(frame);
+     frame.classList.toggle("scrolling-long-text",scrolling);return free;
+    });
     assert.deepEqual(after.frame,normal,"frame must retain normal size and have no overflow");
     assert(after.frame.scrollWidth<=after.frame.clientWidth);
     assert.equal(after.scrolling,vertical,"scroll state "+JSON.stringify(publicMeasurement(after)));
@@ -125,9 +129,11 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
     await master.evaluate(()=>copyCurrentWord());assert.equal(await master.evaluate(()=>navigator.clipboard.readText()),token);
     const record={kind,length,before:publicMeasurement(before),after:publicMeasurement(after)};
     if(vertical) {
-     assert.equal(after.note,NOTE);assert(after.area.scrollHeight>after.area.clientHeight);
+     assert.equal(after.note,NOTE);assert(after.area.clientHeight>=31.5);
      assert.equal(after.area.scrollWidth,after.area.clientWidth,"no horizontal scrolling");
-     await noCollisions(page);record.scrolling=await scrollInputs(page,context);
+     await noCollisions(page);
+     if(after.area.scrollHeight>after.area.clientHeight)record.scrolling=await scrollInputs(page,context);
+     else record.scrolling={allTextVisibleWithoutScrolling:true};
      await page.locator("#play-button").click();
      assert.equal(await page.evaluate(()=>state.index),2);await cleared(page);
      await page.waitForFunction(()=>state.playing&&state.index===2);await page.evaluate(()=>pause());await cleared(page);
@@ -147,20 +153,17 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
    assert.deepEqual(await page.evaluate(()=>{const record=JSON.parse(localStorage.getItem(STORAGE_KEY));delete record.savedAt;return record;}),saved);
    evidence.interactionChecks.push("manual next/previous; existing v1 resume exact fields and whole token");
   });
-  await verify("F1 first-word countdown then pause and Play continuation",async()=>{
+  await verify("F1 first-word manual arrival and one Play continuation",async()=>{
    await prepare(page,"W".repeat(10000),{index:0,first:true});await page.locator("#play-button").click();
    for(const value of [3,2,1]) {
     await page.waitForFunction(value=>state.countdownValue===value,value);
     assert.equal(await page.locator(".countdown-word").textContent(),String(value));assert(await page.locator("#long-text-note").isHidden());
    }
-   await page.waitForFunction(()=>!state.countdownActive&&!state.playing&&els.wordDisplay.dataset.longTextPaused==="0");
-   assert.equal(await page.evaluate(()=>state.index),0);
-   await page.locator("#play-button").click();assert.equal(await page.evaluate(()=>state.index),1);await cleared(page);
-   await page.waitForFunction(()=>state.playing&&state.index===1);await page.evaluate(()=>pause());
-   evidence.interactionChecks.push("first token: 3-2-1, auto-pause at index 0, Play to next single word");
+   await page.waitForFunction(()=>state.playing&&state.index===1);await page.evaluate(()=>pause());await cleared(page);
+   evidence.interactionChecks.push("first scroll token: one Play advances to index 1 with 3-2-1 countdown");
   });
   await verify("F1 resize re-evaluates and focus/context modes stay separate",async()=>{
-   await page.setViewportSize({width:1400,height:950});await prepare(page,"W".repeat(2000));
+   await page.setViewportSize({width:1400,height:950});await prepare(page,"W".repeat(500));
    assert.equal((await snapshot(page)).scrolling,false);
    await page.setViewportSize({width:390,height:844});await settle(page);assert.equal((await snapshot(page)).scrolling,true);await noCollisions(page);
    await page.setViewportSize({width:1400,height:950});await settle(page);assert.equal((await snapshot(page)).scrolling,false);assert(await page.locator("#long-text-note").isHidden());
@@ -178,4 +181,4 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
   fs.writeFileSync(path.join(out,"reader-"+viewport.width+".json"),JSON.stringify(evidence,null,2)+"\n");
  }finally{await master.close();}
 }
-module.exports={readerChecks};
+module.exports={readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};

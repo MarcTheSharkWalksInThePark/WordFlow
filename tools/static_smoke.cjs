@@ -36,6 +36,7 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
    const inputRange=async(id,n)=>page.locator("#"+id).evaluate((el,n)=>{el.value=n;el.dispatchEvent(new Event("input",{bubbles:true}));},String(n));
    const use=async()=>{await page.locator("#apply-source-button").click();assert((await stateValue("words")).length>0);await page.locator("#review-back-button").click();};
    await page.goto(origin,{waitUntil:"networkidle"});
+   await require("../tests/reader-round2.cjs").browserPredicateChecks(page,verify);
    await verify("identity, meaningful UI, no overlay, privacy",async()=>{assert.equal(await page.title(),"WordFlow Reader");assert((await page.locator("body").innerText()).includes("Files are read in your browser"));assert(await page.locator("#sample-button").isVisible());});
    await verify("sample and clear",async()=>{await page.locator("#sample-button").click();assert((await value("review-text")).includes("A focused reading rhythm"));await use();await page.locator("#clear-button").click();assert.equal(await stateValue("words").then(x=>x.length),0);});
    const raw="Menu\nJournal header\n## Introduction\nA hyphen-\nated word.\nNext line.\nPage 1\nJournal header\n\n## Chapter 2\nLast paragraph, with a sentence.";
@@ -68,7 +69,7 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
     const last=await page.locator("#section-select option").last().getAttribute("value");await page.locator("#section-select").selectOption(last);assert((await stateValue("index"))>0);
     await page.locator("#restart-button").click();assert.equal(await stateValue("index"),0);
    });
-   await verify("copy current word",async()=>{await page.locator("#copy-word-button").click();assert.equal(await page.locator("#reader-status").textContent(),"Copied current word");assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),await page.evaluate(()=>currentWord()));});
+   await verify("copy current word",async()=>{await page.locator("#copy-word-button").click();await page.waitForFunction(()=>els.status.textContent==="Copied current word");assert.equal(await page.locator("#reader-status").textContent(),"Copied current word");assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),await page.evaluate(()=>currentWord()));});
    await verify("3–2–1 countdown and Space/arrow shortcuts",async()=>{
     await page.locator("#play-button").focus();await page.keyboard.press("Space");assert.equal(await page.locator(".countdown-word").textContent(),"3");
     await page.waitForFunction(()=>state.countdownValue===2);assert.equal(await page.locator(".countdown-word").textContent(),"2");
@@ -130,6 +131,9 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
    await page.locator("#sample-button").click();await use();
    await verify("responsive page has no horizontal overflow",async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)));
    await require("../tests/reader-smoke.cjs").readerChecks({page,context,viewport,origin,verify,out,root});
+   if(viewport.width===1400)await require("../tests/reader-round2.cjs").round2Checks({page,context,origin,root,out,verify});
+   if(viewport.width===1400)await require("../tests/reader-wide.cjs").wideChecks({page,context,origin,root,out,verify});
+   await page.setViewportSize(viewport);
    await page.locator("#sample-button").click();await use();
    const screenshot="static-reader-"+viewport.width+".png";await page.screenshot({path:path.join(out,screenshot),fullPage:true});
    result.viewports.push({viewport,checks,screenshots:[screenshot,quotaShot].map(file=>({file,sha256:sha(fs.readFileSync(path.join(out,file)))}))});

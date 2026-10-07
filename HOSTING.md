@@ -239,3 +239,13 @@ is withdrawn and the starting W6.5 reader restored; F1 is not fixed or accepted.
 resolve the fit invariant before further implementation and one CC re-review. Dashboard
 confirmations and unverified platform checks remain as recorded. No merge, push or deployment.
 See `docs/verification/2026-10-07_codex_f1_round2.md`; the W6.5 report remains historical evidence.
+
+### F1 round 3 — 2026-10-07
+
+Marcus's W6.12 resolves the historical capped-box STOP. F1 candidate (W6.1-W6.12)
+committed on fix/f1-long-token, pending CC re-review; not yet fixed (W6.11). Fully visible
+master tokens remain unchanged; clipped wide-frame tokens use the rendered-text fit target.
+Full builder parity succeeds; the generated stamp is committed. One CC re-review, then
+Marcus's merge/push decision through tools/push.sh and smoke:live after deployment.
+Master b9d3d9e unchanged; nothing pushed or deployed. Platform checks remain unverified.
+See `docs/verification/2026-10-07_codex_f1_round3.md`.

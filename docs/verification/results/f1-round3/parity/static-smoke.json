@@ -1,0 +1,1135 @@
+{
+  "browserPlugin": "not available; existing Playwright drives installed Chrome",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "checks": [
+        {
+          "name": "W6 browser predicate B2",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate B3/B5",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate B1/B4",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S1",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S2",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S3",
+          "passed": true
+        },
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "F1 short and real word exactly match master",
+          "passed": true
+        },
+        {
+          "name": "F1 W 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 manual stepping and resume preserve the whole token",
+          "passed": true
+        },
+        {
+          "name": "F1 first-word manual arrival and one Play continuation",
+          "passed": true
+        },
+        {
+          "name": "F1 resize re-evaluates and focus/context modes stay separate",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.7 boundary and no collisions {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 fitting and master identity {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6 whole word data and resume {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.9 one Play from auto",
+          "passed": true
+        },
+        {
+          "name": "W6.9 one Play from next",
+          "passed": true
+        },
+        {
+          "name": "W6.9 one Play from previous",
+          "passed": true
+        },
+        {
+          "name": "W6.9 one Play from seek",
+          "passed": true
+        },
+        {
+          "name": "W6.9 one Play from resume",
+          "passed": true
+        },
+        {
+          "name": "W6.9 final finish and restart equals master",
+          "passed": true
+        },
+        {
+          "name": "W6.10 native Space scroll and external toggle; no auto-focus",
+          "passed": true
+        },
+        {
+          "name": "W6 focus and scroll preservation on persistent region",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/4",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/5",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/6",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/7",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/8",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/9",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/10",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/11",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1708/false/12",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/4",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/5",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/6",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/7",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/8",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/9",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/10",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/11",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1920/false/12",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/4",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/5",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/6",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/7",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/8",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/9",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/10",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/11",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 996/true/12",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/4",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/5",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/6",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/7",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/8",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/9",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/10",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/11",
+          "passed": true
+        },
+        {
+          "name": "W6.12 cap probe 1400/true/12",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":600,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":600,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":600,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":600,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":844,\"height\":390,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":844,\"height\":390,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":844,\"height\":390,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":844,\"height\":390,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1708,\"height\":950,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1708,\"height\":950,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1708,\"height\":950,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1708,\"height\":950,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1920,\"height\":1080,\"focus\":false,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1920,\"height\":1080,\"focus\":false,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1920,\"height\":1080,\"focus\":false,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1920,\"height\":1080,\"focus\":false,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":996,\"height\":950,\"focus\":true,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":996,\"height\":950,\"focus\":true,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":996,\"height\":950,\"focus\":true,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":996,\"height\":950,\"focus\":true,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":true,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":true,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":true,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":1400,\"height\":950,\"focus\":true,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":true,\"contextWords\":true,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":true,\"contextWords\":true,\"letter\":false}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":true,\"contextWords\":false,\"letter\":true}",
+          "passed": true
+        },
+        {
+          "name": "W6.12 clipped and floor {\"width\":390,\"height\":844,\"focus\":true,\"contextWords\":false,\"letter\":false}",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-1400.png",
+          "sha256": "bca49b70476f17c083e9910820ca4ca0407895546632c3b2aa1cb38e5fded03b"
+        },
+        {
+          "file": "static-quota-1400.png",
+          "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "W6 browser predicate B2",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate B3/B5",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate B1/B4",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S1",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S2",
+          "passed": true
+        },
+        {
+          "name": "W6 browser predicate S3",
+          "passed": true
+        },
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "F1 short and real word exactly match master",
+          "passed": true
+        },
+        {
+          "name": "F1 W 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 W 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 135 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 500 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 2000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 real-repeated 10000 geometry, playback and data",
+          "passed": true
+        },
+        {
+          "name": "F1 manual stepping and resume preserve the whole token",
+          "passed": true
+        },
+        {
+          "name": "F1 first-word manual arrival and one Play continuation",
+          "passed": true
+        },
+        {
+          "name": "F1 resize re-evaluates and focus/context modes stay separate",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-390.png",
+          "sha256": "a13e14e26113a9f431b62abe847cccbc4c56f24570c523ec03d68279aa9b2233"
+        },
+        {
+          "file": "static-quota-390.png",
+          "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "uploads": 0,
+  "chrome": "155.0.8059.39",
+  "passed": 272,
+  "skipped": 0
+}

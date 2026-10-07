@@ -1,0 +1,2556 @@
+{
+  "scratch": "<home>/AppData/Local/Temp/claude/<project>/b5e64aff-57bf-4527-a98a-7b6d342bad63/scratchpad",
+  "safe": true,
+  "files": [
+    {
+      "path": "absent.sh",
+      "size": 1726,
+      "sha256": "f64feb1fbc3ce66cffccd164bc0723ce06c866a925a2c2c80dda551bf431f8bb",
+      "committedMatches": [],
+      "cited": true,
+      "value": "unclear",
+      "reason": "CC-cited output/script is not byte-identical to a committed file"
+    },
+    {
+      "path": "absent.txt",
+      "size": 5250,
+      "sha256": "f1b0d7e29f79f93b27f6c02f891c25c3df30b3d0cb4ec213ce160c1496c88b7e",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/absent.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "collect.sh",
+      "size": 2671,
+      "sha256": "89521069849333506e7b6de24ecabc8041ba57c6eb171e75c6c0c9f3681d421f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "data.cjs",
+      "size": 6437,
+      "sha256": "559291f48730cd540ff915910ca003fa06136835534c0f16d995bc96606944f0",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/data.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/absent.txt",
+      "size": 5250,
+      "sha256": "f1b0d7e29f79f93b27f6c02f891c25c3df30b3d0cb4ec213ce160c1496c88b7e",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/absent.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/data/data.json",
+      "size": 23114,
+      "sha256": "9f71fa9b8ca7c0a8af7c9559aa722fc887ac90644d3e375da7ea8d4dae959cb9",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/data-run2.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/data/id-1400-comfortable-45-branch.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-comfortable-45-master.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-comfortable-5-branch.png",
+      "size": 11259,
+      "sha256": "51c36a6464c9817865f4233f47f00a766e93ebba546e29f88935221aa1da17af",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-comfortable-5-master.png",
+      "size": 11259,
+      "sha256": "51c36a6464c9817865f4233f47f00a766e93ebba546e29f88935221aa1da17af",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-compact-45-branch.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-compact-45-master.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-compact-5-branch.png",
+      "size": 10373,
+      "sha256": "5f8792018cf2d428b89599e094c32c62af013bf8db173422002db8c7dae2eb31",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-compact-5-master.png",
+      "size": 10373,
+      "sha256": "5f8792018cf2d428b89599e094c32c62af013bf8db173422002db8c7dae2eb31",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-large-45-branch.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-large-45-master.png",
+      "size": 13230,
+      "sha256": "38237265e6fdc71d6aa779e403ef83040cdb112e8bff25acbe36f590bc7e5a02",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-large-5-branch.png",
+      "size": 11759,
+      "sha256": "984453d8ac8930dc9100c4b60a981a9a070657c0682892da33aba268a7630543",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-1400-large-5-master.png",
+      "size": 11759,
+      "sha256": "984453d8ac8930dc9100c4b60a981a9a070657c0682892da33aba268a7630543",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-comfortable-45-branch.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-comfortable-45-master.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-comfortable-5-branch.png",
+      "size": 4504,
+      "sha256": "9f5bbc47f03db5e3b8ecdeb5b69bf9a131ba31746f00a66301c9b6362a9a2e42",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-comfortable-5-master.png",
+      "size": 4504,
+      "sha256": "9f5bbc47f03db5e3b8ecdeb5b69bf9a131ba31746f00a66301c9b6362a9a2e42",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-compact-45-branch.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-compact-45-master.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-compact-5-branch.png",
+      "size": 3923,
+      "sha256": "7f1e77012543b454c5f388a3551cae5f4da2184130b23e05b7c2c63febfaafd4",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-compact-5-master.png",
+      "size": 3923,
+      "sha256": "7f1e77012543b454c5f388a3551cae5f4da2184130b23e05b7c2c63febfaafd4",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-large-45-branch.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-large-45-master.png",
+      "size": 4407,
+      "sha256": "21dc14b66374cfbed1dd8095689f5c2e1b79ef7c94eb694272adc67de8732951",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-large-5-branch.png",
+      "size": 4957,
+      "sha256": "50620c26cd87c1f09b3fffdde343bbd88af35190b551b557ffd915090d0ee7c9",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data/id-390-large-5-master.png",
+      "size": 4957,
+      "sha256": "50620c26cd87c1f09b3fffdde343bbd88af35190b551b557ffd915090d0ee7c9",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/data-run1/data.json",
+      "size": 23120,
+      "sha256": "58e19ab903bd72fea1fbb5d2b7be87980413105f3b49879fc6196a261d11d246",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/data-run1.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/data-run1/data.txt",
+      "size": 4046,
+      "sha256": "604a2acf1fc9d9efadb8bfcc842cdd0b557b67cb67c104ae56a141e8544fa911",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/data-run1.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/data-run2.txt",
+      "size": 4040,
+      "sha256": "0a426cd18f02599eaf4e0c492724a4632807277b1cef761099413c4133686d83",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/data-run2.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/data.txt",
+      "size": 4046,
+      "sha256": "604a2acf1fc9d9efadb8bfcc842cdd0b557b67cb67c104ae56a141e8544fa911",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/data-run1.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/extra/extra.json",
+      "size": 2949,
+      "sha256": "a9eda4214d616a5dd5ffbf25acc46f1fedd23fb1e93d506b24c0ffb8460dee2a",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/extra.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/extra/final-word-after-play-390.png",
+      "size": 19634,
+      "sha256": "d78f75c533ee09044d19f01684df7123d95d5c596054f01d29c74fb4cf5e5870",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/extra/final-word-play2-390.png",
+      "size": 19611,
+      "sha256": "ab4d66104a0e0c146b356361a80cc582665b5d0f0fd603b442e3a3121039d434",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/final-word-play2-390.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/extra.txt",
+      "size": 2255,
+      "sha256": "d56c516537fc758d3952a38437296c8649d779a4f056141aecd1f8d9d8f63667",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/extra.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/final.txt",
+      "size": 1618,
+      "sha256": "5bacab2f9d78eec35776dd66da6b83528536400a4cc296ae131311412ee8b227",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/final.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/focus/focus-1024-branch-10000.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-branch-135.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-branch-2000.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-branch-45.png",
+      "size": 19169,
+      "sha256": "244e80d6d1a19a2369184f6c0fb576aa5dc89641e7381469f20e97532ba3ad41",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-master-10000.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-master-135.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-master-2000.png",
+      "size": 19397,
+      "sha256": "025bfb34bc2e121f5e6eb19819811b1e3dc69b0632e3beced1d004a3f86ab241",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1024-master-45.png",
+      "size": 19169,
+      "sha256": "244e80d6d1a19a2369184f6c0fb576aa5dc89641e7381469f20e97532ba3ad41",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-branch-10000.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-branch-135.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-branch-2000.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-branch-45.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/focus/focus-1400-master-10000.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-master-135.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-master-2000.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-1400-master-45.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/focus/focus-390-branch-10000.png",
+      "size": 11050,
+      "sha256": "5c5cba8256ae2fc4b8dc42f35af512b654c67c80749151d8ea0be0b291edb630",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-branch-135.png",
+      "size": 5922,
+      "sha256": "de354c776f04b9b53eed4eb75f56ad9e3254ab83e5aaaba78751d86158a50264",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-branch-2000.png",
+      "size": 11050,
+      "sha256": "5c5cba8256ae2fc4b8dc42f35af512b654c67c80749151d8ea0be0b291edb630",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-branch-45.png",
+      "size": 6106,
+      "sha256": "7a24f6a7353ac09a84fcb28abad3d89377eecb4043cb9afffc030100991d1604",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-master-10000.png",
+      "size": 5182,
+      "sha256": "4457f2a449d7caf512362e41e5b8c144709b62f5cf6f2c4b1da406e18a6f1dc1",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-master-135.png",
+      "size": 5182,
+      "sha256": "4457f2a449d7caf512362e41e5b8c144709b62f5cf6f2c4b1da406e18a6f1dc1",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-master-2000.png",
+      "size": 5182,
+      "sha256": "4457f2a449d7caf512362e41e5b8c144709b62f5cf6f2c4b1da406e18a6f1dc1",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus-390-master-45.png",
+      "size": 6106,
+      "sha256": "7a24f6a7353ac09a84fcb28abad3d89377eecb4043cb9afffc030100991d1604",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus/focus.json",
+      "size": 11205,
+      "sha256": "26c820fc9b5a298cd07e922474527c7bd9a2a1391d3495e00e7f1facddcde5e1",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/focus.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/focus/normal-1920-branch-2000.png",
+      "size": 26620,
+      "sha256": "0c2132127e11580ba11576066cb6a7d16829ae5e5ae2e71783b5344f8ce589f7",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/normal-1920-branch-2000.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/focus/normal-2560-branch-2000.png",
+      "size": 35372,
+      "sha256": "a81816fdf78200c57cb623e276019b456cd4b163885979cb343396fcac363390",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/focus.txt",
+      "size": 4049,
+      "sha256": "3a6710274c60f738bc5f2ad67ba4fd104c9803de4203d12c5212e33999781185",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/focus.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B1/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/f1-scroll-1400.png",
+      "size": 198402,
+      "sha256": "90a6a7d4775c68fe97fb97b5abde1e078cd0bc5a0192a6a7113f72ea4eda83e6",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/f1-scroll-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/f1-scroll-390.png",
+      "size": 97149,
+      "sha256": "693daa1a32534c952e024e9f341c6d1e262596874a9b434c512d820b325144f9",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/f1-scroll-390.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/static-quota-390.png",
+      "size": 96763,
+      "sha256": "481016bc0fb44a443f819316771b053b29d8c9e3e9bdaa5473f846bd3f850c51",
+      "committedMatches": [
+        "docs/verification/results/f1/baseline-parity/static-quota-390.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B2/static-reader-1400.png",
+      "size": 125079,
+      "sha256": "5f4aa86ae482cc81763aa55036e054d4598815ee34ac570460a102c4fe712b8b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B2/static-reader-390.png",
+      "size": 99588,
+      "sha256": "a465dad20d8fa67f8159954f2748773a0061e4edf6cd24e5fed4e4fcca44c449",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B2/static-smoke.json",
+      "size": 8902,
+      "sha256": "30a9217fb24dc7faf1e13e07dfe84fc87bdba119075e823f39c2a38090c43311",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/B3/f1-scroll-1400.png",
+      "size": 198403,
+      "sha256": "c5f32823da6b0b44bf4de0f6f2392d640bb19a982f2c0dacb58b051d4eec04a2",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B3/f1-scroll-390.png",
+      "size": 97138,
+      "sha256": "91cdd50adce47132aec23748ea02a2c691fc6821c53811cad1cfab8aa817208c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B3/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B3/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B3/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B3/static-quota-390.png",
+      "size": 96759,
+      "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-390.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B3/static-reader-1400.png",
+      "size": 125079,
+      "sha256": "5f4aa86ae482cc81763aa55036e054d4598815ee34ac570460a102c4fe712b8b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B3/static-reader-390.png",
+      "size": 99596,
+      "sha256": "670cb933bc42ff236404b1391030938d2dfef4a0f01223a3c4b407c3c1be4f3a",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B3/static-smoke.json",
+      "size": 8902,
+      "sha256": "4d4bbc4411425be2ce3a6e93bf3b984df6d13d344192fb9beacb806393f088de",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/B4/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/f1-scroll-1400.png",
+      "size": 198403,
+      "sha256": "46dc05c2889fc7ecbed0d8ed8b3a655f913c4751390d0fbfc4d8154c73090aa0",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/probe/f1-scroll-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/f1-scroll-390.png",
+      "size": 97139,
+      "sha256": "7d7069b8f433395af4849dfe7b81f5440e7527439aa1b0f1742ef7555342ab14",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B5/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/static-quota-390.png",
+      "size": 96759,
+      "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-390.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/B5/static-reader-1400.png",
+      "size": 125079,
+      "sha256": "5f4aa86ae482cc81763aa55036e054d4598815ee34ac570460a102c4fe712b8b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B5/static-reader-390.png",
+      "size": 99588,
+      "sha256": "a465dad20d8fa67f8159954f2748773a0061e4edf6cd24e5fed4e4fcca44c449",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/B5/static-smoke.json",
+      "size": 8902,
+      "sha256": "5c84d6214e68eb4413aaadedcb074b20ce5881d31808f081746d0f1dc34bc7e8",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/mutants.json",
+      "size": 16041,
+      "sha256": "8b9f99016bfe03f9254fb9748c2b0f8f0b25bd6b2edb429dc7c5efc16cec4a70",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/predicate-mutants.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S1/f1-scroll-1400.png",
+      "size": 198426,
+      "sha256": "8fcb145d4236422a35313d9a0e74de50651ec0c001b5d5958259035ef398415c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S1/f1-scroll-390.png",
+      "size": 97156,
+      "sha256": "a2c489bf782894050f5091991ddaa4c0b191eb6bbbca598e2d4ae58d8407899b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S1/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S1/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S1/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S1/static-quota-390.png",
+      "size": 96784,
+      "sha256": "f87c77d2274857a8b98097bc6c9cf4db2edc2a2ff27888941d8ca1b682c1954b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S1/static-reader-1400.png",
+      "size": 124829,
+      "sha256": "0be23c6da2b176abd9789c1c7b34721bbd36bfa72fa80ab0b06b54ab727adebf",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S1/static-reader-390.png",
+      "size": 99590,
+      "sha256": "20d9d1fac014c64bb4b7f1c58ffcdef91f15a0705c9556bdd28a0e5bbe446018",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S1/static-smoke.json",
+      "size": 8902,
+      "sha256": "5baa7dc9e4324e759b86a13313e42759274e5ec3e1f55b82aeea033654e53eb9",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/S2/f1-scroll-1400.png",
+      "size": 198426,
+      "sha256": "8fcb145d4236422a35313d9a0e74de50651ec0c001b5d5958259035ef398415c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S2/f1-scroll-390.png",
+      "size": 97139,
+      "sha256": "7d7069b8f433395af4849dfe7b81f5440e7527439aa1b0f1742ef7555342ab14",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S2/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S2/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S2/static-quota-1400.png",
+      "size": 122649,
+      "sha256": "4af591ebf3142e9b72fd292cfc6c47b1a502f93fb6f169b649c991ae6be4f981",
+      "committedMatches": [
+        "docs/verification/results/f1-w6_5/parity/static-quota-1400.png",
+        "docs/verification/results/f1/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/post-review/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S2/static-quota-390.png",
+      "size": 96759,
+      "sha256": "95975c581e16e1f9aeba82364dbbc7c71b54f4bac020f041c4f9991fae4d5b6b",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-390.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants/S2/static-reader-1400.png",
+      "size": 124820,
+      "sha256": "bae6dba525d8593f28210a7ce77bdb58fa71c504cb2932df918904f47069cc5c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S2/static-reader-390.png",
+      "size": 99588,
+      "sha256": "a465dad20d8fa67f8159954f2748773a0061e4edf6cd24e5fed4e4fcca44c449",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/mutants/S2/static-smoke.json",
+      "size": 8902,
+      "sha256": "1dd4f7e4a9b8d86a5e2e345c6700987203c81aa47926f4732448b642b0b6e5c5",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/S3/static-quota-1400.png",
+      "size": 122494,
+      "sha256": "73dd57280bda6a7d635600c591d4ec7deb24acb59b59d8d07b84d0bc3d122a88",
+      "committedMatches": [
+        "docs/verification/results/f1-round2/baseline-parity/static-quota-1400.png",
+        "docs/verification/results/f1-round2/probe/static-quota-1400.png",
+        "docs/verification/results/f1-w6_5/static-quota-1400.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutants.txt",
+      "size": 2943,
+      "sha256": "3c25d2330d21fc8ecd1f26b180f955664890c14c2608f8fadc7d405688bddb4a",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/mutants.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutations.json",
+      "size": 269598,
+      "sha256": "963014ddc66e6704eb11e4d18246fe12fc2d568048e2d490e5d9df3ccd37bf34",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/mutations.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/mutations.txt",
+      "size": 2938,
+      "sha256": "bd42a36d62a1bd149fc546ce3ab61440a637c1c6d6a5c327798f702816cab278",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/mutations.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/npmtest.txt",
+      "size": 3359,
+      "sha256": "58d4cdef72ae4fd4c168f8480097cedb5bdb3a187d09b86fc9c382f516e1b968",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/npmtest.txt",
+        "docs/verification/results/f1-round2/baseline-node-tests.txt",
+        "docs/verification/results/f1-round2/node-tests.txt",
+        "docs/verification/results/f1-w6_5/node-tests.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-1400-base-real2000.png",
+      "size": 39542,
+      "sha256": "64a3183693df5e22c43fed516ca516f537381bcf6b9f380ecbeb64f7fd8bc115",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-base-real500.png",
+      "size": 15983,
+      "sha256": "9a9adb22a52e356e5c0bc017c0277851656298282bf5d6f290cd0b28a8a534df",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-base-W2000.png",
+      "size": 15829,
+      "sha256": "43d09a908b8c6b905df2d849f38ca0f871df896b002dc3d855016ab4cb4425e0",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/ov-1400-base-W2000.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-1400-base-W500.png",
+      "size": 9933,
+      "sha256": "329cca89dea5b9c30840309b7699dcc35212f7aadc6d2d2aa1c2d41644c47f71",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-letterOff-real2000.png",
+      "size": 25846,
+      "sha256": "89c4d7eef80531d46782f47e843ca605053df45a1a5fa2c8d86b95fe5fe2391b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-letterOff-real500.png",
+      "size": 25846,
+      "sha256": "89c4d7eef80531d46782f47e843ca605053df45a1a5fa2c8d86b95fe5fe2391b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-letterOff-W2000.png",
+      "size": 25048,
+      "sha256": "ee63585cc14347f37e7c50f590f0561d66ac796da589141937bc70472427485f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-letterOff-W500.png",
+      "size": 25048,
+      "sha256": "ee63585cc14347f37e7c50f590f0561d66ac796da589141937bc70472427485f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-real2000.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-real500.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-W2000.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-focusMode-W500.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-letterOff-real2000.png",
+      "size": 39413,
+      "sha256": "af8fec44c7e28492529dcdf8262242c3c23d100b7c74acba99ca4f3b0e6f0d45",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-letterOff-real500.png",
+      "size": 15830,
+      "sha256": "ee78ee8e79b8740c02dbc91bd7e4a592cbd50f11ef0a4193eef98a22d99ca261",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-letterOff-W2000.png",
+      "size": 15565,
+      "sha256": "841e1ec2709d59ede2467272aaa4f7d02b294fcb3fd82348e42fc4179776eb70",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-1400-letterOff-W500.png",
+      "size": 9656,
+      "sha256": "6c00c3c54e0978b0dad7fb8ab23ccae3db96d4c43e6e3e649a578a4a6bb3bdbe",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-base-real1000.png",
+      "size": 15574,
+      "sha256": "8b3837b2ef7b540f123e6a8871edf3b3edc0b604f42ba769113613460df3ada5",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/ov-390-base-real1000.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-390-base-real2000.png",
+      "size": 14770,
+      "sha256": "931a7052db5621dcfea14a2897b0992d8edc8f490ec8ec0b53cacfd095dc546c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-base-real500.png",
+      "size": 10332,
+      "sha256": "d097304e7236ee2638aa4b96278164b933c5d525dc4d5a41e032e7646806c34b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-base-W2000.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-390-base-W500.png",
+      "size": 5952,
+      "sha256": "49e0fa445a245ecdb505f98e72210cd26a6c20204035446b290584cc6d6a8fad",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/ov-390-base-W500.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-letterOff-real2000.png",
+      "size": 25211,
+      "sha256": "315fa525294d4b627c415858921387a6179d5a91c944ef953ed87758fbd1cbaa",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-letterOff-real500.png",
+      "size": 12260,
+      "sha256": "d5b83e47832bdb269be72a45c29c3330d3728ec645129eae7f6e9ff10f00cd39",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-letterOff-W1000.png",
+      "size": 8916,
+      "sha256": "d38baaaace17dafea6e8ba3b7fda41e402ec96c7f6d30c60be4b5a91f42df4c1",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-letterOff-W2000.png",
+      "size": 10817,
+      "sha256": "b6249af468b785f1d55096a0f01fff53db212fb97b78d57506ae593f2f4d5193",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-letterOff-W500.png",
+      "size": 6792,
+      "sha256": "19a0dcd8518807e39afae5ee75007144111d8afb9d27fc0aaebb9e9f0e6c7284",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-real2000.png",
+      "size": 25273,
+      "sha256": "1b3002c017920aa840765b1cadfbdb92fe27fd499ffe319e4b52e042f97cd5e0",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-real500.png",
+      "size": 12327,
+      "sha256": "5379565c71f9be01df564d6c7995c06f0074a9a2f11267c3612d7f72e7a3cd6f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-W1000.png",
+      "size": 9159,
+      "sha256": "244fbae1728c850033ce4042d6ea54f3c9e6428dedc7f199b5346214cf09a0f3",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/ov-390-focusMode-W1000.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-W2000.png",
+      "size": 11050,
+      "sha256": "5c5cba8256ae2fc4b8dc42f35af512b654c67c80749151d8ea0be0b291edb630",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-focusMode-W500.png",
+      "size": 7060,
+      "sha256": "881d8a128247fd0b61a2156afaa6eec8400dbf327aa8c8fe71b191f9e1dc640d",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-letterOff-real1000.png",
+      "size": 15512,
+      "sha256": "24ed9f4be528e36eceacb89b140536a9af522f4ebe71e120ca800917e27cce9b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-letterOff-real2000.png",
+      "size": 14721,
+      "sha256": "1a6c7b22bec773c3c7cc1959e79025f37c7f930133a0426de62c259fed6d6c9f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-letterOff-real500.png",
+      "size": 10305,
+      "sha256": "46cf59c8fef6091d685ff5534f63151323dbb711f25b654608ff6fde6543a817",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-letterOff-W2000.png",
+      "size": 6420,
+      "sha256": "ee05598c2dc76c98cf925407858cf14d224345a9c84bf370b36e7b12ba788bb6",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/ov-390-letterOff-W500.png",
+      "size": 5719,
+      "sha256": "16ef5717672c677de8d02182ccf61204d250849e9836e379670e66367404fe56",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/ov-390-letterOff-W500.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/overlap.json",
+      "size": 258736,
+      "sha256": "4a41d1055383b3477a569981d7db1971d80753007848f5f2da1dd5d126af5e84",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/overlap.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-1400-base-real6319-below.png",
+      "size": 99951,
+      "sha256": "e382e66566f0d315c638709f9026ccae9aa25db900f0ea54508e84bb175b6d89",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-base-real6320-above.png",
+      "size": 82507,
+      "sha256": "efb60c11bd8663c928a7c91a3a92dc1c713b13da2d3f578dcc7330051b0d49a7",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-base-W3186-below.png",
+      "size": 19258,
+      "sha256": "f845cc4d03f6a8742d332195658772126ffc8160636682afc57a727acadafa51",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/thr-1400-base-W3186-below.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-1400-base-W3187-above.png",
+      "size": 17761,
+      "sha256": "fee0b5315408457a26af80708280df1aa4eecc01c19a5c28a6d0512b89819c04",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/thr-1400-base-W3187-above.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-letterOff-real39999-below.png",
+      "size": 25846,
+      "sha256": "89c4d7eef80531d46782f47e843ca605053df45a1a5fa2c8d86b95fe5fe2391b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-letterOff-real40000-above.png",
+      "size": 25846,
+      "sha256": "89c4d7eef80531d46782f47e843ca605053df45a1a5fa2c8d86b95fe5fe2391b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-letterOff-W39999-below.png",
+      "size": 25048,
+      "sha256": "ee63585cc14347f37e7c50f590f0561d66ac796da589141937bc70472427485f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-letterOff-W40000-above.png",
+      "size": 25048,
+      "sha256": "ee63585cc14347f37e7c50f590f0561d66ac796da589141937bc70472427485f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-real39999-below.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-real40000-above.png",
+      "size": 27343,
+      "sha256": "5fe868d551b51345ca70e75820e91d372f969aa5a6d4549e5ab0c515ab740d94",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-branch-45.png",
+        "docs/verification/results/cc-review-f1-w6/shots/focus-1400-master-45.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-W39999-below.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-focusMode-W40000-above.png",
+      "size": 29510,
+      "sha256": "77961e4a48efb7263072db6ec09ea0e50b953dfe1df471d48bba4f6fbb876f8e",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-letterOff-real6319-below.png",
+      "size": 99751,
+      "sha256": "494bcc9c1d23b6976a96799f803e8a0d8c7092f311abf2728cf8d032109b5422",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-letterOff-real6320-above.png",
+      "size": 82317,
+      "sha256": "cf883e97c4a1696936e7e526f3a04547dc05a7ef37b975b5a52f46c3e414cfe3",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-letterOff-W3186-below.png",
+      "size": 19006,
+      "sha256": "f267dacedfb2c4c5018d78f3ff85eff20d9ec61c540a87bd0ebdc10a27d0dcf0",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-1400-letterOff-W3187-above.png",
+      "size": 17529,
+      "sha256": "4c6dc710df5c4ee54718cdd7e953dd2fdcfb6d9ef65ab834bedd2eacef401007",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-base-real1565-below.png",
+      "size": 20022,
+      "sha256": "75a55db007cae567f81c0c657afa6f06b320c36f8e45c3c18eb49e8a4a9e6276",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-base-real1566-above.png",
+      "size": 14770,
+      "sha256": "931a7052db5621dcfea14a2897b0992d8edc8f490ec8ec0b53cacfd095dc546c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-base-W780-below.png",
+      "size": 6837,
+      "sha256": "705fdfcc06dfae1dcfdb990827c5cd0d3e989bb18c8b5d503dcb9df25a7c8f85",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W780-below.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-390-base-W781-above.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-letterOff-real3244-below.png",
+      "size": 35209,
+      "sha256": "9ae9b8256a928147cacc9400547e7994b2c7da553df87e7c804c5fe75c645db7",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-letterOff-real3245-above.png",
+      "size": 28832,
+      "sha256": "30d6f97e4f1abe64349341fb8628c9c15d65ea6d775e4e0b79f6787310ab90a5",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-letterOff-W1620-below.png",
+      "size": 10699,
+      "sha256": "305b2566e220b8fd2f557ac2da3533ab79c1938d4a42afbd16685ded72a998e4",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-letterOff-W1621-above.png",
+      "size": 10817,
+      "sha256": "b6249af468b785f1d55096a0f01fff53db212fb97b78d57506ae593f2f4d5193",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-real3244-below.png",
+      "size": 35270,
+      "sha256": "87306491feeaecca365bd06e8cf282e76d3986c8fb42a69e39e93cdb43197799",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-real3245-above.png",
+      "size": 28875,
+      "sha256": "febd309ef79d1993bf2c86ab1469a5111d72e1890f81a8c1d230f0c8462b7539",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-W1620-below.png",
+      "size": 10936,
+      "sha256": "557f2fef69e08d01f9715a2752724fed0a81f3a38aaf1b3c8bd8f75f15e80203",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-focusMode-W1621-above.png",
+      "size": 11050,
+      "sha256": "5c5cba8256ae2fc4b8dc42f35af512b654c67c80749151d8ea0be0b291edb630",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-letterOff-real1565-below.png",
+      "size": 19960,
+      "sha256": "fcb43fdefe3251021548c5b498da9aae6333bd7b4e6993ace3dbc1425f3bbf1b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-letterOff-real1566-above.png",
+      "size": 14721,
+      "sha256": "1a6c7b22bec773c3c7cc1959e79025f37c7f930133a0426de62c259fed6d6c9f",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-letterOff-W780-below.png",
+      "size": 6607,
+      "sha256": "aef8e8fc478c251299dec2f3ed0158a0560e20b505ca56441016be65a1aff107",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap/thr-390-letterOff-W781-above.png",
+      "size": 6420,
+      "sha256": "ee05598c2dc76c98cf925407858cf14d224345a9c84bf370b36e7b12ba788bb6",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/overlap-table.txt",
+      "size": 11630,
+      "sha256": "9e58a3523733e2cfed157aeff694d269a57c1e42b733ef23f968ff8eafbdc3f8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/overlap-table.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/overlap.txt",
+      "size": 16472,
+      "sha256": "7f84b53dc37560b18dc6541f162804872bea0aa116ff6a54662ff954915fe33b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/overlap.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/parity/browser-parity.json",
+      "size": 13412,
+      "sha256": "dda071b7356dd6a12c67b05aff35bdffa59efbed67b614788cbe541bfeb7379c",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/browser-parity.json",
+        "docs/verification/results/f1-round2/baseline-parity/browser-parity.json",
+        "docs/verification/results/f1-w6_5/parity/browser-parity.json",
+        "docs/verification/results/f1/baseline-parity/browser-parity.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/parity/f1-scroll-1400.png",
+      "size": 198426,
+      "sha256": "8fcb145d4236422a35313d9a0e74de50651ec0c001b5d5958259035ef398415c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/parity/f1-scroll-390.png",
+      "size": 97139,
+      "sha256": "7d7069b8f433395af4849dfe7b81f5440e7527439aa1b0f1742ef7555342ab14",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/parity/reader-1400.json",
+      "size": 27693,
+      "sha256": "c5fce0349543497b1761991cb3e475a27fe147018504df3d0911a1ad8d4dc40b",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-1400.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/parity/reader-1400.json",
+        "docs/verification/results/f1-w6_5/reader-1400.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/parity/reader-390.json",
+      "size": 28204,
+      "sha256": "2f133279aced11340bbba6622068ec0d7d264defff856e980d79362672e99ed8",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/reader-390.json",
+        "docs/verification/results/f1-round2/baseline-parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/parity/reader-390.json",
+        "docs/verification/results/f1-w6_5/reader-390.json"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/parity/static-reader-1400.png",
+      "size": 124988,
+      "sha256": "56199211e5a3ad6cb252dca26d55a31308b2421a4bdb9da67a77243f64008c95",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/parity/static-reader-390.png",
+      "size": 99601,
+      "sha256": "1c751544489277643b2504522d2916dd2f8e758ca8f39ac6551f108e991355c7",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/parity/static-smoke.json",
+      "size": 8902,
+      "sha256": "134b798c0a01c35d4c83453d2d640728af68d8c70135d678960d6b2b2c115c17",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity/static-smoke.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/parity.txt",
+      "size": 289,
+      "sha256": "4fc754d87f18bcd0ebac929971d5496dd893cacb42abe900c9ec355953129ff6",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/play/play.json",
+      "size": 13660,
+      "sha256": "e4d9a76e2a4bcb14eac22da781b443c1b90e5e96eda6a6335684922fc55ad46e",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/play.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/play.txt",
+      "size": 10221,
+      "sha256": "947498ead500e1c5fe36020538670a8f8c1bfc69ae22d250e96dc09116e93337",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/play.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/repeat.txt",
+      "size": 282,
+      "sha256": "aba241803e1196756e1244ec01a61a70474a9d583c37906f06fe9d7fe815b36c",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/repeat.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/resize.json",
+      "size": 6624,
+      "sha256": "348ef680d6ac6bf30f4bde2b3f85e80811b880f9649463fad5028fd7dc7060f6",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/resize.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/resize.txt",
+      "size": 4940,
+      "sha256": "f1a612435d3791c215e61dca7b4841888fe3a601993c934e3d7a40093f032d6f",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/resize.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/restart.txt",
+      "size": 148,
+      "sha256": "1314aec9a8c2e09dddaeeecbf0b87b865ee6fe5e67e10ad3fb9f8a649319e4c9",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/restart.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/area-390x600-real2000.png",
+      "size": 14770,
+      "sha256": "931a7052db5621dcfea14a2897b0992d8edc8f490ec8ec0b53cacfd095dc546c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/area-390x600-W10000.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/area-390x600-W2000.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/area-390x844-real2000.png",
+      "size": 14770,
+      "sha256": "931a7052db5621dcfea14a2897b0992d8edc8f490ec8ec0b53cacfd095dc546c",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/area-390x844-W10000.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/area-390x844-W2000.png",
+      "size": 6648,
+      "sha256": "b888d63e63bd61c1d18b1c5c6307611c696de1b358d159b79cc4d2fd4496c1bb",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x600-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/area-390x844-W10000.png",
+        "docs/verification/results/cc-review-f1-w6/shots/thr-390-base-W781-above.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/area-844x390-W10000.png",
+      "size": 10303,
+      "sha256": "37dd5fbe0dbc708cb9d4b6002e14db055d58e5180c2f2b1a0267b82e2f08c4df",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/area-844x390-W2000.png",
+      "size": 10303,
+      "sha256": "37dd5fbe0dbc708cb9d4b6002e14db055d58e5180c2f2b1a0267b82e2f08c4df",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x600-real2000.png",
+      "size": 31253,
+      "sha256": "7d4612e0c7d39d8cd9265a0a1f3bc1e25db3b97c3d2c790d17a9ead84f4b8f48",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x600-W10000.png",
+      "size": 22953,
+      "sha256": "19e0f8e700490e80fe79f6de811f82f661b2bd02545cb2dcc887b8dcc3ebd720",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x600-W2000.png",
+      "size": 22953,
+      "sha256": "19e0f8e700490e80fe79f6de811f82f661b2bd02545cb2dcc887b8dcc3ebd720",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x844-real2000.png",
+      "size": 45853,
+      "sha256": "91ec090796a0481068dec8510ceaa89432eac9326001fc1e10089b393a4267b5",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x844-W10000.png",
+      "size": 37543,
+      "sha256": "04a148f7b1641ebec24bfea85647b9f3f9c8087e3ab2ff1f2bcdfe5101483aa2",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-390x844-W2000.png",
+      "size": 37543,
+      "sha256": "04a148f7b1641ebec24bfea85647b9f3f9c8087e3ab2ff1f2bcdfe5101483aa2",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "ev/scroll/page-844x390-W10000.png",
+      "size": 39891,
+      "sha256": "4009eb027f74748aeab859b6140966f29ce9c1245efa7f2ca1b502c4681238d6",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/page-844x390-W10000.png"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/page-844x390-W2000.png",
+      "size": 39891,
+      "sha256": "4009eb027f74748aeab859b6140966f29ce9c1245efa7f2ca1b502c4681238d6",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/shots/page-844x390-W10000.png"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll/scroll.json",
+      "size": 17808,
+      "sha256": "8f75e58bbf4ca480175246fd6e347c245ff38b19f4949ba26ef4eb466b877a76",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/scroll.json"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/scroll.txt",
+      "size": 6694,
+      "sha256": "dcf845d433089c836e14c1e037437dfd2c06b19a005eaf4ca424d06438a65617",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/scroll.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "ev/wide.txt",
+      "size": 808,
+      "sha256": "769f62a7afd29fbfd7ba54158c36ee59bda45f8497e5b33003616d5267ebe585",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/wide.txt"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "extra.cjs",
+      "size": 4818,
+      "sha256": "5c1cad335c87d5db64b89e93e92be120cf321737c86597e9963ad24f2a949c96",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/extra.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "final.cjs",
+      "size": 1816,
+      "sha256": "b4d402652c78a8ef192e2ccae0416a7da9546a47b536e41393ecde7bd9a6f2b5",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/final.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "focuscheck.cjs",
+      "size": 2253,
+      "sha256": "92ca22eeedb1312e5ac90fa147e995211d3ba9135e00b03afa5ab7a3188312ff",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/focuscheck.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "lib.cjs",
+      "size": 5836,
+      "sha256": "e0429981cf0086b79d130b065d0756b88afca6c2edb86c3d8640546cf37b27db",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/lib.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "mutants.cjs",
+      "size": 3176,
+      "sha256": "8f9eb41032a869280dd4f257bcfae6d2f7ed9e33e5859f2424ccf1d3cdb844ed",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/mutants.cjs"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "npmtest-nobrowser.txt",
+      "size": 46,
+      "sha256": "8560f2a519a817d4227dff2f98845ac2e2ab94512045bff27416a30adef9c049",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "npmtest.txt",
+      "size": 3359,
+      "sha256": "58d4cdef72ae4fd4c168f8480097cedb5bdb3a187d09b86fc9c382f516e1b968",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/npmtest.txt",
+        "docs/verification/results/f1-round2/baseline-node-tests.txt",
+        "docs/verification/results/f1-round2/node-tests.txt",
+        "docs/verification/results/f1-w6_5/node-tests.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "overlap.cjs",
+      "size": 6689,
+      "sha256": "fcbd06feb29e92b7589ab62dcb36312fe024c6e7f69e5badbcd6d3493c423b9a",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/overlap.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "parity.txt",
+      "size": 289,
+      "sha256": "4fc754d87f18bcd0ebac929971d5496dd893cacb42abe900c9ec355953129ff6",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/runs/parity.txt"
+      ],
+      "cited": true,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "play.cjs",
+      "size": 7030,
+      "sha256": "23766068cfca55d00bb2ce3e913383f6fb41bbc924a5c82e0fa8c19dc01459ca",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/play.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "repeat.cjs",
+      "size": 1623,
+      "sha256": "26b5b40eea74277e6a343e6025021d3a35b4ca1579a18069871a7e1be0506944",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/repeat.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "resize.cjs",
+      "size": 3400,
+      "sha256": "14eaf1c96e34f7925a4df63f3e70545038dc0a912ca556037f082d7cf29310a2",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/resize.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "restart.cjs",
+      "size": 1275,
+      "sha256": "a4bdb34ac5e5806470ad70805c2f835b089e6793c83e1dbfc0a98bdf72c76f81",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/restart.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "scrollarea.cjs",
+      "size": 7994,
+      "sha256": "ef5f093331938740d0cabed75db4c2bf35b64a5794a5c669473cb69239e48969",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/scrollarea.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    },
+    {
+      "path": "tmp/wordflow-test-network.jsonl",
+      "size": 87,
+      "sha256": "6689b389e9e29a5991d94a7935fbd6aec39504ddd781225351ff9f09316d50f1",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "tmp/x.txt",
+      "size": 1,
+      "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "vault-project.cjs",
+      "size": 5134,
+      "sha256": "6391561790bf263cc4ec99f0ced2cdf6f7f5c279c46674f507ffd4b9ff2e60d8",
+      "committedMatches": [],
+      "cited": false,
+      "value": "no value",
+      "reason": "uncited temporary probe/test output or scaffolding"
+    },
+    {
+      "path": "wide.cjs",
+      "size": 1188,
+      "sha256": "72d78fdd7554fbd3f17c506c655f1aadb024ba3317e8040c8df318d7867151a5",
+      "committedMatches": [
+        "docs/verification/results/cc-review-f1-w6/scripts/wide.cjs"
+      ],
+      "cited": false,
+      "value": "no value",
+      "reason": "identical committed blob"
+    }
+  ],
+  "directories": [
+    "emptyhome",
+    "ev",
+    "ev/data",
+    "ev/data-run1",
+    "ev/extra",
+    "ev/focus",
+    "ev/mutants",
+    "ev/mutants/B1",
+    "ev/mutants/B2",
+    "ev/mutants/B3",
+    "ev/mutants/B4",
+    "ev/mutants/B5",
+    "ev/mutants/S1",
+    "ev/mutants/S2",
+    "ev/mutants/S3",
+    "ev/overlap",
+    "ev/parity",
+    "ev/play",
+    "ev/scroll",
+    "ptest",
+    "ptest/d-OUnPgp",
+    "ptest/e-lQU0U7",
+    "tmp",
+    "tmp/d-1RzGX3",
+    "tmp/d-1V1pD6",
+    "tmp/d-k5OfZn",
+    "tmp/d-KaLGcn",
+    "tmp/d-VvlzDc",
+    "tmp/d-XhCLml"
+  ],
+  "outcome": "DELETE NOTHING: cited or unclear unmatched files",
+  "retain": [
+    {
+      "path": "absent.sh",
+      "size": 1726,
+      "sha256": "f64feb1fbc3ce66cffccd164bc0723ce06c866a925a2c2c80dda551bf431f8bb",
+      "committedMatches": [],
+      "cited": true,
+      "value": "unclear",
+      "reason": "CC-cited output/script is not byte-identical to a committed file"
+    },
+    {
+      "path": "ev/mutants/B2/static-smoke.json",
+      "size": 8902,
+      "sha256": "30a9217fb24dc7faf1e13e07dfe84fc87bdba119075e823f39c2a38090c43311",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/B3/static-smoke.json",
+      "size": 8902,
+      "sha256": "4d4bbc4411425be2ce3a6e93bf3b984df6d13d344192fb9beacb806393f088de",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/B5/static-smoke.json",
+      "size": 8902,
+      "sha256": "5c84d6214e68eb4413aaadedcb074b20ce5881d31808f081746d0f1dc34bc7e8",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/S1/static-smoke.json",
+      "size": 8902,
+      "sha256": "5baa7dc9e4324e759b86a13313e42759274e5ec3e1f55b82aeea033654e53eb9",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    },
+    {
+      "path": "ev/mutants/S2/static-smoke.json",
+      "size": 8902,
+      "sha256": "1dd4f7e4a9b8d86a5e2e345c6700987203c81aa47926f4732448b642b0b6e5c5",
+      "committedMatches": [],
+      "cited": true,
+      "value": "retain evidence",
+      "reason": "CC-cited raw evidence differs from committed bytes"
+    }
+  ]
+}

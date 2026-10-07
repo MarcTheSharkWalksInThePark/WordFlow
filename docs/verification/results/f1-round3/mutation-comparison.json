@@ -1,0 +1,25 @@
+{
+  "rows": 78,
+  "equal": true,
+  "killed": 77,
+  "equivalent": "M9",
+  "comparedFields": [
+    "id",
+    "origin",
+    "source",
+    "file",
+    "suite",
+    "transform",
+    "sourceSpec",
+    "sourceCommit",
+    "targetCommand",
+    "adaptation",
+    "verdict",
+    "expected",
+    "beforeSha256",
+    "mutatedSha256",
+    "restoredSha256"
+  ],
+  "hashRestorations": true,
+  "runOutput": "fresh run logs retained; volatile temp names/timing are not equality fields"
+}

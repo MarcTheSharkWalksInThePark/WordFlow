@@ -3,7 +3,7 @@
   "chrome": "155.0.8059.39",
   "playwright": "1.62.1",
   "hashes": {
-    "app.js": "b4933e1f7738763670088593517e73a4f3e7b80f5d84a509868c6b2bdba9423a",
+    "app.js": "b81eac0eb13570723c794851162d6b36314e8146107c403d84febc2ef611d39a",
     "file-extractors.mjs": "50b60c7f0ec2a7be184dd9dd4c2fcab26737670d9f298fb5312388d915470aa9",
     "index.html": "44cf402e3cf9ec0585e181904f21f45366d2589a085133b55f0de092303f7800",
     "styles.css": "5bbccd16bd8d06a151d66a92b7d835a1d775b95eb5cd7ac1c4d9c5f3c64b57af",

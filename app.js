@@ -288,7 +288,8 @@ function focusIndexFor(word) {
 function renderWord(word) {
   const samePausedToken = els.wordDisplay.dataset.longTextPaused === String(state.index)
     && els.wordDisplay.textContent === word;
-  resetLongTokenLayout(!samePausedToken);
+  const scrollTop = samePausedToken ? els.wordDisplay.scrollTop : 0;
+  resetLongTokenLayout(!samePausedToken, samePausedToken);
   els.wordDisplay.classList.toggle("compact", state.wordSize === "compact");
   els.wordDisplay.classList.toggle("large", state.wordSize === "large");
   els.wordDisplay.style.fontSize = "";
@@ -296,13 +297,13 @@ function renderWord(word) {
 
   if (!word) {
     els.wordDisplay.innerHTML = `<span class="empty-word">Load text</span>`;
-    fitDisplayedWord();
+    fitDisplayedWord({ scrollTop });
     return;
   }
 
   if (!state.focusLetter) {
     els.wordDisplay.textContent = word;
-    fitDisplayedWord();
+    fitDisplayedWord({ scrollTop });
     return;
   }
 
@@ -316,7 +317,7 @@ function renderWord(word) {
     `<span class="word-focus">${escapeHtml(focus)}</span>`,
     `<span class="word-right">${escapeHtml(right)}</span>`
   ].join("");
-  fitDisplayedWord();
+  fitDisplayedWord({ scrollTop });
 }
 
 function shouldBreakWord(fontSize, wordWidth, frameWidth) {
@@ -327,11 +328,11 @@ function shouldScrollWord(wrapped, wordHeight, frameHeight) {
   return wrapped && wordHeight > frameHeight;
 }
 
-function resetLongTokenLayout(clearPause = false) {
+function resetLongTokenLayout(clearPause = false, keepTabStop = false) {
   const display = els.wordDisplay;
   display.classList.remove("wrapped-long-word", "scrolling-long-word");
   display.closest(".reader-frame").classList.remove("scrolling-long-text");
-  display.removeAttribute("tabindex");
+  if (!keepTabStop) display.removeAttribute("tabindex");
   display.removeAttribute("role");
   display.removeAttribute("aria-label");
   display.removeAttribute("aria-describedby");
@@ -340,26 +341,60 @@ function resetLongTokenLayout(clearPause = false) {
   if (clearPause) delete display.dataset.longTextPaused;
 }
 
-function fitDisplayedWord() {
+function contextFreeHeight(frame) {
+  const center = frame.getBoundingClientRect().top + frame.clientTop + frame.clientHeight / 2;
+  const bounds = [els.previousContext, els.nextContext].map((el, i) => {
+    const hidden = el.hidden;
+    const text = el.textContent;
+    el.textContent = state.words[state.index + (i ? 1 : -1)] || "\u00a0";
+    el.hidden = false;
+    const box = el.getBoundingClientRect();
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    const ink = range.getBoundingClientRect();
+    const result = { top: Math.min(box.top, ink.top), bottom: Math.max(box.bottom, ink.bottom) };
+    el.textContent = text;
+    el.hidden = hidden;
+    return result;
+  });
+  return 2 * Math.min(center - bounds[0].bottom, bounds[1].top - center);
+}
+
+function fitDisplayedWord(options = {}) {
   window.requestAnimationFrame(() => {
     const display = els.wordDisplay;
     const frame = display.closest(".reader-frame");
-    const scrollTop = display.scrollTop;
-    resetLongTokenLayout();
-    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) return;
+    const scrollTop = options.scrollTop ?? display.scrollTop;
+    resetLongTokenLayout(false, true);
+    if (!frame || state.finished || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
+      resetLongTokenLayout(true);
+      return;
+    }
 
     display.style.fontSize = "";
     const baseSize = Number.parseFloat(window.getComputedStyle(display).fontSize);
     const maxWidth = frame.clientWidth * 0.9;
     const maxHeight = frame.clientHeight * 0.58;
 
-    const fits = () => {
+    const textBounds = () => {
+      const range = document.createRange();
+      range.selectNodeContents(display);
+      return range.getBoundingClientRect();
+    };
+    const masterFits = () => {
       const rect = display.getBoundingClientRect();
       return rect.width <= maxWidth && rect.height <= maxHeight;
     };
+    const innerLeft = frame.getBoundingClientRect().left + frame.clientLeft;
+    const text = textBounds();
+    const masterNeedsFit = !masterFits();
+    const clipped = text.left < innerLeft || text.right > innerLeft + frame.clientWidth;
+    const fits = masterNeedsFit ? masterFits : () =>
+      textBounds().width <= maxWidth && display.getBoundingClientRect().height <= maxHeight;
 
-    if (fits()) {
-      delete display.dataset.longTextPaused;
+    if (!masterNeedsFit && !clipped) {
+      resetLongTokenLayout(true);
+      display.classList.remove("fitted-long-word");
       return;
     }
 
@@ -380,11 +415,11 @@ function fitDisplayedWord() {
     display.classList.add("fitted-long-word");
     display.classList.toggle("wrapped-long-word", shouldBreakWord(
       Number.parseFloat(display.style.fontSize),
-      Math.max(display.scrollWidth, display.getBoundingClientRect().width),
+      textBounds().width,
       frame.clientWidth
     ));
     if (shouldScrollWord(display.classList.contains("wrapped-long-word"),
-      Math.max(display.scrollHeight, display.getBoundingClientRect().height), frame.clientHeight)) {
+      Math.max(display.scrollHeight, display.getBoundingClientRect().height), contextFreeHeight(frame))) {
       display.classList.add("scrolling-long-word");
       frame.classList.add("scrolling-long-text");
       display.setAttribute("tabindex", "0");
@@ -393,13 +428,14 @@ function fitDisplayedWord() {
       display.setAttribute("aria-describedby", "long-text-note");
       display.scrollTop = scrollTop;
       els.longTextNote.hidden = false;
+      display.dataset.longTextPaused = String(state.index);
       if (state.playing) {
         pause();
-        display.dataset.longTextPaused = String(state.index);
         setStatus("Paused");
       }
     } else {
       delete display.dataset.longTextPaused;
+      display.removeAttribute("tabindex");
     }
   });
 }
@@ -598,7 +634,7 @@ function scheduleNext() {
 
 function play() {
   if (!state.words.length || state.countdownActive) return;
-  if (els.wordDisplay.dataset.longTextPaused === String(state.index)) {
+  if (!state.finished && els.wordDisplay.classList.contains("scrolling-long-word")) {
     if (state.index >= state.words.length - 1) {
       completeReading();
       return;
@@ -638,6 +674,7 @@ function pause() {
 }
 
 function completeReading() {
+  resetLongTokenLayout(true);
   if (state.playing && state.readingStartedAt) {
     state.elapsedBeforeCurrentRun += Date.now() - state.readingStartedAt;
   }

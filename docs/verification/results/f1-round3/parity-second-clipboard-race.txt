@@ -1,0 +1,31 @@
+
+> wordflow@0.1.0 parity
+> node tools/parity.cjs
+
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Error: copy current word: Expected values to be strictly equal:
++ actual - expected
+
++ 'Restarted'
+- 'Copied current word'
+
+    at verify (<repo>\tools\static_smoke.cjs:33:97)
+    at async <repo>\tools\static_smoke.cjs:72:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+
+  + 'Restarted'
+  - 'Copied current word'
+
+      at <repo>\tools\static_smoke.cjs:72:102
+      at async verify (<repo>\tools\static_smoke.cjs:33:38)
+      at async <repo>\tools\static_smoke.cjs:72:4 {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Restarted',
+    expected: 'Copied current word',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written
