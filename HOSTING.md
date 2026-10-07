@@ -229,3 +229,10 @@ L3 closed under W4.2: npm test has only Node suites, no skip paths; parity separ
 nonzero on missing Chrome/automation. Push checks the successful parity stamp and refuses skips.
 L4 closed: HOSTING.md is rewritten without stale code-line anchors.
 L5–L8 remain historical disclosed limitations where applicable; this does not overrule CC.
+
+### F1 continuation — 2026-10-07
+
+W6.5 authorizes pause-and-scroll within the normal-height reader frame. F1 is implemented
+locally on `fix/f1-long-token` under W6.1/W6.5, pending independent CC review. This supersedes
+the earlier F1 STOP status only; dashboard confirmations and unverified platform checks stay
+as recorded. No merge, push or deployment. See `docs/verification/2026-10-07_codex_f1_w6_5.md`.
