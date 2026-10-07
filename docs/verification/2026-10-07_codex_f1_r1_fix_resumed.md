@@ -21,6 +21,9 @@ W6.14 was appended verbatim under RULING W6 and committed alone before code as
 previous STOP condition; the previous report and evidence are untouched. O-2 and the landscape
 note remain accepted as ruled. No merge, push, deployment or installation.
 
+Implementation, permanent checks and generated stamp are committed locally as
+`1edc45eb1879ed4fa81885e7bbe221e6af13bb88`; a documentation/evidence correction follows it.
+
 ## Labelled implementation choices
 
 These are Codex implementation choices, not additional rulings:
@@ -149,8 +152,9 @@ stamp. Normalized committed-input hashes:
 - app.js: `74c62daa23abcc2a0bcc6cf141c24d32f3d217b4e6b93b77f326a8abb2d73da9`
 - styles.css: `d3e6a11d9346f398497de01f1053a5bd7435953cf7233e8c315b4a49422ca107`
 
-The generated stamp is included in the local candidate commit. Committed-blob verification is
-performed after that commit; no push gate or deployment is invoked.
+The generated stamp is included in the local candidate commit. `node tools/parity-stamp.cjs`
+passes against the committed inputs after that commit. The final record-only correction retains
+those same inputs and stamp; no push gate or deployment is invoked.
 
 ## Harness findings and incomplete attempts
 
@@ -180,6 +184,9 @@ AGENTS.md F1 and the vault project/hot-cache/current-state records now state: **
 on fix/f1-long-token; R-1 fix pending CC check; not yet merged.** Codex worklog, wiki index/log
 and handoff are updated. The exact requested 21:55 Claude relay is appended. Today's dated daily
 note is absent; none created. Historical STOP and CC reports/evidence remain untouched.
+Final evidence retains only current-run extraction/smoke/reader outputs and figures. Nine
+unrelated inherited JSON files initially copied from the shared output directory were removed
+from this task's copy; their original historical files remain unchanged.
 
 Next: the short CC check of this R-1 fix only, then Marcus's separate merge/push decision through
 the existing gate and post-deploy `smoke:live`. No merge, push or deployment is authorized here.

@@ -1,9 +1,7 @@
 {
   "browser-parity.json": "dda071b7356dd6a12c67b05aff35bdffa59efbed67b614788cbe541bfeb7379c",
-  "checkouts-and-dist.json": "4e40cba97dabae47886910c1b042f07b33ac855703c55fdc602adf5397b02230",
   "f1-scroll-1400.png": "c5f32823da6b0b44bf4de0f6f2392d640bb19a982f2c0dacb58b051d4eec04a2",
   "f1-scroll-390.png": "7d7069b8f433395af4849dfe7b81f5440e7527439aa1b0f1742ef7555342ab14",
-  "final-checks.json": "c02075037fd9d1859f6e612e58c2bcae168b61dc1e4a8ea97eaebcefd3bef53b",
   "finish-390-kommunikasjon-after.png": "482d7a4b90d234e191b9a457a1a0fe2e29f6db8c382585e33846e726bca54ff4",
   "finish-390-kommunikasjon-before.png": "449e1cd082aa5a97d5bbb0282507c342f188e054193d92b34f22648c3501977a",
   "finish-390-kommunikasjon-master.png": "482d7a4b90d234e191b9a457a1a0fe2e29f6db8c382585e33846e726bca54ff4",
@@ -13,12 +11,6 @@
   "finish-390-W2000-after.png": "34068a9e333772c9c201c9794bd072d652c9dd6a39b850f4a070be18dc7c3a10",
   "finish-390-W2000-before.png": "c303cf9c4e54b02b7fa4219e2e6b61b2bc9ab96caf4855c6ce3b7e56800e7ccd",
   "finish-390-W2000-master.png": "e5792bf4d96f7e495a4e909c453561a4bf557a9d0eb5cd9f757bf79524b9c22e",
-  "golden-provenance.json": "30c79a87b6b820f2b768eefdc9c4db035ec465c1de18ba1947f5d43152b69c22",
-  "hygiene.json": "85e1d3783f2bb3b30a1be666576bdf7959639bf979cb96c36434ef3790cf2923",
-  "mutations.json": "ab98cb2ca16a71358dc14e465156174e4c53ee1089992f4026d1de73dee1de39",
-  "node-tests.json": "58b4dd435133d8ab0e5d59d110dfcebbd9e554a38842aba3c8a2a763bf6f84fe",
-  "post-review-tests.json": "8e0971d272f18f1646d063acb024b451d2a0565dac669981d3e6df4f41feae68",
-  "proxy.json": "71ca166d0a0ff65841abad86a3116e4e9993421c94b02ad0b98b4059d4f81025",
   "reader-1400.json": "5d0787e9b13c897e5277100e1f88f3ca063145b2016d12d71048a769455cf27c",
   "reader-390.json": "1e38b7d2f99baabfd2913445ab7ab854f79b60c9d29d94a68c40edefa8e7fe0d",
   "reader-finished.json": "8f55835a5105c32953efeeace183d15e02958d42a129e3f5d82914ebee3c30f0",
@@ -30,7 +22,6 @@
   "static-quota-390.png": "481016bc0fb44a443f819316771b053b29d8c9e3e9bdaa5473f846bd3f850c51",
   "static-reader-1400.png": "bca49b70476f17c083e9910820ca4ca0407895546632c3b2aa1cb38e5fded03b",
   "static-reader-390.png": "ff0b0c86d1ba41b92a8ed73e194a532da124a512595abd7e5c5a511159c1a9dd",
-  "static-regression.json": "9c26c2e1e1517f668185c5d105cc8f341c06f14c8aa9535307a6213cd5ceb856",
   "static-smoke.json": "5c6efd07c4afbb238f51d33db302fbd620c62a11bd6727f6db3fe153b5b146a8",
   "wide-controls.json": "0ff9bcc97d245fbc2d9931fbf6e4aee34570116db66d45d4d41585fab452cbf9"
 }
