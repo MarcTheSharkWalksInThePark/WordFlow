@@ -166,11 +166,18 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   The 2026-10-06 URL fix is independently reviewed and deployed: all five originally failing
   public sites return 200 HTML; private/self/alias refusals and POST 405 remain intact.
   The temporary diagnostic is removed. See `docs/verification/2026-10-06_codex_live_url_fix.md`.
-  Remaining quota/CPU/fail-open/dashboard logging checks stay unverified below.
+  Remaining runtime quota/CPU/fail-open/log-session/request-count checks stay unverified below.
+- **Dashboard confirmations** (Marcus, relayed by the orchestrator, 2026-10-06): Runtime
+  "Fail open" is set; preview branches = None; Web Analytics off.
 - **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
-  quota; actual edge CPU, quota status/body/fail-open routing and dashboard logging are unverified.
-- **W4.5 deferred until a separate reader task after launch:** an artificial 135-character token can exceed the frame at the
-  existing 10 px fitting floor. A real 45-character word fits at desktop and phone widths.
+  quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
+  (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
+  whether the daily request count excludes static page views.
+- **F1 / W6 on fix/f1-long-token — STOPPED at the vertical bound, not fixed:** the candidate
+  wraps the original 135-character token at 10 px, but the 2000-character phone probe has
+  frame scrollHeight 705 > clientHeight 704. Production reader files are restored; Marcus
+  must rule on vertical behavior before implementation can resume. A real 45-character word
+  still fits at desktop and phone widths. See `docs/verification/2026-10-07_codex_f1_long_token.md`.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.

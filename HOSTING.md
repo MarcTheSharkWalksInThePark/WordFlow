@@ -208,6 +208,21 @@ links in any logging session.
 
 ## Prior review findings
 
+### Dashboard record correction — 2026-10-07
+
+Marcus's dashboard confirmations, relayed by the claude.ai orchestrator and dated 2026-10-06:
+Runtime "Fail open" is set; preview branches = None; Web Analytics off. These are human
+dashboard confirmations, not measurements of runtime quota behavior.
+
+**UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU (no CPU
+data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state; whether
+the daily request count excludes static page views.
+
+**Reader F1 / W6:** local `fix/f1-long-token` reached the mandatory vertical STOP with a
+2000-character token at 390 px (frame scrollHeight 705 > clientHeight 704). The candidate
+is preserved as evidence; production reader files are restored. F1 is not fixed and needs
+Marcus's vertical-behavior ruling before implementation and independent CC review.
+
 L1 closed: Python, interpreter resolver and cache fallback are removed from the product and tests.
 L2 closed: extractor endpoint/process removed; shared proxy and server errors are generic.
 L3 closed under W4.2: npm test has only Node suites, no skip paths; parity separately fails
