@@ -7,6 +7,20 @@ let passed=0;const cases=[];
 async function check(name,fn) {try{await fn();passed++;cases.push({name,passed:true});}catch(e){console.error("FAIL "+name);throw e;}}
 (async()=>{
  const app=fs.readFileSync(path.join(root,"app.js"),"utf8");
+ const {functionText}=require("./helpers.cjs");
+ const breakWord=vm.runInNewContext(functionText(app,"shouldBreakWord")+"\nshouldBreakWord");
+ const scrollWord=vm.runInNewContext(functionText(app,"shouldScrollWord")+"\nshouldScrollWord");
+ await check("reader: no break above the floor",()=>assert.equal(breakWord(11,1000,342),false));
+ await check("reader: floor word fitting frame does not break",()=>assert.equal(breakWord(10,342,342),false));
+ await check("reader: floor word wider than frame breaks",()=>assert.equal(breakWord(10,343,342),true));
+ await check("reader: unwrapped token never enables vertical state",()=>assert.equal(scrollWord(false,1000,278),false));
+ await check("reader: wrapped token at frame height does not scroll",()=>assert.equal(scrollWord(true,278,278),false));
+ await check("reader: strict excess height enables vertical state",()=>assert.equal(scrollWord(true,278.01,278),true));
+ await check("reader: measured real 45-character word has neither state",()=>{
+  for(const [font,width,height,frameWidth,frameHeight] of [[23,522.71875,24.828125,604,625],[13,295.46875,14.03125,342,278]]) {
+   const wrapped=breakWord(font,width,frameWidth);assert.equal(wrapped,false);assert.equal(scrollWord(wrapped,height,frameHeight),false);
+  }
+ });
  const source=/async function fetchViaLocalReader\(url\) \{[\s\S]*?^\}/m.exec(app)[0];
  const rows=[
   ["HTML Error 1027 at 429",429,"text/html","<h1>Error 1027</h1>","quota"],

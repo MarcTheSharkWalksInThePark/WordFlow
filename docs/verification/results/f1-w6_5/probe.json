@@ -1,0 +1,366 @@
+{
+  "stage": "w6_5-probe",
+  "measurements": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 5,
+      "text": "Hello",
+      "fontSize": "128px",
+      "classes": "word-display large",
+      "word": {
+        "x": 560.84375,
+        "y": 387.375,
+        "width": 318.3125,
+        "height": 138.234375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 318,
+      "displayScrollWidth": 318,
+      "displayClientHeight": 138,
+      "displayScrollHeight": 152
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 45,
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "23px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 458.640625,
+        "y": 444.078125,
+        "width": 522.71875,
+        "height": 24.828125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 523,
+      "displayScrollWidth": 523,
+      "displayClientHeight": 25,
+      "displayScrollHeight": 27
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 135,
+      "text": "PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 448.203125,
+        "y": 446,
+        "width": 543.59375,
+        "height": 21
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 544,
+      "displayScrollWidth": 544,
+      "displayClientHeight": 21,
+      "displayScrollHeight": 23
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 135,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 448.203125,
+        "y": 440.75,
+        "width": 543.59375,
+        "height": 31.5
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 544,
+      "displayScrollWidth": 544,
+      "displayClientHeight": 32,
+      "displayScrollHeight": 33
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 500,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 448.203125,
+        "y": 404,
+        "width": 543.59375,
+        "height": 105
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 544,
+      "displayScrollWidth": 544,
+      "displayClientHeight": 105,
+      "displayScrollHeight": 107
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 2000,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 448.203125,
+        "y": 257,
+        "width": 543.59375,
+        "height": 399
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 544,
+      "displayScrollWidth": 544,
+      "displayClientHeight": 399,
+      "displayScrollHeight": 401
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 5,
+      "text": "Hello",
+      "fontSize": "64px",
+      "classes": "word-display large",
+      "word": {
+        "x": 115.421875,
+        "y": 338.90625,
+        "width": 159.15625,
+        "height": 69.109375
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 159,
+      "displayScrollWidth": 159,
+      "displayClientHeight": 69,
+      "displayScrollHeight": 76
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 45,
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "13px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 47.265625,
+        "y": 366.453125,
+        "width": 295.46875,
+        "height": 14.03125
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 295,
+      "displayScrollWidth": 295,
+      "displayClientHeight": 14,
+      "displayScrollHeight": 15
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 135,
+      "text": "PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 41.1015625,
+        "y": 357.71875,
+        "width": 307.796875,
+        "height": 31.5
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 308,
+      "displayScrollWidth": 308,
+      "displayClientHeight": 32,
+      "displayScrollHeight": 33
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 135,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 41.1015625,
+        "y": 347.21875,
+        "width": 307.796875,
+        "height": 52.5
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 308,
+      "displayScrollWidth": 308,
+      "displayClientHeight": 53,
+      "displayScrollHeight": 54
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 500,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word",
+      "word": {
+        "x": 41.1015625,
+        "y": 284.21875,
+        "width": 307.796875,
+        "height": 178.5
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 308,
+      "displayScrollWidth": 308,
+      "displayClientHeight": 179,
+      "displayScrollHeight": 180
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 2000,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+      "word": {
+        "x": 41.1015625,
+        "y": 286.46875,
+        "width": 307.796875,
+        "height": 130
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 308,
+      "displayScrollWidth": 308,
+      "displayClientHeight": 130,
+      "displayScrollHeight": 708
+    }
+  ],
+  "chrome": "155.0.8059.39"
+}

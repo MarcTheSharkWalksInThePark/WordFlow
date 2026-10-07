@@ -129,6 +129,8 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
    await verify("direct-fetch fallback succeeds after quota",async()=>{fallback=true;await page.locator("#load-url-button").click();await page.locator("#source-review").waitFor({state:"visible"});assert.equal(await value("review-text"),"Direct fallback text.");await use();mode="normal";fallback=false;});
    await page.locator("#sample-button").click();await use();
    await verify("responsive page has no horizontal overflow",async()=>assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)));
+   await require("../tests/reader-smoke.cjs").readerChecks({page,context,viewport,origin,verify,out,root});
+   await page.locator("#sample-button").click();await use();
    const screenshot="static-reader-"+viewport.width+".png";await page.screenshot({path:path.join(out,screenshot),fullPage:true});
    result.viewports.push({viewport,checks,screenshots:[screenshot,quotaShot].map(file=>({file,sha256:sha(fs.readFileSync(path.join(out,file)))}))});
    await context.close();

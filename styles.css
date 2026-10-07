@@ -653,6 +653,61 @@ button:focus-visible {
   color: var(--amber);
 }
 
+.word-display.wrapped-long-word {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 90%;
+  max-width: 90%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.wrapped-long-word .word-left,
+.wrapped-long-word .word-focus,
+.wrapped-long-word .word-right {
+  display: inline;
+  white-space: inherit;
+}
+
+.word-display.scrolling-long-word {
+  top: 52px;
+  bottom: 96px;
+  transform: translateX(-50%);
+  padding-block: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+}
+
+.scrolling-long-text .context-word.previous {
+  top: 12px;
+}
+
+.scrolling-long-text .context-word.next {
+  bottom: 54px;
+}
+
+.scrolling-long-text .focus-rail {
+  display: none;
+}
+
+.long-text-note {
+  position: absolute;
+  bottom: 10px;
+  left: 4%;
+  width: 92%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--muted);
+}
+
 .countdown-word {
   color: var(--accent);
   font-size: 1.15em;

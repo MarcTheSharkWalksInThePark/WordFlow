@@ -59,6 +59,7 @@ const els = {
   rawSourceButton: document.querySelector("#raw-source-button"),
   reviewBackButton: document.querySelector("#review-back-button"),
   wordDisplay: document.querySelector("#word-display"),
+  longTextNote: document.querySelector("#long-text-note"),
   previousContext: document.querySelector("#previous-context"),
   nextContext: document.querySelector("#next-context"),
   finishSummary: document.querySelector("#finish-summary"),
@@ -164,6 +165,7 @@ function loadText(text, label = "Text loaded", title = "Untitled source") {
   const model = buildReadingModel(cleaned);
 
   pause();
+  resetLongTokenLayout(true);
   state.sourceText = cleaned;
   state.sourceTitle = title;
   state.words = model.words;
@@ -284,10 +286,13 @@ function focusIndexFor(word) {
 }
 
 function renderWord(word) {
+  const samePausedToken = els.wordDisplay.dataset.longTextPaused === String(state.index)
+    && els.wordDisplay.textContent === word;
+  resetLongTokenLayout(!samePausedToken);
   els.wordDisplay.classList.toggle("compact", state.wordSize === "compact");
   els.wordDisplay.classList.toggle("large", state.wordSize === "large");
   els.wordDisplay.style.fontSize = "";
-  els.wordDisplay.classList.remove("fitted-long-word");
+  els.wordDisplay.classList.remove("fitted-long-word", "wrapped-long-word");
 
   if (!word) {
     els.wordDisplay.innerHTML = `<span class="empty-word">Load text</span>`;
@@ -314,11 +319,34 @@ function renderWord(word) {
   fitDisplayedWord();
 }
 
+function shouldBreakWord(fontSize, wordWidth, frameWidth) {
+  return fontSize <= 10 && wordWidth > frameWidth;
+}
+
+function shouldScrollWord(wrapped, wordHeight, frameHeight) {
+  return wrapped && wordHeight > frameHeight;
+}
+
+function resetLongTokenLayout(clearPause = false) {
+  const display = els.wordDisplay;
+  display.classList.remove("wrapped-long-word", "scrolling-long-word");
+  display.closest(".reader-frame").classList.remove("scrolling-long-text");
+  display.removeAttribute("tabindex");
+  display.removeAttribute("role");
+  display.removeAttribute("aria-label");
+  display.removeAttribute("aria-describedby");
+  display.scrollTop = 0;
+  els.longTextNote.hidden = true;
+  if (clearPause) delete display.dataset.longTextPaused;
+}
+
 function fitDisplayedWord() {
   window.requestAnimationFrame(() => {
     const display = els.wordDisplay;
     const frame = display.closest(".reader-frame");
-    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word")) return;
+    const scrollTop = display.scrollTop;
+    resetLongTokenLayout();
+    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) return;
 
     display.style.fontSize = "";
     const baseSize = Number.parseFloat(window.getComputedStyle(display).fontSize);
@@ -330,7 +358,10 @@ function fitDisplayedWord() {
       return rect.width <= maxWidth && rect.height <= maxHeight;
     };
 
-    if (fits()) return;
+    if (fits()) {
+      delete display.dataset.longTextPaused;
+      return;
+    }
 
     let low = 10;
     let high = baseSize;
@@ -347,6 +378,29 @@ function fitDisplayedWord() {
 
     display.style.fontSize = `${Math.max(10, Math.floor(low))}px`;
     display.classList.add("fitted-long-word");
+    display.classList.toggle("wrapped-long-word", shouldBreakWord(
+      Number.parseFloat(display.style.fontSize),
+      Math.max(display.scrollWidth, display.getBoundingClientRect().width),
+      frame.clientWidth
+    ));
+    if (shouldScrollWord(display.classList.contains("wrapped-long-word"),
+      Math.max(display.scrollHeight, display.getBoundingClientRect().height), frame.clientHeight)) {
+      display.classList.add("scrolling-long-word");
+      frame.classList.add("scrolling-long-text");
+      display.setAttribute("tabindex", "0");
+      display.setAttribute("role", "region");
+      display.setAttribute("aria-label", "Long text");
+      display.setAttribute("aria-describedby", "long-text-note");
+      display.scrollTop = scrollTop;
+      els.longTextNote.hidden = false;
+      if (state.playing) {
+        pause();
+        display.dataset.longTextPaused = String(state.index);
+        setStatus("Paused");
+      }
+    } else {
+      delete display.dataset.longTextPaused;
+    }
   });
 }
 
@@ -429,7 +483,8 @@ function render() {
 }
 
 function renderCountdown() {
-  els.wordDisplay.classList.remove("compact", "large", "fitted-long-word");
+  resetLongTokenLayout(true);
+  els.wordDisplay.classList.remove("compact", "large", "fitted-long-word", "wrapped-long-word");
   els.wordDisplay.style.fontSize = "";
   els.wordDisplay.innerHTML = `<span class="countdown-word">${state.countdownValue}</span>`;
 }
@@ -543,6 +598,13 @@ function scheduleNext() {
 
 function play() {
   if (!state.words.length || state.countdownActive) return;
+  if (els.wordDisplay.dataset.longTextPaused === String(state.index)) {
+    if (state.index >= state.words.length - 1) {
+      completeReading();
+      return;
+    }
+    seekTo(state.index + 1);
+  }
   if (state.finished && state.index >= state.words.length - 1) {
     state.index = 0;
     state.elapsedBeforeCurrentRun = 0;
@@ -1229,6 +1291,9 @@ els.finishNewSourceButton.addEventListener("click", () => {
 document.addEventListener("keydown", (event) => {
   const editable = ["INPUT", "TEXTAREA"].includes(document.activeElement.tagName);
   if (editable) return;
+  if (document.activeElement === els.wordDisplay
+    && els.wordDisplay.classList.contains("scrolling-long-word")
+    && [" ", "ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End"].includes(event.key)) return;
 
   if (event.code === "Space") {
     event.preventDefault();
