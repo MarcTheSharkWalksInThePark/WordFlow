@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "chrome": "154.0.8037.98",
+  "chrome": "155.0.8059.39",
   "playwright": "1.62.1",
   "hashes": {
     "app.js": "193a3b5ca744e10b59c8ce66c6928637faaf425a9b900034647b8b2782e5dff7",

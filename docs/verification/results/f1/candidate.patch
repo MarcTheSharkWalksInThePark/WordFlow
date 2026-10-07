@@ -1,0 +1,77 @@
+diff --git a/app.js b/app.js
+index 2923886..1000450 100644
+--- a/app.js
++++ b/app.js
+@@ -287,7 +287,7 @@ function renderWord(word) {
+   els.wordDisplay.classList.toggle("compact", state.wordSize === "compact");
+   els.wordDisplay.classList.toggle("large", state.wordSize === "large");
+   els.wordDisplay.style.fontSize = "";
+-  els.wordDisplay.classList.remove("fitted-long-word");
++  els.wordDisplay.classList.remove("fitted-long-word", "wrapped-long-word");
+ 
+   if (!word) {
+     els.wordDisplay.innerHTML = `<span class="empty-word">Load text</span>`;
+@@ -314,10 +314,15 @@ function renderWord(word) {
+   fitDisplayedWord();
+ }
+ 
++function shouldBreakWord(fontSize, wordWidth, frameWidth) {
++  return fontSize <= 10 && wordWidth > frameWidth;
++}
++
+ function fitDisplayedWord() {
+   window.requestAnimationFrame(() => {
+     const display = els.wordDisplay;
+     const frame = display.closest(".reader-frame");
++    display.classList.remove("wrapped-long-word");
+     if (!frame || !display.textContent.trim() || display.querySelector(".empty-word")) return;
+ 
+     display.style.fontSize = "";
+@@ -347,6 +352,11 @@ function fitDisplayedWord() {
+ 
+     display.style.fontSize = `${Math.max(10, Math.floor(low))}px`;
+     display.classList.add("fitted-long-word");
++    display.classList.toggle("wrapped-long-word", shouldBreakWord(
++      Number.parseFloat(display.style.fontSize),
++      Math.max(display.scrollWidth, display.getBoundingClientRect().width),
++      frame.clientWidth
++    ));
+   });
+ }
+ 
+@@ -429,7 +439,7 @@ function render() {
+ }
+ 
+ function renderCountdown() {
+-  els.wordDisplay.classList.remove("compact", "large", "fitted-long-word");
++  els.wordDisplay.classList.remove("compact", "large", "fitted-long-word", "wrapped-long-word");
+   els.wordDisplay.style.fontSize = "";
+   els.wordDisplay.innerHTML = `<span class="countdown-word">${state.countdownValue}</span>`;
+ }
+diff --git a/styles.css b/styles.css
+index d289eb6..cf87c92 100644
+--- a/styles.css
++++ b/styles.css
+@@ -653,6 +653,22 @@ button:focus-visible {
+   color: var(--amber);
+ }
+ 
++.word-display.wrapped-long-word {
++  display: block;
++  width: 90%;
++  max-width: 90%;
++  white-space: normal;
++  overflow-wrap: anywhere;
++  word-break: normal;
++}
++
++.wrapped-long-word .word-left,
++.wrapped-long-word .word-focus,
++.wrapped-long-word .word-right {
++  display: inline;
++  white-space: inherit;
++}
++
+ .countdown-word {
+   color: var(--accent);
+   font-size: 1.15em;

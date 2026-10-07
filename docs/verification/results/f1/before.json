@@ -1,0 +1,366 @@
+{
+  "stage": "before",
+  "measurements": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 5,
+      "text": "Hello",
+      "fontSize": "128px",
+      "classes": "word-display large",
+      "word": {
+        "x": 560.84375,
+        "y": 387.375,
+        "width": 318.3125,
+        "height": 138.234375
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 318,
+      "displayScrollWidth": 318,
+      "displayClientHeight": 138,
+      "displayScrollHeight": 152
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 45,
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "23px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 458.640625,
+        "y": 444.078125,
+        "width": 522.71875,
+        "height": 24.828125
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 604,
+      "scrollHeight": 625,
+      "displayClientWidth": 523,
+      "displayScrollWidth": 523,
+      "displayClientHeight": 25,
+      "displayScrollHeight": 27
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 135,
+      "text": "PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 438.453125,
+        "y": 451.09375,
+        "width": 640.890625,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 682,
+      "scrollHeight": 625,
+      "displayClientWidth": 641,
+      "displayScrollWidth": 661,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 135,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 686.3125,
+        "y": 451.09375,
+        "width": 820,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 1357,
+      "scrollHeight": 625,
+      "displayClientWidth": 820,
+      "displayScrollWidth": 1088,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 500,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 2520.21875,
+        "y": 451.09375,
+        "width": 820,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 5024,
+      "scrollHeight": 625,
+      "displayClientWidth": 820,
+      "displayScrollWidth": 2922,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "length": 2000,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 10056.84375,
+        "y": 451.09375,
+        "width": 820,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 417,
+        "y": 143,
+        "width": 606,
+        "height": 627
+      },
+      "clientWidth": 604,
+      "clientHeight": 625,
+      "scrollWidth": 20098,
+      "scrollHeight": 625,
+      "displayClientWidth": 820,
+      "displayScrollWidth": 10459,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 5,
+      "text": "Hello",
+      "fontSize": "64px",
+      "classes": "word-display large",
+      "word": {
+        "x": 115.421875,
+        "y": 338.90625,
+        "width": 159.15625,
+        "height": 69.109375
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 159,
+      "displayScrollWidth": 159,
+      "displayClientHeight": 69,
+      "displayScrollHeight": 76
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 45,
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "13px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 47.265625,
+        "y": 366.453125,
+        "width": 295.46875,
+        "height": 14.03125
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 342,
+      "scrollHeight": 278,
+      "displayClientWidth": 295,
+      "displayScrollWidth": 295,
+      "displayClientHeight": 14,
+      "displayScrollHeight": 15
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 135,
+      "text": "PneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosisPneumonoultramicroscopicsilicovolcanoconiosis",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 44.453125,
+        "y": 368.0625,
+        "width": 640.890625,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 682,
+      "scrollHeight": 278,
+      "displayClientWidth": 641,
+      "displayScrollWidth": 661,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 135,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 64.703125,
+        "y": 368.0625,
+        "width": 1275.21875,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 1357,
+      "scrollHeight": 278,
+      "displayClientWidth": 1275,
+      "displayScrollWidth": 1316,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 500,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 174.734375,
+        "y": 368.0625,
+        "width": 4722.96875,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 5024,
+      "scrollHeight": 278,
+      "displayClientWidth": 4723,
+      "displayScrollWidth": 4874,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "length": 2000,
+      "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "fontSize": "10px",
+      "classes": "word-display large fitted-long-word",
+      "word": {
+        "x": 626.9375,
+        "y": 368.0625,
+        "width": 18891.8125,
+        "height": 10.796875
+      },
+      "frame": {
+        "x": 23,
+        "y": 233.46875,
+        "width": 344,
+        "height": 280
+      },
+      "clientWidth": 342,
+      "clientHeight": 278,
+      "scrollWidth": 20098,
+      "scrollHeight": 278,
+      "displayClientWidth": 18892,
+      "displayScrollWidth": 19495,
+      "displayClientHeight": 11,
+      "displayScrollHeight": 12
+    }
+  ],
+  "chrome": "155.0.8059.39"
+}

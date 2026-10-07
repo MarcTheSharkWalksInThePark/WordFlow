@@ -1,0 +1,239 @@
+{
+  "browserPlugin": "not available; existing Playwright drives installed Chrome",
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "checks": [
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-1400.png",
+          "sha256": "23ccb1c62a2aade476e89107cce0a4c58a3aa836fc0aab9f55a4714612b3f2ad"
+        },
+        {
+          "file": "static-quota-1400.png",
+          "sha256": "4af591ebf3142e9b72fd292cfc6c47b1a502f93fb6f169b649c991ae6be4f981"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checks": [
+        {
+          "name": "identity, meaningful UI, no overlay, privacy",
+          "passed": true
+        },
+        {
+          "name": "sample and clear",
+          "passed": true
+        },
+        {
+          "name": "paste, title and counts",
+          "passed": true
+        },
+        {
+          "name": "all four cleanup toggles and raw source",
+          "passed": true
+        },
+        {
+          "name": "review back and use source",
+          "passed": true
+        },
+        {
+          "name": "WPM slider and ±25 bounded 100–900",
+          "passed": true
+        },
+        {
+          "name": "sentence, comma, paragraph pauses and smart pacing affect delay",
+          "passed": true
+        },
+        {
+          "name": "focus letter, context and all word sizes",
+          "passed": true
+        },
+        {
+          "name": "progress, previous/next, sentence rewind, section selection and restart",
+          "passed": true
+        },
+        {
+          "name": "copy current word",
+          "passed": true
+        },
+        {
+          "name": "3–2–1 countdown and Space/arrow shortcuts",
+          "passed": true
+        },
+        {
+          "name": "focus mode",
+          "passed": true
+        },
+        {
+          "name": "existing v1 resume compatibility",
+          "passed": true
+        },
+        {
+          "name": "long-word fitting under CSP",
+          "passed": true
+        },
+        {
+          "name": "finish summary and restart",
+          "passed": true
+        },
+        {
+          "name": "text, markdown, HTML and other text uploads",
+          "passed": true
+        },
+        {
+          "name": "PDF and DOCX uploads stay in browser",
+          "passed": true
+        },
+        {
+          "name": "empty/encrypted warning review",
+          "passed": true
+        },
+        {
+          "name": "24 MiB upload cap",
+          "passed": true
+        },
+        {
+          "name": "URL through local server, normalizeUrl and sourceFromHtml",
+          "passed": true
+        },
+        {
+          "name": "quota Error 1027 and fail-open marker keep site working",
+          "passed": true
+        },
+        {
+          "name": "article text containing 1027 and the marker stays readable",
+          "passed": true
+        },
+        {
+          "name": "direct-fetch fallback succeeds after quota",
+          "passed": true
+        },
+        {
+          "name": "responsive page has no horizontal overflow",
+          "passed": true
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "static-reader-390.png",
+          "sha256": "228cb1dc1164a262fb5e0d207cc6597362ce6641f83b2fae109032e64cb1bfff"
+        },
+        {
+          "file": "static-quota-390.png",
+          "sha256": "481016bc0fb44a443f819316771b053b29d8c9e3e9bdaa5473f846bd3f850c51"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "uploads": 0,
+  "chrome": "155.0.8059.39",
+  "passed": 48,
+  "skipped": 0
+}
