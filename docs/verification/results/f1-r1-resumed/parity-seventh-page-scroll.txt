@@ -1,0 +1,59 @@
+Error: W6.14 finished master comparison {"width":390,"height":600,"focus":false,"context":true,"size":"comfortable","token":"W2000"}: STOP: restart differs from master
++ actual - expected
+... Skipped lines
+
+  {
+    countdown: false,
+    countdownValue: null,
+    finished: false,
+    font: '51.2px',
+...
+      left: 138.421875,
++     top: -267.171875,
+-     top: 345.828125,
+      width: 113.140625
+    },
+    status: 'Restarted',
+    word: '<div id="word-display" class="word-display" aria-live="off"><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+  }
+
+    at verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:97)
+    at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:157:5)
+    ... 2 lines matching cause stack trace ...
+    at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+  [cause]: AssertionError [ERR_ASSERTION]: STOP: restart differs from master
+  + actual - expected
+  ... Skipped lines
+
+    {
+      countdown: false,
+      countdownValue: null,
+      finished: false,
+      font: '51.2px',
+  ...
+        left: 138.421875,
+  +     top: -267.171875,
+  -     top: 345.828125,
+        width: 113.140625
+      },
+      status: 'Restarted',
+      word: '<div id="word-display" class="word-display" aria-live="off"><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+    }
+
+      at compareRestart (<home>\Documents\WordFlow\tests\reader-finished.cjs:95:10)
+      at async compare (<home>\Documents\WordFlow\tests\reader-finished.cjs:148:3)
+      at async <home>\Documents\WordFlow\tests\reader-finished.cjs:163:6
+      at async verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:38)
+      at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:157:5)
+      at async Promise.all (index 1)
+      at async Object.finishedChecks (<home>\Documents\WordFlow\tests\reader-finished.cjs:214:15)
+      at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written

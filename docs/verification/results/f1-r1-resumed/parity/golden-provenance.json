@@ -1,0 +1,26 @@
+{
+  "historicalCommit": "3921959",
+  "historicalBlob": "ebb51b45244b4364f8f757c4ba82dad53e14c43d",
+  "extractorSha256": "6b9f87837a51209c6ebf62d211d0612c4a039f6e7839ed0a84366079fe8cd2db",
+  "python": "3.12.14",
+  "python-docx": "1.2.0",
+  "pypdf": "6.10.0",
+  "records": [
+    {
+      "file": "nobreakhyphen.docx",
+      "sha256": "4804fbf9b41879ec158e1cb25de840e5795cd3e9367196892c6d64edaa938d87",
+      "goldenSha256": "9f6b752e7a757590742bd2effcdc4fdb465b7e28b324739ac487e4cbf1a7005d"
+    },
+    {
+      "file": "document2.docx",
+      "sha256": "e40009fe76bb5db622332d5242b083e5a80e3c107c1be34fad25c880ebb4dd3c",
+      "goldenSha256": "cea278103f6e9206de24dcd340d4c6e10031569afa686e080cf5c5050ca186aa"
+    },
+    {
+      "file": "charstyle-as-pstyle.docx",
+      "sha256": "7ca02c745d10ad328b5a54b386a00ae5916e792e2a59fd4ef5cb40b842958a36",
+      "goldenSha256": "65f71d6d3b5dc575b60e07bec28451fe99971840cb93d40a26e961b2fd0b3f0f"
+    }
+  ],
+  "source": "CC extraction.json S5 differential; document2 also renames the styles part"
+}

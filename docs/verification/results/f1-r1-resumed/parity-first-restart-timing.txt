@@ -1,0 +1,64 @@
+Error: W6.14 finished master comparison {"width":390,"height":844,"focus":false,"context":true,"size":"comfortable","token":"understanding."}: STOP: restart differs from master
++ actual - expected
+
+  {
+    countdown: false,
+    countdownValue: null,
++   finished: false,
+-   finished: true,
+    index: 1,
++   panelHidden: true,
++   play: '<button id="play-button" class="play-button" type="button" title="Pause" aria-label="Pause">\n' +
++     '              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14"></rect><rect x="14" y="5" width="4" height="14"></rect></svg>\n' +
+-   panelHidden: false,
+-   play: '<button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">\n' +
+-     '              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7z"></path></svg>\n' +
+      '            </button>',
++   playing: true,
++   status: 'Reading',
+-   playing: false,
+-   status: 'Finished',
+    word: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 43px;"><span class="word-left">unde</span><span class="word-focus">r</span><span class="word-right">standing.</span></div>'
+  }
+
+    at verify (<repo>\tools\static_smoke.cjs:33:97)
+    at async Object.finishedChecks (<repo>\tests\reader-finished.cjs:133:5)
+    at async <repo>\tools\static_smoke.cjs:136:29 {
+  [cause]: AssertionError [ERR_ASSERTION]: STOP: restart differs from master
+  + actual - expected
+
+    {
+      countdown: false,
+      countdownValue: null,
+  +   finished: false,
+  -   finished: true,
+      index: 1,
+  +   panelHidden: true,
+  +   play: '<button id="play-button" class="play-button" type="button" title="Pause" aria-label="Pause">\n' +
+  +     '              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14"></rect><rect x="14" y="5" width="4" height="14"></rect></svg>\n' +
+  -   panelHidden: false,
+  -   play: '<button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">\n' +
+  -     '              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7z"></path></svg>\n' +
+        '            </button>',
+  +   playing: true,
+  +   status: 'Reading',
+  -   playing: false,
+  -   status: 'Finished',
+      word: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 43px;"><span class="word-left">unde</span><span class="word-focus">r</span><span class="word-right">standing.</span></div>'
+    }
+
+      at compareRestart (<repo>\tests\reader-finished.cjs:82:10)
+      at async compare (<repo>\tests\reader-finished.cjs:124:3)
+      at async <repo>\tests\reader-finished.cjs:138:6
+      at async verify (<repo>\tools\static_smoke.cjs:33:38)
+      at async Object.finishedChecks (<repo>\tests\reader-finished.cjs:133:5)
+      at async <repo>\tools\static_smoke.cjs:136:29 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written

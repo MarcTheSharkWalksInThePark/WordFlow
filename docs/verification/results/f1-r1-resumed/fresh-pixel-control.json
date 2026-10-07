@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "i": 0,
+      "source": "master",
+      "pointerToggle": false,
+      "before": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "after": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "clip": {
+        "x": 451,
+        "y": 409,
+        "width": 538,
+        "height": 92
+      },
+      "diffFromFirst": 0
+    },
+    {
+      "i": 1,
+      "source": "candidate",
+      "pointerToggle": true,
+      "before": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "after": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "clip": {
+        "x": 451,
+        "y": 409,
+        "width": 538,
+        "height": 92
+      },
+      "diffFromFirst": 13
+    },
+    {
+      "i": 2,
+      "source": "master",
+      "pointerToggle": false,
+      "before": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "after": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "clip": {
+        "x": 451,
+        "y": 409,
+        "width": 538,
+        "height": 92
+      },
+      "diffFromFirst": 0
+    },
+    {
+      "i": 3,
+      "source": "candidate",
+      "pointerToggle": true,
+      "before": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "after": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 69px;\"><span class=\"word-left\">komm</span><span class=\"word-focus\">u</span><span class=\"word-right\">nikasjon.</span></div>",
+      "clip": {
+        "x": 451,
+        "y": 409,
+        "width": 538,
+        "height": 92
+      },
+      "diffFromFirst": 0
+    }
+  ]
+}

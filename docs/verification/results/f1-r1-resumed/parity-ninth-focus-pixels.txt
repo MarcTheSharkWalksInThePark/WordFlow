@@ -1,0 +1,49 @@
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Error: W6.14 finished master comparison {"width":996,"height":950,"focus":true,"context":false,"size":"large","token":"understanding."}: STOP: master-visible finished word pixels changed
+    at verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:97)
+    at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:160:5)
+    ... 2 lines matching cause stack trace ...
+    at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+  [cause]: AssertionError [ERR_ASSERTION]: STOP: master-visible finished word pixels changed
+      at compare (<home>\Documents\WordFlow\tests\reader-finished.cjs:139:4)
+      at async <home>\Documents\WordFlow\tests\reader-finished.cjs:166:6
+      at async verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:38)
+      at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:160:5)
+      at async Promise.all (index 2)
+      at async Object.finishedChecks (<home>\Documents\WordFlow\tests\reader-finished.cjs:217:15)
+      at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written

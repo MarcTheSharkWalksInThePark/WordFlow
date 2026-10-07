@@ -133,6 +133,7 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
    await require("../tests/reader-smoke.cjs").readerChecks({page,context,viewport,origin,verify,out,root});
    if(viewport.width===1400)await require("../tests/reader-round2.cjs").round2Checks({page,context,origin,root,out,verify});
    if(viewport.width===1400)await require("../tests/reader-wide.cjs").wideChecks({page,context,origin,root,out,verify});
+   if(viewport.width===1400)await require("../tests/reader-finished.cjs").finishedChecks({context,origin,root,out,verify});
    await page.setViewportSize(viewport);
    await page.locator("#sample-button").click();await use();
    const screenshot="static-reader-"+viewport.width+".png";await page.screenshot({path:path.join(out,screenshot),fullPage:true});

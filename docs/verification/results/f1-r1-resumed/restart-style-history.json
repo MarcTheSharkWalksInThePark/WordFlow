@@ -1,0 +1,54 @@
+{
+  "rows": {
+    "master": {
+      "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "styleAttribute": null,
+      "font": "108.8px",
+      "rectangle": {
+        "left": 753.796875,
+        "top": 397.75,
+        "width": 240.40625,
+        "height": 117.5
+      },
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "status": "Restarted"
+    },
+    "startingHead": {
+      "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "styleAttribute": "",
+      "font": "108.8px",
+      "rectangle": {
+        "left": 753.796875,
+        "top": 397.75,
+        "width": 240.40625,
+        "height": 117.5
+      },
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "status": "Restarted"
+    },
+    "candidate": {
+      "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "styleAttribute": "",
+      "font": "108.8px",
+      "rectangle": {
+        "left": 753.796875,
+        "top": 397.75,
+        "width": 240.40625,
+        "height": 117.5
+      },
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "status": "Restarted"
+    }
+  },
+  "existingOnStartingHead": true,
+  "emptyStyleOnly": true
+}

@@ -684,6 +684,11 @@ button:focus-visible {
   overscroll-behavior: contain;
 }
 
+.word-display.scrolling-long-word[inert] {
+  overflow: clip;
+  pointer-events: none;
+}
+
 .scrolling-long-text .context-word.previous {
   top: 12px;
 }

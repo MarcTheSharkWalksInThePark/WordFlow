@@ -1,0 +1,22 @@
+Error: W6.14 finished master comparison {"width":1400,"height":950,"focus":false,"context":true,"size":"comfortable","token":"kommunikasjon."}: STOP: master-visible finished word pixels changed
+    at verify (<repo>\tools\static_smoke.cjs:33:97)
+    at async finishedBatch (<repo>\tests\reader-finished.cjs:150:5)
+    ... 2 lines matching cause stack trace ...
+    at async <repo>\tools\static_smoke.cjs:136:29 {
+  [cause]: AssertionError [ERR_ASSERTION]: STOP: master-visible finished word pixels changed
+      at compare (<repo>\tests\reader-finished.cjs:130:4)
+      at async <repo>\tests\reader-finished.cjs:155:6
+      at async verify (<repo>\tools\static_smoke.cjs:33:38)
+      at async finishedBatch (<repo>\tests\reader-finished.cjs:150:5)
+      at async Promise.all (index 3)
+      at async Object.finishedChecks (<repo>\tests\reader-finished.cjs:205:15)
+      at async <repo>\tools\static_smoke.cjs:136:29 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written

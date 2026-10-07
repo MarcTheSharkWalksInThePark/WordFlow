@@ -1,0 +1,969 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "master": "b9d3d9e",
+  "measurements": [
+    {
+      "kind": "control",
+      "length": 5,
+      "before": {
+        "word": {
+          "x": 115.421875,
+          "y": 338.90625,
+          "width": 159.15625,
+          "height": 69.109375
+        },
+        "content": {
+          "x": 115.421875,
+          "y": 329.90625,
+          "width": 159.15625,
+          "height": 85
+        },
+        "font": "64px",
+        "classes": "word-display large",
+        "naturalHeight": 76,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 159,
+          "scrollWidth": 159,
+          "clientHeight": 69,
+          "scrollHeight": 76,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 5,
+        "textSha256": "185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969",
+        "sourceSha256": "69daade2c10f12cb1d5a32af9a6617748026e10d5cfc4268aea97c7c7507a0a0",
+        "sessionSha256": "77d673d7d1fe1089951b61deaa08135e18886b9146cdc96057562fce13160fb8"
+      },
+      "after": {
+        "word": {
+          "x": 115.421875,
+          "y": 338.90625,
+          "width": 159.15625,
+          "height": 69.109375
+        },
+        "content": {
+          "x": 115.421875,
+          "y": 329.90625,
+          "width": 159.15625,
+          "height": 85
+        },
+        "font": "64px",
+        "classes": "word-display large",
+        "naturalHeight": 76,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 159,
+          "scrollWidth": 159,
+          "clientHeight": 69,
+          "scrollHeight": 76,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 5,
+        "textSha256": "185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969",
+        "sourceSha256": "69daade2c10f12cb1d5a32af9a6617748026e10d5cfc4268aea97c7c7507a0a0",
+        "sessionSha256": "77d673d7d1fe1089951b61deaa08135e18886b9146cdc96057562fce13160fb8"
+      }
+    },
+    {
+      "kind": "control",
+      "length": 45,
+      "before": {
+        "word": {
+          "x": 47.265625,
+          "y": 366.453125,
+          "width": 295.46875,
+          "height": 14.03125
+        },
+        "content": {
+          "x": 47.265625,
+          "y": 364.453125,
+          "width": 295.46875,
+          "height": 17
+        },
+        "font": "13px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 15,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 295,
+          "scrollWidth": 295,
+          "clientHeight": 14,
+          "scrollHeight": 15,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 45,
+        "textSha256": "0984363991e13bb6c2c6a9442d2ae50ec3b86843131fc02889f4ee2d1c8ca65c",
+        "sourceSha256": "110070b1511a1bd15dcd09f3d1dae7d73bea009059e9d70e2289641db03a911d",
+        "sessionSha256": "745f41b071fd92871f9608e70b479bfcefe72dc6ba7c403ca2d03d6cf10b7f44"
+      },
+      "after": {
+        "word": {
+          "x": 47.265625,
+          "y": 366.453125,
+          "width": 295.46875,
+          "height": 14.03125
+        },
+        "content": {
+          "x": 47.265625,
+          "y": 364.453125,
+          "width": 295.46875,
+          "height": 17
+        },
+        "font": "13px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 15,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 295,
+          "scrollWidth": 295,
+          "clientHeight": 14,
+          "scrollHeight": 15,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 45,
+        "textSha256": "0984363991e13bb6c2c6a9442d2ae50ec3b86843131fc02889f4ee2d1c8ca65c",
+        "sourceSha256": "110070b1511a1bd15dcd09f3d1dae7d73bea009059e9d70e2289641db03a911d",
+        "sessionSha256": "745f41b071fd92871f9608e70b479bfcefe72dc6ba7c403ca2d03d6cf10b7f44"
+      }
+    },
+    {
+      "kind": "W",
+      "length": 135,
+      "before": {
+        "word": {
+          "x": 64.703125,
+          "y": 368.0625,
+          "width": 1275.21875,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 1356.625,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 1357,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 1275,
+          "scrollWidth": 1316,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 135,
+        "textSha256": "11d1150b4529c3eb9f63e7040ce7842fc4c175b6160f541618322124dc580e39",
+        "sourceSha256": "bacce695c5b75630796f0308b2d03ede4b705e6ddf7ddb7080a64358966424e0",
+        "sessionSha256": "3cce1b5ab8c04d3596f7a62ba762c22cd21815f84122396be52af3d8af4cfcc9"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 347.21875,
+          "width": 307.796875,
+          "height": 52.5
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": 345.21875,
+          "width": 301.5,
+          "height": 56
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word",
+        "naturalHeight": 54,
+        "wrapped": true,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 53,
+          "scrollHeight": 54,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": true,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 135,
+        "textSha256": "11d1150b4529c3eb9f63e7040ce7842fc4c175b6160f541618322124dc580e39",
+        "sourceSha256": "bacce695c5b75630796f0308b2d03ede4b705e6ddf7ddb7080a64358966424e0",
+        "sessionSha256": "3cce1b5ab8c04d3596f7a62ba762c22cd21815f84122396be52af3d8af4cfcc9"
+      }
+    },
+    {
+      "kind": "W",
+      "length": 500,
+      "before": {
+        "word": {
+          "x": 174.734375,
+          "y": 368.0625,
+          "width": 4722.96875,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 5024.4375,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 5024,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 4723,
+          "scrollWidth": 4874,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 500,
+        "textSha256": "3012c3a7bf2b2226d326ea075dffe38125f203b91b2b58aede4c657915a22a37",
+        "sourceSha256": "37dba1f36f7cb6dadb5037eaa485112cbf47d76d3e10751cb5ddad9c7296cc1b",
+        "sessionSha256": "9390a2f9d94f302f8f580c1978099d6d1499c59d2d1e278c929d128af238c836"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 286.46875,
+          "width": 307.796875,
+          "height": 130
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": 286.46875,
+          "width": 301.5,
+          "height": 182
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+        "naturalHeight": 180,
+        "wrapped": true,
+        "scrolling": true,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 130,
+          "scrollHeight": 183,
+          "scrollTop": 0
+        },
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 500,
+        "textSha256": "3012c3a7bf2b2226d326ea075dffe38125f203b91b2b58aede4c657915a22a37",
+        "sourceSha256": "37dba1f36f7cb6dadb5037eaa485112cbf47d76d3e10751cb5ddad9c7296cc1b",
+        "sessionSha256": "9390a2f9d94f302f8f580c1978099d6d1499c59d2d1e278c929d128af238c836"
+      },
+      "scrolling": {
+        "keyboardEnd": true,
+        "keyboardPageDown": true,
+        "mouseWheel": true,
+        "emulatedTouch": true,
+        "lastLineVisible": true
+      }
+    },
+    {
+      "kind": "W",
+      "length": 2000,
+      "before": {
+        "word": {
+          "x": 626.9375,
+          "y": 368.0625,
+          "width": 18891.8125,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 20097.6875,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 20098,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 18892,
+          "scrollWidth": 19495,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 2000,
+        "textSha256": "9f5440ac45f2b3790033793333825bb8152704b6d593ea9f1fd898a029c60182",
+        "sourceSha256": "7aed3a74f77d4f928e16ee6f67c08375235ef9db4a42141eec54a261f2eb30c2",
+        "sessionSha256": "5beeb4e705d50ae1e23d442a7ad5d91638d7c71b1361ebbddb53c72303f15390"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 286.46875,
+          "width": 307.796875,
+          "height": 130
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": 286.46875,
+          "width": 301.5,
+          "height": 707
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+        "naturalHeight": 705,
+        "wrapped": true,
+        "scrolling": true,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 130,
+          "scrollHeight": 708,
+          "scrollTop": 0
+        },
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 2000,
+        "textSha256": "9f5440ac45f2b3790033793333825bb8152704b6d593ea9f1fd898a029c60182",
+        "sourceSha256": "7aed3a74f77d4f928e16ee6f67c08375235ef9db4a42141eec54a261f2eb30c2",
+        "sessionSha256": "5beeb4e705d50ae1e23d442a7ad5d91638d7c71b1361ebbddb53c72303f15390"
+      },
+      "scrolling": {
+        "keyboardEnd": true,
+        "keyboardPageDown": true,
+        "mouseWheel": true,
+        "emulatedTouch": true,
+        "lastLineVisible": true
+      }
+    },
+    {
+      "kind": "W",
+      "length": 10000,
+      "before": {
+        "word": {
+          "x": 3038.65625,
+          "y": 368.0625,
+          "width": 94459,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 100488.3125,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 100488,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 94459,
+          "scrollWidth": 97474,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 10000,
+        "textSha256": "0155fcc2034f66143ee58432b53bd2b9833c855eecdbf999a0a7cfc1e908e5eb",
+        "sourceSha256": "865653faa4d4d95d751198bc99250c2e9e4c7528aa0609001bcca3fa7c49b71c",
+        "sessionSha256": "8beeb65102c066f6c3d80c4749d029f4afe2b75b335462600c2f5e501bb1687a"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 286.46875,
+          "width": 307.796875,
+          "height": 130
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": 286.46875,
+          "width": 301.5,
+          "height": 3510.5
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+        "naturalHeight": 3509,
+        "wrapped": true,
+        "scrolling": true,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 130,
+          "scrollHeight": 3511,
+          "scrollTop": 0
+        },
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 10000,
+        "textSha256": "0155fcc2034f66143ee58432b53bd2b9833c855eecdbf999a0a7cfc1e908e5eb",
+        "sourceSha256": "865653faa4d4d95d751198bc99250c2e9e4c7528aa0609001bcca3fa7c49b71c",
+        "sessionSha256": "8beeb65102c066f6c3d80c4749d029f4afe2b75b335462600c2f5e501bb1687a"
+      },
+      "scrolling": {
+        "keyboardEnd": true,
+        "keyboardPageDown": true,
+        "mouseWheel": true,
+        "emulatedTouch": true,
+        "lastLineVisible": true
+      }
+    },
+    {
+      "kind": "real-repeated",
+      "length": 135,
+      "before": {
+        "word": {
+          "x": 44.453125,
+          "y": 368.0625,
+          "width": 640.890625,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 681.8125,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 682,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 641,
+          "scrollWidth": 661,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 135,
+        "textSha256": "99ea969d457435ac8eeec4c7c3327f25a315050a9ab581ce1ae5868eacc96249",
+        "sourceSha256": "2b8f3651f43342f840b1a9a2c12725f769a22e0bfb7b5db4b9ea2e70d6c1d3b4",
+        "sessionSha256": "7e2cbe6408baab2fb2f5f40616695cf12bc35d792238da6fb437624a13163f22"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 357.71875,
+          "width": 307.796875,
+          "height": 31.5
+        },
+        "content": {
+          "x": 41.4453125,
+          "y": 355.71875,
+          "width": 307.109375,
+          "height": 35
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word",
+        "naturalHeight": 33,
+        "wrapped": true,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 32,
+          "scrollHeight": 33,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": true,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 135,
+        "textSha256": "99ea969d457435ac8eeec4c7c3327f25a315050a9ab581ce1ae5868eacc96249",
+        "sourceSha256": "2b8f3651f43342f840b1a9a2c12725f769a22e0bfb7b5db4b9ea2e70d6c1d3b4",
+        "sessionSha256": "7e2cbe6408baab2fb2f5f40616695cf12bc35d792238da6fb437624a13163f22"
+      }
+    },
+    {
+      "kind": "real-repeated",
+      "length": 500,
+      "before": {
+        "word": {
+          "x": 99.984375,
+          "y": 368.0625,
+          "width": 2380.734375,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 2532.703125,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 2533,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 2381,
+          "scrollWidth": 2457,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 500,
+        "textSha256": "73468050b6bb5041b25d49dcf8dc7806b2a34c7c2fd728660da80b0e451eee04",
+        "sourceSha256": "ddfbecc81c37726b643acb9e5a6e6c7bd7e2330b9b5456941fd4949c476eb567",
+        "sessionSha256": "b1f2f4f0f56de126bb1a4f1b501f4b5c048fc7675672397e1abb7e96c648f1f4"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 326.21875,
+          "width": 307.796875,
+          "height": 94.5
+        },
+        "content": {
+          "x": 41.1953125,
+          "y": 324.21875,
+          "width": 307.609375,
+          "height": 98
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word",
+        "naturalHeight": 96,
+        "wrapped": true,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 95,
+          "scrollHeight": 96,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": true,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 500,
+        "textSha256": "73468050b6bb5041b25d49dcf8dc7806b2a34c7c2fd728660da80b0e451eee04",
+        "sourceSha256": "ddfbecc81c37726b643acb9e5a6e6c7bd7e2330b9b5456941fd4949c476eb567",
+        "sessionSha256": "b1f2f4f0f56de126bb1a4f1b501f4b5c048fc7675672397e1abb7e96c648f1f4"
+      }
+    },
+    {
+      "kind": "real-repeated",
+      "length": 2000,
+      "before": {
+        "word": {
+          "x": 327.265625,
+          "y": 368.0625,
+          "width": 9502.25,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 10108.78125,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 10109,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 9502,
+          "scrollWidth": 9806,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 2000,
+        "textSha256": "e7603a394326cfebba0d4e935e42fb59ff973fe78c770725465064bcdabde378",
+        "sourceSha256": "247d8c4a966699d62abb23a2ae5354c8d7b005812d99ef41ff5b7ac647c61a80",
+        "sessionSha256": "5ad4f7042e3d9a788e46efab29a8b504c17c53b15a04a55fb36abad2585961d8"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 286.46875,
+          "width": 307.796875,
+          "height": 130
+        },
+        "content": {
+          "x": 41.1953125,
+          "y": 286.46875,
+          "width": 307.609375,
+          "height": 360.5
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+        "naturalHeight": 359,
+        "wrapped": true,
+        "scrolling": true,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 130,
+          "scrollHeight": 361,
+          "scrollTop": 0
+        },
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 2000,
+        "textSha256": "e7603a394326cfebba0d4e935e42fb59ff973fe78c770725465064bcdabde378",
+        "sourceSha256": "247d8c4a966699d62abb23a2ae5354c8d7b005812d99ef41ff5b7ac647c61a80",
+        "sessionSha256": "5ad4f7042e3d9a788e46efab29a8b504c17c53b15a04a55fb36abad2585961d8"
+      },
+      "scrolling": {
+        "keyboardEnd": true,
+        "keyboardPageDown": true,
+        "mouseWheel": true,
+        "emulatedTouch": true,
+        "lastLineVisible": true
+      }
+    },
+    {
+      "kind": "real-repeated",
+      "length": 10000,
+      "before": {
+        "word": {
+          "x": 1539.359375,
+          "y": 368.0625,
+          "width": 47481.171875,
+          "height": 10.796875
+        },
+        "content": {
+          "x": 24,
+          "y": 366.0625,
+          "width": 50511.890625,
+          "height": 14
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word",
+        "naturalHeight": 12,
+        "wrapped": false,
+        "scrolling": false,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 50512,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 47481,
+          "scrollWidth": 48997,
+          "clientHeight": 11,
+          "scrollHeight": 12,
+          "scrollTop": 0
+        },
+        "noteHidden": true,
+        "note": null,
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 10000,
+        "textSha256": "4be39a37e452d3bd09c1f06973b672fa2cfc80373aba1e8c8855319b6cc6b553",
+        "sourceSha256": "f65eee8f5f666402792c23280bf89b1db306f6a30e18ad6ee72b4f129894cf72",
+        "sessionSha256": "5683f88f214a53de9d8296968e6077ce34145a79cb02a0c10a1d5622bfa5c583"
+      },
+      "after": {
+        "word": {
+          "x": 41.1015625,
+          "y": 286.46875,
+          "width": 307.796875,
+          "height": 130
+        },
+        "content": {
+          "x": 41.1953125,
+          "y": 286.46875,
+          "width": 307.609375,
+          "height": 1757
+        },
+        "font": "10px",
+        "classes": "word-display large fitted-long-word wrapped-long-word scrolling-long-word",
+        "naturalHeight": 1755,
+        "wrapped": true,
+        "scrolling": true,
+        "frame": {
+          "clientWidth": 342,
+          "scrollWidth": 342,
+          "clientHeight": 278,
+          "scrollHeight": 278
+        },
+        "area": {
+          "clientWidth": 308,
+          "scrollWidth": 308,
+          "clientHeight": 130,
+          "scrollHeight": 1758,
+          "scrollTop": 0
+        },
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "playing": false,
+        "index": 1,
+        "count": 4,
+        "wordCount": "4",
+        "position": "2 / 4",
+        "percent": "50%",
+        "textLength": 10000,
+        "textSha256": "4be39a37e452d3bd09c1f06973b672fa2cfc80373aba1e8c8855319b6cc6b553",
+        "sourceSha256": "f65eee8f5f666402792c23280bf89b1db306f6a30e18ad6ee72b4f129894cf72",
+        "sessionSha256": "5683f88f214a53de9d8296968e6077ce34145a79cb02a0c10a1d5622bfa5c583"
+      },
+      "scrolling": {
+        "keyboardEnd": true,
+        "keyboardPageDown": true,
+        "mouseWheel": true,
+        "emulatedTouch": true,
+        "lastLineVisible": true
+      }
+    }
+  ],
+  "interactionChecks": [
+    "manual next/previous; existing v1 resume exact fields and whole token",
+    "first scroll token: one Play advances to index 1 with 3-2-1 countdown",
+    "1400->390->1400 resize; focus mode, context off, focus letter off"
+  ]
+}

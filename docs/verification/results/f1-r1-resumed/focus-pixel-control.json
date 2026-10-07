@@ -1,0 +1,1508 @@
+{
+  "rows": [
+    {
+      "i": 0,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 1,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 2,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 3,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 4,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 5,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 6,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 7,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 8,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 9,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 10,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 11,
+      "source": "master",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 12,
+      "source": "candidate",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 13,
+      "source": "candidate",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 14,
+      "source": "candidate",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    },
+    {
+      "i": 15,
+      "source": "candidate",
+      "snapshot": {
+        "font": "99.6px",
+        "renderStyle": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "fontWeight": "780",
+          "fontStyle": "normal",
+          "color": "rgb(28, 27, 24)",
+          "lineHeight": "104.58px",
+          "letterSpacing": "normal"
+        },
+        "classes": "word-display large",
+        "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">unde</span><span class=\"word-focus\">r</span><span class=\"word-right\">standing.</span></div>",
+        "text": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "word": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 412.71875,
+          "bottom": 520.28125,
+          "width": 711.03125,
+          "height": 107.5625
+        },
+        "inner": {
+          "left": 42,
+          "top": 144,
+          "right": 954,
+          "bottom": 789
+        },
+        "visible": {
+          "left": 142.484375,
+          "right": 853.515625,
+          "top": 398.71875,
+          "bottom": 530.71875,
+          "width": 711.03125,
+          "height": 132
+        },
+        "fullyVisible": true,
+        "paintInside": true,
+        "scrolling": false,
+        "overflow": "visible",
+        "inert": false,
+        "tabindex": null,
+        "role": null,
+        "label": null,
+        "description": null,
+        "marker": null,
+        "scrollTop": 0,
+        "clientHeight": 108,
+        "scrollHeight": 118,
+        "noteHidden": true,
+        "finished": true,
+        "playing": false,
+        "countdown": false,
+        "status": "Finished",
+        "index": 1,
+        "wordText": "understanding.",
+        "frame": {
+          "left": 41,
+          "right": 955,
+          "top": 143,
+          "bottom": 790,
+          "width": 914,
+          "height": 647
+        },
+        "panel": {
+          "left": 238,
+          "right": 758,
+          "top": 360.5,
+          "bottom": 572.5,
+          "width": 520,
+          "height": 212
+        },
+        "panelHidden": false,
+        "panelZ": "3",
+        "finishPauseCalls": 0
+      },
+      "clip": {
+        "x": 142,
+        "y": 398,
+        "width": 712,
+        "height": 133
+      },
+      "changed": 0,
+      "maxChannelDifference": 0
+    }
+  ]
+}

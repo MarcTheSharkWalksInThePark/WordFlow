@@ -1,0 +1,50 @@
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Error: W6.14 finished master comparison {"width":1400,"height":950,"focus":true,"context":false,"size":"large","token":"Kommune"}: UNKNOWN: unknown error, open '<home>\Documents\WordFlow\docs\verification\results\post-review\finished-3\reader-finished.json'
+    at verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:97)
+    at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:160:5)
+    ... 2 lines matching cause stack trace ...
+    at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+  [cause]: Error: UNKNOWN: unknown error, open '<home>\Documents\WordFlow\docs\verification\results\post-review\finished-3\reader-finished.json'
+      at Object.writeFileSync (node:fs:2422:20)
+      at save (<home>\Documents\WordFlow\tests\reader-finished.cjs:117:20)
+      at compare (<home>\Documents\WordFlow\tests\reader-finished.cjs:151:91)
+      at async <home>\Documents\WordFlow\tests\reader-finished.cjs:166:6
+      at async verify (<home>\Documents\WordFlow\tools\static_smoke.cjs:33:38)
+      at async finishedBatch (<home>\Documents\WordFlow\tests\reader-finished.cjs:160:5)
+      at async Promise.all (index 3)
+      at async Object.finishedChecks (<home>\Documents\WordFlow\tests\reader-finished.cjs:217:15)
+      at async <home>\Documents\WordFlow\tools\static_smoke.cjs:136:29 {
+    errno: -4094,
+    code: 'UNKNOWN',
+    syscall: 'open',
+    path: '<home>\\Documents\\WordFlow\\docs\\verification\\results\\post-review\\finished-3\\reader-finished.json'
+  }
+}
+Browser suite failed; parity stamp was not written

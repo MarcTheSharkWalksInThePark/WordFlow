@@ -1,0 +1,23 @@
+Error: W6 browser predicate B2: Expected values to be strictly equal:
+
+true !== false
+
+    at verify (<clone>\tools\static_smoke.cjs:33:97)
+    at async Object.browserPredicateChecks (<clone>\tests\reader-round2.cjs:70:32)
+    at async <clone>\tools\static_smoke.cjs:39:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+  true !== false
+
+      at <clone>\tests\reader-round2.cjs:71:11
+      at async verify (<clone>\tools\static_smoke.cjs:33:38)
+      at async Object.browserPredicateChecks (<clone>\tests\reader-round2.cjs:70:32)
+      at async <clone>\tools\static_smoke.cjs:39:4 {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+}

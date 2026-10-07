@@ -183,7 +183,7 @@ async function round2Checks({page,context,origin,root,out,verify}) {
    const normal=await finish(master);
    await prepare(page,"W".repeat(10000),{final:true,index:0});await page.evaluate(()=>startReading());
    await page.waitForFunction(()=>state.index===1&&!state.playing);await page.locator("#play-button").click();await settle(page);
-   assert.deepEqual(await finish(page),normal);await cleared(page);
+   assert.deepEqual(await finish(page),normal);await require("./reader-finished.cjs").finishedInert(page);
    for(const p of [master,page])await p.locator("#play-button").click();
    for(const p of [master,page]) {assert.equal(await p.evaluate(()=>state.index),0);assert.equal(await p.evaluate(()=>state.countdownValue),3);await p.evaluate(()=>pause());}
    evidence.play.push({arrival:"final",finishEqualsMaster:true,restartCountdown:true});

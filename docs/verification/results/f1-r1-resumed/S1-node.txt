@@ -1,0 +1,15 @@
+FAIL reader: wrapped token at frame height does not scroll
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+true !== false
+
+    at <clone>\tests\post-review.test.cjs:17:81
+    at check (<clone>\tests\post-review.test.cjs:7:42)
+    at <clone>\tests\post-review.test.cjs:17:8 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: true,
+  expected: false,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

@@ -1,0 +1,83 @@
+
+> wordflow@0.1.0 mutations
+> node tools/mutations.cjs --out docs/verification/results/f1-r1-resumed/mutations.json
+
+M1-bind-default-all-interfaces: KILLED (unsafe bind refused before listen)
+M2-allowlist-bypassed: KILLED
+M3-dotfile-guard-removed: KILLED
+M4-decode-skipped: KILLED
+M5-normalise-skipped: KILLED
+M6-case-insensitive-match: KILLED
+M7-guard-ignores-backslash: KILLED
+M8-guard-env-regex-only: KILLED
+M9-guard-dot-prefix-only: SURVIVED
+M10-double-decode: KILLED
+M11-warning-removed: KILLED
+M12-host-ignored: KILLED
+X1-double-decode: KILLED
+X2-first-segment-only: KILLED
+X3-regex-unanchored: KILLED
+X4-regex-wrong-anchor: KILLED
+X5-allowlist-startsWith: KILLED
+X6-allowlist-includes: KILLED
+X7-normalize-after-allowlist: KILLED
+X8-dotguard-after-normalization: KILLED
+X9-warning-removed: KILLED
+X10-other-env-wildcard-default: KILLED (unsafe bind refused before listen)
+Y1-b2-check-removed: KILLED
+Y2-b2-slash-slash-only: KILLED
+Y3-host-check-removed: KILLED
+Y4-host-check-ignores-port: KILLED
+Y5-host-check-any-localhost-suffix: KILLED
+Y6-host-check-configured-port: KILLED
+Y7-host-check-skips-api: KILLED
+Y8-missing-host-accepted: KILLED
+Y9-loopback-drops-ipv4-mapped: KILLED
+Y10-banner-stale-callback-guard-removed: KILLED
+Y11-node-host-requirement-kept: KILLED
+Y12-host-check-ignores-host-opt-in: KILLED
+Y13-host-check-case-sensitive: KILLED
+Y14-loopback-case-sensitive: KILLED
+Z1-host-check-off-for-any-host: KILLED
+Z2-portless-accepted-on-every-port: KILLED
+Z3-port-80-rule-uses-configured-port: KILLED
+N1-host-substring: KILLED
+N2-host-case-sensitive: KILLED
+N3-port-parseInt: KILLED
+N4-b2-after-url-parsing: KILLED
+N5-all-ipv4-mapped-loopback: KILLED
+N6-node-host-requirement-always-off: KILLED
+D1-duplicate-host-check-removed: KILLED
+P1-private-IP-guard-removed: KILLED
+P2-DoH-check-removed: KILLED
+P3-redirect-recheck-removed: KILLED
+P4-size-cap-removed: KILLED
+P5-Origin-check-removed: KILLED
+P6-client-header-forwarding-added: KILLED
+E3-redirect-scheme-guard-removed: KILLED
+E9-DoH-redirect-follow: KILLED
+E10-DoH-status-ignored: KILLED
+E11-DoH-Status-field-ignored: KILLED
+W4-stamp-check-disabled: KILLED
+S14-self-host-guard-removed: KILLED
+W5-Pages-suffix-removed: KILLED
+W5-on-disk-hashing: KILLED
+W5-index-flags-allowed: KILLED
+W5-skip-check-disabled: KILLED
+W5-named-input-1-removed: KILLED
+W5-named-input-2-removed: KILLED
+W5-named-input-3-removed: KILLED
+W5-named-input-4-removed: KILLED
+W5-parity-failure-ignored: KILLED
+W5-parity-input-changes-ignored: KILLED
+W5-schema-check-removed: KILLED
+W5-Chrome-version-check-removed: KILLED
+W5-symlink-mode-allowed: KILLED
+W5-DOCX-entry-cap-removed: KILLED
+W5-DOCX-claim-cap-removed: KILLED
+W5-DOCX-cumulative-cap-removed: KILLED
+W5-DOCX-selected-duplicate-allowed: KILLED
+W5-DOCX-External-followed: KILLED
+W5-DOCX-foreign-origin-allowed: KILLED
+U1-DoH-Workers-unsupported-error-mode: KILLED
+{"total":78,"killed":77,"equivalent":1,"unexpected":0,"errors":0}

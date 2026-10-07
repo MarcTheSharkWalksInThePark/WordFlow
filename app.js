@@ -330,6 +330,7 @@ function shouldScrollWord(wrapped, wordHeight, frameHeight) {
 
 function resetLongTokenLayout(clearPause = false, keepTabStop = false) {
   const display = els.wordDisplay;
+  display.inert = false;
   display.classList.remove("wrapped-long-word", "scrolling-long-word");
   display.closest(".reader-frame").classList.remove("scrolling-long-text");
   if (!keepTabStop) display.removeAttribute("tabindex");
@@ -366,7 +367,7 @@ function fitDisplayedWord(options = {}) {
     const frame = display.closest(".reader-frame");
     const scrollTop = options.scrollTop ?? display.scrollTop;
     resetLongTokenLayout(false, true);
-    if (!frame || state.finished || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
+    if (!frame || !display.textContent.trim() || display.querySelector(".empty-word, .countdown-word")) {
       resetLongTokenLayout(true);
       return;
     }
@@ -422,14 +423,19 @@ function fitDisplayedWord(options = {}) {
       Math.max(display.scrollHeight, display.getBoundingClientRect().height), contextFreeHeight(frame))) {
       display.classList.add("scrolling-long-word");
       frame.classList.add("scrolling-long-text");
-      display.setAttribute("tabindex", "0");
-      display.setAttribute("role", "region");
-      display.setAttribute("aria-label", "Long text");
-      display.setAttribute("aria-describedby", "long-text-note");
+      display.inert = state.finished;
+      if (state.finished) {
+        display.removeAttribute("tabindex");
+      } else {
+        display.setAttribute("tabindex", "0");
+        display.setAttribute("role", "region");
+        display.setAttribute("aria-label", "Long text");
+        display.setAttribute("aria-describedby", "long-text-note");
+      }
       display.scrollTop = scrollTop;
-      els.longTextNote.hidden = false;
-      display.dataset.longTextPaused = String(state.index);
-      if (state.playing) {
+      els.longTextNote.hidden = state.finished;
+      if (!state.finished) display.dataset.longTextPaused = String(state.index);
+      if (state.playing && !state.finished) {
         pause();
         setStatus("Paused");
       }

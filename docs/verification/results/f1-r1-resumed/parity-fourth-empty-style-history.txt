@@ -1,0 +1,64 @@
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 72 direct / 72 natural
+Finished matrix: 80 direct / 80 natural
+Finished matrix: 88 direct / 88 natural
+Finished matrix: 96 direct / 96 natural
+Finished matrix: 104 direct / 104 natural
+Finished matrix: 112 direct / 112 natural
+Finished matrix: 120 direct / 120 natural
+Finished matrix: 128 direct / 128 natural
+Error: W6.14 finished master comparison {"width":1708,"height":950,"focus":false,"context":true,"size":"comfortable","token":"Pneumonoultramicroscopicsilicovolcanoconiosis"}: STOP: restart differs from master
++ actual - expected
+... Skipped lines
+
+  {
+    countdown: false,
+    countdownValue: null,
+    finished: false,
+    index: 0,
+...
+    status: 'Restarted',
++   word: '<div id="word-display" class="word-display" aria-live="off" style=""><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+-   word: '<div id="word-display" class="word-display" aria-live="off"><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+  }
+
+    at verify (<repo>\tools\static_smoke.cjs:33:97)
+    at async Object.finishedChecks (<repo>\tests\reader-finished.cjs:145:5)
+    at async <repo>\tools\static_smoke.cjs:136:29 {
+  [cause]: AssertionError [ERR_ASSERTION]: STOP: restart differs from master
+  + actual - expected
+  ... Skipped lines
+
+    {
+      countdown: false,
+      countdownValue: null,
+      finished: false,
+      index: 0,
+  ...
+      status: 'Restarted',
+  +   word: '<div id="word-display" class="word-display" aria-live="off" style=""><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+  -   word: '<div id="word-display" class="word-display" aria-live="off"><span class="word-left">L</span><span class="word-focus">e</span><span class="word-right">ad</span></div>'
+    }
+
+      at compareRestart (<repo>\tests\reader-finished.cjs:88:10)
+      at async compare (<repo>\tests\reader-finished.cjs:136:3)
+      at async <repo>\tests\reader-finished.cjs:150:6
+      at async verify (<repo>\tools\static_smoke.cjs:33:38)
+      at async Object.finishedChecks (<repo>\tests\reader-finished.cjs:145:5)
+      at async <repo>\tools\static_smoke.cjs:136:29 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+}
+Browser suite failed; parity stamp was not written

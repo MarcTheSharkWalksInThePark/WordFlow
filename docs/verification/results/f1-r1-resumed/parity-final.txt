@@ -1,0 +1,44 @@
+Command: npm run parity
+Initial output:
+> wordflow@0.1.0 parity
+> node tools/parity.cjs
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Subsequent output:
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 72 direct / 72 natural
+Finished matrix: 80 direct / 80 natural
+Finished matrix: 88 direct / 88 natural
+Finished matrix: 96 direct / 96 natural
+{"passed":884,"viewports":2,"errors":0,"uploadRequests":0}
+PASS: generated tests/parity-stamp.json
