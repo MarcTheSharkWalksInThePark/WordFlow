@@ -170,9 +170,13 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
 - **Dashboard confirmations** (Marcus, relayed by the orchestrator, 2026-10-06): Runtime
   "Fail open" is set; preview branches = None; Web Analytics off.
 - **Residual risks:** DNS rebinding between DoH and fetch; unauthenticated clients can exhaust
-  quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
-  (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
-  whether the daily request count excludes static page views.
+  quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body CPU behavior
+  (Error 1102 would indicate the 10 ms limit); Functions log-session state. The daily request-count
+  question is answered observationally below, not conclusively.
+- **Dashboard observations (Marcus, 2026-10-08, relayed):** Functions requests showed 2 success /
+  0 errors while several page loads happened; static page views appear excluded from the Function
+  count (open item 3 answered observationally). CPU chart showed 1,424/1,910 "ms" with no Error
+  1102; units likely microseconds (unverified). Maximum-body CPU remains unverified.
 - **F1 closed:** F1 fixed under W6.1-W6.15, deployed
   188d65e877c9cf63096bcc1e8abc2b523f16f07d on 2026-10-08. CC R-1 check CLEAR
   (c98cb51); Marcus accepted O-A and authorized the fast-forward merge and gated push.
