@@ -1,0 +1,151 @@
+{
+  "site": "https://wordflow-reader.pages.dev/",
+  "at": "2026-10-08T16:45:12.504Z",
+  "browserPlugin": "not available; Marcus explicitly requested existing Playwright and installed Chrome",
+  "playwright": "1.62.1",
+  "rows": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "local": {
+        "text": "understanding.",
+        "font": "108.8px",
+        "word": {
+          "x": 591.640625,
+          "y": 462.75,
+          "width": 776.703125,
+          "height": 117.5,
+          "right": 1368.34375,
+          "bottom": 580.25
+        },
+        "content": {
+          "x": 591.640625,
+          "y": 447.75,
+          "width": 776.703125,
+          "height": 144,
+          "right": 1368.34375,
+          "bottom": 591.75
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "live": {
+        "text": "understanding.",
+        "font": "108.8px",
+        "word": {
+          "x": 591.640625,
+          "y": 462.75,
+          "width": 776.703125,
+          "height": 117.5,
+          "right": 1368.34375,
+          "bottom": 580.25
+        },
+        "content": {
+          "x": 591.640625,
+          "y": 447.75,
+          "width": 776.703125,
+          "height": 144,
+          "right": 1368.34375,
+          "bottom": 591.75
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "real45": {
+        "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "font": "44px",
+        "word": {
+          "x": 570,
+          "y": 497.734375,
+          "width": 820,
+          "height": 47.515625,
+          "right": 1390,
+          "bottom": 545.25
+        },
+        "content": {
+          "x": 480.015625,
+          "y": 491.734375,
+          "width": 999.96875,
+          "height": 58,
+          "right": 1479.984375,
+          "bottom": 549.734375
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display large fitted-long-word",
+        "finished": false,
+        "playing": false,
+        "index": 1,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000": {
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "font": "10px",
+        "word": {
+          "x": 474.203125,
+          "y": 416.5,
+          "width": 1011.59375,
+          "height": 210,
+          "right": 1485.796875,
+          "bottom": 626.5
+        },
+        "content": {
+          "x": 477.546875,
+          "y": 414.5,
+          "width": 1004.90625,
+          "height": 213.5,
+          "right": 1482.453125,
+          "bottom": 628
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display large fitted-long-word wrapped-long-word",
+        "finished": false,
+        "playing": true,
+        "index": 1,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000Behavior": "wraps within available height; no scroll pause required under W6.7"
+    }
+  ],
+  "errors": [],
+  "pageLoads": 2,
+  "chrome": "155.0.8059.39",
+  "passed": true
+}

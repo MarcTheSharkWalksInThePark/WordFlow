@@ -1,0 +1,123 @@
+{
+  "site": "https://wordflow-reader.pages.dev/",
+  "at": "2026-10-08T16:43:44.041Z",
+  "browserPlugin": "not available; Marcus explicitly requested existing Playwright and installed Chrome",
+  "playwright": "1.62.1",
+  "rows": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "local": {
+        "text": "understanding.",
+        "font": "43px",
+        "word": {
+          "x": 41.5,
+          "y": 159.25,
+          "width": 306.984375,
+          "height": 46.4375,
+          "right": 348.484375,
+          "bottom": 205.6875
+        },
+        "content": {
+          "x": 41.5,
+          "y": 153.25,
+          "width": 306.984375,
+          "height": 57,
+          "right": 348.484375,
+          "bottom": 210.25
+        },
+        "inner": {
+          "left": 24,
+          "top": 43.46875,
+          "right": 366,
+          "bottom": 321.46875
+        },
+        "classes": "word-display fitted-long-word",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "live": {
+        "text": "understanding.",
+        "font": "43px",
+        "word": {
+          "x": 41.5,
+          "y": 159.25,
+          "width": 306.984375,
+          "height": 46.4375,
+          "right": 348.484375,
+          "bottom": 205.6875
+        },
+        "content": {
+          "x": 41.5,
+          "y": 153.25,
+          "width": 306.984375,
+          "height": 57,
+          "right": 348.484375,
+          "bottom": 210.25
+        },
+        "inner": {
+          "left": 24,
+          "top": 43.46875,
+          "right": 366,
+          "bottom": 321.46875
+        },
+        "classes": "word-display fitted-long-word",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000": {
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "font": "10px",
+        "word": {
+          "x": 41.1015625,
+          "y": -299.53125,
+          "width": 307.796875,
+          "height": 130,
+          "right": 348.8984375,
+          "bottom": -169.53125
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": -299.53125,
+          "width": 301.5,
+          "height": 707,
+          "right": 345.7421875,
+          "bottom": 407.46875
+        },
+        "inner": {
+          "left": 24,
+          "top": -351.53125,
+          "right": 366,
+          "bottom": -73.53125
+        },
+        "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+        "finished": false,
+        "playing": false,
+        "index": 1,
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": false
+      },
+      "onePlay": {
+        "index": 2,
+        "countdown": true
+      },
+      "continued": true
+    }
+  ],
+  "errors": [],
+  "pageLoads": 4,
+  "chrome": "155.0.8059.39",
+  "passed": false,
+  "failure": "page.waitForFunction: Timeout 30000ms exceeded."
+}

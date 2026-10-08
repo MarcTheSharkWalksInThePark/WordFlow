@@ -1,0 +1,260 @@
+{
+  "passed": true,
+  "livePageLoads": 3,
+  "localPageLoads": 3,
+  "chrome": "155.0.8059.39",
+  "playwright": "1.62.1",
+  "rows": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "local": {
+        "text": "understanding.",
+        "font": "43px",
+        "word": {
+          "x": 41.5,
+          "y": 159.25,
+          "width": 306.984375,
+          "height": 46.4375,
+          "right": 348.484375,
+          "bottom": 205.6875
+        },
+        "content": {
+          "x": 41.5,
+          "y": 153.25,
+          "width": 306.984375,
+          "height": 57,
+          "right": 348.484375,
+          "bottom": 210.25
+        },
+        "inner": {
+          "left": 24,
+          "top": 43.46875,
+          "right": 366,
+          "bottom": 321.46875
+        },
+        "classes": "word-display fitted-long-word",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "live": {
+        "text": "understanding.",
+        "font": "43px",
+        "word": {
+          "x": 41.5,
+          "y": 159.25,
+          "width": 306.984375,
+          "height": 46.4375,
+          "right": 348.484375,
+          "bottom": 205.6875
+        },
+        "content": {
+          "x": 41.5,
+          "y": 153.25,
+          "width": 306.984375,
+          "height": 57,
+          "right": 348.484375,
+          "bottom": 210.25
+        },
+        "inner": {
+          "left": 24,
+          "top": 43.46875,
+          "right": 366,
+          "bottom": 321.46875
+        },
+        "classes": "word-display fitted-long-word",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000": {
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "font": "10px",
+        "word": {
+          "x": 41.1015625,
+          "y": -299.53125,
+          "width": 307.796875,
+          "height": 130,
+          "right": 348.8984375,
+          "bottom": -169.53125
+        },
+        "content": {
+          "x": 44.2421875,
+          "y": -299.53125,
+          "width": 301.5,
+          "height": 707,
+          "right": 345.7421875,
+          "bottom": 407.46875
+        },
+        "inner": {
+          "left": 24,
+          "top": -351.53125,
+          "right": 366,
+          "bottom": -73.53125
+        },
+        "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+        "finished": false,
+        "playing": false,
+        "index": 1,
+        "noteHidden": false,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": false
+      },
+      "onePlay": {
+        "index": 2,
+        "countdown": true
+      },
+      "continued": true
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "local": {
+        "text": "understanding.",
+        "font": "108.8px",
+        "word": {
+          "x": 591.640625,
+          "y": 462.75,
+          "width": 776.703125,
+          "height": 117.5,
+          "right": 1368.34375,
+          "bottom": 580.25
+        },
+        "content": {
+          "x": 591.640625,
+          "y": 447.75,
+          "width": 776.703125,
+          "height": 144,
+          "right": 1368.34375,
+          "bottom": 591.75
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "live": {
+        "text": "understanding.",
+        "font": "108.8px",
+        "word": {
+          "x": 591.640625,
+          "y": 462.75,
+          "width": 776.703125,
+          "height": 117.5,
+          "right": 1368.34375,
+          "bottom": 580.25
+        },
+        "content": {
+          "x": 591.640625,
+          "y": 447.75,
+          "width": 776.703125,
+          "height": 144,
+          "right": 1368.34375,
+          "bottom": 591.75
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display",
+        "finished": true,
+        "playing": false,
+        "index": 5,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "real45": {
+        "text": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "font": "44px",
+        "word": {
+          "x": 570,
+          "y": 497.734375,
+          "width": 820,
+          "height": 47.515625,
+          "right": 1390,
+          "bottom": 545.25
+        },
+        "content": {
+          "x": 480.015625,
+          "y": 491.734375,
+          "width": 999.96875,
+          "height": 58,
+          "right": 1479.984375,
+          "bottom": 549.734375
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display large fitted-long-word",
+        "finished": false,
+        "playing": false,
+        "index": 1,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000": {
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+        "font": "10px",
+        "word": {
+          "x": 474.203125,
+          "y": 416.5,
+          "width": 1011.59375,
+          "height": 210,
+          "right": 1485.796875,
+          "bottom": 626.5
+        },
+        "content": {
+          "x": 477.546875,
+          "y": 414.5,
+          "width": 1004.90625,
+          "height": 213.5,
+          "right": 1482.453125,
+          "bottom": 628
+        },
+        "inner": {
+          "left": 418,
+          "top": 144,
+          "right": 1542,
+          "bottom": 899
+        },
+        "classes": "word-display large fitted-long-word wrapped-long-word",
+        "finished": false,
+        "playing": true,
+        "index": 1,
+        "noteHidden": true,
+        "note": "Long text paused — scroll to read, then press play.",
+        "inside": true
+      },
+      "w2000Behavior": "wraps within available height; no scroll pause required under W6.7"
+    }
+  ],
+  "errors": [],
+  "harnessCorrection": "First attempt wrongly required desktop W2000 scroll pause; W6.7 only requires pause when height exceeds free height. Desktop-only rerun passed."
+}

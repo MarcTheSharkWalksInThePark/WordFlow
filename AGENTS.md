@@ -173,17 +173,13 @@ review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):
   quota. **UNVERIFIED:** actual quota/fail-open routing at runtime; maximum-body edge CPU
   (no CPU data yet; Error 1102 would indicate the 10 ms limit); Functions log-session state;
   whether the daily request count excludes static page views.
-- **F1:** F1 (W6.1-W6.14) on fix/f1-long-token, CC CLEAR; awaiting Marcus's merge/push decision.
-  CC's short R-1 check (docs/verification/2026-10-08_cc_check_f1_r1.md, fresh clone of dd1283c)
-  reproduced 505 Node / 0 skips (also with Chrome and Playwright blocked), parity 9 DOCX /
-  7 PDF / 884 smoke with 0 errors/uploads and a byte-identical stamp (3ca46f92...ddebdf),
-  78 mutations = 77 KILLED + M9 and eight red hand-mutants. Own probes, 984 finished-screen
-  cases vs master: 618/618 master-visible last words identical (production-CSS pixels),
-  366/366 clipped words inside the frame, no collision, no note/auto-pause, 114/114 scroll-state
-  words inert, restart equals master. Informational O-A: on wider frames the inert scroll area
-  stays visible around the Finished panel, as W6.14 permits. Merge/push only through
-  tools/push.sh and post-deploy `npm run smoke:live` remain Marcus's decision. Master b9d3d9e
-  untouched; nothing pushed or deployed. CC scratch folders remain for Marcus to delete.
+- **F1 closed:** F1 fixed under W6.1-W6.15, deployed
+  188d65e877c9cf63096bcc1e8abc2b523f16f07d on 2026-10-08. CC R-1 check CLEAR
+  (c98cb51); Marcus accepted O-A and authorized the fast-forward merge and gated push.
+  Node 505 / 0 skips; committed-input stamp passes; Cloudflare deployment and production
+  frontend hashes confirmed; live smoke 3/3 and scoped Chrome checks at 390x844 and
+  1920x1080 pass. Marcus reports deleting CC scratch folders by hand; Codex deleted the
+  verified retained hand-mutation clone. See docs/verification/2026-10-08_codex_f1_merge_deploy.md.
 - **MarcDeck side.** Removing WordFlow from MarcDeck, what MarcDeck serves at `/` afterwards, its
   own upload extractor, and retiring its guard and fence. All need MarcDeck rulings.
 - **Marcus's ruling, relayed by the orchestrator:** checked archived ref commits 2026-10-05; moved to quarantine for Marcus to delete; report in the vault.
