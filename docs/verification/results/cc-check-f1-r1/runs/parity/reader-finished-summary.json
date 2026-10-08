@@ -1,0 +1,23 @@
+{
+ "sha256": "8f55835a5105c32953efeeace183d15e02958d42a129e3f5d82914ebee3c30f0",
+ "restoration": 108,
+ "errors": 0,
+ "uploads": 0,
+ "blocked": 0,
+ "direct": {
+  "cases": 288,
+  "masterVisible": 196,
+  "masterClipped": 92,
+  "scrolling": 20,
+  "pixelIdentical": 196,
+  "recaptures": 0
+ },
+ "natural": {
+  "cases": 288,
+  "masterVisible": 196,
+  "masterClipped": 92,
+  "scrolling": 20,
+  "pixelIdentical": 0,
+  "recaptures": 0
+ }
+}

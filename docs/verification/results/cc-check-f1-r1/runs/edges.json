@@ -1,0 +1,402 @@
+[
+ {
+  "case": "finish with area focused 390",
+  "before": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    41.102,
+    286.469,
+    307.797,
+    130
+   ],
+   "inert": false,
+   "tabindex": "0",
+   "role": "region",
+   "active": "word-display",
+   "note": false,
+   "finished": false,
+   "status": "Reader fixture"
+  },
+  "after": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    41.102,
+    286.469,
+    307.797,
+    130
+   ],
+   "inert": true,
+   "tabindex": null,
+   "role": null,
+   "active": "BODY",
+   "note": true,
+   "finished": true,
+   "status": "Finished"
+  },
+  "afterKey": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    41.102,
+    -451.531,
+    307.797,
+    130
+   ],
+   "inert": true,
+   "tabindex": null,
+   "role": null,
+   "active": "BODY",
+   "note": true,
+   "finished": true,
+   "status": "Finished"
+  },
+  "ok": true
+ },
+ {
+  "case": "finish with area focused 1400",
+  "before": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    448.203,
+    196,
+    543.594,
+    477
+   ],
+   "inert": false,
+   "tabindex": "0",
+   "role": "region",
+   "active": "word-display",
+   "note": false,
+   "finished": false,
+   "status": "Reader fixture"
+  },
+  "after": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    448.203,
+    196,
+    543.594,
+    477
+   ],
+   "inert": true,
+   "tabindex": null,
+   "role": null,
+   "active": "BODY",
+   "note": true,
+   "finished": true,
+   "status": "Finished"
+  },
+  "afterKey": {
+   "font": "10px",
+   "classes": "word-display fitted-long-word wrapped-long-word scrolling-long-word",
+   "style": "font-size: 10px;",
+   "rect": [
+    448.203,
+    126,
+    543.594,
+    477
+   ],
+   "inert": true,
+   "tabindex": null,
+   "role": null,
+   "active": "BODY",
+   "note": true,
+   "finished": true,
+   "status": "Finished"
+  },
+  "ok": true
+ },
+ {
+  "case": "resize while finished understanding. comfortable",
+  "steps": [
+   "390",
+   "1400",
+   "1920",
+   "390"
+  ],
+  "cmp": [
+   {
+    "font": [
+     "43px",
+     "43px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "76px",
+     "76px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "108.8px",
+     "108.8px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "43px",
+     "43px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   }
+  ],
+  "branchInert": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "branchNoteHidden": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "case": "resize while finished Kommunikasjonsmiddel. large",
+  "steps": [
+   "390",
+   "1400",
+   "1920",
+   "390"
+  ],
+  "cmp": [
+   {
+    "font": [
+     "26px",
+     "26px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "46px",
+     "46px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "128px",
+     "87px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": false
+   },
+   {
+    "font": [
+     "26px",
+     "26px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   }
+  ],
+  "branchInert": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "branchNoteHidden": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "case": "resize while finished Wx2000 comfortable",
+  "steps": [
+   "390",
+   "1400",
+   "1920",
+   "390"
+  ],
+  "cmp": [
+   {
+    "font": [
+     "10px",
+     "10px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word wrapped-long-word scrolling-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "10px",
+     "10px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word wrapped-long-word scrolling-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "108.8px",
+     "10px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word wrapped-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": false
+   },
+   {
+    "font": [
+     "10px",
+     "10px"
+    ],
+    "classes": [
+     "word-display fitted-long-word",
+     "word-display fitted-long-word wrapped-long-word scrolling-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": true
+   }
+  ],
+  "branchInert": [
+   true,
+   true,
+   false,
+   true
+  ],
+  "branchNoteHidden": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "case": "resize while finished Pneumonoultramicroscopicsilicovolcanoconiosis large",
+  "steps": [
+   "390",
+   "1400",
+   "1920",
+   "390"
+  ],
+  "cmp": [
+   {
+    "font": [
+     "13px",
+     "13px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "23px",
+     "23px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   },
+   {
+    "font": [
+     "128px",
+     "44px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": false,
+    "styleEqual": false
+   },
+   {
+    "font": [
+     "13px",
+     "13px"
+    ],
+    "classes": [
+     "word-display large fitted-long-word",
+     "word-display large fitted-long-word"
+    ],
+    "rectEqual": true,
+    "styleEqual": true
+   }
+  ],
+  "branchInert": [
+   false,
+   false,
+   false,
+   false
+  ],
+  "branchNoteHidden": [
+   true,
+   true,
+   true,
+   true
+  ]
+ }
+]

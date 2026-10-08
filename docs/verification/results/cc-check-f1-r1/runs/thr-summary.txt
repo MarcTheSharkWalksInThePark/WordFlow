@@ -1,0 +1,21 @@
+390x844 ctx 1 letter 1 W gap 116.50 lastNon 300 nat 107 first 301 nat 117 area 130 ok
+390x844 ctx 1 letter 1 real gap 116.50 lastNon 603 nat 107 first 604 nat 117 area 130 ok
+390x844 ctx 0 letter 0 W gap 116.50 lastNon 300 nat 107 first 301 nat 117 area 130 ok
+1400x950 ctx 1 letter 1 W gap 285.91 lastNon 1458 nat 285 first 1459 nat 296 area 477 FAIL ["below: word overlaps context previous {\"w\":58.344,\"h\":0.75}","below: word overlaps context next {\"w\":42.438,\"h\":0.297}","sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true
+1400x950 ctx 1 letter 1 real gap 285.91 lastNon 2892 nat 285 first 2893 nat 296 area 477 FAIL ["below: word overlaps context previous {\"w\":58.344,\"h\":0.75}","below: word overlaps context next {\"w\":42.438,\"h\":0.297}","sweep n=2892 collision/outside {\"n\":2892,\"h\":287,\"wrapped\":true
+1400x950 ctx 0 letter 0 W gap 285.91 lastNon 1458 nat 285 first 1459 nat 296 area 477 ok
+996x950 focus ctx 1 letter 1 W gap 307.03 lastNon 2349 nat 306 first 2350 nat 317 area 497 FAIL ["below: word overlaps context next {\"w\":35.219,\"h\":0.234}","sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.
+996x950 focus ctx 1 letter 1 real gap 307.03 lastNon 4697 nat 306 first 4698 nat 317 area 497 FAIL ["below: word overlaps context next {\"w\":35.219,\"h\":0.234}","sweep n=4697 collision/outside {\"n\":4697,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.
+996x950 focus ctx 0 letter 0 W gap 307.03 lastNon 2349 nat 306 first 2350 nat 317 area 497 ok
+fails [
+  '1400x950 {"context":true,"letter":true} W: below: word overlaps context previous {"w":58.344,"h":0.75}',
+  '1400x950 {"context":true,"letter":true} W: below: word overlaps context next {"w":42.438,"h":0.297}',
+  '1400x950 {"context":true,"letter":true} W: sweep n=1458 collision/outside {"n":1458,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}',
+  '1400x950 {"context":true,"letter":true} real: below: word overlaps context previous {"w":58.344,"h":0.75}',
+  '1400x950 {"context":true,"letter":true} real: below: word overlaps context next {"w":42.438,"h":0.297}',
+  '1400x950 {"context":true,"letter":true} real: sweep n=2892 collision/outside {"n":2892,"h":287,"wrapped":true,"scrolling":false,"prev":{"w":58.344,"h":0.75},"next":{"w":42.438,"h":0.297},"inside":true}',
+  '996x950 focus {"context":true,"letter":true} W: below: word overlaps context next {"w":35.219,"h":0.234}',
+  '996x950 focus {"context":true,"letter":true} W: sweep n=2349 collision/outside {"n":2349,"h":308,"wrapped":true,"scrolling":false,"prev":null,"next":{"w":35.219,"h":0.234},"inside":true}',
+  '996x950 focus {"context":true,"letter":true} real: below: word overlaps context next {"w":35.219,"h":0.234}',
+  '996x950 focus {"context":true,"letter":true} real: sweep n=4697 collision/outside {"n":4697,"h":308,"wrapped":true,"scrolling":false,"prev":null,"next":{"w":35.219,"h":0.234},"inside":true}'
+]

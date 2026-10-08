@@ -1,0 +1,73 @@
+844x390 large letter=true context=true: 2 rows, 11 s
+1708x950 large letter=true context=true: 4 rows, 20 s
+1920x1080 large letter=true context=true: 6 rows, 29 s
+996x950 focus comfortable letter=true context=true: 8 rows, 40 s
+{
+ "mode": "recheck",
+ "rows": 8,
+ "failing": 0,
+ "pageErrors": [],
+ "masterVisible": 4,
+ "masterClipped": 4,
+ "scrolling": 0,
+ "wrappedNoScroll": 2,
+ "naturalTwoPlays": 0,
+ "pixelFirstCaptureDiffs": [],
+ "inertProbes": 0,
+ "inertOk": 0,
+ "restartExact": 4,
+ "restartEmptyStyleOnly": [
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx139",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx139",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1920x1080",
+   "f": false,
+   "s": "large",
+   "t": "Høyesterettsadvokat.",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1920x1080",
+   "f": false,
+   "s": "large",
+   "t": "Høyesterettsadvokat.",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  }
+ ],
+ "noWordPixels": [],
+ "uncoveredByPanel": [
+  "direct 844x390  large Internationalization.  mv 4",
+  "direct 844x390  large Internationalization.  mv 4",
+  "direct 1708x950  large Wx139  clipped 2180",
+  "direct 1708x950  large Wx139  clipped 2180",
+  "direct 1920x1080  large Høyesterettsadvokat.  clipped 16505",
+  "direct 1920x1080  large Høyesterettsadvokat.  clipped 16505",
+  "direct 996x950 focus comfortable understanding.  mv 5974",
+  "direct 996x950 focus comfortable understanding.  mv 5974"
+ ],
+ "scrollYDiffer": 0
+}

@@ -1,0 +1,194 @@
+[
+ {
+  "kind": "natural",
+  "viewport": "1920x1080",
+  "focusMode": false,
+  "size": "comfortable",
+  "letter": false,
+  "context": true,
+  "token": "Kommune.",
+  "plays": [
+   1,
+   1
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "108.8px",
+  "branchFont": "108.8px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 6258,
+   "uncoveredByPanel": 976,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4581
+  },
+  "masterPaint": {
+   "painted": 6258,
+   "outside": false,
+   "bbox": {
+    "left": 710,
+    "top": 489,
+    "right": 1254,
+    "bottom": 566
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1542,
+    "bottom": 899
+   }
+  },
+  "branchBbox": {
+   "left": 710,
+   "top": 489,
+   "right": 1254,
+   "bottom": 566
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1542,
+   "bottom": 899
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "natural",
+  "viewport": "1920x1080",
+  "focusMode": false,
+  "size": "comfortable",
+  "letter": false,
+  "context": true,
+  "token": "Kommune.",
+  "plays": [
+   1,
+   1
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "108.8px",
+  "branchFont": "108.8px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 6258,
+   "uncoveredByPanel": 976,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4581
+  },
+  "masterPaint": {
+   "painted": 6258,
+   "outside": false,
+   "bbox": {
+    "left": 710,
+    "top": 489,
+    "right": 1254,
+    "bottom": 566
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1542,
+    "bottom": 899
+   }
+  },
+  "branchBbox": {
+   "left": 710,
+   "top": 489,
+   "right": 1254,
+   "bottom": 566
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1542,
+   "bottom": 899
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ }
+]

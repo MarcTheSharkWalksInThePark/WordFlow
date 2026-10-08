@@ -1,0 +1,66 @@
+1708x950 large letter=true context=true: 4 rows, 18 s
+{
+ "mode": "recheck",
+ "rows": 4,
+ "failing": 0,
+ "pageErrors": [],
+ "masterVisible": 0,
+ "masterClipped": 4,
+ "scrolling": 0,
+ "wrappedNoScroll": 4,
+ "naturalTwoPlays": 0,
+ "pixelFirstCaptureDiffs": [],
+ "inertProbes": 0,
+ "inertOk": 0,
+ "restartExact": 0,
+ "restartEmptyStyleOnly": [
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx135",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx2000",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx135",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  },
+  {
+   "v": "1708x950",
+   "f": false,
+   "s": "large",
+   "t": "Wx2000",
+   "k": "direct",
+   "mv": false,
+   "mf": "128px",
+   "side": "branch"
+  }
+ ],
+ "noWordPixels": [],
+ "uncoveredByPanel": [
+  "direct 1708x950  large Wx135  clipped 1939",
+  "direct 1708x950  large Wx2000  clipped 58468",
+  "direct 1708x950  large Wx135  clipped 1939",
+  "direct 1708x950  large Wx2000  clipped 58468"
+ ],
+ "scrollYDiffer": 0
+}

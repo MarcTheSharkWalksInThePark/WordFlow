@@ -1,0 +1,23 @@
+390x844 comfortable letter=true context=true: 38 rows, 201 s
+390x844 large letter=true context=true: 76 rows, 399 s
+390x600 comfortable letter=true context=true: 114 rows, 596 s
+390x600 large letter=true context=true: 152 rows, 792 s
+844x390 comfortable letter=true context=true: 190 rows, 990 s
+FAIL {"k":"direct","v":"844x390","f":false,"s":"large","l":true,"c":true,"t":"Internationalization.","e":["word paints outside inner frame"]}
+844x390 large letter=true context=true: 228 rows, 1187 s
+1400x950 comfortable letter=true context=true: 266 rows, 1388 s
+1400x950 large letter=true context=true: 304 rows, 1589 s
+1708x950 comfortable letter=true context=true: 342 rows, 1778 s
+FAIL {"k":"direct","v":"1708x950","f":false,"s":"large","l":true,"c":true,"t":"Wx135","e":["word paints outside inner frame"]}
+FAIL {"k":"direct","v":"1708x950","f":false,"s":"large","l":true,"c":true,"t":"Wx2000","e":["word paints outside inner frame"]}
+1708x950 large letter=true context=true: 380 rows, 1965 s
+1920x1080 comfortable letter=true context=true: 418 rows, 2159 s
+FAIL {"k":"direct","v":"1920x1080","f":false,"s":"large","l":true,"c":true,"t":"Høyesterettsadvokat.","e":["word paints outside inner frame"]}
+1920x1080 large letter=true context=true: 456 rows, 2346 s
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"understanding.","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"kommunikasjon.","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"Kommune.","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"here.","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"Tail","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"Bærekraftig.","e":["exception: locator.click: Timeout 30000ms exceeded."]}
+FAIL {"k":"natural","v":"996x950","f":true,"s":"comfortable","l":true,"c":true,"t":"Arbeidsmiljøloven.","e":["exception: locator.click: Timeout 30000ms exceeded."]}

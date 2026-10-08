@@ -1,0 +1,1130 @@
+[
+ {
+  "kind": "direct",
+  "viewport": "844x390",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Internationalization.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "36px",
+  "branchFont": "36px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 712,
+   "uncoveredByPanel": 4,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 505
+  },
+  "masterPaint": {
+   "painted": 712,
+   "outside": false,
+   "bbox": {
+    "left": 441,
+    "top": 182,
+    "right": 781,
+    "bottom": 209
+   },
+   "inner": {
+    "left": 418,
+    "top": 12,
+    "right": 802,
+    "bottom": 378
+   }
+  },
+  "branchBbox": {
+   "left": 441,
+   "top": 182,
+   "right": 781,
+   "bottom": 209
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 12,
+   "right": 802,
+   "bottom": 378
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "844x390",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Internationalization.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "36px",
+  "branchFont": "36px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 712,
+   "uncoveredByPanel": 4,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 505
+  },
+  "masterPaint": {
+   "painted": 712,
+   "outside": false,
+   "bbox": {
+    "left": 441,
+    "top": 182,
+    "right": 781,
+    "bottom": 209
+   },
+   "inner": {
+    "left": 418,
+    "top": 12,
+    "right": 802,
+    "bottom": 378
+   }
+  },
+  "branchBbox": {
+   "left": 441,
+   "top": 182,
+   "right": 781,
+   "bottom": 209
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 12,
+   "right": 802,
+   "bottom": 378
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "1708x950",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Wx139",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": false,
+  "masterFont": "128px",
+  "branchFont": "10px",
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 2809,
+   "uncoveredByPanel": 2180,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 407
+  },
+  "masterPaint": {
+   "painted": 29761,
+   "outside": false,
+   "bbox": {
+    "left": 418,
+    "top": 417,
+    "right": 1330,
+    "bottom": 507
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1330,
+    "bottom": 769
+   }
+  },
+  "branchBbox": {
+   "left": 467,
+   "top": 449,
+   "right": 1282,
+   "bottom": 466
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1330,
+   "bottom": 769
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       732.59375,
+       387.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       732.59375,
+       387.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    }
+   },
+   "play": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       838.015625,
+       390.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       838.015625,
+       390.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    },
+    "firstWord": false,
+    "firstWordDiff": [
+     "word"
+    ],
+    "firstWordEmptyStyleOnly": true
+   }
+  },
+  "scrolling": false,
+  "wrapped": true,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "1708x950",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Wx139",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": false,
+  "masterFont": "128px",
+  "branchFont": "10px",
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 2809,
+   "uncoveredByPanel": 2180,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 407
+  },
+  "masterPaint": {
+   "painted": 29761,
+   "outside": false,
+   "bbox": {
+    "left": 418,
+    "top": 417,
+    "right": 1330,
+    "bottom": 507
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1330,
+    "bottom": 769
+   }
+  },
+  "branchBbox": {
+   "left": 467,
+   "top": 449,
+   "right": 1282,
+   "bottom": 466
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1330,
+   "bottom": 769
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       732.59375,
+       387.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       732.59375,
+       387.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    }
+   },
+   "play": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       838.015625,
+       390.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       838.015625,
+       390.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    },
+    "firstWord": false,
+    "firstWordDiff": [
+     "word"
+    ],
+    "firstWordEmptyStyleOnly": true
+   }
+  },
+  "scrolling": false,
+  "wrapped": true,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "1920x1080",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Høyesterettsadvokat.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": false,
+  "masterFont": "128px",
+  "branchFont": "100px",
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 21135,
+   "uncoveredByPanel": 16505,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4239
+  },
+  "masterPaint": {
+   "painted": 33832,
+   "outside": false,
+   "bbox": {
+    "left": 427,
+    "top": 477,
+    "right": 1542,
+    "bottom": 603
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1542,
+    "bottom": 899
+   }
+  },
+  "branchBbox": {
+   "left": 486,
+   "top": 488,
+   "right": 1477,
+   "bottom": 586
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1542,
+   "bottom": 899
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       838.59375,
+       452.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       838.59375,
+       452.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    }
+   },
+   "play": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       944.015625,
+       455.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       944.015625,
+       455.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    },
+    "firstWord": false,
+    "firstWordDiff": [
+     "word"
+    ],
+    "firstWordEmptyStyleOnly": true
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "1920x1080",
+  "focusMode": false,
+  "size": "large",
+  "letter": true,
+  "context": true,
+  "token": "Høyesterettsadvokat.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": false,
+  "masterFont": "128px",
+  "branchFont": "100px",
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 21135,
+   "uncoveredByPanel": 16505,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4239
+  },
+  "masterPaint": {
+   "painted": 33832,
+   "outside": false,
+   "bbox": {
+    "left": 427,
+    "top": 477,
+    "right": 1542,
+    "bottom": 603
+   },
+   "inner": {
+    "left": 418,
+    "top": 144,
+    "right": 1542,
+    "bottom": 899
+   }
+  },
+  "branchBbox": {
+   "left": 486,
+   "top": 488,
+   "right": 1477,
+   "bottom": 586
+  },
+  "branchInner": {
+   "left": 418,
+   "top": 144,
+   "right": 1542,
+   "bottom": 899
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       838.59375,
+       452.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": false,
+      "countdownValue": null,
+      "status": "Restarted",
+      "word": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+      "font": "128px",
+      "rect": [
+       838.59375,
+       452.375,
+       282.8125,
+       138.234375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    }
+   },
+   "play": {
+    "immediate": false,
+    "settled": false,
+    "immediateDiff": [
+     "word"
+    ],
+    "settledDiff": [
+     "word"
+    ],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": true,
+    "emptyStyleSide": "branch",
+    "detail": {
+     "master": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       944.015625,
+       455.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     },
+     "branch": {
+      "index": 0,
+      "finished": false,
+      "playing": false,
+      "countdown": true,
+      "countdownValue": 3,
+      "status": "Starting",
+      "word": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"countdown-word\">3</span></div>",
+      "font": "108.8px",
+      "rect": [
+       944.015625,
+       455.8125,
+       71.96875,
+       131.375
+      ],
+      "panelHidden": true,
+      "play": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Pause\" aria-label=\"Pause\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"6\" y=\"5\" width=\"4\" height=\"14\"></rect><rect x=\"14\" y=\"5\" width=\"4\" height=\"14\"></rect></svg>\n            </button>",
+      "note": true,
+      "scrollY": 0
+     }
+    },
+    "firstWord": false,
+    "firstWordDiff": [
+     "word"
+    ],
+    "firstWordEmptyStyleOnly": true
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "996x950",
+  "focusMode": true,
+  "size": "comfortable",
+  "letter": true,
+  "context": true,
+  "token": "understanding.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "99.6px",
+  "branchFont": "99.6px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 10822,
+   "uncoveredByPanel": 5974,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4054
+  },
+  "masterPaint": {
+   "painted": 10822,
+   "outside": false,
+   "bbox": {
+    "left": 147,
+    "top": 432,
+    "right": 850,
+    "bottom": 530
+   },
+   "inner": {
+    "left": 42,
+    "top": 144,
+    "right": 954,
+    "bottom": 789
+   }
+  },
+  "branchBbox": {
+   "left": 147,
+   "top": 432,
+   "right": 850,
+   "bottom": 530
+  },
+  "branchInner": {
+   "left": 42,
+   "top": 144,
+   "right": 954,
+   "bottom": 789
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ },
+ {
+  "kind": "direct",
+  "viewport": "996x950",
+  "focusMode": true,
+  "size": "comfortable",
+  "letter": true,
+  "context": true,
+  "token": "understanding.",
+  "plays": [
+   0,
+   0
+  ],
+  "readingScroll": false,
+  "masterVisible": true,
+  "masterFont": "99.6px",
+  "branchFont": "99.6px",
+  "pixels": [
+   {
+    "px": 0,
+    "max": 0
+   }
+  ],
+  "noWordPixels": false,
+  "paint": {
+   "outsideInner": {
+    "n": 0,
+    "max": 0
+   },
+   "painted": 10822,
+   "uncoveredByPanel": 5974,
+   "outside": false,
+   "aboveAny": [],
+   "panelMax": 9,
+   "panelPixels": 4054
+  },
+  "masterPaint": {
+   "painted": 10822,
+   "outside": false,
+   "bbox": {
+    "left": 147,
+    "top": 432,
+    "right": 850,
+    "bottom": 530
+   },
+   "inner": {
+    "left": 42,
+    "top": 144,
+    "right": 954,
+    "bottom": 789
+   }
+  },
+  "branchBbox": {
+   "left": 147,
+   "top": 432,
+   "right": 850,
+   "bottom": 530
+  },
+  "branchInner": {
+   "left": 42,
+   "top": 144,
+   "right": 954,
+   "bottom": 789
+  },
+  "scrollY": [
+   0,
+   0
+  ],
+  "restart": {
+   "restart": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": null,
+    "status": "Restarted",
+    "emptyStyleOnly": false
+   },
+   "play": {
+    "immediate": true,
+    "settled": true,
+    "immediateDiff": [],
+    "settledDiff": [],
+    "index": 0,
+    "countdownValue": 3,
+    "status": "Starting",
+    "emptyStyleOnly": false,
+    "firstWord": true,
+    "firstWordDiff": [],
+    "firstWordEmptyStyleOnly": false
+   }
+  },
+  "scrolling": false,
+  "wrapped": false,
+  "errors": []
+ }
+]

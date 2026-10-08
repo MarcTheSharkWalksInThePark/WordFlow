@@ -1,0 +1,77 @@
+
+> wordflow@0.1.0 parity
+> node tools/parity.cjs
+
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 8 direct / 8 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 16 direct / 16 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 24 direct / 24 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 32 direct / 32 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 40 direct / 40 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 48 direct / 48 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 56 direct / 56 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 64 direct / 64 natural
+Finished matrix: 72 direct / 72 natural
+Finished matrix: 80 direct / 80 natural
+Finished matrix: 88 direct / 88 natural
+Finished matrix: 96 direct / 96 natural
+{"passed":884,"viewports":2,"errors":0,"uploadRequests":0}
+PASS: generated tests/parity-stamp.json
+
+real	11m50.673s
+user	0m0.076s
+sys	0m0.045s
+exit 0
+ M docs/verification/results/post-review/browser-parity.json
+ M docs/verification/results/post-review/static-quota-1400.png
+ M docs/verification/results/post-review/static-quota-390.png
+ M docs/verification/results/post-review/static-reader-1400.png
+ M docs/verification/results/post-review/static-reader-390.png
+ M docs/verification/results/post-review/static-smoke.json
+?? docs/verification/results/post-review/f1-scroll-1400.png
+?? docs/verification/results/post-review/f1-scroll-390.png
+?? docs/verification/results/post-review/finish-390-W2000-after.png
+?? docs/verification/results/post-review/finish-390-W2000-before.png
+?? docs/verification/results/post-review/finish-390-W2000-master.png
+?? docs/verification/results/post-review/finish-390-kommunikasjon-after.png
+?? docs/verification/results/post-review/finish-390-kommunikasjon-before.png
+?? docs/verification/results/post-review/finish-390-kommunikasjon-master.png
+?? docs/verification/results/post-review/finish-390-understanding-after.png
+?? docs/verification/results/post-review/finish-390-understanding-before.png
+?? docs/verification/results/post-review/finish-390-understanding-master.png
+?? docs/verification/results/post-review/finished-0/
+?? docs/verification/results/post-review/finished-1/
+?? docs/verification/results/post-review/finished-2/
+?? docs/verification/results/post-review/finished-3/
+?? docs/verification/results/post-review/reader-1400.json
+?? docs/verification/results/post-review/reader-390.json
+?? docs/verification/results/post-review/reader-finished.json
+?? docs/verification/results/post-review/reader-round2.json
+?? docs/verification/results/post-review/round2-normal-1920.png
+?? docs/verification/results/post-review/round2-normal-390.png
+?? docs/verification/results/post-review/round2-phone-scroll.png
+?? docs/verification/results/post-review/wide-controls.json

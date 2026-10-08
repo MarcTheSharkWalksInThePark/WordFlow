@@ -1,0 +1,366 @@
+[
+ {
+  "name": "short final only",
+  "viewport": "390x844",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead Tail",
+     "style": null,
+     "font": "51.2px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "51.2px",
+    "classes": "word-display"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead Tail",
+     "style": null,
+     "font": "51.2px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "51.2px",
+    "classes": "word-display"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "outerHTMLEqual": true,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ },
+ {
+  "name": "master-fitted earlier word, then short final",
+  "viewport": "390x844",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead Kommunikasjonsmiddel Tail",
+     "style": "font-size: 27px;",
+     "font": "27px"
+    },
+    {
+     "text": "Lead Tail",
+     "style": "",
+     "font": "51.2px"
+    }
+   ],
+   "finished": {
+    "style": "",
+    "font": "51.2px",
+    "classes": "word-display"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead Kommunikasjonsmiddel Tail",
+     "style": "font-size: 27px;",
+     "font": "27px"
+    },
+    {
+     "text": "Lead Tail",
+     "style": "",
+     "font": "51.2px"
+    }
+   ],
+   "finished": {
+    "style": "",
+    "font": "51.2px",
+    "classes": "word-display"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "outerHTMLEqual": true,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ },
+ {
+  "name": "final word master fits (understanding.)",
+  "viewport": "390x844",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead understanding.",
+     "style": "font-size: 43px;",
+     "font": "43px"
+    }
+   ],
+   "finished": {
+    "style": "font-size: 43px;",
+    "font": "43px",
+    "classes": "word-display fitted-long-word"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead understanding.",
+     "style": "font-size: 43px;",
+     "font": "43px"
+    }
+   ],
+   "finished": {
+    "style": "font-size: 43px;",
+    "font": "43px",
+    "classes": "word-display fitted-long-word"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "51.2px",
+    "rect": [
+     138.421875,
+     345.828125,
+     113.140625,
+     55.28125
+    ],
+    "classes": "word-display"
+   }
+  },
+  "outerHTMLEqual": true,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ },
+ {
+  "name": "final 45-char word, 1708 comfortable (Codex case)",
+  "viewport": "1708x950",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead Pneumonoultramicroscopics",
+     "style": null,
+     "font": "108.8px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "108.8px",
+    "classes": "word-display"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "108.8px",
+    "rect": [
+     753.796875,
+     397.75,
+     240.40625,
+     117.5
+    ],
+    "classes": "word-display"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead Pneumonoultramicroscopics",
+     "style": "font-size: 36px;",
+     "font": "36px"
+    }
+   ],
+   "finished": {
+    "style": "font-size: 36px;",
+    "font": "36px",
+    "classes": "word-display fitted-long-word"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "108.8px",
+    "rect": [
+     753.796875,
+     397.75,
+     240.40625,
+     117.5
+    ],
+    "classes": "word-display"
+   }
+  },
+  "outerHTMLEqual": false,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ },
+ {
+  "name": "final Kommunikasjonsmiddel, 1708 large",
+  "viewport": "1708x950",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead Kommunikasjonsmiddel",
+     "style": null,
+     "font": "128px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "128px",
+    "classes": "word-display large"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "128px",
+    "rect": [
+     732.59375,
+     387.375,
+     282.8125,
+     138.234375
+    ],
+    "classes": "word-display large"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead Kommunikasjonsmiddel",
+     "style": "font-size: 72px;",
+     "font": "72px"
+    }
+   ],
+   "finished": {
+    "style": "font-size: 72px;",
+    "font": "72px",
+    "classes": "word-display large fitted-long-word"
+   },
+   "afterRestart": {
+    "style": "",
+    "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\" style=\"\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "128px",
+    "rect": [
+     732.59375,
+     387.375,
+     282.8125,
+     138.234375
+    ],
+    "classes": "word-display large"
+   }
+  },
+  "outerHTMLEqual": false,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ },
+ {
+  "name": "final Understanding, 1708 large (visible on master, wider than 820)",
+  "viewport": "1708x950",
+  "master": {
+   "trail": [
+    {
+     "text": "Lead Understanding",
+     "style": null,
+     "font": "128px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "128px",
+    "classes": "word-display large"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "128px",
+    "rect": [
+     732.59375,
+     387.375,
+     282.8125,
+     138.234375
+    ],
+    "classes": "word-display large"
+   }
+  },
+  "branch": {
+   "trail": [
+    {
+     "text": "Lead Understanding",
+     "style": null,
+     "font": "128px"
+    }
+   ],
+   "finished": {
+    "style": null,
+    "font": "128px",
+    "classes": "word-display large"
+   },
+   "afterRestart": {
+    "style": null,
+    "outerHTML": "<div id=\"word-display\" class=\"word-display large\" aria-live=\"off\"><span class=\"word-left\">L</span><span class=\"word-focus\">e</span><span class=\"word-right\">ad</span></div>",
+    "font": "128px",
+    "rect": [
+     732.59375,
+     387.375,
+     282.8125,
+     138.234375
+    ],
+    "classes": "word-display large"
+   }
+  },
+  "outerHTMLEqual": true,
+  "equalIgnoringEmptyStyle": true,
+  "fontRectEqual": true
+ }
+]

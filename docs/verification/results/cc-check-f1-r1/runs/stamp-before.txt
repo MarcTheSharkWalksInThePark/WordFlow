@@ -1,0 +1,1 @@
+3ca46f922440c6f6a131252b61f0005b58941e7b9e863679861384ed91ddebdf *tests/parity-stamp.json

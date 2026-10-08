@@ -1,0 +1,1930 @@
+{
+ "rows": [
+  {
+   "layout": "390x844",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.242,
+     "top": 318.969,
+     "right": 345.742,
+     "bottom": 427.469,
+     "width": 301.5,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 66,
+   "lastNonScroll": 603,
+   "firstScroll": 604,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 41.195,
+     "top": 318.969,
+     "right": 348.805,
+     "bottom": 427.469,
+     "width": 307.609,
+     "height": 108.5
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 295.625,
+      "right": 212.68,
+      "bottom": 313.219,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 293.625,
+      "right": 212.68,
+      "bottom": 314.625,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 433.719,
+      "right": 207.859,
+      "bottom": 451.313,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 431.719,
+      "right": 207.859,
+      "bottom": 452.719,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 177.32,
+      "top": 246.469,
+      "right": 212.68,
+      "bottom": 264.063,
+      "width": 35.359,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 177.32,
+      "top": 244.469,
+      "right": 212.68,
+      "bottom": 265.469,
+      "width": 35.359,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 182.141,
+      "top": 440.875,
+      "right": 207.859,
+      "bottom": 458.469,
+      "width": 25.719,
+      "height": 17.594
+     },
+     "ink": {
+      "left": 182.141,
+      "top": 438.875,
+      "right": 207.859,
+      "bottom": 459.875,
+      "width": 25.719,
+      "height": 21
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 66,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 133,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 200,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 335,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 402,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 469,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 536,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 603,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "390x844",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 117.09375,
+    "centred": 116.5,
+    "frameH": 278
+   },
+   "firstWrap": 35,
+   "lastNonScroll": 300,
+   "firstScroll": 301,
+   "belowNat": 107,
+   "aboveNat": 117,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 44.258,
+     "top": 318.969,
+     "right": 345.727,
+     "bottom": 427.469,
+     "width": 301.469,
+     "height": 108.5
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 41.102,
+     "top": 286.469,
+     "right": 348.898,
+     "bottom": 416.469,
+     "width": 307.797,
+     "height": 130
+    },
+    "area": {
+     "clientH": 130,
+     "scrollH": 130,
+     "scrollTop": 0,
+     "clientW": 308,
+     "scrollW": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 37.672,
+      "top": 487.469,
+      "right": 352.297,
+      "bottom": 502.469,
+      "width": 314.625,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 24,
+     "top": 234.469,
+     "right": 366,
+     "bottom": 512.469,
+     "width": 342,
+     "height": 278
+    }
+   },
+   "sweep": [
+    {
+     "n": 35,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 68,
+     "h": 35,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 101,
+     "h": 45.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 134,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 168,
+     "h": 66.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 201,
+     "h": 77,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 234,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 267,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 300,
+     "h": 108.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.656,
+     "top": 312.75,
+     "right": 991.328,
+     "bottom": 599.75,
+     "width": 542.672,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 281.5,
+      "right": 749.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 278.5,
+      "right": 749.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 602.453,
+      "right": 741.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 599.453,
+      "right": 741.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 156,
+      "right": 749.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 153,
+      "right": 749.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 685.953,
+      "right": 741.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 682.953,
+      "right": 741.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 120,
+   "lastNonScroll": 2892,
+   "firstScroll": 2893,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.344,
+     "top": 312.75,
+     "right": 991.656,
+     "bottom": 599.75,
+     "width": 543.313,
+     "height": 287
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 281.5,
+      "right": 749.172,
+      "bottom": 310.547,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 278.5,
+      "right": 749.172,
+      "bottom": 313.5,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": {
+      "w": 58.344,
+      "h": 0.75
+     }
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 602.453,
+      "right": 741.219,
+      "bottom": 631.5,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 599.453,
+      "right": 741.219,
+      "bottom": 634.453,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": {
+      "w": 42.438,
+      "h": 0.297
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 690.828,
+      "top": 156,
+      "right": 749.172,
+      "bottom": 185.047,
+      "width": 58.344,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 690.828,
+      "top": 153,
+      "right": 749.172,
+      "bottom": 188,
+      "width": 58.344,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 698.781,
+      "top": 685.953,
+      "right": 741.219,
+      "bottom": 715,
+      "width": 42.438,
+      "height": 29.047
+     },
+     "ink": {
+      "left": 698.781,
+      "top": 682.953,
+      "right": 741.219,
+      "bottom": 717.953,
+      "width": 42.438,
+      "height": 35
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 120,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 467,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 813,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1160,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1506,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1853,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2199,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2546,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2892,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": {
+      "w": 58.344,
+      "h": 0.75
+     },
+     "next": {
+      "w": 42.438,
+      "h": 0.297
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+    "below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+    "sweep n=2892 collision/outside {\"n\":2892,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "1400x950",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 285.953125,
+    "centred": 285.90625,
+    "frameH": 625
+   },
+   "firstWrap": 61,
+   "lastNonScroll": 1458,
+   "firstScroll": 1459,
+   "belowNat": 285,
+   "aboveNat": 296,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 448.672,
+     "top": 312.75,
+     "right": 991.313,
+     "bottom": 599.75,
+     "width": 542.641,
+     "height": 287
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 448.203,
+     "top": 196,
+     "right": 991.797,
+     "bottom": 673,
+     "width": 543.594,
+     "height": 477
+    },
+    "area": {
+     "clientH": 477,
+     "scrollH": 477,
+     "scrollTop": 0,
+     "clientW": 544,
+     "scrollW": 544
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 442.156,
+      "top": 744,
+      "right": 997.828,
+      "bottom": 759,
+      "width": 555.672,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 418,
+     "top": 144,
+     "right": 1022,
+     "bottom": 769,
+     "width": 604,
+     "height": 625
+    }
+   },
+   "sweep": [
+    {
+     "n": 61,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 236,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 410,
+     "h": 87.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 585,
+     "h": 119,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 760,
+     "h": 161,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 934,
+     "h": 192.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1109,
+     "h": 224,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1283,
+     "h": 255.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1458,
+     "h": 287,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.992,
+     "bottom": 620.25,
+     "width": 813.984,
+     "height": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 285.891,
+      "right": 522.211,
+      "bottom": 309.984,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 282.891,
+      "right": 522.211,
+      "bottom": 311.891,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 623.016,
+      "right": 515.609,
+      "bottom": 647.109,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 620.016,
+      "right": 515.609,
+      "bottom": 649.016,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": {
+      "w": 35.219,
+      "h": 0.234
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 156,
+      "right": 522.211,
+      "bottom": 180.094,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 153,
+      "right": 522.211,
+      "bottom": 182,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 710.906,
+      "right": 515.609,
+      "bottom": 735,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 707.906,
+      "right": 515.609,
+      "bottom": 736.906,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": {
+      "w": 35.219,
+      "h": 0.234
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+    "sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": true,
+   "letter": true,
+   "kind": "real",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 181,
+   "lastNonScroll": 4697,
+   "firstScroll": 4698,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 87.789,
+     "top": 312.25,
+     "right": 908.195,
+     "bottom": 620.25,
+     "width": 820.406,
+     "height": 308
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 285.891,
+      "right": 522.211,
+      "bottom": 309.984,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 282.891,
+      "right": 522.211,
+      "bottom": 311.891,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 623.016,
+      "right": 515.609,
+      "bottom": 647.109,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 620.016,
+      "right": 515.609,
+      "bottom": 649.016,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": {
+      "w": 35.219,
+      "h": 0.234
+     }
+    },
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": {
+     "text": "Lead",
+     "box": {
+      "left": 473.789,
+      "top": 156,
+      "right": 522.211,
+      "bottom": 180.094,
+      "width": 48.422,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 473.789,
+      "top": 153,
+      "right": 522.211,
+      "bottom": 182,
+      "width": 48.422,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "next": {
+     "text": "Tail",
+     "box": {
+      "left": 480.391,
+      "top": 710.906,
+      "right": 515.609,
+      "bottom": 735,
+      "width": 35.219,
+      "height": 24.094
+     },
+     "ink": {
+      "left": 480.391,
+      "top": 707.906,
+      "right": 515.609,
+      "bottom": 736.906,
+      "width": 35.219,
+      "height": 29
+     },
+     "overlap": null
+    },
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 181,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 746,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1310,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1875,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2439,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3004,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 3568,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4133,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 4697,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": {
+      "w": 35.219,
+      "h": 0.234
+     },
+     "inside": true
+    }
+   ],
+   "fail": [
+    "below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+    "sweep n=4697 collision/outside {\"n\":4697,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+   ]
+  },
+  {
+   "layout": "996x950 focus",
+   "context": false,
+   "letter": false,
+   "kind": "W",
+   "gap": {
+    "uncentred": 308.125,
+    "centred": 307.03125,
+    "frameH": 645
+   },
+   "firstWrap": 91,
+   "lastNonScroll": 2349,
+   "firstScroll": 2350,
+   "belowNat": 306,
+   "aboveNat": 317,
+   "below": {
+    "wrapped": true,
+    "scrolling": false,
+    "text": {
+     "left": 91.008,
+     "top": 312.25,
+     "right": 904.977,
+     "bottom": 620.25,
+     "width": 813.969,
+     "height": 308
+    },
+    "prev": null,
+    "next": null,
+    "note": null,
+    "inside": true
+   },
+   "above": {
+    "scrolling": true,
+    "word": {
+     "left": 87.602,
+     "top": 196,
+     "right": 908.398,
+     "bottom": 693,
+     "width": 820.797,
+     "height": 497
+    },
+    "area": {
+     "clientH": 497,
+     "scrollH": 497,
+     "scrollTop": 0,
+     "clientW": 821,
+     "scrollW": 821
+    },
+    "prev": null,
+    "next": null,
+    "note": {
+     "rect": {
+      "left": 78.469,
+      "top": 764,
+      "right": 917.5,
+      "bottom": 779,
+      "width": 839.031,
+      "height": 15
+     },
+     "overlap": null,
+     "ctxOverlap": [],
+     "inViewport": true
+    },
+    "inner": {
+     "left": 42,
+     "top": 144,
+     "right": 954,
+     "bottom": 789,
+     "width": 912,
+     "height": 645
+    }
+   },
+   "sweep": [
+    {
+     "n": 91,
+     "h": 24.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 373,
+     "h": 56,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 656,
+     "h": 98,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 938,
+     "h": 129.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1220,
+     "h": 171.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1502,
+     "h": 203,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 1785,
+     "h": 245,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2067,
+     "h": 276.5,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    },
+    {
+     "n": 2349,
+     "h": 308,
+     "wrapped": true,
+     "scrolling": false,
+     "prev": null,
+     "next": null,
+     "inside": true
+    }
+   ]
+  }
+ ],
+ "fails": [
+  "1400x950 {\"context\":true,\"letter\":true} W: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1400x950 {\"context\":true,\"letter\":true} W: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1400x950 {\"context\":true,\"letter\":true} W: sweep n=1458 collision/outside {\"n\":1458,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "1400x950 {\"context\":true,\"letter\":true} real: below: word overlaps context previous {\"w\":58.344,\"h\":0.75}",
+  "1400x950 {\"context\":true,\"letter\":true} real: below: word overlaps context next {\"w\":42.438,\"h\":0.297}",
+  "1400x950 {\"context\":true,\"letter\":true} real: sweep n=2892 collision/outside {\"n\":2892,\"h\":287,\"wrapped\":true,\"scrolling\":false,\"prev\":{\"w\":58.344,\"h\":0.75},\"next\":{\"w\":42.438,\"h\":0.297},\"inside\":true}",
+  "996x950 focus {\"context\":true,\"letter\":true} W: below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+  "996x950 focus {\"context\":true,\"letter\":true} W: sweep n=2349 collision/outside {\"n\":2349,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}",
+  "996x950 focus {\"context\":true,\"letter\":true} real: below: word overlaps context next {\"w\":35.219,\"h\":0.234}",
+  "996x950 focus {\"context\":true,\"letter\":true} real: sweep n=4697 collision/outside {\"n\":4697,\"h\":308,\"wrapped\":true,\"scrolling\":false,\"prev\":null,\"next\":{\"w\":35.219,\"h\":0.234},\"inside\":true}"
+ ]
+}

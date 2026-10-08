@@ -1,0 +1,4 @@
+RAW style-attribute-only differences (normalised): 24
+TOTAL 105 pairs: master-visible 79 (DOM-identical 79, PNG-identical 79, retried 0); master-clipped 26 (inside 26, wrapped 0, non-maximal fits 1)
+FAILS 0
+exit 0

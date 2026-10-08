@@ -1,0 +1,6 @@
+short final only @390x844: master final style=null restart style=null | branch final style=null restart style=null | outerHTML equal=true ignoringEmptyStyle=true font+rect equal=true
+master-fitted earlier word, then short final @390x844: master final style="" restart style="" | branch final style="" restart style="" | outerHTML equal=true ignoringEmptyStyle=true font+rect equal=true
+final word master fits (understanding.) @390x844: master final style="font-size: 43px;" restart style="" | branch final style="font-size: 43px;" restart style="" | outerHTML equal=true ignoringEmptyStyle=true font+rect equal=true
+final 45-char word, 1708 comfortable (Codex case) @1708x950: master final style=null restart style=null | branch final style="font-size: 36px;" restart style="" | outerHTML equal=false ignoringEmptyStyle=true font+rect equal=true
+final Kommunikasjonsmiddel, 1708 large @1708x950: master final style=null restart style=null | branch final style="font-size: 72px;" restart style="" | outerHTML equal=false ignoringEmptyStyle=true font+rect equal=true
+final Understanding, 1708 large (visible on master, wider than 820) @1708x950: master final style=null restart style=null | branch final style=null restart style=null | outerHTML equal=true ignoringEmptyStyle=true font+rect equal=true

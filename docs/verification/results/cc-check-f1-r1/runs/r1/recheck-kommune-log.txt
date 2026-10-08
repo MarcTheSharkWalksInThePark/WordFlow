@@ -1,0 +1,23 @@
+1920x1080 comfortable letter=false context=true: 2 rows, 15 s
+{
+ "mode": "recheck",
+ "rows": 2,
+ "failing": 0,
+ "pageErrors": [],
+ "masterVisible": 2,
+ "masterClipped": 0,
+ "scrolling": 0,
+ "wrappedNoScroll": 0,
+ "naturalTwoPlays": 0,
+ "pixelFirstCaptureDiffs": [],
+ "inertProbes": 0,
+ "inertOk": 0,
+ "restartExact": 2,
+ "restartEmptyStyleOnly": [],
+ "noWordPixels": [],
+ "uncoveredByPanel": [
+  "natural 1920x1080  comfortable Kommune.  mv 976",
+  "natural 1920x1080  comfortable Kommune.  mv 976"
+ ],
+ "scrollYDiffer": 0
+}
