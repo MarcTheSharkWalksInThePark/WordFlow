@@ -24,6 +24,8 @@ W6.13 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; CC re-review d
 
 W6.14 (Marcus, 2026-10-07, relayed by the claude.ai orchestrator; resolves the R-1 STOP; amends W6.13's collision condition) On master, the Finished panel overlays the centre of the reader frame and every last word lies beneath its translucent background. That is master's existing design and is not a collision. On the finished screen a collision means only: any part of the last word lying outside the frame's inner bounds; the word painted above the Finished panel or any control; or any change to a last word that is fully visible on master's finished screen. A last word in the W6.7 scroll state keeps its geometry on the finished screen but becomes inert: not focusable, no region role, no accessible description, no note, no scrolling interaction. All other W6.13 text stands.
 
+W6.15 (Marcus, 2026-10-08, relayed by the claude.ai orchestrator) CC's O-A is accepted as is: on wide screens a scroll-state last word keeps its reading area on the Finished screen, and its text may show above and below the translucent Finished panel, as W6.14 permits. Marcus authorizes a fast-forward merge of fix/f1-long-token into master and a push only through tools/push.sh.
+
 ## RULING W5 — delta-review fixes, merge and gated push
 
 MARCUS'S RULINGS (2026-10-06, relayed by the claude.ai orchestrator). Recorded verbatim before any code change.
