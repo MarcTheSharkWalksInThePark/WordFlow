@@ -1,6 +1,7 @@
 "use strict";
 const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto");
 const {execFileSync}=require("node:child_process"),assert=require("node:assert/strict");
+const PRE_F1 = "b9d3d9eedf5f67b9b6c03742faae8cf35e3cb7e7";
 const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
 const NOTE="Long text paused — scroll to read, then press play.";
 const hash=text=>crypto.createHash("sha256").update(text).digest("hex");
@@ -89,7 +90,7 @@ async function cleared(page) {
 }
 async function readerChecks({page,context,viewport,origin,verify,out,root}) {
  const master=await context.newPage();const errors=[];master.on("pageerror",e=>errors.push(e.message));
- const blobs=Object.fromEntries(["index.html","app.js","styles.css"].map(file=>["/"+file,execFileSync("git",["show","master:"+file],{cwd:root})]));
+ const blobs=Object.fromEntries(["index.html","app.js","styles.css"].map(file=>["/"+file,execFileSync("git",["show",PRE_F1+":"+file],{cwd:root})]));
  await master.route("**/*",async route=>{
   const u=new URL(route.request().url()),key=u.pathname==="/"?"/index.html":u.pathname;
   if(u.origin===origin&&blobs[key])return route.fulfill({response:await route.fetch(),body:blobs[key]});
@@ -181,4 +182,4 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
   fs.writeFileSync(path.join(out,"reader-"+viewport.width+".json"),JSON.stringify(evidence,null,2)+"\n");
  }finally{await master.close();}
 }
-module.exports={readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};
+module.exports={PRE_F1,readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};

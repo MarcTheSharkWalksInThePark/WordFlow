@@ -1,7 +1,7 @@
 "use strict";
 const fs=require("node:fs"),path=require("node:path"),assert=require("node:assert/strict");
 const {execFileSync}=require("node:child_process");
-const {baseline,prepare,measure}=require("./reader-round2.cjs"),{settle}=require("./reader-smoke.cjs");
+const {baseline,prepare,measure}=require("./reader-round2.cjs"),{PRE_F1,settle}=require("./reader-smoke.cjs");
 const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
 async function floorMeasure(page) {
  return page.evaluate(()=>{
@@ -14,9 +14,9 @@ async function floorMeasure(page) {
  });
 }
 async function wideChecks({page,context,origin,root,out,verify}) {
- const master=await baseline(context,origin,root,"master"),rows=[],clipped=[],floor=[];
+ const master=await baseline(context,origin,root,PRE_F1),rows=[],clipped=[],floor=[];
  const oldRows=JSON.parse(fs.readFileSync(path.join(root,"docs/verification/results/f1-round2/wide-controls.json")));
- const css=execFileSync("git",["show","master:styles.css"],{cwd:root});
+ const css=execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root});
  let flat=false;
  const handlers=new Map();
  for(const [p,body] of [[master,css],[page,fs.readFileSync(path.join(root,"styles.css"))]]) {

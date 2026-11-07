@@ -1,7 +1,7 @@
 "use strict";
 const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
 const {execFileSync}=require("node:child_process");
-const {baseline,prepare}=require("./reader-round2.cjs"),{settle:frames}=require("./reader-smoke.cjs");
+const {baseline,prepare}=require("./reader-round2.cjs"),{PRE_F1,settle:frames}=require("./reader-smoke.cjs");
 // Chrome throttles inactive tabs' animation frames. This suite compares visible layouts.
 async function settle(page){await page.bringToFront();await frames(page);}
 const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
@@ -103,10 +103,10 @@ async function compareRestart(master,page) {
  }
 }
 async function finishedBatch({context,origin,root,out,verify,selected}) {
- const master=await baseline(context,origin,root,"master"),page=await context.newPage(),before=await baseline(context,origin,root,"8ae3d54");
+ const master=await baseline(context,origin,root,PRE_F1),page=await context.newPage(),before=await baseline(context,origin,root,"8ae3d54");
  const evidence={direct:[],natural:[],restoration:[],errors:[],uploads:0};
  let flat=false;
- for(const [p,css]of [[master,execFileSync("git",["show","master:styles.css"],{cwd:root})],[page,fs.readFileSync(path.join(root,"styles.css"))]])
+ for(const [p,css]of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],[page,fs.readFileSync(path.join(root,"styles.css"))]])
   await p.route("**/styles.css",async route=>flat?route.fulfill({response:await route.fetch(),
    body:css.toString()+"\n.reader-frame { background: #fffdfa; }\n.finish-summary { box-shadow: none; }\n"}):route.fallback());
  for(const p of [master,page,before]){

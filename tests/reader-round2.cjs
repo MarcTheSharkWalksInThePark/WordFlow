@@ -1,7 +1,7 @@
 "use strict";
 const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
 const {execFileSync}=require("node:child_process");
-const {settle,noCollisions,cleared}=require("./reader-smoke.cjs");
+const {PRE_F1,settle,noCollisions,cleared}=require("./reader-smoke.cjs");
 const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
 const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
  [1708,950,false],[1920,1080,false],[996,950,true],[1400,950,true],[390,844,true]];
@@ -76,14 +76,14 @@ async function browserPredicateChecks(page,verify) {
   });
 }
 async function round2Checks({page,context,origin,root,out,verify}) {
- const master=await baseline(context,origin,root,"master"),before=await baseline(context,origin,root,"fc98d1e");
+ const master=await baseline(context,origin,root,PRE_F1),before=await baseline(context,origin,root,"fc98d1e");
  const evidence={master:"b9d3d9e",before:"fc98d1e",matrix:[],controls:[],data:[],play:[],preservation:[]};
  let flatBackground=false;
  // Isolate token pixels from Chrome's history-dependent dithering of the unchanged
  // translucent frame gradients. Actual production backgrounds are used by geometry,
  // collision, data and interaction checks. No product stylesheet is changed.
  const identityRoutes=new Map();
- for(const [p,css] of [[master,execFileSync("git",["show","master:styles.css"],{cwd:root})],
+ for(const [p,css] of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],
   [page,fs.readFileSync(path.join(root,"styles.css"))]]) {
   const handler=async route=>{
    if(!flatBackground)return route.fallback();
