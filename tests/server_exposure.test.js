@@ -272,7 +272,7 @@ const servers = {};
 
 check("front-end references are derived from the WordFlow document, and none is a directory or wildcard", async () => {
   const refs = frontEndReferences();
-  assert(refs.length >= 4, `expected the documents' script, style and icon references, found ${refs.length}`);
+  assert.deepStrictEqual(new Set(refs.map(r => r.ref)), new Set(["app.js", "styles.css", "assets/wordflow-mark.svg"]), `local reference set found: ${[...new Set(refs.map(r => r.ref))].sort().join(", ")}`);
   for (const r of refs) {
     assert(fs.statSync(path.join(REPO, r.ref)).isFile(), `${r.doc}:${r.line} references ${r.ref}, which is not a file`);
   }
