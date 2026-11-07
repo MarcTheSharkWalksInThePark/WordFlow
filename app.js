@@ -91,8 +91,17 @@ const els = {
   focusToggle: document.querySelector("#focus-toggle"),
   contextToggle: document.querySelector("#context-toggle"),
   focusModeButton: document.querySelector("#focus-mode-button"),
-  focusModeLabel: document.querySelector("#focus-mode-label")
+  focusModeLabel: document.querySelector("#focus-mode-label"),
+  readerPanel: document.querySelector(".reader-panel"),
+  readingTitle: document.querySelector("#reading-title"),
+  readerWpm: document.querySelector("#reader-wpm"),
+  fullscreenPosition: document.querySelector("#fullscreen-position"),
+  fullscreenButton: document.querySelector("#fullscreen-button"),
+  themeButton: document.querySelector("#theme-button")
 };
+
+const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+let fullscreenIdleTimer = null;
 
 const sampleText = `A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.`;
 
@@ -472,6 +481,8 @@ function renderProgress() {
   els.progressSlider.disabled = total === 0;
   els.positionLabel.textContent = `${current.toLocaleString()} / ${total.toLocaleString()}`;
   els.percentLabel.textContent = `${percent}%`;
+  els.readingTitle.textContent = total ? state.sourceTitle : "No text loaded";
+  els.fullscreenPosition.textContent = ` \u00b7 word ${current.toLocaleString()} of ${total.toLocaleString()} \u00b7 ${els.timeLeft.textContent} left`;
 }
 
 function estimateRemainingSeconds() {
@@ -493,6 +504,8 @@ function renderControls() {
   els.nextButton.disabled = !hasWords || state.index >= state.words.length - 1;
   els.copyWordButton.disabled = !hasWords;
   els.wpmOutput.value = `${state.wpm} WPM`;
+  els.readerWpm.textContent = els.wpmOutput.value;
+  syncFullscreenControls();
   els.wpmSlider.value = state.wpm;
   els.sentencePauseToggle.checked = state.sentencePause;
   els.commaPauseToggle.checked = state.commaPause;
@@ -1136,6 +1149,80 @@ function toggleFocusMode() {
   saveSession();
 }
 
+function effectiveTheme(override, prefersDark) {
+  return override || (prefersDark ? "dark" : "light");
+}
+
+function renderThemeButton() {
+  const dark = effectiveTheme(document.documentElement.dataset.theme, systemTheme.matches) === "dark";
+  els.themeButton.textContent = dark ? "Lights on" : "Lights off";
+  els.themeButton.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+}
+
+function toggleTheme() {
+  const root = document.documentElement;
+  root.dataset.theme = effectiveTheme(root.dataset.theme, systemTheme.matches) === "dark" ? "light" : "dark";
+  renderThemeButton();
+}
+
+function isReaderFullscreen() {
+  return (document.fullscreenElement || document.webkitFullscreenElement) === els.readerPanel;
+}
+
+function fullscreenShortcut(event) {
+  return (event.key === "f" || event.key === "F") && !event.ctrlKey && !event.metaKey && !event.altKey;
+}
+
+async function toggleFullscreen() {
+  if (isReaderFullscreen()) {
+    const exit = document.exitFullscreen || document.webkitExitFullscreen;
+    await exit.call(document);
+    return;
+  }
+  const panel = els.readerPanel;
+  const request = panel.requestFullscreen || panel.webkitRequestFullscreen;
+  if (request && (document.fullscreenEnabled || document.webkitFullscreenEnabled)) {
+    try {
+      await request.call(panel);
+      return;
+    } catch {
+      // A browser may expose the API but refuse this request.
+    }
+  }
+  if (!state.focusMode) toggleFocusMode();
+  setStatus("Fullscreen isn't available in this browser; focus mode is on instead.");
+}
+
+function syncFullscreenControls() {
+  const panel = els.readerPanel;
+  if (!isReaderFullscreen() || !state.playing || state.countdownActive || state.finished) {
+    window.clearTimeout(fullscreenIdleTimer);
+    fullscreenIdleTimer = null;
+    panel.classList.remove("controls-hidden");
+  } else if (fullscreenIdleTimer === null && !panel.classList.contains("controls-hidden")) {
+    fullscreenIdleTimer = window.setTimeout(() => {
+      fullscreenIdleTimer = null;
+      panel.classList.add("controls-hidden");
+    }, 2500);
+  }
+}
+
+function revealFullscreenControls() {
+  if (!isReaderFullscreen()) return;
+  window.clearTimeout(fullscreenIdleTimer);
+  fullscreenIdleTimer = null;
+  els.readerPanel.classList.remove("controls-hidden");
+  syncFullscreenControls();
+}
+
+function fullscreenChanged() {
+  const active = isReaderFullscreen();
+  els.readerPanel.classList.toggle("is-fullscreen", active);
+  els.fullscreenButton.textContent = active ? "Exit fullscreen" : "Fullscreen";
+  syncFullscreenControls();
+  fitDisplayedWord();
+}
+
 async function copyCurrentWord() {
   const word = currentWord();
   if (!word) return;
@@ -1317,12 +1404,25 @@ els.contextToggle.addEventListener("change", (event) => {
   saveSession();
 });
 els.focusModeButton.addEventListener("click", toggleFocusMode);
+els.themeButton.addEventListener("click", toggleTheme);
+systemTheme.addEventListener("change", renderThemeButton);
+for (const button of [els.fullscreenButton, document.querySelector("#reader-fullscreen"), document.querySelector("#fullscreen-exit")]) {
+  button.addEventListener("click", toggleFullscreen);
+}
+document.querySelector("#fullscreen-slower").addEventListener("click", () => setWpm(state.wpm - 25));
+document.querySelector("#fullscreen-faster").addEventListener("click", () => setWpm(state.wpm + 25));
+document.addEventListener("fullscreenchange", fullscreenChanged);
+document.addEventListener("webkitfullscreenchange", fullscreenChanged);
+for (const activity of ["pointermove", "pointerdown", "keydown", "touchstart"]) {
+  document.addEventListener(activity, revealFullscreenControls, { capture: true, passive: true });
+}
 els.finishRestartButton.addEventListener("click", () => {
   state.elapsedBeforeCurrentRun = 0;
   seekTo(0);
   setStatus("Restarted");
 });
 els.finishNewSourceButton.addEventListener("click", () => {
+  if (isReaderFullscreen()) void toggleFullscreen();
   state.finished = false;
   state.focusMode = false;
   document.body.classList.remove("focus-mode");
@@ -1338,6 +1438,11 @@ document.addEventListener("keydown", (event) => {
     && els.wordDisplay.classList.contains("scrolling-long-word")
     && [" ", "ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End"].includes(event.key)) return;
 
+  if (fullscreenShortcut(event)) {
+    event.preventDefault();
+    if (!event.repeat) void toggleFullscreen();
+    return;
+  }
   if (event.code === "Space") {
     event.preventDefault();
     togglePlayback();
@@ -1349,5 +1454,6 @@ document.addEventListener("keydown", (event) => {
 
 window.addEventListener("resize", fitDisplayedWord);
 
+renderThemeButton();
 updateResumeButton();
 render();

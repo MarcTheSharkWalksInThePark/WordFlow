@@ -11,13 +11,23 @@
     <main class="app-shell">
       <header class="topbar" aria-label="WordFlow Reader">
         <div class="brand">
-          <img class="brand-mark" src="assets/wordflow-mark.svg" alt="" aria-hidden="true">
-          <div>
-            <h1>WordFlow Reader</h1>
+          <h1 class="brand-plate" aria-label="WordFlow Reader"><span class="plate-led" aria-hidden="true"></span><span class="plate-word">WordFlow</span><span class="visually-hidden"> Reader</span></h1>
+          <div class="brand-caption">
+            <p class="tagline">one word at a time</p>
             <p id="reader-status" class="status-line" aria-live="polite">Ready</p>
           </div>
         </div>
         <div class="topbar-actions">
+          <div class="quick-stats" aria-label="Reading stats">
+            <div>
+              <span id="word-count">0</span>
+              <small>WORDS</small>
+            </div>
+            <div>
+              <span id="time-left">0:00</span>
+              <small>TIME LEFT</small>
+            </div>
+          </div>
           <button id="focus-mode-button" class="icon-text-button subtle" type="button">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
@@ -27,18 +37,11 @@
             </svg>
             <span id="focus-mode-label">Focus</span>
           </button>
-          <div class="quick-stats" aria-label="Reading stats">
-            <div>
-              <span id="word-count">0</span>
-              <small>words</small>
-            </div>
-            <div>
-              <span id="time-left">0:00</span>
-              <small>left</small>
-            </div>
-          </div>
+          <button id="fullscreen-button" class="icon-text-button" type="button">Fullscreen</button>
+          <button id="theme-button" class="icon-text-button primary" type="button">Lights on</button>
         </div>
       </header>
+      <div class="ticker"><strong>TIP</strong><span>Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.</span></div>
 
       <section class="workspace" aria-label="Reader workspace">
         <aside class="source-panel panel" aria-label="Source text">
@@ -107,7 +110,7 @@
           <div id="url-pane" class="tab-pane" role="tabpanel" aria-labelledby="tab-url" hidden>
             <label class="field-label" for="url-input">Website URL</label>
             <div class="url-row">
-              <input id="url-input" type="url" inputmode="url" placeholder="https://example.com/article">
+              <input id="url-input" type="url" inputmode="url" placeholder="example.com/article">
               <button id="load-url-button" class="icon-text-button primary" type="button">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -181,6 +184,18 @@
         </aside>
 
         <section class="reader-panel panel" aria-label="One word reader">
+          <div class="panel-heading reader-heading">
+            <div class="now-reading"><span>Now reading:</span> <strong id="reading-title">No text loaded</strong><span id="fullscreen-position" class="fullscreen-only"></span></div>
+            <div class="reader-actions">
+              <span id="reader-wpm" class="lcd">300 WPM</span>
+              <button id="fullscreen-slower" class="icon-button fullscreen-only" type="button" aria-label="Slower">&minus;</button>
+              <button id="fullscreen-faster" class="icon-button fullscreen-only" type="button" aria-label="Faster">+</button>
+              <button id="reader-fullscreen" class="icon-button" type="button" aria-label="Read fullscreen" title="Read fullscreen (F)">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9V3h6m6 0h6v6m0 6v6h-6M9 21H3v-6"></path></svg>
+              </button>
+              <button id="fullscreen-exit" class="icon-text-button primary fullscreen-only" type="button">Exit fullscreen (Esc)</button>
+            </div>
+          </div>
           <div class="reader-frame">
             <div class="focus-rail top"></div>
             <div id="previous-context" class="context-word previous" aria-hidden="true"></div>
@@ -188,7 +203,7 @@
               <span class="empty-word">Load text</span>
             </div>
             <div id="next-context" class="context-word next" aria-hidden="true"></div>
-            <p id="long-text-note" class="long-text-note" hidden>Long text paused — scroll to read, then press play.</p>
+            <p id="long-text-note" class="long-text-note" hidden>Long text paused &mdash; scroll to read, then press play.</p>
             <div id="finish-summary" class="finish-summary" hidden>
               <div>
                 <span class="field-label">Finished</span>
@@ -219,51 +234,54 @@
             <div class="focus-rail bottom"></div>
           </div>
 
-          <div class="progress-area">
-            <div class="progress-meta">
-              <span id="position-label">0 / 0</span>
-              <span id="percent-label">0%</span>
+          <div class="reader-controls">
+            <div class="progress-area">
+              <div class="progress-meta">
+                <span id="position-label">0 / 0</span>
+                <span id="percent-label">0%</span>
+              </div>
+              <input id="progress-slider" class="progress-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Reading position">
             </div>
-            <input id="progress-slider" class="progress-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Reading position">
-          </div>
 
-          <div class="transport" aria-label="Playback controls">
-            <button id="restart-button" class="icon-button" type="button" title="Restart" aria-label="Restart">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M3 2v6h6"></path>
-                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L3 8"></path>
-              </svg>
-            </button>
-            <button id="prev-button" class="icon-button" type="button" title="Previous word" aria-label="Previous word">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="m11 17-5-5 5-5"></path>
-                <path d="m18 17-5-5 5-5"></path>
-              </svg>
-            </button>
-            <button id="sentence-back-button" class="icon-button" type="button" title="Back to sentence" aria-label="Back to sentence">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M11 6 5 12l6 6"></path>
-                <path d="M19 6v12"></path>
-                <path d="M5 12h14"></path>
-              </svg>
-            </button>
-            <button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">
-              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="m8 5 11 7-11 7z"></path>
-              </svg>
-            </button>
-            <button id="next-button" class="icon-button" type="button" title="Next word" aria-label="Next word">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="m13 17 5-5-5-5"></path>
-                <path d="m6 17 5-5-5-5"></path>
-              </svg>
-            </button>
-            <button id="copy-word-button" class="icon-button" type="button" title="Copy current word" aria-label="Copy current word">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="9" y="9" width="13" height="13" rx="2"></rect>
-                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-              </svg>
-            </button>
+            <div class="transport" aria-label="Playback controls">
+              <button id="restart-button" class="icon-button" type="button" title="Restart" aria-label="Restart">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 2v6h6"></path>
+                  <path d="M3.51 15a9 9 0 1 0 2.13-9.36L3 8"></path>
+                </svg>
+              </button>
+              <button id="prev-button" class="icon-button" type="button" title="Previous word" aria-label="Previous word">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m11 17-5-5 5-5"></path>
+                  <path d="m18 17-5-5 5-5"></path>
+                </svg>
+              </button>
+              <button id="sentence-back-button" class="icon-button" type="button" title="Back to sentence" aria-label="Back to sentence">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M11 6 5 12l6 6"></path>
+                  <path d="M19 6v12"></path>
+                  <path d="M5 12h14"></path>
+                </svg>
+              </button>
+              <button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">
+                <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m8 5 11 7-11 7z"></path>
+                </svg>
+              </button>
+              <button id="next-button" class="icon-button" type="button" title="Next word" aria-label="Next word">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m13 17 5-5-5-5"></path>
+                  <path d="m6 17 5-5-5-5"></path>
+                </svg>
+              </button>
+              <button id="copy-word-button" class="icon-button" type="button" title="Copy current word" aria-label="Copy current word">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+            <p class="fullscreen-only shortcut-hint">Space play/pause &middot; &larr; &rarr; step &middot; F fullscreen &middot; Esc exit</p>
           </div>
         </section>
 
@@ -340,9 +358,11 @@
           </fieldset>
         </aside>
       </section>
+      <footer class="footer-bar">
+        <div class="badges"><span><b>NO</b><b>UPLOADS</b></span><span><b>100%</b><b>FREE</b></span><span><b>PRIVACY</b><b>FIRST</b></span></div>
+        <p class="privacy-note">Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.</p>
+      </footer>
     </main>
-
-    <p class="privacy-note">Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.</p>
     <script src="app.js"></script>
   </body>
 </html>
