@@ -239,3 +239,11 @@ W7.12 Reader geometry. Root cause (from your geometry.json): at 1400x950 the rea
 4. Changes allowed only in styles.css (and index.html structure only if the ticker or footer must move). No change to word sizes, the fitting logic in app.js, or any test except restoring the existing geometry assertion if your drafts touched it.
 5. Then resume the full W7 verification exactly as specified: the phone interaction suite, npm test, parity and stamp, mutations (78 = 77 KILLED + M9), build, and all screenshots in both themes. All other STOP conditions stand.
 6. Record W7.12 verbatim in docs/DECISIONS.md as its own records commit before the CSS commit.
+
+### W7 clarifications (Marcus, 2026-11-08)
+
+Marcus approved the prepared index.html patch removing two leading spaces before the Play SVG and two before the closing button tag: "Apply the whitespace fix and resume verification".
+
+Marcus's response on the two wide-frame target checks:
+
+Approved, as a W7.8 visual re-baseline. Conditions: (1) the 90% target still applies to every token where the candidate's own unfitted width exceeds the frame, so F1's fitting is still tested; (2) "fully inside the frame" stays asserted for these two tokens and every other probe; (3) list both tokens in the report with their unfitted width, rendered width, frame width and percentage. PRE_F1 comparisons and every data, behaviour and security check stay unchanged. Then rerun parity.
