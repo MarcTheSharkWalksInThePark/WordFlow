@@ -1,0 +1,200 @@
+{
+ "mode": "headed",
+ "viewport": [
+  1400,
+  950
+ ],
+ "chrome": "156.0.8078.81",
+ "steps": [
+  [
+   "start",
+   {
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "enter via button",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via F",
+   {
+    "ok": true,
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "enter via icon",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via real Escape key",
+   {
+    "ok": false,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "enter via F",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via Exit button",
+   {
+    "ok": true,
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "panel size in fullscreen",
+   [
+    1384,
+    945,
+    1384,
+    945
+   ]
+  ],
+  [
+   "paused 3.2 s: hidden?",
+   false
+  ],
+  [
+   "hide delay after playback start (ms)",
+   {
+    "delay": 2498.9000000953674
+   }
+  ],
+  [
+   "focusable during the 200 ms fade (immediately after hide)",
+   true
+  ],
+  [
+   "hidden bars focusable?",
+   []
+  ],
+  [
+   "Tab stops while (re)shown by Tab",
+   [
+    {
+     "id": "BODY",
+     "inBars": false
+    },
+    {
+     "id": "fullscreen-slower",
+     "inBars": true
+    },
+    {
+     "id": "fullscreen-faster",
+     "inBars": true
+    }
+   ]
+  ],
+  [
+   "reveal via pointer",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "reveal via keyboard",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "reveal via touch",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "after pause hidden?",
+   false
+  ],
+  [
+   "long-title readout",
+   {
+    "text": " · word 4 of 45 · 0:18 left",
+    "inside": true,
+    "clippedByAncestor": false,
+    "posOverflow": false,
+    "titleEllipsis": true,
+    "rect": [
+     883.71875,
+     25.578125,
+     1046.3125,
+     41.578125
+    ],
+    "panel": [
+     0,
+     0,
+     1384,
+     945
+    ]
+   }
+  ],
+  [
+   "token in fullscreen 45",
+   {
+    "font": "54px",
+    "wrapped": false,
+    "scrolling": false,
+    "inside": true,
+    "text": 45,
+    "frame": [
+     1358,
+     719
+    ],
+    "noOverflow": true
+   }
+  ],
+  [
+   "token in fullscreen 2000",
+   {
+    "font": "10px",
+    "wrapped": true,
+    "scrolling": false,
+    "inside": true,
+    "text": 2000,
+    "frame": [
+     1358,
+     719
+    ],
+    "noOverflow": true
+   }
+  ],
+  [
+   "after reload",
+   {
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "page errors",
+   []
+  ]
+ ]
+}

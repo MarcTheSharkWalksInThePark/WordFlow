@@ -1,0 +1,257 @@
+{
+ "mode": "headless",
+ "viewport": [
+  390,
+  844
+ ],
+ "chrome": "156.0.8078.81",
+ "steps": [
+  [
+   "start",
+   {
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "enter via button",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via F",
+   {
+    "ok": true,
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "enter via icon",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via real Escape key",
+   {
+    "ok": false,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "enter via F",
+   {
+    "ok": true,
+    "native": true,
+    "cls": true
+   }
+  ],
+  [
+   "exit via Exit button",
+   {
+    "ok": true,
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "panel size in fullscreen",
+   [
+    390,
+    844,
+    390,
+    844
+   ]
+  ],
+  [
+   "paused 3.2 s: hidden?",
+   false
+  ],
+  [
+   "hide delay after playback start (ms)",
+   {
+    "delay": 2498.1999999284744
+   }
+  ],
+  [
+   "hidden bars focusable?",
+   [
+    {
+     "id": "fullscreen-slower",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "fullscreen-faster",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "fullscreen-exit",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "progress-slider",
+     "focused": true,
+     "vis": "visible",
+     "disp": "block"
+    },
+    {
+     "id": "restart-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "prev-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "sentence-back-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "play-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "next-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    },
+    {
+     "id": "copy-word-button",
+     "focused": true,
+     "vis": "visible",
+     "disp": "flex"
+    }
+   ]
+  ],
+  [
+   "Tab stops while (re)shown by Tab",
+   [
+    {
+     "id": "BODY",
+     "inBars": false
+    },
+    {
+     "id": "fullscreen-slower",
+     "inBars": true
+    },
+    {
+     "id": "fullscreen-faster",
+     "inBars": true
+    }
+   ]
+  ],
+  [
+   "reveal via pointer",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "reveal via keyboard",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "reveal via touch",
+   {
+    "wasHidden": true,
+    "revealed": true,
+    "playing": true
+   }
+  ],
+  [
+   "after pause hidden?",
+   false
+  ],
+  [
+   "long-title readout",
+   {
+    "text": " · word 4 of 45 · 0:18 left",
+    "inside": true,
+    "clippedByAncestor": false,
+    "posOverflow": false,
+    "titleEllipsis": true,
+    "rect": [
+     30,
+     42.84375,
+     192.59375,
+     58.84375
+    ],
+    "panel": [
+     0,
+     0,
+     390,
+     844
+    ]
+   }
+  ],
+  [
+   "token in fullscreen 45",
+   {
+    "font": "14px",
+    "wrapped": false,
+    "scrolling": false,
+    "inside": true,
+    "text": 45,
+    "frame": [
+     364,
+     557
+    ],
+    "noOverflow": true
+   }
+  ],
+  [
+   "token in fullscreen 2000",
+   {
+    "font": "10px",
+    "wrapped": true,
+    "scrolling": true,
+    "inside": true,
+    "text": 2000,
+    "frame": [
+     364,
+     557
+    ],
+    "noOverflow": true
+   }
+  ],
+  [
+   "after reload",
+   {
+    "native": false,
+    "cls": false
+   }
+  ],
+  [
+   "page errors",
+   []
+  ]
+ ]
+}

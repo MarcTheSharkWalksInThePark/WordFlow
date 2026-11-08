@@ -1,0 +1,1883 @@
+{
+ "chrome": "156.0.8078.81",
+ "csp": {
+  "served": "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https:; worker-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+  "production": "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https:; worker-src 'self' blob:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+  "equal": true,
+  "permissions": "accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+ },
+ "dark": {
+  "storage": {
+   "initial": {
+    "local": [],
+    "session": [],
+    "cookie": "",
+    "localValues": {}
+   },
+   "afterLoad": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173562581}"
+    }
+   },
+   "afterToggle": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173562581}"
+    }
+   },
+   "afterToggle2": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173562581}"
+    }
+   },
+   "inFullscreen": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173562581}"
+    }
+   },
+   "afterExit": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173562581}"
+    }
+   }
+  },
+  "themeLabel0": "Lights on",
+  "themeLabel1": "Lights off",
+  "dataTheme1": "light",
+  "themeLabel2": "Lights on",
+  "fullscreenNative": true,
+  "indexedDB": [],
+  "texts": {
+   "h1": "WordFlow Reader",
+   "tagline": "one word at a time",
+   "ticker": "Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.",
+   "tip": "TIP",
+   "badges": [
+    "NO | UPLOADS",
+    "100% | FREE",
+    "PRIVACY | FIRST"
+   ],
+   "privacy": "Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.",
+   "note": "Long text paused — scroll to read, then press play.",
+   "plate": "WordFlow Reader",
+   "exit": "Exit fullscreen (Esc)",
+   "hint": [
+    "Space play/pause · ← → step · F fullscreen · Esc exit"
+   ]
+  },
+  "textChecks": {
+   "ticker": true,
+   "privacy": true,
+   "note": true,
+   "tagline": true
+  },
+  "h1Name": 1,
+  "a11yH1": "<h1 class=\"brand-plate\" aria-label=\"WordFlow Reader\"><span class=\"plate-led\" aria-hidden=\"true\"></span><span class=\"plate-word\">WordFlow</span><span class=\"visually-hidden\"> Reader</span></h1>",
+  "iconButtons": [
+   {
+    "id": "clear-button",
+    "label": "Clear text",
+    "title": "Clear text"
+   },
+   {
+    "id": "review-back-button",
+    "label": "Back to source",
+    "title": "Back to source"
+   },
+   {
+    "id": "reader-fullscreen",
+    "label": "Read fullscreen",
+    "title": "Read fullscreen (F)"
+   },
+   {
+    "id": "restart-button",
+    "label": "Restart",
+    "title": "Restart"
+   },
+   {
+    "id": "prev-button",
+    "label": "Previous word",
+    "title": "Previous word"
+   },
+   {
+    "id": "sentence-back-button",
+    "label": "Back to sentence",
+    "title": "Back to sentence"
+   },
+   {
+    "id": "play-button",
+    "label": "Play",
+    "title": "Play"
+   },
+   {
+    "id": "next-button",
+    "label": "Next word",
+    "title": "Next word"
+   },
+   {
+    "id": "copy-word-button",
+    "label": "Copy current word",
+    "title": "Copy current word"
+   }
+  ],
+  "labelInName": [
+   {
+    "id": "focus-mode-button",
+    "text": "Focus",
+    "label": "Focus mode"
+   },
+   {
+    "id": "theme-button",
+    "text": "Lights on",
+    "label": "Switch to light theme"
+   },
+   {
+    "id": "fullscreen-slower",
+    "text": "−",
+    "label": "Slower"
+   },
+   {
+    "id": "fullscreen-faster",
+    "text": "+",
+    "label": "Faster"
+   }
+  ],
+  "contrast": [
+   {
+    "label": "body text",
+    "selector": ".toggle-row",
+    "color": "rgb(232, 232, 232)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 10.825955656219774,
+    "max": 10.825955656219774,
+    "nBg": 1
+   },
+   {
+    "label": "textarea",
+    "selector": "#text-input",
+    "color": "rgb(242, 242, 242)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "min": 17.129511901913933,
+    "max": 17.129511901913933,
+    "nBg": 1
+   },
+   {
+    "label": "muted tagline",
+    "selector": ".tagline",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 5.389237559567482,
+    "max": 7.396515354253734,
+    "nBg": 2
+   },
+   {
+    "label": "muted status",
+    "selector": "#reader-status",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 5.389237559567482,
+    "max": 7.396515354253734,
+    "nBg": 2
+   },
+   {
+    "label": "muted field label",
+    "selector": ".field-label",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.0711358958146056,
+    "max": 6.0711358958146056,
+    "nBg": 1
+   },
+   {
+    "label": "muted privacy",
+    "selector": ".privacy-note",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 5.389237559567482,
+    "max": 7.396515354253734,
+    "nBg": 2
+   },
+   {
+    "label": "muted stats caption",
+    "selector": ".quick-stats small",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 5.389237559567482,
+    "max": 7.396515354253734,
+    "nBg": 2
+   },
+   {
+    "label": "progress meta",
+    "selector": ".progress-meta",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 6.0711358958146056,
+    "max": 6.0711358958146056,
+    "nBg": 1
+   },
+   {
+    "label": "panel head h2",
+    "selector": ".panel-heading h2",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.3486774696973365,
+    "max": 13.090872577647382,
+    "nBg": 4
+   },
+   {
+    "label": "legend (link colour)",
+    "selector": "legend",
+    "color": "rgb(168, 232, 58)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 9.012894763901716,
+    "max": 9.012894763901716,
+    "nBg": 1
+   },
+   {
+    "label": "gel primary",
+    "selector": "#theme-button",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   },
+   {
+    "label": "gel active tab",
+    "selector": ".tab.active",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   },
+   {
+    "label": "inactive tab",
+    "selector": "#tab-file",
+    "color": "rgb(232, 232, 232)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.728619297602032,
+    "max": 10.684050295500397,
+    "nBg": 2
+   },
+   {
+    "label": "chrome button",
+    "selector": "#fullscreen-button",
+    "color": "rgb(21, 23, 26)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 10.683568564828525,
+    "max": 17.958531940400192,
+    "nBg": 4
+   },
+   {
+    "label": "subtle button",
+    "selector": "#sample-button",
+    "color": "rgb(21, 23, 26)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 10.683568564828525,
+    "max": 17.958531940400192,
+    "nBg": 4
+   },
+   {
+    "label": "LCD wpm",
+    "selector": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "LCD words",
+    "selector": "#word-count",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "LCD time",
+    "selector": "#time-left",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "ticker text",
+    "selector": ".ticker span",
+    "color": "rgb(216, 216, 216)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 14.733706248706273,
+    "max": 14.733706248706273,
+    "nBg": 1
+   },
+   {
+    "label": "ticker TIP",
+    "selector": ".ticker strong",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 9.205252883008402,
+    "max": 9.205252883008402,
+    "nBg": 1
+   },
+   {
+    "label": "badge left",
+    "selector": ".badges b",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 16.891821790210923,
+    "max": 16.891821790210923,
+    "nBg": 1
+   },
+   {
+    "label": "badge right",
+    "selector": ".badges b + b",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 11.337369984440517,
+    "max": 11.337369984440517,
+    "nBg": 1
+   },
+   {
+    "label": "reader word",
+    "selector": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "108.8px",
+    "fontWeight": "700",
+    "min": 1,
+    "max": 21,
+    "nBg": 5
+   },
+   {
+    "label": "focus letter",
+    "selector": "#word-display .word-focus",
+    "color": "rgb(168, 232, 58)",
+    "fontSize": "108.8px",
+    "fontWeight": "700",
+    "min": 1.471751934910969,
+    "max": 14.268708946029248,
+    "nBg": 5
+   },
+   {
+    "label": "context word",
+    "selector": ".context-word.previous",
+    "color": "rgb(143, 148, 156)",
+    "fontSize": "26.4px",
+    "fontWeight": "740",
+    "min": 3.050574261404372,
+    "max": 6.883949774863823,
+    "nBg": 5
+   },
+   {
+    "label": "now reading",
+    "selector": ".now-reading",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "min": 6.3486774696973365,
+    "max": 13.090872577647382,
+    "nBg": 4
+   },
+   {
+    "label": "reading title",
+    "selector": "#reading-title",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "min": 6.3486774696973365,
+    "max": 13.090872577647382,
+    "nBg": 4
+   }
+  ],
+  "contrastFinished": [
+   {
+    "label": "finish title",
+    "selector": ".finish-summary strong",
+    "color": "rgb(232, 232, 232)",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "min": 9.579601324877979,
+    "max": 11.123397334301446,
+    "nBg": 5
+   },
+   {
+    "label": "finish metric",
+    "selector": ".finish-metrics span",
+    "color": "rgb(170, 176, 184)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 8.776838058510718,
+    "max": 8.776838058510718,
+    "nBg": 1
+   },
+   {
+    "label": "finish button",
+    "selector": "#finish-restart-button",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   }
+  ],
+  "focusRings": [
+   {
+    "el": "progress-slider",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "restart-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "play-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "next-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "copy-word-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "wpm-slider",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "slower-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "faster-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "sentence-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "comma-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "paragraph-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "smart-pacing-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "focus-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "context-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   }
+  ],
+  "overflow": [
+   {
+    "w": 390,
+    "h": 844,
+    "sw": 390
+   },
+   {
+    "w": 390,
+    "h": 600,
+    "sw": 390
+   },
+   {
+    "w": 768,
+    "h": 1024,
+    "sw": 768
+   },
+   {
+    "w": 1400,
+    "h": 900,
+    "sw": 1400
+   },
+   {
+    "w": 1400,
+    "h": 950,
+    "sw": 1400
+   },
+   {
+    "w": 1708,
+    "h": 950,
+    "sw": 1708
+   },
+   {
+    "w": 1920,
+    "h": 1080,
+    "sw": 1920
+   },
+   {
+    "w": 320,
+    "h": 640,
+    "sw": 343
+   }
+  ],
+  "selectors": [
+   [
+    "#reader-status",
+    1
+   ],
+   [
+    "#word-count",
+    1
+   ],
+   [
+    "#time-left",
+    1
+   ],
+   [
+    "#text-input",
+    1
+   ],
+   [
+    "#load-text-button",
+    1
+   ],
+   [
+    "#clear-button",
+    1
+   ],
+   [
+    "#sample-button",
+    1
+   ],
+   [
+    "#resume-button",
+    1
+   ],
+   [
+    "#file-input",
+    1
+   ],
+   [
+    "#file-name",
+    1
+   ],
+   [
+    "#url-input",
+    1
+   ],
+   [
+    "#load-url-button",
+    1
+   ],
+   [
+    "#source-review",
+    1
+   ],
+   [
+    "#source-title",
+    1
+   ],
+   [
+    "#review-word-count",
+    1
+   ],
+   [
+    "#review-char-count",
+    1
+   ],
+   [
+    "#source-warning",
+    1
+   ],
+   [
+    "#cleanup-linebreaks",
+    1
+   ],
+   [
+    "#cleanup-hyphens",
+    1
+   ],
+   [
+    "#cleanup-boilerplate",
+    1
+   ],
+   [
+    "#cleanup-page-noise",
+    1
+   ],
+   [
+    "#review-text",
+    1
+   ],
+   [
+    "#apply-source-button",
+    1
+   ],
+   [
+    "#raw-source-button",
+    1
+   ],
+   [
+    "#review-back-button",
+    1
+   ],
+   [
+    "#word-display",
+    1
+   ],
+   [
+    "#long-text-note",
+    1
+   ],
+   [
+    "#previous-context",
+    1
+   ],
+   [
+    "#next-context",
+    1
+   ],
+   [
+    "#finish-summary",
+    1
+   ],
+   [
+    "#finish-title",
+    1
+   ],
+   [
+    "#finish-words",
+    1
+   ],
+   [
+    "#finish-time",
+    1
+   ],
+   [
+    "#finish-wpm",
+    1
+   ],
+   [
+    "#finish-restart-button",
+    1
+   ],
+   [
+    "#finish-new-source-button",
+    1
+   ],
+   [
+    "#progress-slider",
+    1
+   ],
+   [
+    "#position-label",
+    1
+   ],
+   [
+    "#percent-label",
+    1
+   ],
+   [
+    "#restart-button",
+    1
+   ],
+   [
+    "#prev-button",
+    1
+   ],
+   [
+    "#sentence-back-button",
+    1
+   ],
+   [
+    "#play-button",
+    1
+   ],
+   [
+    "#play-icon",
+    1
+   ],
+   [
+    "#next-button",
+    1
+   ],
+   [
+    "#copy-word-button",
+    1
+   ],
+   [
+    "#wpm-slider",
+    1
+   ],
+   [
+    "#wpm-output",
+    1
+   ],
+   [
+    "#slower-button",
+    1
+   ],
+   [
+    "#faster-button",
+    1
+   ],
+   [
+    "#section-select",
+    1
+   ],
+   [
+    "#sentence-pause-toggle",
+    1
+   ],
+   [
+    "#comma-pause-toggle",
+    1
+   ],
+   [
+    "#paragraph-pause-toggle",
+    1
+   ],
+   [
+    "#smart-pacing-toggle",
+    1
+   ],
+   [
+    "#focus-toggle",
+    1
+   ],
+   [
+    "#context-toggle",
+    1
+   ],
+   [
+    "#focus-mode-button",
+    1
+   ],
+   [
+    "#focus-mode-label",
+    1
+   ],
+   [
+    ".empty-word, .countdown-word",
+    0
+   ],
+   [
+    "article h1, main h1, h1",
+    1
+   ],
+   [
+    "title",
+    1
+   ],
+   [
+    "script, style, noscript, svg, nav, header, footer, form, aside",
+    26
+   ],
+   [
+    "article, main",
+    1
+   ],
+   [
+    ".tab-pane",
+    3
+   ],
+   [
+    ".tab.active",
+    1
+   ],
+   [
+    ".tab",
+    3
+   ],
+   [
+    ".segment",
+    3
+   ],
+   [
+    ".reader-panel",
+    1
+   ],
+   [
+    "#reading-title",
+    1
+   ],
+   [
+    "#reader-wpm",
+    1
+   ],
+   [
+    "#fullscreen-position",
+    1
+   ],
+   [
+    "#fullscreen-button",
+    1
+   ],
+   [
+    "#theme-button",
+    1
+   ],
+   [
+    "#reader-fullscreen",
+    1
+   ],
+   [
+    "#fullscreen-exit",
+    1
+   ],
+   [
+    "#fullscreen-slower",
+    1
+   ],
+   [
+    "#fullscreen-faster",
+    1
+   ]
+  ],
+  "missingSelectors": [
+   [
+    ".empty-word, .countdown-word",
+    0
+   ]
+  ],
+  "svg": {
+   "parseError": false,
+   "root": "svg",
+   "ns": "http://www.w3.org/2000/svg",
+   "tags": [
+    "svg",
+    "defs",
+    "linearGradient",
+    "stop",
+    "pattern",
+    "path",
+    "rect",
+    "g",
+    "circle"
+   ],
+   "script": false,
+   "text": false,
+   "externalRefs": []
+  },
+  "favicon": [
+   "assets/wordflow-mark.svg"
+  ],
+  "cspViolations": [],
+  "consoleErrors": []
+ },
+ "light": {
+  "storage": {
+   "initial": {
+    "local": [],
+    "session": [],
+    "cookie": "",
+    "localValues": {}
+   },
+   "afterLoad": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173563772}"
+    }
+   },
+   "afterToggle": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173563772}"
+    }
+   },
+   "afterToggle2": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173563772}"
+    }
+   },
+   "inFullscreen": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173563772}"
+    }
+   },
+   "afterExit": {
+    "local": [
+     "wordflow-reader-session-v1"
+    ],
+    "session": [],
+    "cookie": "",
+    "localValues": {
+     "wordflow-reader-session-v1": "{\"title\":\"Sample reading text\",\"text\":\"A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.\",\"index\":0,\"wpm\":300,\"sentencePause\":true,\"commaPause\":true,\"paragraphPause\":true,\"smartPacing\":true,\"focusLetter\":true,\"contextWords\":true,\"focusMode\":false,\"wordSize\":\"comfortable\",\"savedAt\":1794173563772}"
+    }
+   }
+  },
+  "themeLabel0": "Lights off",
+  "themeLabel1": "Lights on",
+  "dataTheme1": "dark",
+  "themeLabel2": "Lights off",
+  "fullscreenNative": true,
+  "indexedDB": [],
+  "texts": {
+   "h1": "WordFlow Reader",
+   "tagline": "one word at a time",
+   "ticker": "Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.",
+   "tip": "TIP",
+   "badges": [
+    "NO | UPLOADS",
+    "100% | FREE",
+    "PRIVACY | FIRST"
+   ],
+   "privacy": "Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.",
+   "note": "Long text paused — scroll to read, then press play.",
+   "plate": "WordFlow Reader",
+   "exit": "Exit fullscreen (Esc)",
+   "hint": [
+    "Space play/pause · ← → step · F fullscreen · Esc exit"
+   ]
+  },
+  "textChecks": {
+   "ticker": true,
+   "privacy": true,
+   "note": true,
+   "tagline": true
+  },
+  "h1Name": 1,
+  "a11yH1": "<h1 class=\"brand-plate\" aria-label=\"WordFlow Reader\"><span class=\"plate-led\" aria-hidden=\"true\"></span><span class=\"plate-word\">WordFlow</span><span class=\"visually-hidden\"> Reader</span></h1>",
+  "iconButtons": [
+   {
+    "id": "clear-button",
+    "label": "Clear text",
+    "title": "Clear text"
+   },
+   {
+    "id": "review-back-button",
+    "label": "Back to source",
+    "title": "Back to source"
+   },
+   {
+    "id": "reader-fullscreen",
+    "label": "Read fullscreen",
+    "title": "Read fullscreen (F)"
+   },
+   {
+    "id": "restart-button",
+    "label": "Restart",
+    "title": "Restart"
+   },
+   {
+    "id": "prev-button",
+    "label": "Previous word",
+    "title": "Previous word"
+   },
+   {
+    "id": "sentence-back-button",
+    "label": "Back to sentence",
+    "title": "Back to sentence"
+   },
+   {
+    "id": "play-button",
+    "label": "Play",
+    "title": "Play"
+   },
+   {
+    "id": "next-button",
+    "label": "Next word",
+    "title": "Next word"
+   },
+   {
+    "id": "copy-word-button",
+    "label": "Copy current word",
+    "title": "Copy current word"
+   }
+  ],
+  "labelInName": [
+   {
+    "id": "focus-mode-button",
+    "text": "Focus",
+    "label": "Focus mode"
+   },
+   {
+    "id": "theme-button",
+    "text": "Lights off",
+    "label": "Switch to dark theme"
+   },
+   {
+    "id": "fullscreen-slower",
+    "text": "−",
+    "label": "Slower"
+   },
+   {
+    "id": "fullscreen-faster",
+    "text": "+",
+    "label": "Faster"
+   }
+  ],
+  "contrast": [
+   {
+    "label": "body text",
+    "selector": ".toggle-row",
+    "color": "rgb(29, 36, 22)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 15.447787304562482,
+    "max": 15.447787304562482,
+    "nBg": 1
+   },
+   {
+    "label": "textarea",
+    "selector": "#text-input",
+    "color": "rgb(17, 17, 17)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "min": 18.883060964594996,
+    "max": 18.883060964594996,
+    "nBg": 1
+   },
+   {
+    "label": "muted tagline",
+    "selector": ".tagline",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 6.137132418832703,
+    "max": 7.576771177160828,
+    "nBg": 2
+   },
+   {
+    "label": "muted status",
+    "selector": "#reader-status",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 6.137132418832703,
+    "max": 7.576771177160828,
+    "nBg": 2
+   },
+   {
+    "label": "muted field label",
+    "selector": ".field-label",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 7.511974510796873,
+    "max": 7.511974510796873,
+    "nBg": 1
+   },
+   {
+    "label": "muted privacy",
+    "selector": ".privacy-note",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 6.137132418832703,
+    "max": 7.576771177160828,
+    "nBg": 2
+   },
+   {
+    "label": "muted stats caption",
+    "selector": ".quick-stats small",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 6.137132418832703,
+    "max": 7.576771177160828,
+    "nBg": 2
+   },
+   {
+    "label": "progress meta",
+    "selector": ".progress-meta",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 7.511974510796873,
+    "max": 7.511974510796873,
+    "nBg": 1
+   },
+   {
+    "label": "panel head h2",
+    "selector": ".panel-heading h2",
+    "color": "rgb(29, 36, 22)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 12.523397780226674,
+    "max": 15.955286829229118,
+    "nBg": 4
+   },
+   {
+    "label": "legend (link colour)",
+    "selector": "legend",
+    "color": "rgb(63, 107, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.134399620626128,
+    "max": 6.134399620626128,
+    "nBg": 1
+   },
+   {
+    "label": "gel primary",
+    "selector": "#theme-button",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   },
+   {
+    "label": "gel active tab",
+    "selector": ".tab.active",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   },
+   {
+    "label": "inactive tab",
+    "selector": "#tab-file",
+    "color": "rgb(21, 23, 26)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 10.683568564828525,
+    "max": 17.958531940400192,
+    "nBg": 4
+   },
+   {
+    "label": "chrome button",
+    "selector": "#fullscreen-button",
+    "color": "rgb(21, 23, 26)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 10.683568564828525,
+    "max": 17.958531940400192,
+    "nBg": 4
+   },
+   {
+    "label": "subtle button",
+    "selector": "#sample-button",
+    "color": "rgb(21, 23, 26)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 10.683568564828525,
+    "max": 17.958531940400192,
+    "nBg": 4
+   },
+   {
+    "label": "LCD wpm",
+    "selector": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "LCD words",
+    "selector": "#word-count",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "LCD time",
+    "selector": "#time-left",
+    "color": "rgb(109, 255, 109)",
+    "fontSize": "14px",
+    "fontWeight": "700",
+    "min": 14.746219911817965,
+    "max": 14.746219911817965,
+    "nBg": 1
+   },
+   {
+    "label": "ticker text",
+    "selector": ".ticker span",
+    "color": "rgb(216, 216, 216)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 14.733706248706273,
+    "max": 14.733706248706273,
+    "nBg": 1
+   },
+   {
+    "label": "ticker TIP",
+    "selector": ".ticker strong",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 9.205252883008402,
+    "max": 9.205252883008402,
+    "nBg": 1
+   },
+   {
+    "label": "badge left",
+    "selector": ".badges b",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 16.891821790210923,
+    "max": 16.891821790210923,
+    "nBg": 1
+   },
+   {
+    "label": "badge right",
+    "selector": ".badges b + b",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "10px",
+    "fontWeight": "700",
+    "min": 11.337369984440517,
+    "max": 11.337369984440517,
+    "nBg": 1
+   },
+   {
+    "label": "reader word",
+    "selector": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "108.8px",
+    "fontWeight": "700",
+    "min": 1,
+    "max": 21,
+    "nBg": 5
+   },
+   {
+    "label": "focus letter",
+    "selector": "#word-display .word-focus",
+    "color": "rgb(168, 232, 58)",
+    "fontSize": "108.8px",
+    "fontWeight": "700",
+    "min": 1.471751934910969,
+    "max": 14.268708946029248,
+    "nBg": 5
+   },
+   {
+    "label": "context word",
+    "selector": ".context-word.previous",
+    "color": "rgb(143, 148, 156)",
+    "fontSize": "26.4px",
+    "fontWeight": "740",
+    "min": 3.050574261404372,
+    "max": 6.883949774863823,
+    "nBg": 5
+   },
+   {
+    "label": "now reading",
+    "selector": ".now-reading",
+    "color": "rgb(29, 36, 22)",
+    "fontSize": "13px",
+    "fontWeight": "400",
+    "min": 12.523397780226674,
+    "max": 15.955286829229118,
+    "nBg": 4
+   },
+   {
+    "label": "reading title",
+    "selector": "#reading-title",
+    "color": "rgb(29, 36, 22)",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "min": 12.523397780226674,
+    "max": 15.955286829229118,
+    "nBg": 4
+   }
+  ],
+  "contrastFinished": [
+   {
+    "label": "finish title",
+    "selector": ".finish-summary strong",
+    "color": "rgb(29, 36, 22)",
+    "fontSize": "13px",
+    "fontWeight": "700",
+    "min": 14.147522338504801,
+    "max": 15.46785762545677,
+    "nBg": 5
+   },
+   {
+    "label": "finish metric",
+    "selector": ".finish-metrics span",
+    "color": "rgb(75, 86, 65)",
+    "fontSize": "12px",
+    "fontWeight": "400",
+    "min": 7.758762184550727,
+    "max": 7.758762184550727,
+    "nBg": 1
+   },
+   {
+    "label": "finish button",
+    "selector": "#finish-restart-button",
+    "color": "rgb(20, 34, 0)",
+    "fontSize": "12px",
+    "fontWeight": "700",
+    "min": 6.265941633473131,
+    "max": 14.008244621717191,
+    "nBg": 4
+   }
+  ],
+  "focusRings": [
+   {
+    "el": "progress-slider",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "restart-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "play-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "next-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "copy-word-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "wpm-slider",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "slower-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "faster-button",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "sentence-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "comma-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "paragraph-pause-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "smart-pacing-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "focus-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   },
+   {
+    "el": "context-toggle",
+    "fv": true,
+    "outline": "solid 2px rgb(168, 232, 58)",
+    "shadow": "set"
+   }
+  ],
+  "overflow": [
+   {
+    "w": 390,
+    "h": 844,
+    "sw": 390
+   },
+   {
+    "w": 390,
+    "h": 600,
+    "sw": 390
+   },
+   {
+    "w": 768,
+    "h": 1024,
+    "sw": 768
+   },
+   {
+    "w": 1400,
+    "h": 900,
+    "sw": 1400
+   },
+   {
+    "w": 1400,
+    "h": 950,
+    "sw": 1400
+   },
+   {
+    "w": 1708,
+    "h": 950,
+    "sw": 1708
+   },
+   {
+    "w": 1920,
+    "h": 1080,
+    "sw": 1920
+   },
+   {
+    "w": 320,
+    "h": 640,
+    "sw": 343
+   }
+  ],
+  "selectors": [
+   [
+    "#reader-status",
+    1
+   ],
+   [
+    "#word-count",
+    1
+   ],
+   [
+    "#time-left",
+    1
+   ],
+   [
+    "#text-input",
+    1
+   ],
+   [
+    "#load-text-button",
+    1
+   ],
+   [
+    "#clear-button",
+    1
+   ],
+   [
+    "#sample-button",
+    1
+   ],
+   [
+    "#resume-button",
+    1
+   ],
+   [
+    "#file-input",
+    1
+   ],
+   [
+    "#file-name",
+    1
+   ],
+   [
+    "#url-input",
+    1
+   ],
+   [
+    "#load-url-button",
+    1
+   ],
+   [
+    "#source-review",
+    1
+   ],
+   [
+    "#source-title",
+    1
+   ],
+   [
+    "#review-word-count",
+    1
+   ],
+   [
+    "#review-char-count",
+    1
+   ],
+   [
+    "#source-warning",
+    1
+   ],
+   [
+    "#cleanup-linebreaks",
+    1
+   ],
+   [
+    "#cleanup-hyphens",
+    1
+   ],
+   [
+    "#cleanup-boilerplate",
+    1
+   ],
+   [
+    "#cleanup-page-noise",
+    1
+   ],
+   [
+    "#review-text",
+    1
+   ],
+   [
+    "#apply-source-button",
+    1
+   ],
+   [
+    "#raw-source-button",
+    1
+   ],
+   [
+    "#review-back-button",
+    1
+   ],
+   [
+    "#word-display",
+    1
+   ],
+   [
+    "#long-text-note",
+    1
+   ],
+   [
+    "#previous-context",
+    1
+   ],
+   [
+    "#next-context",
+    1
+   ],
+   [
+    "#finish-summary",
+    1
+   ],
+   [
+    "#finish-title",
+    1
+   ],
+   [
+    "#finish-words",
+    1
+   ],
+   [
+    "#finish-time",
+    1
+   ],
+   [
+    "#finish-wpm",
+    1
+   ],
+   [
+    "#finish-restart-button",
+    1
+   ],
+   [
+    "#finish-new-source-button",
+    1
+   ],
+   [
+    "#progress-slider",
+    1
+   ],
+   [
+    "#position-label",
+    1
+   ],
+   [
+    "#percent-label",
+    1
+   ],
+   [
+    "#restart-button",
+    1
+   ],
+   [
+    "#prev-button",
+    1
+   ],
+   [
+    "#sentence-back-button",
+    1
+   ],
+   [
+    "#play-button",
+    1
+   ],
+   [
+    "#play-icon",
+    1
+   ],
+   [
+    "#next-button",
+    1
+   ],
+   [
+    "#copy-word-button",
+    1
+   ],
+   [
+    "#wpm-slider",
+    1
+   ],
+   [
+    "#wpm-output",
+    1
+   ],
+   [
+    "#slower-button",
+    1
+   ],
+   [
+    "#faster-button",
+    1
+   ],
+   [
+    "#section-select",
+    1
+   ],
+   [
+    "#sentence-pause-toggle",
+    1
+   ],
+   [
+    "#comma-pause-toggle",
+    1
+   ],
+   [
+    "#paragraph-pause-toggle",
+    1
+   ],
+   [
+    "#smart-pacing-toggle",
+    1
+   ],
+   [
+    "#focus-toggle",
+    1
+   ],
+   [
+    "#context-toggle",
+    1
+   ],
+   [
+    "#focus-mode-button",
+    1
+   ],
+   [
+    "#focus-mode-label",
+    1
+   ],
+   [
+    ".empty-word, .countdown-word",
+    0
+   ],
+   [
+    "article h1, main h1, h1",
+    1
+   ],
+   [
+    "title",
+    1
+   ],
+   [
+    "script, style, noscript, svg, nav, header, footer, form, aside",
+    26
+   ],
+   [
+    "article, main",
+    1
+   ],
+   [
+    ".tab-pane",
+    3
+   ],
+   [
+    ".tab.active",
+    1
+   ],
+   [
+    ".tab",
+    3
+   ],
+   [
+    ".segment",
+    3
+   ],
+   [
+    ".reader-panel",
+    1
+   ],
+   [
+    "#reading-title",
+    1
+   ],
+   [
+    "#reader-wpm",
+    1
+   ],
+   [
+    "#fullscreen-position",
+    1
+   ],
+   [
+    "#fullscreen-button",
+    1
+   ],
+   [
+    "#theme-button",
+    1
+   ],
+   [
+    "#reader-fullscreen",
+    1
+   ],
+   [
+    "#fullscreen-exit",
+    1
+   ],
+   [
+    "#fullscreen-slower",
+    1
+   ],
+   [
+    "#fullscreen-faster",
+    1
+   ]
+  ],
+  "missingSelectors": [
+   [
+    ".empty-word, .countdown-word",
+    0
+   ]
+  ],
+  "svg": {
+   "parseError": false,
+   "root": "svg",
+   "ns": "http://www.w3.org/2000/svg",
+   "tags": [
+    "svg",
+    "defs",
+    "linearGradient",
+    "stop",
+    "pattern",
+    "path",
+    "rect",
+    "g",
+    "circle"
+   ],
+   "script": false,
+   "text": false,
+   "externalRefs": []
+  },
+  "favicon": [
+   "assets/wordflow-mark.svg"
+  ],
+  "cspViolations": [],
+  "consoleErrors": []
+ }
+}

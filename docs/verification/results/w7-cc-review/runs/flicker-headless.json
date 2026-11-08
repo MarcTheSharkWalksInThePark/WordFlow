@@ -1,0 +1,290 @@
+{
+ "mode": "headless",
+ "chrome": "156.0.8078.81",
+ "variants": {
+  "mouse-click-rest-on-play": {
+   "log": [
+    [
+     7,
+     "pointerout@fullscreen-exit"
+    ],
+    [
+     7,
+     "pointerover@play-icon"
+    ],
+    [
+     7,
+     "SHOW"
+    ],
+    [
+     7,
+     "pointermove@play-icon"
+    ],
+    [
+     7,
+     "mousemove@play-icon"
+    ],
+    [
+     7,
+     "SHOW"
+    ],
+    [
+     7,
+     "pointerdown@play-icon"
+    ],
+    [
+     9,
+     "SHOW"
+    ],
+    [
+     672,
+     "SHOW"
+    ],
+    [
+     1326,
+     "SHOW"
+    ],
+    [
+     4492,
+     "HIDE"
+    ],
+    [
+     5005,
+     "pointerout@play-icon"
+    ],
+    [
+     5005,
+     "pointerover"
+    ]
+   ],
+   "hiddenNow": true,
+   "playing": true,
+   "index": 11,
+   "opacity": "0",
+   "visibility": "hidden",
+   "hides": 1,
+   "shows": 5
+  },
+  "mouse-click-then-move-to-frame": {
+   "log": [
+    [
+     6,
+     "pointerout@fullscreen-exit"
+    ],
+    [
+     6,
+     "pointerover@play-icon"
+    ],
+    [
+     6,
+     "SHOW"
+    ],
+    [
+     6,
+     "pointermove@play-icon"
+    ],
+    [
+     6,
+     "mousemove@play-icon"
+    ],
+    [
+     6,
+     "SHOW"
+    ],
+    [
+     6,
+     "pointerdown@play-icon"
+    ],
+    [
+     7,
+     "SHOW"
+    ],
+    [
+     12,
+     "pointerout@play-icon"
+    ],
+    [
+     12,
+     "pointerover"
+    ],
+    [
+     12,
+     "SHOW"
+    ],
+    [
+     12,
+     "pointermove"
+    ],
+    [
+     12,
+     "mousemove"
+    ],
+    [
+     667,
+     "SHOW"
+    ],
+    [
+     1319,
+     "SHOW"
+    ],
+    [
+     4486,
+     "HIDE"
+    ]
+   ],
+   "hiddenNow": true,
+   "playing": true,
+   "index": 11,
+   "opacity": "0",
+   "visibility": "hidden",
+   "hides": 1,
+   "shows": 6
+  },
+  "space-key-mouse-outside": {
+   "log": [
+    [
+     2,
+     "pointerout@fullscreen-exit"
+    ],
+    [
+     2,
+     "pointerover"
+    ],
+    [
+     2,
+     "SHOW"
+    ],
+    [
+     2,
+     "pointermove"
+    ],
+    [
+     2,
+     "mousemove"
+    ],
+    [
+     4,
+     "SHOW"
+    ],
+    [
+     4,
+     "keydown"
+    ],
+    [
+     4,
+     "SHOW"
+    ],
+    [
+     664,
+     "SHOW"
+    ],
+    [
+     1315,
+     "SHOW"
+    ],
+    [
+     4477,
+     "HIDE"
+    ]
+   ],
+   "hiddenNow": true,
+   "playing": true,
+   "index": 11,
+   "opacity": "0",
+   "visibility": "hidden",
+   "hides": 1,
+   "shows": 5
+  },
+  "mouse-click-rest-on-play-normal-mode": {
+   "log": [
+    [
+     7,
+     "pointerout"
+    ],
+    [
+     7,
+     "pointerover@play-icon"
+    ],
+    [
+     7,
+     "pointermove@play-icon"
+    ],
+    [
+     7,
+     "mousemove@play-icon"
+    ],
+    [
+     7,
+     "pointerdown@play-icon"
+    ],
+    [
+     8,
+     "SHOW"
+    ],
+    [
+     670,
+     "SHOW"
+    ],
+    [
+     1336,
+     "SHOW"
+    ],
+    [
+     2002,
+     "SHOW"
+    ],
+    [
+     2610,
+     "SHOW"
+    ],
+    [
+     3212,
+     "SHOW"
+    ],
+    [
+     3819,
+     "SHOW"
+    ],
+    [
+     4429,
+     "SHOW"
+    ],
+    [
+     5038,
+     "SHOW"
+    ],
+    [
+     5642,
+     "SHOW"
+    ],
+    [
+     6248,
+     "SHOW"
+    ],
+    [
+     6853,
+     "SHOW"
+    ],
+    [
+     7458,
+     "SHOW"
+    ],
+    [
+     8578,
+     "SHOW"
+    ],
+    [
+     9183,
+     "SHOW"
+    ]
+   ],
+   "hiddenNow": false,
+   "playing": true,
+   "index": 11,
+   "opacity": "1",
+   "visibility": "visible",
+   "hides": 0,
+   "shows": 15
+  }
+ }
+}

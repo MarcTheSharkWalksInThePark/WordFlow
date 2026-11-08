@@ -1,0 +1,45 @@
+390x844 dark Normal base 344.00x280.00 cand 340.00x280.00 98.84% 100.00% box 24.58 ink 20.17 64px/64px 51.2px/51.2px 38.4px/38.4px overflow false
+390x844 dark Focus base 344.00x573.91 cand 340.00x573.91 98.84% 100.00% box 105.14 ink 100.73 67.2px/67.2px 67.2px/67.2px 67.2px/67.2px overflow false
+390x600 dark Normal base 344.00x280.00 cand 340.00x280.00 98.84% 100.00% box 24.58 ink 20.17 64px/64px 51.2px/51.2px 38.4px/38.4px overflow false
+390x600 dark Focus base 344.00x408.00 cand 340.00x408.00 98.84% 100.00% box 58.69 ink 54.28 67.2px/67.2px 67.2px/67.2px 67.2px/67.2px overflow false
+768x1024 dark Normal base 318.00x368.00 cand 318.00x368.63 100.00% 100.17% box 41.50 ink 36.08 76.8px/76.8px 61.44px/61.44px 46.08px/46.08px overflow false
+768x1024 dark Focus base 686.00x721.00 cand 686.00x683.61 100.00% 94.81% box 129.69 ink 124.27 76.8px/76.8px 76.8px/76.8px 76.8px/76.8px overflow false
+1400x900 dark Normal base 606.00x577.00 cand 606.00x565.03 100.00% 97.93% box 58.36 ink 49.41 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1400x900 dark Focus base 1318.00x612.00 cand 1318.00x612.00 100.00% 100.00% box 65.05 ink 55.09 140px/140px 140px/140px 140px/140px overflow false
+1400x950 dark Normal base 606.00x627.00 cand 606.00x615.03 100.00% 98.09% box 72.36 ink 63.41 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1400x950 dark Focus base 1318.00x647.00 cand 1318.00x646.00 100.00% 99.85% box 74.56 ink 64.61 140px/140px 140px/140px 140px/140px overflow false
+1708x950 dark Normal base 914.00x627.00 cand 914.00x615.03 100.00% 98.09% box 72.36 ink 63.41 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1708x950 dark Focus base 1626.00x647.00 cand 1626.00x646.00 100.00% 99.85% box 72.39 ink 62.44 144px/144px 144px/144px 144px/144px overflow false
+1920x1080 dark Normal base 1126.00x757.00 cand 1126.00x745.03 100.00% 98.42% box 108.77 ink 99.81 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1920x1080 dark Focus base 1838.00x777.00 cand 1838.00x745.03 100.00% 95.89% box 100.13 ink 90.17 144px/144px 144px/144px 144px/144px overflow false
+390x844 light Normal base 344.00x280.00 cand 340.00x280.00 98.84% 100.00% box 24.58 ink 20.17 64px/64px 51.2px/51.2px 38.4px/38.4px overflow false
+390x844 light Focus base 344.00x573.91 cand 340.00x573.91 98.84% 100.00% box 105.14 ink 100.73 67.2px/67.2px 67.2px/67.2px 67.2px/67.2px overflow false
+390x600 light Normal base 344.00x280.00 cand 340.00x280.00 98.84% 100.00% box 24.58 ink 20.17 64px/64px 51.2px/51.2px 38.4px/38.4px overflow false
+390x600 light Focus base 344.00x408.00 cand 340.00x408.00 98.84% 100.00% box 58.69 ink 54.28 67.2px/67.2px 67.2px/67.2px 67.2px/67.2px overflow false
+768x1024 light Normal base 318.00x368.00 cand 318.00x368.63 100.00% 100.17% box 41.50 ink 36.08 76.8px/76.8px 61.44px/61.44px 46.08px/46.08px overflow false
+768x1024 light Focus base 686.00x721.00 cand 686.00x681.61 100.00% 94.54% box 129.13 ink 123.70 76.8px/76.8px 76.8px/76.8px 76.8px/76.8px overflow false
+1400x900 light Normal base 606.00x577.00 cand 606.00x563.03 100.00% 97.58% box 57.80 ink 48.84 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1400x900 light Focus base 1318.00x612.00 cand 1318.00x612.00 100.00% 100.00% box 65.05 ink 55.09 140px/140px 140px/140px 140px/140px overflow false
+1400x950 light Normal base 606.00x627.00 cand 606.00x613.03 100.00% 97.77% box 71.80 ink 62.84 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1400x950 light Focus base 1318.00x647.00 cand 1318.00x646.00 100.00% 99.85% box 74.56 ink 64.61 140px/140px 140px/140px 140px/140px overflow false
+1708x950 light Normal base 914.00x627.00 cand 914.00x613.03 100.00% 97.77% box 71.80 ink 62.84 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1708x950 light Focus base 1626.00x647.00 cand 1626.00x646.00 100.00% 99.85% box 72.39 ink 62.44 144px/144px 144px/144px 144px/144px overflow false
+1920x1080 light Normal base 1126.00x757.00 cand 1126.00x743.03 100.00% 98.15% box 108.20 ink 99.25 128px/128px 108.8px/108.8px 83.2px/83.2px overflow false
+1920x1080 light Focus base 1838.00x777.00 cand 1838.00x743.03 100.00% 95.63% box 99.56 ink 89.61 144px/144px 144px/144px 144px/144px overflow false
+FLOOR light 844x390 normal true true Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.75 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.75 over=0.015625
+FLOOR light 844x390 normal true false Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.734375 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.734375 over=0.015625
+FLOOR light 844x390 normal false true Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.75 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.75 over=0.015625
+FLOOR light 844x390 normal false false Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.734375 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.734375 over=0.015625
+FLOOR light 390x844 normal true true W x 35 | base 10px 301.5/342 88.158% wrap=true in=true u10=351.734375 over=-6.296875 | cand 10px 309.34375/334 92.618% wrap=false in=true u10=309.34375 over=0
+FLOOR light 390x844 normal true true W x 36 | base 10px 301.5/342 88.158% wrap=true in=true u10=361.78125 over=-6.296875 | cand 10px 318.1875/334 95.266% wrap=false in=true u10=318.1875 over=4.234375
+FLOOR light 390x844 normal true true W x 37 | base 10px 301.5/342 88.158% wrap=true in=true u10=371.828125 over=-6.296875 | cand 10px 327.015625/334 97.909% wrap=false in=true u10=327.015625 over=13.0625
+FLOOR light 390x600 normal false false W x 37 | base 10px 301.46875/342 88.149% wrap=true in=true u10=371.8125 over=-6.328125 | cand 10px 327.015625/334 97.909% wrap=false in=true u10=327.015625 over=13.0625
+FLOOR light 390x844 Focus true true W x 36 | base 10px 301.5/342 88.158% wrap=true in=true u10=361.78125 over=-6.296875 | cand 10px 318.1875/334 95.266% wrap=false in=true u10=318.1875 over=4.234375
+FLOOR light 996x950 Focus true false W x 99 | base 10px 813.96875/912 89.251% wrap=true in=true u10=994.84375 over=-6.828125 | cand 10px 874.953125/908 96.360% wrap=false in=true u10=874.953125 over=54.953125
+FLOOR light 996x950 Focus true false W x 102 | base 10px 813.96875/912 89.251% wrap=true in=true u10=1024.984375 over=-6.828125 | cand 10px 901.46875/908 99.281% wrap=false in=true u10=901.46875 over=81.46875
+FLOOR light 1400x950 Focus false true W x 135 | base 10px 1175.734375/1316 89.342% wrap=true in=true u10=1356.625 over=-8.65625 | cand 10px 1193.140625/1312 90.941% wrap=false in=true u10=1193.140625 over=373.140625
+FLOOR light 1400x950 Focus false true W x 144 | base 10px 1175.734375/1316 89.342% wrap=true in=true u10=1447.0625 over=-8.65625 | cand 10px 1272.671875/1312 97.002% wrap=false in=true u10=1272.671875 over=452.671875
+FLOOR dark 844x390 normal true true Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.75 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.75 over=0.015625
+FLOOR dark 844x390 normal true false Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.734375 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.734375 over=0.015625
+FLOOR dark 844x390 normal false true Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.75 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.75 over=0.015625
+FLOOR dark 844x390 normal false false Real x 45 | base 10px 345.5625/384 89.990% wrap=true in=true u10=10226.734375 over=-0.03125 | cand 10px 342.015625/380 90.004% wrap=true in=true u10=10070.734375 over=0.015625

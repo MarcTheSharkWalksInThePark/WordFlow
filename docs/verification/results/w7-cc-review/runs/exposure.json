@@ -1,0 +1,63 @@
+{
+ "2a37644": {
+  "helperBodySha": "81c7dd8d688e726e16d2ba8edadd78e2d66c9e465f9bbd3245ed581b042c7446",
+  "refs": [
+   {
+    "doc": "index.html",
+    "line": 7,
+    "ref": "assets/wordflow-mark.svg"
+   },
+   {
+    "doc": "index.html",
+    "line": 8,
+    "ref": "styles.css"
+   },
+   {
+    "doc": "index.html",
+    "line": 14,
+    "ref": "assets/wordflow-mark.svg"
+   },
+   {
+    "doc": "index.html",
+    "line": 346,
+    "ref": "app.js"
+   }
+  ],
+  "files": [
+   "app.js",
+   "assets/wordflow-mark.svg",
+   "index.html",
+   "styles.css"
+  ],
+  "assertion": "assert(refs.length >= 4, `expected the documents' script, style and icon references, found ${refs.length}`);"
+ },
+ "51e22d0": {
+  "helperBodySha": "81c7dd8d688e726e16d2ba8edadd78e2d66c9e465f9bbd3245ed581b042c7446",
+  "refs": [
+   {
+    "doc": "index.html",
+    "line": 7,
+    "ref": "assets/wordflow-mark.svg"
+   },
+   {
+    "doc": "index.html",
+    "line": 8,
+    "ref": "styles.css"
+   },
+   {
+    "doc": "index.html",
+    "line": 366,
+    "ref": "app.js"
+   }
+  ],
+  "files": [
+   "app.js",
+   "assets/wordflow-mark.svg",
+   "index.html",
+   "styles.css"
+  ],
+  "assertion": "assert.deepStrictEqual(new Set(refs.map(r => r.ref)), new Set([\"app.js\", \"styles.css\", \"assets/wordflow-mark.svg\"]), `local reference set found: ${[...new Set(refs.map(r => r.ref))].sort().join(\", \")}`);"
+ },
+ "helpersIdentical": true,
+ "filesIdentical": true
+}

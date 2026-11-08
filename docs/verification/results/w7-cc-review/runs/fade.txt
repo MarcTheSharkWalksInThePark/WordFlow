@@ -1,0 +1,42 @@
+pause() then exitFullscreen() (my screenshot flow) 
+   fs=false heading=0.05/visible controls=0.05/visible playing=false anims=opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14
+   fs=false heading=0.99/visible controls=0.99/visible playing=false anims=opacity:running:169,visibility:running:169,opacity:running:169,visibility:running:169
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false 
+   after mouse move: 1/visible cls: reader-panel panel
+exitFullscreen() while playing (as Esc would) 
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true 
+   after mouse move: 1/visible cls: reader-panel panel
+F key while playing 
+   fs=false heading=0.05/visible controls=0.05/visible playing=true anims=opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14
+   fs=false heading=0.99/visible controls=0.99/visible playing=true anims=opacity:running:169,visibility:running:169,opacity:running:169,visibility:running:169
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true
+   fs=false heading=1/visible controls=1/visible playing=true 
+   after mouse move: 1/visible cls: reader-panel panel
+Space (pause) then F 
+   fs=false heading=0.05/visible controls=0.05/visible playing=false anims=opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14
+   fs=false heading=0.99/visible controls=0.99/visible playing=false anims=opacity:running:170,visibility:running:170,opacity:running:170,visibility:running:170
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false 
+   after mouse move: 1/visible cls: reader-panel panel
+Space (pause), wait 1 s, then exitFullscreen() 
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false
+   fs=false heading=1/visible controls=1/visible playing=false 
+   after mouse move: 1/visible cls: reader-panel panel
+click Exit button while playing 
+   fs=true heading=0/hidden controls=0/hidden playing=true
+   fs=true heading=0/hidden controls=0/hidden playing=true
+   fs=true heading=0/hidden controls=0/hidden playing=true
+   fs=true heading=0/hidden controls=0/hidden playing=true
+   fs=true heading=0/hidden controls=0/hidden playing=true 
+   after mouse move: 1/visible cls: reader-panel panel is-fullscreen controls-hidden

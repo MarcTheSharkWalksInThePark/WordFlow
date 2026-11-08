@@ -1,0 +1,8 @@
+M1 KILLED Node tests/post-review.test.cjs restored  FAIL theme toggle overrides the system on this page
+M2a KILLED Chrome smoke restored 2s Error: W7 1400 dark system theme, manual choice and resume fields: Expected values to be strictly deep-equal:
+M3 KILLED Chrome smoke restored 32s Error: W7 1400 dark F ignores editable controls and modifiers: page.waitForFunction: Timeout 30000ms exceeded.
+M4 KILLED Node tests/post-review.test.cjs restored  FAIL fullscreen ignores ctrlKey
+M5 KILLED Chrome smoke restored 3s Error: W7 1400 dark WPM readout, step and clamps: Expected values to be strictly equal:
+M6 KILLED Chrome smoke restored 12s Error: W7 1400 dark reload and unsupported or refused API fallback: Expected values to be strictly equal:
+M7 KILLED Chrome smoke restored 12s Error: W7 1400 dark reload and unsupported or refused API fallback: Expected values to be strictly equal:
+M8 KILLED Chrome smoke restored 6s Error: W7 1400 dark idle controls only while playing and keyboard reveal: The expression evaluated to a falsy value:

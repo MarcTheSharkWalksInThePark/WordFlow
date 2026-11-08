@@ -1,0 +1,267 @@
+{
+ "M9": {
+  "id": "M9",
+  "desc": "fullscreenchange no longer re-fits",
+  "file": "app.js",
+  "transform": [
+   [
+    "  syncFullscreenControls();\n  fitDisplayedWord();\n}",
+    "  syncFullscreenControls();\n}"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:31:13.019Z",
+  "mutated": "542fb609b3478a85e5c6e06afb2ad1cba4b6ac09004025cd2dc19a3af76cb91a",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 544,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 155,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1693,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7982,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 0,
+   "signal": null,
+   "ms": 837594,
+   "tail": [
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+   ],
+   "last": [
+    "Finished matrix: 72 direct / 72 natural",
+    "Finished matrix: 80 direct / 80 natural",
+    "Finished matrix: 88 direct / 88 natural",
+    "Finished matrix: 96 direct / 96 natural",
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}",
+    ""
+   ]
+  },
+  "verdict": "SURVIVED",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:20.989Z"
+ },
+ "M11": {
+  "id": "M11",
+  "desc": "style=\"\" attribute added in index.html",
+  "file": "index.html",
+  "transform": [
+   [
+    "<div class=\"ticker\">",
+    "<div class=\"ticker\" style=\"\">"
+   ]
+  ],
+  "before": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+  "started": "2026-11-08T21:45:20.991Z",
+  "mutated": "306600f631e50f018a1ba0359445995babd55e377bef343415afb209adfe46c7",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 499,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 140,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1778,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7374,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 1974,
+   "tail": [
+    "Error: W7 1400 dark CSP, accessible heading and icon buttons: Expected values to be strictly equal:",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: false,"
+   ],
+   "last": [
+    "    expected: false,",
+    "    operator: 'strictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:32.760Z"
+ },
+ "M13": {
+  "id": "M13",
+  "desc": "light/dark label logic inverted",
+  "file": "app.js",
+  "transform": [
+   [
+    "dark ? \"Lights on\" : \"Lights off\"",
+    "dark ? \"Lights off\" : \"Lights on\""
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:45:32.761Z",
+  "mutated": "9ef4987222f21c285b6894c52b8b8bff089b195ecc3b268c88021df7a56686a6",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 532,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 168,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1738,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7170,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 1995,
+   "tail": [
+    "Error: W7 1400 dark system theme, manual choice and resume fields: Expected values to be strictly equal:",
+    "+ actual - expected",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+    "  + actual - expected",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: 'Lights on',"
+   ],
+   "last": [
+    "    expected: 'Lights on',",
+    "    operator: 'strictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:44.367Z"
+ }
+}

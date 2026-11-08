@@ -1,0 +1,8 @@
+headless mouse-click-rest-on-play hides 1 shows 5 hiddenNow true hidden 0 playing true 
+    [[7,"SHOW"],[7,"pointermove@play-icon"],[7,"mousemove@play-icon"],[7,"SHOW"],[7,"pointerdown@play-icon"],[9,"SHOW"],[672,"SHOW"],[1326,"SHOW"],[4492,"HIDE"]]
+headless mouse-click-then-move-to-frame hides 1 shows 6 hiddenNow true hidden 0 playing true 
+    [[6,"SHOW"],[6,"pointermove@play-icon"],[6,"mousemove@play-icon"],[6,"SHOW"],[6,"pointerdown@play-icon"],[7,"SHOW"],[12,"SHOW"],[12,"pointermove"],[12,"mousemove"],[667,"SHOW"],[1319,"SHOW"],[4486,"HIDE"]]
+headless space-key-mouse-outside hides 1 shows 5 hiddenNow true hidden 0 playing true 
+    [[2,"SHOW"],[2,"pointermove"],[2,"mousemove"],[4,"SHOW"],[4,"keydown"],[4,"SHOW"],[664,"SHOW"],[1315,"SHOW"],[4477,"HIDE"]]
+headless mouse-click-rest-on-play-normal-mode hides 0 shows 15 hiddenNow false visible 1 playing true 
+    [[7,"pointermove@play-icon"],[7,"mousemove@play-icon"],[7,"pointerdown@play-icon"],[8,"SHOW"],[670,"SHOW"],[1336,"SHOW"],[2002,"SHOW"],[2610,"SHOW"],[3212,"SHOW"],[3819,"SHOW"],[4429,"SHOW"],[5038,"SHOW"],[5642,"SHOW"],[6248,"SHOW"],[6853,"SHOW"],[7458,"SHOW"],[8578,"SHOW"],[9183,"SHOW"]]

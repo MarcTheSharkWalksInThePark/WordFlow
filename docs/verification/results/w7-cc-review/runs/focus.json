@@ -1,0 +1,182 @@
+[
+ {
+  "scheme": "dark",
+  "wanted": "#theme-button",
+  "active": "#theme-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-theme-button.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#fullscreen-button",
+  "active": "#fullscreen-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-fullscreen-button.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#sample-button",
+  "active": "#sample-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-sample-button.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#tab-file",
+  "active": "#tab-file",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-tab-file.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#text-input",
+  "active": "#text-input",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-text-input.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#play-button",
+  "active": "#play-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-play-button.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#progress-slider",
+  "active": "#progress-slider",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-progress-slider.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#reader-fullscreen",
+  "active": "#reader-fullscreen",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-reader-fullscreen.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#wpm-slider",
+  "active": "#wpm-slider",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-wpm-slider.png"
+ },
+ {
+  "scheme": "dark",
+  "wanted": "#focus-toggle",
+  "active": "#focus-toggle",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "dark-focus-toggle.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#theme-button",
+  "active": "#theme-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-theme-button.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#fullscreen-button",
+  "active": "#fullscreen-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-fullscreen-button.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#sample-button",
+  "active": "#sample-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-sample-button.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#tab-file",
+  "active": "#tab-file",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-tab-file.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#text-input",
+  "active": "#text-input",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-text-input.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#play-button",
+  "active": "#play-button",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-play-button.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#progress-slider",
+  "active": "#progress-slider",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-progress-slider.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#reader-fullscreen",
+  "active": "#reader-fullscreen",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-reader-fullscreen.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#wpm-slider",
+  "active": "#wpm-slider",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-wpm-slider.png"
+ },
+ {
+  "scheme": "light",
+  "wanted": "#focus-toggle",
+  "active": "#focus-toggle",
+  "fv": true,
+  "outline": "solid 2px rgb(168, 232, 58) off 2px",
+  "shadow": "rgb(32, 36, 32) 0px 0px 0px 2px",
+  "file": "light-focus-toggle.png"
+ }
+]

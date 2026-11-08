@@ -1,0 +1,69 @@
+{
+ "mode": "headed",
+ "chrome": "156.0.8078.81",
+ "variants": {
+  "mouse-click-rest-on-play": {
+   "log": [
+    [
+     6,
+     "pointerout@fullscreen-exit 716,876"
+    ],
+    [
+     6,
+     "pointerover@play-icon 716,876"
+    ],
+    [
+     6,
+     "SHOW"
+    ],
+    [
+     6,
+     "pointermove@play-icon 716,876"
+    ],
+    [
+     6,
+     "mousemove@play-icon 716,875"
+    ],
+    [
+     7,
+     "SHOW"
+    ],
+    [
+     7,
+     "pointerdown@play-icon 716,876"
+    ],
+    [
+     7,
+     "SHOW"
+    ],
+    [
+     659,
+     "SHOW"
+    ],
+    [
+     1311,
+     "SHOW"
+    ],
+    [
+     4477,
+     "HIDE"
+    ],
+    [
+     5009,
+     "pointerout@play-icon 716,876"
+    ],
+    [
+     5009,
+     "pointerover 716,876"
+    ]
+   ],
+   "hiddenNow": true,
+   "playing": true,
+   "index": 11,
+   "opacity": "0",
+   "visibility": "hidden",
+   "hides": 1,
+   "shows": 5
+  }
+ }
+}

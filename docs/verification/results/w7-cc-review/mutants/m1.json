@@ -1,0 +1,700 @@
+{
+ "M1": {
+  "id": "M1",
+  "desc": "theme toggle writes localStorage",
+  "file": "app.js",
+  "transform": [
+   [
+    "root.dataset.theme = effectiveTheme(root.dataset.theme, systemTheme.matches) === \"dark\" ? \"light\" : \"dark\";",
+    "root.dataset.theme = effectiveTheme(root.dataset.theme, systemTheme.matches) === \"dark\" ? \"light\" : \"dark\"; localStorage.setItem(\"wordflow-theme\", root.dataset.theme);"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:31:13.015Z",
+  "mutated": "79a575d08139ad2059faebf0458b1598d42b28d49e2035c9e19043e11f854992",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 548,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 155,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1694,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 1,
+    "signal": null,
+    "ms": 56,
+    "tail": [
+     "FAIL theme toggle overrides the system on this page",
+     "ReferenceError: localStorage is not defined"
+    ],
+    "last": [
+     "ReferenceError: localStorage is not defined",
+     "    at toggleTheme (evalmachine.<anonymous>:3:111)",
+     "    at <scratch>\\wf-m1\\tests\\post-review.test.cjs:34:4",
+     "    at check (<scratch>\\wf-m1\\tests\\post-review.test.cjs:7:42)",
+     "    at <scratch>\\wf-m1\\tests\\post-review.test.cjs:30:8",
+     ""
+    ]
+   }
+  ],
+  "verdict": "KILLED",
+  "caughtBy": "Node tests/post-review.test.cjs",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:31:15.470Z"
+ },
+ "M2a": {
+  "id": "M2a",
+  "desc": "theme in saveSession payload (always defined)",
+  "file": "app.js",
+  "transform": [
+   [
+    "      wordSize: state.wordSize,\n",
+    "      wordSize: state.wordSize,\n      theme: effectiveTheme(document.documentElement.dataset.theme, systemTheme.matches),\n"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:31:15.472Z",
+  "mutated": "a0a0e5099bbd3abe5b71dba19b005c3cd66caa8281395497049a67a49314c7b1",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 535,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 155,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1709,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 8494,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 1998,
+   "tail": [
+    "Error: W7 1400 dark system theme, manual choice and resume fields: Expected values to be strictly deep-equal:",
+    "+ actual - expected",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:",
+    "  + actual - expected",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: [Array],"
+   ],
+   "last": [
+    "    expected: [Array],",
+    "    operator: 'deepStrictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:31:28.365Z"
+ },
+ "M3": {
+  "id": "M3",
+  "desc": "F toggles fullscreen while a field is focused",
+  "file": "app.js",
+  "transform": [
+   [
+    "  if (editable) return;",
+    "  if (editable && !fullscreenShortcut(event)) return;"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:31:28.366Z",
+  "mutated": "0ca9bf705d8f657890b64de1638dbfc8661a508c5ad601d47873b5901ab022d9",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 465,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 145,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1710,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7769,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 32220,
+   "tail": [
+    "Error: W7 1400 dark F ignores editable controls and modifiers: page.waitForFunction: Timeout 30000ms exceeded.",
+    "      at assertFullscreen (<scratch>\\wf-m1\\tests\\reader-portal.cjs:51:14)",
+    "    name: 'TimeoutError'"
+   ],
+   "last": [
+    "      at async <scratch>\\wf-m1\\tools\\static_smoke.cjs:39:4 {",
+    "    log: [],",
+    "    name: 'TimeoutError'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:32:10.678Z"
+ },
+ "M4": {
+  "id": "M4",
+  "desc": "F toggles fullscreen with Ctrl held",
+  "file": "app.js",
+  "transform": [
+   [
+    "(event.key === \"f\" || event.key === \"F\") && !event.ctrlKey && !event.metaKey",
+    "(event.key === \"f\" || event.key === \"F\") && !event.metaKey"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:32:10.679Z",
+  "mutated": "4db978801f63fcf04553384adaebfef246ededdfdadbb015284e55f43c9a3d49",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 637,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 184,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1900,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 1,
+    "signal": null,
+    "ms": 51,
+    "tail": [
+     "FAIL fullscreen ignores ctrlKey",
+     "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:",
+     "  assert(!shortcut({key:\"f\",[modifier]:true}))",
+     "  code: 'ERR_ASSERTION',",
+     "  expected: true,"
+    ],
+    "last": [
+     "  actual: false,",
+     "  expected: true,",
+     "  operator: '==',",
+     "  diff: 'simple'",
+     "}",
+     ""
+    ]
+   }
+  ],
+  "verdict": "KILLED",
+  "caughtBy": "Node tests/post-review.test.cjs",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:32:13.453Z"
+ },
+ "M5": {
+  "id": "M5",
+  "desc": "fullscreen -/+ step 10 instead of 25",
+  "file": "app.js",
+  "transform": [
+   [
+    "\"#fullscreen-slower\").addEventListener(\"click\", () => setWpm(state.wpm - 25)",
+    "\"#fullscreen-slower\").addEventListener(\"click\", () => setWpm(state.wpm - 10)"
+   ],
+   [
+    "\"#fullscreen-faster\").addEventListener(\"click\", () => setWpm(state.wpm + 25)",
+    "\"#fullscreen-faster\").addEventListener(\"click\", () => setWpm(state.wpm + 10)"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:32:13.454Z",
+  "mutated": "d74a97083214f2751b1cd5123fa027b98cac0f0954575baecd26b751e89a4ec4",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 569,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 163,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1926,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 8334,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 2511,
+   "tail": [
+    "Error: W7 1400 dark WPM readout, step and clamps: Expected values to be strictly equal:",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: 275,"
+   ],
+   "last": [
+    "    expected: 275,",
+    "    operator: 'strictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:32:26.961Z"
+ },
+ "M6": {
+  "id": "M6",
+  "desc": "fallback does not turn on Focus mode",
+  "file": "app.js",
+  "transform": [
+   [
+    "  if (!state.focusMode) toggleFocusMode();\n  setStatus(\"Fullscreen",
+    "  setStatus(\"Fullscreen"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:32:26.963Z",
+  "mutated": "29e4dddf0e47bd5db0e9d2407ec6de08214b5540c4e1ffa48c2d441fe63022c9",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 586,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 141,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1844,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 8747,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 11963,
+   "tail": [
+    "Error: W7 1400 dark reload and unsupported or refused API fallback: Expected values to be strictly equal:",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: true,"
+   ],
+   "last": [
+    "    expected: true,",
+    "    operator: 'strictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:32:50.247Z"
+ },
+ "M7": {
+  "id": "M7",
+  "desc": "fallback status text changed by one character",
+  "file": "app.js",
+  "transform": [
+   [
+    "focus mode is on instead.\");",
+    "focus mode is on instead!\");"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:32:50.249Z",
+  "mutated": "c3fc6e9e2551d717f4a257abad669ccf1930a5155ad5761b01e3496c48ffbb4c",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 651,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 179,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1760,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 8719,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 11714,
+   "tail": [
+    "Error: W7 1400 dark reload and unsupported or refused API fallback: Expected values to be strictly equal:",
+    "+ actual - expected",
+    "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+    "  + actual - expected",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: \"Fullscreen isn't available in this browser; focus mode is on instead.\","
+   ],
+   "last": [
+    "    expected: \"Fullscreen isn't available in this browser; focus mode is on instead.\",",
+    "    operator: 'strictEqual',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:33:13.274Z"
+ },
+ "M8": {
+  "id": "M8",
+  "desc": "auto-hide also while paused",
+  "file": "app.js",
+  "transform": [
+   [
+    "if (!isReaderFullscreen() || !state.playing || state.countdownActive || state.finished) {",
+    "if (!isReaderFullscreen() || state.countdownActive || state.finished) {"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:33:13.275Z",
+  "mutated": "8b22585e184b5d9fdf849341ddf301c927a348c51fc65d44f3f9438fb5aba485",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 471,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 147,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1901,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 8996,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 5630,
+   "tail": [
+    "Error: W7 1400 dark idle controls only while playing and keyboard reveal: The expression evaluated to a falsy value:",
+    "  assert(await bar.isVisible())",
+    "  [cause]: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:",
+    "    assert(await bar.isVisible())",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: true,"
+   ],
+   "last": [
+    "    expected: true,",
+    "    operator: '==',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:33:30.423Z"
+ }
+}

@@ -1,0 +1,631 @@
+{
+ "dark": {
+  "normal": [
+   {
+    "label": "body/panel text",
+    "sel": ".toggle-row",
+    "color": "rgb(232, 232, 232)",
+    "size": "12px",
+    "weight": "400",
+    "min": 10.83
+   },
+   {
+    "label": "textarea",
+    "sel": "#text-input",
+    "color": "rgb(242, 242, 242)",
+    "size": "13px",
+    "weight": "400",
+    "min": 17.13
+   },
+   {
+    "label": "muted tagline",
+    "sel": ".tagline",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "400",
+    "min": 5.39
+   },
+   {
+    "label": "muted status",
+    "sel": "#reader-status",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "400",
+    "min": 5.39
+   },
+   {
+    "label": "muted field label",
+    "sel": ".field-label",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.07
+   },
+   {
+    "label": "muted privacy",
+    "sel": ".privacy-note",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "400",
+    "min": 5.39
+   },
+   {
+    "label": "muted LCD caption",
+    "sel": ".quick-stats small",
+    "color": "rgb(170, 176, 184)",
+    "size": "10px",
+    "weight": "700",
+    "min": 5.39
+   },
+   {
+    "label": "progress meta",
+    "sel": ".progress-meta",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "400",
+    "min": 6.07
+   },
+   {
+    "label": "panel head h2",
+    "sel": ".panel-heading h2",
+    "color": "rgb(255, 255, 255)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.35
+   },
+   {
+    "label": "legend (link)",
+    "sel": "legend",
+    "color": "rgb(168, 232, 58)",
+    "size": "12px",
+    "weight": "700",
+    "min": 9.01
+   },
+   {
+    "label": "gel primary",
+    "sel": "#theme-button",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "gel active tab",
+    "sel": ".tab.active",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "inactive tab",
+    "sel": "#tab-file",
+    "color": "rgb(232, 232, 232)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.73
+   },
+   {
+    "label": "chrome button",
+    "sel": "#fullscreen-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   },
+   {
+    "label": "subtle button",
+    "sel": "#sample-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   },
+   {
+    "label": "LCD wpm",
+    "sel": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "LCD words",
+    "sel": "#word-count",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "LCD time",
+    "sel": "#time-left",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "ticker text",
+    "sel": ".ticker span",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "ticker TIP",
+    "sel": ".ticker strong",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 9.21
+   },
+   {
+    "label": "badge left",
+    "sel": ".badges b",
+    "color": "rgb(255, 255, 255)",
+    "size": "10px",
+    "weight": "700",
+    "min": 16.89
+   },
+   {
+    "label": "badge right",
+    "sel": ".badges b + b",
+    "color": "rgb(20, 34, 0)",
+    "size": "10px",
+    "weight": "700",
+    "min": 11.34
+   },
+   {
+    "label": "reader word",
+    "sel": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "size": "108.8px",
+    "weight": "700",
+    "min": 19.92
+   },
+   {
+    "label": "focus letter",
+    "sel": "#word-display .word-focus",
+    "color": "rgb(168, 232, 58)",
+    "size": "108.8px",
+    "weight": "700",
+    "min": 13.54
+   },
+   {
+    "label": "context word",
+    "sel": ".context-word.previous",
+    "color": "rgb(143, 148, 156)",
+    "size": "26.4px",
+    "weight": "740",
+    "min": 6.53
+   },
+   {
+    "label": "now reading",
+    "sel": ".now-reading",
+    "color": "rgb(255, 255, 255)",
+    "size": "13px",
+    "weight": "400",
+    "min": 6.35
+   }
+  ],
+  "fullscreen": [
+   {
+    "label": "fs title",
+    "sel": "#reading-title",
+    "color": "rgb(255, 255, 255)",
+    "size": "13px",
+    "weight": "700",
+    "min": 6.35
+   },
+   {
+    "label": "fs position",
+    "sel": "#fullscreen-position",
+    "color": "rgb(255, 255, 255)",
+    "size": "13px",
+    "weight": "400",
+    "min": 6.35
+   },
+   {
+    "label": "fs exit button",
+    "sel": "#fullscreen-exit",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "fs LCD",
+    "sel": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "fs hint",
+    "sel": ".shortcut-hint",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "fs progress meta",
+    "sel": ".progress-meta",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "fs word",
+    "sel": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "size": "174.08px",
+    "weight": "700",
+    "min": 19.92
+   }
+  ],
+  "finished": [
+   {
+    "label": "finish title",
+    "sel": ".finish-summary strong",
+    "color": "rgb(232, 232, 232)",
+    "size": "13px",
+    "weight": "700",
+    "min": 11.07
+   },
+   {
+    "label": "finish metric",
+    "sel": ".finish-metrics span",
+    "color": "rgb(170, 176, 184)",
+    "size": "12px",
+    "weight": "400",
+    "min": 8.78
+   },
+   {
+    "label": "finish restart",
+    "sel": "#finish-restart-button",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "finish new source",
+    "sel": "#finish-new-source-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   }
+  ]
+ },
+ "light": {
+  "normal": [
+   {
+    "label": "body/panel text",
+    "sel": ".toggle-row",
+    "color": "rgb(29, 36, 22)",
+    "size": "12px",
+    "weight": "400",
+    "min": 15.45
+   },
+   {
+    "label": "textarea",
+    "sel": "#text-input",
+    "color": "rgb(17, 17, 17)",
+    "size": "13px",
+    "weight": "400",
+    "min": 18.88
+   },
+   {
+    "label": "muted tagline",
+    "sel": ".tagline",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "400",
+    "min": 6.14
+   },
+   {
+    "label": "muted status",
+    "sel": "#reader-status",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "400",
+    "min": 6.14
+   },
+   {
+    "label": "muted field label",
+    "sel": ".field-label",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "700",
+    "min": 7.51
+   },
+   {
+    "label": "muted privacy",
+    "sel": ".privacy-note",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "400",
+    "min": 6.14
+   },
+   {
+    "label": "muted LCD caption",
+    "sel": ".quick-stats small",
+    "color": "rgb(75, 86, 65)",
+    "size": "10px",
+    "weight": "700",
+    "min": 6.14
+   },
+   {
+    "label": "progress meta",
+    "sel": ".progress-meta",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "400",
+    "min": 7.51
+   },
+   {
+    "label": "panel head h2",
+    "sel": ".panel-heading h2",
+    "color": "rgb(29, 36, 22)",
+    "size": "12px",
+    "weight": "700",
+    "min": 12.52
+   },
+   {
+    "label": "legend (link)",
+    "sel": "legend",
+    "color": "rgb(63, 107, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.13
+   },
+   {
+    "label": "gel primary",
+    "sel": "#theme-button",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "gel active tab",
+    "sel": ".tab.active",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "inactive tab",
+    "sel": "#tab-file",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   },
+   {
+    "label": "chrome button",
+    "sel": "#fullscreen-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   },
+   {
+    "label": "subtle button",
+    "sel": "#sample-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   },
+   {
+    "label": "LCD wpm",
+    "sel": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "LCD words",
+    "sel": "#word-count",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "LCD time",
+    "sel": "#time-left",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "ticker text",
+    "sel": ".ticker span",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "ticker TIP",
+    "sel": ".ticker strong",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 9.21
+   },
+   {
+    "label": "badge left",
+    "sel": ".badges b",
+    "color": "rgb(255, 255, 255)",
+    "size": "10px",
+    "weight": "700",
+    "min": 16.89
+   },
+   {
+    "label": "badge right",
+    "sel": ".badges b + b",
+    "color": "rgb(20, 34, 0)",
+    "size": "10px",
+    "weight": "700",
+    "min": 11.34
+   },
+   {
+    "label": "reader word",
+    "sel": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "size": "108.8px",
+    "weight": "700",
+    "min": 19.92
+   },
+   {
+    "label": "focus letter",
+    "sel": "#word-display .word-focus",
+    "color": "rgb(168, 232, 58)",
+    "size": "108.8px",
+    "weight": "700",
+    "min": 13.54
+   },
+   {
+    "label": "context word",
+    "sel": ".context-word.previous",
+    "color": "rgb(143, 148, 156)",
+    "size": "26.4px",
+    "weight": "740",
+    "min": 6.53
+   },
+   {
+    "label": "now reading",
+    "sel": ".now-reading",
+    "color": "rgb(29, 36, 22)",
+    "size": "13px",
+    "weight": "400",
+    "min": 12.52
+   }
+  ],
+  "fullscreen": [
+   {
+    "label": "fs title",
+    "sel": "#reading-title",
+    "color": "rgb(29, 36, 22)",
+    "size": "13px",
+    "weight": "700",
+    "min": 12.52
+   },
+   {
+    "label": "fs position",
+    "sel": "#fullscreen-position",
+    "color": "rgb(29, 36, 22)",
+    "size": "13px",
+    "weight": "400",
+    "min": 12.52
+   },
+   {
+    "label": "fs exit button",
+    "sel": "#fullscreen-exit",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "fs LCD",
+    "sel": "#reader-wpm",
+    "color": "rgb(109, 255, 109)",
+    "size": "14px",
+    "weight": "700",
+    "min": 14.75
+   },
+   {
+    "label": "fs hint",
+    "sel": ".shortcut-hint",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "fs progress meta",
+    "sel": ".progress-meta",
+    "color": "rgb(216, 216, 216)",
+    "size": "12px",
+    "weight": "400",
+    "min": 14.73
+   },
+   {
+    "label": "fs word",
+    "sel": "#word-display",
+    "color": "rgb(255, 255, 255)",
+    "size": "174.08px",
+    "weight": "700",
+    "min": 19.92
+   }
+  ],
+  "finished": [
+   {
+    "label": "finish title",
+    "sel": ".finish-summary strong",
+    "color": "rgb(29, 36, 22)",
+    "size": "13px",
+    "weight": "700",
+    "min": 14.15
+   },
+   {
+    "label": "finish metric",
+    "sel": ".finish-metrics span",
+    "color": "rgb(75, 86, 65)",
+    "size": "12px",
+    "weight": "400",
+    "min": 7.76
+   },
+   {
+    "label": "finish restart",
+    "sel": "#finish-restart-button",
+    "color": "rgb(20, 34, 0)",
+    "size": "12px",
+    "weight": "700",
+    "min": 6.27
+   },
+   {
+    "label": "finish new source",
+    "sel": "#finish-new-source-button",
+    "color": "rgb(21, 23, 26)",
+    "size": "12px",
+    "weight": "700",
+    "min": 10.68
+   }
+  ]
+ },
+ "overflow320": {
+  "base": {
+   "scrollWidth": 320,
+   "clientWidth": 320,
+   "wide": []
+  },
+  "cand": {
+   "scrollWidth": 343,
+   "clientWidth": 320,
+   "wide": [
+    "panel-heading reader-heading:343",
+    "reader-actions:334",
+    "#reader-fullscreen:334",
+    "reader-frame:331",
+    "reader-controls:331",
+    "progress-area:331",
+    "progress-meta:331",
+    "#percent-label:331"
+   ]
+  }
+ }
+}

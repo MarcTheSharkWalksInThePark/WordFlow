@@ -1,0 +1,278 @@
+{
+ "pause() then exitFullscreen() (my screenshot flow)": {
+  "samples": [
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.05/visible",
+    "controls": "0.05/visible",
+    "playing": false,
+    "anims": "opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.99/visible",
+    "controls": "0.99/visible",
+    "playing": false,
+    "anims": "opacity:running:169,visibility:running:169,opacity:running:169,visibility:running:169"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 3412
+ },
+ "exitFullscreen() while playing (as Esc would)": {
+  "samples": [
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 3410
+ },
+ "F key while playing": {
+  "samples": [
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.05/visible",
+    "controls": "0.05/visible",
+    "playing": true,
+    "anims": "opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.99/visible",
+    "controls": "0.99/visible",
+    "playing": true,
+    "anims": "opacity:running:169,visibility:running:169,opacity:running:169,visibility:running:169"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": true,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 3403
+ },
+ "Space (pause) then F": {
+  "samples": [
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.05/visible",
+    "controls": "0.05/visible",
+    "playing": false,
+    "anims": "opacity:running:14,visibility:running:14,opacity:running:14,visibility:running:14"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "0.99/visible",
+    "controls": "0.99/visible",
+    "playing": false,
+    "anims": "opacity:running:170,visibility:running:170,opacity:running:170,visibility:running:170"
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 3403
+ },
+ "Space (pause), wait 1 s, then exitFullscreen()": {
+  "samples": [
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   },
+   {
+    "fs": false,
+    "cls": "reader-panel panel",
+    "heading": "1/visible",
+    "controls": "1/visible",
+    "playing": false,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 4411
+ },
+ "click Exit button while playing": {
+  "samples": [
+   {
+    "fs": true,
+    "cls": "reader-panel panel is-fullscreen controls-hidden",
+    "heading": "0/hidden",
+    "controls": "0/hidden",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": true,
+    "cls": "reader-panel panel is-fullscreen controls-hidden",
+    "heading": "0/hidden",
+    "controls": "0/hidden",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": true,
+    "cls": "reader-panel panel is-fullscreen controls-hidden",
+    "heading": "0/hidden",
+    "controls": "0/hidden",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": true,
+    "cls": "reader-panel panel is-fullscreen controls-hidden",
+    "heading": "0/hidden",
+    "controls": "0/hidden",
+    "playing": true,
+    "anims": ""
+   },
+   {
+    "fs": true,
+    "cls": "reader-panel panel is-fullscreen controls-hidden",
+    "heading": "0/hidden",
+    "controls": "0/hidden",
+    "playing": true,
+    "anims": ""
+   }
+  ],
+  "afterMove": "1/visible",
+  "ms": 8404
+ }
+}

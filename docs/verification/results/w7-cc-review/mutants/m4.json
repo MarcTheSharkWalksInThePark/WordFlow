@@ -1,0 +1,267 @@
+{
+ "M14": {
+  "id": "M14",
+  "desc": "Large word size 128px -> 120px",
+  "file": "styles.css",
+  "transform": [
+   [
+    ".word-display.large {\n  font-size: clamp(4rem, 10vw, 8rem);",
+    ".word-display.large {\n  font-size: clamp(4rem, 10vw, 7.5rem);"
+   ]
+  ],
+  "before": "dc0c917e099095735504312c4c914bd601b88851d8fa17fef197362890a5ecd4",
+  "started": "2026-11-08T21:31:13.034Z",
+  "mutated": "cf61e435844f7ca56f16d8e6177c01b0c48cfad8aabbe5822ec53ac8e8fc5a31",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 509,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 149,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1734,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7936,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 0,
+   "signal": null,
+   "ms": 838993,
+   "tail": [
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+   ],
+   "last": [
+    "Finished matrix: 72 direct / 72 natural",
+    "Finished matrix: 80 direct / 80 natural",
+    "Finished matrix: 88 direct / 88 natural",
+    "Finished matrix: 96 direct / 96 natural",
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}",
+    ""
+   ]
+  },
+  "verdict": "SURVIVED",
+  "restored": "dc0c917e099095735504312c4c914bd601b88851d8fa17fef197362890a5ecd4",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:22.358Z"
+ },
+ "M15": {
+  "id": "M15",
+  "desc": "F1 floor 10px -> 9px",
+  "file": "app.js",
+  "transform": [
+   [
+    "    let low = 10;",
+    "    let low = 9;"
+   ],
+   [
+    "Math.max(10, Math.floor(low))",
+    "Math.max(9, Math.floor(low))"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:45:22.360Z",
+  "mutated": "ad66a4ed40236577697431d0130c82f935c752b73ad5a714ff46d020b71110cf",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 483,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 158,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1675,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7538,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 11437,
+   "tail": [
+    "Error: W7 1400 dark fullscreen F1 geometry and playback: The expression evaluated to a falsy value:",
+    "  assert(observed.font >= 10)",
+    "  [cause]: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:",
+    "    assert(observed.font >= 10)",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: true,"
+   ],
+   "last": [
+    "    expected: true,",
+    "    operator: '==',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:43.653Z"
+ },
+ "M2b": {
+  "id": "M2b",
+  "desc": "theme in saveSession payload (only after a manual toggle)",
+  "file": "app.js",
+  "transform": [
+   [
+    "      wordSize: state.wordSize,\n",
+    "      wordSize: state.wordSize,\n      theme: document.documentElement.dataset.theme,\n"
+   ]
+  ],
+  "before": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "started": "2026-11-08T21:45:43.654Z",
+  "mutated": "24804ec36fae91f316f6406f8c8862f74646c5eaaf938ea3dddc9c1e1381a300",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 464,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 165,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1677,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7035,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":90,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 0,
+   "signal": null,
+   "ms": 806270,
+   "tail": [
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}"
+   ],
+   "last": [
+    "Finished matrix: 72 direct / 72 natural",
+    "Finished matrix: 80 direct / 80 natural",
+    "Finished matrix: 88 direct / 88 natural",
+    "Finished matrix: 96 direct / 96 natural",
+    "{\"passed\":924,\"viewports\":2,\"errors\":0,\"uploadRequests\":0}",
+    ""
+   ]
+  },
+  "verdict": "SURVIVED",
+  "restored": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:59:19.267Z"
+ }
+}

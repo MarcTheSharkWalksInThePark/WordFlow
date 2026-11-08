@@ -1,0 +1,43 @@
+{
+ "M16": {
+  "id": "M16",
+  "desc": "extra: local server Permissions-Policy blocks fullscreen (native request rejects)",
+  "file": "server.js",
+  "transform": [
+   [
+    "\"permissions-policy\": \"accelerometer=(), ",
+    "\"permissions-policy\": \"fullscreen=(), accelerometer=(), "
+   ]
+  ],
+  "before": "82ee96901522e9e494d05c9f2c10c52d984ac29b2ed385731c13be4c4f2d8042",
+  "started": "2026-11-08T21:45:44.133Z",
+  "mutated": "febb80894e64a3da72d93bf1a0cb99ad654e4e1911cdfbf7b4658e768d66e14a",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 1,
+    "signal": null,
+    "ms": 433,
+    "tail": [
+     "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+     "+ actual - expected",
+     "  code: 'ERR_ASSERTION',",
+     "  expected: 'accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()',"
+    ],
+    "last": [
+     "  actual: 'fullscreen=(), accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()',",
+     "  expected: 'accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()',",
+     "  operator: 'strictEqual',",
+     "  diff: 'simple'",
+     "}",
+     ""
+    ]
+   }
+  ],
+  "verdict": "KILLED",
+  "caughtBy": "Node tests/regression.cjs",
+  "restored": "82ee96901522e9e494d05c9f2c10c52d984ac29b2ed385731c13be4c4f2d8042",
+  "restoredOk": true,
+  "finished": "2026-11-08T21:45:44.570Z"
+ }
+}

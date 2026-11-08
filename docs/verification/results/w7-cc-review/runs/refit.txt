@@ -1,0 +1,6 @@
+real handler                 reading         normal {"font":"64px","text":224,"inner":334,"inside":true} fullscreen {"font":"93px","text":326,"inner":364,"inside":true}
+real handler                 rhythm          normal {"font":"64px","text":218,"inner":334,"inside":true} fullscreen {"font":"96px","text":327,"inner":364,"inside":true}
+real handler                 comprehension;  normal {"font":"39px","text":294,"inner":334,"inside":true} fullscreen {"font":"43px","text":324,"inner":364,"inside":true}
+handler without re-fit (M9)  reading         normal {"font":"64px","text":224,"inner":334,"inside":true} fullscreen {"font":"102.4px","text":359,"inner":364,"inside":true}
+handler without re-fit (M9)  rhythm          normal {"font":"64px","text":218,"inner":334,"inside":true} fullscreen {"font":"102.4px","text":348,"inner":364,"inside":true}
+handler without re-fit (M9)  comprehension;  normal {"font":"39px","text":294,"inner":334,"inside":true} fullscreen {"font":"39px","text":294,"inner":364,"inside":true}
