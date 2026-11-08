@@ -529,6 +529,10 @@ input[type="range"] { width: 100%; margin: 0; }
 }
 .is-fullscreen .reader-frame { min-height: 0; }
 .is-fullscreen .reader-heading { margin: 0; padding: 6px 10px; }
+.is-fullscreen .now-reading { display: flex; align-items: center; gap: 4px; }
+.is-fullscreen .now-reading::before { flex-shrink: 0; margin-right: 0; }
+.is-fullscreen .now-reading > span { flex-shrink: 0; }
+.is-fullscreen #reading-title { overflow: hidden; text-overflow: ellipsis; }
 .is-fullscreen .fullscreen-only { display: inline-flex; }
 .is-fullscreen #reader-fullscreen { display: none; }
 .is-fullscreen .reader-controls { padding: 0 5px; }
@@ -570,7 +574,8 @@ input[type="range"] { width: 100%; margin: 0; }
   button, .tab, .segment, .icon-button, .icon-text-button { min-width: 44px; min-height: 44px; }
   .toggle-row, .mini-toggle, select { min-height: 44px; }
   .is-fullscreen .reader-heading { flex-wrap: wrap; }
-  .is-fullscreen .now-reading { flex-basis: 100%; }
+  .is-fullscreen .now-reading { flex-basis: 100%; display: grid; grid-template-columns: 6px auto minmax(0, 1fr); }
+  .is-fullscreen #fullscreen-position { grid-column: 2 / -1; white-space: normal; }
   .is-fullscreen .reader-actions { flex-wrap: wrap; }
 }
 @media (max-width: 430px) {
