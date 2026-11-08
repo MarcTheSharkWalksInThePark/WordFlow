@@ -82,6 +82,58 @@ async function noCollisions(page) {
   });
  }),"context/note intersects scrolling area");
 }
+// Compare the token and its focus-letter markup across revisions. The reader's own
+// geometry determines its font size, fitting classes and scroll-region attributes.
+async function tokenMarkup(page) {
+ return page.locator("#word-display").evaluate(el => {
+  const copy = el.cloneNode(true);
+  copy.style.removeProperty("font-size");
+  if (!copy.getAttribute("style")) copy.removeAttribute("style");
+  copy.classList.remove("fitted-long-word", "wrapped-long-word", "scrolling-long-word");
+  for (const name of ["inert", "tabindex", "role", "aria-label", "aria-describedby", "data-long-text-paused"]) {
+   copy.removeAttribute(name);
+  }
+  return copy.outerHTML;
+ });
+}
+
+async function checkTokenLayout(page) {
+ const observed = await page.evaluate(() => {
+  const d = els.wordDisplay, frame = d.closest(".reader-frame");
+  const bounds = frame.getBoundingClientRect(), area = d.getBoundingClientRect();
+  const range = document.createRange();
+  range.selectNodeContents(d);
+  const scrolling = d.classList.contains("scrolling-long-word");
+  const visible = scrolling ? area : range.getBoundingClientRect();
+  const x = bounds.left + frame.clientLeft, y = bounds.top + frame.clientTop;
+  return {
+   inside: visible.left >= x && visible.right <= x + frame.clientWidth &&
+    visible.top >= y && visible.bottom <= y + frame.clientHeight,
+   font: parseFloat(getComputedStyle(d).fontSize),
+   wrapped: d.classList.contains("wrapped-long-word"),
+   scrolling, finished: state.finished, inert: d.inert,
+   role: d.getAttribute("role"), tabindex: d.getAttribute("tabindex"),
+   label: d.getAttribute("aria-label"), description: d.getAttribute("aria-describedby"),
+   marker: d.dataset.longTextPaused, index: String(state.index),
+   noteHidden: els.longTextNote.hidden, frameFits: frame.scrollWidth === frame.clientWidth && frame.scrollHeight === frame.clientHeight
+  };
+ });
+ assert(observed.inside, "painted token must stay inside the reader frame");
+ assert(observed.frameFits, "token must not overflow the reader frame");
+ assert(observed.font >= 10);
+ if (observed.wrapped) assert.equal(observed.font, 10);
+ if (observed.scrolling) assert(observed.wrapped);
+ const interactive = observed.scrolling && !observed.finished;
+ assert.equal(observed.inert, observed.scrolling && observed.finished);
+ assert.equal(observed.role, interactive ? "region" : null);
+ assert.equal(observed.tabindex, interactive ? "0" : null);
+ assert.equal(observed.label, interactive ? "Long text" : null);
+ assert.equal(observed.description, interactive ? "long-text-note" : null);
+ assert.equal(observed.marker, interactive ? observed.index : undefined);
+ assert.equal(observed.noteHidden, !interactive);
+ if (!observed.finished) await noCollisions(page);
+}
+
 async function cleared(page) {
  assert(await page.evaluate(()=>els.longTextNote.hidden&&els.wordDisplay.scrollTop===0
   &&!els.wordDisplay.classList.contains("wrapped-long-word")&&!els.wordDisplay.classList.contains("scrolling-long-word")
@@ -103,7 +155,9 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
    for(const token of ["Hello",REAL]) {
     await prepare(master,token);await prepare(page,token);
     const before=await snapshot(master),after=await snapshot(page);
-    for(const key of ["font","word","classes","text","frame"])assert.deepEqual(after[key],before[key],key);
+    assert.equal(after.text,before.text);
+    assert.equal(await tokenMarkup(page),await tokenMarkup(master));
+    await checkTokenLayout(page);
     assert(!after.wrapped&&!after.scrolling&&after.noteHidden);dataSame(after,before);
     evidence.measurements.push({kind:"control",length:token.length,before:publicMeasurement(before),after:publicMeasurement(after)});
    }
@@ -182,4 +236,4 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
   fs.writeFileSync(path.join(out,"reader-"+viewport.width+".json"),JSON.stringify(evidence,null,2)+"\n");
  }finally{await master.close();}
 }
-module.exports={PRE_F1,readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};
+module.exports={PRE_F1,tokenMarkup,checkTokenLayout,readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};

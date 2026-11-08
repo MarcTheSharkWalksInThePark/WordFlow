@@ -21,6 +21,24 @@ async function check(name,fn) {try{await fn();passed++;cases.push({name,passed:t
    const wrapped=breakWord(font,width,frameWidth);assert.equal(wrapped,false);assert.equal(scrollWord(wrapped,height,frameHeight),false);
   }
  });
+ const shortcut=vm.runInNewContext(functionText(app,"fullscreenShortcut")+"\nfullscreenShortcut");
+ for(const key of ["f","F"])await check("fullscreen shortcut "+key,()=>assert(shortcut({key})));
+ for(const modifier of ["ctrlKey","metaKey","altKey"])await check("fullscreen ignores "+modifier,()=>assert(!shortcut({key:"f",[modifier]:true})));
+ await check("fullscreen ignores other keys",()=>assert(!shortcut({key:"Escape"})));
+ const choose=vm.runInNewContext(functionText(app,"effectiveTheme")+"\neffectiveTheme");
+ await check("theme follows dark and light systems",()=>{assert.equal(choose(undefined,true),"dark");assert.equal(choose(undefined,false),"light");});
+ await check("theme toggle overrides the system on this page",()=>{
+  for(const systemDark of [false,true]){
+   const root={dataset:{}},scope={document:{documentElement:root},systemTheme:{matches:systemDark},effectiveTheme:choose,renderThemeButton(){}};
+   const toggle=vm.runInNewContext(functionText(app,"toggleTheme")+"\ntoggleTheme",scope);
+   toggle();assert.equal(root.dataset.theme,systemDark?"light":"dark");toggle();assert.equal(root.dataset.theme,systemDark?"dark":"light");
+  }
+ });
+ await check("storage writes use only the v1 resume key",()=>{
+  assert.match(app,/const STORAGE_KEY = "wordflow-reader-session-v1";/);
+  assert.deepEqual([...app.matchAll(/(?:localStorage|sessionStorage)\.setItem\(([^,]+)/g)].map(m=>m[1]),["STORAGE_KEY"]);
+  assert(!/document\.cookie\s*=/.test(app));
+ });
  const source=/async function fetchViaLocalReader\(url\) \{[\s\S]*?^\}/m.exec(app)[0];
  const rows=[
   ["HTML Error 1027 at 429",429,"text/html","<h1>Error 1027</h1>","quota"],

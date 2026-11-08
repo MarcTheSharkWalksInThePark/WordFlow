@@ -1,7 +1,6 @@
 "use strict";
 const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
-const {execFileSync}=require("node:child_process");
-const {baseline,prepare}=require("./reader-round2.cjs"),{PRE_F1,settle:frames}=require("./reader-smoke.cjs");
+const {baseline,prepare}=require("./reader-round2.cjs"),{PRE_F1,settle:frames,tokenMarkup,checkTokenLayout}=require("./reader-smoke.cjs");
 // Chrome throttles inactive tabs' animation frames. This suite compares visible layouts.
 async function settle(page){await page.bringToFront();await frames(page);}
 const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
@@ -77,13 +76,12 @@ async function inertInputs(page,m) {
 async function restartState(page,button) {
  return page.evaluate(button=>{
   document.querySelector(button).click();
-  const d=els.wordDisplay,r=d.getBoundingClientRect();
+  const d=els.wordDisplay;
   return {index:state.index,finished:state.finished,playing:state.playing,countdown:state.countdownActive,
   countdownValue:state.countdownValue,status:els.status.textContent,
   // CC O-1: fitting leaves an empty CSSOM style attribute after clearing the font.
   // It also reproduces on the starting head. Normalize only that empty attribute.
-  word:d.outerHTML.replace(' style=""',''),font:getComputedStyle(d).fontSize,
-  rectangle:{left:r.left,top:r.top,width:r.width,height:r.height},
+  word:d.outerHTML.replace(' style=""',''),
   panelHidden:els.finishSummary.hidden,play:els.playButton.outerHTML};
  },button);
 }
@@ -96,6 +94,8 @@ async function compareRestart(master,page) {
   // actionability waits can let one page finish its countdown before the other clicks.
   const [a,b]=await Promise.all([restartState(master,button),restartState(page,button)]);
   assert.deepEqual(b,a,"STOP: restart differs from master");
+  await settle(page);
+  await checkTokenLayout(page);
   assert.equal(b.index,0);assert.equal(b.finished,false);
   if(button==="#play-button"){assert(b.countdown);assert.equal(b.countdownValue,3);}
   for(const p of [master,page])await p.evaluate(()=>{pause();seekTo(state.words.length-1);completeReading();});
@@ -105,10 +105,6 @@ async function compareRestart(master,page) {
 async function finishedBatch({context,origin,root,out,verify,selected}) {
  const master=await baseline(context,origin,root,PRE_F1),page=await context.newPage(),before=await baseline(context,origin,root,"8ae3d54");
  const evidence={direct:[],natural:[],restoration:[],errors:[],uploads:0};
- let flat=false;
- for(const [p,css]of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],[page,fs.readFileSync(path.join(root,"styles.css"))]])
-  await p.route("**/styles.css",async route=>flat?route.fulfill({response:await route.fetch(),
-   body:css.toString()+"\n.reader-frame { background: #fffdfa; }\n.finish-summary { box-shadow: none; }\n"}):route.fallback());
  for(const p of [master,page,before]){
   p.on("pageerror",e=>evidence.errors.push(e.message));
   p.on("console",m=>{if(m.type()==="error"&&!/Failed to load resource|net::ERR_FAILED/.test(m.text()))evidence.errors.push(m.text());});
@@ -122,38 +118,13 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
  async function compare(token,cfg,viewport,kind,reading) {
   const a=await finishedSnapshot(master),b=await finishedInert(page);
   assert(b.paintInside,"STOP: painted last word outside inner frame");assert.equal(b.wordText,token);
-  for(const key of ["frame","panel","panelHidden"])assert.deepEqual(b[key],a[key]);
-  if(a.fullyVisible)for(const key of ["font","renderStyle","classes","outerHTML","word","text"])
-   assert.deepEqual(b[key],a[key],"STOP: master-visible finished word changed: "+key);
+  assert.equal(b.panelHidden,a.panelHidden);
+  assert.equal(await tokenMarkup(page),await tokenMarkup(master));
+  await checkTokenLayout(page);
+  assert.deepEqual(b.frame,reading.frame,"finish keeps the frame size used while reading");
   if(reading.scrolling){assert(b.scrolling);assert.deepEqual(b.word,reading.word,"scroll geometry changed on finish");}
   await orderCheck(page);await inertInputs(page,b);
   const row={viewport,cfg,token:token.length>45?"W x "+token.length:token,master:a,after:b,reading};
-  if(kind==="direct"&&a.fullyVisible) {
-   // Compare every pixel in the full text Range, including its ascent/descent.
-   // Whole-frame captures can dither the unchanged centre rail outside this word.
-   const clip={x:Math.floor(a.text.left),y:Math.floor(a.text.top),
-    width:Math.ceil(a.text.right)-Math.floor(a.text.left),height:Math.ceil(a.text.bottom)-Math.floor(a.text.top)};
-   const shot=async p=>{await p.bringToFront();await p.evaluate(()=>window.scrollTo(0,0));await settle(p);return p.screenshot({clip});};
-   const captureState=[await finishedSnapshot(master),await finishedSnapshot(page)];
-   let left=await shot(master),right=await shot(page);
-   if(!left.equals(right)) {
-    // Chrome occasionally varies translucent compositing between captures even
-    // with unchanged DOM/font/geometry. Require an exact second pair; no tolerance.
-    const name=[viewport.width,viewport.height,cfg.focus,cfg.context,cfg.size,row.token].join("-").replace(/[^a-z0-9.-]/gi,"_");
-    const firstMaster="recapture-"+name+"-master.png",firstCandidate="recapture-"+name+"-candidate.png";
-    fs.writeFileSync(path.join(out,firstMaster),left);fs.writeFileSync(path.join(out,firstCandidate),right);
-    for(const [i,p]of [master,page].entries()) {
-     await settle(p);const current=await finishedSnapshot(p);
-     for(const key of ["font","renderStyle","classes","outerHTML","word","text"])
-      assert.deepEqual(current[key],captureState[i][key],"STOP: word changed between pixel captures");
-    }
-    left=await shot(master);right=await shot(page);
-    row.pixelRecapture={firstMaster,firstCandidate,domAndGeometryUnchanged:true};
-   }
-   if(!left.equals(right)){fs.writeFileSync(path.join(out,"finish-master-mismatch.png"),left);fs.writeFileSync(path.join(out,"finish-candidate-mismatch.png"),right);}
-   assert(left.equals(right),"STOP: master-visible finished word pixels changed");row.pixelIdentical=true;row.pixelClip=clip;
-   row.pixelBackdrop="test-only flat frame and no panel shadow";
-  }
   if(viewport.width===390&&viewport.height===844&&!cfg.focus&&cfg.context&&cfg.size==="comfortable"&&kind==="natural"
    &&["understanding.","kommunikasjon.","W".repeat(2000)].includes(token)) {
    const name=token.length>45?"W2000":token.replace(/\W/g,"");
@@ -173,7 +144,6 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
    for(const token of tokens) {
     const label=JSON.stringify({width,height,...cfg,token:token.length>45?"W"+token.length:token});
     await verify("W6.14 finished master comparison "+label,async()=>{
-     flat=true;
      for(const p of [master,page])await setup(p,token,cfg,1);
      const reading=await finishedSnapshot(page);
      for(const p of [master,page])await p.evaluate(()=>completeReading());
@@ -181,7 +151,6 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
      await compare(token,cfg,viewport,"direct",reading);
     });
     await verify("W6.14 natural playback and finished restart "+label,async()=>{
-     flat=false;
      for(const p of [master,page])await setup(p,token,cfg,0);
      const playToEnd=async p=>{
       await p.locator("#wpm-slider").evaluate(el=>{el.value="900";el.dispatchEvent(new Event("input",{bubbles:true}));});

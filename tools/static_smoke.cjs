@@ -36,6 +36,7 @@ const LIMIT="URL loading has reached today's free limit. It resets at 00:00 UTC.
    const inputRange=async(id,n)=>page.locator("#"+id).evaluate((el,n)=>{el.value=n;el.dispatchEvent(new Event("input",{bubbles:true}));},String(n));
    const use=async()=>{await page.locator("#apply-source-button").click();assert((await stateValue("words")).length>0);await page.locator("#review-back-button").click();};
    await page.goto(origin,{waitUntil:"networkidle"});
+   await require("../tests/reader-portal.cjs").portalChecks({browser,origin,width:viewport.width,verify,out,root});
    await require("../tests/reader-round2.cjs").browserPredicateChecks(page,verify);
    await verify("identity, meaningful UI, no overlay, privacy",async()=>{assert.equal(await page.title(),"WordFlow Reader");assert((await page.locator("body").innerText()).includes("Files are read in your browser"));assert(await page.locator("#sample-button").isVisible());});
    await verify("sample and clear",async()=>{await page.locator("#sample-button").click();assert((await value("review-text")).includes("A focused reading rhythm"));await use();await page.locator("#clear-button").click();assert.equal(await stateValue("words").then(x=>x.length),0);});

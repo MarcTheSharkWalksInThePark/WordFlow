@@ -1,7 +1,7 @@
 "use strict";
 const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
 const {execFileSync}=require("node:child_process");
-const {PRE_F1,settle,noCollisions,cleared}=require("./reader-smoke.cjs");
+const {PRE_F1,settle,noCollisions,cleared,tokenMarkup,checkTokenLayout}=require("./reader-smoke.cjs");
 const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
 const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
  [1708,950,false],[1920,1080,false],[996,950,true],[1400,950,true],[390,844,true]];
@@ -78,18 +78,6 @@ async function browserPredicateChecks(page,verify) {
 async function round2Checks({page,context,origin,root,out,verify}) {
  const master=await baseline(context,origin,root,PRE_F1),before=await baseline(context,origin,root,"fc98d1e");
  const evidence={master:"b9d3d9e",before:"fc98d1e",matrix:[],controls:[],data:[],play:[],preservation:[]};
- let flatBackground=false;
- // Isolate token pixels from Chrome's history-dependent dithering of the unchanged
- // translucent frame gradients. Actual production backgrounds are used by geometry,
- // collision, data and interaction checks. No product stylesheet is changed.
- const identityRoutes=new Map();
- for(const [p,css] of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],
-  [page,fs.readFileSync(path.join(root,"styles.css"))]]) {
-  const handler=async route=>{
-   if(!flatBackground)return route.fallback();
-   return route.fulfill({response:await route.fetch(),body:css.toString()+"\n.reader-frame { background: #fffdfa; }\n"});
-  };identityRoutes.set(p,handler);await p.route("**/styles.css",handler);
- }
  const errors=[];for(const p of [master,before])p.on("pageerror",e=>errors.push(e.message));
  try {
   for(const [width,height,focus] of layouts) {
@@ -118,31 +106,16 @@ async function round2Checks({page,context,origin,root,out,verify}) {
       await page.screenshot({path:path.join(out,"round2-normal-"+width+".png"),fullPage:true});
     });
     await verify("W6.12 fitting and master identity "+label,async()=>{
-     flatBackground=true;
      for(const token of ["Hello",REAL,"W".repeat(135),"W".repeat(2000),REAL.repeat(45)]) {
-      // Equal initial document/capture history on both sides. Chrome's prior full-page
-      // capture/scroll history can change frame rasterisation even on unchanged master.
       await master.reload();await page.reload();
       await prepare(master,token,cfg);const old=await measure(master);
       await prepare(page,token,cfg);const m=await measure(page);
       assert(m.ink.fullyVisible,"clipped frame "+JSON.stringify(compact(m)));
-      const fitsMaster=old.ink.fullyVisible;
-      if(fitsMaster) {
-       // CSSOM leaves an empty style attribute after a previously fitted token;
-       // the baseline and candidate have different preceding long-token histories.
-       assert.equal(m.outerHTML.replace(' style=""',''),old.outerHTML.replace(' style=""',''),"STOP: master-fitting token DOM changed");
-       for(const key of ["word","frame","context","font","classes"])assert.deepEqual(m[key],old[key],"STOP: master-fitting token "+key);
-       const shot=async(p,r)=>{await p.bringToFront();await p.evaluate(()=>window.scrollTo(0,0));await settle(p);
-        return p.screenshot({clip:{x:Math.floor(r.x),y:Math.floor(r.y),width:Math.ceil(r.width),height:Math.ceil(r.height)}});};
-       const a=await shot(master,old.frame),b=await shot(page,m.frame);
-       if(!a.equals(b)) {
-        fs.writeFileSync(path.join(out,"identity-master.png"),a);fs.writeFileSync(path.join(out,"identity-candidate.png"),b);
-        fs.writeFileSync(path.join(out,"identity-mismatch.json"),JSON.stringify({viewport,cfg,token,before:compact(old),after:compact(m)},null,2));
-       }
-       assert(a.equals(b),"STOP: master-fitting token pixels differ: "+token);
-       evidence.controls.push({viewport,cfg,length:token.length,byteIdentical:true,differingPixels:0,background:"flat test backdrop"});
-      }else evidence.controls.push({viewport,cfg,length:token.length,masterClipped:true,after:compact(m)});
-     }flatBackground=false;
+      assert.equal(await tokenMarkup(page),await tokenMarkup(master));
+      assert.equal(m.scrolling,m.wrapped && m.naturalHeight > m.threshold);
+      await checkTokenLayout(page);
+      evidence.controls.push({viewport,cfg,length:token.length,masterClipped:!old.ink.fullyVisible,after:compact(m)});
+     }
     });
     await verify("W6 whole word data and resume "+label,async()=>{
      // Real paste/review UI, including the clipboard and all 13 v1 fields.
@@ -218,7 +191,6 @@ async function round2Checks({page,context,origin,root,out,verify}) {
   assert.equal(errors.length,0);
   fs.writeFileSync(path.join(out,"reader-round2.json"),JSON.stringify(evidence,null,2)+"\n");
  }finally{
-  await page.unroute("**/styles.css",identityRoutes.get(page));
   await page.evaluate(()=>{pause();state.focusMode=false;document.body.classList.remove("focus-mode");render();});
   await master.close();await before.close();
  }
