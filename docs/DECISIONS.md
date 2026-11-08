@@ -247,3 +247,7 @@ Marcus approved the prepared index.html patch removing two leading spaces before
 Marcus's response on the two wide-frame target checks:
 
 Approved, as a W7.8 visual re-baseline. Conditions: (1) the 90% target still applies to every token where the candidate's own unfitted width exceeds the frame, so F1's fitting is still tested; (2) "fully inside the frame" stays asserted for these two tokens and every other probe; (3) list both tokens in the report with their unfitted width, rendered width, frame width and percentage. PRE_F1 comparisons and every data, behaviour and security check stay unchanged. Then rerun parity.
+
+Marcus's floor-aware clarification on 2026-11-08:
+
+Approved. Floor-aware check: (a) strict <= 90% wherever the fitted font is above the 10px floor; (b) at the 10px floor, require font exactly 10px, wrap only when the 10px text exceeds the frame's inner width (the existing checkFloor rule), and full containment; (c) a tolerance of at most 1/64 CSS px (0.015625) only for the wrapped-box range overhang, nowhere else. Cross-check: run the same 80 tokens on 2a376445ceb1b98a1b4c943cf8834e77e0578120 (pre-restyle F1 code) and confirm they also land at the 10px floor there, i.e. app behaviour is unchanged and only the test's gate moved. List all 80 cases in the report (token, viewport, font, width, frame, %, wrapped). app.js fitting logic stays unchanged; PRE_F1 and all data/behaviour/security checks stay. Then rerun parity.
