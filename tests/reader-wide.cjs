@@ -74,6 +74,7 @@ async function wideChecks({page,context,origin,root,out,verify}) {
      for(const token of [REAL,"W".repeat(135),"W".repeat(2000),REAL.repeat(45),...Array.from({length:5},(_,i)=>"W".repeat(Math.floor(width===390?342/10:width/10)+i))]) {
       const [before,after]=await pair(token,cfg,viewport);
       assert(after.ink.fullyVisible,"rendered text must stay inside frame");
+      await checkTokenLayout(page);
       const row={viewport,cfg,kind:token===REAL?"real45":token[0]==="W"?"W":"real-repeated",length:token.length,before:clean(before),after:clean(after)};
       row.floor=await checkFloor(token,cfg,viewport,after);
       row.wideFit=await checkWideTarget(page,after,row.floor);
