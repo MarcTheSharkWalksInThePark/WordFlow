@@ -1,0 +1,2498 @@
+[
+  {
+    "name": "F1 short and real word exactly match master",
+    "passed": true
+  },
+  {
+    "name": "F1 W 135 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 W 500 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 W 2000 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 W 10000 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 real-repeated 135 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 real-repeated 500 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 real-repeated 2000 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 real-repeated 10000 geometry, playback and data",
+    "passed": true
+  },
+  {
+    "name": "F1 manual stepping and resume preserve the whole token",
+    "passed": true
+  },
+  {
+    "name": "F1 first-word manual arrival and one Play continuation",
+    "passed": true
+  },
+  {
+    "name": "F1 resize re-evaluates and focus/context modes stay separate",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":600},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":844,\"height\":390},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":600},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":844,\"height\":390},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":600},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":844,\"height\":390},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":600,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":844,\"height\":390,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":600},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":844,\"height\":390},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":996,\"height\":950},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1920,\"height\":1080},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1708,\"height\":950},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1708,\"height\":950},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":996,\"height\":950},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1920,\"height\":1080},\"cfg\":{\"focus\":false,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":996,\"height\":950},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1920,\"height\":1080},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1708,\"height\":950},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":996,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1920,\"height\":1080,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":996,\"height\":950},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1708,\"height\":950,\"focus\":false,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1920,\"height\":1080},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1708,\"height\":950},\"cfg\":{\"focus\":false,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":1400,\"height\":950,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":1400,\"height\":950},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":true,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":true,\"context\":true,\"size\":\"large\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"comfortable\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"comfortable\"}}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"understanding.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"kommunikasjon.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Kommune\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"here.\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Tail\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"Pneumonoultramicroscopicsilicovolcanoconiosis\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W135\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 finished master comparison {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 natural playback and finished restart {\"width\":390,\"height\":844,\"focus\":true,\"context\":false,\"size\":\"large\",\"token\":\"W2000\"}",
+    "passed": true
+  },
+  {
+    "name": "W6.14 region restored only on leaving Finished {\"viewport\":{\"width\":390,\"height\":844},\"cfg\":{\"focus\":true,\"context\":false,\"size\":\"large\"}}",
+    "passed": true
+  }
+]

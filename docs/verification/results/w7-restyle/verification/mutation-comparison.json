@@ -1,0 +1,13 @@
+{
+  "total": 78,
+  "killed": 77,
+  "equivalent": [
+    "M9-guard-dot-prefix-only"
+  ],
+  "errors": 0,
+  "unexpected": 0,
+  "comparedTo": "f1-r1-resumed/mutations.json",
+  "allSpecFieldsAndVerdictsMatch": true,
+  "beforeMutatedRestoredHashesMatch": true,
+  "committedDefinitionsUnchanged": true
+}

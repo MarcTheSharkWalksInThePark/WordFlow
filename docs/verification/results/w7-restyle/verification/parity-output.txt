@@ -1,0 +1,6 @@
+Candidate cc00891f10a45bb15cd2621358d3f7c051918b0a. Selected output from npm run parity (exit 1).
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Error: W6.12 cap probe 1920/false/9: The expression evaluated to a falsy value:
+  assert(after.contentWidth<=after.frame.clientWidth*.9)
+  tests/reader-wide.cjs:37:34 (preserved W7 test draft)
+Browser suite failed; parity stamp was not written

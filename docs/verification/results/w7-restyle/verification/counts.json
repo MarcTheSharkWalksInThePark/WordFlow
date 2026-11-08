@@ -1,0 +1,24 @@
+{
+  "before": {
+    "general": 60,
+    "reader-smoke": 24,
+    "reader-round2": 116,
+    "reader-wide": 72,
+    "reader-finished": 612
+  },
+  "after": {
+    "portal": 40,
+    "general": 60,
+    "reader-smoke": 24,
+    "reader-round2": 116,
+    "reader-wide": 72,
+    "reader-finished": 612
+  },
+  "beforeTotal": 884,
+  "afterTotal": 924,
+  "unchangedOriginalCheckNames": true,
+  "skipped": 0,
+  "errors": 0,
+  "blocked": 0,
+  "uploads": 0
+}

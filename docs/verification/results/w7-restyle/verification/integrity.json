@@ -1,0 +1,21 @@
+{
+  "ref": "2a376445ceb1b98a1b4c943cf8834e77e0578120",
+  "unchangedFunctions": {
+    "fitDisplayedWord": "4f49f77406792a4712f512b235f4c293950e5a8c5afc868e50eac2ea5c9ea7a6",
+    "shouldBreakWord": "8bb77a5835f378a121fd00088973b51619a71f5d8641754ce6131e67e213074a",
+    "shouldScrollWord": "3add330b200a03bf2ecb6fb1e3539d4dfd3a6c8b523bfd68393ce637b378d23b",
+    "contextFreeHeight": "fcc49b75528125de26ecb9607cc30f0025fdb6530eecf0e1f9e0259fe1ba3bc5",
+    "renderWord": "24ba2f6ce3a021f680515381948d5e1aa1d732f3e51e1a6a4828ab8560a0c522",
+    "resetLongTokenLayout": "8f319bb20a58df92e89b859b5edcd5a437400789f050a870e27365429636224c",
+    "wordDelay": "a7ba6099d203f9c25244718aa53875359eeb1d7bc3219d1c4955751f71ad146b",
+    "saveSession": "55dfac59666b557c877865f86b3df963eb72fac204e5d86ad8529c4c81393462",
+    "readSavedSession": "70c8b7f503d968f44b22beeb3ea04d2d2176f679689b23b2c7d8617b73eda67f",
+    "restoreSession": "d544e51d6e240b371803eb3088fbb5721dcbf5174131859840b7b749fc7771b1",
+    "play": "def9357aa39e63f8edc4179aebf6511aba0f67a6f3fc6165dcb16135e43bad4e",
+    "completeReading": "9501d1ddca4a004b9e30e8fa95cbb5fd2873d86d44fea569174e5e9881dc6057"
+  },
+  "originalIds": 65,
+  "candidateIds": 74,
+  "uniqueIds": true,
+  "privacyParagraphMatches": true
+}

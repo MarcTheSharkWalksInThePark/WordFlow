@@ -1,0 +1,23 @@
+Untouched branch HEAD 2a376445ceb1b98a1b4c943cf8834e77e0578120
+Selected command output from the baseline run (profile paths omitted)
+
+npm test (exit 0 with loopback access)
+{"suite":"static-regression","passed":223,"skipped":0,"vendorHashes":188}
+{"suite":"proxy","passed":169,"skipped":0}
+32 checks passed.
+{"suite":"post-review","passed":81,"skipped":0}
+
+npm run parity (exit 1)
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Error: W6.12 cap probe 1708/false/8: same master classification as round 2
+
+true !== false
+
+Assertion at tests/reader-wide.cjs:41:11
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+Browser suite failed; parity stamp was not written
+
+node tools/parity-stamp.cjs (exit 0, checks the existing commit)
+PASS: browser parity stamp matches committed inputs

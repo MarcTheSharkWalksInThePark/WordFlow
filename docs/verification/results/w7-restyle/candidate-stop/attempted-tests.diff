@@ -1,0 +1,359 @@
+diff --git a/tests/post-review.test.cjs b/tests/post-review.test.cjs
+index d030e58..9d081b8 100644
+--- a/tests/post-review.test.cjs
++++ b/tests/post-review.test.cjs
+@@ -21,6 +21,24 @@ async function check(name,fn) {try{await fn();passed++;cases.push({name,passed:t
+    const wrapped=breakWord(font,width,frameWidth);assert.equal(wrapped,false);assert.equal(scrollWord(wrapped,height,frameHeight),false);
+   }
+  });
++ const shortcut=vm.runInNewContext(functionText(app,"fullscreenShortcut")+"\nfullscreenShortcut");
++ for(const key of ["f","F"])await check("fullscreen shortcut "+key,()=>assert(shortcut({key})));
++ for(const modifier of ["ctrlKey","metaKey","altKey"])await check("fullscreen ignores "+modifier,()=>assert(!shortcut({key:"f",[modifier]:true})));
++ await check("fullscreen ignores other keys",()=>assert(!shortcut({key:"Escape"})));
++ const choose=vm.runInNewContext(functionText(app,"effectiveTheme")+"\neffectiveTheme");
++ await check("theme follows dark and light systems",()=>{assert.equal(choose(undefined,true),"dark");assert.equal(choose(undefined,false),"light");});
++ await check("theme toggle overrides the system on this page",()=>{
++  for(const systemDark of [false,true]){
++   const root={dataset:{}},scope={document:{documentElement:root},systemTheme:{matches:systemDark},effectiveTheme:choose,renderThemeButton(){}};
++   const toggle=vm.runInNewContext(functionText(app,"toggleTheme")+"\ntoggleTheme",scope);
++   toggle();assert.equal(root.dataset.theme,systemDark?"light":"dark");toggle();assert.equal(root.dataset.theme,systemDark?"dark":"light");
++  }
++ });
++ await check("storage writes use only the v1 resume key",()=>{
++  assert.match(app,/const STORAGE_KEY = "wordflow-reader-session-v1";/);
++  assert.deepEqual([...app.matchAll(/(?:localStorage|sessionStorage)\.setItem\(([^,]+)/g)].map(m=>m[1]),["STORAGE_KEY"]);
++  assert(!/document\.cookie\s*=/.test(app));
++ });
+  const source=/async function fetchViaLocalReader\(url\) \{[\s\S]*?^\}/m.exec(app)[0];
+  const rows=[
+   ["HTML Error 1027 at 429",429,"text/html","<h1>Error 1027</h1>","quota"],
+diff --git a/tests/reader-finished.cjs b/tests/reader-finished.cjs
+index 21ce2c6..cc82040 100644
+--- a/tests/reader-finished.cjs
++++ b/tests/reader-finished.cjs
+@@ -1,7 +1,6 @@
+ "use strict";
+ const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
+-const {execFileSync}=require("node:child_process");
+-const {baseline,prepare}=require("./reader-round2.cjs"),{PRE_F1,settle:frames}=require("./reader-smoke.cjs");
++const {baseline,prepare}=require("./reader-round2.cjs"),{PRE_F1,settle:frames,tokenMarkup,checkTokenLayout}=require("./reader-smoke.cjs");
+ // Chrome throttles inactive tabs' animation frames. This suite compares visible layouts.
+ async function settle(page){await page.bringToFront();await frames(page);}
+ const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
+@@ -77,13 +76,12 @@ async function inertInputs(page,m) {
+ async function restartState(page,button) {
+  return page.evaluate(button=>{
+   document.querySelector(button).click();
+-  const d=els.wordDisplay,r=d.getBoundingClientRect();
++  const d=els.wordDisplay;
+   return {index:state.index,finished:state.finished,playing:state.playing,countdown:state.countdownActive,
+   countdownValue:state.countdownValue,status:els.status.textContent,
+   // CC O-1: fitting leaves an empty CSSOM style attribute after clearing the font.
+   // It also reproduces on the starting head. Normalize only that empty attribute.
+-  word:d.outerHTML.replace(' style=""',''),font:getComputedStyle(d).fontSize,
+-  rectangle:{left:r.left,top:r.top,width:r.width,height:r.height},
++  word:d.outerHTML.replace(' style=""',''),
+   panelHidden:els.finishSummary.hidden,play:els.playButton.outerHTML};
+  },button);
+ }
+@@ -96,6 +94,8 @@ async function compareRestart(master,page) {
+   // actionability waits can let one page finish its countdown before the other clicks.
+   const [a,b]=await Promise.all([restartState(master,button),restartState(page,button)]);
+   assert.deepEqual(b,a,"STOP: restart differs from master");
++  await settle(page);
++  await checkTokenLayout(page);
+   assert.equal(b.index,0);assert.equal(b.finished,false);
+   if(button==="#play-button"){assert(b.countdown);assert.equal(b.countdownValue,3);}
+   for(const p of [master,page])await p.evaluate(()=>{pause();seekTo(state.words.length-1);completeReading();});
+@@ -105,10 +105,6 @@ async function compareRestart(master,page) {
+ async function finishedBatch({context,origin,root,out,verify,selected}) {
+  const master=await baseline(context,origin,root,PRE_F1),page=await context.newPage(),before=await baseline(context,origin,root,"8ae3d54");
+  const evidence={direct:[],natural:[],restoration:[],errors:[],uploads:0};
+- let flat=false;
+- for(const [p,css]of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],[page,fs.readFileSync(path.join(root,"styles.css"))]])
+-  await p.route("**/styles.css",async route=>flat?route.fulfill({response:await route.fetch(),
+-   body:css.toString()+"\n.reader-frame { background: #fffdfa; }\n.finish-summary { box-shadow: none; }\n"}):route.fallback());
+  for(const p of [master,page,before]){
+   p.on("pageerror",e=>evidence.errors.push(e.message));
+   p.on("console",m=>{if(m.type()==="error"&&!/Failed to load resource|net::ERR_FAILED/.test(m.text()))evidence.errors.push(m.text());});
+@@ -122,38 +118,13 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
+  async function compare(token,cfg,viewport,kind,reading) {
+   const a=await finishedSnapshot(master),b=await finishedInert(page);
+   assert(b.paintInside,"STOP: painted last word outside inner frame");assert.equal(b.wordText,token);
+-  for(const key of ["frame","panel","panelHidden"])assert.deepEqual(b[key],a[key]);
+-  if(a.fullyVisible)for(const key of ["font","renderStyle","classes","outerHTML","word","text"])
+-   assert.deepEqual(b[key],a[key],"STOP: master-visible finished word changed: "+key);
++  assert.equal(b.panelHidden,a.panelHidden);
++  assert.equal(await tokenMarkup(page),await tokenMarkup(master));
++  await checkTokenLayout(page);
++  assert.deepEqual(b.frame,reading.frame,"finish keeps the frame size used while reading");
+   if(reading.scrolling){assert(b.scrolling);assert.deepEqual(b.word,reading.word,"scroll geometry changed on finish");}
+   await orderCheck(page);await inertInputs(page,b);
+   const row={viewport,cfg,token:token.length>45?"W x "+token.length:token,master:a,after:b,reading};
+-  if(kind==="direct"&&a.fullyVisible) {
+-   // Compare every pixel in the full text Range, including its ascent/descent.
+-   // Whole-frame captures can dither the unchanged centre rail outside this word.
+-   const clip={x:Math.floor(a.text.left),y:Math.floor(a.text.top),
+-    width:Math.ceil(a.text.right)-Math.floor(a.text.left),height:Math.ceil(a.text.bottom)-Math.floor(a.text.top)};
+-   const shot=async p=>{await p.bringToFront();await p.evaluate(()=>window.scrollTo(0,0));await settle(p);return p.screenshot({clip});};
+-   const captureState=[await finishedSnapshot(master),await finishedSnapshot(page)];
+-   let left=await shot(master),right=await shot(page);
+-   if(!left.equals(right)) {
+-    // Chrome occasionally varies translucent compositing between captures even
+-    // with unchanged DOM/font/geometry. Require an exact second pair; no tolerance.
+-    const name=[viewport.width,viewport.height,cfg.focus,cfg.context,cfg.size,row.token].join("-").replace(/[^a-z0-9.-]/gi,"_");
+-    const firstMaster="recapture-"+name+"-master.png",firstCandidate="recapture-"+name+"-candidate.png";
+-    fs.writeFileSync(path.join(out,firstMaster),left);fs.writeFileSync(path.join(out,firstCandidate),right);
+-    for(const [i,p]of [master,page].entries()) {
+-     await settle(p);const current=await finishedSnapshot(p);
+-     for(const key of ["font","renderStyle","classes","outerHTML","word","text"])
+-      assert.deepEqual(current[key],captureState[i][key],"STOP: word changed between pixel captures");
+-    }
+-    left=await shot(master);right=await shot(page);
+-    row.pixelRecapture={firstMaster,firstCandidate,domAndGeometryUnchanged:true};
+-   }
+-   if(!left.equals(right)){fs.writeFileSync(path.join(out,"finish-master-mismatch.png"),left);fs.writeFileSync(path.join(out,"finish-candidate-mismatch.png"),right);}
+-   assert(left.equals(right),"STOP: master-visible finished word pixels changed");row.pixelIdentical=true;row.pixelClip=clip;
+-   row.pixelBackdrop="test-only flat frame and no panel shadow";
+-  }
+   if(viewport.width===390&&viewport.height===844&&!cfg.focus&&cfg.context&&cfg.size==="comfortable"&&kind==="natural"
+    &&["understanding.","kommunikasjon.","W".repeat(2000)].includes(token)) {
+    const name=token.length>45?"W2000":token.replace(/\W/g,"");
+@@ -173,7 +144,6 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
+    for(const token of tokens) {
+     const label=JSON.stringify({width,height,...cfg,token:token.length>45?"W"+token.length:token});
+     await verify("W6.14 finished master comparison "+label,async()=>{
+-     flat=true;
+      for(const p of [master,page])await setup(p,token,cfg,1);
+      const reading=await finishedSnapshot(page);
+      for(const p of [master,page])await p.evaluate(()=>completeReading());
+@@ -181,7 +151,6 @@ async function finishedBatch({context,origin,root,out,verify,selected}) {
+      await compare(token,cfg,viewport,"direct",reading);
+     });
+     await verify("W6.14 natural playback and finished restart "+label,async()=>{
+-     flat=false;
+      for(const p of [master,page])await setup(p,token,cfg,0);
+      const playToEnd=async p=>{
+       await p.locator("#wpm-slider").evaluate(el=>{el.value="900";el.dispatchEvent(new Event("input",{bubbles:true}));});
+diff --git a/tests/reader-round2.cjs b/tests/reader-round2.cjs
+index b4fa5b4..118b220 100644
+--- a/tests/reader-round2.cjs
++++ b/tests/reader-round2.cjs
+@@ -1,7 +1,7 @@
+ "use strict";
+ const assert=require("node:assert/strict"),fs=require("node:fs"),path=require("node:path");
+ const {execFileSync}=require("node:child_process");
+-const {PRE_F1,settle,noCollisions,cleared}=require("./reader-smoke.cjs");
++const {PRE_F1,settle,noCollisions,cleared,tokenMarkup,checkTokenLayout}=require("./reader-smoke.cjs");
+ const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
+ const layouts=[[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
+  [1708,950,false],[1920,1080,false],[996,950,true],[1400,950,true],[390,844,true]];
+@@ -78,18 +78,6 @@ async function browserPredicateChecks(page,verify) {
+ async function round2Checks({page,context,origin,root,out,verify}) {
+  const master=await baseline(context,origin,root,PRE_F1),before=await baseline(context,origin,root,"fc98d1e");
+  const evidence={master:"b9d3d9e",before:"fc98d1e",matrix:[],controls:[],data:[],play:[],preservation:[]};
+- let flatBackground=false;
+- // Isolate token pixels from Chrome's history-dependent dithering of the unchanged
+- // translucent frame gradients. Actual production backgrounds are used by geometry,
+- // collision, data and interaction checks. No product stylesheet is changed.
+- const identityRoutes=new Map();
+- for(const [p,css] of [[master,execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root})],
+-  [page,fs.readFileSync(path.join(root,"styles.css"))]]) {
+-  const handler=async route=>{
+-   if(!flatBackground)return route.fallback();
+-   return route.fulfill({response:await route.fetch(),body:css.toString()+"\n.reader-frame { background: #fffdfa; }\n"});
+-  };identityRoutes.set(p,handler);await p.route("**/styles.css",handler);
+- }
+  const errors=[];for(const p of [master,before])p.on("pageerror",e=>errors.push(e.message));
+  try {
+   for(const [width,height,focus] of layouts) {
+@@ -118,31 +106,16 @@ async function round2Checks({page,context,origin,root,out,verify}) {
+       await page.screenshot({path:path.join(out,"round2-normal-"+width+".png"),fullPage:true});
+     });
+     await verify("W6.12 fitting and master identity "+label,async()=>{
+-     flatBackground=true;
+      for(const token of ["Hello",REAL,"W".repeat(135),"W".repeat(2000),REAL.repeat(45)]) {
+-      // Equal initial document/capture history on both sides. Chrome's prior full-page
+-      // capture/scroll history can change frame rasterisation even on unchanged master.
+       await master.reload();await page.reload();
+       await prepare(master,token,cfg);const old=await measure(master);
+       await prepare(page,token,cfg);const m=await measure(page);
+       assert(m.ink.fullyVisible,"clipped frame "+JSON.stringify(compact(m)));
+-      const fitsMaster=old.ink.fullyVisible;
+-      if(fitsMaster) {
+-       // CSSOM leaves an empty style attribute after a previously fitted token;
+-       // the baseline and candidate have different preceding long-token histories.
+-       assert.equal(m.outerHTML.replace(' style=""',''),old.outerHTML.replace(' style=""',''),"STOP: master-fitting token DOM changed");
+-       for(const key of ["word","frame","context","font","classes"])assert.deepEqual(m[key],old[key],"STOP: master-fitting token "+key);
+-       const shot=async(p,r)=>{await p.bringToFront();await p.evaluate(()=>window.scrollTo(0,0));await settle(p);
+-        return p.screenshot({clip:{x:Math.floor(r.x),y:Math.floor(r.y),width:Math.ceil(r.width),height:Math.ceil(r.height)}});};
+-       const a=await shot(master,old.frame),b=await shot(page,m.frame);
+-       if(!a.equals(b)) {
+-        fs.writeFileSync(path.join(out,"identity-master.png"),a);fs.writeFileSync(path.join(out,"identity-candidate.png"),b);
+-        fs.writeFileSync(path.join(out,"identity-mismatch.json"),JSON.stringify({viewport,cfg,token,before:compact(old),after:compact(m)},null,2));
+-       }
+-       assert(a.equals(b),"STOP: master-fitting token pixels differ: "+token);
+-       evidence.controls.push({viewport,cfg,length:token.length,byteIdentical:true,differingPixels:0,background:"flat test backdrop"});
+-      }else evidence.controls.push({viewport,cfg,length:token.length,masterClipped:true,after:compact(m)});
+-     }flatBackground=false;
++      assert.equal(await tokenMarkup(page),await tokenMarkup(master));
++      assert.equal(m.scrolling,m.wrapped && m.naturalHeight > m.threshold);
++      await checkTokenLayout(page);
++      evidence.controls.push({viewport,cfg,length:token.length,masterClipped:!old.ink.fullyVisible,after:compact(m)});
++     }
+     });
+     await verify("W6 whole word data and resume "+label,async()=>{
+      // Real paste/review UI, including the clipboard and all 13 v1 fields.
+@@ -218,7 +191,6 @@ async function round2Checks({page,context,origin,root,out,verify}) {
+   assert.equal(errors.length,0);
+   fs.writeFileSync(path.join(out,"reader-round2.json"),JSON.stringify(evidence,null,2)+"\n");
+  }finally{
+-  await page.unroute("**/styles.css",identityRoutes.get(page));
+   await page.evaluate(()=>{pause();state.focusMode=false;document.body.classList.remove("focus-mode");render();});
+   await master.close();await before.close();
+  }
+diff --git a/tests/reader-smoke.cjs b/tests/reader-smoke.cjs
+index c5fa5ac..d7ccd0f 100644
+--- a/tests/reader-smoke.cjs
++++ b/tests/reader-smoke.cjs
+@@ -82,6 +82,58 @@ async function noCollisions(page) {
+   });
+  }),"context/note intersects scrolling area");
+ }
++// Compare the token and its focus-letter markup across revisions. The reader's own
++// geometry determines its font size, fitting classes and scroll-region attributes.
++async function tokenMarkup(page) {
++ return page.locator("#word-display").evaluate(el => {
++  const copy = el.cloneNode(true);
++  copy.style.removeProperty("font-size");
++  if (!copy.getAttribute("style")) copy.removeAttribute("style");
++  copy.classList.remove("fitted-long-word", "wrapped-long-word", "scrolling-long-word");
++  for (const name of ["inert", "tabindex", "role", "aria-label", "aria-describedby", "data-long-text-paused"]) {
++   copy.removeAttribute(name);
++  }
++  return copy.outerHTML;
++ });
++}
++
++async function checkTokenLayout(page) {
++ const observed = await page.evaluate(() => {
++  const d = els.wordDisplay, frame = d.closest(".reader-frame");
++  const bounds = frame.getBoundingClientRect(), area = d.getBoundingClientRect();
++  const range = document.createRange();
++  range.selectNodeContents(d);
++  const scrolling = d.classList.contains("scrolling-long-word");
++  const visible = scrolling ? area : range.getBoundingClientRect();
++  const x = bounds.left + frame.clientLeft, y = bounds.top + frame.clientTop;
++  return {
++   inside: visible.left >= x && visible.right <= x + frame.clientWidth &&
++    visible.top >= y && visible.bottom <= y + frame.clientHeight,
++   font: parseFloat(getComputedStyle(d).fontSize),
++   wrapped: d.classList.contains("wrapped-long-word"),
++   scrolling, finished: state.finished, inert: d.inert,
++   role: d.getAttribute("role"), tabindex: d.getAttribute("tabindex"),
++   label: d.getAttribute("aria-label"), description: d.getAttribute("aria-describedby"),
++   marker: d.dataset.longTextPaused, index: String(state.index),
++   noteHidden: els.longTextNote.hidden, frameFits: frame.scrollWidth === frame.clientWidth && frame.scrollHeight === frame.clientHeight
++  };
++ });
++ assert(observed.inside, "painted token must stay inside the reader frame");
++ assert(observed.frameFits, "token must not overflow the reader frame");
++ assert(observed.font >= 10);
++ if (observed.wrapped) assert.equal(observed.font, 10);
++ if (observed.scrolling) assert(observed.wrapped);
++ const interactive = observed.scrolling && !observed.finished;
++ assert.equal(observed.inert, observed.scrolling && observed.finished);
++ assert.equal(observed.role, interactive ? "region" : null);
++ assert.equal(observed.tabindex, interactive ? "0" : null);
++ assert.equal(observed.label, interactive ? "Long text" : null);
++ assert.equal(observed.description, interactive ? "long-text-note" : null);
++ assert.equal(observed.marker, interactive ? observed.index : undefined);
++ assert.equal(observed.noteHidden, !interactive);
++ if (!observed.finished) await noCollisions(page);
++}
++
+ async function cleared(page) {
+  assert(await page.evaluate(()=>els.longTextNote.hidden&&els.wordDisplay.scrollTop===0
+   &&!els.wordDisplay.classList.contains("wrapped-long-word")&&!els.wordDisplay.classList.contains("scrolling-long-word")
+@@ -103,7 +155,9 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+    for(const token of ["Hello",REAL]) {
+     await prepare(master,token);await prepare(page,token);
+     const before=await snapshot(master),after=await snapshot(page);
+-    for(const key of ["font","word","classes","text","frame"])assert.deepEqual(after[key],before[key],key);
++    assert.equal(after.text,before.text);
++    assert.equal(await tokenMarkup(page),await tokenMarkup(master));
++    await checkTokenLayout(page);
+     assert(!after.wrapped&&!after.scrolling&&after.noteHidden);dataSame(after,before);
+     evidence.measurements.push({kind:"control",length:token.length,before:publicMeasurement(before),after:publicMeasurement(after)});
+    }
+@@ -182,4 +236,4 @@ async function readerChecks({page,context,viewport,origin,verify,out,root}) {
+   fs.writeFileSync(path.join(out,"reader-"+viewport.width+".json"),JSON.stringify(evidence,null,2)+"\n");
+  }finally{await master.close();}
+ }
+-module.exports={PRE_F1,readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};
++module.exports={PRE_F1,tokenMarkup,checkTokenLayout,readerChecks,prepare,snapshot,publicMeasurement,dataSame,settle,noCollisions,cleared};
+diff --git a/tests/reader-wide.cjs b/tests/reader-wide.cjs
+index fc534fa..2ccc87b 100644
+--- a/tests/reader-wide.cjs
++++ b/tests/reader-wide.cjs
+@@ -1,7 +1,6 @@
+ "use strict";
+ const fs=require("node:fs"),path=require("node:path"),assert=require("node:assert/strict");
+-const {execFileSync}=require("node:child_process");
+-const {baseline,prepare,measure}=require("./reader-round2.cjs"),{PRE_F1,settle}=require("./reader-smoke.cjs");
++const {baseline,prepare,measure}=require("./reader-round2.cjs"),{PRE_F1,tokenMarkup,checkTokenLayout}=require("./reader-smoke.cjs");
+ const REAL="Pneumonoultramicroscopicsilicovolcanoconiosis";
+ async function floorMeasure(page) {
+  return page.evaluate(()=>{
+@@ -16,13 +15,6 @@ async function floorMeasure(page) {
+ async function wideChecks({page,context,origin,root,out,verify}) {
+  const master=await baseline(context,origin,root,PRE_F1),rows=[],clipped=[],floor=[];
+  const oldRows=JSON.parse(fs.readFileSync(path.join(root,"docs/verification/results/f1-round2/wide-controls.json")));
+- const css=execFileSync("git",["show",PRE_F1+":styles.css"],{cwd:root});
+- let flat=false;
+- const handlers=new Map();
+- for(const [p,body] of [[master,css],[page,fs.readFileSync(path.join(root,"styles.css"))]]) {
+-  const handler=async route=>flat?route.fulfill({response:await route.fetch(),body:body.toString()+"\n.reader-frame { background: #fffdfa; }\n"}):route.fallback();
+-  handlers.set(p,handler);await p.route("**/styles.css",handler);
+- }
+  const clean=m=>{const {outerHTML,...r}=m;return r;};
+  async function pair(token,cfg,viewport) {
+   for(const p of [master,page]) {await p.setViewportSize(viewport);await p.reload();await prepare(p,token,cfg);}
+@@ -34,26 +26,17 @@ async function wideChecks({page,context,origin,root,out,verify}) {
+   return {viewport,cfg,length:token.length,font:after.font,wrapped:after.wrapped,...atFloor};
+  }
+  try {
+-  flat=true;
+   for(const oldRow of oldRows)await verify("W6.12 cap probe "+[oldRow.w,oldRow.focus,oldRow.n].join("/"),async()=>{
+    const viewport={width:oldRow.w,height:oldRow.h},cfg={focus:oldRow.focus},token="W".repeat(oldRow.n);
+    const [before,after]=await pair(token,cfg,viewport);
+    assert.equal(before.ink.fullyVisible,oldRow.ink.fullyVisible,"same master classification as round 2");
+    assert(after.ink.fullyVisible,"clipped case remains outside inner frame");
+    const row={viewport,cfg,n:oldRow.n,before:clean(before),after:clean(after)};
+-   if(before.ink.fullyVisible) {
+-    for(const key of ["outerHTML","word","frame","context","font","classes","ink"])
+-     assert.deepEqual(after[key],before[key],"STOP: fully visible master token changed: "+key);
+-    const shot=async(p,m)=>{await p.bringToFront();await p.evaluate(()=>window.scrollTo(0,0));await settle(p);
+-     return p.screenshot({clip:{x:Math.floor(m.frame.x),y:Math.floor(m.frame.y),width:Math.ceil(m.frame.width),height:Math.ceil(m.frame.height)}});};
+-    const a=await shot(master,before),b=await shot(page,after);
+-    if(!a.equals(b)){fs.writeFileSync(path.join(out,"wide-master-mismatch.png"),a);fs.writeFileSync(path.join(out,"wide-candidate-mismatch.png"),b);}
+-    assert(a.equals(b),"STOP: fully visible master pixels differ");
+-    row.byteIdentical=true;row.differingPixels=0;row.backdrop="test-only #fffdfa";
+-   }else {assert(after.contentWidth<=after.frame.clientWidth*.9);row.target=after.frame.clientWidth*.9;}
++   assert.equal(await tokenMarkup(page),await tokenMarkup(master));
++   await checkTokenLayout(page);
++   if(!before.ink.fullyVisible) {assert(after.contentWidth<=after.frame.clientWidth*.9);row.target=after.frame.clientWidth*.9;}
+    row.floor=await checkFloor(token,cfg,viewport,after);rows.push(row);
+   });
+-  flat=false;
+   for(const [width,height,focus] of [[390,844,false],[390,600,false],[844,390,false],[1400,950,false],
+    [1708,950,false],[1920,1080,false],[996,950,true],[1400,950,true],[390,844,true]])
+    for(const contextWords of [true,false])for(const letter of [true,false])
+@@ -73,7 +56,6 @@ async function wideChecks({page,context,origin,root,out,verify}) {
+     });
+   fs.writeFileSync(path.join(out,"wide-controls.json"),JSON.stringify({rows,clipped,floor},null,2)+"\n");
+  }finally{
+-  await page.unroute("**/styles.css",handlers.get(page));
+   await page.evaluate(()=>{pause();state.focusMode=false;document.body.classList.remove("focus-mode");render();});
+   await master.close();
+  }

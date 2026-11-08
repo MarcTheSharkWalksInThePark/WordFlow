@@ -1,0 +1,56 @@
+{
+  "baseline": "b9d3d9eedf5f67b9b6c03742faae8cf35e3cb7e7",
+  "viewport": [
+    390,
+    844
+  ],
+  "expected": {
+    "finished": true,
+    "index": 1,
+    "playing": false,
+    "countdown": false,
+    "status": "Finished",
+    "summary": "<div id=\"finish-summary\" class=\"finish-summary\">\n              <div>\n                <span class=\"field-label\">Finished</span>\n                <strong id=\"finish-title\">Reader fixture</strong>\n              </div>\n              <div class=\"finish-metrics\">\n                <span><strong id=\"finish-words\">2</strong> words</span>\n                <span><strong id=\"finish-time\">0:01</strong> spent</span>\n                <span><strong id=\"finish-wpm\">120</strong> avg WPM</span>\n              </div>\n              <div class=\"finish-actions\">\n                <button id=\"finish-restart-button\" class=\"icon-text-button primary\" type=\"button\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                    <path d=\"M3 2v6h6\"></path>\n                    <path d=\"M3.51 15a9 9 0 1 0 2.13-9.36L3 8\"></path>\n                  </svg>\n                  Restart\n                </button>\n                <button id=\"finish-new-source-button\" class=\"icon-text-button\" type=\"button\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                    <path d=\"M12 5v14\"></path>\n                    <path d=\"M5 12h14\"></path>\n                  </svg>\n                  Source\n                </button>\n              </div>\n            </div>",
+    "controls": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n              <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n            </button>"
+  },
+  "actual": {
+    "finished": true,
+    "index": 1,
+    "playing": false,
+    "countdown": false,
+    "status": "Finished",
+    "summary": "<div id=\"finish-summary\" class=\"finish-summary\">\n              <div>\n                <span class=\"field-label\">Finished</span>\n                <strong id=\"finish-title\">Reader fixture</strong>\n              </div>\n              <div class=\"finish-metrics\">\n                <span><strong id=\"finish-words\">2</strong> words</span>\n                <span><strong id=\"finish-time\">0:01</strong> spent</span>\n                <span><strong id=\"finish-wpm\">120</strong> avg WPM</span>\n              </div>\n              <div class=\"finish-actions\">\n                <button id=\"finish-restart-button\" class=\"icon-text-button primary\" type=\"button\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                    <path d=\"M3 2v6h6\"></path>\n                    <path d=\"M3.51 15a9 9 0 1 0 2.13-9.36L3 8\"></path>\n                  </svg>\n                  Restart\n                </button>\n                <button id=\"finish-new-source-button\" class=\"icon-text-button\" type=\"button\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                    <path d=\"M12 5v14\"></path>\n                    <path d=\"M5 12h14\"></path>\n                  </svg>\n                  Source\n                </button>\n              </div>\n            </div>",
+    "controls": "<button id=\"play-button\" class=\"play-button\" type=\"button\" title=\"Play\" aria-label=\"Play\">\n                <svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>\n              </button>"
+  },
+  "differingKeys": [
+    "controls"
+  ],
+  "baselineChildren": [
+    {
+      "kind": "text",
+      "content": "\n              "
+    },
+    {
+      "kind": "element",
+      "content": "<svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>"
+    },
+    {
+      "kind": "text",
+      "content": "\n            "
+    }
+  ],
+  "candidateChildren": [
+    {
+      "kind": "text",
+      "content": "\n                "
+    },
+    {
+      "kind": "element",
+      "content": "<svg id=\"play-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"></path></svg>"
+    },
+    {
+      "kind": "text",
+      "content": "\n              "
+    }
+  ]
+}

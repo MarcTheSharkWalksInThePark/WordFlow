@@ -1,0 +1,50 @@
+[
+  {
+    "name": "qualified/raw/reader-finished.json.gz",
+    "originalBytes": 5253170,
+    "compressedBytes": 111155,
+    "sourceSha256": "8f55835a5105c32953efeeace183d15e02958d42a129e3f5d82914ebee3c30f0"
+  },
+  {
+    "name": "verification/independent/reader-finished.json.gz",
+    "originalBytes": 5186102,
+    "compressedBytes": 124532,
+    "sourceSha256": "a1f2c73c3ae1bf0b9d40bf8b73236c0a104cfaa79ca85f38b87d247fe53781c4"
+  },
+  {
+    "name": "verification/parity/reader-finished.json.gz",
+    "originalBytes": 5186102,
+    "compressedBytes": 124532,
+    "sourceSha256": "a1f2c73c3ae1bf0b9d40bf8b73236c0a104cfaa79ca85f38b87d247fe53781c4"
+  },
+  {
+    "name": "verification/parity/wide-controls.json.gz",
+    "originalBytes": 1789031,
+    "compressedBytes": 51073,
+    "sourceSha256": "ad63ef00c77c6445b69bad5c74d737bdbdfaee3dda218b79c68b0b9cb92303fb"
+  },
+  {
+    "name": "qualified/raw/wide-controls.json.gz",
+    "originalBytes": 1656354,
+    "compressedBytes": 39581,
+    "sourceSha256": "0ff9bcc97d245fbc2d9931fbf6e4aee34570116db66d45d4d41585fab452cbf9"
+  },
+  {
+    "name": "verification/parity/reader-round2.json.gz",
+    "originalBytes": 1196452,
+    "compressedBytes": 21291,
+    "sourceSha256": "535599205700ad6618253741aa9bbe7b7208a4924874ac0e54741aea56ec7878"
+  },
+  {
+    "name": "qualified/raw/reader-round2.json.gz",
+    "originalBytes": 1072354,
+    "compressedBytes": 17581,
+    "sourceSha256": "b218cff6a0b1990c34c7e7b46dd07a3ed1915b0a3d62a34dce7a0be4cf42393b"
+  },
+  {
+    "name": "baseline/reader-round2.json.gz",
+    "originalBytes": 812590,
+    "compressedBytes": 12553,
+    "sourceSha256": "0cc4108faf5d9249f27e0d4bdc0d91a8c4e4fde33c9b0ee008dbd93cb6d7f6b3"
+  }
+]

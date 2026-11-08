@@ -1,0 +1,7 @@
+{
+  "capProbes": 36,
+  "gridProbes": 324,
+  "wideTargetAboveFloor": 36,
+  "unwrappedFloorOutsideTarget": 76,
+  "wrappedRangeOverhang": 4
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "colorScheme": "dark",
+    "width": 390,
+    "height": 844,
+    "text": " · word 1 of 5 · 0:02 left",
+    "box": {
+      "x": 20,
+      "y": 17,
+      "width": 350,
+      "height": 41.6875,
+      "top": 17,
+      "right": 370,
+      "bottom": 58.6875,
+      "left": 20
+    },
+    "range": {
+      "x": 30,
+      "y": 40.84375,
+      "width": 154.328125,
+      "height": 16,
+      "top": 40.84375,
+      "right": 184.328125,
+      "bottom": 56.84375,
+      "left": 30
+    },
+    "visible": true
+  },
+  {
+    "colorScheme": "light",
+    "width": 390,
+    "height": 844,
+    "text": " · word 1 of 5 · 0:02 left",
+    "box": {
+      "x": 20,
+      "y": 19,
+      "width": 350,
+      "height": 41.6875,
+      "top": 19,
+      "right": 370,
+      "bottom": 60.6875,
+      "left": 20
+    },
+    "range": {
+      "x": 30,
+      "y": 42.84375,
+      "width": 154.328125,
+      "height": 16,
+      "top": 42.84375,
+      "right": 184.328125,
+      "bottom": 58.84375,
+      "left": 30
+    },
+    "visible": true
+  },
+  {
+    "colorScheme": "dark",
+    "width": 1400,
+    "height": 900,
+    "text": " · word 1 of 5 · 0:02 left",
+    "box": {
+      "x": 20,
+      "y": 22.578125,
+      "width": 1042.3125,
+      "height": 18.84375,
+      "top": 22.578125,
+      "right": 1062.3125,
+      "bottom": 41.421875,
+      "left": 20
+    },
+    "range": {
+      "x": 907.984375,
+      "y": 23.578125,
+      "width": 154.328125,
+      "height": 16,
+      "top": 23.578125,
+      "right": 1062.3125,
+      "bottom": 39.578125,
+      "left": 907.984375
+    },
+    "visible": true
+  },
+  {
+    "colorScheme": "light",
+    "width": 1400,
+    "height": 900,
+    "text": " · word 1 of 5 · 0:02 left",
+    "box": {
+      "x": 20,
+      "y": 24.578125,
+      "width": 1042.3125,
+      "height": 18.84375,
+      "top": 24.578125,
+      "right": 1062.3125,
+      "bottom": 43.421875,
+      "left": 20
+    },
+    "range": {
+      "x": 907.984375,
+      "y": 25.578125,
+      "width": 154.328125,
+      "height": 16,
+      "top": 25.578125,
+      "right": 1062.3125,
+      "bottom": 41.578125,
+      "left": 907.984375
+    },
+    "visible": true
+  }
+]

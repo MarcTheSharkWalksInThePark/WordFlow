@@ -10,6 +10,7 @@ claude.ai orchestrator. `CLAUDE.md` adds Claude-specific notes and defers to thi
 
 ## Rulings in force
 
+- **RULING W7** (Marcus, 2026-11-07; `docs/DECISIONS.md`): Portal '03 restyle and reader fullscreen on the local W7 branch, with the pre-F1 comparison ref and Chrome 156 qualified under W7.10.
 - **RULING W1** (Marcus, 2026-10-05; `docs/DECISIONS.md`): this standalone repository is canonical
   for WordFlow from its first commit. The WordFlow copy inside MarcDeck is frozen and will be
   removed under a MarcDeck ruling. WordFlow fixes go to this repository only.
@@ -158,6 +159,8 @@ bash tools/push.sh                                          # the only way to pu
 - **Never create the dated daily note.** If it is missing, log to the worklog only and say so.
 
 ## Open items
+
+- W7 Portal '03 restyle on `feat/w7-portal03-restyle`, pending independent CC review; Marcus decides merge/push via `tools/push.sh`; run `npm run smoke:live` after deployment.
 
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):

@@ -3,10 +3,10 @@
   "chrome": "156.0.8078.81",
   "playwright": "1.62.1",
   "hashes": {
-    "app.js": "74c62daa23abcc2a0bcc6cf141c24d32f3d217b4e6b93b77f326a8abb2d73da9",
+    "app.js": "5907de53adcf1d4b2f90cf2326a4554c4c51ae562521d5b207491d5c9ef17baf",
     "file-extractors.mjs": "50b60c7f0ec2a7be184dd9dd4c2fcab26737670d9f298fb5312388d915470aa9",
-    "index.html": "44cf402e3cf9ec0585e181904f21f45366d2589a085133b55f0de092303f7800",
-    "styles.css": "d3e6a11d9346f398497de01f1053a5bd7435953cf7233e8c315b4a49422ca107",
+    "index.html": "fe1358f6080f29e4f0a9ce24f3c4b11193b73d3fafafdab9beeef43cdd97150c",
+    "styles.css": "0581326b5b41f92785596fef8bf70f6d4200cac309fcbd2f8e48afd459a2ff2a",
     "tests/fixtures/capture.json": "eac57bce5deca3fecd96eb89159ea4df958da1787295f0ca3a36a68dd347cd85",
     "tests/fixtures/charstyle-as-pstyle.docx": "7ca02c745d10ad328b5a54b386a00ae5916e792e2a59fd4ef5cb40b842958a36",
     "tests/fixtures/charstyle-as-pstyle.docx.golden.json": "65f71d6d3b5dc575b60e07bec28451fe99971840cb93d40a26e961b2fd0b3f0f",

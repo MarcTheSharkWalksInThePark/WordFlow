@@ -1,0 +1,13 @@
+Selected output from npm test, exit 1 on candidate 5a1939fee97a038fdf61957b3343fa1bc45dcea7
+
+{"suite":"static-regression","passed":223,"skipped":0,"vendorHashes":188}
+{"suite":"proxy","passed":169,"skipped":0}
+  FAIL  front-end references are derived from the WordFlow document, and none is a directory or wildcard
+        expected the documents' script, style and icon references, found 3
+31 checks passed.
+
+The post-review suite was not invoked after the exposure suite exited nonzero.
+
+Local reference occurrences from index.html, in document order
+qualified baseline: favicon assets/wordflow-mark.svg, stylesheet styles.css, header image assets/wordflow-mark.svg, script app.js
+candidate: favicon assets/wordflow-mark.svg, stylesheet styles.css, script app.js

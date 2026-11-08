@@ -1,0 +1,82 @@
+[
+  {
+    "name": "W7 390 dark CSP, accessible heading and icon buttons",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark system theme, manual choice and resume fields",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark contrast and page width",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark F ignores editable controls and modifiers",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark three fullscreen entries and three exits",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark WPM readout, step and clamps",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark idle controls only while playing and keyboard reveal",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark fullscreen F1 geometry and playback",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark reload and unsupported or refused API fallback",
+    "passed": true
+  },
+  {
+    "name": "W7 390 dark offline, no uploads and no runtime errors",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light CSP, accessible heading and icon buttons",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light system theme, manual choice and resume fields",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light contrast and page width",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light F ignores editable controls and modifiers",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light three fullscreen entries and three exits",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light WPM readout, step and clamps",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light idle controls only while playing and keyboard reveal",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light fullscreen F1 geometry and playback",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light reload and unsupported or refused API fallback",
+    "passed": true
+  },
+  {
+    "name": "W7 390 light offline, no uploads and no runtime errors",
+    "passed": true
+  }
+]

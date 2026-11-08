@@ -1,0 +1,518 @@
+[
+  {
+    "name": "candidate",
+    "token": "Hello",
+    "frame": {
+      "x": 465.953125,
+      "y": 183.984375,
+      "width": 485.125,
+      "height": 337.5625,
+      "top": 183.984375,
+      "bottom": 521.546875,
+      "left": 465.953125,
+      "right": 951.078125
+    },
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+      "box": {
+        "x": 554.015625,
+        "y": 283.640625,
+        "width": 309,
+        "height": 138.234375,
+        "top": 283.640625,
+        "bottom": 421.875,
+        "left": 554.015625,
+        "right": 863.015625
+      },
+      "textRange": {
+        "x": 554.015625,
+        "y": 276.640625,
+        "width": 309,
+        "height": 148,
+        "top": 276.640625,
+        "bottom": 424.640625,
+        "left": 554.015625,
+        "right": 863.015625
+      },
+      "text": "Hello"
+    },
+    "previous": {
+      "box": {
+        "x": 673.2890625,
+        "y": 259.921875,
+        "width": 70.453125,
+        "height": 29.046875,
+        "top": 259.921875,
+        "bottom": 288.96875,
+        "left": 673.2890625,
+        "right": 743.7421875
+      },
+      "textRange": {
+        "x": 673.2890625,
+        "y": 257.921875,
+        "width": 70.453125,
+        "height": 33,
+        "top": 257.921875,
+        "bottom": 290.921875,
+        "left": 673.2890625,
+        "right": 743.7421875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 681.671875,
+        "y": 416.5625,
+        "width": 53.6875,
+        "height": 29.046875,
+        "top": 416.5625,
+        "bottom": 445.609375,
+        "left": 681.671875,
+        "right": 735.359375
+      },
+      "textRange": {
+        "x": 681.671875,
+        "y": 414.5625,
+        "width": 53.6875,
+        "height": 33,
+        "top": 414.5625,
+        "bottom": 447.5625,
+        "left": 681.671875,
+        "right": 735.359375
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  },
+  {
+    "name": "candidate",
+    "token": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+    "frame": {
+      "x": 465.953125,
+      "y": 183.984375,
+      "width": 485.125,
+      "height": 337.5625,
+      "top": 183.984375,
+      "bottom": 521.546875,
+      "left": 465.953125,
+      "right": 951.078125
+    },
+    "font": "19px",
+    "classes": "word-display large fitted-long-word",
+    "word": {
+      "box": {
+        "x": 495.90625,
+        "y": 342.5,
+        "width": 425.21875,
+        "height": 20.515625,
+        "top": 342.5,
+        "bottom": 363.015625,
+        "left": 495.90625,
+        "right": 921.125
+      },
+      "textRange": {
+        "x": 495.90625,
+        "y": 340.5,
+        "width": 425.21875,
+        "height": 22,
+        "top": 340.5,
+        "bottom": 362.5,
+        "left": 495.90625,
+        "right": 921.125
+      },
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis"
+    },
+    "previous": {
+      "box": {
+        "x": 673.2890625,
+        "y": 259.921875,
+        "width": 70.453125,
+        "height": 29.046875,
+        "top": 259.921875,
+        "bottom": 288.96875,
+        "left": 673.2890625,
+        "right": 743.7421875
+      },
+      "textRange": {
+        "x": 673.2890625,
+        "y": 257.921875,
+        "width": 70.453125,
+        "height": 33,
+        "top": 257.921875,
+        "bottom": 290.921875,
+        "left": 673.2890625,
+        "right": 743.7421875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 681.671875,
+        "y": 416.5625,
+        "width": 53.6875,
+        "height": 29.046875,
+        "top": 416.5625,
+        "bottom": 445.609375,
+        "left": 681.671875,
+        "right": 735.359375
+      },
+      "textRange": {
+        "x": 681.671875,
+        "y": 414.5625,
+        "width": 53.6875,
+        "height": 33,
+        "top": 414.5625,
+        "bottom": 447.5625,
+        "left": 681.671875,
+        "right": 735.359375
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  },
+  {
+    "name": "pre-restyle",
+    "token": "Hello",
+    "frame": {
+      "x": 417,
+      "y": 143,
+      "width": 606,
+      "height": 627,
+      "top": 143,
+      "bottom": 770,
+      "left": 417,
+      "right": 1023
+    },
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+      "box": {
+        "x": 560.84375,
+        "y": 387.375,
+        "width": 318.3125,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375,
+        "left": 560.84375,
+        "right": 879.15625
+      },
+      "textRange": {
+        "x": 560.84375,
+        "y": 369.375,
+        "width": 318.3125,
+        "height": 170,
+        "top": 369.375,
+        "bottom": 539.375,
+        "left": 560.84375,
+        "right": 879.15625
+      },
+      "text": "Hello"
+    },
+    "previous": {
+      "box": {
+        "x": 690.828125,
+        "y": 281.5,
+        "width": 58.34375,
+        "height": 29.046875,
+        "top": 281.5,
+        "bottom": 310.546875,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "textRange": {
+        "x": 690.828125,
+        "y": 278.5,
+        "width": 58.34375,
+        "height": 35,
+        "top": 278.5,
+        "bottom": 313.5,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 698.78125,
+        "y": 602.453125,
+        "width": 42.4375,
+        "height": 29.046875,
+        "top": 602.453125,
+        "bottom": 631.5,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "textRange": {
+        "x": 698.78125,
+        "y": 599.453125,
+        "width": 42.4375,
+        "height": 35,
+        "top": 599.453125,
+        "bottom": 634.453125,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  },
+  {
+    "name": "pre-restyle",
+    "token": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+    "frame": {
+      "x": 417,
+      "y": 143,
+      "width": 606,
+      "height": 627,
+      "top": 143,
+      "bottom": 770,
+      "left": 417,
+      "right": 1023
+    },
+    "font": "23px",
+    "classes": "word-display large fitted-long-word",
+    "word": {
+      "box": {
+        "x": 458.640625,
+        "y": 444.078125,
+        "width": 522.71875,
+        "height": 24.828125,
+        "top": 444.078125,
+        "bottom": 468.90625,
+        "left": 458.640625,
+        "right": 981.359375
+      },
+      "textRange": {
+        "x": 458.640625,
+        "y": 440.078125,
+        "width": 522.71875,
+        "height": 31,
+        "top": 440.078125,
+        "bottom": 471.078125,
+        "left": 458.640625,
+        "right": 981.359375
+      },
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis"
+    },
+    "previous": {
+      "box": {
+        "x": 690.828125,
+        "y": 281.5,
+        "width": 58.34375,
+        "height": 29.046875,
+        "top": 281.5,
+        "bottom": 310.546875,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "textRange": {
+        "x": 690.828125,
+        "y": 278.5,
+        "width": 58.34375,
+        "height": 35,
+        "top": 278.5,
+        "bottom": 313.5,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 698.78125,
+        "y": 602.453125,
+        "width": 42.4375,
+        "height": 29.046875,
+        "top": 602.453125,
+        "bottom": 631.5,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "textRange": {
+        "x": 698.78125,
+        "y": 599.453125,
+        "width": 42.4375,
+        "height": 35,
+        "top": 599.453125,
+        "bottom": 634.453125,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  },
+  {
+    "name": "pre-F1",
+    "token": "Hello",
+    "frame": {
+      "x": 417,
+      "y": 143,
+      "width": 606,
+      "height": 627,
+      "top": 143,
+      "bottom": 770,
+      "left": 417,
+      "right": 1023
+    },
+    "font": "128px",
+    "classes": "word-display large",
+    "word": {
+      "box": {
+        "x": 560.84375,
+        "y": 387.375,
+        "width": 318.3125,
+        "height": 138.234375,
+        "top": 387.375,
+        "bottom": 525.609375,
+        "left": 560.84375,
+        "right": 879.15625
+      },
+      "textRange": {
+        "x": 560.84375,
+        "y": 369.375,
+        "width": 318.3125,
+        "height": 170,
+        "top": 369.375,
+        "bottom": 539.375,
+        "left": 560.84375,
+        "right": 879.15625
+      },
+      "text": "Hello"
+    },
+    "previous": {
+      "box": {
+        "x": 690.828125,
+        "y": 281.5,
+        "width": 58.34375,
+        "height": 29.046875,
+        "top": 281.5,
+        "bottom": 310.546875,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "textRange": {
+        "x": 690.828125,
+        "y": 278.5,
+        "width": 58.34375,
+        "height": 35,
+        "top": 278.5,
+        "bottom": 313.5,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 698.78125,
+        "y": 602.453125,
+        "width": 42.4375,
+        "height": 29.046875,
+        "top": 602.453125,
+        "bottom": 631.5,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "textRange": {
+        "x": 698.78125,
+        "y": 599.453125,
+        "width": 42.4375,
+        "height": 35,
+        "top": 599.453125,
+        "bottom": 634.453125,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  },
+  {
+    "name": "pre-F1",
+    "token": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+    "frame": {
+      "x": 417,
+      "y": 143,
+      "width": 606,
+      "height": 627,
+      "top": 143,
+      "bottom": 770,
+      "left": 417,
+      "right": 1023
+    },
+    "font": "23px",
+    "classes": "word-display large fitted-long-word",
+    "word": {
+      "box": {
+        "x": 458.640625,
+        "y": 444.078125,
+        "width": 522.71875,
+        "height": 24.828125,
+        "top": 444.078125,
+        "bottom": 468.90625,
+        "left": 458.640625,
+        "right": 981.359375
+      },
+      "textRange": {
+        "x": 458.640625,
+        "y": 440.078125,
+        "width": 522.71875,
+        "height": 31,
+        "top": 440.078125,
+        "bottom": 471.078125,
+        "left": 458.640625,
+        "right": 981.359375
+      },
+      "text": "Pneumonoultramicroscopicsilicovolcanoconiosis"
+    },
+    "previous": {
+      "box": {
+        "x": 690.828125,
+        "y": 281.5,
+        "width": 58.34375,
+        "height": 29.046875,
+        "top": 281.5,
+        "bottom": 310.546875,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "textRange": {
+        "x": 690.828125,
+        "y": 278.5,
+        "width": 58.34375,
+        "height": 35,
+        "top": 278.5,
+        "bottom": 313.5,
+        "left": 690.828125,
+        "right": 749.171875
+      },
+      "text": "Lead"
+    },
+    "next": {
+      "box": {
+        "x": 698.78125,
+        "y": 602.453125,
+        "width": 42.4375,
+        "height": 29.046875,
+        "top": 602.453125,
+        "bottom": 631.5,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "textRange": {
+        "x": 698.78125,
+        "y": 599.453125,
+        "width": 42.4375,
+        "height": 35,
+        "top": 599.453125,
+        "bottom": 634.453125,
+        "left": 698.78125,
+        "right": 741.21875
+      },
+      "text": "Tail"
+    },
+    "noteHidden": true
+  }
+]

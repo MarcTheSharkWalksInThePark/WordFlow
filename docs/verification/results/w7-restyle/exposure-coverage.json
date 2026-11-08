@@ -1,0 +1,32 @@
+{
+  "changedTestLine": [
+    275
+  ],
+  "baseline": {
+    "files": [
+      "app.js",
+      "assets/wordflow-mark.svg",
+      "index.html",
+      "styles.css"
+    ],
+    "references": [
+      "assets/wordflow-mark.svg",
+      "styles.css",
+      "assets/wordflow-mark.svg",
+      "app.js"
+    ]
+  },
+  "candidate": {
+    "files": [
+      "app.js",
+      "assets/wordflow-mark.svg",
+      "index.html",
+      "styles.css"
+    ],
+    "references": [
+      "assets/wordflow-mark.svg",
+      "styles.css",
+      "app.js"
+    ]
+  }
+}

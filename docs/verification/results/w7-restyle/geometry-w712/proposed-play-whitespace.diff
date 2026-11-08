@@ -1,0 +1,12 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -266,6 +266,6 @@
+               <button id="play-button" class="play-button" type="button" title="Play" aria-label="Play">
+-                <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true">
++              <svg id="play-icon" viewBox="0 0 24 24" aria-hidden="true">
+                   <path d="m8 5 11 7-11 7z"></path>
+                 </svg>
+-              </button>
++            </button>
+               <button id="next-button" class="icon-button" type="button" title="Next word" aria-label="Next word">

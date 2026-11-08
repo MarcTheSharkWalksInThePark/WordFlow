@@ -1,0 +1,190 @@
+{
+  "viewport": {
+    "width": 1400,
+    "height": 900
+  },
+  "colorScheme": "light",
+  "screenshots": [
+    "1400-light-review.png",
+    "1400-light-normal.png",
+    "1400-light-focus.png",
+    "1400-light-fullscreen-paused.png",
+    "1400-light-fullscreen-playing.png",
+    "1400-light-finished.png"
+  ],
+  "contrast": [
+    {
+      "name": "body",
+      "color": "rgb(29, 36, 22)",
+      "backgrounds": [
+        "rgb(241, 245, 236)"
+      ],
+      "minimum": 14.445113855369925
+    },
+    {
+      "name": "panel text",
+      "color": "rgb(29, 36, 22)",
+      "backgrounds": [
+        "rgb(250, 252, 247)"
+      ],
+      "minimum": 15.447787304562482
+    },
+    {
+      "name": "muted",
+      "color": "rgb(75, 86, 65)",
+      "backgrounds": [
+        "rgb(251, 253, 248)",
+        "rgb(223, 232, 210)"
+      ],
+      "minimum": 6.137132418832703
+    },
+    {
+      "name": "head",
+      "color": "rgb(29, 36, 22)",
+      "backgrounds": [
+        "rgb(255, 255, 255)",
+        "rgb(238, 245, 227)",
+        "rgb(219, 233, 198)",
+        "rgb(230, 240, 214)"
+      ],
+      "minimum": 12.523397780226674
+    },
+    {
+      "name": "legend",
+      "color": "rgb(63, 107, 0)",
+      "backgrounds": [
+        "rgb(250, 252, 247)"
+      ],
+      "minimum": 6.134399620626128
+    },
+    {
+      "name": "gel",
+      "color": "rgb(20, 34, 0)",
+      "backgrounds": [
+        "rgb(214, 247, 154)",
+        "rgb(155, 226, 45)",
+        "rgb(111, 176, 0)",
+        "rgb(155, 226, 45)"
+      ],
+      "minimum": 6.265941633473131
+    },
+    {
+      "name": "chrome",
+      "color": "rgb(21, 23, 26)",
+      "backgrounds": [
+        "rgb(255, 255, 255)",
+        "rgb(221, 225, 230)",
+        "rgb(195, 200, 208)",
+        "rgb(227, 230, 234)"
+      ],
+      "minimum": 10.683568564828525
+    },
+    {
+      "name": "LCD",
+      "color": "rgb(109, 255, 109)",
+      "backgrounds": [
+        "rgb(6, 18, 6)"
+      ],
+      "minimum": 14.746219911817965
+    },
+    {
+      "name": "ticker",
+      "color": "rgb(216, 216, 216)",
+      "backgrounds": [
+        "rgb(0, 0, 0)"
+      ],
+      "minimum": 14.733706248706273
+    },
+    {
+      "name": "TIP",
+      "color": "rgb(20, 34, 0)",
+      "backgrounds": [
+        "rgb(143, 212, 0)"
+      ],
+      "minimum": 9.205252883008402
+    },
+    {
+      "name": "badge left",
+      "color": "rgb(255, 255, 255)",
+      "backgrounds": [
+        "rgb(27, 29, 32)"
+      ],
+      "minimum": 16.891821790210923
+    },
+    {
+      "name": "badge right",
+      "color": "rgb(20, 34, 0)",
+      "backgrounds": [
+        "rgb(168, 232, 58)"
+      ],
+      "minimum": 11.337369984440517
+    }
+  ],
+  "overflow": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1400,
+      "height": 900,
+      "scrollWidth": 1400
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920
+    }
+  ],
+  "fullscreen": "native",
+  "tokens": [
+    {
+      "length": 45,
+      "font": "55px",
+      "wrapped": false,
+      "scrolling": false,
+      "playing": true,
+      "frame": {
+        "x": 10,
+        "y": 64,
+        "width": 1380,
+        "height": 672.21875,
+        "top": 64,
+        "bottom": 736.21875,
+        "clientWidth": 1374,
+        "scrollWidth": 1374,
+        "clientHeight": 666,
+        "scrollHeight": 666
+      },
+      "naturalHeight": 60,
+      "freeHeight": 310.875
+    },
+    {
+      "length": 2000,
+      "font": "10px",
+      "wrapped": true,
+      "scrolling": false,
+      "playing": true,
+      "frame": {
+        "x": 10,
+        "y": 64,
+        "width": 1380,
+        "height": 672.21875,
+        "top": 64,
+        "bottom": 736.21875,
+        "clientWidth": 1374,
+        "scrollWidth": 1374,
+        "clientHeight": 666,
+        "scrollHeight": 666
+      },
+      "naturalHeight": 158,
+      "freeHeight": 310.875
+    }
+  ]
+}

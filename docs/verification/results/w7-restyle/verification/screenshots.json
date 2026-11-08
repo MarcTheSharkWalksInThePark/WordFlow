@@ -1,0 +1,146 @@
+[
+  {
+    "name": "390-dark-review.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "379a744440973de2b5b859f48d31979a448fad3b0119e546979ef6d7b3982e0c"
+  },
+  {
+    "name": "390-dark-normal.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "fe638cad770c82ec00530269600aaa071ee727dc324a86138a136c59c3d769a6"
+  },
+  {
+    "name": "390-dark-focus.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "6f2ca75492991cf1df17e288604cd83097957afc494447c94864694fd2425e7b"
+  },
+  {
+    "name": "390-dark-fullscreen-paused.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "34eb2512293601ef5c647a5426782eaa9d4efa24aff05bd9a5e4d15ff7a6655b"
+  },
+  {
+    "name": "390-dark-fullscreen-playing.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "98a9fb4879ee8d951a658215e149ffe2c2e1bf1a9d741e7822e1242f2933c016"
+  },
+  {
+    "name": "390-dark-finished.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "f714058cfa5b4f6a98b269ca4d3f9f1686f99a68058e2e8c369208e0288bfce7"
+  },
+  {
+    "name": "390-light-review.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "b0e246483eb7bebf7f6850403ff519fc009c42084e232475a32c0771c221bd27"
+  },
+  {
+    "name": "390-light-normal.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "52070b73debdcfb3c189bf9d3dbbcd7da9a9dcfb846e2529e291bfcb521c9551"
+  },
+  {
+    "name": "390-light-focus.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "1f78519770966ec778816230050d484042e397f6d1620fb5974cb7bf1a78a9d1"
+  },
+  {
+    "name": "390-light-fullscreen-paused.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "a87ba99f083a9b34d841a7dab71fcabf50a3a6e8f270d6d712307482286871b6"
+  },
+  {
+    "name": "390-light-fullscreen-playing.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "74167f26c68b22ce8f5c4e25fa7d6d7a3831b37001fbac9ef5c3fc01a7f71e9b"
+  },
+  {
+    "name": "390-light-finished.png",
+    "width": 390,
+    "height": 844,
+    "sha256": "1748f7645ed1de35fbc11abba0997fcd7a6f81c338cd8cbf5c100f596baf8932"
+  },
+  {
+    "name": "1400-dark-review.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "f4bcdeb2dac3956fc90e344e90757a5691300bf5bead387c9e68fa1f57731eda"
+  },
+  {
+    "name": "1400-dark-normal.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "eba1668044cd8570fd88e4752111bbacb1cadedbb6410c836f00b1b7e32ec680"
+  },
+  {
+    "name": "1400-dark-focus.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "aa81547936b14cb87976186384eb967201ef554c96918a335a03942b37acc66a"
+  },
+  {
+    "name": "1400-dark-fullscreen-paused.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "2d893a91ac30d6ffb4b45e6bdce31476c34f9ee543fdd10c22f6d2277eb4f55d"
+  },
+  {
+    "name": "1400-dark-fullscreen-playing.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "7591435295f8d22220a4ed268c4a0e71259eb25d7c7d6c395698b5028752c315"
+  },
+  {
+    "name": "1400-dark-finished.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "ddad314f5a52e332a2e372c8498dd277597744473021341a39082128da3861f3"
+  },
+  {
+    "name": "1400-light-review.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "340c49ca073dd4e7e0404b7ed401ef96714b47fd719fdc6f00bb09923a297e52"
+  },
+  {
+    "name": "1400-light-normal.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "9754df5889be41ce14ba3539e9dcce3f6f2efd3ce88f9573b640fcf12d19a1bb"
+  },
+  {
+    "name": "1400-light-focus.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "c56ca981d749b90963b65847fb52c321f89ce175c7612702958e928a9aa056d2"
+  },
+  {
+    "name": "1400-light-fullscreen-paused.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "6633acc27f9dd74d84eb46dd958fb6d2af4a0082158031c4f1e5c8ba5694c3a7"
+  },
+  {
+    "name": "1400-light-fullscreen-playing.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "c38a3f4a0c3dca0031702506e118e568fe5581969bbd8f045c247e1c323f93c5"
+  },
+  {
+    "name": "1400-light-finished.png",
+    "width": 1400,
+    "height": 900,
+    "sha256": "d0978db2fdd2f754a15422e9b289773b5304f50cc258d1c412fc6bc1c2c1b125"
+  }
+]

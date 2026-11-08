@@ -1,0 +1,29 @@
+{
+  "qualifiedBaseline": "a9eb63e82e95099e51952012cd4a8f6814edaf70",
+  "testedTree": "c5da31832145e7e0fc238052fdebc0347cd53510",
+  "chrome": "156.0.8078.81",
+  "playwright": "1.62.1",
+  "inputCount": 225,
+  "allMatchCommittedBlobs": true,
+  "sameNamesAsQualifiedBaseline": true,
+  "changed": [
+    "app.js",
+    "index.html",
+    "styles.css"
+  ],
+  "changedInputs": {
+    "app.js": {
+      "before": "74c62daa23abcc2a0bcc6cf141c24d32f3d217b4e6b93b77f326a8abb2d73da9",
+      "after": "5907de53adcf1d4b2f90cf2326a4554c4c51ae562521d5b207491d5c9ef17baf"
+    },
+    "index.html": {
+      "before": "44cf402e3cf9ec0585e181904f21f45366d2589a085133b55f0de092303f7800",
+      "after": "fe1358f6080f29e4f0a9ce24f3c4b11193b73d3fafafdab9beeef43cdd97150c"
+    },
+    "styles.css": {
+      "before": "d3e6a11d9346f398497de01f1053a5bd7435953cf7233e8c315b4a49422ca107",
+      "after": "0581326b5b41f92785596fef8bf70f6d4200cac309fcbd2f8e48afd459a2ff2a"
+    }
+  },
+  "stampFileSha256": "c9fdc6790184699775509b774e211b029856df0904510b9bdd62816714dbf0dd"
+}

@@ -1,0 +1,8762 @@
+{
+  "summary": {
+    "rows": 324,
+    "applies": 324,
+    "misses": 80,
+    "allVisible": true,
+    "missesAtFloor": 80,
+    "missesUnwrappedDueToFloor": 76,
+    "missesWrapped": 4,
+    "missesAboveFloor": 0
+  },
+  "rows": [
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "64px",
+        "width": 1432.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "64px",
+        "width": 7635.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "64px",
+        "width": 113125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "64px",
+        "width": 64452.65625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "64px",
+        "width": 1923.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "64px",
+        "width": 1979.6875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "64px",
+        "width": 2036.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "64px",
+        "width": 2092.8125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "64px",
+        "width": 2149.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "84.4px",
+        "width": 1888.828125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "15px",
+      "renderedWidth": 335.71875,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.3470394736842,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "84.4px",
+        "width": 10069.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "84.4px",
+        "width": 149183.609375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "84.4px",
+        "width": 84996.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 342.015625,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 90.00411184210526,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 84,
+      "base": {
+        "font": "84.4px",
+        "width": 6265.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 742.40625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 85,
+      "base": {
+        "font": "84.4px",
+        "width": 6340.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 751.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 86,
+      "base": {
+        "font": "84.4px",
+        "width": 6414.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 760.078125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 87,
+      "base": {
+        "font": "84.4px",
+        "width": 6489.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 768.921875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 88,
+      "base": {
+        "font": "84.4px",
+        "width": 6564.09375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 777.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "84.4px",
+        "width": 1888.828125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "15px",
+      "renderedWidth": 335.703125,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.34292763157895,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "84.4px",
+        "width": 10069.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "84.4px",
+        "width": 149183.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "84.4px",
+        "width": 84996.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 342.015625,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 90.00411184210526,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 84,
+      "base": {
+        "font": "84.4px",
+        "width": 6265.71875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 742.390625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 85,
+      "base": {
+        "font": "84.4px",
+        "width": 6340.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 751.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 86,
+      "base": {
+        "font": "84.4px",
+        "width": 6414.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 760.0625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 87,
+      "base": {
+        "font": "84.4px",
+        "width": 6489.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 768.90625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 88,
+      "base": {
+        "font": "84.4px",
+        "width": 6564.078125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 777.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "84.4px",
+        "width": 1888.828125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "15px",
+      "renderedWidth": 335.71875,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.3470394736842,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "84.4px",
+        "width": 10069.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "84.4px",
+        "width": 149183.609375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "84.4px",
+        "width": 84996.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 342.015625,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 90.00411184210526,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 84,
+      "base": {
+        "font": "84.4px",
+        "width": 6265.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 742.40625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 85,
+      "base": {
+        "font": "84.4px",
+        "width": 6340.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 751.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 86,
+      "base": {
+        "font": "84.4px",
+        "width": 6414.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 760.078125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 87,
+      "base": {
+        "font": "84.4px",
+        "width": 6489.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 768.921875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 88,
+      "base": {
+        "font": "84.4px",
+        "width": 6564.09375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 777.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.859375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.38404605263158,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "84.4px",
+        "width": 1888.828125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "15px",
+      "renderedWidth": 335.703125,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.34292763157895,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "84.4px",
+        "width": 10069.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "84.4px",
+        "width": 149183.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "84.4px",
+        "width": 84996.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 342.015625,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 90.00411184210526,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 84,
+      "base": {
+        "font": "84.4px",
+        "width": 6265.71875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 742.390625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 85,
+      "base": {
+        "font": "84.4px",
+        "width": 6340.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 751.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 86,
+      "base": {
+        "font": "84.4px",
+        "width": 6414.90625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 760.0625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 87,
+      "base": {
+        "font": "84.4px",
+        "width": 6489.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 768.90625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 88,
+      "base": {
+        "font": "84.4px",
+        "width": 6564.078125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 777.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 335.84375,
+      "frameWidth": 380,
+      "target": 342,
+      "percentage": 88.37993421052632,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "24px",
+      "renderedWidth": 537.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.52083333333333,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.921875,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.98697916666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "128px",
+        "width": 15837.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "128px",
+        "width": 15950.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "128px",
+        "width": 16063.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1255
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "128px",
+        "width": 16176.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "128px",
+        "width": 16290
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.671875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "24px",
+      "renderedWidth": 537.109375,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.51822916666667,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.921875,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.98697916666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "128px",
+        "width": 15837.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "128px",
+        "width": 15950.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "128px",
+        "width": 16063.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1254.984375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "128px",
+        "width": 16176.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.828125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "128px",
+        "width": 16290
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.65625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "24px",
+      "renderedWidth": 537.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.52083333333333,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.921875,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.98697916666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "128px",
+        "width": 15837.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "128px",
+        "width": 15950.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "128px",
+        "width": 16063.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1255
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "128px",
+        "width": 16176.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "128px",
+        "width": 16290
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.671875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "24px",
+      "renderedWidth": 537.109375,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.51822916666667,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.921875,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.98697916666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "128px",
+        "width": 15837.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "128px",
+        "width": 15950.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "128px",
+        "width": 16063.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1254.984375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "128px",
+        "width": 16176.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.828125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "128px",
+        "width": 16290
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.65625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 539.125,
+      "frameWidth": 600,
+      "target": 540,
+      "percentage": 89.85416666666667,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 170,
+      "base": {
+        "font": "128px",
+        "width": 19231.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1502.46875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 171,
+      "base": {
+        "font": "128px",
+        "width": 19344.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1511.296875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 172,
+      "base": {
+        "font": "128px",
+        "width": 19457.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1520.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 173,
+      "base": {
+        "font": "128px",
+        "width": 19570.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1528.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 174,
+      "base": {
+        "font": "128px",
+        "width": 19683.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1537.8125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 170,
+      "base": {
+        "font": "128px",
+        "width": 19231.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1502.453125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 171,
+      "base": {
+        "font": "128px",
+        "width": 19344.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1511.28125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 172,
+      "base": {
+        "font": "128px",
+        "width": 19457.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1520.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 173,
+      "base": {
+        "font": "128px",
+        "width": 19570.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1528.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 174,
+      "base": {
+        "font": "128px",
+        "width": 19683.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1537.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 170,
+      "base": {
+        "font": "128px",
+        "width": 19231.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1502.46875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 171,
+      "base": {
+        "font": "128px",
+        "width": 19344.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1511.296875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 172,
+      "base": {
+        "font": "128px",
+        "width": 19457.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1520.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 173,
+      "base": {
+        "font": "128px",
+        "width": 19570.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1528.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 174,
+      "base": {
+        "font": "128px",
+        "width": 19683.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1537.8125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 170,
+      "base": {
+        "font": "128px",
+        "width": 19231.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1502.453125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 171,
+      "base": {
+        "font": "128px",
+        "width": 19344.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1511.28125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 172,
+      "base": {
+        "font": "128px",
+        "width": 19457.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1520.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 173,
+      "base": {
+        "font": "128px",
+        "width": 19570.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1528.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 174,
+      "base": {
+        "font": "128px",
+        "width": 19683.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1537.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "45px",
+      "renderedWidth": 1007.09375,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.91908482142857,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.265625,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.93443080357143,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 192,
+      "base": {
+        "font": "128px",
+        "width": 21720
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1696.890625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 193,
+      "base": {
+        "font": "128px",
+        "width": 21833.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1705.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 194,
+      "base": {
+        "font": "128px",
+        "width": 21946.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1714.578125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 195,
+      "base": {
+        "font": "128px",
+        "width": 22059.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1723.40625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 196,
+      "base": {
+        "font": "128px",
+        "width": 22172.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1732.25
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "45px",
+      "renderedWidth": 1007.078125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.91768973214286,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.265625,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.93443080357143,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 192,
+      "base": {
+        "font": "128px",
+        "width": 21720
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1696.875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 193,
+      "base": {
+        "font": "128px",
+        "width": 21833.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1705.71875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 194,
+      "base": {
+        "font": "128px",
+        "width": 21946.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1714.5625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 195,
+      "base": {
+        "font": "128px",
+        "width": 22059.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1723.390625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 196,
+      "base": {
+        "font": "128px",
+        "width": 22172.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1732.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "45px",
+      "renderedWidth": 1007.09375,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.91908482142857,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.265625,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.93443080357143,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 192,
+      "base": {
+        "font": "128px",
+        "width": 21720
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1696.890625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 193,
+      "base": {
+        "font": "128px",
+        "width": 21833.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1705.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 194,
+      "base": {
+        "font": "128px",
+        "width": 21946.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1714.578125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 195,
+      "base": {
+        "font": "128px",
+        "width": 22059.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1723.40625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 196,
+      "base": {
+        "font": "128px",
+        "width": 22172.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1732.25
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.546875,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95954241071429,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "128px",
+        "width": 2864.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "45px",
+      "renderedWidth": 1007.078125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.91768973214286,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "128px",
+        "width": 15271.875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "128px",
+        "width": 226250
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "128px",
+        "width": 128905.3125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.265625,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.93443080357143,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 192,
+      "base": {
+        "font": "128px",
+        "width": 21720
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1696.875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 193,
+      "base": {
+        "font": "128px",
+        "width": 21833.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1705.71875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 194,
+      "base": {
+        "font": "128px",
+        "width": 21946.25
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1714.5625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 195,
+      "base": {
+        "font": "128px",
+        "width": 22059.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1723.390625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 196,
+      "base": {
+        "font": "128px",
+        "width": 22172.5
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1732.234375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1007.53125,
+      "frameWidth": 1120,
+      "target": 1008,
+      "percentage": 89.95814732142857,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "99.6px",
+        "width": 2229
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "99.6px",
+        "width": 11883.453125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "99.6px",
+        "width": 176050.796875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "99.6px",
+        "width": 100304.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 99,
+      "base": {
+        "font": "99.6px",
+        "width": 8714.53125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 874.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 874.96875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 96.36219713656388,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 100,
+      "base": {
+        "font": "99.6px",
+        "width": 8802.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 883.8125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 883.8125,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 97.33617841409692,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 101,
+      "base": {
+        "font": "99.6px",
+        "width": 8890.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 892.640625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 892.640625,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 98.30843887665198,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 102,
+      "base": {
+        "font": "99.6px",
+        "width": 8978.609375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 901.484375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 901.484375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 99.28242015418502,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 103,
+      "base": {
+        "font": "99.6px",
+        "width": 9066.640625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 910.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "99.6px",
+        "width": 2229
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "99.6px",
+        "width": 11883.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "99.6px",
+        "width": 176050.78125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "99.6px",
+        "width": 100304.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 99,
+      "base": {
+        "font": "99.6px",
+        "width": 8714.515625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 874.953125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 874.953125,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 96.3604763215859,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 100,
+      "base": {
+        "font": "99.6px",
+        "width": 8802.546875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 883.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 883.796875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 97.33445759911895,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 101,
+      "base": {
+        "font": "99.6px",
+        "width": 8890.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 892.640625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 892.640625,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 98.30843887665198,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 102,
+      "base": {
+        "font": "99.6px",
+        "width": 8978.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 901.46875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 901.46875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 99.28069933920705,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 103,
+      "base": {
+        "font": "99.6px",
+        "width": 9066.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 910.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "99.6px",
+        "width": 2229
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "99.6px",
+        "width": 11883.453125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "99.6px",
+        "width": 176050.796875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "99.6px",
+        "width": 100304.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 99,
+      "base": {
+        "font": "99.6px",
+        "width": 8714.53125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 874.96875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 874.96875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 96.36219713656388,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 100,
+      "base": {
+        "font": "99.6px",
+        "width": 8802.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 883.8125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 883.8125,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 97.33617841409692,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 101,
+      "base": {
+        "font": "99.6px",
+        "width": 8890.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 892.640625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 892.640625,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 98.30843887665198,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 102,
+      "base": {
+        "font": "99.6px",
+        "width": 8978.609375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 901.484375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 901.484375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 99.28242015418502,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 103,
+      "base": {
+        "font": "99.6px",
+        "width": 9066.640625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 910.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.109375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54949063876651,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "99.6px",
+        "width": 2229
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "36px",
+      "renderedWidth": 805.671875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 88.7303827092511,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "99.6px",
+        "width": 11883.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "99.6px",
+        "width": 176050.78125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "99.6px",
+        "width": 100304.4375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 816.71875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.94699889867842,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 99,
+      "base": {
+        "font": "99.6px",
+        "width": 8714.515625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 874.953125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 874.953125,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 96.3604763215859,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 100,
+      "base": {
+        "font": "99.6px",
+        "width": 8802.546875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 883.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 883.796875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 97.33445759911895,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 101,
+      "base": {
+        "font": "99.6px",
+        "width": 8890.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 892.640625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 892.640625,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 98.30843887665198,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 102,
+      "base": {
+        "font": "99.6px",
+        "width": 8978.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 901.46875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 901.46875,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 99.28069933920705,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 103,
+      "base": {
+        "font": "99.6px",
+        "width": 9066.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 910.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 813.09375,
+      "frameWidth": 908,
+      "target": 817.2,
+      "percentage": 89.54776982378854,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "140px",
+        "width": 3133.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "52px",
+      "renderedWidth": 1163.734375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 88.69926638719512,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "140px",
+        "width": 16703.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1193.140625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 90.94059641768293,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "140px",
+        "width": 247460.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1175.453125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.5924637957317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "140px",
+        "width": 140990.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1179.765625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.92116044207317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "140px",
+        "width": 17322.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1237.328125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.30854611280488,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "140px",
+        "width": 17446
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1246.15625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.98142149390245,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "140px",
+        "width": 17569.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1255
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1255,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 95.65548780487805,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "140px",
+        "width": 17693.46875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1263.84375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 96.32955411585365,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "140px",
+        "width": 17817.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.671875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1272.671875,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 97.00242949695122,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "140px",
+        "width": 3133.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "52px",
+      "renderedWidth": 1163.734375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 88.69926638719512,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "140px",
+        "width": 16703.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1193.125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 90.93940548780488,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "140px",
+        "width": 247460.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1175.453125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.5924637957317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "140px",
+        "width": 140990.1875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1179.765625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.92116044207317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "140px",
+        "width": 17322.265625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1237.3125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.30735518292683,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "140px",
+        "width": 17446
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1246.15625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.98142149390245,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "140px",
+        "width": 17569.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1254.984375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1254.984375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 95.654296875,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "140px",
+        "width": 17693.46875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.828125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1263.828125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 96.3283631859756,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "140px",
+        "width": 17817.1875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.65625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1272.65625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 97.00123856707317,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "140px",
+        "width": 3133.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "52px",
+      "renderedWidth": 1163.734375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 88.69926638719512,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "140px",
+        "width": 16703.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1193.140625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 90.94059641768293,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "140px",
+        "width": 247460.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1175.453125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.5924637957317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "140px",
+        "width": 140990.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1179.765625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.92116044207317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "140px",
+        "width": 17322.28125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1237.328125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.30854611280488,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "140px",
+        "width": 17446
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1246.15625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.98142149390245,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "140px",
+        "width": 17569.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1255
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1255,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 95.65548780487805,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "140px",
+        "width": 17693.46875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1263.84375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 96.32955411585365,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "140px",
+        "width": 17817.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.671875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1272.671875,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 97.00242949695122,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "140px",
+        "width": 3133.125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "52px",
+      "renderedWidth": 1163.734375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 88.69926638719512,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "140px",
+        "width": 16703.625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1193.125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 90.93940548780488,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "140px",
+        "width": 247460.9375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1175.453125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.5924637957317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "140px",
+        "width": 140990.1875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1179.765625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 89.92116044207317,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 140,
+      "base": {
+        "font": "140px",
+        "width": 17322.265625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1237.3125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1237.3125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.30735518292683,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 141,
+      "base": {
+        "font": "140px",
+        "width": 17446
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1246.15625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1246.15625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 94.98142149390245,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 142,
+      "base": {
+        "font": "140px",
+        "width": 17569.734375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1254.984375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1254.984375,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 95.654296875,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 143,
+      "base": {
+        "font": "140px",
+        "width": 17693.46875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1263.828125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1263.828125,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 96.3283631859756,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 144,
+      "base": {
+        "font": "140px",
+        "width": 17817.1875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1272.65625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 1272.65625,
+      "frameWidth": 1312,
+      "target": 1180.8,
+      "percentage": 97.00123856707317,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "67.2px",
+        "width": 1503.703125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "67.2px",
+        "width": 8016.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "67.2px",
+        "width": 118763.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "67.2px",
+        "width": 67665.234375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "67.2px",
+        "width": 2019
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "67.2px",
+        "width": 2078.390625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "67.2px",
+        "width": 2137.765625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "67.2px",
+        "width": 2197.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "67.2px",
+        "width": 2256.53125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "67.2px",
+        "width": 1503.671875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "67.2px",
+        "width": 8016.546875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "67.2px",
+        "width": 118763.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "67.2px",
+        "width": 67665.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "67.2px",
+        "width": 2018.984375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "67.2px",
+        "width": 2078.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "67.2px",
+        "width": 2137.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "67.2px",
+        "width": 2197.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": true,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "67.2px",
+        "width": 2256.515625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "67.2px",
+        "width": 1503.703125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.8125
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.953125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.11171407185628,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "67.2px",
+        "width": 8016.5625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.140625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "67.2px",
+        "width": 118763.59375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.796875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "67.2px",
+        "width": 67665.234375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.75
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "67.2px",
+        "width": 2019
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.515625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "67.2px",
+        "width": 2078.390625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.34375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.34375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61788922155688,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "67.2px",
+        "width": 2137.765625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.1875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.1875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26571856287426,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "67.2px",
+        "width": 2197.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": true,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "67.2px",
+        "width": 2256.53125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.859375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.515625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.9747380239521,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real45",
+      "n": 45,
+      "base": {
+        "font": "67.2px",
+        "width": 1503.671875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 223.796875
+      },
+      "renderedFont": "13px",
+      "renderedWidth": 290.9375,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 87.10703592814372,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 135,
+      "base": {
+        "font": "67.2px",
+        "width": 8016.546875
+      },
+      "floor": {
+        "font": "10px",
+        "width": 1193.125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 2000,
+      "base": {
+        "font": "67.2px",
+        "width": 118763.578125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 17675.78125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "real-repeated",
+      "n": 2025,
+      "base": {
+        "font": "67.2px",
+        "width": 67665.203125
+      },
+      "floor": {
+        "font": "10px",
+        "width": 10070.734375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 299.453125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.656624251497,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": true,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 34,
+      "base": {
+        "font": "67.2px",
+        "width": 2018.984375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 300.5
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 35,
+      "base": {
+        "font": "67.2px",
+        "width": 2078.375
+      },
+      "floor": {
+        "font": "10px",
+        "width": 309.328125
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 309.328125,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 92.61321107784431,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 36,
+      "base": {
+        "font": "67.2px",
+        "width": 2137.75
+      },
+      "floor": {
+        "font": "10px",
+        "width": 318.171875
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 318.171875,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 95.26104041916167,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 37,
+      "base": {
+        "font": "67.2px",
+        "width": 2197.140625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 327.015625
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 327.015625,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 97.90886976047904,
+      "fullyVisible": true,
+      "wrapped": false,
+      "scrolling": false,
+      "applies": true,
+      "passed": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "focus": true,
+      "context": false,
+      "letter": false,
+      "kind": "W",
+      "n": 38,
+      "base": {
+        "font": "67.2px",
+        "width": 2256.515625
+      },
+      "floor": {
+        "font": "10px",
+        "width": 335.84375
+      },
+      "renderedFont": "10px",
+      "renderedWidth": 300.5,
+      "frameWidth": 334,
+      "target": 300.6,
+      "percentage": 89.97005988023952,
+      "fullyVisible": true,
+      "wrapped": true,
+      "scrolling": false,
+      "applies": true,
+      "passed": true
+    }
+  ]
+}

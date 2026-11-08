@@ -1,0 +1,9 @@
+npm run parity (exit 1)
+{"suite":"browser-parity","docx":9,"mismatches":0,"pdfCompared":7,"pdfDifferences":2,"skipped":0}
+Error: F1 short and real word exactly match master: context/note intersects scrolling area
+
+Selected assertion stack (repository-relative paths):
+  noCollisions      tests/reader-smoke.cjs:78
+  checkTokenLayout   tests/reader-smoke.cjs:134
+  readerChecks       tests/reader-smoke.cjs:160
+Browser suite failed; parity stamp was not written

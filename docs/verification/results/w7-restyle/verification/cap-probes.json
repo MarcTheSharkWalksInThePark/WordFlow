@@ -1,0 +1,2609 @@
+{
+  "rows": [
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 4,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 514.5,
+          "displayHeight": 138.234375,
+          "textWidth": 514.5,
+          "leftClearance": 198.75,
+          "rightClearance": 198.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 514.5,
+          "visible": true,
+          "leftClearance": 198.75,
+          "rightClearance": 198.75
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 514.5,
+          "displayHeight": 138.234375,
+          "textWidth": 514.5,
+          "leftClearance": 198.75,
+          "rightClearance": 198.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 514.5,
+          "visible": true,
+          "leftClearance": 198.75,
+          "rightClearance": 198.75
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 452.5,
+          "displayHeight": 138.234375,
+          "textWidth": 452.5,
+          "leftClearance": 227.75,
+          "rightClearance": 227.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 452.5,
+          "visible": true,
+          "leftClearance": 227.75,
+          "rightClearance": 227.75
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 5,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 643.125,
+          "displayHeight": 138.234375,
+          "textWidth": 643.125,
+          "leftClearance": 134.4375,
+          "rightClearance": 134.4375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 643.125,
+          "visible": true,
+          "leftClearance": 134.4375,
+          "rightClearance": 134.4375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 643.125,
+          "displayHeight": 138.234375,
+          "textWidth": 643.125,
+          "leftClearance": 134.4375,
+          "rightClearance": 134.4375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 643.125,
+          "visible": true,
+          "leftClearance": 134.4375,
+          "rightClearance": 134.4375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 565.625,
+          "displayHeight": 138.234375,
+          "textWidth": 565.625,
+          "leftClearance": 171.1875,
+          "rightClearance": 171.1875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 565.625,
+          "visible": true,
+          "leftClearance": 171.1875,
+          "rightClearance": 171.1875
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 6,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 771.75,
+          "displayHeight": 138.234375,
+          "textWidth": 771.75,
+          "leftClearance": 70.125,
+          "rightClearance": 70.125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 771.75,
+          "visible": true,
+          "leftClearance": 70.125,
+          "rightClearance": 70.125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 771.75,
+          "displayHeight": 138.234375,
+          "textWidth": 771.75,
+          "leftClearance": 70.125,
+          "rightClearance": 70.125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 771.75,
+          "visible": true,
+          "leftClearance": 70.125,
+          "rightClearance": 70.125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 678.75,
+          "displayHeight": 138.234375,
+          "textWidth": 678.75,
+          "leftClearance": 114.625,
+          "rightClearance": 114.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 678.75,
+          "visible": true,
+          "leftClearance": 114.625,
+          "rightClearance": 114.625
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 7,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 900.375,
+          "leftClearance": 5.8125,
+          "rightClearance": 5.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 900.375,
+          "visible": true,
+          "leftClearance": 5.8125,
+          "rightClearance": 5.8125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 900.375,
+          "leftClearance": 5.8125,
+          "rightClearance": 5.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 900.375,
+          "visible": true,
+          "leftClearance": 5.8125,
+          "rightClearance": 5.8125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 791.875,
+          "displayHeight": 138.234375,
+          "textWidth": 791.875,
+          "leftClearance": 58.0625,
+          "rightClearance": 58.0625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 791.875,
+          "visible": true,
+          "leftClearance": 58.0625,
+          "rightClearance": 58.0625
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 8,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1029,
+          "leftClearance": 0,
+          "rightClearance": -117
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1029,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -117
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1029,
+          "leftClearance": 0,
+          "rightClearance": -117
+        },
+        "rendered": {
+          "fit": true,
+          "font": "102px",
+          "width": 820,
+          "visible": true,
+          "leftClearance": 46,
+          "rightClearance": 46
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 905,
+          "leftClearance": 1.5,
+          "rightClearance": 1.5
+        },
+        "rendered": {
+          "fit": true,
+          "font": "115px",
+          "width": 813.109375,
+          "visible": true,
+          "leftClearance": 47.4375,
+          "rightClearance": 47.453125
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 9,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1157.625,
+          "leftClearance": 0,
+          "rightClearance": -245.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1157.625,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -245.625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1157.625,
+          "leftClearance": 0,
+          "rightClearance": -245.625
+        },
+        "rendered": {
+          "fit": true,
+          "font": "90px",
+          "width": 813.984375,
+          "visible": true,
+          "leftClearance": 49,
+          "rightClearance": 49.015625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1018.125,
+          "leftClearance": 0,
+          "rightClearance": -110.125
+        },
+        "rendered": {
+          "fit": true,
+          "font": "102px",
+          "width": 811.34375,
+          "visible": true,
+          "leftClearance": 48.328125,
+          "rightClearance": 48.328125
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 10,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1286.25,
+          "leftClearance": 0,
+          "rightClearance": -374.25
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1286.25,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -374.25
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1286.25,
+          "leftClearance": 0,
+          "rightClearance": -374.25
+        },
+        "rendered": {
+          "fit": true,
+          "font": "81px",
+          "width": 813.96875,
+          "visible": true,
+          "leftClearance": 49.015625,
+          "rightClearance": 49.015625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1131.25,
+          "leftClearance": 0,
+          "rightClearance": -223.25
+        },
+        "rendered": {
+          "fit": true,
+          "font": "92px",
+          "width": 813.109375,
+          "visible": true,
+          "leftClearance": 47.4375,
+          "rightClearance": 47.453125
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 11,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1414.875,
+          "leftClearance": 0,
+          "rightClearance": -502.875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1414.875,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -502.875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1414.875,
+          "leftClearance": 0,
+          "rightClearance": -502.875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "74px",
+          "width": 818,
+          "visible": true,
+          "leftClearance": 47,
+          "rightClearance": 47
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1244.375,
+          "leftClearance": 0,
+          "rightClearance": -336.375
+        },
+        "rendered": {
+          "fit": true,
+          "font": "84px",
+          "width": 816.640625,
+          "visible": true,
+          "leftClearance": 45.671875,
+          "rightClearance": 45.6875
+        }
+      }
+    },
+    {
+      "width": 1708,
+      "height": 950,
+      "focus": false,
+      "n": 12,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1543.5,
+          "leftClearance": 0,
+          "rightClearance": -631.5
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1543.5,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -631.5
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 362.5,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1543.5,
+          "leftClearance": 0,
+          "rightClearance": -631.5
+        },
+        "rendered": {
+          "fit": true,
+          "font": "68px",
+          "width": 820,
+          "visible": true,
+          "leftClearance": 46,
+          "rightClearance": 46
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 352.06,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1357.5,
+          "leftClearance": 0,
+          "rightClearance": -449.5
+        },
+        "rendered": {
+          "fit": true,
+          "font": "77px",
+          "width": 816.640625,
+          "visible": true,
+          "leftClearance": 45.671875,
+          "rightClearance": 45.6875
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 4,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 514.5,
+          "displayHeight": 138.234375,
+          "textWidth": 514.5,
+          "leftClearance": 304.75,
+          "rightClearance": 304.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 514.5,
+          "visible": true,
+          "leftClearance": 304.75,
+          "rightClearance": 304.75
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 514.5,
+          "displayHeight": 138.234375,
+          "textWidth": 514.5,
+          "leftClearance": 304.75,
+          "rightClearance": 304.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 514.5,
+          "visible": true,
+          "leftClearance": 304.75,
+          "rightClearance": 304.75
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 452.5,
+          "displayHeight": 138.234375,
+          "textWidth": 452.5,
+          "leftClearance": 333.75,
+          "rightClearance": 333.75
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 452.5,
+          "visible": true,
+          "leftClearance": 333.75,
+          "rightClearance": 333.75
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 5,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 643.125,
+          "displayHeight": 138.234375,
+          "textWidth": 643.125,
+          "leftClearance": 240.4375,
+          "rightClearance": 240.4375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 643.125,
+          "visible": true,
+          "leftClearance": 240.4375,
+          "rightClearance": 240.4375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 643.125,
+          "displayHeight": 138.234375,
+          "textWidth": 643.125,
+          "leftClearance": 240.4375,
+          "rightClearance": 240.4375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 643.125,
+          "visible": true,
+          "leftClearance": 240.4375,
+          "rightClearance": 240.4375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 565.625,
+          "displayHeight": 138.234375,
+          "textWidth": 565.625,
+          "leftClearance": 277.1875,
+          "rightClearance": 277.1875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 565.625,
+          "visible": true,
+          "leftClearance": 277.1875,
+          "rightClearance": 277.1875
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 6,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 771.75,
+          "displayHeight": 138.234375,
+          "textWidth": 771.75,
+          "leftClearance": 176.125,
+          "rightClearance": 176.125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 771.75,
+          "visible": true,
+          "leftClearance": 176.125,
+          "rightClearance": 176.125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 771.75,
+          "displayHeight": 138.234375,
+          "textWidth": 771.75,
+          "leftClearance": 176.125,
+          "rightClearance": 176.125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 771.75,
+          "visible": true,
+          "leftClearance": 176.125,
+          "rightClearance": 176.125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 678.75,
+          "displayHeight": 138.234375,
+          "textWidth": 678.75,
+          "leftClearance": 220.625,
+          "rightClearance": 220.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 678.75,
+          "visible": true,
+          "leftClearance": 220.625,
+          "rightClearance": 220.625
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 7,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 900.375,
+          "leftClearance": 111.8125,
+          "rightClearance": 111.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 900.375,
+          "visible": true,
+          "leftClearance": 111.8125,
+          "rightClearance": 111.8125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 900.375,
+          "leftClearance": 111.8125,
+          "rightClearance": 111.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 900.375,
+          "visible": true,
+          "leftClearance": 111.8125,
+          "rightClearance": 111.8125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 791.875,
+          "displayHeight": 138.234375,
+          "textWidth": 791.875,
+          "leftClearance": 164.0625,
+          "rightClearance": 164.0625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 791.875,
+          "visible": true,
+          "leftClearance": 164.0625,
+          "rightClearance": 164.0625
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 8,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1029,
+          "leftClearance": 47.5,
+          "rightClearance": 47.5
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1029,
+          "visible": true,
+          "leftClearance": 47.5,
+          "rightClearance": 47.5
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1029,
+          "leftClearance": 47.5,
+          "rightClearance": 47.5
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1029,
+          "visible": true,
+          "leftClearance": 47.5,
+          "rightClearance": 47.5
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 905,
+          "leftClearance": 107.5,
+          "rightClearance": 107.5
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 905,
+          "visible": true,
+          "leftClearance": 107.5,
+          "rightClearance": 107.5
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 9,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1157.625,
+          "leftClearance": 0,
+          "rightClearance": -33.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1157.625,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -33.625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1157.625,
+          "leftClearance": 0,
+          "rightClearance": -33.625
+        },
+        "rendered": {
+          "fit": true,
+          "font": "111px",
+          "width": 1003.90625,
+          "visible": true,
+          "leftClearance": 60.046875,
+          "rightClearance": 60.046875
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1018.125,
+          "leftClearance": 50.9375,
+          "rightClearance": 50.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1018.125,
+          "visible": true,
+          "leftClearance": 50.9375,
+          "rightClearance": 50.9375
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 10,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1286.25,
+          "leftClearance": 0,
+          "rightClearance": -162.25
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1286.25,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -162.25
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1286.25,
+          "leftClearance": 0,
+          "rightClearance": -162.25
+        },
+        "rendered": {
+          "fit": true,
+          "font": "100px",
+          "width": 1004.90625,
+          "visible": true,
+          "leftClearance": 59.546875,
+          "rightClearance": 59.546875
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1131.25,
+          "leftClearance": 0,
+          "rightClearance": -11.25
+        },
+        "rendered": {
+          "fit": true,
+          "font": "114px",
+          "width": 1007.546875,
+          "visible": true,
+          "leftClearance": 56.234375,
+          "rightClearance": 56.21875
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 11,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1414.875,
+          "leftClearance": 0,
+          "rightClearance": -290.875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1414.875,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -290.875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1414.875,
+          "leftClearance": 0,
+          "rightClearance": -290.875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "91px",
+          "width": 1005.921875,
+          "visible": true,
+          "leftClearance": 59.046875,
+          "rightClearance": 59.03125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1244.375,
+          "leftClearance": 0,
+          "rightClearance": -124.375
+        },
+        "rendered": {
+          "fit": true,
+          "font": "103px",
+          "width": 1001.34375,
+          "visible": true,
+          "leftClearance": 59.328125,
+          "rightClearance": 59.328125
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "focus": false,
+      "n": 12,
+      "preF1": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1543.5,
+          "leftClearance": 0,
+          "rightClearance": -419.5
+        },
+        "rendered": {
+          "fit": false,
+          "font": "128px",
+          "width": 1543.5,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -419.5
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1124,
+          "widthTarget": 1011.6,
+          "heightTarget": 437.9,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1543.5,
+          "leftClearance": 0,
+          "rightClearance": -419.5
+        },
+        "rendered": {
+          "fit": true,
+          "font": "83px",
+          "width": 1000.875,
+          "visible": true,
+          "leftClearance": 61.5625,
+          "rightClearance": 61.5625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "128px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1120,
+          "widthTarget": 1008,
+          "heightTarget": 427.46,
+          "displayWidth": 820,
+          "displayHeight": 138.234375,
+          "textWidth": 1357.5,
+          "leftClearance": 0,
+          "rightClearance": -237.5
+        },
+        "rendered": {
+          "fit": true,
+          "font": "95px",
+          "width": 1007.546875,
+          "visible": true,
+          "leftClearance": 56.234375,
+          "rightClearance": 56.21875
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 4,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 400.375,
+          "displayHeight": 107.5625,
+          "textWidth": 400.375,
+          "leftClearance": 255.8125,
+          "rightClearance": 255.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 400.375,
+          "visible": true,
+          "leftClearance": 255.8125,
+          "rightClearance": 255.8125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 400.375,
+          "displayHeight": 107.5625,
+          "textWidth": 400.375,
+          "leftClearance": 255.8125,
+          "rightClearance": 255.8125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 400.375,
+          "visible": true,
+          "leftClearance": 255.8125,
+          "rightClearance": 255.8125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 352.125,
+          "displayHeight": 107.5625,
+          "textWidth": 352.125,
+          "leftClearance": 277.9375,
+          "rightClearance": 277.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 352.125,
+          "visible": true,
+          "leftClearance": 277.9375,
+          "rightClearance": 277.9375
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 5,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 500.453125,
+          "displayHeight": 107.5625,
+          "textWidth": 500.453125,
+          "leftClearance": 205.765625,
+          "rightClearance": 205.78125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 500.453125,
+          "visible": true,
+          "leftClearance": 205.765625,
+          "rightClearance": 205.78125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 500.453125,
+          "displayHeight": 107.5625,
+          "textWidth": 500.453125,
+          "leftClearance": 205.765625,
+          "rightClearance": 205.78125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 500.453125,
+          "visible": true,
+          "leftClearance": 205.765625,
+          "rightClearance": 205.78125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 440.140625,
+          "displayHeight": 107.5625,
+          "textWidth": 440.140625,
+          "leftClearance": 233.921875,
+          "rightClearance": 233.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 440.140625,
+          "visible": true,
+          "leftClearance": 233.921875,
+          "rightClearance": 233.9375
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 6,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 600.546875,
+          "displayHeight": 107.5625,
+          "textWidth": 600.546875,
+          "leftClearance": 155.71875,
+          "rightClearance": 155.734375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 600.546875,
+          "visible": true,
+          "leftClearance": 155.71875,
+          "rightClearance": 155.734375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 600.546875,
+          "displayHeight": 107.5625,
+          "textWidth": 600.546875,
+          "leftClearance": 155.71875,
+          "rightClearance": 155.734375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 600.546875,
+          "visible": true,
+          "leftClearance": 155.71875,
+          "rightClearance": 155.734375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 528.171875,
+          "displayHeight": 107.5625,
+          "textWidth": 528.171875,
+          "leftClearance": 189.90625,
+          "rightClearance": 189.921875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 528.171875,
+          "visible": true,
+          "leftClearance": 189.90625,
+          "rightClearance": 189.921875
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 7,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 700.640625,
+          "displayHeight": 107.5625,
+          "textWidth": 700.640625,
+          "leftClearance": 105.671875,
+          "rightClearance": 105.6875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 700.640625,
+          "visible": true,
+          "leftClearance": 105.671875,
+          "rightClearance": 105.6875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 700.640625,
+          "displayHeight": 107.5625,
+          "textWidth": 700.640625,
+          "leftClearance": 105.671875,
+          "rightClearance": 105.6875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 700.640625,
+          "visible": true,
+          "leftClearance": 105.671875,
+          "rightClearance": 105.6875
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 616.203125,
+          "displayHeight": 107.5625,
+          "textWidth": 616.203125,
+          "leftClearance": 145.890625,
+          "rightClearance": 145.90625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 616.203125,
+          "visible": true,
+          "leftClearance": 145.890625,
+          "rightClearance": 145.90625
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 8,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 800.71875,
+          "displayHeight": 107.5625,
+          "textWidth": 800.71875,
+          "leftClearance": 55.640625,
+          "rightClearance": 55.640625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 800.71875,
+          "visible": true,
+          "leftClearance": 55.640625,
+          "rightClearance": 55.640625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 800.71875,
+          "displayHeight": 107.5625,
+          "textWidth": 800.71875,
+          "leftClearance": 55.640625,
+          "rightClearance": 55.640625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 800.71875,
+          "visible": true,
+          "leftClearance": 55.640625,
+          "rightClearance": 55.640625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 704.234375,
+          "displayHeight": 107.5625,
+          "textWidth": 704.234375,
+          "leftClearance": 101.875,
+          "rightClearance": 101.890625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 704.234375,
+          "visible": true,
+          "leftClearance": 101.875,
+          "rightClearance": 101.890625
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 9,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 900.8125,
+          "leftClearance": 5.59375,
+          "rightClearance": 5.59375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 900.8125,
+          "visible": true,
+          "leftClearance": 5.59375,
+          "rightClearance": 5.59375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 900.8125,
+          "leftClearance": 5.59375,
+          "rightClearance": 5.59375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 900.8125,
+          "visible": true,
+          "leftClearance": 5.59375,
+          "rightClearance": 5.59375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 792.25,
+          "displayHeight": 107.5625,
+          "textWidth": 792.25,
+          "leftClearance": 57.875,
+          "rightClearance": 57.875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 792.25,
+          "visible": true,
+          "leftClearance": 57.875,
+          "rightClearance": 57.875
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 10,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1000.890625,
+          "leftClearance": 0,
+          "rightClearance": -88.890625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 1000.890625,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -88.890625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1000.890625,
+          "leftClearance": 0,
+          "rightClearance": -88.890625
+        },
+        "rendered": {
+          "fit": true,
+          "font": "81px",
+          "width": 813.96875,
+          "visible": true,
+          "leftClearance": 49.015625,
+          "rightClearance": 49.015625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 880.265625,
+          "leftClearance": 13.875,
+          "rightClearance": 13.859375
+        },
+        "rendered": {
+          "fit": true,
+          "font": "92px",
+          "width": 813.109375,
+          "visible": true,
+          "leftClearance": 47.4375,
+          "rightClearance": 47.453125
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 11,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1100.96875,
+          "leftClearance": 0,
+          "rightClearance": -188.96875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 1100.96875,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -188.96875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1100.96875,
+          "leftClearance": 0,
+          "rightClearance": -188.96875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "74px",
+          "width": 818,
+          "visible": true,
+          "leftClearance": 47,
+          "rightClearance": 47
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 968.296875,
+          "leftClearance": 0,
+          "rightClearance": -60.296875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "84px",
+          "width": 816.640625,
+          "visible": true,
+          "leftClearance": 45.671875,
+          "rightClearance": 45.6875
+        }
+      }
+    },
+    {
+      "width": 996,
+      "height": 950,
+      "focus": true,
+      "n": 12,
+      "preF1": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1201.0625,
+          "leftClearance": 0,
+          "rightClearance": -289.0625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "99.6px",
+          "width": 1201.0625,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -289.0625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 912,
+          "widthTarget": 820.8000000000001,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1201.0625,
+          "leftClearance": 0,
+          "rightClearance": -289.0625
+        },
+        "rendered": {
+          "fit": true,
+          "font": "68px",
+          "width": 820,
+          "visible": true,
+          "leftClearance": 46,
+          "rightClearance": 46
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "99.6px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 908,
+          "widthTarget": 817.2,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 107.5625,
+          "textWidth": 1056.3125,
+          "leftClearance": 0,
+          "rightClearance": -148.3125
+        },
+        "rendered": {
+          "fit": true,
+          "font": "77px",
+          "width": 816.640625,
+          "visible": true,
+          "leftClearance": 45.671875,
+          "rightClearance": 45.6875
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 4,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 562.75,
+          "displayHeight": 151.1875,
+          "textWidth": 562.75,
+          "leftClearance": 376.625,
+          "rightClearance": 376.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 562.75,
+          "visible": true,
+          "leftClearance": 376.625,
+          "rightClearance": 376.625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 562.75,
+          "displayHeight": 151.1875,
+          "textWidth": 562.75,
+          "leftClearance": 376.625,
+          "rightClearance": 376.625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 562.75,
+          "visible": true,
+          "leftClearance": 376.625,
+          "rightClearance": 376.625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 494.9375,
+          "displayHeight": 151.1875,
+          "textWidth": 494.9375,
+          "leftClearance": 408.53125,
+          "rightClearance": 408.53125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 494.9375,
+          "visible": true,
+          "leftClearance": 408.53125,
+          "rightClearance": 408.53125
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 5,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 703.4375,
+          "displayHeight": 151.1875,
+          "textWidth": 703.4375,
+          "leftClearance": 306.28125,
+          "rightClearance": 306.28125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 703.4375,
+          "visible": true,
+          "leftClearance": 306.28125,
+          "rightClearance": 306.28125
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 703.4375,
+          "displayHeight": 151.1875,
+          "textWidth": 703.4375,
+          "leftClearance": 306.28125,
+          "rightClearance": 306.28125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 703.4375,
+          "visible": true,
+          "leftClearance": 306.28125,
+          "rightClearance": 306.28125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 618.671875,
+          "displayHeight": 151.1875,
+          "textWidth": 618.671875,
+          "leftClearance": 346.65625,
+          "rightClearance": 346.671875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 618.671875,
+          "visible": true,
+          "leftClearance": 346.65625,
+          "rightClearance": 346.671875
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 6,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 844.125,
+          "leftClearance": 235.9375,
+          "rightClearance": 235.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 844.125,
+          "visible": true,
+          "leftClearance": 235.9375,
+          "rightClearance": 235.9375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 844.125,
+          "leftClearance": 235.9375,
+          "rightClearance": 235.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 844.125,
+          "visible": true,
+          "leftClearance": 235.9375,
+          "rightClearance": 235.9375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 742.40625,
+          "displayHeight": 151.1875,
+          "textWidth": 742.40625,
+          "leftClearance": 284.796875,
+          "rightClearance": 284.796875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 742.40625,
+          "visible": true,
+          "leftClearance": 284.796875,
+          "rightClearance": 284.796875
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 7,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 984.796875,
+          "leftClearance": 165.609375,
+          "rightClearance": 165.59375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 984.796875,
+          "visible": true,
+          "leftClearance": 165.609375,
+          "rightClearance": 165.59375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 984.796875,
+          "leftClearance": 165.609375,
+          "rightClearance": 165.59375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 984.796875,
+          "visible": true,
+          "leftClearance": 165.609375,
+          "rightClearance": 165.59375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 866.125,
+          "leftClearance": 222.9375,
+          "rightClearance": 222.9375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 866.125,
+          "visible": true,
+          "leftClearance": 222.9375,
+          "rightClearance": 222.9375
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 8,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1125.484375,
+          "leftClearance": 95.265625,
+          "rightClearance": 95.25
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1125.484375,
+          "visible": true,
+          "leftClearance": 95.265625,
+          "rightClearance": 95.25
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1125.484375,
+          "leftClearance": 95.265625,
+          "rightClearance": 95.25
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1125.484375,
+          "visible": true,
+          "leftClearance": 95.265625,
+          "rightClearance": 95.25
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 989.859375,
+          "leftClearance": 161.078125,
+          "rightClearance": 161.0625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 989.859375,
+          "visible": true,
+          "leftClearance": 161.078125,
+          "rightClearance": 161.0625
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 9,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1266.171875,
+          "leftClearance": 24.921875,
+          "rightClearance": 24.90625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1266.171875,
+          "visible": true,
+          "leftClearance": 24.921875,
+          "rightClearance": 24.90625
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1266.171875,
+          "leftClearance": 24.921875,
+          "rightClearance": 24.90625
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1266.171875,
+          "visible": true,
+          "leftClearance": 24.921875,
+          "rightClearance": 24.90625
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1113.59375,
+          "leftClearance": 99.203125,
+          "rightClearance": 99.203125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1113.59375,
+          "visible": true,
+          "leftClearance": 99.203125,
+          "rightClearance": 99.203125
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 10,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1406.859375,
+          "leftClearance": 0,
+          "rightClearance": -90.859375
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1406.859375,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -90.859375
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1406.859375,
+          "leftClearance": 0,
+          "rightClearance": -90.859375
+        },
+        "rendered": {
+          "fit": true,
+          "font": "117px",
+          "width": 1175.734375,
+          "visible": true,
+          "leftClearance": 70.140625,
+          "rightClearance": 70.125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1237.328125,
+          "leftClearance": 37.34375,
+          "rightClearance": 37.328125
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1237.328125,
+          "visible": true,
+          "leftClearance": 37.34375,
+          "rightClearance": 37.328125
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 11,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1547.546875,
+          "leftClearance": 0,
+          "rightClearance": -231.546875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1547.546875,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -231.546875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1547.546875,
+          "leftClearance": 0,
+          "rightClearance": -231.546875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "107px",
+          "width": 1182.78125,
+          "visible": true,
+          "leftClearance": 66.609375,
+          "rightClearance": 66.609375
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1361.0625,
+          "leftClearance": 0,
+          "rightClearance": -49.0625
+        },
+        "rendered": {
+          "fit": true,
+          "font": "121px",
+          "width": 1176.359375,
+          "visible": true,
+          "leftClearance": 67.828125,
+          "rightClearance": 67.8125
+        }
+      }
+    },
+    {
+      "width": 1400,
+      "height": 950,
+      "focus": true,
+      "n": 12,
+      "preF1": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1688.21875,
+          "leftClearance": 0,
+          "rightClearance": -372.21875
+        },
+        "rendered": {
+          "fit": false,
+          "font": "140px",
+          "width": 1688.21875,
+          "visible": false,
+          "leftClearance": 0,
+          "rightClearance": -372.21875
+        }
+      },
+      "preRestyle": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "innerWidth": 1316,
+          "widthTarget": 1184.4,
+          "heightTarget": 374.09999999999997,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1688.21875,
+          "leftClearance": 0,
+          "rightClearance": -372.21875
+        },
+        "rendered": {
+          "fit": true,
+          "font": "98px",
+          "width": 1181.75,
+          "visible": true,
+          "leftClearance": 67.125,
+          "rightClearance": 67.125
+        }
+      },
+      "candidate": {
+        "base": {
+          "font": "140px",
+          "fontFamily": "\"Trebuchet MS\", Verdana, sans-serif",
+          "innerWidth": 1312,
+          "widthTarget": 1180.8,
+          "heightTarget": 371.2,
+          "displayWidth": 820,
+          "displayHeight": 151.1875,
+          "textWidth": 1484.78125,
+          "leftClearance": 0,
+          "rightClearance": -172.78125
+        },
+        "rendered": {
+          "fit": true,
+          "font": "111px",
+          "width": 1177.234375,
+          "visible": true,
+          "leftClearance": 67.390625,
+          "rightClearance": 67.375
+        }
+      }
+    }
+  ],
+  "mismatches": [
+    [
+      1920,
+      false,
+      9
+    ],
+    [
+      1400,
+      true,
+      10
+    ]
+  ],
+  "clipped": []
+}
