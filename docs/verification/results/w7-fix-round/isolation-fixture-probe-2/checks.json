@@ -1,0 +1,150 @@
+{
+  "order": "before",
+  "chrome": "156.0.8078.81",
+  "passed": 34,
+  "failed": 1,
+  "skipped": 0,
+  "checks": [
+    {
+      "name": "W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark W7.13 reader heading, fullscreen icon and frame fit from 310 px",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark CSP, accessible heading and icon buttons",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark system theme, manual choice and resume fields",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark contrast and page width",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark F ignores editable controls and modifiers",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark three fullscreen entries and three exits",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark WPM readout, step and clamps",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark idle controls only while playing and keyboard reveal",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark fullscreen F1 geometry and playback",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark reload and unsupported or refused API fallback",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 dark offline, no uploads and no runtime errors",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light W4.6 privacy paragraph and W7.7 ruled copy are exact",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light W7.12 unfitted word sizes equal pre-restyle in normal and focus mode",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light W7.4 saves after both theme directions preserve the exact resume schema and values",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light W7.13 reader heading, fullscreen icon and frame fit from 310 px",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light W7.5 fullscreen refit is already stable and meets the floor-aware target",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light CSP, accessible heading and icon buttons",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light system theme, manual choice and resume fields",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light contrast and page width",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light F ignores editable controls and modifiers",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light three fullscreen entries and three exits",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light WPM readout, step and clamps",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light idle controls only while playing and keyboard reveal",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light fullscreen F1 geometry and playback",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light reload and unsupported or refused API fallback",
+      "passed": true
+    },
+    {
+      "name": "W7 1400 light offline, no uploads and no runtime errors",
+      "passed": true
+    },
+    {
+      "name": "W7 390 dark W4.6 privacy paragraph and W7.7 ruled copy are exact",
+      "passed": true
+    },
+    {
+      "name": "W7 390 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode",
+      "passed": true
+    },
+    {
+      "name": "W7 390 dark W7.4 saves after both theme directions preserve the exact resume schema and values",
+      "passed": true
+    },
+    {
+      "name": "W7 390 dark W7.13 reader heading, fullscreen icon and frame fit from 310 px",
+      "passed": true
+    },
+    {
+      "name": "W7 390 dark W7.5 fullscreen refit is already stable and meets the floor-aware target",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: fixture must require fullscreen fitting\n    at <home>\\Documents\\WordFlow\\tests\\reader-portal.cjs:205:9\n    at async <home>\\Documents\\WordFlow\\tests\\reader-portal.cjs:119:7\n    at async verify (<home>\\Documents\\WordFlow\\docs\\verification\\results\\w7-fix-round\\scripts\\isolation.cjs:7:217)\n    at async portalRegressionChecks (<home>\\Documents\\WordFlow\\tests\\reader-portal.cjs:192:7)\n    at async Object.portalChecks (<home>\\Documents\\WordFlow\\tests\\reader-portal.cjs:233:38)\n    at async <home>\\Documents\\WordFlow\\docs\\verification\\results\\w7-fix-round\\scripts\\isolation.cjs:7:35"
+    }
+  ]
+}

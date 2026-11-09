@@ -1,0 +1,1 @@
+{"suite":"static-regression","passed":223,"skipped":0,"vendorHashes":188}

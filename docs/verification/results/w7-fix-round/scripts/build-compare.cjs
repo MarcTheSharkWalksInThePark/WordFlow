@@ -1,0 +1,6 @@
+"use strict";
+const fs=require("node:fs"),path=require("node:path"),crypto=require("node:crypto"),assert=require("node:assert/strict");
+const root=process.cwd(),walk=(dir,prefix="")=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name),prefix+e.name+"/"):[{name:prefix+e.name,sha256:crypto.createHash("sha256").update(fs.readFileSync(path.join(dir,e.name))).digest("hex")}]).sort((a,b)=>a.name.localeCompare(b.name));
+const before=JSON.parse(fs.readFileSync(path.join(root,"docs/verification/results/w7-restyle/verification/build.json"))).before,after=walk(path.join(root,"dist"));
+assert.equal(after.length,199);assert.deepEqual(after.map(r=>r.name).sort(),before.map(r=>r.name).sort());const hashes=Object.fromEntries(before.map(r=>[r.name,r.sha256]));const changed=after.filter(r=>hashes[r.name]!==r.sha256).map(r=>r.name).sort();assert.deepEqual(changed,["app.js","assets/wordflow-mark.svg","index.html","styles.css"]);
+const result={baseline:"2a376445ceb1b98a1b4c943cf8834e77e0578120",baselineManifest:"docs/verification/results/w7-restyle/verification/build.json:before (previously verified fresh baseline build)",count:after.length,same199Names:true,changed,after};fs.writeFileSync(path.join(__dirname,"../build.json"),JSON.stringify(result,null,2)+"\n");console.log(JSON.stringify({count:after.length,sameNames:true,changed}));

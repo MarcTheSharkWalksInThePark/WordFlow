@@ -1,0 +1,30 @@
+Error: W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact: Expected values to be strictly equal:
++ actual - expected
+
++ 'Press Space to play or pause. Use the arrow keys to step one word. Press F for full screen.'
+- 'Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.'
+
+    at verify (<clone>\tools\static_smoke.cjs:33:97)
+    at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:124:7)
+    at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+    at async <clone>\tools\static_smoke.cjs:39:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Press Space to play or pause. Use the arrow keys to step one word. Press F for full screen.'
+  - 'Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.'
+  
+      at <clone>\tests\reader-portal.cjs:127:16
+      at async <clone>\tests\reader-portal.cjs:119:7
+      at async verify (<clone>\tools\static_smoke.cjs:33:38)
+      at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:124:7)
+      at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+      at async <clone>\tools\static_smoke.cjs:39:4 {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Press Space to play or pause. Use the arrow keys to step one word. Press F for full screen.',
+    expected: 'Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+}

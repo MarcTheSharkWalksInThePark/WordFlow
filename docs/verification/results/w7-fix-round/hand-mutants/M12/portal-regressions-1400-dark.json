@@ -1,0 +1,8 @@
+{
+  "viewport": {
+    "width": 1400,
+    "height": 950
+  },
+  "colorScheme": "dark",
+  "isolation": "fresh browser context and page for each check"
+}

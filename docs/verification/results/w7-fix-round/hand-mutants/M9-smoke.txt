@@ -1,0 +1,172 @@
+Error: W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target: fullscreenchange left a stale fit
++ actual - expected
+... Skipped lines
+
+  {
+    area: {
++     clientHeight: 59,
++     clientWidth: 820,
++     scrollHeight: 60,
+-     clientHeight: 26,
+-     clientWidth: 537,
+-     scrollHeight: 26,
+      scrollTop: 0,
++     scrollWidth: 1025
+-     scrollWidth: 537
+    },
+    bounds: [
+      {
+        bottom: 255.765625,
+        top: 222.765625
+...
+    classes: 'word-display fitted-long-word',
++   contentWidth: 1230.875,
+-   contentWidth: 537.125,
+    context: [
+      {
+        hidden: false,
+        rect: {
+          bottom: 253.8125,
+...
+    ],
++   font: '55px',
+-   font: '24px',
+    frame: {
+      bottom: 794.21875,
+      clientHeight: 726,
+      clientWidth: 1374,
+      height: 732.21875,
+...
+      innerRight: 1387,
++     left: 84.5625,
++     right: 1315.4375
+-     left: 431.4375,
+-     right: 968.5625
+    },
+    length: 45,
++   naturalHeight: 60,
+-   naturalHeight: 26,
+    note: {
+      hidden: true,
+      rect: {
+        bottom: 0,
+        height: 0,
+...
+    },
++   outerHTML: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 55px;"><span class="word-left">Pneu</span><span class="word-focus">m</span><span class="word-right">onoultramicroscopicsilicovolcanoconiosis</span></div>',
+-   outerHTML: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 24px;"><span class="word-left">Pneu</span><span class="word-focus">m</span><span class="word-right">onoultramicroscopicsilicovolcanoconiosis</span></div>',
+    playing: false,
+    scrolling: false,
+    threshold: 344.46875,
+    word: {
++     bottom: 457.796875,
++     height: 59.390625,
++     top: 398.40625,
++     width: 820,
++     x: 290,
++     y: 398.40625
+-     bottom: 441.0625,
+-     height: 25.90625,
+-     top: 415.15625,
+-     width: 537.125,
+-     x: 431.4375,
+-     y: 415.15625
+    },
+    wrapped: false
+  }
+
+    at verify (<clone>\tools\static_smoke.cjs:33:97)
+    at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:192:7)
+    at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+    at async <clone>\tools\static_smoke.cjs:39:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: fullscreenchange left a stale fit
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      area: {
+  +     clientHeight: 59,
+  +     clientWidth: 820,
+  +     scrollHeight: 60,
+  -     clientHeight: 26,
+  -     clientWidth: 537,
+  -     scrollHeight: 26,
+        scrollTop: 0,
+  +     scrollWidth: 1025
+  -     scrollWidth: 537
+      },
+      bounds: [
+        {
+          bottom: 255.765625,
+          top: 222.765625
+  ...
+      classes: 'word-display fitted-long-word',
+  +   contentWidth: 1230.875,
+  -   contentWidth: 537.125,
+      context: [
+        {
+          hidden: false,
+          rect: {
+            bottom: 253.8125,
+  ...
+      ],
+  +   font: '55px',
+  -   font: '24px',
+      frame: {
+        bottom: 794.21875,
+        clientHeight: 726,
+        clientWidth: 1374,
+        height: 732.21875,
+  ...
+        innerRight: 1387,
+  +     left: 84.5625,
+  +     right: 1315.4375
+  -     left: 431.4375,
+  -     right: 968.5625
+      },
+      length: 45,
+  +   naturalHeight: 60,
+  -   naturalHeight: 26,
+      note: {
+        hidden: true,
+        rect: {
+          bottom: 0,
+          height: 0,
+  ...
+      },
+  +   outerHTML: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 55px;"><span class="word-left">Pneu</span><span class="word-focus">m</span><span class="word-right">onoultramicroscopicsilicovolcanoconiosis</span></div>',
+  -   outerHTML: '<div id="word-display" class="word-display fitted-long-word" aria-live="off" style="font-size: 24px;"><span class="word-left">Pneu</span><span class="word-focus">m</span><span class="word-right">onoultramicroscopicsilicovolcanoconiosis</span></div>',
+      playing: false,
+      scrolling: false,
+      threshold: 344.46875,
+      word: {
+  +     bottom: 457.796875,
+  +     height: 59.390625,
+  +     top: 398.40625,
+  +     width: 820,
+  +     x: 290,
+  +     y: 398.40625
+  -     bottom: 441.0625,
+  -     height: 25.90625,
+  -     top: 415.15625,
+  -     width: 537.125,
+  -     x: 431.4375,
+  -     y: 415.15625
+      },
+      wrapped: false
+    }
+  
+      at <clone>\tests\reader-portal.cjs:209:16
+      at async <clone>\tests\reader-portal.cjs:119:7
+      at async verify (<clone>\tools\static_smoke.cjs:33:38)
+      at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:192:7)
+      at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+      at async <clone>\tools\static_smoke.cjs:39:4 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "source": "docs/verification/results/post-review",
+  "archive": [
+    {
+      "source": "browser-parity.json",
+      "file": "parity/browser-parity.json",
+      "uncompressedBytes": 13412,
+      "sha256": "72add7c4b44eb1f02c6352afa3db601244ea54068d0ae884bbe62fc62318f5ff",
+      "storedSha256": "72add7c4b44eb1f02c6352afa3db601244ea54068d0ae884bbe62fc62318f5ff"
+    },
+    {
+      "source": "static-smoke.json",
+      "file": "parity/static-smoke.json.gz",
+      "uncompressedBytes": 182423,
+      "sha256": "c06dd7455c4d6c50e2e20efba684adc160f94363026f4d201303fdf84d57591a",
+      "storedSha256": "65d233ac5d751ea3d2927f2cf149443aae1e4780878e58ab0fa67dafe83bd506"
+    },
+    {
+      "source": "reader-1400.json",
+      "file": "parity/reader-1400.json",
+      "uncompressedBytes": 27709,
+      "sha256": "6edb9f449819ccfdc7747d8d3962ecff3cb26bfeaf312c8b32d63ebf3eb51a30",
+      "storedSha256": "6edb9f449819ccfdc7747d8d3962ecff3cb26bfeaf312c8b32d63ebf3eb51a30"
+    },
+    {
+      "source": "reader-390.json",
+      "file": "parity/reader-390.json",
+      "uncompressedBytes": 28408,
+      "sha256": "e4757df0e1ab7cafe571b727d90404e1384272dbcaff6450ecdeb89991f1edfc",
+      "storedSha256": "e4757df0e1ab7cafe571b727d90404e1384272dbcaff6450ecdeb89991f1edfc"
+    },
+    {
+      "source": "reader-round2.json",
+      "file": "parity/reader-round2.json.gz",
+      "uncompressedBytes": 1196452,
+      "sha256": "535599205700ad6618253741aa9bbe7b7208a4924874ac0e54741aea56ec7878",
+      "storedSha256": "3e3f2c555efa34d05386ec3976b6dfc611b2ffe1b3c81b0edd31a5d8227c848d"
+    },
+    {
+      "source": "wide-controls.json",
+      "file": "parity/wide-controls.json.gz",
+      "uncompressedBytes": 1789031,
+      "sha256": "ad63ef00c77c6445b69bad5c74d737bdbdfaee3dda218b79c68b0b9cb92303fb",
+      "storedSha256": "d8e667e4ab985c6af5162f7b3f249fd2cdc887301b21d4daeda62ac3331e8e4b"
+    },
+    {
+      "source": "reader-finished.json",
+      "file": "parity/reader-finished.json.gz",
+      "uncompressedBytes": 5186102,
+      "sha256": "a1f2c73c3ae1bf0b9d40bf8b73236c0a104cfaa79ca85f38b87d247fe53781c4",
+      "storedSha256": "4d3a92a90e468e16f9b2705ea28a9c52429f676877d365a92fa467c155d9667b"
+    },
+    {
+      "source": "portal-1400-dark.json",
+      "file": "parity/portal-1400-dark.json",
+      "uncompressedBytes": 3913,
+      "sha256": "9a21933618b52adfcb299586ae0e6bc6863436b3eb92962b9525d7d462fd31f2",
+      "storedSha256": "9a21933618b52adfcb299586ae0e6bc6863436b3eb92962b9525d7d462fd31f2"
+    },
+    {
+      "source": "portal-1400-light.json",
+      "file": "parity/portal-1400-light.json",
+      "uncompressedBytes": 3932,
+      "sha256": "8d628cb92d88c516e6ed4f26d5b501fdfee7475d338e2f7b81efd0bada45ca56",
+      "storedSha256": "8d628cb92d88c516e6ed4f26d5b501fdfee7475d338e2f7b81efd0bada45ca56"
+    },
+    {
+      "source": "portal-390-dark.json",
+      "file": "parity/portal-390-dark.json",
+      "uncompressedBytes": 3927,
+      "sha256": "89cf9c5377d0a6ae3e6b350e58945f4c9b0776a25ed1be4e3e75207daeffca7a",
+      "storedSha256": "89cf9c5377d0a6ae3e6b350e58945f4c9b0776a25ed1be4e3e75207daeffca7a"
+    },
+    {
+      "source": "portal-390-light.json",
+      "file": "parity/portal-390-light.json",
+      "uncompressedBytes": 3950,
+      "sha256": "ce39426538fe404da9a662ce2efae18589741741217bbb8dffc39f0181976d3d",
+      "storedSha256": "ce39426538fe404da9a662ce2efae18589741741217bbb8dffc39f0181976d3d"
+    },
+    {
+      "source": "portal-regressions-1400-dark.json",
+      "file": "parity/portal-regressions-1400-dark.json",
+      "uncompressedBytes": 15715,
+      "sha256": "809f3ca3f6cc713bc5ce5c9959629e3da79720d97aa5852f548ea0d8e0dc81c7",
+      "storedSha256": "809f3ca3f6cc713bc5ce5c9959629e3da79720d97aa5852f548ea0d8e0dc81c7"
+    },
+    {
+      "source": "portal-regressions-1400-light.json",
+      "file": "parity/portal-regressions-1400-light.json",
+      "uncompressedBytes": 15714,
+      "sha256": "a4a69c581079669dc9dc9e30db0a0c727ffefce65a9850dff37283a41ca64ce8",
+      "storedSha256": "a4a69c581079669dc9dc9e30db0a0c727ffefce65a9850dff37283a41ca64ce8"
+    },
+    {
+      "source": "portal-regressions-390-dark.json",
+      "file": "parity/portal-regressions-390-dark.json",
+      "uncompressedBytes": 15722,
+      "sha256": "f3bef0d4752447e6d5dba84943f409324e897d5fd4fb7176c922ea7e0bf75fb8",
+      "storedSha256": "f3bef0d4752447e6d5dba84943f409324e897d5fd4fb7176c922ea7e0bf75fb8"
+    },
+    {
+      "source": "portal-regressions-390-light.json",
+      "file": "parity/portal-regressions-390-light.json",
+      "uncompressedBytes": 15779,
+      "sha256": "8a05a64ba5f9a7a914572b0ca7fcbbb7674480ce7c79db5dc5f1bbd2b2cbd41f",
+      "storedSha256": "8a05a64ba5f9a7a914572b0ca7fcbbb7674480ce7c79db5dc5f1bbd2b2cbd41f"
+    }
+  ],
+  "historicalRestored": [
+    "docs/verification/results/post-review/browser-parity.json",
+    "docs/verification/results/post-review/static-quota-1400.png",
+    "docs/verification/results/post-review/static-quota-390.png",
+    "docs/verification/results/post-review/static-reader-1400.png",
+    "docs/verification/results/post-review/static-reader-390.png",
+    "docs/verification/results/post-review/static-smoke.json",
+    "docs/verification/results/w7-restyle/screens/1400-dark-fullscreen-paused.png",
+    "docs/verification/results/w7-restyle/screens/1400-light-finished.png",
+    "docs/verification/results/w7-restyle/screens/1400-light-fullscreen-paused.png",
+    "docs/verification/results/w7-restyle/screens/1400-light-normal.png",
+    "docs/verification/results/w7-restyle/screens/390-light-normal.png"
+  ],
+  "generatedRemoved": [
+    "docs/verification/results/post-review/f1-scroll-1400.png",
+    "docs/verification/results/post-review/f1-scroll-390.png",
+    "docs/verification/results/post-review/finish-390-W2000-after.png",
+    "docs/verification/results/post-review/finish-390-W2000-before.png",
+    "docs/verification/results/post-review/finish-390-W2000-master.png",
+    "docs/verification/results/post-review/finish-390-kommunikasjon-after.png",
+    "docs/verification/results/post-review/finish-390-kommunikasjon-before.png",
+    "docs/verification/results/post-review/finish-390-kommunikasjon-master.png",
+    "docs/verification/results/post-review/finish-390-understanding-after.png",
+    "docs/verification/results/post-review/finish-390-understanding-before.png",
+    "docs/verification/results/post-review/finish-390-understanding-master.png",
+    "docs/verification/results/post-review/finished-0/finish-390-W2000-after.png",
+    "docs/verification/results/post-review/finished-0/finish-390-W2000-before.png",
+    "docs/verification/results/post-review/finished-0/finish-390-W2000-master.png",
+    "docs/verification/results/post-review/finished-0/finish-390-kommunikasjon-after.png",
+    "docs/verification/results/post-review/finished-0/finish-390-kommunikasjon-before.png",
+    "docs/verification/results/post-review/finished-0/finish-390-kommunikasjon-master.png",
+    "docs/verification/results/post-review/finished-0/finish-390-understanding-after.png",
+    "docs/verification/results/post-review/finished-0/finish-390-understanding-before.png",
+    "docs/verification/results/post-review/finished-0/finish-390-understanding-master.png",
+    "docs/verification/results/post-review/finished-0/reader-finished.json",
+    "docs/verification/results/post-review/finished-1/reader-finished.json",
+    "docs/verification/results/post-review/finished-2/reader-finished.json",
+    "docs/verification/results/post-review/finished-3/reader-finished.json",
+    "docs/verification/results/post-review/portal-1400-dark.json",
+    "docs/verification/results/post-review/portal-1400-light.json",
+    "docs/verification/results/post-review/portal-390-dark.json",
+    "docs/verification/results/post-review/portal-390-light.json",
+    "docs/verification/results/post-review/portal-regressions-1400-dark.json",
+    "docs/verification/results/post-review/portal-regressions-1400-light.json",
+    "docs/verification/results/post-review/portal-regressions-390-dark.json",
+    "docs/verification/results/post-review/portal-regressions-390-light.json",
+    "docs/verification/results/post-review/reader-1400.json",
+    "docs/verification/results/post-review/reader-390.json",
+    "docs/verification/results/post-review/reader-finished.json",
+    "docs/verification/results/post-review/reader-round2.json",
+    "docs/verification/results/post-review/round2-normal-1920.png",
+    "docs/verification/results/post-review/round2-normal-390.png",
+    "docs/verification/results/post-review/round2-phone-scroll.png",
+    "docs/verification/results/post-review/wide-controls.json"
+  ],
+  "omittedIntermediates": "finished-0..3 batch files are represented in the final combined reader-finished.json"
+}

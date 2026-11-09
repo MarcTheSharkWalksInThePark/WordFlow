@@ -1,0 +1,26 @@
+Error: W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode: {"width":1400,"focus":false,"size":"large","fonts":["128px","120px"]}
+
+'120px' !== '128px'
+
+    at verify (<clone>\tools\static_smoke.cjs:33:97)
+    at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:131:7)
+    at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+    at async <clone>\tools\static_smoke.cjs:39:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: {"width":1400,"focus":false,"size":"large","fonts":["128px","120px"]}
+  
+  '120px' !== '128px'
+  
+      at <clone>\tests\reader-portal.cjs:147:20
+      at async <clone>\tests\reader-portal.cjs:119:7
+      at async verify (<clone>\tools\static_smoke.cjs:33:38)
+      at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:131:7)
+      at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+      at async <clone>\tools\static_smoke.cjs:39:4 {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '120px',
+    expected: '128px',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "viewport": {
+    "width": 1400,
+    "height": 950
+  },
+  "colorScheme": "dark",
+  "isolation": "fresh browser context and page for each check",
+  "baseSizes": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "large",
+      "baseline": "128px",
+      "candidate": "128px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "comfortable",
+      "baseline": "108.8px",
+      "candidate": "108.8px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "compact",
+      "baseline": "83.2px",
+      "candidate": "83.2px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "large",
+      "baseline": "140px",
+      "candidate": "140px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "comfortable",
+      "baseline": "140px",
+      "candidate": "140px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "compact",
+      "baseline": "140px",
+      "candidate": "140px"
+    }
+  ],
+  "themeSaves": [
+    {
+      "direction": 1,
+      "action": "stepper",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 2,
+        "wpm": 325,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284371
+      }
+    },
+    {
+      "direction": 1,
+      "action": "seek",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 4,
+        "wpm": 325,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284382
+      }
+    },
+    {
+      "direction": 1,
+      "action": "word step",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 5,
+        "wpm": 325,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284390
+      }
+    },
+    {
+      "direction": 2,
+      "action": "stepper",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 5,
+        "wpm": 350,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284407
+      }
+    },
+    {
+      "direction": 2,
+      "action": "seek",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 4,
+        "wpm": 350,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284412
+      }
+    },
+    {
+      "direction": 2,
+      "action": "word step",
+      "storageKeys": [
+        "wordflow-reader-session-v1"
+      ],
+      "record": {
+        "title": "Sample reading text",
+        "text": "A focused reading rhythm can make dense text feel lighter. Load an article, set a pace that feels steady, and let each word arrive with enough room to land. Good speed reading is not a race against comprehension; it is a clean path for attention.",
+        "index": 5,
+        "wpm": 350,
+        "sentencePause": true,
+        "commaPause": true,
+        "paragraphPause": true,
+        "smartPacing": true,
+        "focusLetter": true,
+        "contextWords": true,
+        "focusMode": false,
+        "wordSize": "comfortable",
+        "savedAt": 1794234284420
+      }
+    }
+  ],
+  "narrowWidths": [
+    {
+      "focus": false,
+      "width": 310,
+      "scrollWidth": 310,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 297,
+          "width": 284
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 244,
+          "right": 288,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 285,
+          "width": 260
+        }
+      ]
+    },
+    {
+      "focus": true,
+      "width": 310,
+      "scrollWidth": 310,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 297,
+          "width": 284
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 244,
+          "right": 288,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 285,
+          "width": 260
+        }
+      ]
+    },
+    {
+      "focus": false,
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 307,
+          "width": 294
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 254,
+          "right": 298,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 295,
+          "width": 270
+        }
+      ]
+    },
+    {
+      "focus": true,
+      "width": 320,
+      "scrollWidth": 320,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 307,
+          "width": 294
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 254,
+          "right": 298,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 295,
+          "width": 270
+        }
+      ]
+    },
+    {
+      "focus": false,
+      "width": 340,
+      "scrollWidth": 340,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 327,
+          "width": 314
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 274,
+          "right": 318,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 315,
+          "width": 290
+        }
+      ]
+    },
+    {
+      "focus": true,
+      "width": 340,
+      "scrollWidth": 340,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 327,
+          "width": 314
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 274,
+          "right": 318,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 315,
+          "width": 290
+        }
+      ]
+    },
+    {
+      "focus": false,
+      "width": 360,
+      "scrollWidth": 360,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 347,
+          "width": 334
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 294,
+          "right": 338,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 335,
+          "width": 310
+        }
+      ]
+    },
+    {
+      "focus": true,
+      "width": 360,
+      "scrollWidth": 360,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 347,
+          "width": 334
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 294,
+          "right": 338,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 335,
+          "width": 310
+        }
+      ]
+    },
+    {
+      "focus": false,
+      "width": 375,
+      "scrollWidth": 375,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 362,
+          "width": 349
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 309,
+          "right": 353,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 350,
+          "width": 325
+        }
+      ]
+    },
+    {
+      "focus": true,
+      "width": 375,
+      "scrollWidth": 375,
+      "elements": [
+        {
+          "selector": ".reader-heading",
+          "left": 13,
+          "right": 362,
+          "width": 349
+        },
+        {
+          "selector": "#reader-fullscreen",
+          "left": 309,
+          "right": 353,
+          "width": 44
+        },
+        {
+          "selector": ".reader-frame",
+          "left": 25,
+          "right": 350,
+          "width": 325
+        }
+      ]
+    }
+  ],
+  "fullscreenRefit": {
+    "before": {
+      "word": {
+        "x": 290,
+        "y": 398.40625,
+        "width": 820,
+        "height": 59.390625,
+        "top": 398.40625,
+        "bottom": 457.796875
+      },
+      "frame": {
+        "x": 10,
+        "y": 62,
+        "width": 1380,
+        "height": 732.21875,
+        "top": 62,
+        "bottom": 794.21875,
+        "clientWidth": 1374,
+        "scrollWidth": 1374,
+        "clientHeight": 726,
+        "scrollHeight": 726
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1025,
+        "clientHeight": 59,
+        "scrollHeight": 60,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 664.7734375,
+            "y": 224.765625,
+            "width": 70.453125,
+            "height": 29.046875,
+            "top": 224.765625,
+            "bottom": 253.8125
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 673.15625,
+            "y": 602.40625,
+            "width": 53.6875,
+            "height": 29.046875,
+            "top": 602.40625,
+            "bottom": 631.453125
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 222.765625,
+          "bottom": 255.765625
+        },
+        {
+          "top": 600.40625,
+          "bottom": 633.40625
+        }
+      ],
+      "threshold": 344.46875,
+      "naturalHeight": 60,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "55px",
+      "classes": "word-display fitted-long-word",
+      "length": 45,
+      "contentWidth": 1230.875,
+      "ink": {
+        "left": 84.5625,
+        "right": 1315.4375,
+        "innerLeft": 13,
+        "innerRight": 1387,
+        "fullyVisible": true
+      },
+      "outerHTML": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 55px;\"><span class=\"word-left\">Pneu</span><span class=\"word-focus\">m</span><span class=\"word-right\">onoultramicroscopicsilicovolcanoconiosis</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "after": {
+      "word": {
+        "x": 290,
+        "y": 398.40625,
+        "width": 820,
+        "height": 59.390625,
+        "top": 398.40625,
+        "bottom": 457.796875
+      },
+      "frame": {
+        "x": 10,
+        "y": 62,
+        "width": 1380,
+        "height": 732.21875,
+        "top": 62,
+        "bottom": 794.21875,
+        "clientWidth": 1374,
+        "scrollWidth": 1374,
+        "clientHeight": 726,
+        "scrollHeight": 726
+      },
+      "area": {
+        "clientWidth": 820,
+        "scrollWidth": 1025,
+        "clientHeight": 59,
+        "scrollHeight": 60,
+        "scrollTop": 0
+      },
+      "context": [
+        {
+          "hidden": false,
+          "rect": {
+            "x": 664.7734375,
+            "y": 224.765625,
+            "width": 70.453125,
+            "height": 29.046875,
+            "top": 224.765625,
+            "bottom": 253.8125
+          }
+        },
+        {
+          "hidden": false,
+          "rect": {
+            "x": 673.15625,
+            "y": 602.40625,
+            "width": 53.6875,
+            "height": 29.046875,
+            "top": 602.40625,
+            "bottom": 631.453125
+          }
+        }
+      ],
+      "note": {
+        "hidden": true,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      },
+      "bounds": [
+        {
+          "top": 222.765625,
+          "bottom": 255.765625
+        },
+        {
+          "top": 600.40625,
+          "bottom": 633.40625
+        }
+      ],
+      "threshold": 344.46875,
+      "naturalHeight": 60,
+      "scrolling": false,
+      "wrapped": false,
+      "font": "55px",
+      "classes": "word-display fitted-long-word",
+      "length": 45,
+      "contentWidth": 1230.875,
+      "ink": {
+        "left": 84.5625,
+        "right": 1315.4375,
+        "innerLeft": 13,
+        "innerRight": 1387,
+        "fullyVisible": true
+      },
+      "outerHTML": "<div id=\"word-display\" class=\"word-display fitted-long-word\" aria-live=\"off\" style=\"font-size: 55px;\"><span class=\"word-left\">Pneu</span><span class=\"word-focus\">m</span><span class=\"word-right\">onoultramicroscopicsilicovolcanoconiosis</span></div>",
+      "playing": false,
+      "index": 1
+    },
+    "widths": {
+      "unfitted": 3895.828125,
+      "floor": 223.8125
+    }
+  }
+}

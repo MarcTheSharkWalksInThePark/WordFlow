@@ -1,0 +1,71 @@
+{
+  "viewport": {
+    "width": 1400,
+    "height": 950
+  },
+  "colorScheme": "dark",
+  "isolation": "fresh browser context and page for each check",
+  "baseSizes": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "large",
+      "baseline": "128px",
+      "candidate": "128px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "comfortable",
+      "baseline": "108.8px",
+      "candidate": "108.8px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": false,
+      "size": "compact",
+      "baseline": "83.2px",
+      "candidate": "83.2px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "large",
+      "baseline": "140px",
+      "candidate": "140px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "comfortable",
+      "baseline": "140px",
+      "candidate": "140px"
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "focus": true,
+      "size": "compact",
+      "baseline": "140px",
+      "candidate": "140px"
+    }
+  ],
+  "themeSaves": []
+}

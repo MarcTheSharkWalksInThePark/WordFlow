@@ -1,0 +1,52 @@
+Error: W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  [
+    'commaPause',
+    'contextWords',
+    'focusLetter',
+    'focusMode',
+...
+    'text',
++   'theme',
+    'title',
+    'wordSize',
+    'wpm'
+  ]
+
+    at verify (<clone>\tools\static_smoke.cjs:33:97)
+    at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:154:7)
+    at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+    at async <clone>\tools\static_smoke.cjs:39:4 {
+  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    [
+      'commaPause',
+      'contextWords',
+      'focusLetter',
+      'focusMode',
+  ...
+      'text',
+  +   'theme',
+      'title',
+      'wordSize',
+      'wpm'
+    ]
+  
+      at <clone>\tests\reader-portal.cjs:169:20
+      at async <clone>\tests\reader-portal.cjs:119:7
+      at async verify (<clone>\tools\static_smoke.cjs:33:38)
+      at async portalRegressionChecks (<clone>\tests\reader-portal.cjs:154:7)
+      at async Object.portalChecks (<clone>\tests\reader-portal.cjs:233:38)
+      at async <clone>\tools\static_smoke.cjs:39:4 {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "head": "2bdfdae3d8048d6586a0d8a512adddd2fd32b670",
+  "clone": "<scratch>/clone",
+  "reviewSource": "docs/verification/results/w7-cc-review/mutants/",
+  "requested": [
+    "M2b",
+    "M9",
+    "M10",
+    "M12",
+    "M14"
+  ],
+  "rows": [
+    {
+      "id": "M2b",
+      "description": "theme in saveSession payload (only after a manual toggle)",
+      "file": "app.js",
+      "sourceFile": "m4.json",
+      "transform": [
+        [
+          "      wordSize: state.wordSize,\n",
+          "      wordSize: state.wordSize,\n      theme: document.documentElement.dataset.theme,\n"
+        ]
+      ],
+      "beforeSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "reviewerBeforeSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "node": [
+        {
+          "label": "static",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 433,
+          "diagnostics": []
+        },
+        {
+          "label": "proxy",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 138,
+          "diagnostics": []
+        },
+        {
+          "label": "exposure",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 1669,
+          "diagnostics": []
+        },
+        {
+          "label": "post-review",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 7628,
+          "diagnostics": []
+        }
+      ],
+      "mutatedSha256": "24804ec36fae91f316f6406f8c8862f74646c5eaaf938ea3dddc9c1e1381a300",
+      "smoke": {
+        "label": "smoke",
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "ms": 4330,
+        "diagnostics": [
+          "Error: W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values: Expected values to be strictly deep-equal:",
+          "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:"
+        ]
+      },
+      "caughtBy": "Chrome smoke",
+      "diagnostics": [
+        "Error: W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values: Expected values to be strictly deep-equal:",
+        "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:"
+      ],
+      "verdict": "KILLED",
+      "restoredSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "restoredOk": true
+    },
+    {
+      "id": "M9",
+      "description": "fullscreenchange no longer re-fits",
+      "file": "app.js",
+      "sourceFile": "m2.json",
+      "transform": [
+        [
+          "  syncFullscreenControls();\n  fitDisplayedWord();\n}",
+          "  syncFullscreenControls();\n}"
+        ]
+      ],
+      "beforeSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "reviewerBeforeSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "node": [
+        {
+          "label": "static",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 469,
+          "diagnostics": []
+        },
+        {
+          "label": "proxy",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 140,
+          "diagnostics": []
+        },
+        {
+          "label": "exposure",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 1703,
+          "diagnostics": []
+        },
+        {
+          "label": "post-review",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 7765,
+          "diagnostics": []
+        }
+      ],
+      "mutatedSha256": "542fb609b3478a85e5c6e06afb2ad1cba4b6ac09004025cd2dc19a3af76cb91a",
+      "smoke": {
+        "label": "smoke",
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "ms": 5823,
+        "diagnostics": [
+          "Error: W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target: fullscreenchange left a stale fit",
+          "  [cause]: AssertionError [ERR_ASSERTION]: fullscreenchange left a stale fit"
+        ]
+      },
+      "caughtBy": "Chrome smoke",
+      "diagnostics": [
+        "Error: W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target: fullscreenchange left a stale fit",
+        "  [cause]: AssertionError [ERR_ASSERTION]: fullscreenchange left a stale fit"
+      ],
+      "verdict": "KILLED",
+      "restoredSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "restoredOk": true
+    },
+    {
+      "id": "M10",
+      "description": "one word of the privacy note changed",
+      "file": "index.html",
+      "sourceFile": "m3.json",
+      "transform": [
+        [
+          "never uploaded. Links you load",
+          "never shared. Links you load"
+        ]
+      ],
+      "beforeSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "reviewerBeforeSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "node": [
+        {
+          "label": "static",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 423,
+          "diagnostics": []
+        },
+        {
+          "label": "proxy",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 136,
+          "diagnostics": []
+        },
+        {
+          "label": "exposure",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 1679,
+          "diagnostics": []
+        },
+        {
+          "label": "post-review",
+          "status": 1,
+          "signal": null,
+          "error": null,
+          "ms": 49,
+          "diagnostics": [
+            "FAIL W4.6 whole approved privacy paragraph is exact",
+            "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+          ]
+        }
+      ],
+      "mutatedSha256": "3decf10e8b53a0fef07694e92ce00377de11c6a5e2bd6abea6803668e3daf062",
+      "caughtBy": "Node post-review",
+      "diagnostics": [
+        "FAIL W4.6 whole approved privacy paragraph is exact",
+        "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+      ],
+      "verdict": "KILLED",
+      "restoredSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "restoredOk": true
+    },
+    {
+      "id": "M12",
+      "description": "ticker text changed",
+      "file": "index.html",
+      "sourceFile": "m3.json",
+      "transform": [
+        [
+          "Press F for fullscreen.</span>",
+          "Press F for full screen.</span>"
+        ]
+      ],
+      "beforeSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "reviewerBeforeSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "node": [
+        {
+          "label": "static",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 477,
+          "diagnostics": []
+        },
+        {
+          "label": "proxy",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 139,
+          "diagnostics": []
+        },
+        {
+          "label": "exposure",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 1681,
+          "diagnostics": []
+        },
+        {
+          "label": "post-review",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 7855,
+          "diagnostics": []
+        }
+      ],
+      "mutatedSha256": "698186295b6bbb5d4cebc1a26bf4d95018c14a70037001af5e4df1e46f073d23",
+      "smoke": {
+        "label": "smoke",
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "ms": 1951,
+        "diagnostics": [
+          "Error: W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact: Expected values to be strictly equal:",
+          "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+        ]
+      },
+      "caughtBy": "Chrome smoke",
+      "diagnostics": [
+        "Error: W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact: Expected values to be strictly equal:",
+        "  [cause]: AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:"
+      ],
+      "verdict": "KILLED",
+      "restoredSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "restoredOk": true
+    },
+    {
+      "id": "M14",
+      "description": "Large word size 128px -> 120px",
+      "file": "styles.css",
+      "sourceFile": "m4.json",
+      "transform": [
+        [
+          ".word-display.large {\n  font-size: clamp(4rem, 10vw, 8rem);",
+          ".word-display.large {\n  font-size: clamp(4rem, 10vw, 7.5rem);"
+        ]
+      ],
+      "beforeSha256": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+      "reviewerBeforeSha256": "dc0c917e099095735504312c4c914bd601b88851d8fa17fef197362890a5ecd4",
+      "node": [
+        {
+          "label": "static",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 515,
+          "diagnostics": []
+        },
+        {
+          "label": "proxy",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 140,
+          "diagnostics": []
+        },
+        {
+          "label": "exposure",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 1716,
+          "diagnostics": []
+        },
+        {
+          "label": "post-review",
+          "status": 0,
+          "signal": null,
+          "error": null,
+          "ms": 7520,
+          "diagnostics": []
+        }
+      ],
+      "mutatedSha256": "a337e82bed34768d312b03a47fa5568625ac9edccde506b1debeb057fedc23a3",
+      "smoke": {
+        "label": "smoke",
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "ms": 3386,
+        "diagnostics": [
+          "Error: W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode: {\"width\":1400,\"focus\":false,\"size\":\"large\",\"fonts\":[\"128px\",\"120px\"]}",
+          "  [cause]: AssertionError [ERR_ASSERTION]: {\"width\":1400,\"focus\":false,\"size\":\"large\",\"fonts\":[\"128px\",\"120px\"]}"
+        ]
+      },
+      "caughtBy": "Chrome smoke",
+      "diagnostics": [
+        "Error: W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode: {\"width\":1400,\"focus\":false,\"size\":\"large\",\"fonts\":[\"128px\",\"120px\"]}",
+        "  [cause]: AssertionError [ERR_ASSERTION]: {\"width\":1400,\"focus\":false,\"size\":\"large\",\"fonts\":[\"128px\",\"120px\"]}"
+      ],
+      "verdict": "KILLED",
+      "restoredSha256": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+      "restoredOk": true
+    }
+  ],
+  "otherTwelve": "not rerun, per Marcus 2026-11-09 resumption authorization",
+  "sourceStatus": ""
+}

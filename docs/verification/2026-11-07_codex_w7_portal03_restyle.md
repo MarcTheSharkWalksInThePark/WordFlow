@@ -506,3 +506,62 @@ No hand mutant was rerun before STOP. These ids are the reviewer's ids, distinct
 `npm test`, full `npm run parity`, stamp regeneration, the 78 registered mutations, build/199-name comparison and all 17 hand mutants were **not run** in this fix round. The existing production stamp is unchanged and now stale because styles.css changed. Light/phone execution of the draft Portal checks, a completed Portal run and mutant kills remain unverified. The narrow-width and W7.12 measurement probes completed independently before the behaviour STOP. No merge, push, deploy, install, live check or independent CC delta review occurred.
 
 Next requires Marcus's authorization to resume after STOP: apply the archived draft; isolate/restore the F-3 fixture before the existing idle check without changing assertions; finish the required verification and commit sequence; then a short independent CC delta check. Marcus decides any merge/push. Existing cross-browser, physical Escape/touch, zoom, screen-reader and Cloudflare runtime limitations remain. Daily vault note is absent and was not created.
+
+
+### Resumption authorized and qualification completed — 2026-11-09
+
+Marcus authorized a test-only isolation repair and amended the hand-mutant rerun to **only M2b, M9, M10, M12 and M14**; the other twelve were not rerun. The authorization was recorded verbatim before code in `cc12daa`. Test commit `2bdfdae` adds the five finding guards and the narrow-width guard. The product remains CSS fix `38583df`: no product code changed during resumption. The earlier STOP entry above is retained as history and superseded by this completed qualification.
+
+Each new browser group now owns a fresh browser context/page, loads its own sample, and closes that context in `finally`. Baseline comparison has its own context too. The existing suite uses its original independent context, fixtures, timers and assertions. The test runner accepts `newChecksOrder` only to choose before/after. Removing the added helper/calls/import/signature reconstructs the previous Portal suite byte-for-byte; removing the one new Node privacy check reconstructs the previous post-review suite byte-for-byte. [Source audit](results/w7-fix-round/existing-code-audit.json).
+
+Two initial runs of the new phone fixture guard failed ("reading" and "readings" did not exceed the full inner width used by that guard). These were failures of the newly added guard, with no existing assertion failure. The final fixture is the existing real 45-character word at both viewports; its unfitted fullscreen width exceeds the frame, it is fitted above the floor, and explicit re-fitting changes nothing. The guard and all existing assertions remain unchanged; the guard message gained diagnostic measurements. Exploratory results are retained under `isolation-fixture-probe/` and `isolation-fixture-probe-2/`. A one-character slicing error in the evidence source-audit script was corrected before its passing audit; no source-test assertion was changed.
+
+#### Isolation proof and completed runs
+
+| Check | Result |
+| --- | --- |
+| New groups before all existing Portal groups, per viewport/theme | **60 passed, 0 failed, 0 skipped** |
+| New groups after all existing Portal groups, per viewport/theme | **60 passed, 0 failed, 0 skipped** |
+| Node `npm test` | **515 passed, 0 skips**: 223 static + 169 proxy + 32 exposure + 91 post-review |
+| Extraction `npm run parity` | **9 DOCX, 7 PDF, 0 skips**, zero DOCX mismatches; two expected PDF golden differences |
+| Complete Chrome smoke | **944 passed, 0 skips**, zero app errors, blocked origins or uploads |
+| Finished matrix | **288 direct + 288 natural**, 108 restoration actions |
+| Registered mutations | **78 = 77 KILLED + equivalent registry M9**, zero unexpected/errors |
+| Build | **199 identical filenames** against the previously verified 2a37644 manifest; exactly the same four W7 frontend assets differ |
+| Generated stamp | **225 inputs match committed blobs**; only styles.css changed relative to feab295's stamp |
+
+Chrome **156.0.8078.81**, Playwright **1.62.1**. Browser plugin not available; the existing installed Chrome/Playwright workflow was used. All **924 previous smoke check names remain**, with twenty new groups (five per viewport/theme). [Before-order proof](results/w7-fix-round/isolation-before/checks.json), [after-order proof](results/w7-fix-round/isolation-after/checks.json), [Node log](results/w7-fix-round/node.txt), [parity log](results/w7-fix-round/parity.txt), [summary](results/w7-fix-round/summary.json), [build manifest](results/w7-fix-round/build.json). The fresh current build was compared with the already verified historical baseline manifest; a second baseline build was not repeated in this resumption.
+
+Registered mutation definitions, verdicts and before/mutated/restored SHA-256 values equal the earlier W7 run for all 78 rows. The surviving **registered M9** remains the proved equivalent dot-prefix mutation; it is unrelated to the reviewer's **hand M9** below. [Full registry result](results/w7-fix-round/mutations.json).
+
+#### Five review findings guarded
+
+- **F-5 / W7.4:** both theme directions, followed each time by a real WPM-stepper click, slider seek and word-step click. Every save has exactly the existing 13 keys; every value equals the pre-toggle record except the explicitly changed WPM/index and a numeric monotonic savedAt. No theme-derived field is permitted. Four theme/viewport combinations produce 24 inspected saves per run.
+- **F-2 / W7.12:** short unfitted "Hi", all three sizes, normal and focus modes, at 390x844 and 1400x950 in both themes. Same-run routing serves 2a37644 index.html/app.js/styles.css; all 24 computed-font comparisons match exactly and each control is confirmed unfitted.
+- **F-3 / W7.5:** the real 45-character word requires fitting after native fullscreen entry at both specified viewports/themes; an explicit fitDisplayedWord() leaves the complete measured state/layout unchanged. Strict 90% above the floor, the floor-aware rules, full containment and the existing token-layout checks apply.
+- **F-4 / W4.6:** the entire approved privacy paragraph equals the literal approved text, character for character, in Node and DOM.
+- **F-6 / W7.7:** exact ticker TIP/text, all three badge text pairs and tagline.
+
+The unchanged 20-row overflow table and 28-row W7.12 table above were measured after CSS fix 38583df; no product file changed afterward. Minimum context clearance remains 24.578125 px and the minimum frame ratio remains 94.53666782246879%. The persistent narrow-width checks also pass both orders and parity, including all heading/icon/frame edges. The original 8 px, 95% and 90% gates remain intact.
+
+#### Reviewer's five surviving hand mutants — rerun
+
+A fresh local clone of test commit 2bdfdae was used. The runner reads the exact transforms directly from the reviewer's `docs/verification/results/w7-cc-review/mutants/*.json`, requires a unique anchor, runs the Node suites followed by complete Chrome smoke if Node is green, and restores the original source bytes in `finally`. Every kill is by the intended new guard; all five before/mutated/restored hashes are recorded. The restored clone is clean.
+
+| Hand mutant | Verdict | New guard that kills it | Restored SHA-256 equals before |
+| --- | --- | --- | --- |
+| M2b | **KILLED** | F-5 exact resume fields after a theme-toggle save | yes |
+| M9 | **KILLED** | F-3 fullscreen refit idempotence | yes |
+| M10 | **KILLED** | F-4 whole approved privacy paragraph (Node) | yes |
+| M12 | **KILLED** | F-6 exact ticker text (DOM) | yes |
+| M14 | **KILLED** | F-2 unfitted base-font equality | yes |
+
+The other twelve (M1, M2a, M3–M8, M11, M13, M15, M16) were **not rerun**, as Marcus instructed; their prior CC verdicts remain historical. [Exact transforms, hashes and failures](results/w7-fix-round/hand-mutants/verdicts.json). Hand-mutant source restores were verified and did not affect the canonical tree.
+
+#### Evidence, scope and next step
+
+Large final parity traces are gzip-compressed once and decompression-verified byte-for-byte; the final combined Finished trace includes the intermediate batch data. The 24 current Portal screenshots are retained under `results/w7-fix-round/screens/`. All tracked historical screenshots/evidence rewritten by parity were restored after archiving; generated intermediate JSON/PNG files were removed individually from the fixed parity output directory. [Archive hashes and restoration inventory](results/w7-fix-round/parity-archive.json). The production stamp was generated only by the successful `npm run parity`, and will be committed with this evidence/report.
+
+No existing assertion, timeout or fixture changed; no new served file, CSP, dependency, gate, R59, proxy, Function or allowlist change occurred. Source code changes during resumption are confined to tests/reader-portal.cjs and tests/post-review.test.cjs. No merge, push, deploy, install or live smoke occurred.
+
+**Ready for the short independent CC delta check.** Marcus decides merge/push after that check; use tools/push.sh and run smoke:live after deployment. The CC delta check itself has not been performed by the builder. Physical Escape, other browsers/real iOS, physical touch, zoom, device-pixel ratios, forced colours, screen readers and the pre-existing Cloudflare runtime limitations remain unverified. The dated daily vault note is absent and was not created.
