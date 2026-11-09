@@ -267,3 +267,5 @@ Authorized (Marcus, 2026-11-09). The STOP is a test-isolation defect in your dra
 2. Prove isolation: run the targeted Portal suite with the new checks both before and after the existing ones (if the runner allows ordering), all passing.
 3. Then continue the round exactly as specified: the five new checks, full npm test, parity with a regenerated stamp, mutations (78 = 77 KILLED + M9), build (199 filenames), and re-run only the five surviving hand mutants M2b, M9, M10, M12 and M14 — each must be KILLED. The other 12 are not re-run.
 4. Report as before. Any failure of an existing assertion after this fix is a STOP again.
+
+W7.14 Merge and push (Marcus, 2026-11-09, relayed by the claude.ai orchestrator). Independent CC review CLEAR WITH FINDINGS (feab295), findings dispositioned in W7.13; CC delta check CLEAR with no findings (0cedf19). Marcus authorizes fast-forward merge of feat/w7-portal03-restyle into master, push through tools/push.sh, and Cloudflare deployment from master.
