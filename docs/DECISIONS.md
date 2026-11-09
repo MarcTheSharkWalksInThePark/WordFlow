@@ -251,3 +251,10 @@ Approved, as a W7.8 visual re-baseline. Conditions: (1) the 90% target still app
 Marcus's floor-aware clarification on 2026-11-08:
 
 Approved. Floor-aware check: (a) strict <= 90% wherever the fitted font is above the 10px floor; (b) at the 10px floor, require font exactly 10px, wrap only when the 10px text exceeds the frame's inner width (the existing checkFloor rule), and full containment; (c) a tolerance of at most 1/64 CSS px (0.015625) only for the wrapped-box range overhang, nowhere else. Cross-check: run the same 80 tokens on 2a376445ceb1b98a1b4c943cf8834e77e0578120 (pre-restyle F1 code) and confirm they also land at the 10px floor there, i.e. app behaviour is unchanged and only the test's gate moved. List all 80 cases in the report (token, viewport, font, width, frame, %, wrapped). app.js fitting logic stays unchanged; PRE_F1 and all data/behaviour/security checks stay. Then rerun parity.
+
+W7.13 CC review dispositions (Marcus, 2026-11-09, relayed by the claude.ai orchestrator).
+W7.13.1 F-1 fix. CSS-only (styles.css) fix of the horizontal overflow at narrow viewports. Gate: document.documentElement.scrollWidth <= innerWidth at widths 310, 320, 340, 360 and 375 px (height 844), in both themes, in normal and focus mode, with the reader heading, its fullscreen icon and the frame's right edge fully visible. 300-305 px may overflow, as on 2a37644. Word sizes, app.js and the W7.12 gates stay unchanged; re-measure the W7.12 table and confirm every gate still holds.
+W7.13.2 Tests for F-2 to F-6 (all five). Each must kill the reviewer's surviving hand mutant, re-run from docs/verification/results/w7-cc-review/mutants/ (the reviewer's hand-mutant numbers, not the tools/mutations.cjs registry): F-5 kills M2b, F-2 kills M14, F-3 kills M9, F-4 kills M10, F-6 kills M12. All 17 of the reviewer's hand mutants must then be KILLED.
+W7.13.3 F-7 accepted: the one line in tools/static_smoke.cjs that registers the Portal suite is allowed.
+W7.13.4 F-8 accepted: the theme button keeps its current aria-label.
+W7.13.5 F-9 to F-13: no action.
