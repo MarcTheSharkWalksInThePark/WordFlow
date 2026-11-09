@@ -1,0 +1,91 @@
+{
+ "M17": {
+  "id": "M17",
+  "desc": "extra (delta): W7.13 narrow-width CSS fix reverted",
+  "file": "styles.css",
+  "transform": [
+   [
+    "@media (max-width: 360px) {\n  .brand { flex-wrap: wrap; }\n  .transport { flex-wrap: wrap; }\n}\n",
+    ""
+   ]
+  ],
+  "before": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+  "started": "2026-11-09T14:58:03.701Z",
+  "mutated": "dc0c917e099095735504312c4c914bd601b88851d8fa17fef197362890a5ecd4",
+  "node": [
+   {
+    "label": "tests/regression.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 471,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"static-regression\",\"passed\":223,\"skipped\":0,\"vendorHashes\":188}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/proxy.test.mjs",
+    "status": 0,
+    "signal": null,
+    "ms": 153,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"proxy\",\"passed\":169,\"skipped\":0}",
+     ""
+    ]
+   },
+   {
+    "label": "tests/server_exposure.test.js",
+    "status": 0,
+    "signal": null,
+    "ms": 1689,
+    "tail": [],
+    "last": [
+     "  ok  F8 (N6): Node's requireHostHeader is on whenever the Host check is off, and off while it is on",
+     "  ok  check off (HOST=192.0.2.1, listen redirected to 127.0.0.1): warning printed; foreign Host admitted; Node's 400 for HTTP/1.1 without Host; B3 still 400",
+     "  ok  W2 routes: /api/read still routes and removed upload endpoint is refused",
+     "",
+     "32 checks passed.",
+     ""
+    ]
+   },
+   {
+    "label": "tests/post-review.test.cjs",
+    "status": 0,
+    "signal": null,
+    "ms": 7675,
+    "tail": [],
+    "last": [
+     "{\"suite\":\"post-review\",\"passed\":91,\"skipped\":0}",
+     ""
+    ]
+   }
+  ],
+  "smoke": {
+   "label": "chrome smoke",
+   "status": 1,
+   "signal": null,
+   "ms": 5178,
+   "tail": [
+    "Error: W7 1400 dark W7.13 reader heading, fullscreen icon and frame fit from 310 px: {\"width\":310,\"scrollWidth\":342,\"elements\":[{\"selector\":\".reader-heading\",\"left\":13,\"right\":342.46875,\"width\":329.46875},{\"selector\":\"#reader-fullscreen\",\"left\":289.46875,\"right\":333.46875,\"width\":44},{\"selector\":\".reader-frame\",\"left\":25,\"right\":330.46875,\"width\":305.46875}]}",
+    "  [cause]: AssertionError [ERR_ASSERTION]: {\"width\":310,\"scrollWidth\":342,\"elements\":[{\"selector\":\".reader-heading\",\"left\":13,\"right\":342.46875,\"width\":329.46875},{\"selector\":\"#reader-fullscreen\",\"left\":289.46875,\"right\":333.46875,\"width\":44},{\"selector\":\".reader-frame\",\"left\":25,\"right\":330.46875,\"width\":305.46875}]}",
+    "    code: 'ERR_ASSERTION',",
+    "    expected: true,"
+   ],
+   "last": [
+    "    expected: true,",
+    "    operator: '==',",
+    "    diff: 'simple'",
+    "  }",
+    "}",
+    ""
+   ]
+  },
+  "verdict": "KILLED",
+  "caughtBy": "Chrome smoke",
+  "restored": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+  "restoredOk": true,
+  "finished": "2026-11-09T14:58:18.875Z"
+ }
+}

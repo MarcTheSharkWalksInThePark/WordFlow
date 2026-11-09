@@ -1,0 +1,165 @@
+chrome 156.0.8078.81
+cand dark 310x844 normal sw=310 OVERFLOW outside=0 
+cand dark 310x844 focus sw=310 OVERFLOW outside=0 
+cand dark 320x844 normal sw=320 OVERFLOW outside=0 
+cand dark 320x844 focus sw=320 OVERFLOW outside=0 
+cand dark 340x844 normal sw=340 OVERFLOW outside=0 
+cand dark 340x844 focus sw=340 OVERFLOW outside=0 
+cand dark 360x844 normal sw=360 OVERFLOW outside=0 
+cand dark 360x844 focus sw=360 OVERFLOW outside=0 
+cand dark 375x844 normal sw=375 OVERFLOW outside=0 
+cand dark 375x844 focus sw=375 OVERFLOW outside=0 
+cand dark 390x844 normal sw=390 OVERFLOW outside=0 
+cand dark 390x844 focus sw=390 OVERFLOW outside=0 
+cand dark 768x1024 normal sw=768 OVERFLOW outside=0 
+cand dark 768x1024 focus sw=768 OK outside=0 
+cand dark 1400x950 normal sw=1400 OK outside=0 
+cand dark 1400x950 focus sw=1400 OK outside=0 
+cand dark 1920x1080 normal sw=1920 OK outside=0 
+cand dark 1920x1080 focus sw=1920 OK outside=0 
+feab295 dark 310x844 normal sw=342 OVERFLOW outside=19 header.topbar 6.0..315.1 | div.ticker 6.0..315.1 | section.workspace 6.0..315.1
+feab295 dark 310x844 focus sw=342 OVERFLOW outside=19 header.topbar 6.0..315.1 | div.ticker 6.0..315.1 | section.workspace 6.0..315.1
+feab295 dark 320x844 normal sw=343 OVERFLOW outside=11 div.panel-heading.reader-heading 13.0..342.9 | div.reader-actions 208.1..333.9 | #reader-fullscreen 289.9..333.9
+feab295 dark 320x844 focus sw=343 OVERFLOW outside=11 div.panel-heading.reader-heading 13.0..342.9 | div.reader-actions 208.1..333.9 | #reader-fullscreen 289.9..333.9
+feab295 dark 340x844 normal sw=344 OVERFLOW outside=1 div.panel-heading.reader-heading 13.0..344.0
+feab295 dark 340x844 focus sw=344 OVERFLOW outside=1 div.panel-heading.reader-heading 13.0..344.0
+feab295 dark 360x844 normal sw=360 OVERFLOW outside=0 
+feab295 dark 360x844 focus sw=360 OVERFLOW outside=0 
+feab295 dark 375x844 normal sw=375 OVERFLOW outside=0 
+feab295 dark 375x844 focus sw=375 OVERFLOW outside=0 
+feab295 dark 390x844 normal sw=390 OVERFLOW outside=0 
+feab295 dark 390x844 focus sw=390 OVERFLOW outside=0 
+feab295 dark 768x1024 normal sw=768 OVERFLOW outside=0 
+feab295 dark 768x1024 focus sw=768 OK outside=0 
+feab295 dark 1400x950 normal sw=1400 OK outside=0 
+feab295 dark 1400x950 focus sw=1400 OK outside=0 
+feab295 dark 1920x1080 normal sw=1920 OK outside=0 
+feab295 dark 1920x1080 focus sw=1920 OK outside=0 
+base dark 310x844 normal sw=310 OK outside=0 
+base dark 310x844 focus sw=310 OK outside=0 
+base dark 320x844 normal sw=320 OK outside=0 
+base dark 320x844 focus sw=320 OK outside=0 
+base dark 340x844 normal sw=340 OK outside=0 
+base dark 340x844 focus sw=340 OK outside=0 
+base dark 360x844 normal sw=360 OK outside=0 
+base dark 360x844 focus sw=360 OK outside=0 
+base dark 375x844 normal sw=375 OK outside=0 
+base dark 375x844 focus sw=375 OK outside=0 
+base dark 390x844 normal sw=390 OK outside=0 
+base dark 390x844 focus sw=390 OK outside=0 
+base dark 768x1024 normal sw=768 OK outside=0 
+base dark 768x1024 focus sw=768 OK outside=0 
+base dark 1400x950 normal sw=1400 OK outside=0 
+base dark 1400x950 focus sw=1400 OK outside=0 
+base dark 1920x1080 normal sw=1920 OK outside=0 
+base dark 1920x1080 focus sw=1920 OK outside=0 
+cand light 310x844 normal sw=310 OVERFLOW outside=0 
+cand light 310x844 focus sw=310 OVERFLOW outside=0 
+cand light 320x844 normal sw=320 OVERFLOW outside=0 
+cand light 320x844 focus sw=320 OVERFLOW outside=0 
+cand light 340x844 normal sw=340 OVERFLOW outside=0 
+cand light 340x844 focus sw=340 OVERFLOW outside=0 
+cand light 360x844 normal sw=360 OVERFLOW outside=0 
+cand light 360x844 focus sw=360 OVERFLOW outside=0 
+cand light 375x844 normal sw=375 OVERFLOW outside=0 
+cand light 375x844 focus sw=375 OVERFLOW outside=0 
+cand light 390x844 normal sw=390 OVERFLOW outside=0 
+cand light 390x844 focus sw=390 OVERFLOW outside=0 
+cand light 768x1024 normal sw=768 OVERFLOW outside=0 
+cand light 768x1024 focus sw=768 OK outside=0 
+cand light 1400x950 normal sw=1400 OK outside=0 
+cand light 1400x950 focus sw=1400 OK outside=0 
+cand light 1920x1080 normal sw=1920 OK outside=0 
+cand light 1920x1080 focus sw=1920 OK outside=0 
+feab295 light 310x844 normal sw=342 OVERFLOW outside=19 header.topbar 6.0..315.1 | div.ticker 6.0..315.1 | section.workspace 6.0..315.1
+feab295 light 310x844 focus sw=342 OVERFLOW outside=19 header.topbar 6.0..315.1 | div.ticker 6.0..315.1 | section.workspace 6.0..315.1
+feab295 light 320x844 normal sw=343 OVERFLOW outside=11 div.panel-heading.reader-heading 13.0..342.9 | div.reader-actions 208.1..333.9 | #reader-fullscreen 289.9..333.9
+feab295 light 320x844 focus sw=343 OVERFLOW outside=11 div.panel-heading.reader-heading 13.0..342.9 | div.reader-actions 208.1..333.9 | #reader-fullscreen 289.9..333.9
+feab295 light 340x844 normal sw=344 OVERFLOW outside=1 div.panel-heading.reader-heading 13.0..344.0
+feab295 light 340x844 focus sw=344 OVERFLOW outside=1 div.panel-heading.reader-heading 13.0..344.0
+feab295 light 360x844 normal sw=360 OVERFLOW outside=0 
+feab295 light 360x844 focus sw=360 OVERFLOW outside=0 
+feab295 light 375x844 normal sw=375 OVERFLOW outside=0 
+feab295 light 375x844 focus sw=375 OVERFLOW outside=0 
+feab295 light 390x844 normal sw=390 OVERFLOW outside=0 
+feab295 light 390x844 focus sw=390 OVERFLOW outside=0 
+feab295 light 768x1024 normal sw=768 OVERFLOW outside=0 
+feab295 light 768x1024 focus sw=768 OK outside=0 
+feab295 light 1400x950 normal sw=1400 OK outside=0 
+feab295 light 1400x950 focus sw=1400 OK outside=0 
+feab295 light 1920x1080 normal sw=1920 OK outside=0 
+feab295 light 1920x1080 focus sw=1920 OK outside=0 
+base light 310x844 normal sw=310 OK outside=0 
+base light 310x844 focus sw=310 OK outside=0 
+base light 320x844 normal sw=320 OK outside=0 
+base light 320x844 focus sw=320 OK outside=0 
+base light 340x844 normal sw=340 OK outside=0 
+base light 340x844 focus sw=340 OK outside=0 
+base light 360x844 normal sw=360 OK outside=0 
+base light 360x844 focus sw=360 OK outside=0 
+base light 375x844 normal sw=375 OK outside=0 
+base light 375x844 focus sw=375 OK outside=0 
+base light 390x844 normal sw=390 OK outside=0 
+base light 390x844 focus sw=390 OK outside=0 
+base light 768x1024 normal sw=768 OK outside=0 
+base light 768x1024 focus sw=768 OK outside=0 
+base light 1400x950 normal sw=1400 OK outside=0 
+base light 1400x950 focus sw=1400 OK outside=0 
+base light 1920x1080 normal sw=1920 OK outside=0 
+base light 1920x1080 focus sw=1920 OK outside=0 
+scan cand dark: none
+scan feab295 dark: 300:342 305:342 310:342 315:343 320:343 325:343 330:343 335:344 340:344
+scan base dark: 300:309 305:309
+scan cand light: none
+scan feab295 light: 300:342 305:342 310:342 315:343 320:343 325:343 330:343 335:344 340:344
+scan base light: 300:309 305:309
+w712 dark 390x844 normal large frame 340.00x280.00 base 344.00x280.00 font 64px/64px clr 24.58 sw 390/390 PASS
+w712 dark 390x844 normal comfortable frame 340.00x280.00 base 344.00x280.00 font 51.2px/51.2px clr 31.50 sw 390/390 PASS
+w712 dark 390x844 normal compact frame 340.00x280.00 base 344.00x280.00 font 38.4px/38.4px clr 38.41 sw 390/390 PASS
+w712 dark 390x844 focus large frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 dark 390x844 focus comfortable frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 dark 390x844 focus compact frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 dark 768x1024 normal large frame 318.00x368.63 base 318.00x368.00 font 76.8px/76.8px clr 41.50 sw 768/768 PASS
+w712 dark 768x1024 normal comfortable frame 318.00x368.63 base 318.00x368.00 font 61.44px/61.44px clr 49.80 sw 768/768 PASS
+w712 dark 768x1024 normal compact frame 318.00x368.63 base 318.00x368.00 font 46.08px/46.08px clr 58.08 sw 768/768 PASS
+w712 dark 768x1024 focus large frame 686.00x683.61 base 686.00x721.00 font 76.8px/76.8px clr 129.69 sw 768/768 PASS
+w712 dark 768x1024 focus comfortable frame 686.00x683.61 base 686.00x721.00 font 76.8px/76.8px clr 129.69 sw 768/768 PASS
+w712 dark 768x1024 focus compact frame 686.00x683.61 base 686.00x721.00 font 76.8px/76.8px clr 129.69 sw 768/768 PASS
+w712 dark 1400x950 normal large frame 606.00x615.03 base 606.00x627.00 font 128px/128px clr 72.36 sw 1400/1400 PASS
+w712 dark 1400x950 normal comfortable frame 606.00x615.03 base 606.00x627.00 font 108.8px/108.8px clr 82.73 sw 1400/1400 PASS
+w712 dark 1400x950 normal compact frame 606.00x615.03 base 606.00x627.00 font 83.2px/83.2px clr 96.56 sw 1400/1400 PASS
+w712 dark 1400x950 focus large frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 dark 1400x950 focus comfortable frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 dark 1400x950 focus compact frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 dark 1920x1080 normal large frame 1126.00x745.03 base 1126.00x757.00 font 128px/128px clr 108.77 sw 1920/1920 PASS
+w712 dark 1920x1080 normal comfortable frame 1126.00x745.03 base 1126.00x757.00 font 108.8px/108.8px clr 119.14 sw 1920/1920 PASS
+w712 dark 1920x1080 normal compact frame 1126.00x745.03 base 1126.00x757.00 font 83.2px/83.2px clr 132.97 sw 1920/1920 PASS
+w712 dark 1920x1080 focus large frame 1838.00x745.03 base 1838.00x777.00 font 144px/144px clr 100.13 sw 1920/1920 PASS
+w712 dark 1920x1080 focus comfortable frame 1838.00x745.03 base 1838.00x777.00 font 144px/144px clr 100.13 sw 1920/1920 PASS
+w712 dark 1920x1080 focus compact frame 1838.00x745.03 base 1838.00x777.00 font 144px/144px clr 100.13 sw 1920/1920 PASS
+w712 light 390x844 normal large frame 340.00x280.00 base 344.00x280.00 font 64px/64px clr 24.58 sw 390/390 PASS
+w712 light 390x844 normal comfortable frame 340.00x280.00 base 344.00x280.00 font 51.2px/51.2px clr 31.50 sw 390/390 PASS
+w712 light 390x844 normal compact frame 340.00x280.00 base 344.00x280.00 font 38.4px/38.4px clr 38.41 sw 390/390 PASS
+w712 light 390x844 focus large frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 light 390x844 focus comfortable frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 light 390x844 focus compact frame 340.00x573.91 base 344.00x573.91 font 67.2px/67.2px clr 105.14 sw 390/390 PASS
+w712 light 768x1024 normal large frame 318.00x368.63 base 318.00x368.00 font 76.8px/76.8px clr 41.50 sw 768/768 PASS
+w712 light 768x1024 normal comfortable frame 318.00x368.63 base 318.00x368.00 font 61.44px/61.44px clr 49.80 sw 768/768 PASS
+w712 light 768x1024 normal compact frame 318.00x368.63 base 318.00x368.00 font 46.08px/46.08px clr 58.08 sw 768/768 PASS
+w712 light 768x1024 focus large frame 686.00x681.61 base 686.00x721.00 font 76.8px/76.8px clr 129.13 sw 768/768 PASS
+w712 light 768x1024 focus comfortable frame 686.00x681.61 base 686.00x721.00 font 76.8px/76.8px clr 129.13 sw 768/768 PASS
+w712 light 768x1024 focus compact frame 686.00x681.61 base 686.00x721.00 font 76.8px/76.8px clr 129.13 sw 768/768 PASS
+w712 light 1400x950 normal large frame 606.00x613.03 base 606.00x627.00 font 128px/128px clr 71.80 sw 1400/1400 PASS
+w712 light 1400x950 normal comfortable frame 606.00x613.03 base 606.00x627.00 font 108.8px/108.8px clr 82.17 sw 1400/1400 PASS
+w712 light 1400x950 normal compact frame 606.00x613.03 base 606.00x627.00 font 83.2px/83.2px clr 96.00 sw 1400/1400 PASS
+w712 light 1400x950 focus large frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 light 1400x950 focus comfortable frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 light 1400x950 focus compact frame 1318.00x646.00 base 1318.00x647.00 font 140px/140px clr 74.56 sw 1400/1400 PASS
+w712 light 1920x1080 normal large frame 1126.00x743.03 base 1126.00x757.00 font 128px/128px clr 108.20 sw 1920/1920 PASS
+w712 light 1920x1080 normal comfortable frame 1126.00x743.03 base 1126.00x757.00 font 108.8px/108.8px clr 118.58 sw 1920/1920 PASS
+w712 light 1920x1080 normal compact frame 1126.00x743.03 base 1126.00x757.00 font 83.2px/83.2px clr 132.41 sw 1920/1920 PASS
+w712 light 1920x1080 focus large frame 1838.00x743.03 base 1838.00x777.00 font 144px/144px clr 99.56 sw 1920/1920 PASS
+w712 light 1920x1080 focus comfortable frame 1838.00x743.03 base 1838.00x777.00 font 144px/144px clr 99.56 sw 1920/1920 PASS
+w712 light 1920x1080 focus compact frame 1838.00x743.03 base 1838.00x777.00 font 144px/144px clr 99.56 sw 1920/1920 PASS
+W7.12 gates all pass: true
+page errors: []

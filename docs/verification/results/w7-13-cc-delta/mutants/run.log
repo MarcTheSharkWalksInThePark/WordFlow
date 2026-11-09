@@ -1,0 +1,6 @@
+M10 KILLED Node tests/post-review.test.cjs restored  FAIL W4.6 whole approved privacy paragraph is exact
+M2b KILLED Chrome smoke restored 4s Error: W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values: Expected values to be strictly deep-equal:
+M9 KILLED Chrome smoke restored 6s Error: W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target: fullscreenchange left a stale fit
+M12 KILLED Chrome smoke restored 2s Error: W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact: Expected values to be strictly equal:
+M14 KILLED Chrome smoke restored 4s Error: W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode: {"width":1400,"focus":false,"size":"large","fonts":["128px","120px"]}
+exit=0
