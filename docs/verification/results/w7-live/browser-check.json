@@ -1,0 +1,832 @@
+{
+  "site": "https://wordflow-reader.pages.dev/",
+  "at": "2026-11-09T15:19:27.721Z",
+  "browserPlugin": "not available; user requested existing Playwright and installed Chrome",
+  "playwright": "1.62.1",
+  "rows": [
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "colorScheme": "dark",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 397,
+            "right": 1043
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 1002,
+            "right": 1034
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 417,
+            "right": 1023
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237568809
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237568851
+        }
+      },
+      "fullscreen": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 1390
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 1390
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 397,
+            "right": 1043
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 1002,
+            "right": 1034
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 417,
+            "right": 1023
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237568851
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1400,
+        "height": 950
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 397,
+            "right": 1043
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 1002,
+            "right": 1034
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 417,
+            "right": 1023
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569220
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569251
+        }
+      },
+      "fullscreen": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 1390
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 1390
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 1400,
+        "scrollWidth": 1400,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 397,
+            "right": 1043
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 1002,
+            "right": 1034
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 417,
+            "right": 1023
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569251
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "dark",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 377
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 324,
+            "right": 368
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 365
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569614
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569649
+        }
+      },
+      "fullscreen": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 380
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 380
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 377
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 324,
+            "right": 368
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 365
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237569649
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 377
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 324,
+            "right": 368
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 365
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570039
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570077
+        }
+      },
+      "fullscreen": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 380
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 380
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 390,
+        "scrollWidth": 390,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 377
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 324,
+            "right": 368
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 365
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570077
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "colorScheme": "dark",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 307
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 254,
+            "right": 298
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 295
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570456
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570491
+        }
+      },
+      "fullscreen": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 310
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 310
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 307
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 254,
+            "right": 298
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 295
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570491
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "colorScheme": "light",
+      "errors": [],
+      "csp": [],
+      "normal": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 307
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 254,
+            "right": 298
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 295
+          }
+        ]
+      },
+      "storageBefore": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 0,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570825
+        }
+      },
+      "storageToggled": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570857
+        }
+      },
+      "fullscreen": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 10,
+            "right": 310
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 0,
+            "right": 0
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 10,
+            "right": 310
+          }
+        ]
+      },
+      "afterExit": {
+        "width": 320,
+        "scrollWidth": 320,
+        "elements": [
+          {
+            "selector": ".reader-heading",
+            "left": 13,
+            "right": 307
+          },
+          {
+            "selector": "#reader-fullscreen",
+            "left": 254,
+            "right": 298
+          },
+          {
+            "selector": ".reader-frame",
+            "left": 25,
+            "right": 295
+          }
+        ]
+      },
+      "storageAfter": {
+        "local": [
+          "wordflow-reader-session-v1"
+        ],
+        "session": [],
+        "payload": {
+          "title": "Pasted text",
+          "text": "Lead Hello Tail End. Synthetic text for the authorized live check.",
+          "index": 1,
+          "wpm": 300,
+          "sentencePause": true,
+          "commaPause": true,
+          "paragraphPause": true,
+          "smartPacing": true,
+          "focusLetter": true,
+          "contextWords": true,
+          "focusMode": false,
+          "wordSize": "comfortable",
+          "savedAt": 1794237570857
+        }
+      },
+      "nativeFullscreen": true,
+      "passed": true
+    }
+  ],
+  "chrome": "156.0.8078.81",
+  "passed": true
+}

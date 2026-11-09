@@ -1,0 +1,40 @@
+{
+  "sha": "131713ed8ba6bb8b53d036340046010ebf2abb6c",
+  "at": "2026-11-09T15:19:14.385Z",
+  "explanation": "Git blobs contain LF; .gitattributes prescribes CRLF checkout bytes for these four production assets.",
+  "rows": [
+    {
+      "file": "app.js",
+      "status": 200,
+      "rawGitBlobSha256": "5907de53adcf1d4b2f90cf2326a4554c4c51ae562521d5b207491d5c9ef17baf",
+      "checkoutSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "productionSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+      "matchesCheckout": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "rawGitBlobSha256": "fe1358f6080f29e4f0a9ce24f3c4b11193b73d3fafafdab9beeef43cdd97150c",
+      "checkoutSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "productionSha256": "fe42feb67ee7c7fe070a68ad6465c6ace141ecb2f08dc7f1c30c7a5fad60bf28",
+      "matchesCheckout": true
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "rawGitBlobSha256": "6f5f5e735a6d5ce131e1f06545358f7ac07cc96550cbef396f213023d579c61f",
+      "checkoutSha256": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+      "productionSha256": "b654519947ce3a1bda2d9ff00c5f57dd1eaa228b17a9f3514423df02dbdcd478",
+      "matchesCheckout": true
+    },
+    {
+      "file": "assets/wordflow-mark.svg",
+      "status": 200,
+      "rawGitBlobSha256": "47e3f9f9ea46aa75a438b11b1296781d6fc755f7ff32c9643db14f75b00a71a0",
+      "checkoutSha256": "1faa76c2224fe8154c781d8ce69257c42ed9734364f9aa2121bc9593048a8d66",
+      "productionSha256": "1faa76c2224fe8154c781d8ce69257c42ed9734364f9aa2121bc9593048a8d66",
+      "matchesCheckout": true
+    }
+  ],
+  "passed": true
+}

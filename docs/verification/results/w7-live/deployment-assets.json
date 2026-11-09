@@ -1,0 +1,10 @@
+{
+  "file": "app.js",
+  "status": 200,
+  "gitBlobSha256": "5907de53adcf1d4b2f90cf2326a4554c4c51ae562521d5b207491d5c9ef17baf",
+  "gitattributesCrlfCheckoutSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "workingTreeSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "productionSha256": "6f2f2a1a5868e5fd2335aebe2807bd1007519d4d499e9a986131151892168e2d",
+  "stopped": true,
+  "reason": "Raw Git blob hash differs from production; production equals the gitattributes-prescribed CRLF checkout. No further live checks run."
+}
