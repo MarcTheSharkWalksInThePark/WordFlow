@@ -399,3 +399,110 @@ Each data cell lists **pre-restyle / candidate**. Width means the rendered text 
 | 78 | 390x844, Focus | off / off | W x 35 | 10 / 10 | 301.46875 / 309.328125 | 342 / 334 | 88.149% / 92.613% | yes / no |
 | 79 | 390x844, Focus | off / off | W x 36 | 10 / 10 | 301.46875 / 318.171875 | 342 / 334 | 88.149% / 95.261% | yes / no |
 | 80 | 390x844, Focus | off / off | W x 37 | 10 / 10 | 301.46875 / 327.015625 | 342 / 334 | 88.149% / 97.909% | yes / no |
+
+
+## W7.13 fix round
+
+**STOP on 2026-11-09; incomplete.** Starting gate passed: clean `feat/w7-portal03-restyle` at `feab2951cb8239eba625775b912a7b9a0429ac34`, parent `51e22d04398197edf1ad6a94b8d150a8a13345cc`, hook `.githooks`. W7.13 was recorded verbatim first in `47b0004`. CSS-only fix `38583df` allows the brand and transport rows to wrap at <= 360 px. The transport's intrinsic minimum width stretched the reader grid; loaded status text also constrained the brand row. No word size, app.js, index.html, fitting logic or assertion changed in committed code. This was an implementation choice under W7.13.1.
+
+### Overflow before/after
+
+Height 844 px. Before is routed `feab295`; after is the CSS repair, same loaded `Lead Hello Tail End.` fixture. Every after row passed document scrollWidth <= innerWidth and explicit heading, fullscreen-icon and frame horizontal containment.
+
+| Width | Theme | Mode | Before scrollWidth | After scrollWidth | Heading / icon / frame |
+| --- | --- | --- | ---: | ---: | --- |
+| 310 | dark | Normal | 342 | 310 | contained |
+| 310 | dark | Focus | 342 | 310 | contained |
+| 320 | dark | Normal | 343 | 320 | contained |
+| 320 | dark | Focus | 343 | 320 | contained |
+| 340 | dark | Normal | 344 | 340 | contained |
+| 340 | dark | Focus | 344 | 340 | contained |
+| 360 | dark | Normal | 360 | 360 | contained |
+| 360 | dark | Focus | 360 | 360 | contained |
+| 375 | dark | Normal | 375 | 375 | contained |
+| 375 | dark | Focus | 375 | 375 | contained |
+| 310 | light | Normal | 342 | 310 | contained |
+| 310 | light | Focus | 342 | 310 | contained |
+| 320 | light | Normal | 343 | 320 | contained |
+| 320 | light | Focus | 343 | 320 | contained |
+| 340 | light | Normal | 344 | 340 | contained |
+| 340 | light | Focus | 344 | 340 | contained |
+| 360 | light | Normal | 360 | 360 | contained |
+| 360 | light | Focus | 360 | 360 | contained |
+| 375 | light | Normal | 375 | 375 | contained |
+| 375 | light | Focus | 375 | 375 | contained |
+
+### W7.12 re-measurement
+
+Baseline `2a376445ceb1b98a1b4c943cf8834e77e0578120` was served by routing its index.html, app.js and styles.css in the same run. Same fixture and all three word sizes.
+
+| Viewport | Theme | Mode | Baseline W x H | After W x H | Width % | Height % | Minimum clearance |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| 390x844 | dark | Normal | 344.00 x 280.00 | 340.00 x 280.00 | 98.84 | 100.00 | 24.58 |
+| 390x844 | dark | Focus | 344.00 x 573.91 | 340.00 x 573.91 | 98.84 | 100.00 | 105.14 |
+| 390x600 | dark | Normal | 344.00 x 280.00 | 340.00 x 280.00 | 98.84 | 100.00 | 24.58 |
+| 390x600 | dark | Focus | 344.00 x 408.00 | 340.00 x 408.00 | 98.84 | 100.00 | 58.69 |
+| 768x1024 | dark | Normal | 318.00 x 368.00 | 318.00 x 368.63 | 100.00 | 100.17 | 41.50 |
+| 768x1024 | dark | Focus | 686.00 x 721.00 | 686.00 x 683.61 | 100.00 | 94.81 | 129.69 |
+| 1400x900 | dark | Normal | 606.00 x 577.00 | 606.00 x 565.03 | 100.00 | 97.93 | 58.36 |
+| 1400x900 | dark | Focus | 1318.00 x 612.00 | 1318.00 x 612.00 | 100.00 | 100.00 | 65.05 |
+| 1400x950 | dark | Normal | 606.00 x 627.00 | 606.00 x 615.03 | 100.00 | 98.09 | 72.36 |
+| 1400x950 | dark | Focus | 1318.00 x 647.00 | 1318.00 x 646.00 | 100.00 | 99.85 | 74.56 |
+| 1708x950 | dark | Normal | 914.00 x 627.00 | 914.00 x 615.03 | 100.00 | 98.09 | 72.36 |
+| 1708x950 | dark | Focus | 1626.00 x 647.00 | 1626.00 x 646.00 | 100.00 | 99.85 | 72.39 |
+| 1920x1080 | dark | Normal | 1126.00 x 757.00 | 1126.00 x 745.03 | 100.00 | 98.42 | 108.77 |
+| 1920x1080 | dark | Focus | 1838.00 x 777.00 | 1838.00 x 745.03 | 100.00 | 95.89 | 100.13 |
+| 390x844 | light | Normal | 344.00 x 280.00 | 340.00 x 280.00 | 98.84 | 100.00 | 24.58 |
+| 390x844 | light | Focus | 344.00 x 573.91 | 340.00 x 573.91 | 98.84 | 100.00 | 105.14 |
+| 390x600 | light | Normal | 344.00 x 280.00 | 340.00 x 280.00 | 98.84 | 100.00 | 24.58 |
+| 390x600 | light | Focus | 344.00 x 408.00 | 340.00 x 408.00 | 98.84 | 100.00 | 58.69 |
+| 768x1024 | light | Normal | 318.00 x 368.00 | 318.00 x 368.63 | 100.00 | 100.17 | 41.50 |
+| 768x1024 | light | Focus | 686.00 x 721.00 | 686.00 x 681.61 | 100.00 | 94.54 | 129.13 |
+| 1400x900 | light | Normal | 606.00 x 577.00 | 606.00 x 563.03 | 100.00 | 97.58 | 57.80 |
+| 1400x900 | light | Focus | 1318.00 x 612.00 | 1318.00 x 612.00 | 100.00 | 100.00 | 65.05 |
+| 1400x950 | light | Normal | 606.00 x 627.00 | 606.00 x 613.03 | 100.00 | 97.77 | 71.80 |
+| 1400x950 | light | Focus | 1318.00 x 647.00 | 1318.00 x 646.00 | 100.00 | 99.85 | 74.56 |
+| 1708x950 | light | Normal | 914.00 x 627.00 | 914.00 x 613.03 | 100.00 | 97.77 | 71.80 |
+| 1708x950 | light | Focus | 1626.00 x 647.00 | 1626.00 x 646.00 | 100.00 | 99.85 | 72.39 |
+| 1920x1080 | light | Normal | 1126.00 x 757.00 | 1126.00 x 743.03 | 100.00 | 98.15 | 108.20 |
+| 1920x1080 | light | Focus | 1838.00 x 777.00 | 1838.00 x 743.03 | 100.00 | 95.63 | 99.56 |
+
+All 28 frame rows and all 168 top/bottom clearance checks passed. Minimum clearance 24.578125 px; minimum frame ratio 94.53666782246879%. The 1400x950 normal rows meet 95% in both dimensions/themes. All three computed word sizes equal the baseline in every row. [Raw rectangles, font sizes and clearances](results/w7-fix-round/geometry.json). The four-line CSS addition does not apply to any W7.12 viewport.
+
+### New checks and mandatory STOP
+
+The draft adds: F-5 exact 13-field storage records and unchanged values after stepper, seek and word-step saves following each theme direction; F-2 same-run baseline font equality for all three short, unfitted word sizes in normal/focus at 390x844 and 1400x950; F-3 a required fitted fullscreen fixture, idempotent explicit refit, floor-aware target and containment; F-4 the whole exact privacy paragraph in Node and DOM; F-6 exact ticker, badge pairs and tagline. It also adds the narrow-width containment regression. No existing assertion was loosened.
+
+Targeted Chrome 156.0.8078.81 run: **11 groups passed, 1 failed, zero skips**, stopped during the first (1400/dark) combination. The failure is the existing `idle controls only while playing and keyboard reveal` check: `.reader-controls` remained visible for its 30-second wait. The draft F-3 check leaves a four-word fixture loaded before the unchanged WPM/idle checks. At the final 300 WPM it can finish before the 2500 ms hide delay; test-state contamination is the likely cause. This diagnosis was not verified by a rerun. The explicit user STOP condition applies to any behaviour-test failure, so no fixture repair or further verification was attempted. Initial geometry-harness errors (wrong selector and background-tab animation wait) were corrected before its completed run; the first sandbox Chrome request was denied before reaching the app.
+
+[Passed group inventory](results/w7-fix-round/portal/checks.json), [failure record](results/w7-fix-round/stop.json), [draft test diff](results/w7-fix-round/draft-tests.diff). The drafts were archived and the two test files restored to HEAD after STOP; no tests commit was made. Screens rewritten by the targeted suite were preserved under [screens-at-stop](results/w7-fix-round/screens-at-stop/) and the historical screenshots restored. Browser plugin not available; installed Playwright 1.62.1 drove Chrome. Evidence scripts contain no new served files.
+
+### Reviewer's hand mutants
+
+No hand mutant was rerun before STOP. These ids are the reviewer's ids, distinct from the registered mutation suite (whose M9 is equivalent). Prior verdicts below are CC's historical results, not new verification.
+
+| Mutant | CC prior verdict | W7.13 rerun |
+| --- | --- | --- |
+| M1 | KILLED | NOT RUN — STOP |
+| M2a | KILLED | NOT RUN — STOP |
+| M2b | SURVIVED | NOT RUN — STOP |
+| M3 | KILLED | NOT RUN — STOP |
+| M4 | KILLED | NOT RUN — STOP |
+| M5 | KILLED | NOT RUN — STOP |
+| M6 | KILLED | NOT RUN — STOP |
+| M7 | KILLED | NOT RUN — STOP |
+| M8 | KILLED | NOT RUN — STOP |
+| M9 | SURVIVED | NOT RUN — STOP |
+| M10 | SURVIVED | NOT RUN — STOP |
+| M11 | KILLED | NOT RUN — STOP |
+| M12 | SURVIVED | NOT RUN — STOP |
+| M13 | KILLED | NOT RUN — STOP |
+| M14 | SURVIVED | NOT RUN — STOP |
+| M15 | KILLED | NOT RUN — STOP |
+| M16 | KILLED | NOT RUN — STOP |
+
+### Remaining verification and handoff
+
+`npm test`, full `npm run parity`, stamp regeneration, the 78 registered mutations, build/199-name comparison and all 17 hand mutants were **not run** in this fix round. The existing production stamp is unchanged and now stale because styles.css changed. Light/phone execution of the draft Portal checks, a completed Portal run and mutant kills remain unverified. The narrow-width and W7.12 measurement probes completed independently before the behaviour STOP. No merge, push, deploy, install, live check or independent CC delta review occurred.
+
+Next requires Marcus's authorization to resume after STOP: apply the archived draft; isolate/restore the F-3 fixture before the existing idle check without changing assertions; finish the required verification and commit sequence; then a short independent CC delta check. Marcus decides any merge/push. Existing cross-browser, physical Escape/touch, zoom, screen-reader and Cloudflare runtime limitations remain. Daily vault note is absent and was not created.

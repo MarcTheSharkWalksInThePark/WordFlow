@@ -1,0 +1,46 @@
+[
+  {
+    "name": "W7 1400 dark CSP, accessible heading and icon buttons",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark W4.6 privacy paragraph and W7.7 ruled copy are exact",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark W7.12 unfitted word sizes equal pre-restyle in normal and focus mode",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark system theme, manual choice and resume fields",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark W7.4 saves after both theme directions preserve the exact resume schema and values",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark contrast and page width",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark W7.13 reader heading, fullscreen icon and frame fit from 310 px",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark F ignores editable controls and modifiers",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark three fullscreen entries and three exits",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark W7.5 fullscreen refit is already stable and meets the floor-aware target",
+    "passed": true
+  },
+  {
+    "name": "W7 1400 dark WPM readout, step and clamps",
+    "passed": true
+  }
+]

@@ -160,7 +160,7 @@ bash tools/push.sh                                          # the only way to pu
 
 ## Open items
 
-- W7 Portal '03 restyle on `feat/w7-portal03-restyle`, pending independent CC review; Marcus decides merge/push via `tools/push.sh`; run `npm run smoke:live` after deployment.
+- W7 Portal '03 restyle on `feat/w7-portal03-restyle`: W7.13 CSS fix committed (`38583df`), 20 narrow-width and 28 W7.12 rows pass; fix round STOP on the existing idle-controls behaviour check after a draft test changed its fixture. Draft tests/evidence archived; full verification, new stamp, 17 hand mutants and short CC delta check remain pending. Marcus authorizes any resumption and decides merge/push via `tools/push.sh`; run `npm run smoke:live` after deployment.
 
 From Codex's build report (`docs/verification/2026-10-05_codex_wordflow_standalone.md`) and CC's
 review (`docs/verification/2026-10-05_cc_review_wordflow_standalone.md`):

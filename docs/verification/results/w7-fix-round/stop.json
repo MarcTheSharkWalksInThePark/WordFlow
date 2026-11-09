@@ -1,0 +1,17 @@
+{
+  "status": "STOP",
+  "check": "W7 1400 dark idle controls only while playing and keyboard reveal",
+  "message": "locator.waitFor: Timeout 30000ms exceeded; waiting for .reader-controls to be hidden; 62 observations resolved to visible",
+  "passedBeforeFailure": 11,
+  "failed": 1,
+  "skipped": 0,
+  "likelyCause": "The draft fullscreen refit check leaves its four-word fixture loaded. The unchanged next WPM check ends at 300 WPM, so playback can finish before the 2500 ms idle delay. This is a harness-contamination diagnosis, not verified by a rerun.",
+  "runsNotStarted": [
+    "npm test",
+    "npm run parity",
+    "npm run mutations",
+    "npm run build",
+    "17 reviewer hand mutants"
+  ],
+  "stamp": "unchanged; stale after CSS change"
+}

@@ -1,0 +1,154 @@
+diff --git a/tests/post-review.test.cjs b/tests/post-review.test.cjs
+index 9d081b8..3ec7f13 100644
+--- a/tests/post-review.test.cjs
++++ b/tests/post-review.test.cjs
+@@ -7,6 +7,10 @@ let passed=0;const cases=[];
+ async function check(name,fn) {try{await fn();passed++;cases.push({name,passed:true});}catch(e){console.error("FAIL "+name);throw e;}}
+ (async()=>{
+  const app=fs.readFileSync(path.join(root,"app.js"),"utf8");
++ await check("W4.6 whole approved privacy paragraph is exact",()=>{
++  const html=fs.readFileSync(path.join(root,"index.html"),"utf8");
++  assert.equal(/<p class="privacy-note">([^<]*)<\/p>/.exec(html)?.[1],"Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.");
++ });
+  const {functionText}=require("./helpers.cjs");
+  const breakWord=vm.runInNewContext(functionText(app,"shouldBreakWord")+"\nshouldBreakWord");
+  const scrollWord=vm.runInNewContext(functionText(app,"shouldScrollWord")+"\nshouldScrollWord");
+diff --git a/tests/reader-portal.cjs b/tests/reader-portal.cjs
+index c84ab5c..984369b 100644
+--- a/tests/reader-portal.cjs
++++ b/tests/reader-portal.cjs
+@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
+ const fs = require("node:fs");
+ const path = require("node:path");
+ const { checkTokenLayout, settle } = require("./reader-smoke.cjs");
+-const { measure } = require("./reader-round2.cjs");
++const { measure, baseline, prepare } = require("./reader-round2.cjs");
+ 
+ const sessionFields = ["title", "text", "index", "wpm", "sentencePause", "commaPause", "paragraphPause",
+   "smartPacing", "focusLetter", "contextWords", "focusMode", "wordSize", "savedAt"].sort();
+@@ -135,6 +135,36 @@ async function portalChecks({ browser, origin, width, verify, out, root }) {
+         assert(await page.locator("button").evaluateAll(bs =>
+           bs.filter(b => !b.textContent.trim()).every(b => !!b.getAttribute("aria-label"))));
+       });
++      await check("W4.6 privacy paragraph and W7.7 ruled copy are exact", async () => {
++        assert.equal(await page.locator(".privacy-note").textContent(), "Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.");
++        assert.equal(await page.locator(".ticker strong").textContent(), "TIP");
++        assert.equal(await page.locator(".ticker span").textContent(), "Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.");
++        assert.deepEqual(await page.locator(".badges > span").evaluateAll(badges => badges.map(b => [...b.children].map(e => e.textContent))), [["NO","UPLOADS"],["100%","FREE"],["PRIVACY","FIRST"]]);
++        assert.equal(await page.locator(".tagline").textContent(), "one word at a time");
++      });
++      await check("W7.12 unfitted word sizes equal pre-restyle in normal and focus mode", async () => {
++        const comparisonViewport = { width, height: width === 390 ? 844 : 950 };
++        const baseContext = await browser.newContext({ viewport: comparisonViewport, colorScheme });
++        try {
++          const base = await baseline(baseContext, origin, root, "2a376445ceb1b98a1b4c943cf8834e77e0578120");
++          await page.setViewportSize(comparisonViewport);
++          details.baseSizes = [];
++          for (const focus of [false,true]) for (const size of ["large","comfortable","compact"]) {
++            const fonts = [];
++            for (const p of [base,page]) {
++              await prepare(p,"Hi",{focus,size});
++              fonts.push(await p.locator("#word-display").evaluate(el => {
++                if (el.style.fontSize || el.classList.contains("fitted-long-word")) throw new Error("short control word was fitted");
++                return getComputedStyle(el).fontSize;
++              }));
++            }
++            assert.equal(fonts[1],fonts[0],JSON.stringify({width,focus,size,fonts}));
++            details.baseSizes.push({viewport:comparisonViewport,focus,size,baseline:fonts[0],candidate:fonts[1]});
++          }
++        } finally { await baseContext.close(); }
++        await page.setViewportSize(viewport);
++        await page.evaluate(() => { if(state.focusMode)toggleFocusMode(); setWordSize("comfortable"); });
++      });
+       await page.locator("#sample-button").click();
+       await page.locator("#source-review").scrollIntoViewIfNeeded();
+       await capture("review");
+@@ -169,6 +199,29 @@ async function portalChecks({ browser, origin, width, verify, out, root }) {
+         await button.click();
+         assert.deepEqual(await stored(), before);
+       });
++      await check("W7.4 saves after both theme directions preserve the exact resume schema and values", async () => {
++        const saved = () => page.evaluate(() => ({storageKeys:Object.keys(localStorage).sort(),record:JSON.parse(localStorage.getItem("wordflow-reader-session-v1"))}));
++        const before = await saved();
++        let previous=before;
++        let wpm=before.record.wpm,index=before.record.index,lastSavedAt=before.record.savedAt;
++        details.themeSaves=[];
++        for (const direction of [1,2]) {
++          await page.locator("#theme-button").click();
++          assert.deepEqual(await saved(),previous);
++          for (const action of ["stepper","seek","word step"]) {
++            if(action==="stepper") {await page.locator("#faster-button").click();wpm=Math.min(900,wpm+25);}
++            if(action==="seek") {index=4;await page.locator("#progress-slider").evaluate((el,value)=>{el.value=value;el.dispatchEvent(new Event("input",{bubbles:true}));},index);}
++            if(action==="word step") {await page.locator("#next-button").click();index++;}
++            const after=await saved();
++            assert.deepEqual(after.storageKeys,["wordflow-reader-session-v1"]);
++            assert.deepEqual(Object.keys(after.record).sort(),sessionFields);
++            const expected={...before.record,wpm,index,savedAt:after.record.savedAt};
++            assert.deepEqual(after.record,expected,"theme leaked or an unrelated session value changed after "+action);
++            assert.equal(typeof after.record.savedAt,"number");assert(after.record.savedAt>=lastSavedAt);lastSavedAt=after.record.savedAt;
++            details.themeSaves.push({direction,action,...after});previous=after;
++          }
++        }
++      });
+       await check("contrast and page width", async () => {
+         details.contrast = await contrast(page);
+         details.overflow = [];
+@@ -182,6 +235,21 @@ async function portalChecks({ browser, origin, width, verify, out, root }) {
+         await page.setViewportSize(viewport);
+         await settle(page);
+       });
++      await check("W7.13 reader heading, fullscreen icon and frame fit from 310 px", async () => {
++        details.narrowWidths=[];
++        for(const w of [310,320,340,360,375])for(const focus of [false,true]){
++          await page.setViewportSize({width:w,height:844});
++          await page.evaluate(focus=>{if(state.focusMode!==focus)toggleFocusMode();window.scrollTo(0,0);},focus);
++          await settle(page);
++          const bounds=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,
++            elements:[".reader-heading","#reader-fullscreen",".reader-frame"].map(selector=>{const r=document.querySelector(selector).getBoundingClientRect();return {selector,left:r.left,right:r.right,width:r.width};})}));
++          assert(bounds.scrollWidth<=w,JSON.stringify(bounds));
++          for(const e of bounds.elements)assert(e.width>0&&e.left>=0&&e.right<=w,JSON.stringify(e));
++          details.narrowWidths.push({focus,...bounds});
++        }
++        await page.evaluate(()=>{if(state.focusMode)toggleFocusMode();});
++        await page.setViewportSize(viewport);await settle(page);
++      });
+       await page.evaluate(() => window.scrollTo(0, 0));
+       await capture("normal");
+       await page.locator("#focus-mode-button").click();
+@@ -217,6 +285,36 @@ async function portalChecks({ browser, origin, width, verify, out, root }) {
+         await page.evaluate(() => document.exitFullscreen());
+         await assertFullscreen(page, false);
+       });
++      await check("W7.5 fullscreen refit is already stable and meets the floor-aware target", async () => {
++        await page.setViewportSize({width,height:width===390?844:950});
++        await prepare(page,width===390?"reading":realWord,{size:"comfortable"});
++        await page.locator("#fullscreen-button").click();
++        await assertFullscreen(page,true);
++        await settle(page);
++        const before=await measure(page);
++        const widths=await page.evaluate(()=>{
++          const d=els.wordDisplay,style=d.style.fontSize,classes=d.className;
++          const width=()=>{const r=document.createRange();r.selectNodeContents(d);return r.getBoundingClientRect().width;};
++          try{d.classList.remove("fitted-long-word","wrapped-long-word","scrolling-long-word");d.style.fontSize="";const unfitted=width();d.style.fontSize="10px";return {unfitted,floor:width()};}
++          finally{d.className=classes;d.style.fontSize=style;}
++        });
++        assert(widths.unfitted>before.frame.clientWidth,"fixture must require fullscreen fitting");
++        assert(before.classes.split(" ").includes("fitted-long-word"),"fullscreen entry must fit before any explicit refit");
++        await page.evaluate(()=>fitDisplayedWord());await settle(page);
++        const after=await measure(page);
++        assert.deepEqual(after,before,"fullscreenchange left a stale fit");
++        const font=parseFloat(before.font);
++        if(font>10)assert(before.contentWidth<=.9*before.frame.clientWidth);
++        else{
++          assert.equal(font,10);assert.equal(before.wrapped,widths.floor>before.frame.clientWidth);
++          if(before.wrapped)assert(before.contentWidth<=before.word.width+1/64);
++          else assert.equal(before.contentWidth,widths.floor);
++        }
++        assert(before.ink.fullyVisible);await checkTokenLayout(page);
++        details.fullscreenRefit={before,after,widths};
++        await page.evaluate(()=>document.exitFullscreen());await assertFullscreen(page,false);
++        await page.setViewportSize(viewport);
++      });
+       await page.locator("#fullscreen-button").click();
+       await assertFullscreen(page, true);
+       await check("WPM readout, step and clamps", async () => {
