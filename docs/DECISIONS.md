@@ -258,3 +258,12 @@ W7.13.2 Tests for F-2 to F-6 (all five). Each must kill the reviewer's surviving
 W7.13.3 F-7 accepted: the one line in tools/static_smoke.cjs that registers the Portal suite is allowed.
 W7.13.4 F-8 accepted: the theme button keeps its current aria-label.
 W7.13.5 F-9 to F-13: no action.
+
+### W7.13 resumption authorization (Marcus, 2026-11-09)
+
+Authorized (Marcus, 2026-11-09). The STOP is a test-isolation defect in your draft tests, not a product or behaviour change. Resume:
+
+1. Fix only the draft tests so each new check leaves the page as it found it: restore the previous text/state, or run the new checks in a fresh page/reload, so later checks see their usual fixture. The existing idle-controls check and every other existing assertion stay byte-for-byte unchanged; do not alter timeouts or fixtures in existing checks.
+2. Prove isolation: run the targeted Portal suite with the new checks both before and after the existing ones (if the runner allows ordering), all passing.
+3. Then continue the round exactly as specified: the five new checks, full npm test, parity with a regenerated stamp, mutations (78 = 77 KILLED + M9), build (199 filenames), and re-run only the five surviving hand mutants M2b, M9, M10, M12 and M14 — each must be KILLED. The other 12 are not re-run.
+4. Report as before. Any failure of an existing assertion after this fix is a STOP again.
