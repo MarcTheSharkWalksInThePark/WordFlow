@@ -7,6 +7,10 @@ let passed=0;const cases=[];
 async function check(name,fn) {try{await fn();passed++;cases.push({name,passed:true});}catch(e){console.error("FAIL "+name);throw e;}}
 (async()=>{
  const app=fs.readFileSync(path.join(root,"app.js"),"utf8");
+ await check("W4.6 whole approved privacy paragraph is exact",()=>{
+  const html=fs.readFileSync(path.join(root,"index.html"),"utf8");
+  assert.equal(/<p class="privacy-note">([^<]*)<\/p>/.exec(html)?.[1],"Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.");
+ });
  const {functionText}=require("./helpers.cjs");
  const breakWord=vm.runInNewContext(functionText(app,"shouldBreakWord")+"\nshouldBreakWord");
  const scrollWord=vm.runInNewContext(functionText(app,"shouldScrollWord")+"\nshouldScrollWord");

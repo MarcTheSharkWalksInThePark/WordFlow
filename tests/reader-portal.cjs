@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 const { checkTokenLayout, settle } = require("./reader-smoke.cjs");
-const { measure } = require("./reader-round2.cjs");
+const { measure, baseline, prepare } = require("./reader-round2.cjs");
 
 const sessionFields = ["title", "text", "index", "wpm", "sentencePause", "commaPause", "paragraphPause",
   "smartPacing", "focusLetter", "contextWords", "focusMode", "wordSize", "savedAt"].sort();
@@ -96,11 +96,141 @@ async function firstEntry(page) {
   return reason ? "stub after " + reason : "native";
 }
 
-async function portalChecks({ browser, origin, width, verify, out, root }) {
+async function portalRegressionChecks({ browser, origin, width, verify, out, root, colorScheme }) {
+  const viewport = { width, height: width === 390 ? 844 : 950 };
+  const details = { viewport, colorScheme, isolation: "fresh browser context and page for each check" };
+  const isolated = async (name, fn) => verify("W7 " + width + " " + colorScheme + " " + name, async () => {
+    const context = await browser.newContext({ viewport, screen: viewport, colorScheme });
+    const errors = [], blocked = [], uploads = [];
+    try {
+      await context.route("**/*", route => {
+        if (new URL(route.request().url()).origin === origin) return route.continue();
+        blocked.push(route.request().url()); return route.abort();
+      });
+      const page = await context.newPage();
+      page.on("pageerror", error => errors.push(error.message));
+      page.on("console", msg => { if (msg.type() === "error") errors.push(msg.text()); });
+      page.on("request", request => { if (request.method() === "POST") uploads.push(request.url()); });
+      await page.goto(origin, { waitUntil: "networkidle" });
+      await page.locator("#sample-button").click();
+      await page.locator("#apply-source-button").click();
+      await page.locator("#review-back-button").click();
+      await page.evaluate(() => { seekTo(2); window.scrollTo(0, 0); });
+      await fn(page);
+      assert.deepEqual(errors, []); assert.deepEqual(blocked, []); assert.deepEqual(uploads, []);
+    } finally { await context.close(); }
+  });
+  try {
+      await isolated("W4.6 privacy paragraph and W7.7 ruled copy are exact", async page => {
+        assert.equal(await page.locator(".privacy-note").textContent(), "Files are read in your browser and never uploaded. Links you load are fetched through WordFlow's proxy on Cloudflare. Cloudflare and the website you load can see the request, including your IP address. If the proxy fails, your browser contacts the website directly. Nothing is stored except your own resume session in this browser.");
+        assert.equal(await page.locator(".ticker strong").textContent(), "TIP");
+        assert.equal(await page.locator(".ticker span").textContent(), "Press Space to play or pause. Use the arrow keys to step one word. Press F for fullscreen.");
+        assert.deepEqual(await page.locator(".badges > span").evaluateAll(badges => badges.map(b => [...b.children].map(e => e.textContent))), [["NO","UPLOADS"],["100%","FREE"],["PRIVACY","FIRST"]]);
+        assert.equal(await page.locator(".tagline").textContent(), "one word at a time");
+      });
+      await isolated("W7.12 unfitted word sizes equal pre-restyle in normal and focus mode", async page => {
+        const comparisonViewport = { width, height: width === 390 ? 844 : 950 };
+        const baseContext = await browser.newContext({ viewport: comparisonViewport, colorScheme });
+        try {
+          const base = await baseline(baseContext, origin, root, "2a376445ceb1b98a1b4c943cf8834e77e0578120");
+          await page.setViewportSize(comparisonViewport);
+          details.baseSizes = [];
+          for (const focus of [false,true]) for (const size of ["large","comfortable","compact"]) {
+            const fonts = [];
+            for (const p of [base,page]) {
+              await prepare(p,"Hi",{focus,size});
+              fonts.push(await p.locator("#word-display").evaluate(el => {
+                if (el.style.fontSize || el.classList.contains("fitted-long-word")) throw new Error("short control word was fitted");
+                return getComputedStyle(el).fontSize;
+              }));
+            }
+            assert.equal(fonts[1],fonts[0],JSON.stringify({width,focus,size,fonts}));
+            details.baseSizes.push({viewport:comparisonViewport,focus,size,baseline:fonts[0],candidate:fonts[1]});
+          }
+        } finally { await baseContext.close(); }
+        await page.setViewportSize(viewport);
+        await page.evaluate(() => { if(state.focusMode)toggleFocusMode(); setWordSize("comfortable"); });
+      });
+      await isolated("W7.4 saves after both theme directions preserve the exact resume schema and values", async page => {
+        const saved = () => page.evaluate(() => ({storageKeys:Object.keys(localStorage).sort(),record:JSON.parse(localStorage.getItem("wordflow-reader-session-v1"))}));
+        const before = await saved();
+        let previous=before;
+        let wpm=before.record.wpm,index=before.record.index,lastSavedAt=before.record.savedAt;
+        details.themeSaves=[];
+        for (const direction of [1,2]) {
+          await page.locator("#theme-button").click();
+          assert.deepEqual(await saved(),previous);
+          for (const action of ["stepper","seek","word step"]) {
+            if(action==="stepper") {await page.locator("#faster-button").click();wpm=Math.min(900,wpm+25);}
+            if(action==="seek") {index=4;await page.locator("#progress-slider").evaluate((el,value)=>{el.value=value;el.dispatchEvent(new Event("input",{bubbles:true}));},index);}
+            if(action==="word step") {await page.locator("#next-button").click();index++;}
+            const after=await saved();
+            assert.deepEqual(after.storageKeys,["wordflow-reader-session-v1"]);
+            assert.deepEqual(Object.keys(after.record).sort(),sessionFields);
+            const expected={...before.record,wpm,index,savedAt:after.record.savedAt};
+            assert.deepEqual(after.record,expected,"theme leaked or an unrelated session value changed after "+action);
+            assert.equal(typeof after.record.savedAt,"number");assert(after.record.savedAt>=lastSavedAt);lastSavedAt=after.record.savedAt;
+            details.themeSaves.push({direction,action,...after});previous=after;
+          }
+        }
+      });
+      await isolated("W7.13 reader heading, fullscreen icon and frame fit from 310 px", async page => {
+        details.narrowWidths=[];
+        for(const w of [310,320,340,360,375])for(const focus of [false,true]){
+          await page.setViewportSize({width:w,height:844});
+          await page.evaluate(focus=>{if(state.focusMode!==focus)toggleFocusMode();window.scrollTo(0,0);},focus);
+          await settle(page);
+          const bounds=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,
+            elements:[".reader-heading","#reader-fullscreen",".reader-frame"].map(selector=>{const r=document.querySelector(selector).getBoundingClientRect();return {selector,left:r.left,right:r.right,width:r.width};})}));
+          assert(bounds.scrollWidth<=w,JSON.stringify(bounds));
+          for(const e of bounds.elements)assert(e.width>0&&e.left>=0&&e.right<=w,JSON.stringify(e));
+          details.narrowWidths.push({focus,...bounds});
+        }
+        await page.evaluate(()=>{if(state.focusMode)toggleFocusMode();});
+        await page.setViewportSize(viewport);await settle(page);
+      });
+      await isolated("W7.5 fullscreen refit is already stable and meets the floor-aware target", async page => {
+        await page.setViewportSize({width,height:width===390?844:950});
+        await prepare(page,realWord,{size:"comfortable"});
+        await page.locator("#fullscreen-button").click();
+        await assertFullscreen(page,true);
+        await settle(page);
+        const before=await measure(page);
+        const widths=await page.evaluate(()=>{
+          const d=els.wordDisplay,style=d.style.fontSize,classes=d.className;
+          const width=()=>{const r=document.createRange();r.selectNodeContents(d);return r.getBoundingClientRect().width;};
+          try{d.classList.remove("fitted-long-word","wrapped-long-word","scrolling-long-word");d.style.fontSize="";const unfitted=width();d.style.fontSize="10px";return {unfitted,floor:width()};}
+          finally{d.className=classes;d.style.fontSize=style;}
+        });
+        assert(widths.unfitted>before.frame.clientWidth,"fixture must require fullscreen fitting: "+JSON.stringify({widths,frame:before.frame.clientWidth}));
+        assert(before.classes.split(" ").includes("fitted-long-word"),"fullscreen entry must fit before any explicit refit");
+        await page.evaluate(()=>fitDisplayedWord());await settle(page);
+        const after=await measure(page);
+        assert.deepEqual(after,before,"fullscreenchange left a stale fit");
+        const font=parseFloat(before.font);
+        if(font>10)assert(before.contentWidth<=.9*before.frame.clientWidth);
+        else{
+          assert.equal(font,10);assert.equal(before.wrapped,widths.floor>before.frame.clientWidth);
+          if(before.wrapped)assert(before.contentWidth<=before.word.width+1/64);
+          else assert.equal(before.contentWidth,widths.floor);
+        }
+        assert(before.ink.fullyVisible);await checkTokenLayout(page);
+        details.fullscreenRefit={before,after,widths};
+        await page.evaluate(()=>document.exitFullscreen());await assertFullscreen(page,false);
+        await page.setViewportSize(viewport);
+      });
+  } finally {
+    fs.writeFileSync(path.join(out, "portal-regressions-" + width + "-" + colorScheme + ".json"), JSON.stringify(details, null, 2) + "\n");
+  }
+}
+
+async function portalChecks({ browser, origin, width, verify, out, root, newChecksOrder = "before" }) {
+  assert(["before", "after"].includes(newChecksOrder), "unknown new-check order");
   const viewport = { width, height: width === 390 ? 844 : 900 };
   const screens = path.join(root, "docs/verification/results/w7-restyle/screens");
   fs.mkdirSync(screens, { recursive: true });
   for (const colorScheme of ["dark", "light"]) {
+    if (newChecksOrder === "before") await portalRegressionChecks({ browser, origin, width, verify, out, root, colorScheme });
     const context = await browser.newContext({ viewport, screen: viewport, colorScheme });
     const errors = [], blocked = [], uploads = [];
     const details = { viewport, colorScheme, screenshots: [] };
@@ -313,6 +443,7 @@ async function portalChecks({ browser, origin, width, verify, out, root }) {
       fs.writeFileSync(path.join(out, "portal-" + width + "-" + colorScheme + ".json"), JSON.stringify(details, null, 2) + "\n");
       await context.close();
     }
+    if (newChecksOrder === "after") await portalRegressionChecks({ browser, origin, width, verify, out, root, colorScheme });
   }
 }
 
